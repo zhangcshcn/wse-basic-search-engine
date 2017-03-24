@@ -1,0 +1,184 @@
+ 
+
+
+
+
+
+
+Wikipedia:Edit lock
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+This page is about templates used while an article is undergoing a major edit. For locked accounts, see meta:Global locks. For the historical feature of Wikipedia that was active when it ran UseModWiki, see Wikipedia:Historical archive/Edit lock.
+Not to be confused with Wikipedia:Protection policy.
+
+
+
+This page is a how-to guide, detailing processes or procedures of some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines, and is therefore an essay.
+
+
+
+Shortcuts:
+
+WP:LOCK
+WP:INUSE
+
+
+Wikipedia does not use software article locks on pages, because some feel that this would be contrary to the policy and spirit of openness. Page protection is never to be used for closing down an article's normal development and community editing.
+{{in use}} template
+On the other hand we do have {{in use}} tags, which can be used to alert people that you are in the process of making a larger edit. The article remains open to editing, but courteous users should leave it alone until you're done. The template looks like this:
+
+
+
+This project page is actively undergoing a major edit for a short while. To help avoid edit conflicts, please do not edit this page while this message is displayed.
+This page was last revised at 04:03, 9 November 2016 (UTC) (2 months ago). Please remove this template if this page hasn't been edited in several hours. If you are the editor who added this template, please be sure to remove it or replace it with {{Under construction}} between editing sessions.
+
+
+{{intranslation}} template
+Also, {{intranslation}}. It's the same as {{inuse}}, but it's used when an article is in the process of being translated from another Wikipedia into the English one. Again, it should only be used while you are improving the article.
+It also adds Category:Articles in translation as a category in the article, which of course gets removed once the notice is removed, too.
+
+
+
+
+
+This article is actively undergoing translation from another Wikipedia for a while.
+As a courtesy, please do not edit this article while this message is displayed. The person who added this notice will be listed in the article's edit history should you wish to contact them.
+
+
+{{archiving}} template
+If a talk page is actively being archived, add {{archiving}} to the top so the archival doesn't clobber edits.
+
+
+
+This talk page is currently being archived. To prevent edit conflicts and to ensure your message is actually read, please don't edit this page until this notice is removed.
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Edit_lock&oldid=748606630"					
+Categories: Wikipedia how-toHidden categories: Pages actively undergoing a major edit 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+Simple English 
+Edit links 
+
+
+
+
+
+ This page was last modified on 9 November 2016, at 04:03.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.060","walltime":"0.094","ppvisitednodes":{"value":274,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":10606,"limit":2097152},"templateargumentsize":{"value":158,"limit":2097152},"expansiondepth":{"value":6,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   72.673      1 -total"," 33.79%   24.553      1 Template:Wikipedia_how_to"," 24.98%   18.151      1 Template:Ombox"," 21.46%   15.594      1 Template:About"," 12.63%    9.175      1 Template:In_use"," 11.43%    8.309      1 Template:Confused"," 10.55%    7.664      1 Template:Mbox","  6.85%    4.975      1 Template:Shortcut","  6.10%    4.432      1 Template:Time_ago","  5.72%    4.157      1 Template:Intranslation"]},"scribunto":{"limitreport-timeusage":{"value":"0.023","limit":"10.000"},"limitreport-memusage":{"value":1642264,"limit":52428800}},"cachereport":{"origin":"mw1257","timestamp":"20170122062153","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":44,"wgHostname":"mw1254"});});

@@ -1,0 +1,270 @@
+ 
+
+
+
+
+
+
+List of unsolved problems in computer science
+
+From Wikipedia, the free encyclopedia
+  (Redirected from List of open problems in computer science)
+
+					Jump to:					navigation, 					search
+
+This article is a list of unsolved problems in computer science. A problem in computer science is considered unsolved when no solution is known, or when experts in the field disagree about proposed solutions.
+
+
+
+Contents
+
+
+1 Computational complexity
+2 Polynomial versus non-polynomial time for specific algorithmic problems
+3 Other algorithmic problems
+4 Programming language theory
+5 Other problems
+6 References
+7 External links
+
+
+
+Computational complexity[edit]
+
+P versus NP problem (often written as "P = NP")
+What is the relationship between BQP and NP?
+NC = P problem
+NP = co-NP problem
+P = BPP problem
+P = PSPACE problem
+L = NL problem
+L = P problem
+L = RL problem
+Unique games conjecture
+Is the exponential time hypothesis true?
+Do one-way functions exist?
+
+Is public-key cryptography possible?
+
+
+
+Polynomial versus non-polynomial time for specific algorithmic problems[edit]
+Main article: NP-intermediate
+
+Can integer factorization be done in polynomial time?
+Is integer factorization NP-complete?
+Can clustered planar drawings be found in polynomial time?
+Can the discrete logarithm be computed in polynomial time?
+Can the graph isomorphism problem be solved in polynomial time?
+Can leaf powers and k-leaf powers be recognized in polynomial time?
+Can parity games be solved in polynomial time?
+Can the rotation distance between two binary trees be computed in polynomial time?
+Can graphs of bounded clique-width be recognized in polynomial time?[1]
+Can one find a simple closed quasigeodesic on a convex polyhedron in polynomial time?[2]
+Can a simultaneous embedding with fixed edges for two given graphs be found in polynomial time?[3]
+
+Other algorithmic problems[edit]
+
+What is the fastest algorithm for multiplication of two n-digit numbers?
+What is the fastest algorithm for matrix multiplication?
+Can the Schwartz–Zippel lemma for polynomial identity testing be derandomized?
+Can a depth-first search tree be constructed in NC?
+Does linear programming admit a strongly polynomial-time algorithm? This is problem #9 in Smale's list of problems.
+What is the lower bound on the complexity of fast Fourier transform algorithms? Can they be faster than Θ (N log N)?
+The dynamic optimality conjecture: do splay trees have a bounded competitive ratio?
+Can we compute the edit distance between two strings of length n in strongly sub-quadratic time, i.e., in time O(n2−ϵ) for some ϵ>0 ?
+Is there a k-competitive online algorithm for the k-server problem?
+Can X + Y sorting be done in strictly less than O(n2 log n) time?
+How many queries are required for envy-free cake-cutting?
+What is the lowest possible worst-case time complexity of Shellsort with a deterministic, fixed gap sequence?
+
+Programming language theory[edit]
+
+POPLmark
+Barendregt–Geuvers–Klop conjecture
+
+Other problems[edit]
+
+Aanderaa–Karp–Rosenberg conjecture
+Generalized star height problem
+Separating words problem
+Possibility of hypercomputation
+
+References[edit]
+
+
+^ Fellows, Michael R.; Rosamond, Frances A.; Rotics, Udi; Szeider, Stefan (2009), "Clique-width is NP-complete", SIAM Journal on Discrete Mathematics, 23 (2): 909–939, doi:10.1137/070687256, MR 2519936 .
+^ Demaine, Erik D.; O'Rourke, Joseph (2007), "24 Geodesics: Lyusternik–Schnirelmann", Geometric folding algorithms: Linkages, origami, polyhedra, Cambridge: Cambridge University Press, pp. 372–375, doi:10.1017/CBO9780511735172, ISBN 978-0-521-71522-5, MR 2354878 .
+^ Gassner, Elisabeth; Jünger, Michael; Percan, Merijam; Schaefer, Marcus; Schulz, Michael (2006), "Simultaneous graph embeddings with fixed edges", Graph-Theoretic Concepts in Computer Science: 32nd International Workshop, WG 2006, Bergen, Norway, June 22-24, 2006, Revised Papers, Lecture Notes in Computer Science, 4271, Berlin: Springer, pp. 325–335, doi:10.1007/11917496_29, MR 2290741 .
+
+
+External links[edit]
+
+Open problems around exact algorithms by Gerhard J. Woeginger, Discrete Applied Mathematics 156 (2008) 397–405.
+The RTA list of open problems – open problems in rewriting.
+The TLCA List of Open Problems – open problems in area typed lambda calculus.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Unsolved problems by discipline
+
+
+
+
+
+
+
+
+
+Artificial intelligence
+Biology
+Chemistry
+Computer science
+Economics
+Geoscience
+Information theory
+Linguistics
+Mathematics
+Neuroscience
+Philosophy
+Physics
+Statistics
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=List_of_unsolved_problems_in_computer_science&oldid=761594358"					
+Categories: ConjecturesLists of unsolved problemsUnsolved problems in computer science 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+العربيةDeutschEspañol한국어日本語PortuguêsРусскийСрпски / srpski中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 23 January 2017, at 20:20.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.072","walltime":"0.100","ppvisitednodes":{"value":414,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":18015,"limit":2097152},"templateargumentsize":{"value":75,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   80.951      1 -total"," 58.44%   47.310      1 Template:Reflist"," 48.92%   39.601      3 Template:Citation"," 25.68%   20.792      1 Template:Main"," 10.04%    8.130      1 Template:Unsolved_problems","  8.51%    6.886      1 Template:Navbox","  1.57%    1.274      4 Template:Math","  1.19%    0.965      3 Template:Mvar"]},"scribunto":{"limitreport-timeusage":{"value":"0.029","limit":"10.000"},"limitreport-memusage":{"value":2001243,"limit":52428800}},"cachereport":{"origin":"mw1235","timestamp":"20170123202005","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":63,"wgHostname":"mw1268"});});

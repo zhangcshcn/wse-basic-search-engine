@@ -1,0 +1,889 @@
+ 
+
+
+
+
+
+
+8-bit
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+This article is about computer architecture. For other uses, see 8-bit (disambiguation).
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (October 2009) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+This article relies too much on references to primary sources. Please improve this by adding secondary or tertiary sources. (August 2012) (Learn how and when to remove this template message)
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+
+Bit
+
+
+
+
+
+1
+4
+8
+12
+16
+18
+24
+26
+31
+32
+36
+48
+60
+64
+128
+256
+512
+
+
+
+
+
+Application
+
+
+
+
+
+16
+32
+64
+
+
+
+
+
+Floating point precision
+
+
+
+
+
+×½
+×1
+×2
+×4
+×8
+
+
+
+
+
+Floating point decimal precision
+
+
+
+
+
+32
+64
+128
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+In computer architecture, 8-bit integers, memory addresses, or other data units are those that are at most 8 bits (1 octet) wide. Also, 8-bit CPU and ALU architectures are those that are based on registers, address buses, or data buses of that size. 8-bit is also a term given to a generation of microcomputers in which 8-bit microprocessors were the norm.
+The IBM System/360 introduced byte-addressable memory with 8-bit bytes, as opposed to bit-addressable or decimal digit-addressable or word-addressable memory, although its general purpose registers were 32 bits wide, and addresses were contained in the lower 24 bits of those addresses. Different models of System/360 had different internal data path widths; the IBM System/360 Model 30 (1965) implemented the 32-bit System/360 architecture, but had an 8 bit native path width, and performed 32-bit arithmetic 8 bits at a time.[1]
+The first widely adopted 8-bit microprocessor was the Intel 8080, being used in many hobbyist computers of the late 1970s and early 1980s, often running the CP/M operating system; it had 8-bit data words and 16-bit addresses. The Zilog Z80 (compatible with the 8080) and the Motorola 6800 were also used in similar computers. The Z80 and the MOS Technology 6502 8-bit CPUs were widely used in home computers and second- and third-generation game consoles of the 1970s and 1980s. Many 8-bit CPUs or microcontrollers are the basis of today's ubiquitous embedded systems.
+
+
+
+Contents
+
+
+1 Details
+2 Notable 8-bit CPUs
+3 See also
+4 References
+
+
+
+Details[edit]
+There are 28 (256) different possible values for 8 bits. When unsigned, it has possible values ranging from 0 to 255, when signed, it has -128 to 127.
+Eight-bit CPUs use an 8-bit data bus and can therefore access 8 bits of data in a single machine instruction. The address bus is typically a double octet wide (i.e. 16-bit), due to practical and economical considerations. This implies a direct address space of only 64 KB on most 8-bit processors.
+Notable 8-bit CPUs[edit]
+The first commercial 8-bit processor was the Intel 8008 (1972) which was originally intended for the Datapoint 2200 intelligent terminal. Most competitors to Intel started off with such character oriented 8-bit microprocessors. Modernized variants of these 8-bit machines are still one of the most common types of processor in embedded systems.
+Another notable 8-bit CPU is the MOS Technology 6502; it, and variants of it, were used in a number of personal computers such as the Apple I and Apple II, the Atari 8-bit family, the BBC Micro, and the Commodore PET and Commodore VIC-20, and in a number of video game consoles such as the Atari 2600 and the Nintendo Entertainment System.
+
+Early and/or popular 8-bit processors (incomplete)
+
+Manufacturer
+Processor
+Year
+Comment
+
+
+Intel
+8008
+1972
+Datapoint 2200 compatible
+
+
+Signetics
+2650
+1973
+
+
+
+Intel
+8080
+1974
+8008 source compatible
+
+
+Motorola
+6800
+1974
+
+
+
+Fairchild
+F8
+1975
+
+
+
+MOS
+6502
+1975
+Similar to 6800, but incompatible
+
+
+Microchip
+PIC
+1975
+Harvard architecture microcontroller
+
+
+RCA
+1802
+1976
+
+
+
+Zilog
+Z80
+1976
+8080 binary compatible
+
+
+Intel
+8085
+1977
+8080 binary compatible
+
+
+Motorola
+6809
+1978
+6800 source compatible
+
+
+Zilog
+Z8
+1978
+Harvard architecture microcontroller
+
+
+Intel
+8051
+1980
+Harvard architecture microcontroller
+
+
+MOS
+6510
+1982
+Enhanced 6502 custom-made for use in the Commodore 64
+
+
+Ricoh
+2A03
+1982
+6502 clone minus BCD instructions for the Nintendo Entertainment System
+
+
+Zilog
+Z180
+1985
+Z80 binary compatible
+
+
+Motorola
+68HC11
+1985
+
+
+
+Atmel
+AVR
+1996
+
+
+
+Zilog
+EZ80
+1999
+Z80 binary compatible
+
+
+Infineon
+XC800
+2005
+
+
+
+Freescale
+68HC08
+
+
+
+
+Hudson
+HuC6280
+
+
+
+
+Motorola
+6803
+
+
+
+
+NEC
+78K0[2]
+
+
+
+
+See also[edit]
+
+Vasm, a free assembler
+
+References[edit]
+
+
+^ Amdahl, G. M.; Blaauw, G. A.; Brooks, F. P. (1964). "Architecture of the IBM System/360". IBM Journal of Research and Development. 8 (2): 87–101. doi:10.1147/rd.82.0087. 
+^ NEC 78K0
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+CPU technologies
+
+
+
+
+
+
+Architecture
+
+
+
+Turing machine
+Post–Turing machine
+Universal Turing machine
+Quantum Turing machine
+Belt machine
+Stack machine
+Register machine
+Counter machine
+Pointer machine
+Random access machine
+Random access stored program machine
+Queue automaton
+Von Neumann
+Harvard (Modified)
+Dataflow
+TTA
+Cellular
+Artificial neural network
+Load/store architecture
+Register memory architecture
+Register-register architecture
+Endianness
+FIFO
+Zero-copy
+NUMA
+HUMA
+HSA
+Heterogeneous computing
+Reconfigurable computing
+Chemical computing
+DNA computing
+Organic computing
+Wetware computer
+Quantum computing
+Reversible computing
+Unconventional computing
+Memory hierarchy
+
+
+
+
+
+
+
+
+Instruction set
+
+
+
+ASIP
+CISC
+RISC
+EDGE (TRIPS)
+VLIW (EPIC)
+MISC
+OISC
+NISC
+ZISC
+Comparison
+
+
+
+
+
+
+
+
+Instruction Set Architecture (ISA)
+
+
+
+x86
+z/Architecture
+ARM
+MIPS
+Power Architecture (PowerPC)
+SPARC
+VISC
+Mill
+Itanium
+DEC Alpha
+DEC Prism
+SuperH
+Clipper
+VAX
+Unicore
+PA-RISC
+MicroBlaze
+Clipper architecture
+
+
+
+
+
+
+
+
+Word size
+
+
+
+1-bit
+4-bit
+8-bit
+9-bit
+10-bit
+12-bit
+15-bit
+16-bit
+18-bit
+22-bit
+24-bit
+25-bit
+26-bit
+27-bit
+31-bit
+32-bit
+33-bit
+34-bit
+36-bit
+39-bit
+40-bit
+48-bit
+50-bit
+60-bit
+64-bit
+128-bit
+256-bit
+512-bit
+Variable
+
+
+
+
+
+
+
+
+Execution
+
+
+
+Instruction pipelining
+
+Bubble
+Operand forwarding
+
+
+Out-of-order execution
+
+Register renaming
+
+
+Speculative execution
+
+Branch predictor
+Memory dependence prediction
+
+
+Hazards
+
+
+
+
+
+
+
+
+Parallel level
+
+
+
+Bit
+
+Bit-serial
+Word
+
+
+Instruction
+Advanced Encryption Standard
+
+Scalar
+Superscalar
+
+
+Task
+
+Thread
+Process
+
+
+Data
+
+Vector
+
+
+Memory
+
+
+
+
+
+
+
+
+Multithreading
+
+
+
+Temporal
+Simultaneous (SMT)
+Speculative (SpMT)
+Preemptive
+Cooperative
+Clustered Multi-Thread (CMT)
+Hardware scout
+
+
+
+
+
+
+
+
+Flynn's taxonomy
+
+
+
+SISD
+SIMD
+SIMT
+MISD
+MIMD
+
+SPMD
+
+
+Addressing mode
+
+
+
+
+
+
+
+
+CPU performance
+
+
+
+Instructions per second
+Floating-point operations per second
+Performance per watt
+
+
+
+
+
+
+
+
+Core count
+
+
+
+Single-core processor
+Multi-core processor
+Manycore processor
+
+
+
+
+
+
+
+
+Types
+
+
+
+Central processing unit (CPU)
+GPGPU
+AI accelerator
+Vision processing unit (VPU)
+Vector processor
+Barrel processor
+Stream processor
+Digital signal processor (DSP)
+I/O processor/DMA controller
+Network processor
+Baseband processor
+Physics processing unit (PPU)
+Coprocessor
+Secure cryptoprocessor
+ASIC
+FPGA
+FPOA
+CPLD
+Microcontroller
+Microprocessor
+Mobile processor
+Notebook processor
+Ultra-low-voltage processor
+Multi-core processor
+Manycore processor
+Tile processor
+Multi-chip module (MCM)
+System on a chip (SoC)
+Network on a chip (NoC)
+Multiprocessor system-on-chip (MPSoC)
+
+
+
+
+
+
+
+
+Components
+
+
+
+Execution unit (EU)
+Arithmetic logic unit (ALU)
+Address generation unit (AGU)
+Floating-point unit (FPU)
+Fixed-point unit (FXU)
+Vector unit (VU)
+Load–store unit (computing)
+Branch predictor
+Instruction Decoder
+Instruction Scheduler
+Instruction Fetch Unit
+Instruction Dispatch Unit
+Instruction Sequencing Unit
+Unified Reservation Station
+Barrel shifter
+Uncore
+Front-side bus
+Back-side bus
+Northbridge (computing)
+Southbridge (computing)
+Adder (electronics)
+Binary multiplier
+Multiplexer
+Demultiplexer
+Registers
+Memory management unit (MMU)
+Input–output memory management unit (IOMMU)
+Integrated Memory controller (IMC)
+Power Management Unit (PMU)
+Cache
+Translation lookaside buffer (TLB)
+Register file
+Processor register
+Program counter
+Hardware register
+Microcode ROM
+Control unit
+Instruction unit
+Coprocessor
+Integrated circuit
+Digital circuit
+Analog circuit
+Mixed-signal integrated circuit
+Power management integrated circuit
+Quantum circuit
+Logic gate
+Quantum gate
+Gate array
+Bus (computing)
+Semiconductor device
+Clock rate
+
+
+
+
+
+
+
+
+Power
+management
+
+
+
+APM
+ACPI
+Dynamic frequency scaling
+Dynamic voltage scaling
+Clock gating
+
+
+
+
+
+
+
+
+Hardware
+security
+
+
+
+Non-executable memory (NX bit)
+Bounds checking (Intel MPX)
+Intel Secure Key
+Hardware restriction (firmware)
+Software Guard Extensions (Intel SGX)
+Trusted Execution Technology
+OmniShield
+Trusted Platform Module (TPM)
+Secure cryptoprocessor
+Hardware security module
+Hengzhi chip
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=8-bit&oldid=726380286"					
+Categories: Data unitHidden categories: Articles needing additional references from October 2009All articles needing additional referencesArticles lacking reliable references from August 2012All articles lacking reliable references 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Languages
+
+
+العربيةБеларускаяCatalàČeštinaDeutschEspañolEsperantoفارسیFrançais한국어ItalianoMagyarBahasa Melayu日本語Norsk bokmålPolskiPortuguêsРусскийSlovenčinaSvenskaУкраїнська中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 21 June 2016, at 20:19.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1209"});});

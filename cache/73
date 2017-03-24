@@ -1,0 +1,383 @@
+ 
+
+
+
+
+
+
+Web portal
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+A Web portal is most often a specially designed web site that brings information together from diverse sources in a uniform way. Usually, each information source gets its dedicated area on the page for displaying information (a portlet); often, the user can configure which ones to display. Variants of portals include mashups and intranet "dashboards" for executives and managers. The extent to which content is displayed in a "uniform way" may depend on the intended user and the intended purpose, as well as the diversity of the content. Very often design emphasis is on a certain "metaphor" for configuring and customizing the presentation of the content and the chosen implementation framework and/or code libraries. In addition, the role of the user in an organization may determine which content can be added to the portal or deleted from the portal configuration.
+A portal may use a search engine API to permit users to search intranet as opposed to extranet content by restricting which domains may be searched. Apart from this common search engines feature, web portals may offer other services such as e-mail, news, stock quotes, information from databases and even entertainment content. Portals provide a way for enterprises and organizations to provide a consistent look and feel with access control and procedures for multiple applications and databases, which otherwise would have been different web entities at various URLs. The features available may be restricted by whether access is by an authorized and authenticated user (employee,member) or an anonymous site visitor.
+Examples of early public web portals were AOL, Excite, Netvibes, iGoogle, MSN, Naver, Lycos, Indiatimes, Rediff, and Yahoo!. See for example, the "My Yahoo!" feature of Yahoo! that may have inspired such features as the later Google "iGoogle" (discontinued as of November 1, 2013.) The configurable side-panels of, for example, the modern Opera browser and the option of "Speed Dial" pages by most browsers continue to reflect the earlier "portal" metaphor.
+
+
+
+Contents
+
+
+1 History
+2 Classification
+3 Types of Web portals
+
+3.1 Personal Web portals
+3.2 Government Web portals
+3.3 Cultural portals
+3.4 Corporate Web portals
+3.5 Stock portals
+3.6 Search portals
+
+3.6.1 Property search portals
+
+
+3.7 Tender portals
+3.8 Hosted Web portals
+3.9 Domain-specific portals
+
+
+4 Engineering aspects
+
+4.1 Overview
+4.2 Standards
+
+
+5 See also
+6 References
+7 Further reading
+
+
+
+History[edit]
+In the late 1990s the Web portal was a Web IT buzzword. After the proliferation of Web browsers in the late-1990s many companies tried to build or acquire a portal to attempt to obtain a share of an Internet market. The Web portal gained special attention because it was, for many users, the starting point of their Web browsing if it was set as their home page. The content and branding of a portal could change as Internet companies merged or were acquired. Netscape became a part of America Online, the Walt Disney Company launched Go.com, IBM and others launched Prodigy (-only users.) Portal metaphors are widely used by public library sites for borrowers using a login as users and by university intranets for students and for faculty. Vertical markets remain for ISV's offering management and executive intranet "dashboards" for corporations and government agencies in areas such as GRC and risk management.
+Classification[edit]
+Web portals are sometimes classified as horizontal or vertical. A horizontal portal is used as a platform to several companies in the same economic sector or to the same type of manufacturers or distributors.[1] A vertical portal (also known as a "vortal") is a specialized entry point to a specific market or industry niche, subject area, or interest.[2] Some vertical portals are known as "vertical information portals" (VIPs). VIPs provide news, editorial content, digital publications, and e-commerce capabilities. In contrast to traditional vertical portals, VIPs also provide dynamic multimedia applications including social networking, video posting, and blogging.
+Types of Web portals[edit]
+Personal Web portals[edit]
+A personal portal is a Web page at a Web site on the World Wide Web or a local HTML home page including JavaScript and perhaps running in a modified Web browser. A personal portal typically provides personalized capabilities to its visitors or its local user, providing a pathway to other content. It may be designed to use distributed applications, different numbers and types of middleware and hardware to provide services from a number of different sources and may run on a non-standard local Web server. In addition, business portals can be designed for sharing and collaboration in workplaces. A further business-driven requirement of portals is that the content be presented on multiple platforms such as personal computers, personal digital assistants (PDAs), and cell phones/mobile phone/mobile phones. Information, news, and updates are examples of content that would be delivered through such a portal. Personal portals can be related to any specific topic such as providing friend information on a social network or providing links to outside content that may help others beyond your reach of services. Portals are not limited to simply providing links. Outside of business intracet user, very often simpler portals become replaced with richer mashup designs. Within enterprises, early portals were often replaced by much more powerful "dashboard" designs. Some also have relied on newer protocols such as some version of RSS aggregation and may or may not involve some degree of Web harvesting. Examples of personal portals include:
+
+home.psafe.com – A personal portal based on adaptive neural network technology provides customizable content according to each user's navigation, and provide full security against viruses, malware, phishing and bank fraud. The portal is developed by Brazilian online security company PSafe.[3]
+
+Government Web portals[edit]
+At the end of the dot-com boom in the 1990s, many governments had already committed to creating portal sites for their citizens. These included primary portals to the governments as well as portals developed for specific audiences. Examples of government Web portals include:
+
+australia.gov.au for Australia.
+USA.gov for the United States (in English) & GobiernoUSA.gov (in Spanish).
+
+
+www.gov.lk for Sri Lanka.
+Disability.gov for citizens with disabilities in the United States.
+Europa (Web portal) links to all EU agencies and institutions in addition to press releases and audiovisual content from press conferences.
+gov.uk for citizens & businesslink.gov.uk for businesses in the United Kingdom.
+Health-EU portal gathers all relevant health topics from across Europe.
+india.gov.in for India.
+National Resource Directory links to resources for United States Service Members, Veterans and their families.
+govt.nz for New Zealand.
+Saudi.gov.sa for Saudi Arabia.[4]
+https://online.belastingdienst.cw for the Tax Authority of Curaçao (part of the Kingdom of the Netherlands)
+
+Cultural portals[edit]
+Cultural portal aggregate digitised cultural collections of galleries, libraries (see: library portal), archives and museums. This type of portal provides a point of access to invisible Web cultural content that may not be indexed by standard search engines. Digitised collections can include books, artworks, photography, journals, newspapers, music, sound recordings, film, maps, diaries and letters, and archived websites as well as the descriptive metadata associated with each type of cultural work. These portals are usually based around a specific national or regional groupings of institutions. Examples of cultural portals include:
+
+DigitalNZ – A cultural portal led by the National Library of New Zealand focused on New Zealand digital content.
+Europeana – A cultural portal for the European Union based in the National Library of the Netherlands and overseen by the Europeana Foundation.
+Trove – A cultural portal led by the National Library of Australia focused on Australian content.
+In development - Digital Public Library of America
+
+Corporate Web portals[edit]
+Main article: Intranet portal
+Corporate intranets became common during the 1990s. As intranets grew in size and complexity, webmasters were faced with increasing content and user management challenges. A consolidated view of company information was judged insufficient; users wanted personalization and customization. Webmasters, if skilled enough, were able to offer some capabilities, but for the most part ended up driving users away from using the intranet.
+Many companies began to offer tools to help webmasters manage their data, applications and information more easily, and through personalized views. Portal solutions can also include workflow management, collaboration between work groups, and policy-managed content publication. Most can allow internal and external access to specific corporate information using secure authentication or single sign-on.
+JSR168 Standards emerged around 2001. Java Specification Request (JSR) 168 standards allow the interoperability of portlets across different portal platforms. These standards allow portal developers, administrators and consumers to integrate standards-based portals and portlets across a variety of vendor solutions.
+The concept of content aggregation seems to still gain momentum and portal solution will likely continue to evolve significantly over the next few years. The Gartner Group predicts generation 8 portals to expand on the Business Mashups concept of delivering a variety of information, tools, applications and access points through a single mechanism.[citation needed]
+With the increase in user generated content, disparate data silos, and file formats, information architects and taxonomist will be required to allow users the ability to tag (classify) the data. This will ultimately cause a ripple effect where users will also be generating ad hoc navigation and information flows.
+Corporate Portals also offer customers & employees self-service opportunities.
+Stock portals[edit]
+Also known as stock-share portals, stock market portals or stock exchange portals are Web-based applications that facilitates the process of informing the share-holders with substantial online data such as the latest price, ask/bids, the latest News, reports and announcements. Some stock portals use online gateways through a central depository system (CDS) for the visitors (ram) to buy or sell their shares or manage their portfolio.
+Search portals[edit]
+Search portals aggregate results from several search engines into one page. You can find search portals specialized in a product, for example property search portals. Library search portals are also known as discovery interfaces.
+Property search portals[edit]
+Property search portals aggregate data about properties for sale by real estate agents. Examples in the UK include Zoopla, Rightmove, Nestoria and Nuroa. Examples in the US include Propertini.
+Tender portals[edit]
+A tender portal is a gateway for government suppliers to bid on providing goods and services. Tender portals allow users to search, modify, submit, review and archive data in order to provide a complete online tendering process.
+Using online tendering, bidders can do any of the following:
+
+Receive notification of the tenders.
+Receive tender documents online.
+Fill out the forms online.
+Submit proposals and documents.
+Submit bids online.
+
+Hosted Web portals[edit]
+Hosted Web portals gained popularity and a number of companies began offering them as a hosted service. The hosted portal market fundamentally changed the composition of portals. In many ways they served simply as a tool for publishing information instead of the loftier goals of integrating legacy applications or presenting correlated data from distributed databases. The early hosted portal companies such as Hyperoffice.com or the now defunct InternetPortal.com focused on collaboration and scheduling in addition to the distribution of corporate data. As hosted Web portals have risen in popularity their feature set has grown to include hosted databases, document management, email, discussion forums and more. Hosted portals automatically personalize the content generated from their modules to provide a personalized experience to their users. In this regard they have remained true to the original goals of the earlier corporate Web portals. Emerging new classes of Internet portals called Cloud Portals are showcasing the power of API (Application Programming Interface) rich software systems leveraging SOA (service-oriented architecture, Web services, and custom data exchange) to accommodate machine to machine interaction creating a more fluid user experience for connecting users spanning multiple domains during a given "session". Leading cloud portals like Nubifer Cloud Portal showcase what is possible using Enterprise Mashup and Web Service integration approaches to building cloud portals.
+Domain-specific portals[edit]
+A number of portals have come about which are specific to a particular domain, offering access to related companies and services; a prime example of this trend would be the growth in property portals that give access to services such as estate agents, removal firm, and solicitors that offer conveyancing. Along the same lines, industry-specific news and information portals have appeared, such as the clinical trials-specific portal.
+Engineering aspects[edit]
+Overview[edit]
+The main concept is to present the user with a single Web page that brings together or aggregates content from a number of other systems or servers.
+The application server or architecture performs most of the crucial functions of the application. This application server is in turn connected to database servers, and may be part of a clustered server environment. High-capacity portal configurations may include load balancing strategies.
+For portals that present application functionality to the user, the portal server is in reality the front piece of a server configuration that includes some connectivity to the application server. For early Web browsers permitting HTML frameset and iframe elements, diverse information could be presented without violating the browser same-source security policy (relied upon to prevent a variety of cross-site security breaches.) More recent client-side technologies rely on JavaScript frameworks and libraries that rely on more recent Web functionality such as WebSockets and async callbacks using XMLHttpRequests.
+The server hosting the portal may only be a "pass through" for the user. By use of portlets, application functionality can be presented in any number of portal pages. For the most part, this architecture is transparent to the user.
+In such a design, security and concurrent user capacity can be important issues, and security designers need to ensure that only authenticated and authorized users can generate requests to the application server. If the security design and administration does not ensure adequate authentication and authorization, then the portal may inadvertently present vulnerabilities to various types of attacks.
+Standards[edit]
+
+Web Services for Remote Portlets v1
+JSR 168 (Java)
+JSR 286 (Java Portlet v2.0 Definition Standard)
+
+See also[edit]
+
+Applet
+Client portal
+Content management system (CMS)
+Enterprise portal
+Extranet
+Framing (World Wide Web)
+Intranet portal
+Rich Internet Application
+Web scraping
+
+
+
+Business portal
+Computer portal
+Internet portal
+Technology portal
+
+
+References[edit]
+
+
+^ "What is horizontal portal? definition and meaning". BusinessDictionary.com. Retrieved 8 August 2009. 
+^ "What is vertical portal? definition and meaning". BusinessDictionary.com. Retrieved 8 August 2011. 
+^ "PSafe launches new Internet portal based on adaptive neural network technology". Retrieved December 10, 2014. 
+^ "Home". Saudi.gov.sa. Retrieved 1 January 2014. 
+
+
+Further reading[edit]
+
+Find more aboutWeb portalat Wikipedia's sister projects
+
+Definitions from Wiktionary
+Media from Commons
+News from Wikinews
+Quotations from Wikiquote
+Texts from Wikisource
+Textbooks from Wikibooks
+Learning resources from Wikiversity
+
+
+
+"Untangle the Web". Communication News: 82–83. September 2001. ISSN 0010-3632. 
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Informatics
+
+
+
+
+
+
+Design
+
+
+
+Data warehouse
+Geoportal
+Informatics engineering
+Information management
+Information processing
+Information systems
+Information technology
+Web portal
+
+
+
+
+
+
+
+
+Subfields
+
+
+
+Archival informatics
+Astroinformatics
+Bioinformatics
+Bioimage informatics
+Biodiversity informatics
+Business informatics
+Cheminformatics
+Community informatics
+Computational informatics
+Development informatics
+Disease informatics
+Education informatics
+Energy informatics
+Engineering Informatics
+Environmental informatics
+Evolutionary informatics
+Forest informatics
+Geoinformatics
+Health informatics
+Consumer health informatics
+Public health informatics
+Imaging informatics
+Hydroinformatics
+Irrigation informatics
+Laboratory informatics
+Legal informatics
+Materials informatics
+Medical informatics
+Music informatics
+Neuroinformatics
+Pervasive Informatics
+Social informatics
+Technical informatics
+Translational research informatics
+Urban informatics
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Web_portal&oldid=759300947"					
+Categories: Web portalsHidden categories: All articles with unsourced statementsArticles with unsourced statements from April 2009 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+العربيةБългарскиCatalàČeštinaDanskDeutschEestiEspañolفارسیFrançais한국어Հայերենहिन्दीHrvatskiBahasa IndonesiaItalianoעבריתҚазақшаLatviešuLietuviųBahasa MelayuNederlands日本語Norsk bokmålОлык марийPolskiPortuguêsРусскийSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаVènetoTiếng ViệtייִדישZazaki中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 10 January 2017, at 10:45.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.136","walltime":"0.194","ppvisitednodes":{"value":649,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":25758,"limit":2097152},"templateargumentsize":{"value":486,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  136.231      1 -total"," 31.45%   42.838      1 Template:Reflist"," 27.47%   37.422      1 Template:Citation_needed"," 26.98%   36.753      4 Template:Cite_web"," 24.46%   33.318      1 Template:Fix"," 14.37%   19.575      2 Template:Category_handler"," 13.34%   18.172      1 Template:Main"," 13.14%   17.898      1 Template:Portal_bar","  8.28%   11.281      1 Template:Delink","  6.15%    8.375      1 Template:Informatics"]},"scribunto":{"limitreport-timeusage":{"value":"0.059","limit":"10.000"},"limitreport-memusage":{"value":3263556,"limit":52428800}},"cachereport":{"origin":"mw1209","timestamp":"20170129140546","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":61,"wgHostname":"mw1182"});});

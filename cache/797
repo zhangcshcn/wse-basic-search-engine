@@ -1,0 +1,358 @@
+ 
+
+
+
+
+
+
+Tooltip
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+The tooltip or infotip or a hint is a common graphical user interface element. It is used in conjunction with a cursor, usually a pointer. The user hovers the pointer over an item, without clicking it, and a tooltip may appear—a small "hover box" with information about the item being hovered over.[1][2] Tooltips do not usually appear on mobile operating systems, because there is no cursor (though tooltips may be displayed when using a mouse).
+
+
+A web browser tooltip displayed for the following hyperlink HTML
+
+
+
+
+
+Contents
+
+
+1 Variants
+2 Examples
+3 Name
+4 Hiding tooltips
+5 See also
+6 References
+
+
+
+Variants[edit]
+A common variant, especially in older software, is displaying a description of the tool in a status bar. Another system, in the classic Mac OS, that aims to solve the same problem, but in a slightly different way, is balloon help. Microsoft invented another term, "ScreenTip", and uses it in its end-user documentation.[citation needed]
+Examples[edit]
+Demonstrations of tooltip usage are prevalent on web pages. Many graphical web browsers display the title attribute of an HTML element as a tooltip when a user hovers the pointer over that element; in such a browser you should be able to hover over Wikipedia images and hyperlinks and see a tooltip appear. Some browsers, notably Microsoft's Internet Explorer (prior to version 7), will also display the alt attribute of an image as a tooltip in the same manner if an alt attribute is specified and a title attribute is not. This is an incorrect behaviour of the alt attribute according to the W3C specification.[3] If a title attribute is also specified, it will override the alt attribute for tooltip content.[citation needed]
+CSS, HTML, and JavaScript allow web designers to create customized tooltip.
+Name[edit]
+The term tooltip originally came from older Microsoft applications (like Microsoft Word 95), which had a toolbar where moving the mouse over the buttons (the Toolbar icons) displayed these tooltips, a short description of the function of the tool in the toolbar.[citation needed] More recently, these tooltips are used in various parts of an interface, not only on toolbars.
+Hiding tooltips[edit]
+Some software and applications, such as GIMP, provide an option for users to turn off some or all tooltips. However, such options are left to the discretion of the developer, and are often not implemented.
+See also[edit]
+
+Mouseover
+Hoverbox
+Status bar
+
+References[edit]
+
+^ "Tooltip Definition". TechTerms.com. Retrieved 13 May 2014. 
+^ Microsoft website of tooltip
+^ "HTML img alt Attribute". W3Schools. Retrieved 6 September 2014. 
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Widgets (List of …)
+
+
+
+
+
+
+Command input
+
+
+
+Adjustment handle
+Button
+Context menu
+Drop-down list
+Hamburger button
+Menu
+Pie menu
+
+
+
+
+
+
+
+
+Data input-output
+
+
+
+Checkbox
+Color picker
+Combo box
+Cycle button
+Date Picker
+Grid view
+List box
+List builder
+Radio button
+Scrollbar
+Search box
+Slider
+Spinner
+Text box
+
+
+
+
+
+
+
+
+Informational
+
+
+
+Balloon help
+Head-up display in computing
+Head-up display in video games
+Icon
+Infobar
+Label
+Loading screen
+Progress indicator
+
+Progress bar
+Splash screen
+Throbber
+
+
+Sidebar
+Status bar
+Toast
+Tooltip
+
+
+
+
+
+
+
+
+Containers
+
+
+
+Accordion
+Disclosure widget
+Frame/Fieldset
+Menu bar
+Menu button
+Panel
+Popover
+Ribbon
+Tab
+Toolbar
+Window
+Workspace
+
+
+
+
+
+
+
+
+Navigational
+
+
+
+Address bar
+Breadcrumb
+Hyperlink
+Navigation bar
+Pager
+Tree view
+
+
+
+
+
+
+
+
+Special windows
+
+
+
+About box
+Alert dialog box
+Dialog box
+File dialog
+Inspector window
+Modal window
+Palette window
+
+
+
+
+
+
+
+
+Related concepts
+
+
+
+File viewer
+List of graphical user interface elements
+Layout manager
+Look and feel
+Mouseover
+Widget toolkit
+WIMP
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Tooltip&oldid=743001779"					
+Categories: Graphical user interface elementsUser interface techniquesHidden categories: All articles with unsourced statementsArticles with unsourced statements from December 2010 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Languages
+
+
+العربيةCatalàČeštinaDeutschEspañolFrançais한국어ItalianoעבריתNederlands日本語Norsk bokmålPolskiPortuguêsРусскийСрпски / srpskiSvenskaУкраїнська 
+Edit links 
+
+
+
+
+
+ This page was last modified on 7 October 2016, at 04:42.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.164","walltime":"0.201","ppvisitednodes":{"value":584,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22565,"limit":2097152},"templateargumentsize":{"value":1520,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  167.079      1 -total"," 64.83%  108.315      3 Template:Citation_needed"," 51.46%   85.977      3 Template:Fix"," 27.99%   46.765      3 Template:Delink"," 24.01%   40.109      2 Template:Cite_web"," 20.69%   34.568      6 Template:Category_handler","  8.19%   13.688      1 Template:Graphical_control_elements","  6.48%   10.822      1 Template:Navbox","  2.88%    4.804      3 Template:Fix/category","  0.64%    1.066      1 Template:Nowrap"]},"scribunto":{"limitreport-timeusage":{"value":"0.090","limit":"10.000"},"limitreport-memusage":{"value":2219316,"limit":52428800}},"cachereport":{"origin":"mw1200","timestamp":"20170130010604","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1257"});});

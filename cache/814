@@ -1,0 +1,331 @@
+ 
+
+
+
+
+
+
+Template talk:Protection table
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+Text and/or other creative content from this version of Template:Protection table was copied or moved into Template:Protection table without level 2 PC with this edit on 18:30, October 23, 2012‎. The former page's history now serves to provide attribution for that content in the latter page, and it must not be deleted so long as the latter page exists.
+
+
+
+
+
+Contents
+
+
+1 Major change to table
+2 Superprotect
+3 Template-protected edit request on 9 March 2015
+4 Semi-protection?
+5 Semi-protected edit request on 1 September 2015
+6 Extended Semi?
+7 Semi-protected edit request on 3 November 2016
+8 Template editor vs. Pending changes level 1 protection
+
+
+
+Major change to table[edit]
+As a form of feedback to Wikipedia:Pending changes, I've edited the protection level table on this project page. I believe these edits benefit interpretation of the table and its ability to illustrate the concepts involved.
+The user column headings now use the terms found at Wikipedia:User access levels. The page protection row headings now use terms found at or implied by Wikipedia:Protection policy. The cells of the table use short phrases, color coding, and column spanning to promote quick comprehension of basic attributes. (I only contributed the short phrasing. Color coding and column spanning were already present.)
+I've separated new users from anonymous users. Although both user categories are presently treated the same way by the pending changes policy, new users are qualitatively distinct from anonymous users. New users log in to Wikipedia, just as other registered users, and are only awaiting confirmation. (The protection policy appears to group new users with anonymous users as a mechanism to reduce editing abuses by sock puppets.)
+To determine the short phrases to use in each cell, I started from the revision history of this table. Pertinent attributes appeared to be: the ability to edit a page; when one's edit then became visible (at least to an anonymous user); and the ability to accept pending changes. To help confirm or modify the attribute values, I relied on relevant content in Wikipedia:Protection policy and Special:ListGroupRights, with assistance from Wikipedia:Reviewing and Wikipedia:Pending changes/Trial#Permission levels. I shortened verbosity in the cells by use of wikilinks for the first appearances of "can edit", "visible after accept", and "can accept"; and by including a note at the bottom of the table.
+Readers can now more quickly compare each combination of page protection and Wikipedia user. BrainMarble (talk) 02:08, 9 July 2010 (UTC)
+Superprotect[edit]
+A discussion regarding adding a row for the Superprotect protection level has been initiated at Wikipedia_talk:Protection_policy#Superprotect_in_comparison_table.3F. WaggersTALK 09:57, 29 August 2014 (UTC)
+Template-protected edit request on 9 March 2015[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+this is not the source] — Preceding unsigned comment added by 122.248.99.206 (talk) 03:01, 9 March 2015 (UTC)
+
+ Not done: it's not clear what changes you want to be made. Please mention the specific changes in a "change X to Y" format. -- John of Reading (talk) 07:29, 9 March 2015 (UTC)
+
+Semi-protection?[edit]
+I think template protection is a bit too heavy here. This is mainly just text and the vandalism has come from IP's. Why not just semi-protect this? --Pxos (talk) 21:56, 29 March 2015 (UTC)
+
+I think it's probably protected for very good reasons. --Kudpung กุดผึ้ง (talk) 03:56, 30 March 2015 (UTC)
+
+
+
+
+Would you fully protect this? What are the reasons? This prevents all the good-faith edits here. Including mine. --Pxos (talk) 04:01, 30 March 2015 (UTC)
+
+
+
+Semi-protected edit request on 1 September 2015[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+<!ON THE 1ST OF SEPTEMBER 2015 JONAS JOIN DEPORTIVO LA CORUNA ON A TWO YEAR CONTRACT -->
+137.191.239.248 (talk) 12:54, 1 September 2015 (UTC)
+
+ Not done: this is the talk page for discussing improvements to the template {{Pending changes table}}. Please make your request at the talk page for the article concerned. -- John of Reading (talk) 13:07, 1 September 2015 (UTC)
+
+Extended Semi?[edit]
+Can you please add the newly added extended semi (30/500 protection) on the table? It is currently missing. Qwertyxp2000 (talk | contribs) 08:46, 11 April 2016 (UTC)
+
+Added. Pppery (talk) 12:15, 17 April 2016 (UTC)
+
+Thank you, but one thing: reviewers cannot edit extended protected pages unless they are also extended confirmed. Could that be shown in the table? BethNaught (talk) 12:32, 17 April 2016 (UTC)
+
+Done. Pppery (talk) 18:14, 17 April 2016 (UTC)
+
+Thank you again. BethNaught (talk) 18:19, 17 April 2016 (UTC)
+
+
+
+
+
+
+
+Semi-protected edit request on 3 November 2016[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+Veterans Day is an official United States public holiday, observed annually on November 11, that honors military veterans, that is, people who served in the United States Armed Forces. It coincides with other holidays, including Armistice Day and Remembrance Day, celebrated in other countries that mark the anniversary of the end of World War I; major hostilities of World War I were formally ended at the 11th hour of the 11th day of the 11th month of 1918, when the Armistice with Germany went into effect. The United States previously observed Armistice Day. The U.S. holiday was renamed Veterans Day in 1954. 168.8.170.12 (talk) 19:18, 3 November 2016 (UTC)
+
+ Not done: this is the talk page for discussing improvements to the template {{Protection table}}. Please make your request at the talk page for the article concerned. — Andy W. (talk) 19:19, 3 November 2016 (UTC)
+
+Template editor vs. Pending changes level 1 protection[edit]
+The table currently [1] suggests that being a template editor allows editing of Pending changes level 1-protected pages. Not that it really matters (since a template editor is unlikely to be not autoconfirmed) but still... that seems unlikely to me. So...? EEng 21:17, 5 January 2017 (UTC)
+
+That's the current layout of the table; any higher permission implies autoconfirmed. Are there actually any non-autoconfirmed template editors? Pppery 21:24, 5 January 2017 (UTC)
+
+I know what the table says -- that's why I asked. I don't know whether there are any non-autoconfirmed template editors, but this is a technical question: yes or no, is it true (as the table implies) that having the template editor right gives you the ability to edit "Pending 1" pages, if you weren't autoconfirmed? The same question would apply to template editor (not autoconfirmed) vs. "Pending changes level 2 with Semi-protection"
+
+
+
+
+
+
+Or is it really true that template editor + nonautoconfirmed is an impossible (technically impossible -- not just practically impossible) combination? EEng 21:48, 5 January 2017 (UTC)
+
+No, that combo is technically possible, as is a bunch of other peculiarities, such as an extended-confirmed user not being autoconfirmed. Is it really necessary to bloat the table by listing absurd combinations. Pppery 21:55, 5 January 2017 (UTC)
+
+No, quite the opposite, I'm looking to unbloat the table, but first I need to understand how the permissions actually work. So, if it's true you can be a non-(auto)confirmed template editor, can such a person edit a "Pending changes Level 1" page? A "Pending changes level 2 with Semi-protection" page? I'm guessing the answer is No, but I need to know for sure. (And where are these answers found?) EEng 22:01, 5 January 2017 (UTC)
+
+Special:ListGroupRights (and no) Pppery 22:04, 5 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┘ OK, goody. Now we're getting somewhere. FTR the answer is that (as one would expect) that template editor is an independent right from everything else (well, they also have "Override the title or username blacklist (tboverride)").
+The table is very hard to absorb largely because Template Editor and Pending Changes Reviewer aren't part of a strict "hierarchy" of permissions as you move left to right along the top row. Now, Pending Changes Reviewer is more complicated, but Template Editor can, I think, be untangled from the mix in a way easier to demonstrate than to describe. Now sure how long that will take, but I'd like your opinion when I've done it. EEng 22:12, 5 January 2017 (UTC)
+
+Except that what you've done is yet another breach in consistency, and makes the table handle technically impossible situations (unregistered template editors). Resolving those would require more ugliness involving multiple consecutive red blocks. This all seems like a solution in search of a problem. Pppery 00:04, 6 January 2017 (UTC)
+
+Are you talking about the fact that the intersection of "Unregistered, New" and "Template protection" is "cannot edit (unless Template editor, in which case like Administrator)"? If so, why is that a problem? EEng 02:29, 6 January 2017 (UTC)
+
+Yes, and it is a problem because that implies that unregistered editors can be template editors, when they in fact cannot (it is technically impossible). Pppery 02:34, 6 January 2017 (UTC)
+
+So what if it's technically impossible? The kind of editor who will use this table understands that, and anyway "If you are an unregistered editor who has Template Editor privileges, then you can edit through Template Protection" is a true statement, because F => (anything) is a true statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Furthermore, the old table (linked above) didn't even handle cases that can happen. For example, it has separate columns for Template editor and Pending changes reviewer, as if you're in one column or another, when in fact you can be one or the other or neither or both, independently. In that version, the intersection of "Template editor" and "Pending changes level 2 protection" shows as "can edit; changes will go live after being accepted by a reviewer", and that's not always true; if you were a Template editor and a Pending changes reviewer, your changes would go live immediately. This could be patched by adding "changes go live immediately if also..."-type language as elsewhere, but that just makes more of mess unless done consistently.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As observed earlier in this thread, the fundamental problem is that the column headings across the top were trying to treat those labels as a hierarchy when in fact they were not (not all of them, anyway). Removing Template editor from the columns begins to fix that (though not completely, because Pending changes reviewer does not, technically, have all rights that Extended confirmed does, so that still needs to be dealt with).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+An important side effect of eliminating the Template editor column is that it frees horizontal width for redistribution to the other columns (especially the "Appropriate for" column), making the rows less tall and thus helping the whole table fit on one screen without scrolling, which really improves comprehensibility. That was, in fact, my original concern when I started looking at this, but it turns out (as shown above) that the table was incorrect in several ways, so I'm fixing that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EEng 03:34, 6 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template_talk:Protection_table&oldid=758800256"					
+Hidden categories: Wikipedia pages using copied template 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+New section
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+ This page was last modified on 7 January 2017, at 17:34.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.068","walltime":"0.123","ppvisitednodes":{"value":471,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":7695,"limit":2097152},"templateargumentsize":{"value":505,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   57.895      1 -total"," 67.47%   39.062      1 Template:Copied"," 47.40%   27.441      1 Template:Check_talk_wp"," 45.24%   26.194      1 Template:Category_handler"," 16.48%    9.539      1 Template:Tmbox","  6.21%    3.598      1 Template:Edit_template-protected","  6.14%    3.556      2 Template:Edit_semi-protected","  5.71%    3.308      2 Template:Diff","  5.52%    3.197      1 Template:Od","  4.61%    2.671      2 Template:Tlx"]},"scribunto":{"limitreport-timeusage":{"value":"0.016","limit":"10.000"},"limitreport-memusage":{"value":1070273,"limit":52428800}},"cachereport":{"origin":"mw1266","timestamp":"20170208033023","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":185,"wgHostname":"mw1266"});});

@@ -1,0 +1,1275 @@
+ 
+
+
+
+
+
+
+Help:MediaWiki namespace
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+"Wikipedia:MediaWiki" redirects here. For information about the entire MediaWiki software application, see MediaWiki.
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcuts:
+
+WP:MWN
+WP:MEDIAWIKI
+
+
+
+
+
+
+
+
+Wikipedia data structure
+
+
+
+
+Namespaces
+
+
+
+Subject namespaces
+Talk namespaces
+
+
+0
+(Main/Article)
+Talk
+1
+
+
+2
+User
+User talk
+3
+
+
+4
+Wikipedia
+Wikipedia talk
+5
+
+
+6
+File
+File talk
+7
+
+
+8
+MediaWiki
+MediaWiki talk
+9
+
+
+10
+Template
+Template talk
+11
+
+
+12
+Help
+Help talk
+13
+
+
+14
+Category
+Category talk
+15
+
+
+100
+Portal
+Portal talk
+101
+
+
+108
+Book
+Book talk
+109
+
+
+118
+Draft
+Draft talk
+119
+
+
+446
+Education Program
+Education Program talk
+447
+
+
+710
+TimedText
+TimedText talk
+711
+
+
+828
+Module
+Module talk
+829
+
+
+2300
+Gadget
+Gadget talk
+2301
+
+
+2302
+Gadget definition
+Gadget definition talk
+2303
+
+
+
+Virtual namespaces
+
+
+
+-1
+Special
+
+
+-2
+Media
+
+
+The MediaWiki namespace is one of the standard namespaces in the database structure of the MediaWiki software, on which Wikipedia runs. The pages in this namespace (whose titles begin MediaWiki:) contain the text to be displayed in certain places in the web interface. Only administrators can edit this namespace, but all editors can propose changes on appropriate talk pages.
+
+
+
+Contents
+
+
+1 Overview
+2 Overview of messages
+3 Technical details
+
+3.1 Transclusion
+3.2 Interlanguage links
+3.3 Strings exclusive to language file
+
+
+4 History
+5 See also
+6 Notes
+7 External links
+
+
+
+Overview[edit]
+The MediaWiki namespace allows administrators and interface editors to customise or translate the MediaWiki web interface.
+Caution: Some messages must have HTML links, and others must have wikilinks. To find out which is which, you must know where the message is used in the interface.
+Because the changes to these pages have a global effect, they are protected from editing, and only administrators and interface editors have the ability to edit them.[1] Non-admins who would like to request a minor change can do so by using the {{editprotected}} template on the talk page of the MediaWiki page. More substantive changes should be discussed at an appropriate section of the Wikipedia:Village pump; an edit request should then be made if there is consensus for the change.
+Changes that can benefit other wiki sites and are not specific to Wikipedia can be submitted to translatewiki.net (also known as TWN, formerly known as BetaWiki), see translatewiki:Translate:MediaWiki. Since English is the original language of the messages, changes to them cannot be directly edited in translatewiki.net, and have to be discussed in the support page there.
+MediaWiki pages can not and should not have documentation on the page itself for several reasons: among other things <noinclude> tags usually do not function in this namespace and the amount of data in MediaWiki space needs to be kept low for performance reasons. Instead a description of the message can be put at the top of the talk page. A template {{interface explanation}} is available for this. Pages using this template can be found in Category:MediaWiki messages with interface explanation.
+Some messages have old documentation available by setting the 'language' to qqq. For instance MediaWiki:Login has old, and somewhat incorrect, documentation at MediaWiki:Login/qqq. Don't update the /qqq messages, instead update the top of the talk page.
+Overview of messages[edit]
+Further information: Help:System message and Wikipedia:Software notices
+The template {{MediaWiki messages}} (shown below) lists a selection of key messages. Not included are
+
+Abusefilter warnings, as there many of these, and they can be found here.
+Tags added automatically to edit summaries by edit filters, which are listed at Special:Tags.
+Messages describing Preferences options (Mediawiki:Tog-) - Search for these
+Messages providing tooltips (Mediawiki:Tooltip-) - Search for these
+Messages relating to Cite.php are listed and discussed at Help talk:Cite errors.
+MediaWiki:Uploadtext and related subpages (the subpages transclude pages from Wikipedia: space) - these are covered at Wikipedia talk:Upload.
+CSS files, which are described at MediaWiki talk:Common.css.
+Gadget-related messages - Gadgets
+
+The template {{interface explanation}}, used on MediaWiki talk: pages (generally those with some discussion), adds pages it is on into Category:MediaWiki messages with interface explanation.
+A complete list of messages is available at Special:Allmessages. MediaWiki messages serving the software default are called "unmodified" and appear as red links in the Allmessages list, and do not appear in a Prefix-based search as they don't technically exist as pages. Because Special:Allmessages displays all system messages (the page is over 1 MB) some users might prefer to view these messages alphabetically: @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+For a list of all MediaWiki pages, see Special:Prefixindex/MediaWiki:, or search the MediaWiki namespace.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Key MediaWiki interface messages
+
+
+
+
+
+
+Edit window instructions
+
+
+
+Wikimedia-copyrightwarning
+Summary
+Minoredit
+Wikimedia-editpage-tos-summary
+Edittools
+Edithelppage
+
+
+
+
+
+
+
+
+Search-related
+
+
+
+searchmenu-new
+searchmenu-exists
+searchmenu-new-nocreate
+search-nonefound
+
+
+
+
+
+
+
+
+Article related
+
+
+
+Noarticletext
+Movepagetext
+Movepage-moved
+Move-redirect-text
+
+
+
+
+
+
+
+
+Edit notices
+
+
+
+Anoneditwarning
+Anonpreviewwarning
+Newarticletext | JS editintros: BLP editintro
+Disambig editintro
+
+
+
+
+
+
+
+
+"Can't edit" notices
+
+
+
+Protectedpagetext
+Cascadeprotected
+Nocreatetext
+Blockedtext
+Autoblockedtext
+Globalblocking-blocked
+Protectedinterface
+Spamprotectiontext
+Titleprotected
+Titleblacklist-custom-editnotice
+
+
+
+
+
+
+
+
+Admin action messages
+
+
+
+Protect-text
+Confirmdeletetext
+Deletedtext
+Blockiptext
+
+
+
+
+
+
+
+
+Email-related
+
+
+
+Emailpagetext
+Emailsenttext
+Emailuserfooter
+Enotif body
+
+
+
+
+
+
+
+
+Preferences
+
+
+
+Tog-fancysig
+Prefs-help-email
+Prefs-help-watchlist-token
+
+
+
+
+
+
+
+
+Community notification
+
+
+
+Watchlist-details
+Cantcreateaccount-text
+Badtitletext
+Tagline
+Cascadeprotectedwarning
+Protect-cascadeon
+Protectedpagemovewarning
+Protectedpagewarning
+Semiprotectedpagewarning
+Undo-failure
+Undo-nochange
+Undo-success
+Undo-summary
+Youhavenewmessages
+Youhavenewmessagesfromusers
+Sitenotice
+Redirectedfrom
+Revision-info
+Revision-info-current
+Recreate-moveddeleted-warn
+Editingold
+Gadget-geonotice-list.js
+Anonnotice
+
+
+
+
+
+
+
+
+
+For messages relating to Special: pages, see the list at mw:Manual:Interface/Special pages summary
+
+
+
+
+Technical details[edit]
+The MediaWiki namespace is a mechanism allowing administrators to customise or translate the MediaWiki web interface. It is enabled by default in recent mediawiki versions, mw:Manual:$wgUseDatabaseMessages = true enables them. The contents of the MediaWiki namespace pages override any corresponding settings in the language files, i.e., the static version of messages. Using the MediaWiki namespace is a bit slower than other namespaces.
+The namespace number of MediaWiki messages is 8, with a corresponding MediaWiki talk namespace 9 to discuss individual messages. Some projects offer templates like en:Template:editprotected (backlinks edit) to propose modifications, others have a page like Meta:Requests for help from a sysop or bureaucrat for this purpose.
+
+Links to MediaWiki messages work like links to ordinary pages, examples
+[[MediaWiki:Edit]] MediaWiki:Edit,
+[[w:de:MediaWiki:Edit]] w:de:MediaWiki:Edit,
+[{{fullurl:m:MediaWiki:Edit|action=render}} demo] demo.
+
+Each message in the $wgAllMessagesEn array in Messages.php corresponds to a page in the MediaWiki namespace. For example, there is a line in the php file:
+
+'confirmprotect' => 'Confirm protection',
+
+To this corresponds the page MediaWiki:Confirmprotect, and {{int:Confirmprotect}} gives ⧼Confirmprotect⧽. When this page is edited the new message is automatically used for say https://meta.wikimedia.org/wiki/Main_page?action=protect. Similarly w:fr:MediaWiki:Confirmprotect has the content Confirmer la protection, note that the page name itself is not translated.
+Transclusion[edit]
+Transclusion of MediaWiki messages can make sense, as noted below historically these messages also covered the function of templates.
+
+{{MediaWiki:Edit}} = Edit this page, see m:Template:Ed (backlinks edit).
+{{int:Edit}} = Edit this page, colon function int: is a shorthand for MediaWiki:.
+{{int:Erehwon}} = ⧼Erehwon⧽, but only as far as the message exists.
+{{MediaWiki:Erehwon}} = MediaWiki:Erehwon doesn't exist.
+
+The difference between {{MediaWiki:}} and {{int:}} is that {{MediaWiki:}} transcludes using the default language of the Wiki (i.e. English), whereas {{int:}} transcludes using the language set by the user's preferences. For example, if your user language is not set to English, the following two lines will differ:
+
+View article
+View article
+
+However many messages are not suited for transclusion, because they contain $1 and similar parameters not evaluated by the template parser, or raw CSS and XHTML markup not permitted on normal pages.
+Interlanguage links[edit]
+Interlanguage links in MediaWiki messages typically won't work as expected. Adding <noinclude> isn't good enough, because something has to evaluate it, as it's the case for messages included like ordinary templates, but not [clarification needed] for messages used internally as system messages.
+Instead, one can use in-page interlanguage links on the talk pages, m:Template:ilm (backlinks edit) does this for some major projects.
+Strings exclusive to language file[edit]
+Some text strings cannot be customised using this feature, and so can only be changed by editing the language file. These include:
+
+The namespace titles "User", "Wikipedia", "Image", etc.
+The names of the special pages
+Month and days-of-the-week names
+A number of items in Special:Preferences
+
+History[edit]
+The MediaWiki namespace was introduced on December 6, 2003. Before this time, user interface text was part of the PHP software and could only be changed by software developers. Since the introduction they have been editable by normal administrators.
+Until June 2004, the MediaWiki namespace was also used for creating other boilerplate text messages, to be used in articles. This function was replaced with the Template namespace; a conversion script running as "User:Template namespace initialisation script", was run by developer Tim Starling, which moved all non-system messages to the new namespace, and replaced MediaWiki: references in articles with Template: in order to bypass the redirects. In October and November 2005, these redirects were deleted. This background explains why the concept now known as "templates" is sometimes referred to as "messages".
+For a short time, before the renaming from votes for deletion (VfD) to articles for deletion (AfD), deletion debates used MediaWiki: messages named in the format "MediaWiki:VfD-articlename". These were moved to the Template: space in June 2004 and are now (as of January 2006) subpages of Wikipedia:Articles for deletion or Wikipedia:Votes for deletion.
+See also[edit]
+
+MediaWiki namespace in version 1.26
+Template:MediaWiki redundant / Template:MediaWiki redirect
+Wikipedia:WikiProject Usability/MediaWiki
+MediaWiki talk:Sitenotice - creating sitenotices
+Wikipedia:Bug reports and feature requests - on filing a "bug" to get the MediaWiki software fixed or enhanced. See also WP:DevMemo.
+Wikipedia:Template limits
+WP:Tools / Tools by tags - externally hosted tools which complement the MediaWiki software
+
+Notes[edit]
+
+
+^ By default, all messages are protected. This is necessary for a number of reasons:
+
+Many messages are in plain HTML, so users could insert malicious scripts
+Vandalism of some messages would be extremely disruptive, for example changes to the text of the links in the sidebar would immediately be visible to all users
+A few messages can in theory cause the software to stop working if they are changed, for example MediaWiki:Linktrail. In practice the software ignores the database contents for MediaWiki:Linktrail, taking the regular expression straight out of the message files, for performance and stability reasons.
+
+If an administrator wishes to allow non-admins to edit a MediaWiki page, a method is to place the message on a template, and then transclude the template back onto the MediaWiki page. Another method is to redirect the page to one in a non-MediaWiki namespace.
+
+
+External links[edit]
+
+www.mediawiki.org.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+CSS and JS MediaWiki interface files
+
+
+
+
+
+
+Project CSS
+
+
+
+Common
+Vector
+Monobook
+Cologneblue
+Modern
+Mobile
+
+
+
+
+
+
+
+
+Project JS
+
+
+
+Common
+Vector
+Monobook
+Cologneblue
+Modern
+Mobile
+
+
+
+
+
+
+
+
+Usergroup CSS
+
+
+
+Autoconfirmed
+Extendedconfirmed
+Extendedmover
+Bot
+Sysop
+Bureaucrat
+Checkuser
+Reviewer
+Steward
+Accountcreator
+Import
+Transwiki
+Ipblock-exempt
+Oversight
+Founder
+Rollbacker
+Autoreviewer
+Researcher
+Filemover
+Abusefilter
+Templateeditor
+
+
+
+
+
+
+
+
+Usergroup JS
+
+
+
+Autoconfirmed
+Extendedconfirmed
+Extendedmover
+Bot
+Sysop
+Bureaucrat
+Checkuser
+Reviewer
+Steward
+Accountcreator
+Import
+Transwiki
+Ipblock-exempt
+Oversight
+Founder
+Rollbacker
+Autoreviewer
+Researcher
+Filemover
+Abusefilter
+Templateeditor
+
+
+
+
+
+
+
+
+Other CSS
+
+
+
+Noscript
+Filepage
+Print
+
+
+
+
+
+
+
+
+Other JS
+
+
+
+edit
+watchlist
+Charinsert
+Geonotice
+
+
+
+
+
+
+
+
+Personal CSS
+
+
+
+global (all projects)
+common
+vector
+monobook
+cologneblue
+modern
+current skin
+
+
+
+
+
+
+
+
+Personal JS
+
+
+
+global (all projects)
+common
+vector
+monobook
+cologneblue
+modern
+current skin
+
+
+
+
+
+
+
+
+
+CSS/JS catalogue
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Help:MediaWiki_namespace&oldid=760882632"					
+Categories: Wikipedia information pagesMediaWiki HelpWikipedia features 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Help page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+Ængliscالعربيةঅসমীয়াবাংলাБългарскиCatalàDanskDeutschΕλληνικάEspañolEsperantoفارسیFrançais한국어IlokanoInterlinguaעבריתLëtzebuergeschMagyarमराठीBahasa Melayu日本語Occitanଓଡ଼ିଆPolskiPortuguêsSimple EnglishSlovenčinaSvenskaᏣᎳᎩTürkçeاردوTiếng Việt中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 19 January 2017, at 16:56.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.200","walltime":"0.524","ppvisitednodes":{"value":1330,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":102037,"limit":2097152},"templateargumentsize":{"value":2475,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  146.588      1 -total"," 25.36%   37.170      1 Template:Information_page"," 20.86%   30.584      1 Template:Ombox"," 16.47%   24.136      1 Template:Clarifyme"," 14.77%   21.649      1 Template:Redirect"," 14.07%   20.623      3 Template:Navbox"," 13.20%   19.354      1 Template:Fix-span","  8.70%   12.760      1 Template:Replace","  7.40%   10.850      1 Template:MediaWiki_messages","  6.93%   10.152      1 Template:Wikipedia_technical_help"]},"scribunto":{"limitreport-timeusage":{"value":"0.044","limit":"10.000"},"limitreport-memusage":{"value":2169891,"limit":52428800}},"cachereport":{"origin":"mw1215","timestamp":"20170203220843","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":50,"wgHostname":"mw1238"});});

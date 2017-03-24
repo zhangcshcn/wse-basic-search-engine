@@ -1,0 +1,342 @@
+ 
+
+
+
+
+
+
+Wikipedia:Portal/Instructions
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Portal
+
+					Jump to:					navigation, 					search
+
+This page gives instructions for the creation of new portals using the box portal layout.
+
+
+
+Contents
+
+
+1 Steps
+2 Customization and editing
+
+2.1 Adding a section (box)
+2.2 Other methods of adding a section
+
+2.2.1 Example 1
+2.2.2 Example 2
+
+
+2.3 Editing Archive for random portal component section
+2.4 Randomized lists and elements in sections
+2.5 Changing colors
+
+
+3 See also
+
+
+
+Steps[edit]
+To create a new portal on the topic "Topic" using the {{box portal skeleton}} template follow these steps:
+
+
+1.
+Create a new page using [[Portal:Topic]] as the title of the page (where "Topic" is the subject of your portal) and enter the following text
+
+{{subst:box portal skeleton}}
+
+Save. At this point you will have a page full of red links; this is correct.
+
+
+
+2.
+Create two subpages, scroll to the bottom of the page and click the template link to the header and footer
+
+Save [[Portal:Topic/box-header]] with this text (check the Web colors article if you want the code for some other color):
+
+
+{{Portal:Box-header | title={{{1}}} 
+|editpage={{{2}}} 
+|border=#aaaaaa           <!-- This is the color of the borders around Box Sections -->
+|titleforeground=white    <!-- This is the color of the Box Section Title Bar text -->
+|titlebackground=#aaccff  <!-- This is the color of the Box Section Title Bar -->
+|background=#f9f9ff       <!-- This is the color of the Box Section background -->
+|foreground=black}}       <!-- This is the color of the Box Section text -->
+
+
+Save [[Portal:Topic/box-footer]] with this text:
+
+
+{{Portal:box-footer | {{{1}}} }}
+
+
+
+3.
+Return to your portal page Portal:Topic and begin editing (general instructions on editing a portal are below). Basically follow the red links to create sub-pages that will fill the boxes.
+
+
+4.
+Place a link to your portal at the top of the appropriate article (of the same name) by placing a {{portal }} there. If the article has portals already listed or you have created more than one portal for the article, use {{ portal | Topic | portal 2 name| portal 3 name}}.
+For an explanation of how and why this format works go here.
+
+
+
+5.
+List your new portal in the Directory of portals.
+
+
+6.
+Announce your new portal on the community bulletin board.
+
+
+7.
+Update {{Number of portals}}
+
+
+At this point, you have created a Portal under construction. It is a framework with a lot of red links where content should go. A fair amount of work is still necessary to turn a skeleton portal into one ready for browsing.
+
+
+8.
+Edit the portal text. (See Customisation and editing below for instructions.)
+
+
+9.
+When the portal is complete and of good quality:
+
+Recategorize the portal from Category:Portals under construction to an appropriate sub-category of Category:Portals (or often a sub-sub-category or deeper, as needed). (See Wikipedia:Portal/Categorizing for details.)
+Add a link to the portal at Portal:Contents/Portals.
+
+
+
+
+Customization and editing[edit]
+The box portal allows you to edit the portal without editing the main portal page. Simply follow the blue links to the sub pages and enter the information there. These sub-pages will be displayed on the main page.
+Adding a section (box)[edit]
+If you wish to add a section (box) using the regular codes, go to your portal page and simply type in:
+
+ {{/box-header| 1 | 2 }}
+ {{   3   }}
+ {{/box-footer| 4 }}
+
+where
+
+"1" is the box title
+"2" is the article to be linked to. This will appear right under the title bar. You may omit this parameter if you don't want an edit link to appear, but you must not omit the pipe, for example:
+
+{{/box-header | Selected article | Portal:Computer and video games/Selected}}
+{{/box-header | Selected article | }} (no edit link param, note pipe still in place)
+
+
+"3" is again the article to be linked to (this will appear as a red link until first edited), for example:
+
+{{/Featured}}
+
+
+"4" is a link that you'd like to display at the bottom-right corner of the box. You may omit this parameter if you don't want an edit link to appear, but you must not omit the pipe, for example:
+
+{{/box-footer | [[Computer and video games|More about Computer and video games...]]}}
+{{/box-footer | }} (no bottom-right param, note pipe still in place)
+
+
+
+Other methods of adding a section[edit]
+Other methods of adding a section are adding Template:Random portal component or Template:Random portal component with nominate. see their documentation .
+Example 1[edit]
+The following code:
+
+<div style="float:right; width:50%;">
+{{/box-header|A random title|Portal:Test/Selected article}}
+{{/Selected article}}
+{{/box-footer|[[Lorem ipsum|More about Lorem ipsum...]]}}
+</div>
+
+results in:
+
+Portal:Test/box-header Portal:Test/Selected article Portal:Test/box-footer
+
+
+Example 2[edit]
+The following code:
+
+<div style="float:right; width:50%;">
+{{/box-header|A random title|}}
+   The following text will appear in the [[box]]. This text can be placed on 
+    the [[Wikipedia:Portal|portals]] main page and edited there. Or, 
+    alternately placed on a sub-page of the portal, which is explained below.
+{{/box-footer|[[Lorem ipsum|More about Lorem ipsum...]]}}
+</div>
+
+
+Portal:Test/box-header The following text will appear in the box. This text can be placed on the portals main page and edited there. Or, alternately placed on a sub-page of the portal, which is explained below. Portal:Test/box-footer
+
+...will result in what is displayed to the immediate right. →
+The exact same code, used at other portals, will create a box with the exact same content, but the colors may be completely different. This is because each portal has templates at:
+
+"Portal:insertname/box-header" (e.g. [1])
+"Portal:insertname/box-footer" (e.g. [2])
+
+that add color information, and the pass all the work along to the Portal:box-header and Portal:box-footer templates, which compose everything into a standards-compliant and cross-browser box.
+
+Editing Archive for random portal component section[edit]
+For a random portal component section, the random pages are stored as consecutive numbered subpages from 1 to a maximum number. To view all numbered subpages in the archive page, use Template:Numbered subpages. Just write in the archive page {{Numbered subpages}}.
+Randomized lists and elements in sections[edit]
+See the random subpage template for a method to display a list of randomly selected items from a group of numbered subpages (e.g., Sustainable development). This template also can be used to randomly rotate items such as images within a section (e.g., the Philosophy of science introduction).
+Changing colors[edit]
+The colors of the portal can be changed in the box-header subpage. A list of colors you can use is available at Web colors, List of colors, or Wikipedia talk:Colours.
+See also[edit]
+
+Template substitution.
+{{box portal skeleton}}
+
+
+
+
+
+
+Portals
+Featured (Criteria · Candidates)
+List
+Directory
+WikiProject
+Guidelines
+Instructions
+Categorizing (Portals category)
+Peer review
+
+
+Contents Overview Outlines Lists Portals Glossaries Categories Indices
+
+
+Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Portal/Instructions&oldid=748324480"					
+Categories: Wikipedia portal administration 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+العربيةবাংলাČeštinaCymraeg한국어ՀայերենItalianoBahasa MelayuਪੰਜਾਬੀPolskiPortuguêsРусскийТатарча/tatarçaTürkçeУкраїнськаاردو中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 7 November 2016, at 16:55.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.060","walltime":"0.082","ppvisitednodes":{"value":562,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":29591,"limit":2097152},"templateargumentsize":{"value":13010,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   56.629      1 -total"," 89.23%   50.531      1 Template:Portal_nav_footer"," 76.46%   43.297      1 Template:Portals2"," 74.78%   42.347      1 Portal:Contents/TOC_navbar"," 69.08%   39.120      2 Template:Center"," 62.30%   35.282     20 Template:Clickable_button_2"," 45.24%   25.620      1 Template:Contents_pages_(header_bar)"," 25.83%   14.628      1 Template:Small","  5.98%    3.388      2 Template:Resize","  4.25%    2.404      1 Template:Startflatlist"]},"scribunto":{"limitreport-timeusage":{"value":"0.020","limit":"10.000"},"limitreport-memusage":{"value":1284137,"limit":52428800}},"cachereport":{"origin":"mw1215","timestamp":"20170126083525","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":59,"wgHostname":"mw1253"});});

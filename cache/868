@@ -1,0 +1,701 @@
+ 
+
+
+
+
+
+
+Wikipedia:Requests for page protection
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Wikipedia:RFPP)
+
+					Jump to:					navigation, 					search
+
+"WP:RFP" and "WP:RPP" redirect here. You may also be looking for Wikipedia:Requests for permissions, Wikipedia:Requesting copyright permission, or Wikipedia:Random page patrol.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Noticeboards
+
+
+
+
+
+
+
+Wikipedia's centralized discussion, request, and help venues. For a listing of ongoing discussions and current requests, see the dashboard.
+
+
+
+
+
+
+General
+
+
+
+Administrators
+
+main
+incidents
+
+
+Bot owners
+Bureaucrats
+Closure
+Education
+
+main
+incidents
+
+
+Main Page errors
+Open proxies
+OTRS
+Oversight
+User permissions
+
+
+
+
+
+
+
+
+Articles and content
+
+
+
+Biographies of living persons
+Copyrights
+
+questions on media
+problems
+
+
+Dispute resolution
+External links
+Fringe theories
+Neutral point of view
+Original research
+Reliable sources
+Resource requests
+Spam
+
+blacklist
+whitelist
+
+
+Scalable vector graphics
+Titleblacklist
+Translation
+
+
+
+
+
+
+
+
+Page handling
+
+
+
+History merges
+Mergers
+Moves
+Protection
+Importing pages
+XfD
+
+Articles
+Redirects
+Categories
+Templates
+Files
+Miscellany
+
+
+Undeletion
+
+
+
+
+
+
+
+
+User conduct
+
+
+
+Long-term abuse
+Conflict of interest
+Contributor copyright
+Edit warring and 3RR
+Sanctions
+
+Personal sanctions
+General sanctions
+
+
+New pages patrollers
+Paid editing
+Sockpuppets
+Usernames
+Vandalism
+
+
+
+
+
+
+
+
+Other
+
+
+
+Arbitration
+
+Committee noticeboard
+requests
+enforcement
+
+
+Edit filters
+
+requested
+
+
+Mediation
+Questions
+
+Editor assistance
+Help desk
+Teahouse
+Reference desk
+New articles
+
+
+Requests for comment
+Special services
+Village pump
+
+ideas
+policy
+proposals
+technical
+miscellaneous
+
+
+WikiProject proposals
+
+
+
+
+
+
+
+
+
+Category:Wikipedia noticeboards
+
+
+
+
+
+
+Skip to TOC
+Skip to bottom
+
+
+
+
+Requests for page protection
+
+
+
+
+Shortcuts:
+
+WP:RFPP
+WP:RFP
+WP:RPP
+
+
+This page is for requesting that a page, file or template be fully protected, create protected (salted), extended confirmed protected, semi-protected, added to pending changes, move-protected, template protected (template-specific), upload protected (file-specific), or unprotected. Please read up on the protection policy. Full protection is used to stop edit warring between multiple users or to prevent vandalism to high-risk templates, semi-protection and pending changes are usually used only to prevent IP and new user vandalism (see the rough guide to semi-protection), and move protection is used to stop pagemove revert wars.
+After a page has been protected, the protection is listed in the page history and logs with a short description indicating why it was protected, and the article is listed on Special:Protectedpages. Further discussion should take place on the Talk page of the article. In the case of full protection due to edit warring, admins do not revert to specific versions of the page, except to get rid of obvious vandalism.
+
+
+
+
+
+Skip to table of contents
+requests to raise protection
+lower protection
+requested edits
+rolling archive (up to 7 days)
+(purge)
+
+
+
+
+
+Instructions
+
+If you would like to request to have a page protected, have a page's existing protection level lowered or raised, or would like to submit an edit request for a protected page, please follow these steps (note: if you enable the Twinkle gadget for your Wikipedia account, this process can be largely automated for you):
+
+If you are requesting unprotection, the correct protocol is to ask the protecting administrator first for unprotection (the admin's user account name can be found in the page's edit history). If for any reason he or she is unresponsive, unwilling, or unable to lower protection then you may list your request on this page.
+Add a level 3 header (i.e. === [[Example title]] ===) with the namespace if not an article.[clarification needed] Place your request at the bottom of either the protection or unprotection list, depending on the nature of your request, and place the pagelinks template below the header in the form of * {{pagelinks|Example title}}. Please make sure you have spelled the name of the article properly; a common error stems from mistaken requests for the protection of redirects, particularly capitalised ones (Twinkle can make sure this never happens to you!).
+If you are requesting protection, write the type of request (full protection, semi-protection, pending changes, move protection) and a brief reason for your request below your header.
+Please do not add arbitrary requests for a protection expiry time to your request, or request indefinite protection arbitrarily.
+
+If there is a reason for a page to be protected for a certain amount of time, such as protecting a user talk page until the user is unblocked, please make this clear.
+If you are requesting indefinite semi-protection or pending changes, be aware that it is only applied to articles with endemic and endless vandalism problems which multiple increasing periods of temporary semi-protection or pending changes have failed to stop.
+Note that different expiry times can be set for edit- and for move-protections— thus, an article can, for example, be semi-edit-protected for a week and also fully-move-protected indefinitely.
+
+
+Sign your request with four tildes ~~~~ and click Save page.
+
+
+Note: editors should not consider requesting page protection as a method for continuing an argument from elsewhere nor as a venue for starting a new discussion regarding article content. If a request contains excessive argument, appears to be intended to resolve a content dispute, includes personal attacks or uncivil comments, or has any other unrelated discussion, it will be removed from this page and no action will be taken.
+
+
+Examples
+
+
+
+
+For single page requests
+
+
+
+
+=== [[Example Article Name]] ===
+* {{pagelinks|Example Article Name}}
+'''Semi-protection:''' High level of IP vandalism. ~~~~
+
+
+=== [[Template:Example Template Name]] ===
+* {{pagelinks|Template:Example Template Name}}
+'''Reduction in protection level:''' From full protection to template editor protection. ~~~~
+
+
+
+
+For multiple page requests with the same criteria
+
+
+
+
+=== Short descriptive header ===
+* {{pagelinks|Wikipedia:Example Page Name 1}}
+* {{pagelinks|Wikipedia:Example Page Name 2}}
+'''Temporary semi-protection:''' High level of IP vandalism. ~~~~
+
+ You can subscribe to a web feed of this page in either RSS or Atom format.
+
+
+
+this header: view • edit
+
+
+Contents
+
+
+1 Current requests for increase in protection level
+
+1.1 Hoobastank (album)
+1.2 Super Bowl XXXIX
+1.3 Anil Baijal
+1.4 Talk:Margaret Court
+1.5 User talk:177.239.10.156
+1.6 Waterparks (band)
+1.7 Deepa jayakumar
+1.8 List of Indian Air Force stations
+1.9 Template:Help intro sidetab
+1.10 Chris Fontaine
+1.11 2017 NASCAR Camping World Truck Series
+1.12 Scirtothrips dorsalis
+1.13 Target Corporation
+1.14 Chained to the Rhythm
+1.15 Center for Security Policy
+1.16 Shot Heard 'Round the World (baseball)
+1.17 Super Bowl LIII
+
+
+2 Current requests for reduction in protection level
+
+2.1 Current President of the United States
+
+
+3 Current requests for edits to a protected page
+4 Handled requests
+
+
+
+
+Administrator instructions
+
+
+Current requests for increase in protection level[edit]
+Place requests for new or upgrading pending changes, semi-protection, full protection, move protection, create protection, template editor protection, or upload protection at the BOTTOM of this section. Check the rolling archive of fulfilled and denied requests or, failing that, the page history if you cannot find your request. Only recently answered requests are still listed here.
+Hoobastank (album)[edit]
+
+Hoobastank (album) (edit | talk | history | links | watch | logs)
+
+Indefinite semi-protection: Persistent addition of unsourced or poorly sourced content – A relentless IP changing genre's. IP waits for the page protection to expire and goes back to work. Pending changes would also help. - Mlpearc (open channel) 20:40, 12 February 2017 (UTC)
+
+ Declined – Not enough recent disruptive activity to justify protection. Mifter (talk) 21:01, 12 February 2017 (UTC)
+
+Comment Mlpearc I was just looking at this and about to decline the request for the same reason. Looking at the page history I am seeing very little in the form of disruptive editing and there is no history of page protection at all. Are you sure this is the page you meant to request PP for? -Ad Orientem (talk) 21:04, 12 February 2017 (UTC)
+
+@Ad Orientem: There are other "Hoobastank" pages, the activity I discribed could be on another page, but the disruption is the same. No worries, I'll just remove all Hoobastank pages from my watch. - Mlpearc (open channel) 21:10, 12 February 2017 (UTC)
+
+I see. Unfortunately there is not much we can do about this kind of low level "now and then" kind of vandalism. It comes with the territory. And short of requiring registration in order to edit, which the community has repeatedly rejected, we are just going to have to live with it. -Ad Orientem (talk) 21:18, 12 February 2017 (UTC)
+
+
+
+
+
+
+
+Super Bowl XXXIX[edit]
+
+Super Bowl XXXIX (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Under pretty heavy attack from IP vandals. CityOfSilver 21:24, 12 February 2017 (UTC)
+
+ User(s) blocked. Mifter (talk) 21:28, 12 February 2017 (UTC)
+
+You ought to consider blocking everybody in 2601:48:c503:ee10 since this person will probably just switch identities to a different part of that range again. CityOfSilver 21:32, 12 February 2017 (UTC)
+
+
+
+Anil Baijal[edit]
+
+Anil Baijal (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism – IP editor continues to add random uncited info on this page. Adamgerber80 (talk) 21:42, 12 February 2017 (UTC)
+
+ Declined – Not enough recent disruptive activity to justify protection. Mifter (talk) 21:53, 12 February 2017 (UTC)
+
+Talk:Margaret Court[edit]
+
+Talk:Margaret Court (edit | subject | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism – IP sock . Wolbo (talk) 21:50, 12 February 2017 (UTC)
+
+ User(s) blocked. Mifter (talk) 21:57, 12 February 2017 (UTC)
+
+User talk:177.239.10.156[edit]
+
+User talk:177.239.10.156 (edit | subject | history | links | watch | logs)
+
+Semi-protection: Inappropriate use of user talk page while blocked. Geraldo Perez (talk) 22:14, 12 February 2017 (UTC)
+
+Re-blocked Talk page editing revoked. -Ad Orientem (talk) 23:18, 12 February 2017 (UTC)
+
+Waterparks (band)[edit]
+
+Waterparks (band) (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism. General Ization Talk 00:02, 13 February 2017 (UTC)
+
+ Semi-protected for a period of 2 weeks, after which the page will be automatically unprotected. Ad Orientem (talk) 00:17, 13 February 2017 (UTC)
+
+Deepa jayakumar[edit]
+
+Deepa jayakumar (edit | talk | history | links | watch | logs)
+
+Indefinite create protection: Repeatedly recreated – This title, as well as the titles J.Deepa jayakumar and J.Deepa have been used to promote the same subject. . — Sam Sailor 00:02, 13 February 2017 (UTC)
+
+ Not done Article has only been created twice and has not been deleted via A7 G11 or AfD. Ad Orientem (talk) 00:21, 13 February 2017 (UTC)
+
+List of Indian Air Force stations[edit]
+
+List of Indian Air Force stations (edit | talk | history | links | watch | logs)
+
+Extended confirmed: Persistent disruptive editing – IP hopper removes cited info and refuses to discuss on talk page. Adamgerber80 (talk) 00:10, 13 February 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+Adamgerber80 (talk) is inserting unreliable data without valid reliable references sources. 27.100.20.44 (talk) 00:16, 13 February 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+ Semi-protected for a period of 1 week, after which the page will be automatically unprotected. Ad Orientem (talk) 00:24, 13 February 2017 (UTC)
+
+Template:Help intro sidetab[edit]
+
+Template:Help intro sidetab (edit | talk | history | links | watch | logs)
+
+Indefinite template protection: High-risk template – This is on the Contact page. – 🐱? (talk) (ping me!) 00:24, 13 February 2017 (UTC)
+
+ Done I've cascaded the contact page so all templates on that page will inherit full protection. If any admin feels this was inappropriate, please feel free to override my action and let me know.—CYBERPOWER (Be my Valentine) 01:13, 13 February 2017 (UTC)
+
+Chris Fontaine[edit]
+
+Chris Fontaine (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism, continuing after end of last protection. 2601:188:1:AEA0:8949:EA87:45B1:DF70 (talk) 00:29, 13 February 2017 (UTC)
+
+ Semi-protected for a period of 2 weeks, after which the page will be automatically unprotected.—CYBERPOWER (Be my Valentine) 01:16, 13 February 2017 (UTC)
+
+
+Automated comment: @Cyberpower678: One or more pages in this request have not been protected.—cyberbot ITalk to my owner:Online 01:33, 13 February 2017 (UTC)
+
+2017 NASCAR Camping World Truck Series[edit]
+
+2017 NASCAR Camping World Truck Series (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism 2601:188:1:AEA0:8949:EA87:45B1:DF70 (talk) 00:31, 13 February 2017 (UTC)
+
+ Semi-protected for a period of 1 week, after which the page will be automatically unprotected.—CYBERPOWER (Be my Valentine) 01:17, 13 February 2017 (UTC)
+
+Scirtothrips dorsalis[edit]
+
+Scirtothrips dorsalis (edit | talk | history | links | watch | logs)
+
+Semi-protection: Persistent vandalism. IExistToHelp (talk) 00:38, 13 February 2017 (UTC)
+
+ Declined – Pages are not protected preemptively.—CYBERPOWER (Be my Valentine) 01:19, 13 February 2017 (UTC)
+
+Target Corporation[edit]
+
+Target Corporation (edit | talk | history | links | watch | logs)
+
+Indefinite semi-protection: Persistent vandalism. IExistToHelp (talk) 00:40, 13 February 2017 (UTC)
+
+ Declined – Not enough recent disruptive activity to justify protection.—CYBERPOWER (Be my Valentine) 01:20, 13 February 2017 (UTC)
+
+Chained to the Rhythm[edit]
+
+Chained to the Rhythm (edit | talk | history | links | watch | logs)
+
+Semi-protection: Pending changes isn't helping stop genre warriors. Snuggums (talk / edits) 01:11, 13 February 2017 (UTC)
+
+Automated comment: A request for protection/unprotection for one or more pages in this request was recently made, and was denied at some point within the last 8 days.—cyberbot ITalk to my owner:Online 01:18, 13 February 2017 (UTC)
+
+
+ Semi-protected for a period of 1 week, after which the page will be automatically unprotected.—CYBERPOWER (Be my Valentine) 01:22, 13 February 2017 (UTC)
+
+Center for Security Policy[edit]
+
+Center for Security Policy (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism – Deletion of material by seven separate single issue IPs in the last 24 hours. Tom (North Shoreman) (talk) 01:37, 13 February 2017 (UTC)
+Shot Heard 'Round the World (baseball)[edit]
+
+Shot Heard 'Round the World (baseball) (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism – IP editors are back trying to add unsourced material that there is no consensus for. This has been going on for some time, other established editors have been combating it besides myself, and the page has been protected multiple times. Protection for at least a month is needed. ...William, is the complaint department really on the roof? 01:56, 13 February 2017 (UTC)
+Super Bowl LIII[edit]
+
+Super Bowl LIII (edit | talk | history | links | watch | logs)
+
+Temporary semi-protection: Persistent vandalism – Persistent vandalism - game won't happen for almost.2.years. BilCat (talk) 02:07, 13 February 2017 (UTC)
+Current requests for reduction in protection level[edit]
+
+Shortcuts:
+
+WP:RFRPL
+WP:RFUP
+WP:RFPU
+WP:RUP
+WP:UNPROTECT
+
+
+Please post requests in this section for removing or reducing the protection level of a page if the protecting admin is inactive or you have already asked them.
+
+To find out the username of the admin who protected the page click on "history" at the top of the page, then click on "View logs for this page" which is under the title of the page. The protecting admin is the username in blue before the words "protected", "changed protection level" or "pending changes". If there are a number of entries on the log page, you might find it easier to select "Protection log" or "Pending changes log" from the dropdown menu in the blue box.
+Requests to downgrade full protection to template protection on templates and modules can be directed straight here; you do not need to ask the protecting admin first.
+Requests for removing create protection on redlinked articles are generally assisted by having a draft version of the intended article prepared beforehand.
+If you want to make spelling corrections or add uncontroversial information to a protected page please add {{Edit fully-protected}} to the article's talk page, along with an explanation of what you want to add to the page. If the talk page is protected please use the section below.
+
+Check here if you cannot find your request. Only recently answered requests are still listed here.
+Current President of the United States[edit]
+
+Current President of the United States (edit | talk | history | links | watch | logs)
+
+Unprotection: I dont think protection is needed anymore. Flow 234 (Nina) talk 11:32, 12 February 2017 (UTC)
+
+ Question: Have you asked the protecting admin, GlassCobra (talk · contribs), first? SoWhy 12:00, 12 February 2017 (UTC)
+Thanks for the heads up on this. Although the initial reason for protecting the redirect was based on a discussion from 2009, I still agree with the rationale -this should be kept at semiprotection level to prevent bad-faith moves. GlassCobra 20:30, 12 February 2017 (UTC)
+ Declined. Favonian (talk) 20:45, 12 February 2017 (UTC)
+
+Current requests for edits to a protected page[edit]
+Further information: Wikipedia:Edit requests
+
+Shortcut:
+
+WP:RFED
+
+
+Ideally, requests should be made on the article talk page rather than here.
+
+Unless the talk page itself is protected, you may instead add the appropriate template among {{Edit protected}}, {{Edit template-protected}}, {{Edit extended-protected}}, or {{Edit semi-protected}} to the article's talk page if you would like to make a change rather than requesting it here. Doing so will automatically place the page in the appropriate category for the request to be reviewed.
+Where requests are made due to the editor having a conflict of interest (COI; see Wikipedia:Suggestions for COI compliance), the {{request edit}} template should be used.
+Page move requests should be made at Wikipedia:Requested moves, not here.
+If the discussion page and the article are both protected preventing you from making an edit request, this page is the right place to make that request. Please see the top of this page for instructions on how to post requests.
+This page is not for continuing or starting discussions regarding content should both an article and its discussion page be locked. Please make requests as long as you have a specific edit you wish to make.
+
+Handled requests[edit]
+A rolling archive of the last seven days of protection requests can be found at Wikipedia:Requests for page protection/Rolling archive.
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_page_protection&oldid=765190662"					
+Categories: Wikipedia vandalismWikipedia noticeboardsWikipedia requestsWikipedia requests related to adminsHidden categories: Wikipedia move-protected project pagesNon-talk pages that are automatically signed 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikisource 
+
+
+
+Languages
+
+
+АҧсшәаالعربيةتۆرکجهবাংলাBosanskiBrezhonegDeutschEspañolفارسیFrançais한국어हिन्दीBahasa IndonesiaItalianoLëtzebuergeschLietuviųBahasa MelayuNederlands日本語Norsk bokmålOccitanPortuguêsRomânăРусскийScotsShqipසිංහලSlovenščinaதமிழ்TürkçeУкраїнськаVènetoTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 13 February 2017, at 02:07.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.248","walltime":"0.368","ppvisitednodes":{"value":2692,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":101162,"limit":2097152},"templateargumentsize":{"value":3808,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  214.704      1 -total"," 44.13%   94.756      1 Wikipedia:Requests_for_page_protection/Header"," 18.79%   40.341     18 Template:Pagelinks"," 14.49%   31.114     16 Template:Page-multi"," 14.01%   30.076      1 Template:Nowrap"," 13.55%   29.088      1 Template:What"," 11.38%   24.431      1 Template:Fix-span"," 11.31%   24.274      1 Template:Ombox","  7.32%   15.716      1 Template:Replace","  6.47%   13.898      1 Template:Noticeboard_links"]},"scribunto":{"limitreport-timeusage":{"value":"0.072","limit":"10.000"},"limitreport-memusage":{"value":3152026,"limit":52428800}},"cachereport":{"origin":"mw1228","timestamp":"20170213020732","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":59,"wgHostname":"mw1250"});});

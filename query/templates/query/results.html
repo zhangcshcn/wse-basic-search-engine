@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ready to search! </title>
+</head>
+<body>
+
+Return to <a href="../query">Portal</a>
+<br>
+<h2>You have successfully crawded from {{ start }} {{ number }} pages, using Robot Exclusive Standard from {{ domain }}. </h2>
+<br>
+We are ready to search! 
+<br>
+{% csrf_token %}
+<form action=" {% url 'query:search' %} " method="get">
+    <label for="q">query: </label>
+    <input id="q" type="text" name="q" value=" ">
+    <br>
+    <input type="submit" value="Go!">
+</form>
+</body>
+</html>

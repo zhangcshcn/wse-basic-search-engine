@@ -1,0 +1,815 @@
+ 
+
+
+
+
+
+
+Technology acceptance model
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+The Technology Acceptance Model, version 1. (Davis, Bagozzi & Warshaw 1989)
+
+
+The technology acceptance model (TAM) is an information systems theory that models how users come to accept and use a technology. The model suggests that when users are presented with a new technology, a number of factors influence their decision about how and when they will use it, notably:
+
+Perceived usefulness (PU) – This was defined by Fred Davis as "the degree to which a person believes that using a particular system would enhance his or her job performance".
+Perceived ease-of-use (PEOU) – Davis defined this as "the degree to which a person believes that using a particular system would be free from effort" (Davis 1989).
+
+The TAM has been continuously studied and expanded-the two major upgrades being the TAM 2 (Venkatesh & Davis 2000 & Venkatesh 2000) and the Unified Theory of Acceptance and Use of Technology (or UTAUT, Venkatesh et al. 2003). A TAM 3 has also been proposed in the context of e-commerce with an inclusion of the effects of trust and perceived risk on system use (Venkatesh & Bala 2008).
+
+
+
+Contents
+
+
+1 History
+2 Usage
+3 Alternative models
+4 Criticisms
+5 See also
+6 References
+
+
+
+History[edit]
+TAM is one of the most influential extensions of Ajzen and Fishbein's theory of reasoned action (TRA) in the literature. Davis's technology acceptance model (Davis, 1989; Davis, Bagozzi, & Warshaw, 1989) is the most widely applied model of users' acceptance and usage of technology (Venkatesh, 2000). It was developed by Fred Davis and Richard Bagozzi (Davis 1989, Bagozzi, Davis & Warshaw 1992[1]). TAM replaces many of TRA's attitude measures with the two technology acceptance measures—ease of use, and usefulness. TRA and TAM, both of which have strong behavioural elements, assume that when someone forms an intention to act, that they will be free to act without limitation. In the real world there will be many constraints, such as limited freedom to act (Bagozzi, Davis & Warshaw 1992).
+Bagozzi, Davis and Warshaw say:
+
+Because new technologies such as personal computers are complex and an element of uncertainty exists in the minds of decision makers with respect to the successful adoption of them, people form attitudes and intentions toward trying to learn to use the new technology prior to initiating efforts directed at using. Attitudes towards usage and intentions to use may be ill-formed or lacking in conviction or else may occur only after preliminary strivings to learn to use the technology evolve. Thus, actual usage may not be a direct or immediate consequence of such attitudes and intentions. (Bagozzi, Davis & Warshaw 1992)
+
+Earlier research on the diffusion of innovations also suggested a prominent role for perceived ease of use. Tornatzky and Klein (Tornatzky & Klein 1982) analysed the adoption, finding that compatibility, relative advantage, and complexity had the most significant relationships with adoption across a broad range of innovation types. Eason studied perceived usefulness in terms of a fit between systems, tasks and job profiles, using the terms "task fit" to describe the metric (quoted in Stewart 1986) Legris, Ingham & Collerette 2003 suggest that TAM must be extended to include variables that account for change processes and that this could be achieved through adoption of the innovation model into TAM.
+Usage[edit]
+Several researchers have replicated Davis's original study (Davis 1989) to provide empirical evidence on the relationships that exist between usefulness, ease of use and system use (Adams, Nelson & Todd 1992; Davis 1989; Hendrickson, Massey & Cronan 1993; Segars & Grover 1993; Subramanian 1994; Szajna 1994). Much attention has focused on testing the robustness and validity of the questionnaire instrument used by Davis. Adams et al. (Adams 1992) replicated the work of Davis (Davis 1989) to demonstrate the validity and reliability of his instrument and his measurement scales. They also extended it to different settings and, using two different samples, they demonstrated the internal consistency and replication reliability of the two scales. Hendrickson et al. (Hendrickson, Massey & Cronan 1993) found high reliability and good test-retest reliability. Szajna (Szajna 1994) found that the instrument had predictive validity for intent to use, self-reported usage and attitude toward use. The sum of this research has confirmed the validity of the Davis instrument, and to support its use with different populations of users and different software choices.
+Segars and Grover (Segars & Grover 1993) re-examined Adams et al.'s (Adams, Nelson & Todd 1992) replication of the Davis work. They were critical of the measurement model used, and postulated a different model based on three constructs: usefulness, effectiveness, and ease-of-use. These findings do not yet seem to have been replicated. However, some aspects of these findings were tested and supported by Workman (Workman 2007) by separating the dependent variable into information use versus technology use.
+Mark Keil and his colleagues have developed (or, perhaps rendered more popularisable) Davis's model into what they call the Usefulness/EOU Grid, which is a 2×2 grid where each quadrant represents a different combination of the two attributes. In the context of software use, this provides a mechanism for discussing the current mix of usefulness and EOU for particular software packages, and for plotting a different course if a different mix is desired, such as the introduction of even more powerful software (Keil, Beranek & Konsynski 1995).
+Venkatesh and Davis extended the original TAM model to explain perceived usefulness and usage intentions in terms of social influence (subjective norms, voluntariness, image) and cognitive instrumental processes (job relevance, output quality, result demonstrability, perceived ease of use). The extended model, referred to as TAM2, was tested in both voluntary and mandatory settings. The results strongly supported TAM2 (Venkatesh & Davis 2000).
+In an attempt to integrate the main competing user acceptance models, Venkatesh et al. formulated the unified theory of acceptance and use of technology (UTAUT). This model was found to outperform each of the individual models (Adjusted R square of 69 percent) (Venkatesh et al. 2003). UTAUT has been adopted by some recent studies in healthcare.[2]
+Alternative models[edit]
+
+The MPT model: Independent of TAM, Scherer (Scherer 1986) developed the matching person and technology model in 1986 as part of her National Science Foundation-funded dissertation research. The MPT model is fully described in her 1993 text (Scherer 2005, 1st ed. 1993), "Living in the State of Stuck", now in its 4th edition. The MPT model has accompanying assessment measures used in technology selection and decision-making, as well as outcomes research on differences among technology users, non-users, avoiders, and reluctant users.
+The HMSAM: TAM has been effective for explaining many kinds of systems use (i.e. e-learning, learning management systems, webportals, etc.) (Fathema, Sutton, 2013, Fathema, Shannon, Ross, 2015, Fathema, Ross, Witte, 2014). However, TAM is not ideally suited to explain adaption of purely intrinsic or hedonic systems (e.g., online games, music, learning for pleasure). Thus, an alternative model to TAM, called the hedonic-motivation system adoption model (HMSAM) was proposed for these kinds of systems by Lowry et al. (Lowry et al. Roberts). HMSAM is designed to improve the understanding of hedonic-motivation systems (HMS) adoption. HMS are systems used primarily to fulfill users' intrinsic motivations, such for online gaming, virtual worlds, online shopping, learning/education, online dating, digital music repositories, social networking, only pornography, gamified systems, and for general gamification. Instead of a minor TAM extension, HMSAM is an HMS-specific system acceptance model based on an alternative theoretical perspective, which is in turn grounded in flow-based cognitive absorption (CA). HMSAM may be especially useful in understanding gamification elements of systems use.
+Extended TAM: Several studies proposed extension of original TAM (Davis, 1989) by adding external variables in it with an aim of exploring the effects of external factors on users' attitude, behavioral intention and actual use of technology. Several factors have been examined so far. For example, perceived self-efficacy, facilitating conditions, and systems quality (Fathema, Shannon, Ross, 2015, Fathema, Ross, Witte, 2014).
+
+Criticisms[edit]
+TAM has been widely criticised, despite its frequent use, leading the original proposers to attempt to redefine it several times. Criticisms of TAM as a "theory" include its questionable heuristic value, limited explanatory and predictive power, triviality, and lack of any practical value (Chuttur 2009). Benbasat and Barki suggest that TAM "has diverted researchers' attention away from other important research issues and has created an illusion of progress in knowledge accumulation. Furthermore, the independent attempts by several researchers to expand TAM in order to adapt it to the constantly changing IT environments has lead [sic] to a state of theoretical chaos and confusion" (Benbasat & Barki 2007). In general, TAM focuses on the individual 'user' of a computer, with the concept of 'perceived usefulness', with extension to bring in more and more factors to explain how a user 'perceives' 'usefulness', and ignores the essentially social processes of IS development and implementation, without question where more technology is actually better, and the social consequences of IS use. Lunceford argues that the framework of perceived usefulness and ease of use overlooks other issues, such as cost and structural imperatives that force users into adopting the technology.[3] For a recent analysis and critique of TAM, see Bagozzi (Bagozzi 2007).
+Legris et al.[4] claim that, together, TAM and TAM2 account for only 40% of a technological system's use.
+Perceived ease of use is less likely to be a determinant of attitude and usage intention according to studies of telemedicine (Hu et al. 1999), mobile commerce (Wu & Wang 2005, and online banking (Pikkarainen 2004).
+See also[edit]
+
+Diffusion
+Diffusion of innovations
+Domestication theory
+Lazy user model
+List of marketing topics
+New product development
+Product life cycle management
+Research and development
+Technology adoption lifecycle
+Technology lifecycle
+Theory of planned behavior
+
+References[edit]
+
+
+^ Muhammad Sharif Abbasi; Ali Tarhini; Tariq Elyas; Farwa Shah (2015-10-09). "Impact of individualism and collectivism over the individual's technology acceptance behaviour: A multi-group analysis between Pakistan and Turkey". Journal of Enterprise Information Management. 28 (6): 747–768. doi:10.1108/JEIM-12-2014-0124. ISSN 1741-0398. 
+^ Huser, V.; Narus, S. P.; Rocha, R. A. (2010). "Evaluation of a flowchart-based EHR query system: A case study of RetroGuide☆". Journal of Biomedical Informatics. 43 (1): 41–50. doi:10.1016/j.jbi.2009.06.001. PMC 2840619. PMID 19560553. 
+^ Lunceford, Brett (2009). "Reconsidering Technology Adoption and Resistance: Observations of a Semi-Luddite". Explorations in Media Ecology. 8 (1): 29–47. 
+^ Legris et al. 2003, p. 191.
+
+
+
+Adams, D. A; Nelson, R. R.; Todd, P. A. (1992), "Perceived usefulness, ease of use, and usage of information technology: A replication", MIS Quarterly, 16: 227–247, doi:10.2307/249577 
+Ajzen, I.; Fishbein, M (1980), Understanding attitudes and predicting social behavior, Englewood Cliffs, NJ: Prentice-Hall 
+Bagozzi, R.P. (2007), "The legacy of the technology acceptance model and a proposal for a paradigm shift.", Journal of the Association for Information Systems, 8 (4): 244–254. 
+Benbasat, I.; Barki, H. (2007), "Quo vadis, TAM?" (PDF), Journal of the Association of Information Systems, 8 (4): 211–218 
+Bagozzi, R. P.; Davis, F. D.; Warshaw, P. R. (1992), "Development and test of a theory of technological learning and usage.", Human Relations, 45 (7): 660–686, doi:10.1177/001872679204500702 
+Bass, F. M. (1969), "A new product growth model for consumer durables", Management Science, 15: 215–227, doi:10.1287/mnsc.15.5.215 
+Bass, F. M. (1986), The adoption of a marketing model: Comments and observation, Cambridge, Mass.: Ballinger  In V. Mahajan & Y. Wind (Eds.), Innovation Diffusion Models of New Product Acceptance.
+Budd, R. J. (1987), "Response bias and the theory of reasoned action", Social Cognition, 5: 95–107, doi:10.1521/soco.1987.5.2.95 
+Chuttur, M.Y. (2009), Overview of the Technology Acceptance Model: Origins, Developments and Future Directions, Indiana University, USA, Sprouts: Working Papers on Information Systems 
+Czaja, S. J.; Hammond, K; Blascovich, J. J.; Swede, H (1986), "Learning to use a word processing system as a function of training strategy", Behaviour and Information Technology, 5: 203–216, doi:10.1080/01449298608914514 
+Davis, F. D. (1989), "Perceived usefulness, perceived ease of use, and user acceptance of information technology", MIS Quarterly, 13 (3): 319–340, doi:10.2307/249008 
+Davis, F. D.; Bagozzi, R. P.; Warshaw, P. R. (1989), "User acceptance of computer technology: A comparison of two theoretical models", Management Science, 35: 982–1003, doi:10.1287/mnsc.35.8.982 
+Fathema, N., Sutton, K. (2013). Factors influencing faculty members' Learning Management Systems adoption behavior: An analysis using the Technology Acceptance Model. International Journal of Trends in Economics Management & Technology, Vol. II(vi), pg20-28
+Fathema, N., Shannon, D., & Ross, M., (2015). Expanding the Technology Acceptance Model (TAM) to examine faculty use of Learning Management Systems (LMS). Journal of Online Learning and Teaching.11(2),210-233.
+Fathema, N., Ross, M., Witte, M., (2014). Student acceptance of university web portals: A quantitative study. International Journal of Web Portals. 6(2).42-58.
+Hendrickson, A. R.; Massey, P. D.; Cronan, T. P. (1993), "On the test-retest reliability of perceived usefulness and perceived ease of use scales", MIS Quarterly, 17: 227–230, doi:10.2307/249803 
+Hu, P. J.; Chau, P. Y. K.; Sheng, O. R. L. (1999), "Examining the tehnoogy acceptance model using physician acceptance of telemedicine technology.", Journal of Management Information Systems, 16 (2): 91–112 
+Keil, M.; Beranek, P. M.; Konsynski, B. R. (1995), "Usefulness and ease of use: field study evidence regarding task considerations", Decision Support Systems, 13 (1): 75–91, doi:10.1016/0167-9236(94)e0032-m 
+King, W. R.; He, J. (2006), "A meta-analysis of the technology acceptance model", Information & Management, 43 (6): 740–755, doi:10.1016/j.im.2006.05.003 
+Legris, P.; Ingham, J.; Collerette, P. (2003), "Why do people use information technology? A critical review of the technology acceptance model", Information & Management, 40 (3): 191–204, doi:10.1016/s0378-7206(01)00143-4 
+Lowry, Paul Benjamin; Gaskin, James; Twyman, Nathan W.; Hammer, Bryan; Roberts, Tom L. (2013), "Taking fun and games seriously: Proposing the hedonic-motivation system adoption model (HMSAM)", Journal of the Association for Information Systems (JAIS), 14 (11): 617–671 
+Lunceford, Brett. (2009). “Reconsidering Technology Adoption and Resistance: Observations of a Semi-Luddite.” Explorations in Media Ecology, 8 (1), 29-47.
+Pikkarainen, T.; Pikkarainen, K.; Karjaluoto, H. (2004), "Consumer acceptance of online banking: An extension of the Technology Acceptance Model.", Internet Research-Electronic Networking Applications and Policy, 14 (3): 224–235, doi:10.1108/10662240410542652 
+Scherer, M. J. (2005), Living in the State of Stuck, Fourth Edition, Cambridge, MA: Brookline Books. 
+Scherer, M. J. (2004), Connecting to Learn: Educational and Assistive Technology for People with Disabilities, Washington, DC: American Psychological Association (APA) Books, doi:10.1037/10629-000 
+Scherer, M. J. (2002), Assistive Technology: Matching Device and Consumer for Successful Rehabilitation, Washington, DC: APA Books. 
+Segars, A. H.; Grover, V. (1993), "Re-examining perceived ease of use and usefulness: A confirmatory factor analysis", MIS Quarterly, 17: 517–525, doi:10.2307/249590 
+Stewart, T. (1986), Task fit, ease-of-use and computer facilities, Norwood, NJ: Ablex, pp. 63–76  In N. Bjørn-Andersen, K. Eason, & D. Robey (Eds.), Managing computer impact: An international study of management and organizations
+Subramanian, G. H. (1994), "A replication of perceived usefulness and perceived ease of use measurement", Decision Sciences, 25(5/6): 863–873 
+Szajna, B. (1994), "Software evaluation and choice: predictive evaluation of the Technology Acceptance Instrument", MIS Quarterly, 18 (3): 319–324, doi:10.2307/249621 
+Tornatzky, L. G.; Klein, R. J. (1982), "Innovation characteristics and innovation adoption-implementation: A meta-analysis of findings", IEEE Transactions on Engineering Management, EM-29: 28–45, doi:10.1109/tem.1982.6447463 
+Venkatesh, V.; Davis, F. D. (2000), "A theoretical extension of the technology acceptance model: Four longitudinal field studies", Management Science, 46 (2): 186–204, doi:10.1287/mnsc.46.2.186.11926 
+Venkatesh, V. (2000), "Determinants of perceived ease of use: Integrating control, intrinsic motivation, and emotion into the technology acceptance model", Information systems research, 11 (4), pp. 342–365 
+Venkatesh, V.; Morris, M. G.; Davis, G. B.; Davis, F. D. (2003), "User acceptance of information technology: Toward a unified view" (PDF), MIS Quarterly, 27 (3): 425–478 
+Venkatesh, V.; Bala, H. (2008), "Technology Acceptance Model 3 and a Research Agenda on Interventions", Decision Sciences, 39 (2): 273–315, doi:10.1111/j.1540-5915.2008.00192.x 
+Wildemuth, B. M. (1992), "An empirically grounded model of the adoption of intellectual technologies", Journal of the American Society for Information Science, 43 (3): 210–224, doi:10.1002/(sici)1097-4571(199204)43:3<210::aid-asi3>3.0.co;2-n 
+Workman, M. (2007), "Advancements in technology: New opportunities to investigate factors contributing to differential technology and information use.", International Journal of Management and Decision Making, 8 (2): 318–342, doi:10.1504/ijmdm.2007.012727 
+Wu, J. H.; Wang, S C. (2005), "What drives mobile commerce? An empirical evaluation of the revised technology acceptance model.", Information and Management, 42 (5): 719–729 
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Technology
+
+
+
+
+
+
+
+
+
+Outline of technology
+Outline of applied science
+
+
+
+
+
+
+
+
+Fields
+
+
+
+
+Agriculture
+
+
+
+Agricultural engineering
+Aquaculture
+Fisheries science
+Food chemistry
+Food engineering
+Food microbiology
+Food technology
+GURT
+ICT
+Nutrition
+
+
+
+
+
+
+
+
+Biomedical
+
+
+
+Bioinformatics
+Biological engineering
+Biomechatronics
+Biomedical engineering
+Biotechnology
+Cheminformatics
+Genetic engineering
+Healthcare science
+Medical research
+Medical technology
+Nanomedicine
+Neuroscience
+Neurotechnology
+Pharmacology
+Reproductive technology
+Tissue engineering
+
+
+
+
+
+
+
+
+Buildings and
+construction
+
+
+
+Acoustical engineering
+Architectural engineering
+Building services engineering
+Civil engineering
+Construction engineering
+Domestic technology
+Facade engineering
+Fire protection engineering
+Safety engineering
+Sanitary engineering
+Structural engineering
+
+
+
+
+
+
+
+
+Educational
+
+
+
+Educational software
+Digital technologies in education
+ICT in education
+Impact
+Multimedia learning
+Virtual campus
+Virtual education
+
+
+
+
+
+
+
+
+Energy
+
+
+
+Nuclear engineering
+Nuclear technology
+Petroleum engineering
+Soft energy technology
+
+
+
+
+
+
+
+
+Environmental
+
+
+
+Clean technology
+Clean coal technology
+Ecological design
+Ecological engineering
+Ecotechnology
+Environmental engineering
+Environmental engineering science
+Green building
+Green nanotechnology
+Landscape engineering
+Renewable energy
+Sustainable design
+Sustainable engineering
+
+
+
+
+
+
+
+
+Industrial
+
+
+
+Automation
+Business informatics
+Engineering management
+Enterprise engineering
+Financial engineering
+Industrial biotechnology
+Industrial engineering
+Metallurgy
+Mining engineering
+Productivity improving technologies
+Research and development
+Tribology
+
+
+
+
+
+
+
+
+IT and
+communications
+
+
+
+Artificial intelligence
+Broadcast engineering
+Computer engineering
+Computer science
+Financial technology
+Information technology
+Music technology
+Ontology engineering
+RF engineering
+Software engineering
+Telecommunications engineering
+Visual technology
+Web engineering
+
+
+
+
+
+
+
+
+Military
+
+
+
+Army engineering maintenance
+Electronic warfare
+Military communications
+Military engineering
+Stealth technology
+
+
+
+
+
+
+
+
+Transport
+
+
+
+Aerospace engineering
+Automotive engineering
+Naval architecture
+Space technology
+Traffic engineering
+Transport engineering
+
+
+
+
+
+
+
+
+
+
+
+
+Others
+
+
+
+
+Applied
+science
+
+
+
+Cryogenics
+Electro-optics
+Electronics
+Engineering geology
+Engineering physics
+Hydraulics
+Materials science
+Microfabrication
+Nanoengineering
+
+
+
+
+
+
+
+
+Engineering
+(list)
+
+
+
+Audio
+Biochemical
+Ceramic
+Chemical
+Polymer
+Control
+Electrical
+Electronic
+Entertainment
+Geotechnical
+Hydraulic
+Mechanical
+Mechatronics
+Optical
+Protein
+Quantum
+Robotics
+
+Animatronics
+
+
+Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Components
+
+
+
+Infrastructure
+Invention
+
+Timeline
+
+
+Knowledge
+Machine
+Skill
+
+Craft
+
+
+Tool
+
+Gadget
+
+
+
+
+
+
+
+
+
+
+Scales
+
+
+
+Femtotechnology
+Picotechnology
+Nanotechnology
+Microtechnology
+Macro-engineering
+Megascale engineering
+
+
+
+
+
+
+
+
+History
+
+
+
+Prehistoric technology
+Neolithic Revolution
+Ancient technology
+Medieval technology
+Renaissance technology
+Industrial Revolution
+
+Second
+
+
+Atomic Age
+Jet Age
+Space Age
+Digital Revolution
+Information Age
+
+
+
+
+
+
+
+
+Theories and
+concepts
+
+
+
+Appropriate technology
+Collingridge dilemma
+Critique of technology
+Diffusion of innovations
+Disruptive innovation
+Dual-use technology
+Ephemeralization
+High tech
+Hype cycle
+Low-technology
+Mature technology
+Strategy of Technology
+Technicism
+Techno-progressivism
+Technocapitalism
+Technocentrism
+Technocracy
+Technocriticism
+Technoculture
+Technoethics
+Technoetic
+Technogaianism
+Technoliberalism
+Technolibertarianism
+Technological alliance
+Technological apartheid
+Technological change
+Technological convergence
+Technological determinism
+Technological escalation
+Technological evolution
+Technological fix
+Technological innovation system
+Technological momentum
+Technological nationalism
+Technological paradigm
+Technological rationality
+Technological revival
+Technological revolution
+Technological self-efficacy
+Technological singularity
+
+Singularitarianism
+
+
+Technological somnambulism
+Technological transitions
+Technological unemployment
+Technological utopianism
+Technology lifecycle
+
+Technology acceptance model
+Technology adoption lifecycle
+
+
+Technomancy
+Technopaganism
+Technorealism
+Technoromanticism
+Technoscience
+
+feminist
+
+
+Transhumanism
+
+
+
+
+
+
+
+
+Other
+
+
+
+Emerging technologies
+
+List
+
+
+Fictional technology
+High-technology business districts
+Kardashev scale
+List of technologies
+Philosophy of technology
+
+Ethics of technology
+
+
+Science, technology and society
+
+Technology dynamics
+Science and technology by country
+
+
+STEM fields
+
+Pre-STEM
+women
+
+
+STEAM fields
+Technology alignment
+Technology assessment
+Technology brokering
+Technology companies
+Technology demonstration
+Technology education
+
+Technical universities and colleges
+
+
+Technology evangelist
+Technology fusion
+Technology governance
+Technology integration
+Technology journalism
+Technology management
+Technology museum
+Technology policy
+Technology shock
+Technology strategy
+Technology and society
+Technology transfer
+Technophilia
+Technophobia
+Technoself
+Technosexual
+Technosignature
+Technostress
+Terotechnology
+
+
+
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Portal
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Technology_acceptance_model&oldid=758264876"					
+Categories: Product managementTechnological change 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+CatalàDeutschEestiΕλληνικάEspañolفارسیBahasa Indonesia中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 4 January 2017, at 12:14.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.372","walltime":"0.407","ppvisitednodes":{"value":2450,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":161435,"limit":2097152},"templateargumentsize":{"value":9,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  287.878      1 -total"," 51.75%  148.973     34 Template:Citation"," 17.37%   50.016      1 Template:Reflist"," 16.05%   46.214     39 Template:Harvnb"," 15.55%   44.760      4 Template:Navbox"," 13.49%   38.846      3 Template:Cite_journal"," 11.34%   32.643      1 Template:Technology","  2.79%    8.032      3 Template:Icon","  0.54%    1.552      1 Template:Sic","  0.43%    1.238      1 Template:Column-count"]},"scribunto":{"limitreport-timeusage":{"value":"0.201","limit":"10.000"},"limitreport-memusage":{"value":3227560,"limit":52428800}},"cachereport":{"origin":"mw1187","timestamp":"20170203125844","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":69,"wgHostname":"mw1219"});});

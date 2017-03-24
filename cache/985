@@ -1,0 +1,238 @@
+ 
+
+
+
+
+
+
+Wikipedie:Zamčené stránky
+
+Z Wikipedie, otevřené encyklopedie
+
+
+					Skočit na:					Navigace, 					Hledání
+
+
+
+
+
+pravidla:
+     Je zde použita šablona {{Malé}} označená jako pro "pouze dočasné použití".závazná
+     Je zde použita šablona {{Malé}} označená jako pro "pouze dočasné použití".doporučení
+     Je zde použita šablona {{Malé}} označená jako pro "pouze dočasné použití".v hlasování
+     Je zde použita šablona {{Malé}} označená jako pro "pouze dočasné použití".navrhovaná
+     Je zde použita šablona {{Malé}} označená jako pro "pouze dočasné použití".neschválená
+
+Doporučení
+
+Text této stránky je doporučení české Wikipedie. Vysvětluje standardy, s nimiž většina wikipedistů v principu souhlasí a které je vhodné dodržovat. Přesto není závazným pravidlem. Nebojte se stránku editovat, je-li potřeba, ale větší změny raději předem navrhněte v diskusi a oznamte je též Pod lípou.
+
+
+
+
+
+Správci mají právo „zamykat“ stránky, které poté nemohou být upraveny, popř. soubory, které poté nemohou být přepsány. Měnit takto zamčené stránky a soubory mohou jen další správci. Tato schopnost smí být využívána pouze ve velice omezeném rozsahu, neboť zamykání stránek je považováno za škodlivé (viz meta:protected pages considered harmful). 
+
+
+Obsah
+
+
+1 Použití
+
+1.1 Trvalé zamčení
+1.2 Dočasné zamčení
+1.3 Polozamčení
+1.4 Kaskádní zámek
+1.5 Zamčení přesunu
+1.6 Spor o verzi stránky
+
+
+2 Editace zamčených stránek
+3 Související články
+
+
+
+Použití[editovat | editovat zdroj]
+Trvalé zamčení[editovat | editovat zdroj]
+Trvale mohou být stránky zamčeny pouze v následujících případech:
+
+Ochrana vysoce viditelných stránek (Hlavní strana) před vandalismem.
+Ochrana loga a klíčových stránek o autorských právech, licenci, tiskových zprávách apod.
+Ochrana některých stran sloužících ke správě Wikipedie.
+V případě opakovaného vandalismu je možné na žádost uživatele zamknout jeho uživatelskou stránku a její podstránky.
+Důležité (systémové) šablony používané v jiných šablonách a jejich prostřednictvím na velkém množství stránek, které jsou nízkoúrovňové (jejich zdrojový kód je velmi jednoduchý a nelze očekávat jeho změny) nebo které jsou častým terčem nežádoucích úprav i ze strany zavedených uživatelů.
+
+Trvale a bez možnosti odemčení jsou automaticky zamčeny všechny texty rozhraní softwaru MediaWiki (tzv. hlášení), neboli stran ve jmenném prostoru MediaWiki.
+Na takto zamčenou stránku se může dát šablona: {{Dlouhodobě zamčeno}}
+Dočasné zamčení[editovat | editovat zdroj]
+Stránky mohou být krátkodobě zamčeny z následujících důvodů:
+
+Vynucená přestávka pro zklidnění situace při probíhající „editační válce“.
+Ochrana stránky či souboru, který je terčem opakovaného trvajícího vandalismu či editací prováděných vyloučeným uživatelem.
+Znemožnění změn stránky, na které se projevuje možná chyba v programu MediaWiki, v průběhu ladění této chyby.
+
+Na zamčenou stránku se dává šablona: {{Zamčeno}}
+Zamčení stránky v nějaké konkrétní podobě neznamená jakoukoli podporu příslušné verze, nežádejte prosím změnu zamčené verze za jinou.
+Diskusní stránky (i diskusní stránky uživatelů) se zamykají pouze v naprosto extrémních případech.
+Polozamčení[editovat | editovat zdroj]
+Stránky mohou být krátkodobě zamčeny pro editace nepřihlášených a nově registrovaných (od registrace neuplynuly více než 4 dny) uživatelů:
+
+Ochrana stránky, která je terčem opakovaného vandalismu většího počtu nepřihlášených uživatelů
+
+Na polozamčenou stránku se dává šablona: {{Polozamčeno}}
+Stránky mohou být dlouhodobě polozamčeny z následujících důvodů:
+
+Stránky, které jsou terčem silného a vytrvalého vandalismu.
+Stránky o osobách, které jsou terčem vytrvalého porušování pravidel Články o žijících lidech nebo Nezaujatý úhel pohledu
+Uživatelské stránky (nikoliv diskusní stránky), pokud o to uživatel požádá.
+Důležité (systémové) šablony používané v jiných šablonách a na mnoha stránkách.
+
+Na takto polozamčenou stránku se dle potřeby dá běžná šablona nebo šablona: {{Dlouhodobě polozamčeno}}
+Kaskádní zámek[editovat | editovat zdroj]
+Mediawiki umožňuje použít kaskádní zámek, který vedle zamykané stránky zamkne také všechny další stránky (např. šablony nebo obrázky), které jsou na stránku vloženy.
+Zamčení přesunu[editovat | editovat zdroj]
+Běžné zamčení v sobě standardně zahrnuje i zamčení přesunu stránky. Správce má možnost volit zamčení, které dovolí editovat stránku, ale neumožňuje ji přesouvat. To lze použít zejména v případech:
+
+Stránka obětí vytrvalého přesouvacího vandalismu.
+Při nevyřešeném sporu o název stránky.
+
+Spor o verzi stránky[editovat | editovat zdroj]
+Uzamčení stránky v některé ze sporných verzí v případě revertační války je vždy citlivou záležitostí a zamykající správce by jím neměl prosazovat svůj názor ani zámkem obcházet věcnou diskusi. Objektivitě zásahu může napomoci šablona {{Dvě verze}}.
+Editace zamčených stránek[editovat | editovat zdroj]
+Pravidlo needitovat zamčenou stránku se nevztahuje stejnou měrou na trvale zamčené stránky. U těchto stránek by správci měli být opatrní a editovat pouze v souladu s převažujícím míněním a pravidly týkajícími se daného tématu. V některých případech je vhodné nejprve navrhnout plánované změny na příslušné diskusní stránce a vyčkat na případné reakce.
+V případě dočasně zamčených stránek by správci neměli stránku editovat, neboť ostatní uživatelé, mající na věc různé názory, to dělat nemohou. V některých zvláštních případech je však po důkladném zvážení editace vhodná:
+
+Přidání šablony NPOV či jiného podobného upozornění na probíhající spor.
+Vrácení stránky na verzi z doby před započetím sporu, pokud taková vhodná verze existuje.
+Editace technického rázu nesouvisející s probíhajícím sporem.
+
+Související články[editovat | editovat zdroj]
+
+Wikipedie:Stránka je zamčena
+Šablona:Dvě verze
+Wikipedie:Špatná verze
+Wikipedie:Žádost o komentář/Zamykání článků a šablon
+
+
+
+
+ 
+						Citováno z „https://cs.wikipedia.org/w/index.php?title=Wikipedie:Zamčené_stránky&oldid=14558559“					
+Kategorie: Wikipedie:DoporučeníWikipedie:SprávceWikipedie:ZamykáníSkrytá kategorie: Pouze dočasná použití 
+
+
+
+Navigační menu
+
+
+Osobní nástroje
+
+Nejste přihlášen(a)DiskusePříspěvkyVytvoření účtuPřihlášení 
+
+
+
+Jmenné prostory
+
+Stránka projektu
+Diskuse
+
+
+
+
+Varianty
+
+
+
+
+
+
+
+
+
+Zobrazení
+
+Číst
+Editovat
+Editovat zdroj
+Zobrazit historii
+
+
+
+Další
+
+
+
+
+
+
+
+Hledání
+
+
+
+ 
+
+
+
+
+
+
+
+Navigace
+
+
+Hlavní stranaNejlepší článkyNáhodný článekPoslední změnyKomunitní portálPod lípouNápovědaPotřebuji pomocPodpořte Wikipedii 
+
+
+
+Tisk/export
+
+
+Vytvořit knihuStáhnout jako PDFVerze k tisku 
+
+
+
+Na jiných projektech
+
+
+Wikimedia CommonsWikidataWikizdroje 
+
+
+
+Nástroje
+
+
+Odkazuje semSouvisející změnyNačíst souborSpeciální stránkyTrvalý odkazInformace o stráncePoložka Wikidat 
+
+
+
+V jiných jazycích
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىঅসমীয়াবাংলাCatalàCebuanoCymraegDanskDeutschދިވެހިބަސްΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+Upravit odkazy 
+
+
+
+
+
+ Stránka byla naposledy editována 12. 1. 2017 v 17:44.
+Text je dostupný pod licencí Creative Commons Uveďte původ-Zachovejte licenci 3.0 Unported, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+
+
+Ochrana osobních údajů
+O Wikipedii
+Vyloučení odpovědnosti
+Vývojáři
+Prohlášení o cookies
+Mobilní verze
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.048","walltime":"0.064","ppvisitednodes":{"value":1387,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":20978,"limit":2097152},"templateargumentsize":{"value":6769,"limit":2097152},"expansiondepth":{"value":18,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   46.759      1 -total"," 97.42%   45.551      1 Šablona:Doporučení"," 94.51%   44.190      1 Šablona:Pravidla"," 90.35%   42.249      5 Šablona:Legenda"," 46.17%   21.589      5 Šablona:Zvýraznit"," 38.98%   18.227      5 Šablona:Mezery"," 36.24%   16.946      5 Šablona:Loop"," 36.06%   16.862      5 Šablona:Malé"," 32.72%   15.298      5 Šablona:Pouze_dočasné_použití"," 28.42%   13.291      5 Šablona:Chyba"]},"scribunto":{"limitreport-timeusage":{"value":"0.005","limit":"10.000"},"limitreport-memusage":{"value":766193,"limit":52428800}},"cachereport":{"origin":"mw1290","timestamp":"20170210192036","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":62,"wgHostname":"mw1251"});});

@@ -1,0 +1,1472 @@
+ 
+
+
+
+
+
+
+
+Help:Logging in
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Wikipedia:Logging in)
+
+					Jump to:					navigation, 					search
+
+For information on logs of actions performed on Wikipedia, see Help:Log.
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcut:
+
+H:Login
+
+
+
+
+
+
+
+Play media
+
+
+This video tutorial describes the steps in creating a user account on the English Wikipedia
+
+
+It is not necessary to log in before viewing or editing pages. It does provide additional features, and is generally recommended. If you do not wish to have your IP address known then you should log in. It is quick and simple to create a personal user account.
+
+
+
+Contents
+
+
+1 Logging in
+2 Why log in?
+
+2.1 Creating an account
+
+
+3 How to log in
+
+3.1 Login issues and problems
+3.2 What if I forget the username?
+3.3 What if I forget the password?
+
+
+4 How to set preferences
+5 Your user page and user talk page
+6 Logging out
+7 Editing while logged out
+8 Keeping your account secure
+9 See also
+
+
+
+Logging in
+Creating a user account means that you supply a username (your real name or a nickname) and a password. The system will reject a username that is already in use. A user account is created only once. You are then "logged in". The next time you log in, you supply your username again and demonstrate with the password that you are the same person. (Do not share your password with other people; this can allow them to misuse your account, which could lead to it being blocked.)
+Edits you make are recorded under your username. If you are not logged in your edits are labelled in page history with your IP address.
+User accounts created recently will be "unified" (that is, accessible from all Wikimedia projects). An older, non-unified account can be unified at Special:MergeAccount; unified users can use that page to check the status of their unified account. Preferences are currently set independently on each wiki. See m:Single login.
+Why log in?
+Main page: Wikipedia:Why create an account?
+You don't have to log in to read Wikipedia. You don't even have to log in to edit most of Wikipedia (there are some exceptions).
+However, it's still a good idea to log in, for these reasons:
+
+Other users will be able to recognise you by your username when you make changes to pages. As a "name" an IP address is somewhat clumsy. Also, if you use computers at different locations (home, office, internet cafe, etc.) you have a different IP-address in each case; even in the same location, depending on the Internet connection, the IP-address may be different each time. Therefore, a username is better to maintain an identity.
+You will have your own user page where you can write a bit about yourself, and a user talk page which you can use to communicate with other users.
+You will also be able to make user subpages, as an add-on to your user page.
+You will be able to mark an edit as minor, which avoids inconvenience for other users.
+You will be able to keep track of changes to pages you are interested in using a watchlist.
+If you choose to give an email address, other users will be able to contact you by email. This feature is anonymous — the user who emails you will not know your email address. You don't have to give your email address if you don't want to.
+
+Check the privacy policy of the individual site you're visiting, if any (for example, Wikipedia's draft privacy policy)
+
+
+You will be able to rename pages.
+You will be able to set your own preferences, to change things such as:
+
+The number of pages displayed in Recent changes
+The fonts, colours and layout of the site, by using different skins.
+
+
+
+Creating an account
+To create an account, click on the Create account link at the top right of the page. You will need to provide a username and password, as well as answer a visual "captcha" test. Users with text, speech, or legacy browsers will be unable to create an account if they cannot view this captcha image. If you are unable to view captchas, you can request for an account to be created for you at Wikipedia:Request an account.
+You may also be unable to create an account if it contains certain symbols (particularly the '@' symbol, as well as certain non-Latin characters) or words, or if it is too similar to that of an existing user. In that case, you will also have to request an account. If your IP address has account creation blocked, you can either request to be unblocked or request an account.
+How to log in
+"WP:COOKIES" redirects here. For the essay on notability, see Wikipedia:Run-of-the-mill. For WikiLove templates, see Wikipedia:WikiLove.
+
+
+Shortcut:
+
+WP:COOKIES
+
+
+First, make sure that your browser accepts cookies. Some browsers can accept or reject cookies from individual sites; users of these should configure the browser to accept cookies from each wiki you plan to edit, such as wikipedia.org.
+Click on the Log in link at the top right of the page. You will then be prompted to enter your username and password. If you have not logged in before, you will need to use the link provided to create an account.
+You may give your email address if you like. Other users will be able to send email to the address, but they won't be able to find out what the address is.
+If you click the box Remember me, you will not have to give your password again when you access MediaWiki wiki from the same computer. This feature will only work if your password was not generated by the MediaWiki software. So change your password please. The cookies containing username and password automatically expire 30 days after login (unless you log out manually).
+Logging in and setting preferences were previously done separately on each wiki. It is now possible to use the same username, password and e-mail address across all Wikimedia wikis, without needing to register an account on each wiki. For more details, see m:Help:Unified login.
+Login issues and problems
+If you find yourself unable to log in, you may have one of the problems addressed in the following paragraphs. If none of them seem to apply, ask for help at the help desk.
+
+The login link is obscured
+If you cannot click on the login link, for instance because it is obscured by other text, use this direct link to the login page. It may be helpful to add the page to your browser's bookmarks/favourites. (This problem may occur on certain browsers when using a large minimum font size.)
+
+
+My username and password are refused
+Both usernames and passwords are case-sensitive on Wikipedia. Did you remember to type in the right capitalization? For example, if you registered under MyUserName, you will not be able to log in as Myusername (notice the subtle difference in spelling). The same goes for your password. The only exception is the first character of the username, which is capital by default.
+
+
+I get logged out just after logging in
+There are a few possible causes of this problem:
+
+
+If you appear to have logged in, but as soon as you try to look at a page after 'Log in successful', you appear logged out again, it is very likely to be a cookie problem. See this brief tutorial on how to enable cookies for your browser.
+Make sure your computer's date and time are set correctly; if they are not, cookies may expire before they are supposed to. Note that some firewall and ad-blocking software may interfere with the cookie that Wikipedia uses to keep a person logged in.
+Some ISPs use transparent proxies which cause problems logging in. This happens most often with some satellite ISPs (particularly HughesNet/DirecWay/DirecPC).
+Occasionally, a user may find him/herself "automatically" logged out between beginning an edit and saving it, or when switching between multiple wiki pages open in multiple windows or tabs. This can be a result of your browser's cookie, cache, or firewall settings, but sometimes, especially during heavy server load, the system can "glitch" and your login information will be lost, resulting in a logout.
+
+
+Other causes
+If you are absolutely sure that the login information you have entered is correct, then someone else may have compromised your account. In this case, your account may not be recoverable unless you can prove that the account is yours. In rare cases, your account may have been renamed or usurped, especially if it has few or no edits. You can see if your account has been renamed by viewing the user rename log and search for your username in the "Title" field.
+
+
+I get a message that my IP address has been autoblocked
+Follow the instructions listed on screen on how to request an unblock or send an email to the unblock-en-i mailing list.
+
+What if I forget the username?
+If you have forgotten your username, these steps may help you recover it:
+
+Depending on your browser settings, you may find that the log in page redisplays the last username that was used on that computer.
+If you have received any emails from Wikipedia, these will include the username.
+If you can remember the names of any of Wikipedia pages that you edited while logged in, the username will be listed as part of the page history of those pages.
+If you can remember the first part of the name, this search page may help you remember the rest of it.
+If you previously entered an e-mail address when signing up for the account or in your Preferences, and you still have access to that e-mail account, then you can go to the login screen and click 'Reset your password'. Enter that email address on the next screen (Special:PasswordReset), and the system will send an email containing, among other things, a reminder of your user name.
+
+If none of these steps are successful you will have to start again with a new account. Wikipedia administrators will not be able to help you work out your username from your email address or your IP address.
+What if I forget the password?
+Main page: Help:Reset password
+If you have forgotten your password, these steps may help you recover it:
+
+If you previously entered an e-mail address when signing up for the account or in your Preferences, and you still have access to that e-mail account, then you can enter your username on the login screen and click 'Reset your password'. Enter your user name on the next screen (Special:PasswordReset), and the system will send a temporary password to your saved e-mail address that will allow you to retrieve your account. You can change the password after you log in.
+(Rare) If you have previously asked a Wikipedia tool such as AutoWikiBrowser to remember your password, and you still have access to the machine where the password is saved, then it may be possible to recover the saved password. Post at the tool's talk page for advice. Do not post the encrypted password.
+(Rare) If you have a long-established account and have previously set up a "committed identity", and you still have the "secret string" (see Template:User committed identity for details), then it may be possible to recover the account. Post at the Administrators' noticeboard for advice. Do not post the secret string.
+
+Otherwise you will have to create a new account under a different username. After doing this, if a user page and user talk page were created for the old account, it is advisable to make them redirect to the equivalent pages for the new account. (To carry the content and history of these pages over to the new location, you can use the "move" function—contact an administrator if assistance is needed.)
+How to set preferences
+Click on the My preferences link at the top right of the page for various options, including:
+
+Changing your password.
+Changing the skin, which changes the way that the web pages look.
+
+See Help:Preferences.
+Your user page and user talk page
+As a logged in user, you will be able to create your own user page and user talk page. When you are logged in, you will see your username displayed at the top right of the page. Click on this to get to your user page, which you can edit in the same way as any other wiki page.
+Most users write a little bit about themselves and their interests on their user page.
+You also have a User talk page. You can access this by clicking on the Talk link next to your username at the top right of the page. Other people may write messages in your user talk page by editing it, and you can respond. See Help:Talk page for more.
+Logging out
+You can log out any time by clicking on the Log out link at the top right of the page. And after it, you will be using an IP to read Wikipedia. To prevent the browser from remembering your username and suggesting it to the next user of the computer, remember to delete the Wikipedia cookies in your browser's privacy settings. Especially if you are using a public computer, you may want to delete all of the browser's recent history (Ctrl+⇧ Shift+Del in Firefox).
+In the mobile version, click the menu icon at the top left and then the logout button to the right of your username.
+Editing while logged out
+
+Shortcuts:
+
+WP:LOGGEDOUT
+WP:LOUT
+
+
+Occasionally an established editor will edit while logged out. While not usually an egregious issue, there can be some concerns about attribution and privacy.
+
+If you made an edit without logging in, you cannot go back and directly tie that edit to your account. If your desire to account for the edit overrides your desire for anonymity, you can log in, make a dummy edit, and add a note in the edit summary about the previous edit.
+
+
+If you make a comment on a talk page without logging in, then your signature will include your IP address. You can log in and edit the comment by replacing the signature; be aware that the WikiScanner tool will retrieve these actions from the database and record them at the Poor Man's Checkuser,[dead link] thus connecting your username and IP address.
+
+
+If you feel that the connection between the IP address and your username is an issue, then you can request that the edit be removed; see Wikipedia:Oversight#Policy and Wikipedia:Requests for oversight.
+
+In Firefox (with the Greasemonkey add-on) or in Chrome, you can install a simple script that prevents editing while logged out on all Wikimedia Foundation sites. Once the script is installed and you click on Edit while logged out, it pops up a notice that you are not logged in and does not proceed. Note that it does not yet prevent editing by clicking on red links or by direct links to edit pages.
+Keeping your account secure
+See also: Wikipedia:Security
+Users, especially administrators, should keep their accounts secure. If someone accesses your account and causes malicious damage, your reputation could be in trouble! Below are some tips on keeping your account secure:
+
+Never give your Wikipedia password to anyone, not even users claiming to be sysop and staff!
+Only enter your password on a Wikimedia site. Beware of fake sites. The domain name should end with wikipedia.org or wikimedia.org.
+Keep your computer up-to-date with the latest anti-virus and anti-spyware software.
+Your password should be easy to remember, but hard to guess.
+If you decide to log on using a public computer, remember to log out when done.
+Be careful when running user scripts. Some scripts can be programmed to steal cookies and thus compromise accounts.
+Consider committing to your identity by adding a cryptographic hash to your user page to prove that you are really the person behind your username.
+
+See also
+
+
+Help portal
+
+
+
+Wikipedia:Unified login
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia help pages
+
+
+
+
+
+
+
+
+
+
+Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.
+Or ask for help on your talk page
+
+
+
+
+Noticeboards (?)
+FAQs (?)
+Reference desks (?)
+The Missing Manual (?)
+Directories (?)
+
+
+
+
+
+
+
+
+About Wikipedia
+
+
+
+Administration
+Principles (Wikipedia in brief)
+Policies and guidelines
+What Wikipedia is not
+Disclaimer (parental advice)
+Making requests
+
+where to ask questions
+contact Wikipedia directly
+
+
+Who writes Wikipedia?
+Why create an account?
+
+
+
+
+
+
+
+
+Help for readers
+
+
+
+FAQ
+Books
+Copyright
+Glossary
+Mobile access
+Navigation
+Other languages
+Searching
+Students
+Viewing media
+
+
+
+
+
+
+
+
+Contributing
+to Wikipedia
+
+
+
+A plain and simple overview
+A primer for newcomers
+Asking for help
+Advice for young editors
+Avoiding common mistakes
+Etiquette (community expectations)
+Learning the ropes
+Instructional material
+Simplified Manual of Style
+Simplified rule-set
+
+"Ignore all rules"
+"The rules are principles"
+
+
+Style-tips
+Tip of the day
+Task Center
+Your first article (article wizard)
+Vandalism
+
+
+
+
+
+
+
+
+Getting started
+
+
+
+Wikipedia intro
+Wikipedia tutorial
+The Wikipedia Adventure
+Manual of Style intro
+Graphics tutorials
+Picture tutorial (Uploading intro)
+IRC (live chat) tutorial
+Navigating intro
+Policies intro
+Referencing intro
+Tables intro
+Talk pages intro
+VisualEditor user guide
+
+
+
+
+
+
+
+
+Dos and don'ts
+
+
+
+Accessibility
+Bio's
+Categorization
+Disambiguation
+Images
+Links
+Lists
+References
+Tables
+Talks
+
+
+
+
+
+
+
+
+How-to pages and
+information pages
+
+
+
+Appealing blocks
+Article deletion
+Categories
+Citations / references
+
+Referencing for beginners
+Citation Style 1
+Cite errors
+References and page numbers
+
+
+Convert
+Diff
+Editing
+
+toolbar
+edit conflict
+
+
+Email confirmation
+Find sources
+Files
+Footnotes
+Image deletion
+Infoboxes
+Linking (link color)
+Logging in
+Merging
+Namespaces
+Page name
+Redirect
+Renaming pages
+Passwords
+Reverting
+Talk pages (archiving)
+URL
+User contributions
+User page design center
+
+
+
+
+
+
+
+
+Coding wiki markup
+
+
+
+Wiki markup (cheatsheet)
+Barcharts
+Calculations
+Characters
+Citation templates
+Columns
+Hidden text
+HTML
+Lists
+Magic words (introduction)
+Music symbols
+Sections
+Sounds
+Tables (introduction)
+Templates
+
+documentation
+messages
+
+cleanup messages
+
+
+
+
+Transclusion
+Visual files
+Wiki tools
+
+
+
+
+
+
+
+
+Directories
+
+
+
+Abbreviations
+Departments
+Editor's index
+Essays
+FAQs
+Glossary
+Guidelines
+Help menu
+Manual of Style
+Policies
+Shortcuts
+Tips
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia accounts and governance
+
+
+
+
+
+
+Unregistered (IP) users
+
+
+
+Why create an account?
+Create an account
+Request an account
+IPs are human too
+IP addresses are not people
+IP hopper
+
+
+
+
+
+
+
+
+Registered users
+
+
+
+New account
+Logging in
+
+Reset passwords
+
+
+Username policy
+
+Changing username
+Usernames for administrator attention
+
+
+Unified login or SUL
+Alternate account
+
+
+
+
+
+
+
+
+Account security
+
+
+
+Password strength requirements
+User account security
+Personal security practices
+Two-factor authentication
+
+Simple 2FA
+2FA for AWB
+
+
+Committed identity
+On privacy, confidentiality and discretion
+Compromised accounts
+
+
+
+
+
+
+
+
+Blocks, global locks,
+bans, sanctions
+
+
+
+Blocking policy
+
+FAQ
+Admins guide
+Tools
+Autoblock
+
+
+Appealing a block
+
+Guide to appealing blocks
+UTRS Unblock Ticket Request System
+
+
+Blocking IP addresses
+
+Range blocks
+IPv6
+Open proxies
+
+
+Global locks
+Banning policy
+
+ArbCom appeals
+
+
+Sanctions
+
+Personal sanctions
+General sanctions
+Discretionary sanctions and Log
+Essay
+
+
+Long-term abuse
+Standard offer
+
+
+
+
+
+
+
+
+Related to accounts
+
+
+
+Sock puppetry
+Single-purpose account
+Sleeper account
+Vandalism-only account
+Wikibreak
+
+Enforcer
+
+
+Retiring
+
+Courtesy vanishing
+
+
+Clean start
+
+Quiet return
+
+
+
+
+
+
+
+
+
+
+User groups
+and global user groups
+
+
+
+Requests for permissions
+
+Admin instructions
+Admin guide
+
+
+Account creator
+
+PERM
+
+
+Autopatrolled
+
+PERM
+
+
+AutoWikiBrowser
+
+PERM
+
+
+Confirmed
+
+PERM
+
+
+Extended confirmed
+
+PERM
+
+
+File mover
+
+PERM
+
+
+Mass message sender
+
+PERM
+
+
+New page reviewer
+
+PERM
+
+
+Page mover
+
+PERM
+
+
+Pending changes reviewer
+
+PERM
+
+
+Rollback
+
+PERM
+
+
+Template editor
+
+PERM
+
+
+IP-block-exempt
+
+Requests
+
+
+Courses access
+
+Requests
+
+
+Bot accounts
+
+Requests
+
+
+Global rights policy
+
+OTRS Volunteer Response Team
+
+
+
+
+
+
+
+
+
+
+Advanced user groups
+
+
+
+Administrators
+
+RfA
+
+
+Bureaucrats
+
+RfB
+
+
+Edit filter manager
+
+Requests
+
+
+CheckUser and Oversight
+
+Requests
+
+
+
+
+
+
+
+
+
+
+Committees and related
+
+
+
+Arbitration Committee
+Mediation Committee
+Bot approvals group
+Functionaries
+Clerks
+
+
+
+
+
+
+
+
+Governance
+
+
+
+Administration
+
+FAQ
+
+
+Formal organization
+Editorial oversight and control
+Quality control
+Wikimedia Foundation
+
+Meta-Wiki
+
+
+Leadership opportunities
+WikiProjects
+Elections
+Policies and guidelines
+Unbundling administrators' powers
+Petitions
+Noticeboards
+Consensus
+Dispute resolution
+Reforms
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Help:Logging_in&oldid=763123407"					
+Categories: Wikipedia information pagesWikipedia basic informationWikipedia featuresWikipedia interface helpHidden categories: Wikipedia indefinitely move-protected pagesWikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Help page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+MediaWikiMeta-WikiWikinewsWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Languages
+
+
+العربيةAragonésAzərbaycancaবাংলাБеларуская (тарашкевіца)‎БългарскиCatalàČeštinaCymraegDeutschΕλληνικάEspañolEsperantoفارسیFøroysktGalego客家語/Hak-kâ-ngî한국어हिन्दीHornjoserbsceHrvatskiIlokanoBahasa IndonesiaItalianoBasa JawaქართულიLigureMagyarМакедонскиമലയാളംMaltiमराठीBahasa MelayuMirandésNederlands日本語Norsk bokmålଓଡ଼ିଆپښتوភាសាខ្មែរPlattdüütschPolskiPortuguêsРусскийSeelterskSicilianuසිංහලSimple EnglishSlovenčinaSlovenščinaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиBasa SundaTagalogతెలుగుไทยTürkçeУкраїнськаVènetoייִדישYorùbá粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 1 February 2017, at 12:52.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.212","walltime":"0.300","ppvisitednodes":{"value":1373,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":130813,"limit":2097152},"templateargumentsize":{"value":2544,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  190.851      1 -total"," 22.74%   43.399      1 Template:Pp-semi-indef"," 18.68%   35.655      3 Template:Navbox"," 15.65%   29.860      1 Template:Information_page"," 14.85%   28.349      1 Template:Help_navigation"," 12.34%   23.542      1 Template:Ombox"," 10.54%   20.121      1 Template:Pp-move-indef","  5.50%   10.498      1 Template:Key_press","  4.53%    8.653      1 Template:Wikipedia_technical_help","  4.41%    8.415      1 Template:Dead_link"]},"scribunto":{"limitreport-timeusage":{"value":"0.071","limit":"10.000"},"limitreport-memusage":{"value":3255547,"limit":52428800}},"cachereport":{"origin":"mw1268","timestamp":"20170206032647","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":86,"wgHostname":"mw1214"});});

@@ -1,0 +1,1057 @@
+ 
+
+
+
+
+
+
+Wikipedia:Template documentation
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This page is a how-to guide, detailing processes or procedures of some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines, and is therefore an essay.
+
+
+Shortcut:
+
+WP:TDOC
+
+
+
+
+
+Templates are a very powerful feature of MediaWiki, but can be confusing to new users and even experienced users can have difficulty making sense of the more complex ones. Templates should therefore be accompanied by documentation to improve usability.
+Template documentation should explain what a template does and how to use it. It should be simple enough that a user without complete knowledge of the intricacies of template syntax—which includes many experienced contributors who focus their attention elsewhere—can use it correctly. This is especially true in the case of very widely used templates.
+Editors should defer to official policies or guidelines when template documentation pages are inconsistent with established community standards and principles. Editors should also avoid "quoting" template documentation pages as though they are policy—including this how-to guide. Template documentation pages can be written without much—if any—debate, as opposed to Wikipedia policies that have been thoroughly vetted by the community (see WP:Local consensus for details).
+
+
+
+Contents
+
+
+1 What to include
+2 Where to place it
+3 How to create a documentation subpage
+4 Blank
+5 Examples
+6 Categories and interwiki links
+7 /sandbox and /testcases
+8 Several templates, one documentation page
+9 When no documentation is needed
+10 Tips and tricks
+11 See also
+
+
+
+What to include[edit]
+Template documentation should cover:
+
+The basic purpose of the template: what it does and if it is not immediately obvious, why it needs to be done. If there are other templates with similar names or purposes, it's a good idea to mention those, in order to reduce the chance of the wrong one being used. Include important limitations, such as the lack of {{Navbox visibility}} on the Mobile web site, if a template should only be used for certain countries or time periods, or other things that editors need to know before choosing to use the template.
+The parameters of the template: whether they are numbered, named or optional, and if so, what the default values are and what effect they have. If a parameter can take only a limited set of values or is constrained in any way, for example, if it can only use "yes", "no", or a number, this should be clearly explained.
+Usage examples: specify the exact wikitext that should be used and the result that it produces. The wikitext can be enclosed in a <code>...</code> container, to make it clear and easy to copy, like this. If the template can be used in several different ways, with or without optional parameters, for example, provide a range of examples. A good way to do so is to transclude the template itself into the documentation a few times (i.e., use live examples), with different parameters each time and list the parameters used in each case. With Template:Xpd this can be done without putting the template call twice in the wikitext.
+TemplateData: See Wikipedia:TemplateData/Tutorial.
+Related templates: if the template is one of a series of templates, include links to these – in particular, ensure that every template in the series is linked from each of the others, as this makes navigation easier. (A separate navigation template may be useful for this purpose, see: Template:Protection templates).
+Categories where applicable (InterWikimedia links should be listed at Wikidata – more information at Wikipedia:Wikidata). Like the documentation, categories must be listed within a <noinclude>...</noinclude> container on a template, or within <includeonly>...</includeonly> tags if placed on a documentation page. Many template categories are available, see: Category:Wikipedia templates to browse through them.
+
+The English Wikipedia is a source of templates for hundreds of other Wikipedias and sister projects. Often, templates are fully self-contained, so the process easy: the contents are simply copied to a new template page at the other wiki, and everything works. However, on more complex templates, the template may invoke a module, transclude other templates, only work if paired with a separate template, or need particular CSS or Javascript code to work. In these cases, it is helpful to include a brief list of templates or other code that this one requires, at the end of the documentation.
+Where to place it[edit]
+A template's page in the Template: namespace is the location for the template code that controls the look and behavior of that template. What usually appears underneath the title on the rendered Template: page (as opposed to the edit window on the Edit tab or, in the case of templates whose code is protected, the View source tab, is the rendered template itself, followed by a separate section to display the template's rendered documentation, followed by the categories to which the template belongs.
+However, the editable wikicode for the template's documentation is often placed on a separate subpage of the template itself, which is then transcluded at the end of the template page. This separates the often complex template code from the documentation, making the documentation easier to edit and reducing the number of accidental editing errors in the template code. It also allows templates to be protected where necessary, limiting editing access to important templates' code while allowing anyone to edit those templates' documentation. This method is sometimes referred to as the "template-doc page pattern".
+Documentation of any sort on a template page (including TemplateData) should always be enclosed by a <noinclude>...</noinclude> container, so that it does not show up when the template is used on another page. Text that is on a template page itself adds to the amount of text that must be processed when displaying the template, which is limited for performance reasons. Placing the documentation in a transcludable subpage avoids this. MediaWiki developers, who create the program that the Wikimedia Foundation's wikis run on, have recommended this placement for this very reason.
+How to create a documentation subpage[edit]
+Template documentation subpages should be named and formatted using the following general pattern, for consistency.
+Suppose your template is named Template:X. Create a subpage with the name Template:X/doc. See the details at {{Documentation subpage}} or start the page by copy-pasting the following standard wikitext:
+
+
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+== Usage ==
+
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+
+}}</includeonly>
+
+The top line will display a message explaining the current page and a link to the template page.
+Insert the documentation after the top line and categories under the appropriate comment line – leaving the comment in place, so that the layout is preserved when the page is edited in future. Related templates, policy page, projects, etc. can be linked to by adding a "See also" section.
+Save the subpage and return to the template itself, Template:X, in this example. Edit the template and append the following at the end of the template code:
+
+[--last line of your template code--]<noinclude>
+{{Documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>
+
+This will transclude {{documentation}} at the bottom of the template page.
+Important: Make sure the opening <noinclude> begins immediately after the last character of the template code or text and not on a new line, nor with any intervening spaces. Otherwise, extra space will be inserted below the template when it is used, which is usually not wanted.
+If the template is already protected, ask an administrator to do this or request an edit by using an {{edit protected}} on the template's talk page. If documentation and categories already exist in a section, enclosed within a <noinclude>...</noinclude> container, move them into the documentation subpage (where they should be enclosed in <includeonly>...</includeonly>), as it is best not to have documentation split across two separate pages.
+If the code is put on the template page first, one can benefit from the preload feature to get a pre-filled doc page skeleton; if the documentation page does not exist yet, clicking the edit link on the template page will preload the contents of Template:Documentation/preload into the editbox of the /doc subpage creation.
+You may wish to redirect the talk page of the /doc subpage to the talk page of the template itself. Then all talk relating to the template and its documentation will end up on the same talkpage. For example, redirect Template talk:X/doc to Template talk:X.
+Blank[edit]
+To generate a blank template, which may then be copied from the documentation and pasted into another page, use:
+
+{{subst:#tag:pre|{{subst:Parameters|code|base={{subst:BASEPAGENAME}}}}|style=overflow: auto;}}
+
+Examples[edit]
+To generate an instance of the template, populated with its own property names, use:
+
+({{subst:Parameters|demo|base={{subst:BASEPAGENAME}}|_base=}}
+
+Categories and interwiki links[edit]
+
+To place the template itself into a category, add the [[Category:Category name]] code inside an <includeonly>...</includeonly> section on the doc subpage.
+To create an interwiki link for the template itself, go to Wikidata and follow the instructions for adding links to pages.
+To place the doc subpage into a category, add the [[Category:Category name]] code inside a <noinclude>...</noinclude> section on the doc subpage.
+To make the template place an article into a category (when the article includes the template), add the [[Category:Category name]] code inside an <includeonly>...</includeonly> section on the template page. Exact placement within the template code may affect how the category code is executed.
+
+/sandbox and /testcases[edit]
+Before doing changes to a template it can be good to first copy the template code to a sandbox and run some testcases, since the template might be visible on thousands or even millions of pages. If you create subpages named exactly "/sandbox" and "/testcases" to a template then the green {{documentation}} box on the template auto-detects this and will show links to those pages in its header. See Wikipedia:Template sandbox and test cases for more information.
+Several templates, one documentation page[edit]
+When several templates work together or are very similar then it is often clearer and easier to maintain one single documentation page that documents them together. The simplest way to do this is to make a full documentation page at one of the templates, and then make "soft redirects" from the other templates. See, for instance, {{wrap}}.
+ When no documentation is needed[edit]
+When a template as displayed will link to a page that can serve as the documentation, then separate documentation is superfluous and does not need to be created. See, for instance, a stub template, which, when displayed, will link to Wikipedia:Stub. However, this is very rare.
+Tips and tricks[edit]
+Here are some tips to facilitate writing documentations:
+
+Links to templates like {{Japanese year|1800}} can be inserted by writing {{tlp|Japanese year|1800}}. See {{tlp}} for similar templates.
+HTML tags like <ref group="note">...</ref> can be easily inserted with {{tag}}. This example is written as {{tag|ref|params=group="note"}}
+Equals sign = can be inserted with {{=}}. For example, {{Citation needed|date=1900-02-29}} is made by {{tlp|Citation needed|date{{=}}1900-02-29}}. Avoid the equivalent notation &#61; which is not easy to read for other editors.
+Don't forget the single <nowiki /> tag. [[<nowiki />example]] becomes [[example]], and [<nowiki />http://en.wikipedia.org no link] is [http://en.wikipedia.org no link]. See WP:NOWIKI for the details.
+For a link to a category, use {{cat}}. For example, {{cat|Templates with incorrect parameter syntax}} becomes Category:Templates with incorrect parameter syntax.
+To suppress categorization of the /sandbox and /testcases pages of the template (if they exist), use this code at the bottom of the documentation subpage:
+
+
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||{{#ifeq:{{SUBPAGENAME}}|testcases||
+<!--Categories below here, please; interwikis to Wikidata.-->
+
+}}}}</includeonly>
+
+See also[edit]
+
+{{Documentation}} – Transcludes the documentation on the template page, and provides documentation view, edit and history links
+{{Documentation subpage}} – Explains that what follows is documentation, and links to the documented page
+<noinclude> and <includeonly>
+{{Improve documentation}}
+{{Template reference list}}
+Wikipedia:High-risk templates
+Wikipedia:Template sandbox and test cases
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia help pages
+
+
+
+
+
+
+
+
+
+
+Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.
+Or ask for help on your talk page
+
+
+
+
+Noticeboards (?)
+FAQs (?)
+Reference desks (?)
+The Missing Manual (?)
+Directories (?)
+
+
+
+
+
+
+
+
+About Wikipedia
+
+
+
+Administration
+Principles (Wikipedia in brief)
+Policies and guidelines
+What Wikipedia is not
+Disclaimer (parental advice)
+Making requests
+
+where to ask questions
+contact Wikipedia directly
+
+
+Who writes Wikipedia?
+Why create an account?
+
+
+
+
+
+
+
+
+Help for readers
+
+
+
+FAQ
+Books
+Copyright
+Glossary
+Mobile access
+Navigation
+Other languages
+Searching
+Students
+Viewing media
+
+
+
+
+
+
+
+
+Contributing
+to Wikipedia
+
+
+
+A plain and simple overview
+A primer for newcomers
+Asking for help
+Advice for young editors
+Avoiding common mistakes
+Etiquette (community expectations)
+Learning the ropes
+Instructional material
+Simplified Manual of Style
+Simplified rule-set
+
+"Ignore all rules"
+"The rules are principles"
+
+
+Style-tips
+Tip of the day
+Task Center
+Your first article (article wizard)
+Vandalism
+
+
+
+
+
+
+
+
+Getting started
+
+
+
+Wikipedia intro
+Wikipedia tutorial
+The Wikipedia Adventure
+Manual of Style intro
+Graphics tutorials
+Picture tutorial (Uploading intro)
+IRC (live chat) tutorial
+Navigating intro
+Policies intro
+Referencing intro
+Tables intro
+Talk pages intro
+VisualEditor user guide
+
+
+
+
+
+
+
+
+Dos and don'ts
+
+
+
+Accessibility
+Bio's
+Categorization
+Disambiguation
+Images
+Links
+Lists
+References
+Tables
+Talks
+
+
+
+
+
+
+
+
+How-to pages and
+information pages
+
+
+
+Appealing blocks
+Article deletion
+Categories
+Citations / references
+
+Referencing for beginners
+Citation Style 1
+Cite errors
+References and page numbers
+
+
+Convert
+Diff
+Editing
+
+toolbar
+edit conflict
+
+
+Email confirmation
+Find sources
+Files
+Footnotes
+Image deletion
+Infoboxes
+Linking (link color)
+Logging in
+Merging
+Namespaces
+Page name
+Redirect
+Renaming pages
+Passwords
+Reverting
+Talk pages (archiving)
+URL
+User contributions
+User page design center
+
+
+
+
+
+
+
+
+Coding wiki markup
+
+
+
+Wiki markup (cheatsheet)
+Barcharts
+Calculations
+Characters
+Citation templates
+Columns
+Hidden text
+HTML
+Lists
+Magic words (introduction)
+Music symbols
+Sections
+Sounds
+Tables (introduction)
+Templates
+
+documentation
+messages
+
+cleanup messages
+
+
+
+
+Transclusion
+Visual files
+Wiki tools
+
+
+
+
+
+
+
+
+Directories
+
+
+
+Abbreviations
+Departments
+Editor's index
+Essays
+FAQs
+Glossary
+Guidelines
+Help menu
+Manual of Style
+Policies
+Shortcuts
+Tips
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Template_documentation&oldid=762371286"					
+Categories: Wikipedia how-toTemplate documentationWikipedia templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Meta-Wiki 
+
+
+
+Languages
+
+
+Afrikaansالعربيةঅসমীয়াবাংলাभोजपुरीCatalàDanskDeutschEestiEspañolEsperantoفارسیFrançaisGaelgગુજરાતી한국어हिन्दीIlokanoBahasa IndonesiaItalianoBasa JawaქართულიLietuviųMagyarМакедонскиमराठीBahasa Melayuनेपाली日本語Norsk bokmålଓଡ଼ିଆភាសាខ្មែរPolskiPortuguêsРусскийShqipසිංහලسنڌيSlovenščinaСрпски / srpskiBasa SundaతెలుగుУкраїнськаاردوTiếng Việt吴语粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 28 January 2017, at 11:08.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.172","walltime":"0.234","ppvisitednodes":{"value":2080,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":92031,"limit":2097152},"templateargumentsize":{"value":3402,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  137.446      1 -total"," 40.54%   55.716      2 Template:Navbox"," 36.20%   49.756      1 Template:Help_navigation"," 31.71%   43.585      1 Template:Wikipedia_how_to"," 26.90%   36.969      1 Template:Ombox","  8.93%   12.274      1 Template:Wikipedia_technical_help","  7.79%   10.709      2 Template:See_also","  7.77%   10.683      1 Template:Flatlist","  7.52%   10.333      5 Template:Define","  5.18%    7.114     16 Template:Tag"]},"scribunto":{"limitreport-timeusage":{"value":"0.042","limit":"10.000"},"limitreport-memusage":{"value":1845920,"limit":52428800}},"cachereport":{"origin":"mw1261","timestamp":"20170206004111","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":55,"wgHostname":"mw1239"});});

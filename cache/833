@@ -1,0 +1,625 @@
+ 
+
+
+
+
+
+
+
+Template:Ambox
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+
+
+
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+This template is used on 1,230,000+ pages.
+To avoid large-scale disruption and unnecessary server load, any changes to this template should first be tested in its /sandbox or /testcases subpages or in your own user subpage. The tested changes can then be added to this page in one single edit. Please consider discussing any changes on the talk page before implementing them.
+
+
+
+
+
+Uses Lua:
+
+
+Module:Message box
+
+
+
+
+
+
+
+Message box
+meta-templates
+
+
+template
+context
+
+
+{{Ambox}}
+article
+
+
+{{Cmbox}}
+category
+
+
+{{Imbox}}
+image
+
+
+{{Tmbox}}
+talk
+
+
+{{Fmbox}}
+footer / header
+
+
+{{Ombox}}
+other pages
+
+
+{{Mbox}}
+auto-detect
+
+
+{{Asbox}}
+article stub
+
+
+{{Dmbox}}
+disambiguation
+
+
+This is the {{Ambox}} ([A]rticle [m]essage [box]) metatemplate.
+It is used to build article message box templates such as {{Underlinked}}. It offers several different colours, uses default images if no image parameter is given, and has some other features.
+
+
+Contents
+
+
+1 Common parameters
+
+1.1 name
+1.2 subst
+1.3 small
+1.4 type
+1.5 image
+1.6 sect
+1.7 issue and fix
+1.8 talk
+1.9 date
+1.10 info
+1.11 removalnotice
+1.12 cat
+1.13 all
+
+
+2 Other parameters
+
+2.1 imageright
+2.2 smallimage and smallimageright
+2.3 class
+2.4 style and textstyle
+2.5 text and smalltext
+2.6 plainlinks
+2.7 Additional categorisation parameters
+
+
+3 Technical notes
+4 See also
+
+
+Common parameters
+The box below shows the most common parameters that are accepted by {{Ambox}}. The purpose of each is described below.
+
+{{Ambox
+| name  = 
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| small = {{{small|}}}
+| type  = 
+| image = 
+| sect  = {{{1|}}}
+| issue = 
+| talk  = {{{talk|}}}
+| fix   = 
+| date  = {{{date|}}}
+| cat   = 
+| all   = 
+}}
+
+name
+The name parameter specifies the name of the template, without the Template namespace prefix. For example {{Underlinked}} specifies |name=Underlinked.
+This parameter should be updated if the template is ever moved. The purpose of this parameter is twofold:
+
+If incorrectly substituted, it allows the meta-template to notify the name of the template which has been substituted, which may help editors to fix the problem.
+It allows the template to have a more useful display on its template page, for example to show the date even when not specified, and to apply categorisation of the template itself.
+
+subst
+The subst parameter allows the meta-template to detect whether the template has been incorrectly substituted, and give an appropriate warning. It will also add such pages to Category:Pages with incorrectly substituted templates. Just copy the code exactly as it appears in the box.
+small
+The small parameter should be passed through the template, as this will allow editors to use the small format by specifying |small=left on an article:
+
+
+
+This is the small left-aligned Ambox format.
+
+
+Otherwise the standard format will be produced:
+
+
+
+
+
+This is the standard Ambox format.
+
+
+Other variations:
+
+For templates which should never be small, specify |small=no or do not pass the small parameter at all.
+For templates which should always be small, just specify |small=left.
+For templates which should default to small, try |small={{{small|left}}}. This will allow an editor to override by using |small=no on an article.
+
+See § sect, below, for information on how to limit |small= display to cases when the template is being used for a section instead of the whole article (recommended, to prevent inconsistent top-of-article display).
+type
+The type parameter defines the colour of the left bar, and the image that is used by default. The type is chosen not on aesthetics but is based on the type of issue that the template describes. The seven available types and their default images are shown below.
+
+
+
+
+
+type=speedy – Speedy deletion issues, such as {{db-g1}} and {{db-g3}}.
+
+
+
+
+
+
+
+type=delete – Deletion issues, such as {{article for deletion}} and {{proposed deletion}}.
+
+
+
+
+
+
+
+type=content – Content issues, such as {{POV}} and {{globalize}}.
+
+
+
+
+
+
+
+type=style – Style issues, such as {{cleanup}} and {{underlinked}}.
+
+
+
+
+
+
+
+type=notice – Article notices, such as {{current}} and {{in use}}.
+
+
+
+
+
+
+
+type=move – Merge, split and transwiki proposals, such as {{split}} and {{copy to Wiktionary}}.
+
+
+
+
+
+
+
+type=protection – Protection notices, such as {{pp-vandalism}} and {{pp-protected}}.
+
+
+If no type parameter is given the template defaults to |type=notice.
+image
+You can choose a specific image to use for the template by using the image parameter. Images are specified using the standard syntax for inserting files in Wikipedia (see Wikipedia:Manual of Style/Images#How to place an image.) Widths of 40-50px are typical. For example:
+
+{{POV}} specifies |image=[[File:Unbalanced scales.svg|40px|link=|alt=]] and looks like this:
+
+
+
+
+
+
+The neutrality of this article is disputed. Relevant discussion may be found on the talk page. Please do not remove this message until conditions to do so are met. (February 2017) (Learn how and when to remove this template message)
+
+
+
+{{underlinked}} specifies |image=[[File:Ambox wikify.svg|50x40px|link=|alt=]] and looks like this:
+
+
+
+
+
+
+This article needs more links to other articles to help integrate it into the encyclopedia. Please help improve this article by adding links that are relevant to the context within the existing text. (February 2017) (Learn how and when to remove this template message)
+
+
+Please note:
+
+If no image is specified then the default image corresponding to the type is used. (See #type above.)
+If |image=none is specified, then no image is used and the text uses the whole message box area.
+If an icon is purely decorative and also in the public domain, accessibility can be improved by suppressing the link to the file page by adding "|link=|alt=" as seen above.
+
+sect
+Many article message templates begin with the text This article ... and it is often desirable that this wording change to This section ... if the template is used on a section instead. The value of this parameter will replace the word "article". Various possibilities for use include: |sect=list, |sect=table, |sect="In popular culture" material, etc.
+If using this feature, be sure to remove the first two words ("This article") from the template's text, otherwise it will be duplicated.
+A common way to facilitate this functionality is to pass |sect={{{1|}}}. This will allow editors to type section, for example, as the first unnamed parameter of the template to change the wording. For example, {{Advert|section}} produces:
+
+
+
+
+
+This section contains content that is written like an advertisement. Please help improve it by removing promotional content and inappropriate external links, and by adding encyclopedic content written from a neutral point of view. (February 2017) (Learn how and when to remove this template message)
+
+
+Another approach is to pass |sect={{{section|{{{sect|}}}}}} to provide a named value. Another is to use {{Yesno}} to parse the value for a positive, and pass |sect=section if true.
+These approaches can be combined, and this is recommended. The following ready-to-use code:
+| sect = {{#ifeq:{{yesno|def=|1={{{sect|{{{section}}}}}} }}|yes|section|{{{sect|{{{section|{{{1|}}}}}}}}} }}
+enables the following:
+
+Any positive value that {{Yesno}} can detect will be used with the named parameter in the ambox-based template to get "section" instead of "article": |section=y, |sect=True, etc. It is recommended to allow both |sect= and |section= so that editors do not have to guess which one will work. The sample code above does this for you.
+Any other value passed, in any manner, will replace "article": |section and its subsections, |1=list, |sect=section, |section=table, etc.
+
+It is also advisable to restrict use of the |small= parameter so that it is made contingent upon the template being applied to a section (or whatever) rather than the whole article, to prevent the small version of the template being used at the top of the article where it would be inconsistent with other article-wide cleanup/dispute banners:
+| small = {{#if:{{{sect|{{{section|{{{1|}}}}}}}}}|{{#if:{{{small|{{{left|}}}}}}|left}} }}
+(In this case, any value of |small= or |left= will trigger the small, left display, as long as some value of |sect= or one of its aliases in that template has also been provided.) This code can be copy-pasted and used with the above code block. See, e.g., Template:Trivia and its Template:Trivia/testcases to observe the combined functionality.
+issue and fix
+The issue parameter is used to describe the issue with the article. Try to keep it short and to-the-point (approximately 10-20 words) and be sure to include a link to a relevant policy or guideline.
+The fix parameter contains some text which describes what should be done to improve the article. It may be longer than the text in issue, but should not usually be more than two sentences.
+When the template is in its compact form (when placed inside {{multiple issues}}) or small form (when using |small=left), the issue is the only text that will be displayed. For example, {{Citation style}} defines
+
+|issue=This article '''has an unclear citation style'''.
+|fix=The references used may be made clearer with a different or consistent style of [[Wikipedia:Citing sources|citation]], [[Wikipedia:Footnotes|footnoting]], or [[Wikipedia:External links|external linking]].
+
+When used stand-alone it produces the whole text:
+
+
+
+
+
+This article has an unclear citation style. The references used may be made clearer with a different or consistent style of citation, footnoting, or external linking. (February 2017) (Learn how and when to remove this template message)
+
+
+But when used inside {{Multiple issues}} or with |small=left it displays only the issue:
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+This article has an unclear citation style. The references used may be made clearer with a different or consistent style of citation, footnoting, or external linking. (February 2017) (Learn how and when to remove this template message)
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+
+
+This article has an unclear citation style. (February 2017) (Learn how and when to remove this template message)
+
+
+talk
+Some article message templates include a link to the talk page, and allow an editor to specify a section heading to link directly to the relevant section. To achieve this functionality, simply pass the talk parameter through, i.e. |talk={{{talk|}}}
+This parameter may then be used by an editor as follows:
+
+|talk=SECTION HEADING - the link will point to the specified section on the article's talk page, e.g. |talk=Foo
+|talk=FULL PAGE NAME - the template will link to the page specified (which may include a section anchor), e.g. |talk=Talk:Banana#Foo
+
+Notes:
+
+When this parameter is used by a template, the talk page link will appear on the template itself (in order to demonstrate the functionality) but this will only display on articles if the parameter is actually defined.
+In order to make sure there is always a link to the talk page, you can use |talk={{{talk|#}}}.
+If the talk page does not exist, there will be no link, whatever the value of the parameter.
+
+date
+Passing the date parameter through to the meta-template means that the date that the article is tagged may be specified by an editor (or more commonly a bot). This will be displayed after the message in a smaller font.
+Passing this parameter also enables monthly cleanup categorisation when the cat parameter is also defined.
+info
+This parameter is for specifying additional information. Whatever you add here will appear after the date, and will not be displayed if the template is being wrapped in {{multiple issues}}.
+removalnotice
+If you specify |removalnotice=yes, then the following notice will be displayed after the date and after the info text:
+
+Learn how and when to remove this template message.
+
+This will not be displayed if the template is being wrapped in {{multiple issues}}.
+cat
+This parameter defines a monthly cleanup category. If |cat=CATEGORY then:
+
+articles will be placed in Category:CATEGORY from DATE if |date=DATE is specified.
+articles will be placed in Category:CATEGORY if the date is not specified.
+
+For example, {{No footnotes}} specifies |cat=Articles lacking in-text citations and so an article with the template {{No footnotes|date=June 2010}} will be placed in Category:Articles lacking in-text citations from June 2010.
+The cat parameter should not be linked, nor should the prefix Category: be used.
+all
+The all parameter defines a category into which all articles should be placed.
+The all parameter should not be linked, nor should the prefix Category: be used.
+Other parameters
+The box on the right shows all possible parameters for this template. However, it is not recommended to copy this, because it will never be required to use all parameters simultaneously.
+
+
+All parameters
+
+
+
+
+{{Ambox
+| name        = 
+| subst       = <includeonly>{{subst:substcheck}}</includeonly>
+| small       = {{{small|}}}
+| type        = 
+| image       = 
+| imageright  = 
+| smallimage  = 
+| smallimageright = 
+| class       = 
+| style       = 
+| textstyle   = 
+| sect        = {{{1|}}}
+| issue       = 
+| talk        = {{{talk|}}}
+| fix         = 
+| date        = {{{date|}}}
+| text        = 
+| smalltext   = 
+| plainlinks  = no
+| cat         = 
+| all         = 
+| cat2        = 
+| all2        = 
+| cat3        = 
+| all3        = 
+}}<noinclude>
+{{Documentation}}
+</noinclude>
+
+
+
+imageright
+An image on the right side of the message box may be specified using this parameter. The syntax is the same as for the image parameter, except that the default is no image.
+smallimage and smallimageright
+Images for the small format box may be specified using these parameters. They will have no effect unless |small=left is specified.
+class
+A custom CSS class to apply to the box.
+style and textstyle
+Optional CSS values may be defined, without quotation marks " " but with the ending semicolons ;.
+
+style specifies the style used by the entire message box table.
+textstyle relates to the text cell.
+
+text and smalltext
+Instead of specifying the issue and the fix it is possible to use the text parameter instead.
+Customised text for the small format can be defined using smalltext.
+plainlinks
+Normally on Wikipedia, external links have an arrow icon next to them, like this: Example.com. However, in message boxes, the arrow icon is suppressed by default, like this: Example.com. To get the normal style of external link with the arrow icon, use |plainlinks=no.
+Additional categorisation parameters
+
+cat2 and cat3 provide additional monthly categories; see #cat.
+all2 and all3 provide additional categories into which all articles are placed, just like #all.
+
+Technical notes
+
+This meta-template uses the ambox CSS classes in MediaWiki:Common.css. The classes can also be used directly in a wikitable if special functionality is needed. See the how-to guide for that.
+If you need to use special characters in the text parameter then you need to escape them like this:
+
+
+{{Ambox
+| text  = <div>
+Equal sign = and a start and end brace { } work fine as they are.
+But here is a pipe &#124; and two end braces <nowiki>}}</nowiki>.
+And now a pipe and end braces <nowiki>|}}</nowiki>.
+</div>
+}}
+
+
+
+
+
+
+
+
+Equal sign = and a start and end brace { } work fine as they are. But here is a pipe | and two end braces }}. And now a pipe and end braces |}}.
+
+
+
+
+
+The <div> tags that surround the text in the example above are usually not needed. But if the text contains line breaks then sometimes we get weird line spacing. This especially happens when using vertical dotted lists. Then use the div tags to fix that.
+This template uses CSS classes in MediaWiki:Common.css for most of its looks, thus it is fully skinnable.
+This template calls Module:Message box which holds most of the code for {{Ambox}}, while {{Ambox}} itself does parameter preprocessing.
+Internally, this meta-template uses HTML markup instead of wikimarkup for the table code. That is the usual way meta-templates are made, since wikimarkup has several drawbacks. For instance, it makes it harder to use parser functions and some special characters in parameters.
+The default images for this meta-template are in png format instead of svg format. The main reason is that some older web browsers have trouble with the transparent background that MediaWiki renders for svg images. The png images here have hand optimised transparent background colour so they look good in all browsers. Note that svg icons only look somewhat bad in the old browsers, thus such hand optimisation is only worth the trouble for very widely used icons.
+For more technical details see the talk page and the "See also" links below. Since this template works almost exactly like {{Tmbox}}, {{Imbox}}, {{Cmbox}} and {{Ombox}} their talk pages and related pages might also contain more details.
+
+See also
+There are seven metatemplates in the Module:Message box family:
+
+{{Ambox}}, for messageboxes on article pages.
+{{Cmbox}}, for messageboxes on category pages.
+{{Imbox}}, for messageboxes on file (image) pages.
+{{Tmbox}}, for messageboxes on talk pages.
+{{Fmbox}}, for header and footer messageboxes.
+{{Ombox}}, for messageboxes on other types of page.
+{{Mbox}}, for messageboxes that are used in different namespaces and change their presentation accordingly.
+
+Closely related metatemplates:
+
+{{Asbox}}, for messageboxes in article stubs.
+{{Dmbox}}, for messageboxes on disambiguation or set-index pages.
+{{Ivmbox}}, a simple full-width box with default ivory background intended to frame important messages or notices.
+
+Other pages:
+
+Wikipedia:Ambox CSS classes – Describes how to use the ambox CSS classes directly in wikitables and HTML tables.
+Wikipedia:Article message boxes – The style guideline for creating article message boxes.
+Wikipedia talk:Article message boxes – For discussion about these matters.
+
+
+
+
+
+The above documentation is transcluded from Template:Ambox/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (edit) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Ambox&oldid=704688422"					
+Categories: Article message templates with missing parametersLua-based templatesArticle message templatesMbox and messagebox templatesHidden categories: Wikipedia template-protected templatesArticles using small message boxesExclude in print 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other projects
+
+
+MediaWikiMeta-WikiWikispeciesWikibooksWikinewsWikisourceWikiversityWikivoyage 
+
+
+
+Languages
+
+
+AcèhAfrikaansÆngliscАҧсшәаالعربيةܐܪܡܝܐArmãneashtiArpetanঅসমীয়াAsturianuАварAzərbaycancaBamanankanবাংলাBahasa BanjarБашҡортсаБеларускаяБеларуская (тарашкевіца)‎भोजपुरीBikol CentralBislamaБългарскиBosanskiCatalàЧӑвашлаČeštinaCymraegDanskދިވެހިބަސްDolnoserbskiEestiΕλληνικάEspañolEsperantoEuskaraفارسیFøroysktFrançaisGaelgGagauzGàidhligGalegoગુજરાતીगोंयची कोंकणी / Gõychi Konknni한국어HausaՀայերենहिन्दीHornjoserbsceHrvatskiIlokanoBahasa IndonesiaИронÍslenskaItalianoBasa Jawaಕನ್ನಡKapampanganКъарачай-малкъарქართულიҚазақшаKiswahiliКомиKurdîКыргызчаLadinoLatgaļuLatinaLatviešuLëtzebuergeschLietuviųLivvinkarjalaLumbaartMagyarमैथिलीМакедонскиMalagasyമലയാളംMaltiमराठीمصرىBahasa MelayuМокшеньМонголမြန်မာဘာသာनेपाली日本語NapulitanoНохчийнNorsk bokmålNorsk nynorskOccitanОлык марийଓଡ଼ିଆOʻzbekcha/ўзбекчаਪੰਜਾਬੀپښتوភាសាខ្មែរTok PisinPolskiPortuguêsRomânăРусскийСаха тылаसंस्कृतम्SarduScotsShqipසිංහලSimple EnglishسنڌيSlovenčinaSlovenščinaŚlůnskiSoomaaligaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиBasa SundaSuomiSvenskaTagalogதமிழ்TaqbaylitТатарча/tatarçaతెలుగుไทยТоҷикӣTshivendaತುಳುTürkçeТыва дылУдмуртᨅᨔ ᨕᨘᨁᨗУкраїнськаاردوVepsän kel’Tiếng Việt文言吴语Xitsonga粵語Zazaki中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 12 February 2016, at 23:50.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.220","walltime":"0.286","ppvisitednodes":{"value":2122,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":152925,"limit":2097152},"templateargumentsize":{"value":4472,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  177.493      1 -total","100.00%  177.493      1 Template:Documentation"," 77.26%  137.129      1 Template:Ambox/doc"," 20.92%   37.126     17 Template:Ambox"," 11.45%   20.320      1 Template:Mbox_templates_(small)"," 10.52%   18.680      1 Template:Infobox","  7.22%   12.820      1 Template:Multiple_issues","  6.70%   11.892      1 Template:Mbox_templates_see_also","  5.52%    9.790      1 Template:Tla","  5.09%    9.040      1 Template:POV"]},"scribunto":{"limitreport-timeusage":{"value":"0.091","limit":"10.000"},"limitreport-memusage":{"value":2909828,"limit":52428800}},"cachereport":{"origin":"mw1237","timestamp":"20170206153205","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70,"wgHostname":"mw1270"});});

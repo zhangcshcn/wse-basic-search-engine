@@ -1,0 +1,1074 @@
+ 
+
+
+
+
+
+
+Help:Cascading Style Sheets
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Wikipedia:Cascading style sheets)
+
+					Jump to:					navigation, 					search
+
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcuts:
+
+H:CSS
+WP:CSS
+
+
+
+
+
+Cascading Style Sheets allow for flexible formatting of a page. They should be used instead of tables for non-tabular content whenever possible, because they can be manipulated by the reader or overridden by an author if your CSS is embedded in another page via a template. 
+
+
+Contents
+
+
+1 Levels of CSS settings
+2 Supported elements
+3 CSS in wikitext
+4 MediaWiki existing styles
+5 Tips and tricks
+
+5.1 Non-display
+5.2 Non-print
+
+
+6 Major style blocks
+7 Style depending on a parameter or variable
+
+7.1 Variable class or id
+7.2 Variable style parameter value
+
+
+8 Wiki headings
+9 See also
+10 Wikipedia-specific help
+
+
+
+Levels of CSS settings[edit]
+Style may be chosen specifically for a piece of content, see e.g. color; scope of parameters
+Alternatively, style is specified for CSS selectors, expressed in terms of elements, classes and id's. This is done on various levels:
+Author style sheets, in this order:
+Note: See WP:CLASS for a list of all the style sheets loaded.
+
+MediaWiki in general, per skin: MediaWiki Manual:Gallery of user styles etc. Typically loaded style sheets:
+
+common/shared.css
+common/commonPrint.css
+Skin-specific main file, e.g. monobook/main.css (normal skin for PC's), chick/main.css (normal skin for handhelds)
+Browser-specific fixes (also skin-specific). Examples for Monobook:
+
+For Firefox: monobook/FF2Fixes.css
+For Internet Explorer: monobook/IE50Fixes.css monobook/IE55Fixes.css monobook/IE60Fixes.css monobook/IE70Fixes.css
+For Opera: monobook/Opera6Fixes.css monobook/Opera7Fixes.css monobook/Opera9Fixes.css
+
+
+
+
+Site-wide for all skins: MediaWiki:Common.css
+Site-wide per skin: MediaWiki:Vector.css, MediaWiki:Monobook.css, etc.
+User-specific for all skins: Special:Mypage/common.css
+User-specific per skin: Special:Mypage/vector.css or Special:Mypage/skin.css for your current skin (note that in CSS terminology, the user-specific style sheets are not user style sheets)
+
+User style sheet:
+
+Web-wide, user-specific: local file, referred to in the browser settings, or directly set in the browser
+
+A HTML element may be just taken from the wikitext (see HTML in wikitext), e.g. span, or the result of translating wikitext, e.g. the ''' code is changed into <b>, or part of the code for the skin.
+A class may be produced by the software, e.g. ns-namespace number for the HTML-element "body", and extiw for an interwiki link in the page body, or taken from the wikitext.
+Similarly an id may be produced by the software, e.g. bodyContent, or taken from the wikitext.
+In the case of conflicting style settings for a piece of content, the resulting setting depends primarily on the indication "!important". Secondarily, if both are important, the user wins, if neither is, the author wins. Tertiarily it depends on specificity. Only lastly it depends on order between and within style sheets: the last wins. Thus a User:username/monobook.css does not win from MediaWiki:Monobook.css (both author, not user) if the specificity of the latter is greater. See also cascade.
+Supported elements[edit]
+MediaWiki supports most CSS, with such exceptions as the url() attribute. There were some bugs in CSS support in earlier versions.
+Further information: the Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+CSS in wikitext[edit]
+You can use CSS styling in HTML elements in your code (see Help:HTML in wikitext for a list of elements supported by MediaWiki) like you would in normal HTML markup.
+For example, a <div> element with a green border and its contents floated to the right would be created with
+
+
+<div style="float:right; border:thin solid green;">
+Here comes a short paragraph that is<br />
+contained in a "div" element that is<br />
+floated to the right.
+</div>
+
+
+Here comes a short paragraph that is
+contained in a "div" element that is
+floated to the right.
+
+which would produce the box to the right. Some wikitext elements allow you to insert CSS styling directly into them. An example is the table syntax:
+
+
+{| style="your style here"
+|-
+|your table stuff
+|}
+
+Further information: Help:Tables
+MediaWiki existing styles[edit]
+You may wish to use a style type that is already predefined by MediaWiki, or the site that you are visiting. You can also create a style that is unique to your page.
+Vector is the default style, you can view it at: MediaWiki:Vector.css
+You will give your CSS tag an existing "class"
+Please put a list of existing classes here.
+Tips and tricks[edit]
+Non-display[edit]
+In an embedded page, one can hide comments in one version, and show them in another view. One extreme "style" for a text is not displaying it, with
+
+.classname {display: none}
+#id {display: none}
+
+etc.
+Non-displayed links do not work (as opposed to links in a very small font).
+It cannot be used to remove text in expressions for template names, parameter names, parameter values, page names in links, etc.
+To view hidden text, download the Web Developer Toolbar for Firefox here, then choose Misc. -> show hidden elements in that toolbar. It will make all hidden elements appear.
+Non-print[edit]
+One can exclude content from being printed (if the browser supports CSS) by declaring the content to be of the "noprint" class:
+
+<div class="someclass noprint">This will not appear in the print version.</div>
+
+Major style blocks[edit]
+
+
+
+
+A graphic scheme may help to explain this section. If you understand it, please provide an image.
+
+
+
+column-content – overall space within the margins of which the content exists.
+firstHeading – the class of the heading tag at the top of every page
+contentSub – the name of the wiki immediately underneath the main heading, but above the body text
+content – the white background, thin bordered box which contains the main page content.
+bodyContent – the main page content within the content box
+
+The portlet class is the style used by all the div blocks around the main content. Identified blocks using that class:
+
+p-cactions – id for the list of page-related tabs above the main content (page, talk, edit, etc.), top.
+p-personal – id for the list of user-related links above the main content (username, talk, etc.), top.
+p-logo – id for the block that contains the logo, top left.
+p-navigation – id for the block that contains the navigation links on the left of the page
+p-search – the block that contains the search buttons
+p-tb – the block that contains the toolbox links
+p-lang – the block that contains interlanguage links
+
+The footer at the bottom of the page includes blocks with the following ids
+
+footer – overall footer container block
+f-poweredbyico – the powered by MediaWiki image that normally resides to the right of the page
+f-list – id for the list that contains all the bits of text at the bottom of the page
+
+Style depending on a parameter or variable[edit]
+Variable class or id[edit]
+A class or id can depend on the result produced by a template or on a template parameter, e.g. class="abc{{{1|def}}}". For one or more of the possible class names the style of that class can be defined. If the class is undefined it is ignored, so the standard style is used.
+In the simplest case we have e.g. class="abc{{{1}}}" and define class abcdef. If the parameter value is "def" it applies.
+If a page for general use only makes sense when styles are defined for certain classes, then these have to be specified in the page MediaWiki:Common.css, which applies for all users and all skins, as far as not overridden.
+Variable style parameter value[edit]
+Wikitext like
+
+<span style="display:{{{3|none}}}">Wed</span>
+
+displays "Wed" if parameter 3 is defined, but its value is not "none", and displays nothing if parameter 3 is undefined or "none". If the value of parameter 3 is a display style other than "none", that style is applied.
+Wiki headings[edit]
+Wiki headings use the following default CSS:
+
+
+Wikimarkup
+HTML
+Style
+
+
+= Heading =
+<h1>
+
+
+
+color: #000000; background: none; overflow: hidden; page-break-after: avoid; font-size: 1.8em; font-family: Georgia,Times,serif; margin-top: 1em; margin-bottom: 0.25em; line-height: 1.3; padding: 0; border-bottom: 1px solid #AAAAAA;
+
+
+
+
+== Heading ==
+<h2>
+
+
+
+color: #000000; background: none; overflow: hidden; page-break-after: avoid; font-size: 1.5em; font-family: Georgia,Times,serif; margin-top: 1em; margin-bottom: 0.25em; line-height: 1.3; padding: 0; border-bottom: 1px solid #AAAAAA;
+
+
+
+
+=== Heading ===
+<h3>
+
+
+
+color: #000000; background: none; overflow: hidden; page-break-after: avoid; font-size: 1.17em; font-weight: bold; margin-top: 0.3em; margin-bottom: 0; line-height: 1.6; padding-top: 0.5em; padding-bottom: 0;
+
+
+
+
+==== Heading ====
+<h4>
+
+
+
+color: #000000; background: none; overflow: hidden; page-break-after: avoid; font-size: 100%; font-weight: bold; margin-top: 0.3em; margin-bottom: 0; line-height: 1.6; padding-top: 0.5em; padding-bottom: 0;
+
+
+
+
+===== Heading =====
+<h5>
+
+
+
+color: #000000; background: none; overflow: hidden; page-break-after: avoid; font-size: 100%; font-weight: bold; margin-top: 0.3em; margin-bottom: 0; line-height: 1.6; padding-top: 0.5em; padding-bottom: 0;
+
+
+
+
+====== Heading ======
+<h6>
+
+
+
+color: #000000; background: none; overflow: hidden; page-break-after: avoid; font-size: 100%; font-weight: bold; margin-top: 0.3em; margin-bottom: 0; line-height: 1.6; padding-top: 0.5em; padding-bottom: 0;
+
+
+
+
+See also[edit]
+
+Help:User style. A person can modify the style, for accessibility, or additional feature testing.
+mw:Gallery of user styles
+mw:Skin projects
+m:Customization:Explaining skins
+mw:Manual:$wgAllowUserCss
+Cascading Style Sheets
+Wikipedia:Customisation
+Wikipedia:Catalogue of CSS classes
+
+Wikipedia-specific help[edit]
+Please see Wikipedia:Catalogue of CSS classes and classes used in microformats
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+CSS and JS MediaWiki interface files
+
+
+
+
+
+
+Project CSS
+
+
+
+Common
+Vector
+Monobook
+Cologneblue
+Modern
+Mobile
+
+
+
+
+
+
+
+
+Project JS
+
+
+
+Common
+Vector
+Monobook
+Cologneblue
+Modern
+Mobile
+
+
+
+
+
+
+
+
+Usergroup CSS
+
+
+
+Autoconfirmed
+Extendedconfirmed
+Extendedmover
+Bot
+Sysop
+Bureaucrat
+Checkuser
+Reviewer
+Steward
+Accountcreator
+Import
+Transwiki
+Ipblock-exempt
+Oversight
+Founder
+Rollbacker
+Autoreviewer
+Researcher
+Filemover
+Abusefilter
+Templateeditor
+
+
+
+
+
+
+
+
+Usergroup JS
+
+
+
+Autoconfirmed
+Extendedconfirmed
+Extendedmover
+Bot
+Sysop
+Bureaucrat
+Checkuser
+Reviewer
+Steward
+Accountcreator
+Import
+Transwiki
+Ipblock-exempt
+Oversight
+Founder
+Rollbacker
+Autoreviewer
+Researcher
+Filemover
+Abusefilter
+Templateeditor
+
+
+
+
+
+
+
+
+Other CSS
+
+
+
+Noscript
+Filepage
+Print
+
+
+
+
+
+
+
+
+Other JS
+
+
+
+edit
+watchlist
+Charinsert
+Geonotice
+
+
+
+
+
+
+
+
+Personal CSS
+
+
+
+global (all projects)
+common
+vector
+monobook
+cologneblue
+modern
+current skin
+
+
+
+
+
+
+
+
+Personal JS
+
+
+
+global (all projects)
+common
+vector
+monobook
+cologneblue
+modern
+current skin
+
+
+
+
+
+
+
+
+
+CSS/JS catalogue
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Help:Cascading_Style_Sheets&oldid=755428585"					
+Categories: Wikipedia information pagesWikipedia featuresWikipedia help 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Help page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+NederlandsPortuguêsSvenskaไทย中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 17 December 2016, at 23:41.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.136","walltime":"0.201","ppvisitednodes":{"value":880,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":72550,"limit":2097152},"templateargumentsize":{"value":500,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   91.587      1 -total"," 51.94%   47.570      1 Template:Information_page"," 44.30%   40.575      1 Template:Ombox"," 22.45%   20.564      2 Template:Navbox"," 20.44%   18.724      1 Template:Wikipedia_technical_help","  7.02%    6.430      2 Template:Further2","  6.89%    6.308      1 Template:Shortcut","  6.37%    5.834      1 Template:CSS_and_JS_MediaWiki_messages","  5.60%    5.129      1 Template:See_also","  5.14%    4.712      2 Template:Hatnote"]},"scribunto":{"limitreport-timeusage":{"value":"0.030","limit":"10.000"},"limitreport-memusage":{"value":1696446,"limit":52428800}},"cachereport":{"origin":"mw1218","timestamp":"20170204074539","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":75,"wgHostname":"mw1272"});});

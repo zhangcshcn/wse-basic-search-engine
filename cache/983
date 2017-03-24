@@ -1,0 +1,201 @@
+ 
+
+
+
+
+
+
+Viquipèdia:Pàgina protegida
+
+De Viquipèdia
+
+
+					Dreceres ràpides:					navegació, 					cerca
+
+
+
+Drecera:
+VP:PP o VP:PROT
+
+
+Una pàgina protegida és aquella que no pot ser modificada o desplaçada (reanomenada). La protecció pot afectar només els usuaris anònims (no registrats) i els usuaris nous (no autoconfirmats) o tots els usuaris llevat dels administradors. La protecció pot ser temporal o indefinida.
+
+
+
+Contingut
+
+
+1 Tipus de protecció
+
+1.1 Protecció completa
+1.2 Semi-protecció
+1.3 Prevenir la creació d'articles
+1.4 Prevenir el desplaçament d'articles
+
+
+2 Informació per als administradors
+3 Llista de pàgines protegides
+4 Enllaços relacionats
+
+
+
+Tipus de protecció[modifica | modifica el codi]
+Protecció completa[modifica | modifica el codi]
+Una pàgina protegida completament és aquella que només pot ser modificada pels administradors. La protecció pot ser temporal (p. ex. 7 o 14 dies) o indefinida. En aquest cas, la pestanya de "Modifica" es reemplaçada per una que diu "Mostra la font" que tots els usuaris poden veure i copiar, però no pas modificar. Els administradors, tanmateix, poden modificar-la, al damunt de la pàgina hi surt una alerta per informar l'administrador sobre el tipus de protecció i l'administrador que l'ha protegida. Tot i que pot haver-hi excepcions, els articles només han de ser protegits completament en casos de guerra d'edicions, i la protecció no comporta cap aval a l'última versió. Els administradors no han de protegir una pàgina si hi estan implicats en un conflicte d'edicions. En aquest cas han de sol·licitar la intervenció d'un altre administrador que prendrà la decisió de manera independent.
+Per a modificar una pàgina completament protegida els usuaris han de fer la proposta a la pàgina de discussió corresponent. Tan bon punt s'hagi assolit el consens per al canvi, o si el canvi no és controvertit (p. ex. hi ha un error ortogràfic o altre d'evident i de verificable) un administrador pot fer-lo. Si cap administrador ha seguit el debat, o si voleu l'atenció immediata d'un administrador per sol·licitar el canvi, sol·liciteu-la a Viquipèdia:Petició als administradors. Els administradors no han de modificar el contingut d'una pàgina protegida en cap altre cas (p. ex. els administradors no han d'abusar del seu privilegi per a fer modificacions del contingut d'aquelles pàgines on tinguin conflictes d'interès).
+Són casos especials les pàgines d'interfície de la Viquipèdia (espai MediaWiki) que per defecte estan sempre protegides. Les pàgines d'alt ús o visibilitat, com plantilles molt utilitzades o la portada, es poden protegir per precaució.
+Semi-protecció[modifica | modifica el codi]
+La semi-protecció d'una pàgina evita que els usuaris anònims (no registrats) i els usuaris novells (amb menys de quatre dies d'antiguitat) la modifiquin. Ja que la resta de la comunitat pot modificar la pàgina, aquest tipus de protecció s'efectua sovint per a prevenir casos de vandalisme reiterat o de violacions reiterades de les polítiques de la Viquipèdia per anònims (p. ex. inserció de publicitat, material amb drets d'autor, etc.). La semi-protecció no ha de ser una mesura preventiva en contra d'un vandalisme que mai no ha ocorregut; és a dir, només quan ja hi ha mostres de vandalisme, i per evitar-ne més, la pàgina pot ser semi-protegida. Una pàgina no ha de ser semi-protegida en guerres d'edicions per a evitar que els anònims i els usuaris novells no la modifiquin. En aquests casos, la pàgina ha de ser completament protegida. Com en el cas de les pàgines completament protegides, els usuaris poden demanar la semi-protecció d'una pàgina a Viquipèdia:Petició als administradors.
+Prevenir la creació d'articles[modifica | modifica el codi]
+Els administradors poden prevenir que un article es creï en fer ús de la interfície de protecció. Aquesta protecció s'ha de realitzar quan un article s'ha esborrat per violar alguna de les polítiques i normes de la Viquipèdia en múltiples ocasions, però torna a ser creada per un o més usuaris. La protecció és sensible a l'ús de majúscules i minúscules. Podeu trobar una llista de totes les pàgines protegides a Especial:Títols protegits. Si una pàgina ha estat protegida d'aquesta manera i un usuari vol tornar a crear-la respectant les polítiques de la Viquipèdia, pot fer la sol·licitud a Viquipèdia:Petició als administradors.
+Prevenir el desplaçament d'articles[modifica | modifica el codi]
+Els administradors també poden prevenir que una pàgina sigui desplaçada (reanomenada) a un títol (nom) diferent. Aquesta protecció s'utilitza quan hi ha vandalisme desplaçant pàgines sense cap sentit, o en casos de disputa quant al nom d'un article en particular. Hi ha pàgines que sempre tindran aquest tipus de protecció especialment aquelles relacionades amb la interfície de la Viquipèdia. En els casos dels articles, aquesta protecció només s'ha de fer quan hi ha consens quant al nom que han de tenir; i en cas que es protegeixi durant una guerra de desplaçament, la protecció, com no comporta cap aval al nom que porti.
+Informació per als administradors[modifica | modifica el codi]
+Després de protegir una pàgina, afegiu:
+
+la plantilla {{guerra d'edicions}} en casos de guerra d'edicions. La plantilla posarà una caixa d'avís per a informar al lector i el cadenat del color corresponent a la protecció. (La plantilla detecta automàticament el tipus de protecció).
+la plantilla {{protegida}} , en casos de protecció a causa de vandalisme o per evitar el desplaçament. La plantilla no posarà cap caixa d'avís sinó només el cadenat del color corresponent a la protecció.
+
+Recordeu que heu de retirar la plantilla tan bon punt expiri la protecció! Si no s'ha tret la plantilla d'una pàgina que ja no està protegida, aquesta constarà dins la Categoria:Pàgines protegides a revisar.
+Llista de pàgines protegides[modifica | modifica el codi]
+La plantilla de protecció automàticament afegeix la Categoria:Registre de pàgines protegides a les pàgines que les contenen. Tot i això no totes les pàgines protegides apareixen allà. Podeu veure la llista completa efectuada automàticament pel programari a Especial:Pàgines protegides. Per a consultar els títols protegits aneu a Especial:Títols protegits.
+Enllaços relacionats[modifica | modifica el codi]
+
+Especial:Pàgines protegides.
+Categoria:Registre de pàgines protegides.
+Especial:Log/protect Registre de proteccions.
+Viquipèdia:títols protegits
+Viquipèdia:Aquesta pàgina està protegida
+
+
+
+
+ 
+						Obtingut de «https://ca.wikipedia.org/w/index.php?title=Viquipèdia:Pàgina_protegida&oldid=15544063»					
+Categoria : Viquipèdia 
+
+
+
+Menú de navegació
+
+
+Eines personals
+
+Sense sessió iniciadaDiscussió per aquest IPContribucionsCrea un compteInicia la sessió 
+
+
+
+Espais de noms
+
+Pàgina de projecte
+Discussió
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Vistes
+
+Mostra
+Modifica
+Modifica el codi
+Mostra l’historial
+
+
+
+Més
+
+
+
+
+
+
+
+Cerca
+
+
+
+ 
+
+
+
+
+
+
+
+Navegació
+
+
+PortadaArticle a l'atzarArticles de qualitat 
+
+
+
+Comunitat
+
+
+Portal viquipedistaCanvis recentsLa tavernaContacteXatDonatiusAjuda 
+
+
+
+Eines
+
+
+Què hi enllaçaCanvis relacionatsPàgines especialsEnllaç permanentInformació de la pàginaElement a Wikidata 
+
+
+
+Imprimeix/exporta
+
+
+Crea un llibreBaixa com a PDFVersió per a impressora 
+
+
+
+En altres projectes
+
+
+CommonsWikidataViquinotíciesViquitexts 
+
+
+
+En altres llengües
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىঅসমীয়াবাংলাCebuanoČeštinaCymraegDanskDeutschދިވެހިބަސްΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+Modifica els enllaços 
+
+
+
+
+
+ Darrera modificació de la pàgina: 5 ago 2015 a les 21:20.
+El text està disponible sota la  Llicència de Creative Commons Reconeixement i Compartir-Igual; es poden aplicar termes addicionals.
+Vegeu les Condicions d'ús.
+Wikipedia® (Viquipèdia™) és una marca registrada de Wikimedia Foundation, Inc.
+
+
+Política de privadesa
+Quant al projecte Viquipèdia
+Avís general
+Desenvolupadors
+Declaracion suls cookies
+Versió per a mòbils
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.024","walltime":"0.031","ppvisitednodes":{"value":157,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":689,"limit":2097152},"templateargumentsize":{"value":101,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    8.328      1 -total"," 71.23%    5.932      2 Plantilla:Tl"," 24.76%    2.062      1 Plantilla:Drecera"]},"cachereport":{"origin":"mw1165","timestamp":"20170202025316","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":77,"wgHostname":"mw1179"});});

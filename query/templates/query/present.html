@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results for query {{ q }}</title>
+</head>
+<body>
+    <a href="../query">Portal</a>
+    <br>
+    {% if numDocs != 0 %}
+        Your query for "{{ q }}" yeilds {{ numDocs }} results: 
+        <ol>
+        {% for d in docs %}
+            <li><a href="{{d.url}}">{{d.title}}</a></li>
+        {% endfor %}
+    {% else %}
+        Nothing is found in response to your query for {{ q }}
+    {% endif %}
+    </ol>
+    <br>
+    {% for c in inCache %}
+        current index in cache: <br>
+        start: {{c.start}}<br>
+        number: {{c.number}}<br>
+        timestamp: {{c.timestamp}}<br>
+        <br>
+        Continue searching using the current index? <br>
+    {% endfor %}
+    
+    <form action=" {% url 'query:search' %} " method="get">
+        <label for="q">query: </label>
+        <input id="q" type="text" name="q" value=" ">
+        <br>
+        <input type="submit" value="Go!">
+    </form>
+</body>
+</html>

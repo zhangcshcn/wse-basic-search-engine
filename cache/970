@@ -1,0 +1,465 @@
+ 
+
+
+
+
+
+
+Commons:Protection policy
+
+From Wikimedia Commons, the free media repository
+
+
+					Jump to:					navigation, 					search
+
+
+Shortcuts
+COM:P
+COM:PROTECT
+This project page in other languages:
+
+Deutsch | English | français | suomi | 日本語 | português | português do Brasil | +/−
+
+
+
+
+
+
+
+
+
+This page is considered an official policy on Wikimedia Commons.
+It has wide acceptance among editors and is considered a standard that everyone must follow. Except for minor edits, please make use of the discussion page to propose changes to this policy.
+
+
+
+
+
+Administrators can protect a page or file to restrict editing or moving of that page. Such protection may be indefinite or expire after a specified time.
+This ability is usually only used to combat vandalism and edit wars and the protection is usually temporary. Some exceptions include heavily used templates and archived user right request pages.
+The protection log shows a record of which pages have been protected, by whom, and the reason they gave for protection. All the pages that are currently protected are listed on Special:Protectedpages. Nonexistent pages that are protected against creation are listed on Special:Protectedtitles.
+Fully protected pages should be tagged with the appropriate protection template to inform others and to auto-categorize the page under Category:Protected. Semi-protected pages are generally not tagged.
+
+
+
+Contents
+
+
+1 Types of protection
+
+1.1 Full protection
+1.2 Semi-protection
+1.3 Move protection
+1.4 Cascading protection
+1.5 Upload protection
+
+
+2 Requesting protection and unprotection
+3 See also
+
+
+
+Types of protection
+Full protection
+Full protection disables editing for everyone except administrators. Fully protected media files cannot be overwritten by new uploads except by administrators. Pages may be full protected indefinitely if they are heavily used images or frequently transcluded templates to prevent vandalism. Indefinite full protection may also be used for pages which should not be modified for copyright or legal reasons, such as Commons:GNU Free Documentation License.
+Pages experiencing edit warring as the result of a dispute may be temporarily protected. During this time, administrators should only make significant changes if there is consensus to do so. Any proposed changes should be discussed on the talk page. Such requests may, if they are immediate and uncontroversial, be accompanied by the {{editprotected}} tag to attract administrators' attention.
+Semi-protection
+Semi-protection disables editing for anonymous users and registered accounts less than four days old. This is the most common type of protection and is commonly used to prevent IP vandalism.
+Move protection
+Move protection protects the page solely from being moved. By default, fully protected pages are also move protected.
+Cascading protection
+Cascading protection fully protects all transcluded pages on the protected page, including any images and templates used on the page. Cascading semiprotection is disabled, because it enabled non-sysops to fully protect pages by transcluding them.
+In the past, it wasn't possible to protect nonexistent pages from being created. As a workaround, these pages were transcluded on a page that had cascading protection. It is now possible to protect pages using MediaWiki's built-in protection of nonexistent pages, which is applied in the same manner as ordinary protection. However, the old method has not been abandoned completely.
+Due to the widespread and powerful nature of cascading protection, its usage should be kept to a minimum. On Commons, cascading protection should only be used in rare situations where there's a consensus to do so.
+Cascading protection affects included files, however it affects their file description pages also. That causes (besides other things) that description and categorization of files used at the main page cann't be improved. This behavior is assaulted in phab:T24521 as a bug.
+Upload protection
+Upload protection might be used to prevent overwriting of files that are either heavily used across Wikimedia projects (e.g. template icons) or used in a dangerous location (e.g. wiki's main pages) in order to prevent vandalism. These protections might be indefinitely or temporary, for example only as long as a file is on a wiki's main page. For “heavily used” files [upload=sysop] and (to prevent malicious or accidental moves) [move=sysop] should be used. [edit=sysop] is not needed (and not useful since it, for example, does not allow category changes) if just the file's contents are important (e.g. if only very few views of the file page can be expected as it happens in non-linked template use).
+Requesting protection and unprotection
+
+To request protection
+
+
+Ask an administrator or make a request on Commons:Administrators' noticeboard/Blocks and protections.
+
+
+To request unprotection
+
+
+First, ask the administrator who protected the page.
+If they are unresponsive, ask a different administrator or ask at Commons:Administrators' noticeboard/Blocks and protections.
+
+See also
+
+m:Protected pages considered harmful
+Commons:Auto-protected files
+MediaWiki:Titleblacklist
+MediaWiki:Spam-blacklist
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikimedia Commons policies and guidelines
+
+
+
+
+
+
+Policies
+
+
+
+
+Project
+
+
+
+General disclaimer
+Privacy policy
+Project scope
+
+Allowable file types
+Evidence
+Neutral point of view
+Precautionary principle
+Pages, galleries and categories
+
+
+
+
+
+
+
+
+
+
+Content
+
+
+
+Licensing policy
+
+De minimis
+Fair use
+When to use the PD-Art tag
+
+
+Deletion policy
+Revision deletion
+Criteria for speedy deletion
+Language policy
+Category policy
+
+
+
+
+
+
+
+
+Behaviour
+
+
+
+Blocking policy
+Page protection
+De-adminship
+Paid contribution disclosure
+Translation administrators
+Signatures
+Username policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Guidelines
+
+
+
+
+Content
+
+
+
+What Commons is not
+Non-copyright restrictions
+Fan art
+Nudity
+Photographs of identifiable people
+Derivative works
+When to use the PD-scan tag
+Galleries
+Using ImageAnnotator
+File renaming
+Overwriting existing files
+Grandfathered old files
+
+
+
+
+
+
+
+
+Behaviour
+
+
+
+Assume good faith
+Ownership of pages and files
+Talk page guidelines
+User-specific galleries, templates and categories policy
+Vandalism
+Rollback
+Patrol
+
+
+
+
+
+
+
+
+
+
+
+Licensing help
+
+
+
+
+Choosing a license
+
+
+
+Copyright rules
+Copyright rules by subject matter
+Copyright rules by territory
+Copyright tags
+PD files
+
+
+
+
+
+
+
+
+Copyright special cases
+
+
+
+Derivative works
+De minimis
+Freedom of panorama
+2D copying
+Threshold of originality
+
+
+
+
+
+
+
+
+Using files
+
+
+
+Reusing content outside Wikimedia
+Credit line
+Reuse of PD-Art photographs
+
+
+
+
+
+
+
+
+How to detect copyright violations
+
+
+
+License laundering
+Problematic sources
+
+Flickr
+Picasa Web
+Bad sources
+
+
+License review
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Community portal
+Help contents
+
+
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://commons.wikimedia.org/w/index.php?title=Commons:Protection_policy&oldid=181552330"					
+Category: Commons policies 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+EnglishNot logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+View
+View source
+History
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigate
+
+
+Main pageWelcomeCommunity portalVillage pumpHelp center 
+
+
+
+Participate
+
+
+Upload fileRecent changesLatest filesRandom fileContact us 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+WikidataWikinewsWikipediaWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In Wikipedia
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىঅসমীয়াবাংলাCatalàCebuanoČeštinaCymraegDanskDeutschދިވެހިބަސްΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+Edit links 
+
+
+
+
+
+ This page was last modified on 10 December 2015, at 19:39.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+
+
+Privacy policy
+About Wikimedia Commons
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.092","walltime":"0.137","ppvisitednodes":{"value":868,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":62932,"limit":2097152},"templateargumentsize":{"value":4009,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   68.510      1 -total"," 50.83%   34.825      1 Template:Header"," 48.32%   33.107      1 Template:Header/layout"," 48.32%   33.104      4 Template:Navbox"," 43.95%   30.108      1 Template:TNT"," 32.16%   22.035      1 Template:Shortcut2"," 28.74%   19.690      2 Template:LangSwitch"," 28.09%   19.246      1 Template:Shortcut_text","  8.97%    6.145      1 Template:Header/i18n","  4.89%    3.350     66 Template:Localized_link"]},"scribunto":{"limitreport-timeusage":{"value":"0.026","limit":"10.000"},"limitreport-memusage":{"value":1192866,"limit":52428800}},"cachereport":{"origin":"mw1214","timestamp":"20170202031654","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":68,"wgHostname":"mw1180"});});

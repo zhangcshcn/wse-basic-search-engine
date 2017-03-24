@@ -1,0 +1,290 @@
+ 
+
+
+
+
+
+
+MediaWiki
+
+From MediaWiki.org
+
+
+					Jump to:					navigation, 					search
+
+
+Welcome to MediaWiki.org
+
+
+MediaWiki is a free software open source wiki package written in PHP, originally for use on Wikipedia. It is now also used by several other projects of the non-profit Wikimedia Foundation and by many other wikis, including this website, the home of MediaWiki.
+
+Use the links below to explore the site contents. You'll find some content translated into other languages, but the primary documentation language is English.
+For general questions about MediaWiki see the communication page or ask at the support desk.
+
+About this site   |   About MediaWiki   |   Download   |   Help and support   |   Contribute
+
+
+
+
+
+Using MediaWiki
+
+
+
+
+
+What is a wiki?
+
+Learn how to navigate
+Learn how to edit a page
+Get more help
+
+
+
+
+
+System Administration
+
+
+
+
+
+Install & configure MediaWiki
+
+Upgrade an existing MediaWiki installation
+Add features with third-party extensions
+Get more sysadmin help
+
+
+
+
+
+Developing & Extending
+
+
+
+
+
+Become a MediaWiki hacker
+
+Learn to use our APIs
+Write extensions or create your own skin
+Browse the developer docs and class reference
+Already a hacker? Visit the developer hub
+
+
+
+
+
+
+
+
+
+Current version
+
+
+1.28.0 – 2016-11-28
+1.27.1 – 2016-08-22
+
+
+
+Download
+
+
+
+
+
+News
+
+
+2016-11-28
+
+
+ MediaWiki 1.28.0 release is now available
+
+
+2016-08-22
+
+
+ MediaWiki 1.27.1, 1.26.4, 1.23.15 security releases are now available.
+
+
+2016-08-02
+
+
+The Wikimedia Developer Summit 2016 videos have been published to Commons.
+
+
+2016-06-28
+
+
+ MediaWiki 1.27.0 release (LTS) is now available
+ Note: MediaWiki 1.25.x versions are now end of life.
+
+
+2016-05-20
+
+
+ MediaWiki 1.26.3, 1.25.6, and 1.23.14 security releases are now available.
+Older news...
+
+
+
+
+New opportunities
+
+
+All upcoming events...
+Archived opportunities...
+Other ways to contribute...
+
+
+
+
+
+
+
+
+Languages:Project:Language policy
+English  • Afrikaans • العربية • asturianu • azərbaycanca • جهلسری بلوچی • български • brezhoneg • বাংলা • bosanski • català • čeština • dansk • Deutsch • Zazaki • Ελληνικά • Esperanto • español • فارسی • suomi • français • galego • עברית • हिन्दी • magyar • Հայերեն • Bahasa Indonesia • italiano • 日本語 • ქართული • қазақша • ភាសាខ្មែរ • 한국어 • kernowek • Baso Minangkabau • македонски • മലയാളം • मराठी • Bahasa Melayu • Nederlands • norsk bokmål • occitan • polski • português • português do Brasil • română • русский • සිංහල • slovenčina • slovenščina • Soomaaliga • shqip • svenska • ไทย • Türkçe • українська • Tiếng Việt • 粵語 • 中文 • 中文（简体）‎ • 中文（繁體）‎
+
+
+
+
+
+
+ 
+						Retrieved from "https://www.mediawiki.org/w/index.php?title=MediaWiki&oldid=2301969"					
+Hidden category: Languages pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+EnglishNot logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+MediaWiki.org
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageGet MediaWikiGet extensionsTech blogContribute 
+
+
+
+Support
+
+
+User helpFAQTechnical manualSupport deskCommunication 
+
+
+
+Development
+
+
+Bug trackerCode repositoryCode docsStatisticsWikimedia engineering 
+
+
+
+MediaWiki.org
+
+
+Browse categoriesCommunity portalRecent changesRandom pageCurrent issuesSandbox 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMeta-WikiWikispeciesWikibooksWikidataWikinewsWikipediaWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+
+
+
+ This page was last modified on 4 December 2016, at 20:12.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+See Terms of Use for details.
+
+
+Privacy policy
+About MediaWiki.org
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.156","walltime":"0.228","ppvisitednodes":{"value":6419,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":58938,"limit":2097152},"templateargumentsize":{"value":8226,"limit":2097152},"expansiondepth":{"value":18,"limit":40},"expensivefunctioncount":{"value":72,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  192.045      1 -total","100.00%  192.045      1 Template:Main_page"," 65.90%  126.554      1 Template:Languages"," 51.23%   98.394    138 Template:Languages/Lang"," 44.09%   84.664      1 Template:Nmbox"," 18.79%   36.094    261 Template:Translatable"," 11.23%   21.574     19 Template:Main_page/include"," 11.02%   21.160      1 Template:Current_versions"," 10.28%   19.742    141 Template:Pagelang","  7.48%   14.369      1 Template:MediaWiki_News"]},"scribunto":{"limitreport-timeusage":{"value":"0.006","limit":"10.000"},"limitreport-memusage":{"value":868419,"limit":52428800}},"cachereport":{"origin":"mw1266","timestamp":"20170212104653","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":51,"wgHostname":"mw1182"});});

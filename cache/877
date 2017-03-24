@@ -1,0 +1,1231 @@
+ 
+
+
+
+
+
+
+Wikipedia talk:Cascade-protected items
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+Wikipedia:Cascade-protected items is permanently protected from editing because it is a page that should not be edited significantly for legal or other reasons. Substantial changes should be proposed here first. If the proposal is uncontroversial or has been discussed and is supported by consensus, editors may use {{edit protected}} to notify an administrator to make the requested edit.
+
+
+
+Shortcut:
+
+WT:CASC
+
+
+
+
+
+Contents
+
+
+1 Notes
+2 Cascading protection
+3 Items
+4 Some remarks as to the contents
+5 Editnotice
+6 Do not delete or unprotect because listed here
+7 INDEX and NOINDEX
+8 Editable lead
+9 High-risk images
+
+9.1 Deleting protected files
+
+
+10 /doc subpages of cascade-protected templates
+11 A file locally uploaded per this page is nominated for deletion
+12 Edit request
+13 Cascade protection of non-fully protected redirects
+14 Requests for protection
+15 Edit request on 31 July 2013
+16 Proposal that this page be unprotected
+17 Removing individual templates
+
+17.1 List of templates to be removed
+
+17.1.1 Some Footers
+17.1.2 Some Infoboxes
+
+
+
+
+18 Merging lists
+19 Protected edit request on 25 March 2014
+20 Protected edit request on 12 July 2014
+21 Module:lockbox
+22 Protected edit request on 12 November 2015
+23 RfC regarding MediaWiki:FileUploadWizard.js
+24 Template:Error and Module:Error
+25 Template:Okina
+26 Protection of images
+
+
+
+Notes[edit]
+
+Purpose: belt and braces - but don't want a thousand admins with their own lockboxes. Unprotecting could get really complicated.
+Some of these these templates have been deleted or renamed.
+Some are duplicated at this stage.
+I am going to drop notes to Ceranium, Davidgothberg, Dinoguy1000 and Hersfold and get their pages unprotected.
+
+
+Rich Farmbrough, 21:26, 15 October 2009 (UTC).
+
+
+Sub-pages cannot rely on cascading unless they are invoked by the particular use of the template here.
+
+
+Rich Farmbrough, 22:29, 15 October 2009 (UTC).
+
+
+See also http://en.wikipedia.org/w/index.php?title=Special:ProtectedPages&namespace=2&cascadeonly=1
+
+
+Rich Farmbrough, 22:38, 15 October 2009 (UTC).
+
+Cascading protection[edit]
+
+This discussion was moved here from the talk page of David.
+
+I have anthologised your protected items page to Wikipedia:Cascade-protected_items, to do this job centrally rather than in disparate user pages - thanks for the work you put into creating it. Unless there's a good reason your user page should be unprotected now I guess. Rich Farmbrough, 22:32, 15 October 2009 (UTC).
+
+Ah, nice idea. And I like the page name you have chosen. But I think for now I will answer like Hersfold did on his talk page: "I'll probably keep the user page up just as an extra precaution, but it's good to have a central page for this." My reason is that I think some admins might remove items from this page, since they won't understand the reason that some items are on this page. Just like they delete and unprotect items even though we have BIG warning signs and explanations on their template or image pages. Some of the high-risk images I added to my cascade page were being deleted about once a month... So we might need more than one page protecting some of these items.
+--David Göthberg (talk) 04:16, 16 October 2009 (UTC)
+
+
+New coment(s) (since conversation was moved) below
+
+
+I have to agree with David and Hersfold on this - the central page is definitely a nice idea, and I considered looking into making one after I created my lockbox, but never got around to it. However, as David pointed out, some redundancy is still a good idea in the event that admins who don't know any better accidentally remove items from this page or from an individual user lockbox. Remember that the idea here *is* redundancy, after all - most of these templates and files are directly full-protected already. --Dinoguy1000 (talk · contribs) as 67.58.229.153 (talk) 04:25, 16 October 2009 (UTC)
+
+There does come a point where if someone has decided to unprotect something adding more and more instances on cascaded pages ceases to help. Where is that point I wonder? Rich Farmbrough, 04:57, 16 October 2009 (UTC).
+Items[edit]
+A couple of points: we need to clearly state exactly what type of items should be added here, and we should probably decide on a format for listing them all (throwing all pretense of humility out the window, I'd like to point out that the table system I have, while possibly too bulky for our purposes here, is the most advanced one of any of the cascade-protected pages I've looked at up to now =) ). Since I already wrote about the second point, I guess I'll go more in-depth about the first: We should probably be transcluding all items on the most-transcluded template/file reports, as well as all redirects and (in the case of templates, in the event they're not already covered by point 1) all files used by and all templates transcluded into them (and all the redirects to those). We also need to get all templates used by userscripts and editing aids (I'm looking at you, Twinkle, Friendly, and Huggle), and everything used in the MediaWiki: and Special: (are there any special pages which use templates or images?) namespaces. We should also look at stuff transcluded onto fully-protected pages (mostly the Main Page, but for all I know, there could be others). Obviously, this means we'll need a subpage system, since this many items is going to push the page well over template transclusion limits and I have no idea how that would interact with the cascading protection (yay for corner cases! =D ). Perhaps an admin bot could be programmed to handle all of this automatically whenever the reports are updated... Thoughts? --Dinoguy1000 (talk · contribs) as 67.58.229.153 (talk) 05:02, 16 October 2009 (UTC)
+
+Note that Main Page is of course cascade protected itself. Rich Farmbrough, 18:54, 20 October 2009 (UTC).
+I would go for three groups only:
+
+The most transcluded
+BLP risks and Office stuff
+Ultra high profile stuff. But I am wary of this Simple semi- or full protection has served in the past.
+
+
+Anything else and we are being more WP:CREEPy than we need to be.
+Rich Farmbrough, 19:03, 20 October 2009 (UTC).
+
+The whole point to this is redundancy, and I fail to see how WP:CREEP comes into play here; that applies more to policies and guidelines governing editing standards and editorial behavior. I was also aware that the Main Page is cascade-protected. If a given template or image is only semi-protected, it should of course be left off of this list, but a review to see if full protection is warranted should also be made at some point. Everything on this list should already be full-protected directly. 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 20:26, 20 October 2009 (UTC)
+
+
+
+
+Dinoguy1000: I really like your table (currently visible in the section "Meta stuff"). I would like to add one more column to it called "Comments" since I would like to add a reason/explanation to some templates explaining why they are added on this page. I think we should use your table for most templates, except those that create to large or strange output to fit in your table. Of course we should use several sections each with such a table, so we don't get one humongous hard-to-edit table.
+And since you didn't link to it, here is the link to Wikipedia:Database reports/Templates with the most transclusions. And if that page is not recently updated, there is the Special:MostLinkedTemplates which also is being updated, in spite itself stating that it is disabled. They seem to be separately updated, since sometimes the first one has the most current date, and sometimes the other one.
+And about what to add: I have some images in my lockbox that currently only exist on Wikimedia Commons. That prevents vandals from uploading a rude image locally and prevents them from editing/adding the local image description page. Since those images are protected over at Commons it is not so important to upload and protect them locally. Although in most cases I prefer a local copy, since then we enwp admins can handle them. Commons admins have several times moved, deleted, unprotected or changed images so they no longer fitted our local enwp needs.
+--David Göthberg (talk) 16:10, 23 October 2009 (UTC)
+
+
+
+
+A comments column is fine, and I think I would also like to split the "redirects" column similar to how the first two columns are split (only problem is that then we potentially get into rowspans, and I'm really not sure we want to be dealing with them here). Splitting the table, though, is definitely a necessity - even if this is bot-updated, it allows easier by-hand additions and makes splitting the page as necessary that much easier.
+Yep, I didn't feel like looking up the pages at the time, but we'll have to scrape both the database report and the specialpage. We also need a list of templates which are supposed to be substituted - IMO these are just about the highest-importance templates to get cascade-protected (only those which are transcluded into system messages or onto a significant number of pages are more important, and then only marginally so), because vandalism on them is insanely more difficult to clean up than ordinary template vandalism (this class of templates also covers most which are used by userscripts and editing aids). 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 20:42, 23 October 2009 (UTC)
+
+
+
+Some remarks as to the contents[edit]
+
+Why am I missing {{Pp-meta}}?
+
+
+Half of the citation templates isn't that widely used, and do not belong here.
+
+Debresser (talk) 07:03, 16 October 2009 (UTC)
+Pages that explain their content here could (and I think almost always should) be placed in <includeonly>...</includeonly> tags.
+Foremost:
+
+{{Navbox}}
+{{Db-meta}} (an example should be added to the discussion page instead)
+
+Debresser (talk) 07:05, 16 October 2009 (UTC)
+
+{{pp-meta}} is there, but isn't visible since it is currently in the hidden section. That section should probably be unhidden. This page is still just the first rough compilation based on the lockbox pages from several users. This page needs a lot of cleanup, among other things some templates are currently in several sections.
+Will the <includeonly>...</includeonly> tags do what I think here? That is make the template not render on this page, but still cascade protect the template and other templates used by it. If so, then I think that <includeonly>...</includeonly> is much better to use than <div style="display:none"></div>.
+But I think we only mostly should "hide" templates that cause very large output, or output that damages the formatting of this page. Since I think it is nice to be able to visually see what each template here is.
+Some templates work in pairs or groups, that has to be ended or surrounded to not disturb the rest of the page. Then we can simply put in the whole pair/group so it is ended or surrounded properly. Like {{nowrap begin}} - {{•wrap}} - {{nowrap end}}.
+Unfortunately, many templates causes this page to be categorised, and many of them can not easily be made to not categorise when demonstrated. But I don't think it hurts that much that this page ends up in some odd categories.
+Of course, if we hit the template transclusion limits on this page, then <includeonly>...</includeonly> might help (but not sure if it will help).
+--David Göthberg (talk) 15:27, 23 October 2009 (UTC)
+
+
+
+
+First of all, allow me to say a hearty "welcome back" to you. It's great to see you around again. I hope this is the beginning of seeing you more still.
+Actually, I was mistaken. For reasons unknow to me, all templates on this pages are listed both with and without {{tl}}. It would be better, if we could list them only with {{tl}}. Debresser (talk) 23:29, 24 October 2009 (UTC)
+
+Yes, this is intentional - in order for cascade protection to apply to a template, it must be directly transcluded onto a page protected with the cascading option set (from what I saw of David's sandbox, using <includeonly>...</includeonly> apparently doesn't work). The {{tl}} links are there to allow direct access to the templates transcluded onto here, since they often don't include backlinks in their code. 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 19:20, 26 October 2009 (UTC)
+
+Thank you for the explanation. So be it, then. Debresser (talk) 22:03, 26 October 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinoguy1000 is correct. I tested putting a <includeonly>...</includeonly> surrounded template on my personal lockbox page, but that template didn't get cascade protected.
+--David Göthberg (talk) 01:36, 27 October 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I'm still wanting to know what's going to happen with the protection when this page hits the transclusion limits. =) 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 21:03, 27 October 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+Dinoguy1000: I agree, that would be good to know. That should be easy to test. We should test that some day.
+--David Göthberg (talk) 23:12, 27 October 2009 (UTC)
+
+
+
+
+Even without specific testing, we're bound to find out eventually. =) 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 18:44, 29 October 2009 (UTC)
+
+
+
+Editnotice[edit]
+I have created an editnotice for this page at Template:Editnotices/Page/Wikipedia:Cascade-protected items - simply edit the page to see it in action. Feel free to adjust the wording or styling any way you see fit; also, there doesn't seem to be any way to adjust the image size in {{Editnotice}}, otherwise I'd've made it larger. 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 17:20, 16 October 2009 (UTC)
+Do not delete or unprotect because listed here[edit]
+Admin Ixfd64 just deleted a whole bunch of very high-risk images listed on this cascade page. And he unprotected some other images listed here. When doing so he used descriptions of this kind:
+
+unprotected File:Padlock-silver-medium.svg ‎ (now covered by Wikipedia:Cascade-protected items)
+deleted "File:Imbox license.png" ‎ (on Commons; protection now covered by Wikipedia:Cascade-protected items)
+
+But that is wrong. This cascade page is meant to be an extra protection, to protect against silly mistakes, such as admins deleting or unprotecting high-risk templates and images. This cascade page is not meant to be the only protection.
+For instance, Ixfd64 deleted several images used in the {{ambox}} and the other mbox templates. Those templates and their images are used on over 2 million articles and pages. So they need to be locally uploaded here (the English Wikipedia) and protected, even if there are exact copies of them at Commons. There are several reasons for that:
+
+Not all of them are protected at Commons.
+The admins at Commons don't know our needs and sometimes delete, rename or just unprotect the images over at Commons. This happens more often than you might think...
+Most of us who administer these templates and images are not admins at Commons, thus we can not update their description pages at Commons, or upload new improved versions of the images to Commons. But since most of us who work with high-risk templates and images are admins here at the English Wikipedia we can properly administer the images here.
+Several of these images have talkpages here, so we can discuss them. (To keep it simple most of their talk pages are redirected to one single talkpage.)
+
+So please, do not delete or unprotect items because they are listed at this cascade page.
+--David Göthberg (talk) 03:37, 3 November 2009 (UTC)
+
+The below text is a copy of parts of a discussion on Ixfd64's talk page. --David Göthberg (talk) 04:58, 3 November 2009 (UTC)
+
+
+I thought it was a common practice for administrators to delete local copies of Commons media. Since the cascading protection on Wikipedia:Cascade-protected items and elsewhere already covers these images, I saw no reason for keeping them locally. In fact, quite a few images on that page have already been deleted by other administrators. However, seeing that some of the images there are currently being discussed, I'll leave them alone for now. I'm sorry if I caused any inconvenience. --Ixfd64 (talk) 03:20, 3 November 2009 (UTC)
+
+
+
+
+You should almost never delete protected images, even if they have copies at Commons. The copies at Commons just act as backups for the high-risk images here. (And it makes the images available if/when the templates that use them are copied to other Mediawiki projects.) The reason you have seen other admins deleting such images is that unfortunately this is a very common mistake...
+The very reason we created that cascade page (and the old lockbox pages it is based on) is that admins keep doing the mistake of deleting or unprotecting templates and images here.
+--David Göthberg (talk) 03:48, 3 November 2009 (UTC)
+
+
+
+
+
+
+
+
+Hmm, that's a good point. Do you think it would be a good idea to create some sort of template that warns against the deletion of certain copies of Commons media? I'm thinking of making something similar to {{c-uploaded}}. --Ixfd64 (talk) 03:55, 3 November 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+We already have two such templates: {{pp-template|small=no}} and {{nocommons}}. See how we use both of them on for instance File:User-info.svg. We should probably see to that those templates are used on all the high-risk images.
+Oh, and I ask that you undo the deletions you just did. (I really have to go to bed so I am not able to clean up after you, it's already 5 in the morning here.) And don't forget to reprotect the images after you undelete them, since unfortunately they don't automatically get their old protection back.
+--David Göthberg (talk) 04:12, 3 November 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consider it done. --Ixfd64 (talk) 04:30, 3 November 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanks, you are much quicker than me.
+--David Göthberg (talk) 04:45, 3 November 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+End of copy of parts of a discussion on Ixfd64's talk page. --David Göthberg (talk) 04:58, 3 November 2009 (UTC)
+
+
+I'm thinking we probably need to work on the lead here some. It seems to do a decent job as-is of explaining this page's purpose and implications, but the information could be presented better - in particular, the idea that items should not be deleted or have their protection changed or removed if (or because) they are listed here. Any thoughts on new wording? 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 02:16, 6 November 2009 (UTC)
+
+To be more complete, we'd need to locally upload and protect highly used commons images. That's indeed the most serious security risk with images we have. Commons admins almost systematically refuse to protect locally high risk images. Cenarium (talk) 16:52, 6 November 2009 (UTC)
+
+Dinoguy1000: Right, I wrote that part but I suck at writing short and clear (even in my native tongue Swedish). So I wrote long and clear instead and hoped that you guys would be able to shorten it, and fix it if it isn't clear.
+Cenarium: Yeah, there are many more images we need to handle. I just added the 100 most used images to my personal lockbox page. If/when I get the time I will make some subpages here with the 1000 most used images. But yeah, we also need to locally upload them, especially if they are not protected at Commons.
+Dinoguy1000: I saw you added: "They should not be removed just because they are no longer widely used." Why? If an item is no longer high-risk, then I think we indeed should remove it from this cascade page. For instance: I didn't add all the redirects for the templates I added, instead I only added those redirects that are widely used.
+--David Göthberg (talk) 21:42, 6 November 2009 (UTC)
+
+
+
+
+It's all about BEANS - a page like this will only end up closely watched by vandals, and if we make a habit of removing stuff just because it no longer appears in high-use reports, they'll be watching for stuff which isn't otherwise protected. This is the same reason I think all redirects should also be listed, not just those that are high-use (for BEANS reasons, I won't go into detail on my reasoning behind this; feel free to email me if you'd like an actual explanation). If a given redirect isn't used enough for you to feel it should be listed here, its usefulness as a redirect should probably be questioned anyways. I have no qualms, though, about removing templates specifically in the course of deprecation (although it should probably be one of the last steps taken). 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 05:52, 7 November 2009 (UTC)
+
+
+
+
+
+
+
+
+Ah, I think I understand your reasoning. Anyway, I trust you on this. But the reason I popped in here today is to say this: Dinoguy1000: I really like the improvements you have done here today! And the lead section now feels good.
+--David Göthberg (talk) 17:27, 12 November 2009 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+That's good, though I'll still willingly explain better if you'd like. =) Personally, I'm still not completely happy with the lead (for instance, I think we need to enumerate in the lead exactly what gets listed here), but I'm waiting to do some work on it until we get an adminbot set up and running - more BEANS and all that. 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 23:07, 12 November 2009 (UTC)
+
+
+
+
+
+
+
+INDEX and NOINDEX[edit]
+I just noticed that this page has "__INDEX__" placed before the lead, and then immediately after the lead it has "{{NOINDEX}}". I guess that is supposed to mean that only the lead should be indexed. But does that really work?
+When I view the source of the rendered page, the only mark it has is "<meta name="robots" content="noindex,nofollow" />", so external search engines will not index this page at all.
+So the only thing left would be if the Wikipedia internal search understands to only partially index a page?
+--David Göthberg (talk) 08:49, 26 November 2009 (UTC)
+
+__INDEX__ and __NOINDEX__ (and their templates, {{INDEX}} and {{NOINDEX}}) only have an effect on external search engines; the MediaWiki search engine is unaffected. These are used e.g. to prevent subpages of AN/I and related pages from being indexed by Google and others, so that you have to use the MW search to find anything there. I'm not sure we need these things here, though (are the templates widely enough used to include here?). 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 00:26, 28 November 2009 (UTC)
+
+
+
+
+Thanks for the clarification. For this page it doesn't matter much if it is indexed or not. And according to the real-time stats from tools:~jarry/templatecount/ then {{INDEX}} is used on 130 pages, and {{NOINDEX}} is used on 590,000 pages. So {{NOINDEX}} belongs on this page, but in an appropriate section.
+--David Göthberg (talk) 04:33, 28 November 2009 (UTC)
+
+
+
+
+
+
+
+
+All right, if {{NOINDEX}} is such a high-use template, I think {{INDEX}} should also be listed here (a family of closely-related templates). The explicit __INDEX__ can be removed because it's not doing anything. 「ダイノガイ千？！」? · Talk⇒Dinoguy1000 15:39, 28 November 2009 (UTC)
+
+
+
+
+
+Editable lead[edit]
+Actually, the lead is wrong on this point. It is possible to have an editable lead, without changing the appearance of the page and (most importantly) while still retaining the benefits of cascading protection. Here's how:
+
+Migrate everything other than the lead onto a subpage, including the cascading protection
+Transclude the protected subpage onto the end of the lead (cascading only goes in one direction)
+Optionally semi-protect the lead, if desired
+
+This is basically the reverse of the /doc subpage pattern seen on indef-protected templates. Are there any objections/thoughts? --Thinboy00 @187, i.e. 03:29, 6 January 2010 (UTC)
+
+I've actually had a similar thought for some time - my thought was a more direct application of the /doc system (transclude the header, see also, cats, and iws from separate subpages, enclosed in <noinclude/> tags), but I like your idea better - it's simpler and a bit more straightforward for anyone wanting to adjust the lead or add another link. However, due to a bug (anyone have a link to the Bugzilla report?), your method will also result in the transclusion stats (the NewPP report in the page's source) being doubled. --Dinoguy1000 (talk · contribs) as 67.58.229.153 (talk) 05:21, 6 January 2010 (UTC)
+
+
+
+
+When I read Thinboy00's suggestion I thought: "Oh, smart, that might work." But when I read Dinoguy1000's message I realised there are even more problems: Then both this page and the subpage will be visible in "What links here" for each of the templates we put here. And even worse, some templates categorize the pages so then both this page and its subpage will be in those categories. So I think we have to keep it as it is.
+Of course, we can move the items to subpages without transcluding the subpages here, and just have a short header at the top of those subpages pointing to this page for more information. As we have discussed on this talk page before, due to template limits we probably will have to split this up into subpages anyway. And since I am going to add the top 1000 most transcluded images I will have to use subpages for them too. (I have added some hundreds of them so far to my personal cascade page.)
+--David Göthberg (talk) 08:31, 6 January 2010 (UTC)
+
+
+
+There might also be an attack by changing the name of the transclusion to a unicode-lookalike, which is a copy of the correct transclusion, waiting for enough material to be added where the cascade is not applied that normal error allows one of them to be used as a vector. A little unlikely, but possible. Rich Farmbrough, 14:06, 6 January 2010 (UTC).
+
+The fix for this is to make the page protected and transclude the lead too. There are still problems but they are rather WP:BEANS. Rich Farmbrough, 14:11, 6 January 2010 (UTC).
+
+High-risk images[edit]
+
+This discussion has been moved here from David's (my) talk page. The page Anomie refers to is User:Davidgothberg/DO NOT DELETE or unprotect items protected by this page, not even if it is an image that has a backup copy on Commons. --David Göthberg (talk) 13:05, 1 October 2011 (UTC)
+
+I don't know whether you care anymore, but I noticed that most if not all of the files linked from that page have in fact been deleted locally. Anomie⚔ 16:22, 25 September 2011 (UTC)
+
+Yes, it is unfortunate. I checked and some of the images aren't protected at Commons, thus some of our most visible images can now be vandalised by anyone.
+Trigger happy admins keep deleting our high-risk images, even if the image has text on its page explaining why it should be kept. Unfortunately many of those admins don't bother to read the image page, and they get no warning when they delete protected images.
+But I have figured out what we can do: Nowadays we can detect in template code if a page is protected, so we can update MediaWiki:Filedelete-intro so it shows a big warning message when an admin tries to delete a protected image. We should probably also update MediaWiki:Confirmdeletetext in the same way so admins get a warning when deleting other protected pages. (The magic word to detect protection is {{PROTECTIONLEVEL:edit/move/upload}}.)
+Unfortunately if someone anyway deletes an image the protection level is forgotten, so if/when the image is reuploaded/restored it is unprotected. Thus the next time the image is deleted there would be no warning message. So we could also add a permanent check in MediaWiki:Filedelete-intro for the 100 most high-risk images. Checking for 100 image names like that would be heavy template code, but it would only run when an admin tries to delete an image, thus it doesn't matter if it is heavy. And since we would only check full image names a simple switch-case would suffice, instead of using the more complex but more efficient method we use in {{category handler/blacklist}}.
+Since I am semi-retired from Wikipedia I might not get around to fix this, that's why I explained it in detail here so others can take over. But give me at least a week to think more about this first.
+--David Göthberg (talk) 13:05, 1 October 2011 (UTC)
+
+
+
+
+Y Done - We now get a warning message when trying to delete a protected page or image, or a known high-risk file. I also searched the entire MediaWiki space for all images that are used in system messages and added them to the list of known high-risk files.
+--David Göthberg (talk) 03:56, 2 October 2011 (UTC)
+
+So, should someone go through and undelete all those images on the list now? (If you say "thanks for volunteering", I'll ... go ahead and do it) Anomie⚔ 12:29, 2 October 2011 (UTC)
+
+I can't help feeling that it would be simpler to get them protected on commons rather than duplicating them all here. — Martin (MSGJ · talk) 16:18, 2 October 2011 (UTC)
+
+Even if they do, I for one don't trust Commons not go and screw it up later on. Anomie⚔ 16:46, 2 October 2011 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Anomie: Yes please, that would be very nice. Thanks for volunteering. :)
+If/when you do so only set upload protection, so that anyone still can edit the text on the image page. Personally I would also like to set the edit protection to autoconfirmed (semi-protected), since I think only logged in users need to edit the text on the image pages, but using semi-protection perhaps is controversial.
+I have a list of images that you could use:
+
+42 images used in system messages. I searched through all of MediaWiki space and some other places to find them. (I excluded most images that in the CSS are loaded from Commons, but included those that are loaded from the English Wikipedia. See my message below about URLs in CSS if you are curios.) The list isn't complete, I skipped the images on some silly system messages, I will perhaps take the time to add those image names later. (Those silly system messages are a whole swarm of experimental welcome pages created by some Wikimedia Foundation people, the messages are not in use.)
+6 images that are high-risk for special reasons.
+9 images from the image upload interface.
+And the 100 most used images.
+
+
+In what format do you want that list and where should I place it? (I suggest in your user space so it isn't too visible.)
+--David Göthberg (talk) 17:06, 2 October 2011 (UTC)
+
+Whichever format is most convenient, I can always reformat it if I figure out something better. You could stick it on one of my sandboxes, or create a new subpage. Doesn't matter to me either way. Anomie⚔ 17:39, 2 October 2011 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Okay, I have placed the image list in your /Sandbox11.
+--David Göthberg (talk) 19:46, 2 October 2011 (UTC)
+
+Working on it now. I wrote a script to assist me ;) Anomie⚔ 03:14, 3 October 2011 (UTC)
+
+ Done Anomie⚔ 04:50, 3 October 2011 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wow, you are fast. And yeah, I expected you would use a script for it, after all you are a master bot wrangler. Some of the images turned up in my watchlist since you handled them, so I checked some of them: You did a very nice job. Thanks.
+--David Göthberg (talk) 05:15, 3 October 2011 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For future reference:
+Here are the two templates I made that produce the warning messages when admins try to delete protected pages:
+
+{{check file on delete}} – The warning message for file pages that do have a locally uploaded file. Called from MediaWiki:Filedelete-intro.
+{{check page on delete}} – The warning message for normal pages, and for file pages that have no locally uploaded file. Called from MediaWiki:Confirmdeletetext.
+
+
+I might develop those templates further, but they already work pretty well as they are now. And they are deployed.
+--David Göthberg (talk) 17:06, 2 October 2011 (UTC)
+
+Deleting protected files[edit]
+
+This discussion was moved here from David's (my) talk page. --David Göthberg (talk) 20:52, 3 October 2011 (UTC)
+
+Greetings. I saw your comments this change, and wanted to check in with you on this. I hope I'm not responsible for the trouble here. I'm one of the few administrators who participated in the drive, but I don't remember deleting any protected images. I can assure you I'll be on the lookout for this in the future. Is there a way I can see whether I deleted any protected images, or what they are? If so, I can try to restore them. All the best, – Quadell (talk) 19:36, 3 October 2011 (UTC)
+
+MediaWiki doesn't warn you when you delete protected images or pages, so up until some days ago deleting a protected image looked exactly the same as deleting a normal image. So if you didn't read the image page or didn't check some other places you wouldn't even know if you deleted a high-risk image. But now I have made it so you get a red warning message when trying to delete protected images. See {{check file on delete}} and the discussion in the above section for more about that fix. I have also made it so you get a similar warning when trying to delete other protected pages.
+I have been away from Wikipedia for much of the last year so I haven't been watching who was deleting all the high-risk images. (Almost all of them got deleted.) But my experience from previous years is that it is many different admins that do the deleting, and they usually state something like: "Local copy not needed since the file exists on Commons". There are many admins that don't understand what high-risk images are and why they need local protection.
+Yesterday Anomie reuploaded and reprotected the 150 most important high-risk images. There are many other widely used images, we should perhaps locally upload and protect 100 or 200 more of them, but we haven't decided where to set the limit. So it is not urgent.
+If you like to help out there are several things you can do:
+
+Join in the discussion here.
+Read the explanation about high-risk images in the section #About high-risk images and tell us if any part of it is unclear or suggest better ways to word it. I link to that section from many places now, including from the warning message you get when trying to delete images, so I like that explanation to be clear. I plan on adding a section about high-risk images at Wikipedia:High-risk templates or perhaps even write up a separate page about it, and I will probably reuse that explanation there.
+You can try out our new warning messages and tell me if you think they need some changes. (Among other things I am not a native English speakers so I sometimes mess up the wording.) The templates are {{check file on delete}} and {{check page on delete}}. And you can see them in action when you try to delete a protected page or image. You can click "delete" for a page, see the warning message, and then simply not finish the delete, so you can try this on existing pages.
+
+
+--David Göthberg (talk) 20:52, 3 October 2011 (UTC)
+
+I just now tried to delete File:Crystal personal.svg, and I indeed got a difficult-to-miss red warning asking me to please not do that. This is excellent. I think the wording in that warning is good. However, the wording at #About high-risk images would be very difficult to understand, and perhaps even useless, if the reader does not know what CSS is, or doesn't know anything about the process of moving images at Commons, or similar things. I think it would be better if that first paragraph (after "or is used in the interface") has a simple sentence saying something difficult to misunderstand, like "Please do not delete such images here, even if there is an identical copy at Commons. Doing so may break functionality here on the English Wikipedia." That way, even if the admin doesn't understand anything that follows, s/he will know not to delete the image, and will have some vague idea why. – Quadell (talk) 13:56, 4 October 2011 (UTC)
+
+Oh, you are right. I tried different versions of your two sentences but in the end your version is the best. There have even been cases where deleting images that were not called from CSS broke things, since the image was changed at Commons and thus the meaning of the image changed which broke things here. (The image upload interface was damaged in that way some year ago.) So in the end your sentence is general enough to cover that too. I have added your sentences to my message in the section below. Thanks for your feedback!
+Do you think I should add your second sentence to the warning message itself? Something like this: "Deleting this image may break functionality here on Wikipedia."
+--David Göthberg (talk) 18:12, 4 October 2011 (UTC)
+
+I think either having it or not having it would be acceptable. It's pretty clear already that you shouldn't delete the file, though extra emphasis might be useful as well. – Quadell (talk) 18:34, 4 October 2011 (UTC)
+
+
+
+
+
+'
+
+
+I don't know whether you care anymore, but I noticed that most if not all of the files linked from that page have in fact been deleted locally. Anomie⚔ 16:22, 25 September 2011 (UTC)
+
+Yes, it is unfortunate. I checked and some of the images aren't protected at Commons, thus some of our most visible images can now be vandalised by anyone.
+Trigger happy admins keep deleting our high-risk images, even if the image has text on its page explaining why it should be kept. Unfortunately many of those admins don't bother to read the image page, and they get no warning when they delete protected images.
+But I have figured out what we can do: Nowadays we can detect in template code if a page is protected, so we can update MediaWiki:Filedelete-intro so it shows a big warning message when an admin tries to delete a protected image. We should probably also update MediaWiki:Confirmdeletetext in the same way so admins get a warning when deleting other protected pages. (The magic word to detect protection is {{PROTECTIONLEVEL:edit/move/upload}}.)
+Unfortunately if someone anyway deletes an image the protection level is forgotten, so if/when the image is reuploaded/restored it is unprotected. Thus the next time the image is deleted there would be no warning message. So we could also add a permanent check in MediaWiki:Filedelete-intro for the 100 most high-risk images. Checking for 100 image names like that would be heavy template code, but it would only run when an admin tries to delete an image, thus it doesn't matter if it is heavy. And since we would only check full image names a simple switch-case would suffice, instead of using the more complex but more efficient method we use in {{category handler/blacklist}}.
+Since I am semi-retired from Wikipedia I might not get around to fix this, that's why I explained it in detail here so others can take over. But give me at least a week to think more about this first.
+--David Göthberg (talk) 13:05, 1 October 2011 (UTC)
+See also discussions further up on this page.
+
+An image is high-risk if it is very widely used (among the top 200 images or so), or is used in the interface. Please do not delete such images here, even if there is an identical copy at Commons. Doing so may break functionality here on the English Wikipedia.
+Nowadays non-admins can't upload local copies of images if that image name already exist on Commons. However that "protection" is only decent if the image on Commons is protected, so the vandal can't change the image on Commons. And even if an image is protected at Commons the admins there might some day move it, edit it, or unprotect it. (And such changes of images at Commons have happened many times, causing problems here at the English Wikipedia.)
+Also, images used in our CSS files are called with a full URL, and that URL depends on if the image is stored at Commons or locally, even if it is the exact same image with the same name. So images loaded through CSS must never be moved to Commons. (Such moves have happened many times before, which broke our system images. That's why many of the images in our CSS files nowadays instead use the URL of the Commons version of the images. I don't know if all those images are protected at Commons.)
+Some not-so-widely-used images also need protection because they are especially tempting targets for vandals. For instance the images used for deletion and warning notices get vandalised regularly if they are not protected.
+--David Göthberg (talk) 17:06, 2 October 2011 (UTC)
+
+Here's the same thing as explained by Anomie. (David copied it from Anomie's talk page.):
+In short (and liberally paraphrasing from David),
+
+Images referenced from CSS (e.g. using background:url(...)) will break if a local copy is in use and is then deleted by a well-meaning admin applying F8.
+We cannot necessarily trust Commons to protect these images or to keep them protected. This leaves us open to vandalism by someone uploading a new image to Commons; this is particularly concerning for images used widely or used in interface messages.
+We cannot necessarily trust Commons admins to not move or edit the images, even if they are protected, causing breakage in our interface messages or widely-used templates.
+
+
+All of these have happened repeatedly in the past. Consensus seems to have been for a while that these sorts of images should be uploaded and protected locally. Anomie⚔ 15:50, 3 October 2011 (UTC)
+
+/doc subpages of cascade-protected templates[edit]
+So, I finally got around to testing something (and accidentally partially reverting David in the process =D ) I've intended to look at since shortly after this page got created; namely, how cascade protection and <noinclude/> tags interact. Frankly, it doesn't look good: we don't have very many templates that are directly cascade-protected, but for those that are, their /doc subpages are protected as well. The more I think about it, the more I'm convinced that cascade protection should not apply to pages transcluded in a noinclude tag - any templates that should be protected already are (and likely with cascading protection from this page and/or other sources), and template documentation definitely shouldn't be. Any thoughts? Is there a Bugzilla ticket for this already (I couldn't find one myself...)? 「ディノ奴千？！」? · ☎ Dinoguy1000 06:27, 5 October 2011 (UTC)
+
+Yes, you are right. I had to think about it for some days since this is tricky, thus my late answer. You are right, cascade-protection should understand noinclude also on the "top page".
+
+Your suggestion is logical since cascade-protection already behaves as you suggest on all "sub-pages", except for the "top page" where the cascade-protection was set. And that means that MediaWiki already has the code to make cascade-protection work like that, so it probably will not be that hard for the developers to make cascade-protection understand noinclude also on the "top page".
+As you point out it would stop the /doc pages from being cascade-protected for templates that are directly cascade-protected.
+It would also solve it for pages like Wikipedia:Cascade-protected items, since we wanted the page head to be editable by anyone, while having the rest of the page cascade-protected. We tried several ways to work around it like not cascade-protecting this page and instead transclude it into a cascade-protected page, but that meant that both pages got listed in the "What links here" for all the templates on the page, and both pages ended up in the categories that the templates added to the page.
+
+
+I have thought a lot about your suggestion, and I can't see any drawbacks.
+--David Göthberg (talk) 03:37, 11 October 2011 (UTC)
+
+I thought I replied to this on the 5th, guess I forgot to hit "save page".
+I disagree. Cascade protection is conceptually simple: it protects any page transcluded onto the cascade-protected page. Changing that to "it protects any page transcluded onto the cascade-protected page except inside <noinclude> tags" complicates the matter for little benefit, when we can get the same effect by transcluding the template onto a page like this instead.
+Also, I don't believe that MediaWiki already has code to make cascade-protection work like that. It appears that the check for "is this page affected by cascading protection?" is quite simply to look in the transclusion links table (or image links table, for File-namespace pages) for any page that is cascade-protected, i.e. anything on Special:WhatLinksHere marked "(transclusion)". To make it work like you suggest, the transclusion links table would have to be changed to differentiate between "transcluded inside <noinclude>" and "not transcluded inside <noinclude>". Anomie⚔ 04:02, 11 October 2011 (UTC)
+
+
+
+
+
+
+
+
+In most cases, there would be no apparent difference to editors between cascade protection applying to all templates transcluded on a given page, versus only those outside of <noinclude/> sections; if anything, in fact, the current situation is more surprising to the average editor, since editors are used to /doc pages universally being editable, regardless of the protection status of the main template. Currently, to allow /doc pages of cascade-protected templates to be edited by anyone, we would have to only link to the /doc page from the template proper, and/or transclude it on the template's talk page; both of these defeat the purpose of the documentation system currently in use.
+Personally, I don't see much reason for us to worry too much about what changes would be required in MediaWiki to make this happen; if it's unpalatable to the devs and server ops, they'll let us know quickly enough in the feature request bug report (when/if one gets filed, that is) - don't worry about performance and all that. ;)
+That being said, thinking about this some more, I have to ask whether there is any legitimate justification for directly applying cascade protection to individual templates, especially given the problems it causes with their documentation. I don't see any point to; IMHO templates that need cascade protection should just be transcluded here and be done with it, since that's much neater by means of keeping everything together in one central location. It would probably be good to get this spelled out in the protection policy, one way or another.
+Lastly, as far as this page is concerned, we could go with Option D, whereby the root "Wikipedia:Cascade-protected items" page is simply an index page, sans transclusions, to various subpages that are individually cascade-protected. 「ディノ奴千？！」? · ☎ Dinoguy1000 07:29, 11 October 2011 (UTC)
+
+"I have to ask whether there is any legitimate justification for directly applying cascade protection to individual templates"—That's my view here as well. As for confusing users, I couldn't really say which way might be more "surprising" to actual users of cascade protection; as it stands, cascade-protecting the actual template instead of transcluding it onto this page is more likely an error on the protecting admin's part. As for WP:PERF, it doesn't apply here. What applies here is "developer time to implement and test a feature requiring a database schema change vs difficulty of using the feature as it exists", although perhaps we shouldn't worry about that either. Anomie⚔ 12:51, 11 October 2011 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I looked through a few of the templates with cascade protection applied directly to them; some of them don't have any justification for the cascade protection (most of these seem to have been protected by the same admin last year), at least a couple seem to be cascade-protected because of admin laziness in not wanting to spend the time to individually fully protect various subtemplates transcluded by a given template, and quite a few seem to be related to {{Taxobox}} and company, and I haven't investigated around it to see if cascade protection was actually ever requested or even discussed for it or any of its related templates. There's a handful of others that may be legitimate uses of cascade protection (e.g. {{In the news}}, which is transcluded on the main page, and {{ArbComOpenTasks/Subpage‎}}, an Arbcom subpage), but really they all need reviewed.
+I was, of course, referring to WP:PERF in spirit rather than in letter; the idea behind it certainly applies to feature requests, and if a developer chooses to spend a bit of their time working on such a feature, that's their prerogative and we shouldn't worry about the time spent. ;) 「ディノ奴千？！」? · ☎ Dinoguy1000 01:16, 16 October 2011 (UTC)
+
+
+
+
+
+
+
+
+
+Let's look. IMO, this should remain cascade-protected:
+
+Template:Portal/Image lockboxes/Names‎ – Seems to exist to protect a list of templates, much like this page.
+
+These should be transcluded here and themselves un-cascaded:
+
+Template:SpecialCategoryTOC‎
+Template:Recent changes article requests‎
+
+Cascade protection on these is useless:
+
+Template:ArbComOpenTasks/Subpage‎ − All subtemplates are already fully protected as high-use.
+Template:In the news‎ – Permanently transcluded on the Main page, so cascading is already applied to the interesting parts. Also manages to protect Template:In the news/Last update, Template:ITN-Update, and Template:ITNbox, each of which has protection logs where someone tried to explicitly lower the protection level.
+Template:Taxonomy‎ – Manages to protect nothing except its own documentation subpage, as anything of actual interest is wrapped in <includeonly>!
+Template:Don't edit this line‎ – Ditto.
+Template:Ichnobox – Ditto.
+Template:Taxonomy links – Ditto.
+Template:Taxonomy links/cell – Ditto.
+Template:Taxonomy list/list – Ditto.
+Template:Taxobox/taxonomy – Ditto.
+Template:Don't edit this line link‎ – Transcludes nothing except its own documentation subpage!
+Template:Don't edit this line parent – Ditto.
+Template:Edit taxonomy – Ditto.
+Template:Get authority key – Ditto.
+Template:Get link – Ditto.
+Template:Get refs – Ditto.
+Template:Get parent – Ditto.
+Template:Edit a taxon – Transcludes nothing!
+Template:Infrataxon() – Transcludes nothing except its own documentation subpage, and Template:str left.
+Template:Get regnum()/2‎ – Anything of actual interest is wrapped in <includeonly>, and anything of interest that would accidentally be cascade-protected by being used in an example on the documentation subpage is itself already protected.
+Template:Extinct – Just protect Template:Noitalic instead.
+Template:Taxobox – Anything of actual interest is wrapped in <includeonly>. Manages to protect Template:Next period, Template:Period color, and Template:UF-species accidentally, because they are used in examples on the doc page. And protects a few doc-only templates too.
+
+So that's a score of 1 legitimate, 4 misguided, and 19 completely odd due to the "Taxobox" system. I'm inclined to just go ahead and uncascade everything except Template:Portal/Image lockboxes/Names‎ and Template:ArbComOpenTasks/Subpage‎ for the reasons given above (and protect Template:Noitalic, Template:Next period, Template:Period color, and Template:UF-species). And I'd also ask AGK about Template:ArbComOpenTasks/Subpage‎. Or should we ask for comment elsewhere first? Anomie⚔ 03:02, 16 October 2011 (UTC)
+
+I did go ahead and ask AGK about it, with the result that Template:ArbComOpenTasks/Subpage‎ is no longer cascade protected. Anomie⚔ 21:50, 16 October 2011 (UTC)
+
+
+
+
+Was there any discussion of specifically using cascade protection on any of the Taxobox-related templates? I couldn't find any after a (very) cursory search. If not, I think we should leave a note, wait a few days, and if no one objects, go ahead and take off the cascading protection. 「ディノ奴千？！」? · ☎ Dinoguy1000 04:33, 19 October 2011 (UTC)
+
+Whether or not there was discussion, it doesn't do anything useful. If they really want to protect all the numerous taxobox subtemplates, they need to use MediaWiki:Titleblacklist method which would actually work. Anomie⚔ 11:07, 19 October 2011 (UTC)
+
+Notification given: Template talk:Taxobox#Cascading protection and Wikipedia talk:In the news#Cascading protection of Template:In the news. Anomie⚔ 14:26, 19 October 2011 (UTC)
+
+ Done I just removed cascading from everything except Template:Portal/Image lockboxes/Names‎. Anomie⚔ 00:54, 22 October 2011 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cool, thanks for taking the time to follow up. =) 「ディノ奴千？！」? · ☎ Dinoguy1000 17:53, 1 November 2011 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+A file locally uploaded per this page is nominated for deletion[edit]
+See Wikipedia:Files for deletion/2011 November 23#File:Commons-logo.svg. Anomie⚔ 19:51, 24 November 2011 (UTC)
+Edit request[edit]
+I
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+I want the 50 most-used images on Wikipedia put here as described at User:Davidgothberg/Lockbox. --75.242.99.203 (talk) 19:20, 1 March 2012 (UTC)
+
+ Done Tra (Talk) 21:38, 5 March 2012 (UTC)
+
+Cascade protection of non-fully protected redirects[edit]
+I would like to get the involved editors' opinions on a problem that is being discussed at bug 11700http://bugzilla.wikimedia.org/show_bug.cgi?id=11700 and on Anomie's talk page. Being addressed is what happens when a redirect is listed on this page but is not actually fully protected. I've read the discussions on this talk page, and it appears that this is not supposed to happen, that is, non-fully protected redirects are not supposed to be listed on this page. There is at least one that I know of that is listed on this page, which is the CN redirect.
+When you check out that redirect, you find that the "Edit" tab has not been replaced by a "View source" tab, so an editor doesn't find out that the CN redirect is "fully" protected until the "Edit" tab is clicked and the Edit page appears. The Cascade-Protected Notice appears, and the Edit page responds like a View source page. That probably doesn't sound like "all that"; however, there is another result that, to me, is more important.
+Not long ago, I came across the CN redirect and it's similar companion, the Cn redirect (lowercase "n"). Both had not yet been categorized, so I clicked on the Edit tab of the CN redirect and found it fully protected by this page. Since I'm not an admin, I used the {{Editprotected}} template here to categorize the redirects. After an admin added the redirect category templates, I checked to find the Cn redirect correctly categorized into the Protected redirects category, but the CN redirect had been miscategorized into Category:Wikipedia pages with incorrect protection templates. So even though the CN redirect is fully protected by this page, it is not "formally" fully protected and therefore gets miscategorized. Again, to me, that is an important issue that should be fixed.
+So I bring this to your, the involved editors', attention to see what I can do to help fix this miscategorization problem. – Paine (Climax!)  04:26, 4 December 2012 (UTC)
+Requests for protection[edit]
+{{editprotected}} I want the template "blocked sockpuppet" to be included because it is highly used. --72.65.238.157 (talk) 21:25, 2 May 2013 (UTC)
+
+I don't see any sort of similar templates listed on this page. Indeed, this page feels a bit prehistoric in terms of use (didn't we do things like this before individual protection was available?) but perhaps useful nonetheless. See one of the page's maintainers if you'd like to keep pressing for this to be added. Killiondude (talk) 20:19, 4 May 2013 (UTC)
+
+Edit request on 31 July 2013[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+Remove 'stupid' from the ombox notice. Don't you think it's a bit impolite? Insulam Simia (talk) 19:42, 31 July 2013 (UTC)
+
+ Done. It doesn't really seem impolite to me - I make stupid mistakes all the time - but I can see how it might do to other people. I've copy edited the ombox a little, and I also updated Template:Editnotices/Page/Wikipedia:Cascade-protected items to match. If you would prefer a different wording, let me know. — Mr. Stradivarius ♪ talk ♪ 03:52, 1 August 2013 (UTC)
+
+Proposal that this page be unprotected[edit]
+
+
+
+
+I'm withdrawing this proposal, as there seems to be only limited support for it, and discussion has died down. There seems to be more support for the idea of removing individual templates from the page, so we can discuss that further down. — Mr. Stradivarius ♪ talk ♪ 10:44, 22 October 2013 (UTC)
+
+
+
+
+The following discussion is closed. Please do not modify it. Subsequent comments should be made on the appropriate discussion page. No further edits should be made to this discussion.
+
+
+Today (17 October 2013), the discussion at Wikipedia:Requests for comment/Template editor user right was closed, and very soon we will we now have a new user right for template and module editors. With this user right it is possible to edit protected pages in the template and module namespaces; however, it is not possible to edit cascade-protected pages. Looking through the templates transcluded on this page, I am struggling to see a template that would really benefit from cascading protection. As it is, having these templates cascade-protected is not really serving any useful purpose, and is also preventing editors with the new user right from editing them. So, I propose the following:
+
+Once the new protection level is available to use, we use it We use the new protection level to protect all the existing cascade-protected pages transcluded on this page. This will be done recursively, so that all templates that are currently cascade-protected will be protected with the new protection level.
+Once all the pages have the new protection level, we remove cascading protection from this page.
+We go through a similar process for other "lockboxes" in the user namespace, e.g. User:Dinoguy1000/Lockbox.
+
+What do others think about this? — Mr. Stradivarius ♪ talk ♪ 03:55, 17 October 2013 (UTC)
+
+Including the Main Page? --Rschen7754 06:58, 17 October 2013 (UTC)
+
+No, not the main page. That's what cascading protection was originally designed for, and it seems to be doing its job very well. The main page has lots of pages rotating in and out of cascading protection by date, and it would be impractical if not impossible to protect them all by hand. The templates protected using this page, on the other hand, only change when a new subtemplate etc. gets written, so it would not be hard to protect all the relevant pages using non-cascading protection. — Mr. Stradivarius on tour ♪ talk ♪ 08:49, 17 October 2013 (UTC)
+
+
+I'd rather not. We should just selectively remove templates from this page instead. For example, no one should ever ever edit Template:!. That should remain full prot + cascade. Legoktm (talk) 07:04, 17 October 2013 (UTC)
+
+I agree that we would want to keep it full-protected, but why cascading? It's not like anyone can vandalise it by editing a page transcluded on it, and it requires the same permissions (admin) to edit and unprotect both cascading and full-protected pages. I can see cascading protection potentially being useful with templates that have a large number of subtemplates, like {{convert}}, but I don't see any difference between full-protection and cascading protection for templates like {{!}}. — Mr. Stradivarius on tour ♪ talk ♪ 09:00, 17 October 2013 (UTC)
+
+Actually, I take that last part back. I see that if the subtemplates are static, then cascading protection is recommended against by the protection policy, even if there are a lot of them. It only suggests cascading protection if the full set of subtemplates are transcluded when the main template is transcluded. — Mr. Stradivarius ♪ talk ♪ 10:43, 17 October 2013 (UTC)
+
+
+
+
+No. Just no. If you want to remove some templates from cascade protection, please bring those up in a separate proposal. But cascading protection keeps a lot of stuff safe. So no. VanIsaacWS Vexcontribs 07:49, 17 October 2013 (UTC)
+Question What would happen if the cascading was kept but the protection level was changed from "Block all non-admin users" to "Protected Template"? Would the template editors then be able to edit the templates that are cascade protected? -- WOSlinker (talk) 10:28, 17 October 2013 (UTC)
+
+No, template editors can't edit pages that are both template-protected and cascade-protected. That is disallowed by the MediaWiki software, as it would allow a loophole for template editors to protect pages themselves as well as just edit them. (You can protect a page just by transcluding it on a cascade-protected page.) — Mr. Stradivarius ♪ talk ♪ 10:37, 17 October 2013 (UTC)
+
+Just tried on a test page and it's not possible to use cascade protect and the "Protected Template" level at the same time. -- WOSlinker (talk) 10:44, 17 October 2013 (UTC)
+
+Note it would be easy enough to allow the "Protected template" level to be used with cascade protection. But there's not much point to doing so (and might confused people into thinking it would work as you asked) as long as only sysops can apply the protection. Anomie⚔ 11:26, 17 October 2013 (UTC)
+
+
+
+
+
+
+
+
+Opposed, at least for now. As part of the drafting of the original Template editor proposal, I spent some time on IRC chatting with the devs and reading all of the documentation on cascading protection. The only way to allow Template editors (like myself) to be able to edit cascade protected pages is to give them the protect userright, which would allow full access to any page. My understanding is there is no technically feasible way to make it so that it allows editing pages cascaded with the new protection level without allowing editing to sysop level pages. I think that the best option to make it possible for Template editors to be allow to edit certain cascade protected templates is for bugzilla:54081 to be done (CC yourself and raise the importance!). Although, there is currently no documented need to be able to edit cascade protected pages because quite frankly, the userright is still too new. I'd love to revisit this in a month or three if there is evidence that cascade protection is inhibiting template editors from getting their work done. Technical 13 (talk) 14:12, 17 October 2013 (UTC)
+
+Giving 'protect' to templateeditor wouldn't allow them to edit fully-protected pages, that was fixed in Gerrit change 71536 back in July. But it would allow them to add template-protection (and semi-protection) to any page. As for your bug, as I've said before I think it breaks the point of cascading protection and so is a bad idea. Anomie⚔ 15:58, 17 October 2013 (UTC)
+
+
+Support in principle: However, due to implementation restrictions, then perhaps whole sets of selected templates, such as Template:Convert and subtemplates should be re-protected with the new protection level. The blanket-cascaded protection system has over-protected many, many subtemplates which are almost never used (except when they need to be updated!). Meanwhile, the progress came by updating the newer subtemplates, which had been created after the blanket-cascade protect locked out improvements to the older subtemplates. In wiki systems, more "progress comes by doing" rather than requesting and hoping for results, then re-requesting, re-requesting & re-requesting. Anyway, thanks for the proposal, and I guess the result should be an open-ended task to try to re-protect many cascaded sets of templates without having to tediously request re-protection for each separate subtemplate. This whole situation is just another explanation for why many templates have (or had) gone un-updated for 3 years, but new users are re-requesting (some adamantly) the fixes which were ignored years ago. -Wikid77 (talk) 16:16, 17 October 2013 (UTC)
+Maybe we could create a second type of cascade protection that's editable by template editors? That way we'd still have the logistic benefit of cascades (ie. not requiring setting individual protection levels), while being able to make a distinction between temporarily full-protected pages versus high-risk templates that should remain fully editable by template editors. Essentially this would be the same solution we enacted for the template editor user right to begin with -- a second protection level as an alternative to full, only this would be a second cascade type as an alternative to the current cascade type. equazcion → 13:42, 18 Oct 2013 (UTC)
+
+That's probably not a good idea, because it would allow template editors to protect any page by transcluding it on a cascading-template-protected page. If that was in the proposal at Wikipedia:Requests for comment/Template editor user right, then the proposal might not have done as well as it did. :) Also, as I mentioned in one of my posts above, the protection policy doesn't actually recommend cascading protection for templates unless all the subtemplates are transcluded when the main template is transcluded. That is actually quite a rare occurrence. — Mr. Stradivarius ♪ talk ♪ 13:54, 18 October 2013 (UTC)
+
+
+Support I'm happy to rely on admin discretion to decide which templates are cascade/full/tempateeditor protected. The conditions on when template editors are allowed to edit would make it reasonably safe to use Template Protection on most templates. Callanecc (talk • contribs • logs) 12:59, 19 October 2013 (UTC)
+
+
+Leave protection but remove some templates from the page. Some of the templates currently transcluded on the page do not have any protection set on their own se we can't really just remove the cascading protection straignt away. I think it would be better to go through the templates on the page and check if their direct protection settings are ok or need changing (either reducing to template editor or increasing from none to template editor or sysop) and if after that, if they are set to template editor then they should be removed from this page. -- WOSlinker (talk) 13:52, 19 October 2013 (UTC)
+
+
+
+The discussion above is closed. Please do not modify it. Subsequent comments should be made on the appropriate discussion page. No further edits should be made to this discussion.
+
+
+
+Removing individual templates[edit]
+There did not seem to be any consensus to unprotect the page in the thread above, but there seemed to be more support for the removal of individual templates from the page. I suggest that we start a list of templates to be removed from the page here. We can keep templates listed here for a week, say, and then remove them if there are no objections, or if a consensus to remove them is reached after a discussion. Also, if you have any issues with the process or suggestions on how to improve it, feel free to reply directly below. I'll start the list of templates to remove in a new subsection. — Mr. Stradivarius ♪ talk ♪ 11:07, 22 October 2013 (UTC)
+List of templates to be removed[edit]
+First of all I would like to propose the following:
+
+{{pp-meta}}
+{{db-meta}}
+
+Please feel free to add more below. — Mr. Stradivarius ♪ talk ♪ 11:07, 22 October 2013 (UTC)
+
+ Done — Mr. Stradivarius ♪ talk ♪ 23:58, 28 October 2013 (UTC)
+
+Some Footers[edit]
+
+{{List of asteroids/List footer}}
+{{List of asteroids/footer}}
+{{List of minor planets/List footer}}
+{{List of minor planets/footer}}
+{{Meanings of asteroid names/footer}}
+
+
+
+
+ Done -- WOSlinker (talk) 16:33, 28 October 2013 (UTC)
+
+
+
+Some Infoboxes[edit]
+
+{{Infobox Actor}}
+{{Infobox Album}}
+{{Infobox Book}}
+{{Infobox Cricket series end}}
+{{Infobox Film}}
+{{Infobox Person}}
+{{Infobox album}}
+{{Infobox album/color}}
+{{Infobox album/link}}
+{{Infobox book}}
+{{Infobox film}}
+{{Infobox person}}
+{{Infobox settlement}}
+
+A few others. -- WOSlinker (talk) 11:36, 22 October 2013 (UTC)
+
+
+
+ Done -- WOSlinker (talk) 16:33, 28 October 2013 (UTC)
+
+
+
+Here's a few more I'd like to see removed:
+
+{{pagetype}}
+{{navbox}}
+{{navbar}}
+{{talkheader}}
+{{portal}}
+
+These are all very-high-transclusion templates, but I think that they could usefully be edited by template editors. — Mr. Stradivarius ♪ talk ♪ 07:42, 9 November 2013 (UTC)
+
+ Done — Mr. Stradivarius ♪ talk ♪ 05:40, 24 November 2013 (UTC)
+
+How about the citation templates? Is there any indication that they would be any less protected under template-editor protection? - Floydian τ ¢ 06:50, 13 December 2013 (UTC)
+To Mr. Stradivarius – I was just able to get the fully protected redirect, Template:Anchors, changed to template protected at WP:RFP; however, it must be removed from this page for that to take effect. Can it be added to this list? – Paine Ellsworth CLIMAX! 02:29, 13 January 2014 (UTC)
+
+ Done, although I botched the edit summary a bit. — Mr. Stradivarius ♪ talk ♪ 04:31, 13 January 2014 (UTC)
+
+Thank you, and you are totally forgiven !>) Joys! – Paine Ellsworth CLIMAX! 05:15, 13 January 2014 (UTC)
+
+
+
+Merging lists[edit]
+I would like to merge the contents of a subpage of Davidgothberg with the items on this page. This editor is no longer active and it seems to make sense to keep one list rather than several in userspace. Does anyone have any comments on this? — Martin (MSGJ · talk) 13:28, 22 November 2013 (UTC)
+
+That sounds like a good idea to me. — Mr. Stradivarius ♪ talk ♪ 05:40, 24 November 2013 (UTC)
+
+ Done this one, there may be a few duplicates. Are there any other user pages with cascade protection that you know of? — Martin (MSGJ · talk) 12:00, 25 November 2013 (UTC)
+
+
+
+Protected edit request on 25 March 2014[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+Please remove: <tr><td>{{User sandbox}}</td><td>{{tl|User sandbox}}</td><td></td><td>Used in [[MediaWiki:Gadget-mySandbox.js]]</td></tr> from this page. The {{User sandbox}} template apparently has already been lowered to  Template editor and is now only being help up from being edited by cascade protection. I would like to be able to change the link to submit the page into a button as other AFC submission links have been changed recently. Thank you. — {{U|Technical 13}} (t • e • c) 14:08, 25 March 2014 (UTC)
+
+ Done — Mr. Stradivarius ♪ talk ♪ 14:53, 25 March 2014 (UTC)
+
+Protected edit request on 12 July 2014[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+Please remove Template:Pmid from this page. It has only 431 transclusions, so it's not high-risk, and the fact that a cascading-protected page is at RfD is causing problems. Jackmcbarn (talk) 00:54, 12 July 2014 (UTC)
+
+ Done — Mr. Stradivarius ♪ talk ♪ 01:05, 12 July 2014 (UTC)
+
+Module:lockbox[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+Consider switching this page to use Module:lockbox; it will render prettier and prevent this page from being added into spurious categories.
+— Keφr 09:54, 2 August 2014 (UTC)
+
+ Not done: @Kephir: This is a good idea in theory, but in practice there is a problem. If the rendering time for the templates on the page exceeds the 10-second Scribunto execution limit, then we will get a script error, and all the templates will lose their cascading protection. At the moment the page takes 8 seconds to render, which is a little too close for comfort given the mischief that could be caused if the templates were all unprotected at once. — Mr. Stradivarius ♪ talk ♪ 19:23, 4 August 2014 (UTC)
+
+Protected edit request on 12 November 2015[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+Please add Template:Cob and Template:Cot to this page. They are redirects to Template:Collapse bottom and Template:Collapse top respectively, cascade-protected pages. Steel1943 (talk) 20:27, 12 November 2015 (UTC)
+
+I just realized something; are Template:Collapse top and Template:Collapse bottom erroneously cascade-protected for the simple fact that they are actually utilized on this page for lists of other cascade-protected pages? I cannot find links to either of them on this page anywhere; I can only find transclusions. Steel1943 (talk) 20:46, 12 November 2015 (UTC)
+
+In fact, if this is the case, I'd like to change my edit request: Instead of adding Template:Cot or Template:Cob to this page, I would rather request all transclusions of {{Collapse top}} and {{Collapse bottom}} be replaced with {{Cot}} and {{Cob}}, respectively. This way, template protection should be able to function properly on Template:Collapse top and Template:Collapse bottom if it were applied to those two pages. Steel1943 (talk) 20:52, 12 November 2015 (UTC)
+
+You sound a bit confused on what you want. Do you think these templates (and their redirects) require full protection or template protection? If the latter I can just substitute the template on this page. — Martin (MSGJ · talk) 14:35, 13 November 2015 (UTC)
+
+I'm not sure how this page works. Right now, I'm trying to inquire if the cascading-protection on {{Collapse top}} and {{Collapse bottom}} is intentional or not. Steel1943 (talk) 15:32, 13 November 2015 (UTC)
+
+
+
+
+
+
+
+
+ Not done: It's used in the interface (MediaWiki:Protect-text) so the cascading protection isn't inappropriate by any means (in fact both are fully protected). Callanecc (talk • contribs • logs) 10:17, 15 November 2015 (UTC)
+
+RfC regarding MediaWiki:FileUploadWizard.js[edit]
+There is currently an RfC in progress at Wikipedia talk:File Upload Wizard#Templates on MediaWiki:FileUploadWizard.js in regards to inquiring about the possible need to cascade-protect file licensing templates transcluded in MediaWiki:FileUploadWizard.js (utilized in Wikipedia:File Upload Wizard.) Watchers of this page may be interested in participating. Steel1943 (talk) 00:31, 18 November 2015 (UTC)
+Template:Error and Module:Error[edit]
+Is there a reason why these templates are listed on this page? They are already templateprotected and have only 1600+ transclusions, hardly frequent enough to merit a full protection. Nor do I see any specially sensitive pages they are transcluded in.Jo-Jo Eumerus (talk, contributions) 15:59, 9 January 2016 (UTC)
+
+I seem to recall there being a lot more transclusions in the past. The current low number is largely thanks to Wbm1058, who has been systematically fixing errors found through Special:WhatLinksHere/Template:Error. I agree that there isn't much reason for them to be cascade-protected any more, and unless there are objections in the next few days, I'll remove them. — Mr. Stradivarius ♪ talk ♪ 23:31, 9 January 2016 (UTC)
+
+Heh heh. I patrol four namespaces to keep them {{error}}-free:
+
+Pages transcluding {{error}}s
+
+in main namespace
+in talk namespace
+in file namespace
+in category namespace
+
+
+
+
+..so most of what's left is in Wikipedia, Template, or User space. I see from the protection log that when Strad' lowered the template to template-protection in October 2013, he noted that there were 32,000 transclusions. A lot of those were "false-positives" stemming from Template:Taxonomy/ (see discussion). Then in December 2014 Strad' lowered the module to autoconfirmed when there were only ~1200 transclusions. We're still not far from that. Wbm1058 (talk) 00:16, 10 January 2016 (UTC)
+
+
+
+
+I don't see {{error}} being intentionally directly transcluded on the page. Rather, I see Wikipedia:Cascade-protected items § Ceranium's stuff is transcluding other templates with bad parameters, so that other templates are throwing errors. I'll work on cleaning up that section so that it's {{error}}-free. Wbm1058 (talk) 00:50, 10 January 2016 (UTC)
+
+@Wbm1058: I'll switch this page to use Module:Lockbox. That will avoid having to mess around with template code to get the intended effect. Also, I see that I was mistaken in #Module:lockbox above - the module generates a fake transclusion by getting the page source with title:getContent, rather than actually transcluding the templates, so it's unlikely that converting this page will make it exceed the 10-second Lua execution limit. — Mr. Stradivarius ♪ talk ♪ 01:21, 10 January 2016 (UTC)
+
+If you have a better way to accomplish it, that's fine, but this edit solved the problem. The template has a pink lock on it now, and the module is just semi-. I wonder if the module shouldn't be raised back up to template-level. Wbm1058 (talk) 01:29, 10 January 2016 (UTC)
+
+Sorry, I went and switched it over before I read this. Hopefully the new module makes the whole page easier to read, though. I don't think the module needs to be template-protected if it only has 1,600 transclusions. If those were mostly in mainspace then maybe, but there are only a few there now. — Mr. Stradivarius ♪ talk ♪ 02:55, 10 January 2016 (UTC)
+
+I see. Yes, that looks much cleaner. Nice! Wbm1058 (talk) 05:29, 10 January 2016 (UTC)
+
+Supporting as a regular editor. The page now looks much nicer and not like a vandal went just through, as the old page seemed to me at times. Also, credit is due to Kephir for creating the Lockbox module.Jo-Jo Eumerus (talk, contributions) 09:52, 10 January 2016 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+Template:Okina[edit]
+
+
+
+This edit request has been answered. Set the |answered= or |ans= parameter to no to reactivate your request.
+
+
+At only 7000+ transclusions, the current template protection seems to be enough to serve that template, rendering the extra cascade protection unnecessary. Thus, it should be removed.Jo-Jo Eumerus (talk, contributions) 19:40, 11 January 2016 (UTC)
+
+ Not done: requests for decreases to the page protection level should be directed to the protecting admin or to Wikipedia:Requests for page protection if the protecting admin is not active or has declined the request. --allthefoxes (Talk) 21:35, 11 January 2016 (UTC)
+
+@Allthefoxes: Pardon, but this is a request to have a protected page edited, not a protection setting changed. This is done with an edit request usually, not through RfPp, even if an effect of the edit is to have a protection setting change.Jo-Jo Eumerus (talk, contributions) 21:40, 11 January 2016 (UTC)
+
+@Jo-Jo Eumerus: - maybe I am being daft, but I don't see a requested edit here, only a request to change protection, which opening and edit request is not the appropriate way to handle that. Sorry if I am being daft. --allthefoxes (Talk) 21:42, 11 January 2016 (UTC)
+
+Ah yeah. I wasn't being precise - the Okina template needs to be removed from the Wikipedia:Cascade-protected items page so that it is no longer cascade protected.Jo-Jo Eumerus (talk, contributions) 21:48, 11 January 2016 (UTC)
+(edit conflict)  Done — Earwig talk 21:48, 11 January 2016 (UTC)
+
+
+
+
+
+
+
+Protection of images[edit]
+A lot of the images listed on this page do not need edit-protection, they just need upload-protection. This allows editors to maintain the file description page but not change the image. I'm not sure if there is any such thing as cascading upload protection, but I'm wondering whether most of these could be removed and individually upload-protected. — Martin (MSGJ · talk) 17:16, 9 March 2016 (UTC)
+
+MSGJ Cascading upload protection has been asked for on phab:T24521. A patch is in Gerrit to fix this but apparently some issues mentioned by Anomie and Zhuyifei1999 need to be resolved. Jo-Jo Eumerus (talk, contributions) 14:55, 9 August 2016 (UTC)
+
+In the meantime, is there any reason not to individually upload-protect these images and then remove them from this page? — Martin (MSGJ · talk) 08:13, 28 September 2016 (UTC)
+I removed 10 to test the water ... — Martin (MSGJ · talk) 17:21, 11 October 2016 (UTC)
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia_talk:Cascade-protected_items&oldid=743856328"					
+ 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+New section
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+ This page was last modified on 11 October 2016, at 17:21.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":51,"wgHostname":"mw1268"});});

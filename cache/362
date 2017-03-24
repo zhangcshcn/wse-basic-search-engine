@@ -1,0 +1,662 @@
+ 
+
+
+
+
+
+
+Wikipedia:Requested pictures
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+"WP:RI" redirects here. For the WikiProject for Rhode Island, see Wikipedia:WikiProject Rhode Island.
+
+Shortcuts:
+
+WP:RP
+WP:RI
+
+
+This page explains how to request images from other Wikipedians for Wikipedia articles. To request an image from a specific Wikipedian photographer, see Wikipedia:Wikipedians/Photographers and Category:Wikipedian photographers.
+For requesting a specific file to be uploaded, see Wikipedia:Files for upload.
+For requests to improve existing images, see Wikipedia:Graphics Lab.
+For the page regarding protection requests, see Wikipedia:Requests for page protection.
+For the page listing requested articles, see Wikipedia:Requested articles.
+For the template requesting an image, see Template:Image requested.
+
+
+
+Contents
+
+
+1 Using this page
+2 Posting a request
+
+2.1 Adding a template onto a talk page
+
+2.1.1 Photographs and scanned images
+
+2.1.1.1 Categorizing your request
+2.1.1.2 Explaining your request
+
+
+
+
+2.2 Media request templates
+
+2.2.1 Audio
+2.2.2 Images
+2.2.3 Video
+
+
+
+
+3 Fulfilling a request
+
+3.1 Copyright warning
+
+
+4 Photographs requested by subject as categories
+
+
+
+Using this page[edit]
+Note that the words image, diagram, photograph and picture are sometimes interchangeable, and when making a request you should not take the wording too literally. You may want an image of something from a time before cameras were invented but the request can be fulfilled via a photograph of a picture or scanning or creating a diagram or a screenshot of a computer image.
+Posting a request[edit]
+Before posting, please perform the following steps:
+
+First try to find an image on your own. For tips, see the Finding images tutorial.
+Avoid making blanket requests, as in: "need pictures for all people in the Lists of people".
+Request images only for existing articles, i.e., if there is no article yet, then please write one first before requesting.
+
+There are two methods for requesting an image:
+
+Add the {{reqphoto}} template to the talk page of the article that needs an image, and/or
+Add an option imageneeded=yes or needs-photo=yes to a project template on the talk page of the article that needs an image (Note the syntax will vary with project template and does not always exist.)
+
+Note: Either or both methods together can be used for a request; however, using the {{reqphoto}} template is the preferred method, as that is better monitored and managed.
+Adding a template onto a talk page[edit]
+You may add one of the image request templates, such as: {{reqphoto}} - {{reqmap}} - {{reqdiagram}} - {{reqvideo}} or {{reqaudio}} to the article's talk page. This will automatically place the article into Category:Wikipedia requested photographs. Additional templates are available at [clarification needed].
+Please note that the main template to request an image is {{reqphoto}}.
+Photographs and scanned images[edit]
+To add articles to subcategories of Category:Wikipedia requested photographs, use {{reqphoto}} with the following format: {{reqphoto|subject|in=location}} .
+Categorizing your request[edit]
+Although it is possible to add just the template {{reqphoto}} to a talk page, it is strongly advised that you add at least one category parameter. If you don't categorize your request, it will not receive attention from subject/regional photographers, and it is more likely to be deleted by other editors.
+For example, if a picture of a specific car is required, then the following should be added to the talk page: {{reqphoto|cars}} - this will place the page into Category:Wikipedia requested photographs of cars. Pictures of places should be sorted by location, for example: {{reqphoto|in=Norway}} .
+Adding more than one subject to the list of parameters will bring it to the attention of more people. For example, if the subject is found in a location (or predominantly is in one country), then you can add an additional category, like so: {{reqphoto|computer equipment|in=Russia}} .
+If you want a specific image of the article subject, it is possible to add detailed text. For example, on the talk page of a specific building: {{reqphoto|architecture|in=London|of=main entrance hall}} .
+For a full list of categories being used, go to Category:Wikipedia requested photographs. When selecting a category, please click down to the most relevant subcategory, and select the most appropriate to the topic of the article requiring a photograph. Adding more than one subject category in the template is recommended.
+Explaining your request[edit]
+If the subject matter isn't perfectly obvious, such as an article about a physical object, please explain your request on the talk page. It is very helpful to give photographers your ideas, particularly for abstract items, such as legal and philosophical concepts.
+If you have a specific idea for another image, then use the |of= parameter to name the specific picture that you would like. This is particularly helpful if there are already images in the article.
+Unexplained and uncategorized templates may be deleted by any editor.
+Media request templates[edit]
+The following templates may be used on article talk pages to request the addition of particular types of media files. See the individual templates for usage notes. Specific templates are indented under the more general templates and, where possible, the most specific template should be used.
+Audio[edit]
+
+{{Audio requested}} – general audio
+
+{{Music requested}} – music
+
+{{Reqinstrument}} – musical instruments
+
+
+{{Spoken article requested}} – spoken article text
+
+
+
+Images[edit]
+
+{{Image requested}} – general image requests by category
+
+{{Chart requested}} – template-based charts and graphs
+{{Diagram requested}} – technical drawings and schematic images
+
+{{Architectural diagram needed}} – buildings and other architectural elements
+{{Astronomy diagram requested}} – celestial objects
+{{Biology diagram requested}}
+
+{{Anatomical diagram requested}}
+{{Ecological diagram requested}}
+
+
+{{Chemical drawing needed}} – chemical structure diagrams
+{{Computing diagram requested}} – schematics of networks, processors, protocols, software, etc.
+{{Electrical diagram requested}} – electrical and electronic circuits
+
+{{Electromechanical diagram requested}} – motors, actuators, etc.
+
+
+{{Geological diagram requested}} – geological formations
+{{Mathematical diagram requested}} – mathematical structures (for equations, use {{Equation requested}})
+{{Mechanical diagram requested}}
+
+{{Engine diagram requested}} – combustion engines
+{{Vehicle diagram requested}} – aircraft, automobiles, ships, etc.
+{{Weapon diagram requested}} – firearms, bombs, missiles, etc.
+
+
+{{Meteorological diagram requested}} – weather systems
+{{Physics diagram requested}}
+
+{{Optical diagram requested}} – optical physics
+{{Orbital diagram requested}} – orbital mechanics
+
+
+
+
+{{Equation requested}}
+{{Logo requested}}
+
+{{Tvimage}} – TV show or channel production logo
+
+
+{{Map requested}}
+
+{{Mapreqglobal}} – maps of the entire Earth
+
+
+{{Photo requested}} – specifically for photographic images
+Screenshots:
+
+{{WikiProject Film}} – use parameter needs-image=yes
+{{WikiProject Software}} – use parameter needs-image=yes
+{{WikiProject Television}} – use parameter needs-image=yes
+{{WikiProject Video games}} – use parameter screenshot=yes
+{{WikiProject Websites}} – use parameter needs-image=yes
+
+
+{{Symbol image requested}} – textual and other symbols (also use Unicode characters where available)
+
+
+
+Video[edit]
+
+{{Video requested}}
+
+{{Screencast requested}} – videos of computer screen output
+
+
+
+
+Please remove image requests once you have fulfilled them!
+
+Fulfilling a request[edit]
+If you want to contribute an image you have taken yourself, either on film or with a digital camera, please make sure it looks optimal. Consider using graphics software such as the GIMP to enhance saturation, contrast, and sharpness (sample tutorial). You do not need to provide a thumbnail image. Please see the image use policy for more advice on working with images. You can also contribute pictures not taken by yourself, if they are available under a public domain or GFDL license. Requested images can be found by viewing Category:Wikipedia requested images, and add images to articles that link to these pages.
+
+Ensure that the picture is properly licensed as shown in the "Copyright warning" section below.
+Upload the image. If the license so permits, please upload the image to Wikimedia Commons[1] instead, so that all the different Wikipedias can use the image.
+Add the proper image copyright tags and a description to the image description page.
+Link the image to the corresponding article. Larger images should be linked as thumbnails. For a good tutorial, see Picture tutorial.
+After you have added the requested image, remove the request from this page, and the template from the talk page.
+You can also add your contribution to fulfilled picture requests.
+
+Copyright warning[edit]
+
+
+
+Beginning June 15th, 2009, the Wikimedia Foundation began transitioning content on Wikipedia to be dual-licensed under both the GFDL and Creative Commons CC-BY-SA 3.0. As a result, this page may give inaccurate or outdated advice, and is in need of updating.
+
+
+Wikipedia can accept only photographs and pictures that are licensed compatibly with the CC-BY-SA license, or the GNU Free Documentation License (GFDL), or are in the public domain. Non-free content images are sometimes also acceptable. A complete guideline of what is acceptable can be found at image use policy.
+
+The simplest way to ensure that the image is free, is to make them ourselves and explicitly release them under the CC-BY(-SA) license by adding {{Cc-by-sa-3.0}} or {{Cc-by-3.0}} to the image description page.
+It is also possible to put your own pictures into the public domain by adding {{PD-author}} or {{Cc-zero}} to the image page.
+Other copyright options and tags can be found at image copyright tags.
+If you're asking someone else for permission to use their image under the CC-BY-SA license, see example requests for permission.
+
+Photographs requested by subject as categories[edit]
+Use {{reqphoto}} template to add articles to these subcategories to post requests for images that you would like to be used on a Wikipedia article. Others can then upload the image(s).
+
+
+▼ Wikipedia requested photographs
+
+
+► Wikipedia requested photographs by location
+
+
+
+► Wikipedia requested photographs by subject
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Requested articles
+
+
+
+
+
+
+Applied arts and sciences
+
+
+
+Agriculture
+Architecture
+Communications
+Computer science, computing, and Internet
+Design
+Electronics
+Engineering
+Fishing, fisheries, and aquaculture
+Industry
+Law
+Law enforcement and crime
+Library sciences
+Medicine
+Pharmacology
+Schools, colleges, and universities
+Technology and tools
+Transportation
+
+
+
+
+
+
+
+
+Arts and entertainment
+
+
+
+General art
+Design
+Fashion
+Film, radio and television
+Food, drink, and nutrition
+Internet and tech culture
+Literature
+Books
+Museums
+National or ethnic cultures
+Performing arts
+Print media
+Recreation and hobbies
+Visual arts
+Other
+Unclassified
+
+
+
+
+
+
+
+
+Biography
+
+
+
+By profession
+By nationality
+
+
+
+
+
+
+
+
+Business and economics
+
+
+
+Accounting
+Business
+Companies
+Econometrics
+Economic policy
+Economic theory and history
+Economics
+Economists
+Finance
+Human resources
+Law firms
+Management
+Non-profit organizations
+People in business
+Terminology (Business)
+Terminology (Economics)
+
+
+
+
+
+
+
+
+Mathematics
+
+
+
+Logic
+Mathematics
+
+
+
+
+
+
+
+
+Music
+
+
+
+Albums
+Bands, performers and songwriters
+Chamber ensembles
+Classical composers
+Classical compositions
+Conductors
+Critics, historians, journalists and publications
+Festivals, concerts and awards
+Genres
+Instruments
+Music theory
+Orchestras
+Organizations
+Producers, sound engineers, etc.
+Record labels
+Schools and music education
+Songs
+Stage musicals
+Technical and business terms
+
+
+
+
+
+
+
+
+Natural sciences
+
+
+
+Astronomy and cosmology
+Biology
+Chemistry, chemicals and labs
+Environment and geology
+Journals and trade publications
+Materials science
+Medicine
+Physical science
+Physics
+Scientists and people in science
+Other
+
+
+
+
+
+
+
+
+Philosophy
+
+
+
+Aesthetics
+Epistemology
+Ethics
+Logic
+Metaphysics
+Other
+
+
+
+
+
+
+
+
+Social sciences
+
+
+
+Archaeology
+Genealogy
+Geography, cities, regions and named places
+Historic places
+History
+Linguistics
+Military and military history
+Politics and government
+Psychology
+Religion
+Sociology
+Other social sciences topics
+
+
+
+
+
+
+
+
+Sports
+
+
+
+Sports and sportspeople
+Association football (soccer)
+Martial arts
+Motor sports
+
+
+
+
+
+
+
+
+Other
+
+
+
+By country
+Lists
+Templates
+Other or unknown topic
+
+
+
+
+
+
+
+
+Media
+
+
+
+Images needing articles
+Pictures
+Recordings
+
+
+
+
+
+
+
+
+Related
+
+
+
+Contributing to Wikipedia
+
+Citing sources
+Find sources
+
+
+Your first article
+
+Article wizard
+
+
+Writing better articles
+
+
+
+
+
+
+
+
+
+Please direct any queries to the WikiProject requested articles discussion page.
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Requested_pictures&oldid=760093348"					
+Categories: Wikipedia pages affected by the licensing transitionWikipedia requests related to images 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Languages
+
+
+العربيةCatalàČeštinaDanskDeutschEestiEspañolفارسیFrançais한국어Bahasa IndonesiaItalianoעבריתLëtzebuergeschLietuviųMagyarമലയാളംBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskOccitanPolskiPortuguêsSlovenčinaSlovenščinaСрпски / srpskiSuomiSvenskaTürkçeУкраїнськаTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 14 January 2017, at 23:05.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.128","walltime":"0.185","ppvisitednodes":{"value":1021,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":63223,"limit":2097152},"templateargumentsize":{"value":3409,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  121.857      1 -total"," 27.16%   33.102      1 Template:Clarify"," 24.04%   29.296      1 Template:Fix-span"," 18.88%   23.003      1 Template:License_migration_warning"," 13.71%   16.705      1 Template:Redirect"," 12.56%   15.300      2 Template:Category_handler","  9.90%   12.069      1 Template:Requested_content","  9.54%   11.623      1 Template:Replace","  7.99%    9.736      1 Template:Navbox","  6.65%    8.104      1 Template:Delink"]},"scribunto":{"limitreport-timeusage":{"value":"0.035","limit":"10.000"},"limitreport-memusage":{"value":1714504,"limit":52428800}},"cachereport":{"origin":"mw1275","timestamp":"20170206175034","ttl":21600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":56,"wgHostname":"mw1266"});});

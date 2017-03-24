@@ -1,0 +1,865 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Blocking
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+Shortcut:
+
+WP:ADMINGUIDE/B
+
+
+Blocks exist to protect the project from harm, and reduce likely future problems. Appropriate use of a block can help prevent imminent problematic conduct and disruption to Wikipedia.
+
+
+
+Contents
+
+
+1 When not to block
+2 When to block
+3 When to unblock
+4 How to block
+5 User blocks/unblocks
+6 IP blocks/unblocks
+7 Blocking a range of IPs
+8 Username blocks/unblocks
+9 Tools
+
+9.1 Executing blocks
+9.2 WHOIS
+9.3 Range blocks
+
+9.3.1 General information
+9.3.2 Calculating a range
+9.3.3 Checking range contributions
+
+
+
+
+10 See also
+
+
+
+When not to block
+Main page: WP:INVOLVED
+Do not block someone where you have, or may seem to have, a conflict of interest with regards to the editor in question or the topic in dispute – known as being "involved". This is generally construed very broadly by the community, to include current or past conflicts with an editor (or editors) and disputes on topics, regardless of the nature, age, or outcome of the dispute. However, issuing warnings, calm and reasonable discussion and explanation of those warnings, advice about communal norms, and suggestions on possible wordings and approaches, do not make an administrator 'involved'.
+In cases which are straightforward, (e.g. blatant vandalism), the community has historically endorsed the obvious action of any administrator – even if involved – on the basis that any reasonable administrator would have probably come to the same conclusion. When in doubt, however, raise the matter at the relevant noticeboard and let other administrators take action, if appropriate.
+Remember that even if you issue a block in a completely uninvolved, nonpartisan manner and perfectly in-line with policy and past precedent, you are stopping another person from being able to contribute to the world's largest encyclopedia project, and they are unlikely to react to the block in a positive manner. If you have any doubts - don't block.
+When to block
+For the full information on this policy, see Wikipedia:Blocking policy
+
+
+Common User block templates
+
+
+
+Temporary
+Indefinite
+
+
+Vandalism:
+{{uw-vblock}}
+{{uw-voablock}}
+
+
+3RR:
+{{uw-3block}}
+N/A
+
+
+Spamming:
+{{uw-sblock}}
+{{Spamblock}}
+
+
+UserName:
+N/A
+{{uw-ublock}}
+
+
+Legal threats:
+N/A
+{{uw-lblock}}
+
+
+Sockpuppetry:
+N/A
+{{uw-spoablock}}
+
+
+Harassment:
+{{uw-hblock}}
+
+
+Generic Block:
+{{uw-block}}
+{{uw-blockindef}}
+
+
+One critical point to remember is that we block users to protect the encyclopedia from harm; blocks should not be punitive. Blocks are most often used for:
+
+persistent vandalism;
+3RR violations;
+persistent gross incivility;
+persistent harassment;
+persistent spamming;
+edit warring or revert warring;
+breaching the sock puppetry policy;
+persistently violating other policies or guidelines;
+persistently making personal attacks;
+making personal, professional or legal threats (including outside the Wikipedia site);
+persistently posting material contrary to the biographies of living persons policy;
+accounts that appear to have been compromised, as an emergency measure.
+
+Blocking may be used in other situations (not just the above), where particular situations are addressed by more specific policies dealing with particular issues.
+Blocks sometimes are used to allow discussions (such as AfD discussions) to proceed without interruption. The block length usually is based on how long you think the block needs to be in place to protect the encyclopedia. 31 hours is the standard duration for most blocks. Edit warring blocks (including WP:3RR) are usually 24 hours (some administrators prefer 31 hours). Registered sockpuppet accounts receive indefinite blocks, however, IP sockpuppet accounts only receive temporary blocks. Discussion blocks might last long enough to conclude the discussion. If you use Twinkle to block, it will automatically supply the standard durations based on the preset chosen.
+Blocks are most often used after a user continues to vandalize despite repeated warnings. Such blocks generally are imposed when a user continues to vandalize after a final warning (corresponding to a level 4 warning template) but this is a guideline, not a hard and fast rule. Template warnings are often used but are not required. Single purpose accounts or vandalism-only accounts may warrant blocking with fewer warnings. In cases of gross or extreme vandalism a warning is not needed at all, such as in the case of promotion of hate and racism, or uploading shock images. Some users will deserve only one warning, others more warnings. Decide on the severity of the behavior and the likelihood of salvaging a good user. No hard and fast rule will do; use your good judgment.
+When to unblock
+
+You must not unblock any user blocked via a checkuser or placed via the Arbitration Committee, as this can result in the removal of your admin rights, even for a first-time offence.
+
+You may want to consider unblocking a user in a number of circumstances. These can include:
+
+The blocked user writing an appropriate unblock request
+The block has been discussed on the Administrators' noticeboard or the Administrators' noticeboard for incidents and you believe there is a consensus to unblock
+The user wants to take the standard offer
+
+Administrators should not normally unblock users blocked in good faith by another administrator. If you plan on undoing another admin's block, ask them to consider unblocking first. If that is not possible (eg: if the blocking admin has since retired) and there is good reason to unblock, notify the original blocking admin and consider posting a note at WP:AN to let other administrators review your intended actions. This will prevent wheel warring which would otherwise escalate into a dispute.
+If you think the blocking administrator has a conflict of interest, you should still assume good faith that the block is correct, and discuss it at WP:AN.
+How to block
+Blocking a user is accomplished by filling out the blocking form. For the purposes of this guide we will use this form provided by the MediaWiki software. However, in practice you may more often use semi-automated tools for blocking such as Twinkle, which can make the process considerably easier.
+The blocking form can seem complicated at first with all of its checkboxes and options; however, once you understand what these options do, it is easy to determine which are needed and which aren't. Below is a step by step guide on how to make blocks to different groups of users. Follow the instructions through and then block the users as the guide says.
+Yes, it's fine for you to block User:ThisIsaTest, User:192.0.2.16 and User:Keegagan !!
+Note: After you are done, please make sure to unblock the users/IPs that you have test-blocked and removed the block messages from their talk page so that these steps may be repeated by the next Admin.
+User blocks/unblocks
+User:ThisIsaTest is a test account and is available for testing purposes. User:ThisIsaTest will NOT be editing the encyclopedia.
+User:ThisIsaTest has been causing massive disruption since he created his account 5 minutes ago. He has sequentially received the four warnings {{uw-vandalism1}}, {{uw-vandalism2}}, {{uw-vandalism3}}, and {{uw-vandalism4}} (which is more than adequate warning), yet he still continues his rampage. With his continued rampage after adequate warning, he needs to be blocked to stop any further disruption.
+
+
+
+
+Typical Admin blocking form
+
+
+
+View ThisIsaTest's talk page, verify that he/she has been adequately warned and that the warnings are recent.
+Click on ThisIsaTest's contributions.
+Verify that ThisIsaTest has continued to vandalize after being adequately warned.
+Directly under the title you should see "talk|block|block log|uploads" among other links – click on block. This will bring you to ThisIsaTest's blocking form. (see diagram on the right)
+Scroll to the bottom of the blocking form page, you will see the blocking form that is to be filled in. The username of the user to be blocked should already be there.
+Click on the Expiry: drop down menu – as ThisIsaTest is a vandalism-only account, select indefinite. ( A )
+
+directly underneath this drop down menu ( B ), you can specify your own length of block. You can type in just about anything here e.g. 1 week, 2 months, 71 hours etc., or enter a specific end date (useful if modifying an existing block) – use either the drop down menu, or type your own length in, not both.
+
+
+Click on the Reason: drop down menu ( C ) – select Vandalism only account (you may use the other reasons in different situations as well as enter a custom reason in the D field).
+You then come to several check boxes: ( E )
+
+Block account creation stops the user from creating a new account for 24 hours after the block is made – this typically should be left ticked.
+Block user from sending e-mail prevents the user from sending email – this should be left un-ticked unless the blocked user abuses the email function.
+Prevent this user from editing their own talk page while blocked self-explanatory – this should be left unticked unless the blocked user disruptively edits their talk page or posts unblock abuse.
+Autoblock any IP addresses used blocks all IP addresses the editor may use in the future whilst blocked. Autoblocks last for 24 hours, except in the case of dynamic IP pools such as those used by residential ISPs – this typically should be left ticked.
+Watch this user's user and talk pages adds the blocked user's page to your watchlist – you may wish to tick this checkbox to be informed if the user adds an unblock rationale on their talk page.
+
+
+Now click Block.
+Leave {{subst:uw-voablock}} on ThisIsaTest's talk page to explain that he has been indefinitely blocked.
+
+User:ThisIsaTest's block settings may need to be changed.
+
+Once again go to ThisIsaTest's contributions – click on block. This will bring you to the block form again.
+You will see a message at the top that says: "ThisIsaTest is already blocked. Do you want to change the settings?" – enter the new settings in the fields below.
+Now click Re-block the user with these settings.
+Leave a message on ThisIsaTest's talk page explaining that the block settings have been changed.
+
+User:ThisIsaTest now says he is sorry – no, he says he is really sorry and has waited six months (per the standard offer) and you wish to unblock him:
+
+Click on ThisIsaTest's contributions.
+Directly underneath the title you should see "talk|change block|unblock|block log" (among other links) – click on unblock. This will bring you to the unblock form for ThisIsaTest.
+Under the reason field, give the reason you are unblocking User:ThisIsaTest.
+Click Unblock. You then see the message "You have unblocked ThisIsaTest".
+
+For the purpose of these practice steps, please remove the {{subst:uw-voablock}} post from ThisIsaTest's talk page.
+IP blocks/unblocks
+User:192.0.2.16 is a reserved IP address and will not be editing the encyclopedia.
+User:192.0.2.16 has been causing massive disruption today and has received warnings from {{uw-vandalism1}} to {{uw-vandalism4}}, yet she still continues her rampage. The IP needs to be blocked to stop any further disruption.
+
+Click on 192.0.2.16's contributions.
+Directly underneath the title you should see "talk|block|block log|uploads" among other links – click on block. This will bring you to 192.0.2.16's blocking form.
+
+
+
+
+If you block any IP in the ranges listed under "Sensitive IP addresses", you must notify the Wikimedia Foundation Communications Committee immediately (see contact instructions there or use the notifications page).
+
+
+
+Scroll to the bottom of the page, you will see the blocking form that is to be filled in. The IP of the user to be blocked should already be there.
+Click on the Expiry: drop down menu – as 192.0.2.16 has received no previous blocks, select a short amount of time: 31 hours.
+
+directly underneath this drop down menu, you can specify your own length of block. You can type in just about anything here e.g. 1 week, 2 months, 71 hours etc. – use either the drop down menu, or type your own length in, not both.
+
+
+Click on the Reason: drop down menu – select Vandalism.
+You then come to several check boxes:
+
+Block account creation stops users from this IP creating an account – this should be left ticked.
+Block user from sending e-mail prevents users from this IP from sending email – this should be left unticked unless the user is abusing this function.
+Prevent this user from editing their own talk page while blocked self-explanatory – this should be left unticked unless the blocked user disruptively edits their talk page or posts unblock abuse.
+Watch this user's user and talk pages adds the blocked user's page to your watchlist – you may wish to tick this checkbox to be informed if the user adds an unblock rationale on their talk page.
+Prevent logged-in users from editing from this IP address blocks all users, registered and unregistered, from editing from the IP address. This may cause collateral damage so should be left unticked.
+
+
+Now click Block.
+Leave {{subst:uw-ablock}} on the IP's talk page to explain that it has been blocked for a short period of time.
+
+User:192.0.2.16 now says she is sorry and you wish to unblock her:
+
+Click on 192.0.2.16's contributions.
+Directly underneath the title you should see "talk|block|block log|uploads" (among other links) – click on unblock. This will bring you to the unblock form for 192.0.2.16.
+Under the reason field, give the reason you are unblocking 192.0.2.16.
+Click Unblock. You will then see "You have unblocked 192.0.2.16".
+
+For the purpose of these practice steps, please remove the {{subst:uw-ablock}} from 192.0.2.16's talk page.
+Blocking a range of IPs
+Do NOT test this feature. The information below is purely for reference. More information at WP:RANGE
+See also: User:Jasper Deng/IPv6 and meta:Help:Range blocks/IPv6
+Sometimes disruption persists from a small range of IPs, where blocking each individually is ineffective. In such cases it may be feasible to perform a range block. This however should be avoided if at all possible, as it will cause collateral damage. It is suggested you discuss range blocks before making them, and if you aren't familiar with CIDR ranges, you shouldn't be making them.
+Things to do before considering a range block:
+
+Ensure page protection is not a viable alternative, for instance, if only one or two pages are affected.
+Check the contributions from the range and ensure there are not good-faith editors that will be blocked from editing.
+
+Tools for computing the range of IPs:
+
+NativeForeigner's range calculator
+blockcalc on tool labs
+
+Tools to check range contributions:
+
+Range calc gadget (recommended). Go to your gadgets and enable "Allow /16, /24 and /27 – /32 CIDR ranges on Special:Contributions". From here you can go to Special:Contribs and enter the CIDR range in just as you would any user or IP. If you have WP:POPUPS turned on, you can hover over the "diff" links to verify you won't be blocking any constructive users
+xtools
+HelloAnnyong's rangecontrib tool
+
+Blocking ranges works much the same way as you would block any IP, except you provide the CIDR range. If you feel a range block is warranted but are uncomfortable doing it yourself, you may wish to contact one of the admins in Category:Wikipedia administrators willing to make range blocks.
+Username blocks/unblocks
+User:Keegagan is a test account and is available for testing purposes. Keegagan will NOT be editing the encyclopedia.
+User:Keegagan is an inappropriate username due to it being too similar to an existing user. Assume that this is a clearly inappropriate username of the kind that can be blocked on sight by any administrator. To block,
+
+Click on Keegagan's contributions.
+Directly underneath the title you should see "talk|block|block log|uploads" among other links – click on block. This will bring you to Keegagan's blocking form.
+Scroll to the bottom of the page, you will see the blocking form that is to be filled in. The username of the user to be blocked should already be there.
+Click on the Expiry: drop down menu – as Keegagan's username is inappropriate, select indefinite.
+
+directly underneath this drop down menu, you can specify your own length of block. You can type in just about anything here e.g. 1 week, 2 months, 71 hours etc. – use either the drop down menu, or type your own length in, not both.
+
+
+Click on the Reason: drop down menu – select {{uw-uhblock}}
+You then come to several check boxes:
+
+Block account creation stops the user from creating a new account for 24 hours after the block is made – this tick should be changed to unticked.
+Block user from sending e-mail prevents the user from sending email – this should be left unticked.
+Prevent this user from editing their own talk page while blocked self-explanatory – this should be left unticked.
+Autoblock any IP addresses used blocks all IP addresses the editor may use in the future whilst blocked – this should be changed to unticked.
+Watch this user's user and talk pages adds the blocked user's page to your watchlist.
+
+
+Now click Block.
+Leave {{subst:uw-uhblock-double}} on Keegagan's talk page to explain that he has been indefinitely blocked.
+
+User:Keegagan now says Keegagan is a family name and you wish to unblock him:
+
+
+
+
+Typical Admin Un-block form
+
+
+
+Click on Keegagan's contributions.
+Directly underneath the title you should see "talk|change block|unblock|block log" (among other links) – click on block. This will bring you to the unblock form for Keegagan.
+Under the reason field, give the reason you are unblocking Keegagan.
+Click Unblock You then see the message "You have unblocked Keegagan".
+
+For the purpose of these practice steps, please remove the {{subst:uw-uhblock-double}} post from Keegagan's talk page.
+Tools
+Executing blocks
+
+Twinkle – A comprehensive block+template tool. Allows you to choose a preset that auto-supplies the standard block duration, block summary, and template to issue to the user. You will see different presets and options when blocking IPs versus accounts. You can also use this gadget just to template the user and not block, and vice versa. If the user has been blocked in the past, a link to the block log will be shown. Also automatically disables a hard block when blocking bots.
+EasyBlock – Block+template script with numerous options on types of blocks. This is quicker than Twinkle but does not allow you to choose block options. Many admins use both scripts.
+massblock – Block multiple users at once. Use with caution!
+Note you can also block while patrolling recent changes with Huggle
+
+WHOIS
+
+Domaintools – Probably the most comprehensive of the WHOIS tools, however requires you enter a CAPTCHA and has a limit of about 50 lookups a day. Be sure to check not just the ASN but the network name, etc, when attempting to determine if an IP belongs to a school or is otherwise shared.
+Whois Gateway on labs – free, CAPTCHA-less and limitless WHOIS lookups for IPs. May not show the network name in some situations.
+Betacommand's WHOIS tool – returns the ASN and CIDR range for an IP, checks for global blocks and returns the block log. To use, append the IP to the URL like ?ip=1.2.3.4
+For an up-to-date list of the most commons tools used when checking IPs, refer to {{anontools}}, passing it an IPv6 address if needed.
+
+Range blocks
+General information
+
+mw:Help:Range blocks, help on MediaWiki
+mw:Help:Range blocks/IPv6, IPv6 help
+
+Calculating a range
+
+NativeForeigner's range calculator
+Rangeblock-Calculator on labs
+Subnet-calculator.com
+Gestioip.net
+
+Checking range contributions
+
+Contribsrange gadget (preferred) – enable "Allow /16, /24 and /27 – /32 CIDR ranges" at Special:Preferences#mw-prefsection-gadgets under "Advanced". Then type in any CIDR range into Special:Contribs. You can also do a prefix search, e.g. 83.217.178* would search for all accounts prefixed with 83.217.178
+xtools on labs. For larger ranges this may be needed over the gadget
+
+See also
+
+Wikipedia:Blocking IP addresses
+Wikipedia:Autoblock
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia accounts and governance
+
+
+
+
+
+
+Unregistered (IP) users
+
+
+
+Why create an account?
+Create an account
+Request an account
+IPs are human too
+IP addresses are not people
+IP hopper
+
+
+
+
+
+
+
+
+Registered users
+
+
+
+New account
+Logging in
+
+Reset passwords
+
+
+Username policy
+
+Changing username
+Usernames for administrator attention
+
+
+Unified login or SUL
+Alternate account
+
+
+
+
+
+
+
+
+Account security
+
+
+
+Password strength requirements
+User account security
+Personal security practices
+Two-factor authentication
+
+Simple 2FA
+2FA for AWB
+
+
+Committed identity
+On privacy, confidentiality and discretion
+Compromised accounts
+
+
+
+
+
+
+
+
+Blocks, global locks,
+bans, sanctions
+
+
+
+Blocking policy
+
+FAQ
+Admins guide
+Tools
+Autoblock
+
+
+Appealing a block
+
+Guide to appealing blocks
+UTRS Unblock Ticket Request System
+
+
+Blocking IP addresses
+
+Range blocks
+IPv6
+Open proxies
+
+
+Global locks
+Banning policy
+
+ArbCom appeals
+
+
+Sanctions
+
+Personal sanctions
+General sanctions
+Discretionary sanctions and Log
+Essay
+
+
+Long-term abuse
+Standard offer
+
+
+
+
+
+
+
+
+Related to accounts
+
+
+
+Sock puppetry
+Single-purpose account
+Sleeper account
+Vandalism-only account
+Wikibreak
+
+Enforcer
+
+
+Retiring
+
+Courtesy vanishing
+
+
+Clean start
+
+Quiet return
+
+
+
+
+
+
+
+
+
+
+User groups
+and global user groups
+
+
+
+Requests for permissions
+
+Admin instructions
+Admin guide
+
+
+Account creator
+
+PERM
+
+
+Autopatrolled
+
+PERM
+
+
+AutoWikiBrowser
+
+PERM
+
+
+Confirmed
+
+PERM
+
+
+Extended confirmed
+
+PERM
+
+
+File mover
+
+PERM
+
+
+Mass message sender
+
+PERM
+
+
+New page reviewer
+
+PERM
+
+
+Page mover
+
+PERM
+
+
+Pending changes reviewer
+
+PERM
+
+
+Rollback
+
+PERM
+
+
+Template editor
+
+PERM
+
+
+IP-block-exempt
+
+Requests
+
+
+Courses access
+
+Requests
+
+
+Bot accounts
+
+Requests
+
+
+Global rights policy
+
+OTRS Volunteer Response Team
+
+
+
+
+
+
+
+
+
+
+Advanced user groups
+
+
+
+Administrators
+
+RfA
+
+
+Bureaucrats
+
+RfB
+
+
+Edit filter manager
+
+Requests
+
+
+CheckUser and Oversight
+
+Requests
+
+
+
+
+
+
+
+
+
+
+Committees and related
+
+
+
+Arbitration Committee
+Mediation Committee
+Bot approvals group
+Functionaries
+Clerks
+
+
+
+
+
+
+
+
+Governance
+
+
+
+Administration
+
+FAQ
+
+
+Formal organization
+Editorial oversight and control
+Quality control
+Wikimedia Foundation
+
+Meta-Wiki
+
+
+Leadership opportunities
+WikiProjects
+Elections
+Policies and guidelines
+Unbundling administrators' powers
+Petitions
+Noticeboards
+Consensus
+Dispute resolution
+Reforms
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Blocking&oldid=751405232"					
+Categories: Wikipedia blockingWikipedia Administrators' guideHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+فارسی日本語ਪੰਜਾਬੀ 
+Edit links 
+
+
+
+
+
+ This page was last modified on 25 November 2016, at 13:16.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.144","walltime":"0.219","ppvisitednodes":{"value":1124,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":50885,"limit":2097152},"templateargumentsize":{"value":984,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  113.289      1 -total"," 48.55%   55.006      1 Template:Sprotected2","  9.60%   10.880      2 Template:Navbox","  8.13%    9.214      1 Template:Admin_guide","  7.24%    8.207      1 Template:Main","  6.24%    7.064      1 Template:Shortcut","  5.04%    5.711      1 Template:Wikipedia_accounts","  4.92%    5.577     11 Template:Tlx","  4.37%    4.954      5 Template:Hatnote","  2.94%    3.328      1 Template:See_also"]},"scribunto":{"limitreport-timeusage":{"value":"0.041","limit":"10.000"},"limitreport-memusage":{"value":1529879,"limit":52428800}},"cachereport":{"origin":"mw1270","timestamp":"20170204085450","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":56,"wgHostname":"mw1173"});});

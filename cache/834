@@ -1,0 +1,590 @@
+ 
+
+
+
+
+
+
+Denial-of-service attack
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+"DoS" redirects here. For other uses, see DoS (disambiguation).
+
+
+
+
+DDoS Stacheldraht attack diagram.
+
+
+In computing, a denial-of-service attack (DoS attack) is a cyber-attack where the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet. Denial of service is typically accomplished by flooding the targeted machine or resource with superfluous requests in an attempt to overload systems and prevent some or all legitimate requests from being fulfilled.[1] A DoS attack is analogous to a group of people crowding the entry door or gate to a shop or business, and not letting legitimate parties enter into the shop or business, disrupting normal operations.
+Criminal perpetrators of DoS attacks often target sites or services hosted on high-profile web servers such as banks or credit card payment gateways. revenge, blackmail[2][3][4] and activism[5] can motivate these attacks.
+
+
+
+Contents
+
+
+1 Types
+
+1.1 Distributed DoS
+1.2 Advanced persistent DoS
+1.3 Denial-of-service as a service
+
+
+2 Symptoms
+3 Attack techniques
+
+3.1 Attack tools
+3.2 Application-layer floods
+3.3 Degradation-of-service attacks
+3.4 Denial-of-service Level II
+3.5 Distributed DoS attack
+3.6 DDoS extortion
+3.7 HTTP POST DoS attack
+3.8 Internet Control Message Protocol (ICMP) flood
+3.9 Nuke
+3.10 Peer-to-peer attacks
+3.11 Permanent denial-of-service attacks
+3.12 Reflected / spoofed attack
+
+3.12.1 Amplification
+
+
+3.13 R-U-Dead-Yet? (RUDY)
+3.14 Shrew attack
+3.15 Slow Read attack
+3.16 Sophisticated low-bandwidth Distributed Denial-of-Service Attack
+3.17 (S)SYN flood
+3.18 Teardrop attacks
+3.19 Telephony denial-of-service (TDoS)
+
+
+4 Defense techniques
+
+4.1 Application front end hardware
+4.2 Application level Key Completion Indicators
+4.3 Blackholing and sinkholing
+4.4 IPS based prevention
+4.5 DDS based defense
+4.6 Firewalls
+4.7 Routers
+4.8 Switches
+4.9 Upstream filtering
+
+
+5 Unintentional denial-of-service
+6 Side effects of attacks
+
+6.1 Backscatter
+
+
+7 Legality
+8 See also
+9 References
+10 Further reading
+11 External links
+
+
+
+Types[edit]
+Denial-of-service attacks are characterized by an explicit attempt by attackers to prevent legitimate users of a service from using that service. In a distributed denial-of-service (DDoS) attack, the incoming traffic flooding the victim originates from many different sources – potentially hundreds of thousands or more. This effectively makes it impossible to stop the attack simply by blocking a single IP address; plus, it is very difficult to distinguish legitimate user traffic from attack traffic when spread across so many points of origin. There are two general forms of DoS attacks: those that crash services and those that flood services. The most serious attacks are distributed.[6] Many attacks involve forging of IP sender addresses (IP address spoofing) so that the location of the attacking machines cannot easily be identified and so that the attack cannot be easily defeated using ingress filtering.
+Distributed DoS[edit]
+See also: October 2016 Dyn cyberattack, IP address spoofing, and Hop (networking)
+A distributed denial-of-service (DDoS) is a cyber-attack where the perpetrator uses more than one, often thousands of, unique IP addresses. The scale of DDoS attacks has continued to rise over recent years, by 2016 exceeding a terabit per second.[7] [8]
+Advanced persistent DoS[edit]
+An advanced persistent DoS (APDoS) is more likely to be perpetrated by an advanced persistent threat (APT): actors who are well resourced, exceptionally skilled and have access to substantial commercial grade computer resources and capacity. APDoS attacks represent a clear and emerging threat needing specialised monitoring and incident response services and the defensive capabilities of specialised DDoS mitigation service providers.
+This type of attack involves massive network layer DDoS attacks through to focused application layer (HTTP) floods, followed by repeated (at varying intervals) SQLI and XSS attacks[citation needed]. Typically, the perpetrators can simultaneously use from 2 to 5 attack vectors involving up to several tens of millions of requests per second, often accompanied by large SYN floods that can not only attack the victim but also any service provider implementing any sort of managed DDoS mitigation capability. These attacks can persist for several weeks- the longest continuous period noted so far lasted 38 days. This APDoS attack involved approximately 50+ petabits (100,000+ terabits) of malicious traffic.
+Attackers in this scenario may (or often will) tactically switch between several targets to create a diversion to evade defensive DDoS countermeasures but all the while eventually concentrating the main thrust of the attack onto a single victim. In this scenario, threat actors with continuous access to several very powerful network resources are capable of sustaining a prolonged campaign generating enormous levels of un-amplified DDoS traffic.
+APDoS attacks are characterised by:
+
+advanced reconnaissance (pre-attack OSINT and extensive decoyed scanning crafted to evade detection over long periods)
+tactical execution (attack with a primary and secondary victims but focus is on primary)
+explicit motivation (a calculated end game/goal target)
+large computing capacity (access to substantial computer power and network bandwidth resources)
+simultaneous multi-threaded OSI layer attacks (sophisticated tools operating at layers 3 through 7)
+persistence over extended periods (utilising all the above into a concerted, well managed attack across a range of targets[9]).
+
+Denial-of-service as a service[edit]
+Some vendors provide so-called "booter" or "stresser" services, which have simple web-based front ends, and accept payment over the web. Marketed and promoted as stress-testing tools, they can be used to perform unauthorized denial-of-service attacks, and allow technically unsophisticated attackers access to sophisticated attack tools without the need for the attacker to understand their use.[10]
+Symptoms[edit]
+The United States Computer Emergency Readiness Team (US-CERT) has identified symptoms of a denial-of-service attack to include:[11]
+
+unusually slow network performance (opening files or accessing web sites)
+unavailability of a particular web site
+inability to access any web site
+dramatic increase in the number of spam emails received (this type of DoS attack is considered an e-mail bomb).
+
+Additional symptoms may include:
+
+disconnection of a wireless or wired internet connection
+long-term denial of access to the web or any internet services.
+
+If the attack is conducted on a sufficiently large scale, entire geographical regions of Internet connectivity can be compromised without the attacker's knowledge or intent by incorrectly configured or flimsy network infrastructure equipment.
+Attack techniques[edit]
+A wide array of programs are used to launch DoS-attacks.
+Attack tools[edit]
+In cases such as MyDoom the tools are embedded in malware, and launch their attacks without the knowledge of the system owner. Stacheldraht is a classic example of a DDoS tool. It utilizes a layered structure where the attacker uses a client program to connect to handlers, which are compromised systems that issue commands to the zombie agents, which in turn facilitate the DDoS attack. Agents are compromised via the handlers by the attacker, using automated routines to exploit vulnerabilities in programs that accept remote connections running on the targeted remote hosts. Each handler can control up to a thousand agents.[12]
+In other cases a machine may become part of a DDoS attack with the owner's consent, for example, in Operation Payback, organized by the group Anonymous. The LOIC has typically been used in this way. Along with HOIC a wide variety of DDoS tools are available today, including paid and free versions, with different features available. There is an underground market for these in hacker related forums and IRC channels.
+UK's GCHQ has tools built for DDoS, named PREDATORS FACE and ROLLING THUNDER.[13]
+Application-layer floods[edit]
+Various DoS-causing exploits such as buffer overflow can cause server-running software to get confused and fill the disk space or consume all available memory or CPU time.
+Other kinds of DoS rely primarily on brute force, flooding the target with an overwhelming flux of packets, oversaturating its connection bandwidth or depleting the target's system resources. Bandwidth-saturating floods rely on the attacker having higher bandwidth available than the victim; a common way of achieving this today is via distributed denial-of-service, employing a botnet. Another target of DDoS attacks may be to produce added costs for the application operator, when the latter uses resources based on Cloud Computing. In this case normally application used resources are tied to a needed Quality of Service level (e.g. responses should be less than 200 ms) and this rule is usually linked to automated software (e.g. Amazon CloudWatch[14]) to raise more virtual resources from the provider in order to meet the defined QoS levels for the increased requests.The main incentive behind such attacks may be to drive the application owner to raise the elasticity levels in order to handle the increased application traffic, in order to cause financial losses or force them to become less competitive. Other floods may use specific packet types or connection requests to saturate finite resources by, for example, occupying the maximum number of open connections or filling the victim's disk space with logs.
+A "banana attack" is another particular type of DoS. It involves redirecting outgoing messages from the client back onto the client, preventing outside access, as well as flooding the client with the sent packets. A LAND attack is of this type.
+An attacker with shell-level access to a victim's computer may slow it until it is unusable or crash it by using a fork bomb.
+A kind of application-level DoS attack is XDoS (or XML DoS) which can be controlled by modern web application firewalls (WAFs).
+Degradation-of-service attacks[edit]
+"Pulsing" zombies are compromised computers that are directed to launch intermittent and short-lived floodings of victim websites with the intent of merely slowing it rather than crashing it. This type of attack, referred to as "degradation-of-service" rather than "denial-of-service", can be more difficult to detect than regular zombie invasions and can disrupt and hamper connection to websites for prolonged periods of time, potentially causing more disruption than concentrated floods.[15][16] Exposure of degradation-of-service attacks is complicated further by the matter of discerning whether the server is really being attacked or under normal traffic loads.[17]
+Denial-of-service Level II[edit]
+The goal of DoS L2 (possibly DDoS) attack is to cause a launching of a defense mechanism which blocks the network segment from which the attack originated. In case of distributed attack or IP header modification (that depends on the kind of security behavior) it will fully block the attacked network from the Internet, but without system crash.[citation needed]
+Distributed DoS attack[edit]
+A distributed denial-of-service (DDoS) attack occurs when multiple systems flood the bandwidth or resources of a targeted system, usually one or more web servers.[6] Such an attack is often the result of multiple compromised systems (for example, a botnet) flooding the targeted system with traffic. A botnet is a network of zombie computers programmed to receive commands without the owners' knowledge.[18] When a server is overloaded with connections, new connections can no longer be accepted. The major advantages to an attacker of using a distributed denial-of-service attack are that multiple machines can generate more attack traffic than one machine, multiple attack machines are harder to turn off than one attack machine, and that the behavior of each attack machine can be stealthier, making it harder to track and shut down. These attacker advantages cause challenges for defense mechanisms. For example, merely purchasing more incoming bandwidth than the current volume of the attack might not help, because the attacker might be able to simply add more attack machines. This, after all, will end up completely crashing a website for periods of time.
+Malware can carry DDoS attack mechanisms; one of the better-known examples of this was MyDoom. Its DoS mechanism was triggered on a specific date and time. This type of DDoS involved hardcoding the target IP address prior to release of the malware and no further interaction was necessary to launch the attack.
+A system may also be compromised with a trojan, allowing the attacker to download a zombie agent, or the trojan may contain one. Attackers can also break into systems using automated tools that exploit flaws in programs that listen for connections from remote hosts. This scenario primarily concerns systems acting as servers on the web. Stacheldraht is a classic example of a DDoS tool. It utilizes a layered structure where the attacker uses a client program to connect to handlers, which are compromised systems that issue commands to the zombie agents, which in turn facilitate the DDoS attack. Agents are compromised via the handlers by the attacker, using automated routines to exploit vulnerabilities in programs that accept remote connections running on the targeted remote hosts. Each handler can control up to a thousand agents.[12] In some cases a machine may become part of a DDoS attack with the owner's consent, for example, in Operation Payback, organized by the group Anonymous. These attacks can use different types of internet packets such as: TCP, UDP, ICMP etc.
+These collections of systems compromisers are known as botnets / rootservers. DDoS tools like Stacheldraht still use classic DoS attack methods centered on IP spoofing and amplification like smurf attacks and fraggle attacks (these are also known as bandwidth consumption attacks). SYN floods (also known as resource starvation attacks) may also be used. Newer tools can use DNS servers for DoS purposes. Unlike MyDoom's DDoS mechanism, botnets can be turned against any IP address. Script kiddies use them to deny the availability of well known websites to legitimate users.[19] More sophisticated attackers use DDoS tools for the purposes of extortion – even against their business rivals.[20]
+Simple attacks such as SYN floods may appear with a wide range of source IP addresses, giving the appearance of a well distributed DoS. These flood attacks do not require completion of the TCP three way handshake and attempt to exhaust the destination SYN queue or the server bandwidth. Because the source IP addresses can be trivially spoofed, an attack could come from a limited set of sources, or may even originate from a single host. Stack enhancements such as syn cookies may be effective mitigation against SYN queue flooding, however complete bandwidth exhaustion may require involvement.[further explanation needed]
+If an attacker mounts an attack from a single host it would be classified as a DoS attack. In fact, any attack against availability would be classed as a denial-of-service attack. On the other hand, if an attacker uses many systems to simultaneously launch attacks against a remote host, this would be classified as a DDoS attack.
+It has been reported that there are new attacks from internet of things which have been involved in denial of service attacks. [21] In one noted attack that was made peaked at around 20,000 requests per second which came from around 900 CCTV cameras. [22]
+UK's GCHQ has tools built for DDoS, named PREDATORS FACE and ROLLING THUNDER.[13]
+See also: DDoS mitigation
+DDoS extortion[edit]
+In 2015, DDoS botnets such as DD4BC grew in prominence, taking aim at financial institutions.[23] Cyber-extortionists typically begin with a low-level attack and a warning that a larger attack will be carried out if a ransom is not paid in Bitcoin.[24] Security experts recommend targeted websites to not pay the ransom. The attackers tend to get into an extended extortion scheme once they recognize that the target is ready to pay.[25]
+HTTP POST DoS attack[edit]
+First discovered in 2009, the HTTP POST attack sends a complete, legitimate HTTP POST header, which includes a 'Content-Length' field to specify the size of the message body to follow. However, the attacker then proceeds to send the actual message body at an extremely slow rate (e.g. 1 byte/110 seconds). Due to the entire message being correct and complete, the target server will attempt to obey the 'Content-Length' field in the header, and wait for the entire body of the message to be transmitted, which can take a very long time. The attacker establishes hundreds or even thousands of such connections, until all resources for incoming connections on the server (the victim) are used up, hence making any further (including legitimate) connections impossible until all data has been sent. It is notable that unlike many other (D)DoS attacks, which try to subdue the server by overloading its network or CPU, a HTTP POST attack targets the logical resources of the victim, which means the victim would still have enough network bandwidth and processing power to operate.[26] Further combined with the fact that Apache will, by default, accept requests up to 2GB in size, this attack can be particularly powerful. HTTP POST attacks are difficult to differentiate from legitimate connections, and are therefore able to bypass some protection systems. OWASP, an open source web application security project, has released a testing tool to test the security of servers against this type of attacks.
+Internet Control Message Protocol (ICMP) flood[edit]
+A smurf attack relies on misconfigured network devices that allow packets to be sent to all computer hosts on a particular network via the broadcast address of the network, rather than a specific machine. The attacker will send large numbers of IP packets with the source address faked to appear to be the address of the victim. The network's bandwidth is quickly used up, preventing legitimate packets from getting through to their destination.[27]
+Ping flood is based on sending the victim an overwhelming number of ping packets, usually using the "ping" command from Unix-like hosts (the -t flag on Windows systems is much less capable of overwhelming a target, also the -l (size) flag does not allow sent packet size greater than 65500 in Windows). It is very simple to launch, the primary requirement being access to greater bandwidth than the victim.
+Ping of death is based on sending the victim a malformed ping packet, which will lead to a system crash on a vulnerable system.
+The BlackNurse attack is an example of an attack taking advantage of the required Destination Port Unreachable ICMP packets.
+Nuke[edit]
+A Nuke is an old denial-of-service attack against computer networks consisting of fragmented or otherwise invalid ICMP packets sent to the target, achieved by using a modified ping utility to repeatedly send this corrupt data, thus slowing down the affected computer until it comes to a complete stop.
+A specific example of a nuke attack that gained some prominence is the WinNuke, which exploited the vulnerability in the NetBIOS handler in Windows 95. A string of out-of-band data was sent to TCP port 139 of the victim's machine, causing it to lock up and display a Blue Screen of Death (BSOD).
+Peer-to-peer attacks[edit]
+Main article: Direct Connect (protocol) § Direct Connect used for DDoS attacks
+Attackers have found a way to exploit a number of bugs in peer-to-peer servers to initiate DDoS attacks. The most aggressive of these peer-to-peer-DDoS attacks exploits DC++. With peer-to-peer there is no botnet and the attacker does not have to communicate with the clients it subverts. Instead, the attacker acts as a "puppet master," instructing clients of large peer-to-peer file sharing hubs to disconnect from their peer-to-peer network and to connect to the victim's website instead.[28][29][30]
+Permanent denial-of-service attacks[edit]
+Permanent denial-of-service (PDoS), also known loosely as phlashing,[31] is an attack that damages a system so badly that it requires replacement or reinstallation of hardware.[32] Unlike the distributed denial-of-service attack, a PDoS attack exploits security flaws which allow remote administration on the management interfaces of the victim's hardware, such as routers, printers, or other networking hardware. The attacker uses these vulnerabilities to replace a device's firmware with a modified, corrupt, or defective firmware image—a process which when done legitimately is known as flashing. This therefore "bricks" the device, rendering it unusable for its original purpose until it can be repaired or replaced.
+The PDoS is a pure hardware targeted attack which can be much faster and requires fewer resources than using a botnet or a root/vserver in a DDoS attack. Because of these features, and the potential and high probability of security exploits on Network Enabled Embedded Devices (NEEDs), this technique has come to the attention of numerous hacking communities.
+PhlashDance is a tool created by Rich Smith (an employee of Hewlett-Packard's Systems Security Lab) used to detect and demonstrate PDoS vulnerabilities at the 2008 EUSecWest Applied Security Conference in London.[33]
+Reflected / spoofed attack[edit]
+A distributed denial-of-service attack may involve sending forged requests of some type to a very large number of computers that will reply to the requests. Using Internet Protocol address spoofing, the source address is set to that of the targeted victim, which means all the replies will go to (and flood) the target. (This reflected attack form is sometimes called a "DRDOS".[34])
+ICMP Echo Request attacks (Smurf attack) can be considered one form of reflected attack, as the flooding host(s) send Echo Requests to the broadcast addresses of mis-configured networks, thereby enticing hosts to send Echo Reply packets to the victim. Some early DDoS programs implemented a distributed form of this attack.
+Amplification[edit]
+Amplification attacks are used to magnify the bandwidth that is sent to a victim. This is typically done through publicly accessible DNS servers that are used to cause congestion on the target system using DNS response traffic. Many services can be exploited to act as reflectors, some harder to block than others.[35] US-CERT have observed that different services implies in different amplification factors, as you can see below:[36]
+
+UDP-based Amplification Attacks
+
+Protocol
+Bandwidth Amplification Factor
+
+
+NTP
+556.9
+
+
+CharGen
+358.8
+
+
+DNS
+up to 179 [37]
+
+
+QOTD
+140.3
+
+
+Quake Network Protocol
+63.9
+
+
+BitTorrent
+4.0 - 54.3 [38]
+
+
+SSDP
+30.8
+
+
+Kad
+16.3
+
+
+SNMPv2
+6.3
+
+
+Steam Protocol
+5.5
+
+
+NetBIOS
+3.8
+
+
+DNS amplification attacks involve a new mechanism that increased the amplification effect, using a much larger list of DNS servers than seen earlier. The process typically involves an attacker sending a DNS name look up request to a public DNS server, spoofing the source IP address of the targeted victim. The attacker tries to request as much zone information as possible, thus amplifying the DNS record response that is sent to the targeted victim. Since the size of the request is significantly smaller than the response, the attacker is easily able to increase the amount of traffic directed at the target. [39][40] SNMP and NTP can also be exploited as reflector in an amplification attack.
+An example of an amplified DDoS attack through NTP is through a command called monlist, which sends the details of the last 600 people who have requested the time from that computer back to the requester. A small request to this time server can be sent using a spoofed source IP address of some victim, which results in 556.9 times the amount of data that was requested back to the victim. This becomes amplified when using botnets that all send requests with the same spoofed IP source, which will send a massive amount of data back to the victim.
+It is very difficult to defend against these types of attacks because the response data is coming from legitimate servers. These attack requests are also sent through UDP, which does not require a connection to the server. This means that the source IP is not verified when a request is received by the server. In order to bring awareness of these vulnerabilities, campaigns have been started that are dedicated to finding amplification vectors which has led to people fixing their resolvers or having the resolvers shut down completely.
+R-U-Dead-Yet? (RUDY)[edit]
+RUDY attack targets web applications by starvation of available sessions on the web server. Much like Slowloris, RUDY keeps sessions at halt using never-ending POST transmissions and sending an arbitrarily large content-length header value.
+Shrew attack[edit]
+The shrew attack is a denial-of-service attack on the Transmission Control Protocol. It uses short synchronized bursts of traffic to disrupt TCP connections on the same link, by exploiting a weakness in TCP's retransmission timeout mechanism.[41]
+Slow Read attack[edit]
+Slow Read attack sends legitimate application layer requests but reads responses very slowly, thus trying to exhaust the server's connection pool. Slow reading is achieved by advertising a very small number for the TCP Receive Window size and at the same time by emptying clients' TCP receive buffer slowly. That naturally ensures a very low data flow rate.
+
+Sophisticated low-bandwidth Distributed Denial-of-Service Attack[edit]
+A sophisticated low-bandwidth DDoS attack is a form of DoS that uses less traffic and increases their effectiveness by aiming at a weak point in the victim's system design, i.e., the attacker sends traffic consisting of complicated requests to the system.[42] Essentially, a sophisticated DDoS attack is lower in cost due to its use of less traffic, is smaller in size making it more difficult to identify, and it has the ability to hurt systems which are protected by flow control mechanisms.[42][43]
+(S)SYN flood[edit]
+See also: SYN flood
+A SYN flood occurs when a host sends a flood of TCP/SYN packets, often with a forged sender address. Each of these packets are handled like a connection request, causing the server to spawn a half-open connection, by sending back a TCP/SYN-ACK packet (Acknowledge), and waiting for a packet in response from the sender address (response to the ACK Packet). However, because the sender address is forged, the response never comes. These half-open connections saturate the number of available connections the server can make, keeping it from responding to legitimate requests until after the attack ends.[44]
+Teardrop attacks[edit]
+A teardrop attack involves sending mangled IP fragments with overlapping, oversized payloads to the target machine. This can crash various operating systems because of a bug in their TCP/IP fragmentation re-assembly code.[45] Windows 3.1x, Windows 95 and Windows NT operating systems, as well as versions of Linux prior to versions 2.0.32 and 2.1.63 are vulnerable to this attack.
+(Although in September 2009, a vulnerability in Windows Vista was referred to as a "teardrop attack", this targeted SMB2 which is a higher layer than the TCP packets that teardrop used).[46][47]
+One of the fields in an IP header is the “fragment offset” field, indicating the starting position, or offset, of the data contained in a fragmented packet relative to the data in the original packet. If the sum of the offset and size of one fragmented packet differs from that of the next fragmented packet, the packets overlap. When this happens, a server vulnerable to teardrop attacks is unable to reassemble the packets - resulting in a denial-of-service condition.
+Telephony denial-of-service (TDoS)[edit]
+Voice over IP has made abusive origination of large numbers of telephone voice calls inexpensive and readily automated while permitting call origins to be misrepresented through caller ID spoofing.
+According to the US Federal Bureau of Investigation, telephony denial-of-service (TDoS) has appeared as part of various fraudulent schemes:
+
+A scammer contacts the victim's banker or broker, impersonating the victim to request a funds transfer. The banker's attempt to contact the victim for verification of the transfer fails as the victim's telephone lines are being flooded with thousands of bogus calls, rendering the victim unreachable.[48]
+A scammer contacts consumers with a bogus claim to collect an outstanding payday loan for thousands of dollars. When the consumer objects, the scammer retaliates by flooding the victim's employer with thousands of automated calls. In some cases, displayed caller ID is spoofed to impersonate police or law enforcement agencies.[49]
+A scammer contacts consumers with a bogus debt collection demand and threatens to send police; when the victim balks, the scammer floods local police numbers with calls on which caller ID is spoofed to display the victims number. Police soon arrive at the victim's residence attempting to find the origin of the calls.
+
+Telephony denial-of-service can exist even without Internet telephony. In the 2002 New Hampshire Senate election phone jamming scandal, telemarketers were used to flood political opponents with spurious calls to jam phone banks on election day. Widespread publication of a number can also flood it with enough calls to render it unusable, as happened with multiple +1-area code-867-5309 subscribers inundated by hundreds of misdialed calls daily in response to the song 867-5309/Jenny.
+TDoS differs from other telephone harassment (such as prank calls and obscene phone calls) by the number of calls originated; by occupying lines continuously with repeated automated calls, the victim is prevented from making or receiving both routine and emergency telephone calls.
+Related exploits include SMS flooding attacks and black fax or fax loop transmission.
+Defense techniques[edit]
+Defensive responses to denial-of-service attacks typically involve the use of a combination of attack detection, traffic classification and response tools, aiming to block traffic that they identify as illegitimate and allow traffic that they identify as legitimate.[50] A list of prevention and response tools is provided below:
+Application front end hardware[edit]
+Application front-end hardware is intelligent hardware placed on the network before traffic reaches the servers. It can be used on networks in conjunction with routers and switches. Application front end hardware analyzes data packets as they enter the system, and then identifies them as priority, regular, or dangerous. There are more than 25 bandwidth management vendors.
+Application level Key Completion Indicators[edit]
+
+
+
+
+
+This section may be too technical for most readers to understand. Please help improve this section to make it understandable to non-experts, without removing the technical details. The talk page may contain suggestions. (June 2016) (Learn how and when to remove this template message)
+
+
+In order to meet the case of application level DDoS attacks against cloud-based applications, approaches may be based on an application layer analysis, to indicate whether an incoming traffic bulk is legitimate or not and thus enable the triggering of elasticity decisions without the economical implications of a DDoS attack.[51] These approaches mainly rely on an identified path of value inside the application and monitor the macroscopic progress of the requests in this path, towards the final generation of profit, through markers denoted as Key Completion Indicators.[52]
+Blackholing and sinkholing[edit]
+With blackhole routing, all the traffic to the attacked DNS or IP address is sent to a "black hole" (null interface or a non-existent server). To be more efficient and avoid affecting network connectivity, it can be managed by the ISP.[53]
+A DNS sinkhole routes traffic to a valid IP address which analyzes traffic and rejects bad packets. Sinkholing is not efficient for most severe attacks.
+IPS based prevention[edit]
+Intrusion prevention systems (IPS) are effective if the attacks have signatures associated with them. However, the trend among the attacks is to have legitimate content but bad intent. Intrusion-prevention systems which work on content recognition cannot block behavior-based DoS attacks.[citation needed]
+An ASIC based IPS may detect and block denial-of-service attacks because they have the processing power and the granularity to analyze the attacks and act like a circuit breaker in an automated way.[citation needed]
+A rate-based IPS (RBIPS) must analyze traffic granularly and continuously monitor the traffic pattern and determine if there is traffic anomaly. It must let the legitimate traffic flow while blocking the DoS attack traffic.[54]
+DDS based defense[edit]
+More focused on the problem than IPS, a DoS defense system (DDS) can block connection-based DoS attacks and those with legitimate content but bad intent. A DDS can also address both protocol attacks (such as teardrop and ping of death) and rate-based attacks (such as ICMP floods and SYN floods).
+Firewalls[edit]
+In the case of a simple attack, a firewall could have a simple rule added to deny all incoming traffic from the attackers, based on protocols, ports or the originating IP addresses.
+More complex attacks will however be hard to block with simple rules: for example, if there is an ongoing attack on port 80 (web service), it is not possible to drop all incoming traffic on this port because doing so will prevent the server from serving legitimate traffic.[55] Additionally, firewalls may be too deep in the network hierarchy, with routers being adversely affected before the traffic gets to the firewall.
+Routers[edit]
+Similar to switches, routers have some rate-limiting and ACL capability. They, too, are manually set. Most routers can be easily overwhelmed under a DoS attack. Cisco IOS has optional features that can reduce the impact of flooding.[56]
+Switches[edit]
+Most switches have some rate-limiting and ACL capability. Some switches provide automatic and/or system-wide rate limiting, traffic shaping, delayed binding (TCP splicing), deep packet inspection and Bogon filtering (bogus IP filtering) to detect and remediate DoS attacks through automatic rate filtering and WAN Link failover and balancing.[citation needed]
+These schemes will work as long as the DoS attacks can be prevented by using them. For example, SYN flood can be prevented using delayed binding or TCP splicing. Similarly content based DoS may be prevented using deep packet inspection. Attacks originating from dark addresses or going to dark addresses can be prevented using bogon filtering. Automatic rate filtering can work as long as set rate-thresholds have been set correctly. Wan-link failover will work as long as both links have DoS/DDoS prevention mechanism.[citation needed]
+Upstream filtering[edit]
+All traffic is passed through a "cleaning center" or a "scrubbing center" via various methods such as proxies, tunnels, digital cross connects, or even direct circuits, which separates "bad" traffic (DDoS and also other common internet attacks) and only sends good traffic beyond to the server. The provider needs central connectivity to the Internet to manage this kind of service unless they happen to be located within the same facility as the "cleaning center" or "scrubbing center".[57]
+Examples of providers of this service:
+
+
+CloudFlare[58]
+Level 3 Communications[59]
+Radware[60]
+Arbor Networks[61]
+AT&T[62]
+F5 Networks[63]
+Incapsula[64]
+Neustar Inc[65]
+Akamai Technologies[66]
+Tata Communications[67]
+Verisign[68]
+Verizon[69][70]
+
+
+Unintentional denial-of-service[edit]
+An unintentional denial-of-service can occur when a system ends up denied, not due to a deliberate attack by a single individual or group of individuals, but simply due to a sudden enormous spike in popularity. This can happen when an extremely popular website posts a prominent link to a second, less well-prepared site, for example, as part of a news story. The result is that a significant proportion of the primary site's regular users – potentially hundreds of thousands of people – click that link in the space of a few hours, having the same effect on the target website as a DDoS attack. A VIPDoS is the same, but specifically when the link was posted by a celebrity.
+When Michael Jackson died in 2009, websites such as Google and Twitter slowed down or even crashed.[71] Many sites' servers thought the requests were from a virus or spyware trying to cause a denial-of-service attack, warning users that their queries looked like "automated requests from a computer virus or spyware application".[72]
+News sites and link sites – sites whose primary function is to provide links to interesting content elsewhere on the Internet – are most likely to cause this phenomenon. The canonical example is the Slashdot effect when receiving traffic from Slashdot. It is also known as "the Reddit hug of death" and "the Digg effect".
+Routers have also been known to create unintentional DoS attacks, as both D-Link and Netgear routers have overloaded NTP servers by flooding NTP servers without respecting the restrictions of client types or geographical limitations.
+Similar unintentional denials-of-service can also occur via other media, e.g. when a URL is mentioned on television. If a server is being indexed by Google or another search engine during peak periods of activity, or does not have a lot of available bandwidth while being indexed, it can also experience the effects of a DoS attack.[citation needed]
+Legal action has been taken in at least one such case. In 2006, Universal Tube & Rollform Equipment Corporation sued YouTube: massive numbers of would-be youtube.com users accidentally typed the tube company's URL, utube.com. As a result, the tube company ended up having to spend large amounts of money on upgrading their bandwidth.[73] The company appears to have taken advantage of the situation, with utube.com now containing ads for advertisement revenue.
+In March 2014, after Malaysia Airlines Flight 370 went missing, DigitalGlobe launched a crowdsourcing service on which users could help search for the missing jet in satellite images. The response overwhelmed the company's servers.[74]
+An unintentional denial-of-service may also result from a prescheduled event created by the website itself, as was the case of the Census in Australia in 2016. This could be caused when a server provides some service at a specific time. This might be a university website setting the grades to be available where it will result in many more login requests at that time than any other.
+Side effects of attacks[edit]
+Backscatter[edit]
+See also: Backscatter (email) and Internet background noise
+In computer network security, backscatter is a side-effect of a spoofed denial-of-service attack. In this kind of attack, the attacker spoofs (or forges) the source address in IP packets sent to the victim. In general, the victim machine cannot distinguish between the spoofed packets and legitimate packets, so the victim responds to the spoofed packets as it normally would. These response packets are known as backscatter.[75]
+If the attacker is spoofing source addresses randomly, the backscatter response packets from the victim will be sent back to random destinations. This effect can be used by network telescopes as indirect evidence of such attacks.
+The term "backscatter analysis" refers to observing backscatter packets arriving at a statistically significant portion of the IP address space to determine characteristics of DoS attacks and victims.
+Legality[edit]
+See also: Computer crime
+Many jurisdictions have laws under which denial-of-service attacks are illegal.
+
+In the US, denial-of-service attacks may be considered a federal crime under the Computer Fraud and Abuse Act with penalties that include years of imprisonment.[76] The Computer Crime and Intellectual Property Section of the US Department of Justice handles cases of (D)DoS.
+In European countries, committing criminal denial-of-service attacks may, as a minimum, lead to arrest.[77] The United Kingdom is unusual in that it specifically outlawed denial-of-service attacks and set a maximum penalty of 10 years in prison with the Police and Justice Act 2006, which amended Section 3 of the Computer Misuse Act 1990.[78]
+
+On January 7, 2013, Anonymous posted a petition on the whitehouse.gov site asking that DDoS be recognized as a legal form of protest similar to the Occupy protests, the claim being that the similarity in purpose of both are same.[79][80]
+See also[edit]
+
+
+Application layer DDoS attack
+BASHLITE
+Billion laughs
+Botnet
+Command and control (malware)
+DDoS mitigation
+Dendroid (malware)
+Fork bomb
+High Orbit Ion Cannon (HOIC)
+Hit-and-run DDoS
+Industrial espionage
+Infinite loop
+Intrusion detection system
+Low Orbit Ion Cannon (LOIC)
+Network intrusion detection system
+October 2016 Dyn cyberattack
+Project Shield
+ReDoS
+SlowDroid
+Slowloris (computer security)
+UDP Unicorn
+Virtual sit-in
+Warzapping
+Wireless signal jammer
+XML denial-of-service attack
+Xor DDoS
+Zemra
+Zombie (computer science)
+
+
+References[edit]
+
+
+^ "denial of service attack". Retrieved 26 May 2016. 
+^ Prince, Matthew (25 April 2016). "Empty DDoS Threats: Meet the Armada Collective". CloudFlare. Retrieved 18 May 2016. 
+^ "Brand.com President Mike Zammuto Reveals Blackmail Attempt". 5 March 2014. Archived from the original on 11 March 2014. 
+^ "Brand.com's Mike Zammuto Discusses Meetup.com Extortion". 5 March 2014. Archived from the original on 13 March 2014. 
+^ "The Philosophy of Anonymous". Radicalphilosophy.com. 2010-12-17. Retrieved 2013-09-10. 
+^ a b Taghavi Zargar, Saman (November 2013). "A Survey of Defense Mechanisms Against Distributed Denial of Service (DDoS) Flooding Attacks" (PDF). IEEE COMMUNICATIONS SURVEYS & TUTORIALS. pp. 2046–2069. Retrieved 2014-03-07. 
+^ Goodin, Dan (28 September 2016). "Record-breaking DDoS reportedly delivered by >145k hacked cameras". Ars Technica. Archived from the original on 2 October 2016. 
+^ Khandelwal, Swati (26 September 2016). "World's largest 1 Tbps DDoS Attack launched from 152,000 hacked Smart Devices". The Hacker News. Archived from the original on 30 September 2016. 
+^ Gold, Steve (21 August 2014). "Video games company hit by 38-day DDoS attack". SC Magazine UK. Retrieved 4 February 2016. 
+^ Krebs, Brian (August 15, 2015). "Stress-Testing the Booter Services, Financially". Krebs on Security. Retrieved 2016-09-09. 
+^ McDowell, Mindi (November 4, 2009). "Cyber Security Tip ST04-015 - Understanding Denial-of-Service Attacks". United States Computer Emergency Readiness Team. Archived from the original on 2013-11-04. Retrieved December 11, 2013. 
+^ a b Dittrich, David (December 31, 1999). "The "stacheldraht" distributed denial of service attack tool". University of Washington. Retrieved 2013-12-11. 
+^ a b Glenn Greenwald (2014-07-15). "HACKING ONLINE POLLS AND OTHER WAYS BRITISH SPIES SEEK TO CONTROL THE INTERNET". The Intercept_. Retrieved 2015-12-25. 
+^ "Amazon CloudWatch". Amazon Web Services, Inc. 
+^ Encyclopaedia Of Information Technology. Atlantic Publishers & Distributors. 2007. p. 397. ISBN 81-269-0752-5. 
+^ Schwabach, Aaron (2006). Internet and the Law. ABC-CLIO. p. 325. ISBN 1-85109-731-7. 
+^ Lu, Xicheng; Wei Zhao (2005). Networking and Mobile Computing. Birkhäuser. p. 424. ISBN 3-540-28102-9. 
+^ "Has Your Website Been Bitten By a Zombie?". Cloudbric. 3 August 2015. Retrieved 15 September 2015. 
+^ Boyle, Phillip (2000). "SANS Institute – Intrusion Detection FAQ: Distributed Denial of Service Attack Tools: n/a". SANS Institute. Retrieved 2008-05-02. 
+^ Leyden, John (2004-09-23). "US credit card firm fights DDoS attack". The Register. Retrieved 2011-12-02. 
+^ Swati Khandelwal (23 October 2015). "Hacking CCTV Cameras to Launch DDoS Attacks". The Hacker News. 
+^ https://www.incapsula.com/blog/cctv-ddos-botnet-back-yard.html
+^ "Who's Behind DDoS Attacks and How Can You Protect Your Website?". Cloudbric. 10 September 2015. Retrieved 15 September 2015. 
+^ Solon, Olivia (9 September 2015). "Cyber-Extortionists Targeting the Financial Sector Are Demanding Bitcoin Ransoms". Bloomberg. Retrieved 15 September 2015. 
+^ Greenberg, Adam (14 September 2015). "Akamai warns of increased activity from DDoS extortion group". SC Magazine. Retrieved 15 September 2015. 
+^ "OWASP Plan - Strawman - Layer_7_DDOS.pdf" (PDF). Open Web Application Security Project. 18 March 2014. Retrieved 18 March 2014. 
+^ "Types of DDoS Attacks". Distributed Denial of Service Attacks(DDoS) Resources, Pervasive Technology Labs at Indiana University. Advanced Networking Management Lab (ANML). December 3, 2009. Archived from the original on 2010-09-14. Retrieved December 11, 2013. 
+^ Paul Sop (May 2007). "Prolexic Distributed Denial of Service Attack Alert". Prolexic Technologies Inc. Prolexic Technologies Inc. Archived from the original on 2007-08-03. Retrieved 2007-08-22. 
+^ Robert Lemos (May 2007). "Peer-to-peer networks co-opted for DOS attacks". SecurityFocus. Retrieved 2007-08-22. 
+^ Fredrik Ullner (May 2007). "Denying distributed attacks". DC++: Just These Guys, Ya Know?. Retrieved 2007-08-22. 
+^ Leyden, John (2008-05-21). "Phlashing attack thrashes embedded systems". The Register. Retrieved 2009-03-07. 
+^ Jackson Higgins, Kelly (May 19, 2008). "Permanent Denial-of-Service Attack Sabotages Hardware". Dark Reading. Archived from the original on December 8, 2008. 
+^ "EUSecWest Applied Security Conference: London, U.K.". EUSecWest. 2008. Archived from the original on 2009-02-01. 
+^ Rossow, Christian (February 2014). "Amplification Hell: Revisiting Network Protocols for DDoS Abuse" (PDF). Internet Society. Retrieved 4 February 2016. 
+^ Paxson, Vern (2001). "An Analysis of Using Reflectors for Distributed Denial-of-Service Attacks". ICIR.org. 
+^ "Alert (TA14-017A) UDP-based Amplification Attacks". US-CERT. July 8, 2014. Retrieved 2014-07-08. 
+^ van Rijswijk-Deij, Roland (2014). "DNSSEC and its potential for DDoS attacks - a comprehensive measurement study". ACM Press. 
+^ Adamsky, Florian (2015). "P2P File-Sharing in Hell: Exploiting BitTorrent Vulnerabilities to Launch Distributed Reflective DoS Attacks". 
+^ Vaughn, Randal; Evron, Gadi (2006). "DNS Amplification Attacks" (PDF). ISOTF. Archived from the original (PDF) on 2010-12-14. 
+^ "Alert (TA13-088A) DNS Amplification Attacks". US-CERT. July 8, 2013. Retrieved 2013-07-17. 
+^ Yu Chen; Kai Hwang; Yu-Kwong Kwok (2005). "Filtering of shrew DDoS attacks in frequency domain". The IEEE Conference on Local Computer Networks 30th Anniversary (LCN'05)l. pp. 8 pp. doi:10.1109/LCN.2005.70. ISBN 0-7695-2421-4. 
+^ a b Ben-Porat, U.; Bremler-Barr, A.; Levy, H. (2013-05-01). "Vulnerability of Network Mechanisms to Sophisticated DDoS Attacks". IEEE Transactions on Computers. 62 (5): 1031–1043. doi:10.1109/TC.2012.49. ISSN 0018-9340. 
+^ orbitalsatelite. "Slow HTTP Test". SourceForge. 
+^ "RFC 4987 – TCP SYN Flooding Attacks and Common Mitigations". Tools.ietf.org. August 2007. Retrieved 2011-12-02. 
+^ "CERT Advisory CA-1997-28 IP Denial-of-Service Attacks". CERT. 1998. Retrieved July 18, 2014. 
+^ "Windows 7, Vista exposed to 'teardrop attack'". ZDNet. September 8, 2009. Retrieved 2013-12-11. 
+^ "Microsoft Security Advisory (975497): Vulnerabilities in SMB Could Allow Remote Code Execution". Microsoft.com. September 8, 2009. Retrieved 2011-12-02. 
+^ "FBI — Phony Phone Calls Distract Consumers from Genuine Theft". FBI.gov. 2010-05-11. Retrieved 2013-09-10. 
+^ "Internet Crime Complaint Center's (IC3) Scam Alerts January 7, 2013". IC3.gov. 2013-01-07. Retrieved 2013-09-10. 
+^ Loukas, G.; Oke, G. (September 2010) [August 2009]. "Protection Against Denial of Service Attacks: A Survey" (PDF). Comput. J. 53 (7): 1020–1037. doi:10.1093/comjnl/bxp078. 
+^ Alqahtani, S.; Gamble, R. F. (1 January 2015). "DDoS Attacks in Service Clouds". 2015 48th Hawaii International Conference on System Sciences (HICSS): 5331–5340. doi:10.1109/HICSS.2015.627. 
+^ Kousiouris, George (2014). "KEY COMPLETION INDICATORS:minimizing the effect of DoS attacks on elastic Cloud-based applications based on application-level markov chain checkpoints". CLOSER Conference. Retrieved 2015-05-24. 
+^ Patrikakis, C.; Masikos, M.; Zouraraki, O. (December 2004). "Distributed Denial of Service Attacks". The Internet Protocol Journal. 7 (4): 13–35. 
+^ Abante, Carl (March 2, 2013). "Relationship between Firewalls and Protection against DDoS". Ecommerce Wisdom. Retrieved 2013-05-24. [dubious – discuss]
+^ Froutan, Paul (June 24, 2004). "How to defend against DDoS attacks". Computerworld. Retrieved May 15, 2010. 
+^ Suzen, Mehmet. "Some IoS tips for Internet Service (Providers)" (PDF). Archived from the original (PDF) on 2008-09-10. 
+^ "DDoS Mitigation via Regional Cleaning Centers (Jan 2004)" (PDF). SprintLabs.com. Sprint ATL Research. Archived from the original (PDF) on 2008-09-21. Retrieved 2011-12-02. 
+^ Gallagher, Sean. "Biggest DDoS ever aimed at Cloudflare's content delivery network". Ars Technica. Retrieved 18 May 2016. 
+^ "Level 3 DDoS Mitigation". level3.com. Retrieved 9 May 2016. 
+^ "Defensepipe". radware.com. Retrieved November 2015.  Check date values in: |access-date= (help)
+^ "Clean Pipes DDoS Protection and Mitigation from Arbor Networks & Cisco". ArborNetworks.com. 8 August 2013. 
+^ "AT&T Internet Protect Distributed Denial of Service Defense" (PDF). ATT.com (Product brief). 16 October 2012. 
+^ "Silverline DDoS Protection service". f5.com. Retrieved March 2015.  Check date values in: |access-date= (help)
+^ "Infrastructure DDos Protection". incapsula.com. Retrieved June 2015.  Check date values in: |access-date= (help)
+^ "DDoS Protection". Neustar.biz. Retrieved November 2014.  Check date values in: |access-date= (help)
+^ Lunden, Ingrid (December 2, 2013). "Akamai Buys DDoS Prevention Specialist Prolexic For $370M To Ramp Up Security Offerings For Enterprises". TechCrunch. Retrieved September 23, 2014. 
+^ "DDoS Protection with Network Agnostic Option". Tatacommunications.com. 7 September 2011. 
+^ "VeriSign Rolls Out DDoS Monitoring Service". Darkreading.com. 11 September 2009. Retrieved 2 December 2011. 
+^ "Security: Enforcement and Protection". Verizon.com. Retrieved January 2015.  Check date values in: |access-date= (help)
+^ "Verizon Digital Media Services Launches Cloud-Based Web Application Firewall That Increases Defenses Against Cyberattacks". Verizon.com. Retrieved January 2015.  Check date values in: |access-date= (help)
+^ Shiels, Maggie (2009-06-26). "Web slows after Jackson's death". BBC News. 
+^ "We're Sorry. Automated Query error". Google Product Forums › Google Search Forum. Google.com. October 20, 2009. Retrieved 2012-02-11. 
+^ "YouTube sued by sound-alike site". BBC News. 2006-11-02. 
+^ Bill Chappell (12 March 2014). "People Overload Website, Hoping To Help Search For Missing Jet". NPR. Retrieved 4 February 2016. 
+^ "Backscatter Analysis (2001)". Animations (video). Cooperative Association for Internet Data Analysis. Retrieved December 11, 2013. 
+^ "United States Code: Title 18,1030. Fraud and related activity in connection with computers | Government Printing Office". www.gpo.gov. 2002-10-25. Retrieved 2014-01-15. 
+^ "International Action Against DD4BC Cybercriminal Group". EUROPOL. 12 January 2016. 
+^ "Computer Misuse Act 1990". legislation.gov.uk — The National Archives, of UK. 10 January 2008. 
+^ "Anonymous DDoS Petition: Group Calls On White House To Recognize Distributed Denial Of Service As Protest.". HuffingtonPost.com. 2013-01-12. 
+^ "DDOS Attack: crime or virtual sit-in?". RT.com. YouTube.com. October 6, 2011.
+
+
+Further reading[edit]
+
+
+Ethan Zuckerman; Hal Roberts; Ryan McGrady; Jillian York; John Palfrey (December 2011). "Distributed Denial of Service Attacks Against Independent Media and Human Rights Sites" (PDF). The Berkman Center for Internet & Society at Harvard University. Archived from the original (PDF) on 2011-05-01. Retrieved 2011-03-02. 
+"DDOS Public Media Reports". Harvard. Archived from the original on 2011-05-01. 
+
+
+External links[edit]
+
+RFC 4732 Internet Denial-of-Service Considerations
+Akamai State of the Internet Security Report - Quarterly Security and Internet trend statistics
+W3C The World Wide Web Security FAQ
+cert.org CERT's Guide to DoS attacks. (historic document)
+ATLAS Summary Report – Real-time global report of DDoS attacks.
+Low Orbit Ion Cannon - The Well Known Network Stress Testing Tool
+High Orbit Ion Cannon - A Simple HTTP Flooder
+LOIC SLOW An Attempt to Bring SlowLoris and Slow Network Tools on LOIC
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Denial-of-service_attack&oldid=765008663"					
+Categories: Denial-of-service attacksInternet Relay ChatCyberwarfareHidden categories: All accuracy disputesArticles with disputed statements from December 2013CS1 errors: datesAll articles with unsourced statementsArticles with unsourced statements from December 2016Articles with unsourced statements from August 2016Wikipedia articles needing clarification from May 2011Wikipedia articles that are too technical from June 2016All articles that are too technicalArticles needing expert attention from June 2016All articles needing expert attentionArticles with unsourced statements from September 2008Articles with unsourced statements from March 2013Pages using RFC magic links 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+العربيةAzərbaycancaবাংলাБългарскиBoarischCatalàČeštinaDeutschEestiΕλληνικάEspañolEuskaraفارسیFrançaisGaeilge한국어ՀայերենBahasa IndonesiaÍslenskaItalianoעבריתქართულიLatviešuMagyarമലയാളംМонголမြန်မာဘာသာNederlands日本語Norsk bokmålOʻzbekcha/ўзбекчаPolskiPortuguêsRomânăРусскийScotsShqipSimple EnglishSlovenščinaکوردیی ناوەندیСрпски / srpskiSuomiSvenskaதமிழ்ไทยTürkçeУкраїнськаTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 12 February 2017, at 04:23.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.544","walltime":"0.611","ppvisitednodes":{"value":4490,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":157857,"limit":2097152},"templateargumentsize":{"value":10536,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":9,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  535.297      1 -total"," 61.05%  326.809      1 Template:Reflist"," 35.82%  191.761     61 Template:Cite_web"," 21.30%  113.996      9 Template:Fix"," 19.22%  102.904      7 Template:Citation_needed"," 13.92%   74.491      9 Template:Delink","  6.52%   34.877     16 Template:Category_handler","  5.82%   31.145     11 Template:Cite_news","  3.77%   20.171      1 Template:Dubious","  3.57%   19.102      1 Template:Redirect"]},"scribunto":{"limitreport-timeusage":{"value":"0.322","limit":"10.000"},"limitreport-memusage":{"value":5410914,"limit":52428800}},"cachereport":{"origin":"mw1242","timestamp":"20170212042320","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":71,"wgHostname":"mw1188"});});

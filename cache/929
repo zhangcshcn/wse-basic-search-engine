@@ -1,0 +1,1173 @@
+ 
+
+
+
+
+
+
+Wikipedia:List of indefinitely protected pages
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+Shortcut:
+
+WP:PERMPROT
+
+
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+This is a list of pages that are permanently protected or semi-protected, in line with the protection policy. Note that the list is partial and incomplete. For the full list, go here.
+
+
+
+Contents
+
+
+1 Main Page and component templates
+2 Pages linked from the sidebar
+3 High-visibility templates
+
+3.1 Fully protected
+3.2 Semi-protected
+
+
+4 High-visibility images
+5 Generic image names
+6 Legal reasons
+
+6.1 Libel, slander or privacy considerations
+
+
+7 System administration reasons
+8 License templates
+9 High use templates
+
+9.1 Semi-protected
+9.2 Fully protected
+
+
+10 Javascript-related pages
+11 Other
+
+
+
+Main Page and component templates[edit]
+Templates that make up Main Page content, including those that change daily, are automatically protected by transclusion on the Main Page, as cascading protection is enabled.
+
+Main Page – discuss changes at Talk:Main Page
+Wikipedia:Today's featured article/February 10, 2017 (changes daily)
+Wikipedia:Selected anniversaries/February 10 (changes daily)
+Template:POTD protected/2017-02-10 (changes daily)
+Template:Did you know
+Template:In the news
+Template:MainPageInterwikis
+Template:Main Page banner
+Template:POTD protected
+Template:WikipediaSister
+Template:SelAnnivFooter
+Template:TFAfooter
+Template:WikipediaOther
+Template:Wikipedialang
+
+Pages linked from the sidebar[edit]
+These are linked from every page (via the 'sidebar' on Monobook and some other skins).
+
+Wikipedia:Community Portal (semi-protected) – and the following transcluded templates:
+
+Template:Announcements/Community bulletin board (semi-protected)
+Wikipedia:Community Portal/Opentask (semi-protected)
+
+
+Portal:Current events (protected) – and the following transcluded templates:
+
+Portal:Current events/Inclusion
+Portal:Current events/Calendar (semi-protected)
+Template:Current events header
+Template:Current events footer
+Portal:Current events/More events (semi-protected)
+
+
+Wikipedia:About (semi-protected)
+Wikipedia:Contents (semi-protected)
+Wikipedia:Featured content (semi-protected)
+Wikipedia:Contact us - media and other informational contact page
+Help:Contents (semi-protected)
+
+High-visibility templates[edit]
+These templates are not necessarily used on a large number of pages, but those pages on which they are used are visible ones. This also includes templates that are frequently used, but intended to be substituted, so that while they are only transcluded on a handful of pages, changes to them will quickly affect a large number of pages. See also High-use templates below.
+In addition to these pages, all templates transcluded in Today's Featured Article are considered high-visibility and are temporarily fully-protected.
+Fully protected[edit]
+
+Template:Donate
+Portal:Box-footer – High use. Never/rarely edited. Would be non-trivial to figure out if vandalized.
+Wikipedia:Wikipedia Signpost/Protection - Cascade protected to cover the current signpost, transcluded on hundreds of pages
+
+
+Deletion process templates
+
+
+Template:Afd, Template:Afd2, Template:Afd3
+Template:Ifd, Template:Cfd, Template:Cfr, Template:Rfd, Template:Tfd, and Template:Md1
+
+
+"Old-style" user warning templates
+
+
+Template:Test, Template:Test1a, Template:Test2, Template:Test2a, Template:Test3, Template:Test4, Template:Test5
+Template:Spam, Template:Spam4im
+
+Semi-protected[edit]
+
+"New-style" user warning templates
+
+Not all of these are semi-protected, however the following are:
+
+uw-3rr
+uw-afd1, uw-afd2, uw-afd3, uw-afd4
+uw-agf1, uw-agf2, uw-agf3
+uw-autobiography
+uw-biog1, uw-biog2, uw-biog3, uw-biog4
+uw-block1, uw-block2, uw-block3
+uw-chat1, uw-chat2, uw-chat3, uw-chat4
+uw-create1, uw-create2, uw-create3, uw-create4
+uw-defamatory1, uw-defamatory2, uw-defamatory3, uw-defamatory4, uw-defamatory4im
+uw-delete1, uw-delete2, uw-delete3, uw-delete4, uw-delete4im
+uw-error1, uw-error2, uw-error3
+uw-hoax
+uw-image1, uw-image2, uw-image3, uw-image4, uw-image4im
+uw-legal
+uw-mos1, uw-mos2, uw-mos3
+uw-move1, uw-move2, uw-move3, uw-move4
+uw-notcensored1, uw-notcensored2, uw-notcensored3
+uw-npa1, uw-npa2, uw-npa3, uw-npa4, uw-npa4im
+uw-npov1, uw-npov2, uw-npov3, uw-npov4
+uw-own1, uw-own2, uw-own3
+uw-sblock
+uw-spam1, uw-spam2, uw-spam3, uw-spam4, uw-spam4im
+uw-speedy1, uw-speedy2, uw-speedy3, uw-speedy4
+uw-tpv1, uw-tpv2, uw-tpv3, uw-tpv4
+uw-upv
+uw-vandalism1, uw-vandalism2, uw-vandalism3, uw-vandalism4, uw-vandalism4im
+
+High-visibility images[edit]
+The following images are used on visible or high-use pages of some kind, and may be part of the interface (for example, on pages in the MediaWiki namespace).
+
+Image:Portal.svg - widely used throughout Wikipedia and prominently so.
+
+
+Image:Information icon.svg, Image:Octagon-warning.svg, Image:Padlock.svg, Image:Red copyright.svg, Image:Nuvola apps kwrite.png, Image:Symbol comment vote 2.svg, Image:Commons-logo.svg, Image:Information.svg, Image:Stop sign light red.svg, Image:Stop x nuvola.svg, all used in system messages, and so very high-visibility.
+
+Generic image names[edit]
+These images have very generic names, and are undesirable as names of actual files due to the risk of accidental overwriting should someone inadvertently choose the same generic name. The images themselves contain a message similar to the following one explaining not to use the name:
+
+
+
+
+
+
+Image:00000.jpg
+Image:Box.jpg
+Image:Campus.jpg
+Image:Chart.png
+Image:Church.JPG
+Image:Cover.jpg
+Image:Cute.jpg
+Image:Default.jpg
+Image:DVD Box.jpg
+Image:DVD Cover.jpg
+Image:Example.JPG
+Image:File.jpg
+Image:Flag.JPG
+Image:Flag.gif
+Image:Folder.jpg
+Image:Guy.gif
+Image:Headshot.JPG
+Image:Headshot.jpg
+Image:Image.gif
+Image:Image.jpeg
+Image:Image.jpg
+Image:Image.png
+Image:Image.svg
+Image:Image001.jpg
+Image:Image01.jpg
+Image:Image1.jpg
+Image:Images.jpg
+Image:Img.gif
+Image:Img.jpg
+Image:Img.png
+Image:Lastscan.jpg
+Image:Logo.JPG
+Image:Logo.PNG
+Image:Logo.gif
+Image:Logo.jpg
+Image:Logo.png
+Image:Logo.svg
+Image:North.jpg
+Image:Photo.gif
+Image:Photo.jpeg
+Image:Photo.jpg
+Image:Photo.png
+Image:Photo1.jpg
+Image:Pic.jpg
+Image:Picture.gif
+Image:Picture.jpg
+Image:Picture.png
+Image:Picture.svg
+Image:Picture 001.jpg
+Image:Picture 2.png
+Image:Pleasedont.gif
+Image:Poster.jpeg
+Image:Poster.jpg
+Image:Screenshot.gif
+Image:Smile.jpg
+Image:Thumbnail.jpg
+Image:Title.gif
+Image:Untitled.jpg
+Image:Untitled1.JPG
+Image:Untitled.png
+Image:Untitled.gif
+
+
+
+Numbers
+
+Image:1.jpg
+Image:2.jpg
+Image:3.jpg
+Image:4.jpg
+Image:5.jpg
+Image:7.jpg
+Image:8.jpg
+Image:9.jpg
+Image:1.JPG
+Image:2.JPG
+Image:3.JPG
+Image:4.JPG
+Image:7.JPG
+Image:9.JPG
+Image:1.gif
+Image:2.gif
+Image:3.gif
+Image:4.gif
+Image:5.gif
+Image:6.gif
+Image:8.gif
+Image:9.gif
+Image:2.png
+Image:3.png
+Image:4.png
+Image:5.png
+Image:6.png
+Image:7.png
+Image:8.png
+Image:9.png
+
+
+
+Single letters
+
+Image:A.jpg
+Image:D.jpg
+Image:E.jpg
+Image:F.jpg
+Image:G.jpg
+Image:I.jpg
+Image:J.jpg
+Image:K.jpg
+Image:L.jpg
+Image:M.jpg
+Image:N.jpg
+Image:O.jpg
+Image:Q.jpg
+Image:R.jpg
+Image:S.jpg
+Image:T.jpg
+Image:U.jpg
+Image:V.jpg
+Image:W.jpg
+Image:X.jpg
+Image:Y.jpg
+Image:B.JPG
+Image:G.JPG
+Image:H.JPG
+Image:I.JPG
+Image:J.JPG
+Image:K.JPG
+Image:V.JPG
+Image:Y.JPG
+Image:d.gif
+Image:k.gif
+Image:l.gif
+Image:p.gif
+Image:u.gif
+Image:f.GIF
+Image:N.png
+Image:O.png
+Image:R.png
+
+
+
+
+
+Legal reasons[edit]
+
+Wikipedia:Copyrights – Policy page on copyright and licenses.
+Press releases: January 2002, January 2003, February 2004, February 2004/Text-Only – should remain static indefinitely. New press releases are on the Foundation website and Meta.
+Wikipedia:Designated agent – see meta:designated agent.
+Wikipedia:Foldoc license – Permission to use material from the Free On-line Dictionary of Computing under the GFDL.
+
+
+License texts
+
+Full text of GNU licenses. These need to be accurate for copyright reasons.
+
+Wikipedia:Text of the GNU Free Documentation License
+Wikipedia:Text of the GNU General Public License
+Wikipedia:Text of the GNU Lesser General Public License
+
+
+Disclaimers
+
+These are linked from the footer of every page, and need to be accurate for legal reasons.
+
+Wikipedia:General disclaimer
+Wikipedia:Risk disclaimer
+Wikipedia:Legal disclaimer
+Wikipedia:Medical disclaimer
+Wikipedia:Content disclaimer
+
+Libel, slander or privacy considerations[edit]
+Sometimes it may be appropriate to protect pages based on considerations, whether of legal liability or common courtesy, of harm they may cause. This may involve slander, libel or privacy. Privacy considerations might involve, for example, notorious public behavior by a mentally ill person or a dramatic but embarrassing event which involves a person who is not a public figure. Wikipedia:Images of Wikipedians has been permanently semi-protected due to concerns of people adding images of other people. That page is on a constant watch to remove photos added inappropriately.
+
+See Wikipedia:Office Actions.
+
+System administration reasons[edit]
+
+Auto-generated logs (old): Deletion log, Upload log, Protection log, Block log, Bureaucrat log and their archives
+Wikipedia:Special:Deadendpages
+Village pump archive 2004-09-26 (to prevent page move vandalism of large history)
+All pages in the MediaWiki namespace
+
+License templates[edit]
+The following license templates are indefinitely protected due to both high visibility and legal reasons.
+
+
+
+
+
+General
+
+
+Template:Copyrighted
+Template:CopyrightedFreeUseProvided
+Template:ImageLicenseFreeUse
+Template:TextLicenseFreeUse
+Template:TextLicenseMinorFreeUse
+Template:Noncommercial
+Template:Non-free restricted use
+Template:PermissionAndFairUse (redirect)
+Template:Replaceable fair use
+Template:Self
+Template:Self2 (redirect)
+
+
+Public domain
+
+
+Template:PD
+Template:PD-US
+Template:PD-art
+Template:PD-old
+Template:PD-user
+
+
+GNU
+
+
+Template:GFDL
+Template:GDFL (redirect) – redirect from typo
+Template:GPL
+Template:GPL-2
+Template:LGPL
+Template:GFDL-no-disclaimers
+Template:GFDL-with-disclaimers
+Template:GFDL-self-with-disclaimers
+Template:GFDL 1.2
+
+
+
+
+Creative Commons
+
+
+Template:CC-Layout
+Template:Cc-by
+Template:Cc-by-nc (redirect)
+Template:Cc-by-nc-sa (redirect)
+Template:Cc-by-nd-nc (redirect)
+Template:Cc-by-sa
+Template:Cc-nc (redirect)
+Template:Cc-nc-sa (redirect)
+Template:Cc-nd (redirect)
+Template:Cc-sa
+
+
+Governmental
+
+
+Template:CrownCopyright
+Template:PD-USGov
+Template:PD-USGov-Military-Navy
+Template:PD-USGov-NASA
+
+
+Wikimedia-specific
+
+
+Template:WikimediaNoLicensing
+Template:WikimediaAllLicensing
+Template:WikimediaMediaLicensing
+Template:WikimediaTextLicensing
+
+
+Other
+
+
+Template:PD-USSR (redirect)
+
+
+
+
+
+High use templates[edit]
+
+See also Wikipedia:High-risk templates and Category:Wikipedia protected templates.
+
+The following templates are indefinitely protected or semi-protected because a large number of pages directly or indirectly depend on them. These templates should only be edited when absolutely necessary. Development of new revisions should be done elsewhere (in a page under user space, in a template sandbox or on a separate development subpage of the template). See also High-visibility templates above.
+Semi-protected[edit]
+This list is incomplete; you can help by expanding it.
+
+
+
+
+
+Template:'
+Template:Asia topic
+Template:Checkip (fully move-protected)
+Template:Checkuser (fully move-protected)
+Template:Clerk-Note
+Template:Coord
+Template:Contains Indic text
+Template:Countries of Africa
+Template:Countries of Asia
+Template:Countries of Europe
+Template:Countries of North America
+Template:Country data Northern Ireland
+Template:Crimin
+Template:Current events box
+Template:CUU
+Template:Delayed
+Template:Edward Tony Green
+Template:Emergency-bot-shutoff
+Template:FA number
+Template:FFA number
+Template:For2
+Template:FSM
+Template:Gamebox contents
+Template:God
+Template:Infobox baseball team
+Template:Infobox Officeholder
+Template:Infobox VG
+Template:Infobox hurricane
+Template:Infobox Legislation
+Template:Infobox Muscle
+Template:Infobox Television
+Template:Infobox University
+Template:Introduction to Wikipedia
+Template:Islam
+Template:IPsock
+Template:IUCN2006
+Template:Japan topics
+Template:Jesus
+
+
+
+
+Template:LGBT sidebar
+Template:MoreInfo
+Template:Navbox generic
+Template:Navigation with image
+Template:Note label (fully move-protected)
+Template:Nuclear weapons
+Template:PDFlink
+Template:Politics of India
+Template:Portals
+Template:Power Rangers
+Template:Raise
+Template:Rangeblock
+Template:Renameuser
+Template:Rfd bottom
+Template:Rfd top
+Template:Rights
+Template:S-rail/lines
+Template:SockpuppetProven
+Template:Sprotect2 (redirect)
+Template:Television colour
+Template:UFOs
+Template:UK-politician-stub
+Template:US patent (fully move-protected)
+Template:US-politician-stub
+Template:User2
+Template:VG Navigation
+
+
+
+
+
+Fully protected[edit]
+See also: Special:Whatlinkshere/Template:Pp-template
+Changes to these templates should be requested on the template's talk page by adding {{editprotected}} and providing detailed change instructions. The change will then be made by an administrator.
+This list is incomplete; you can help by expanding it.
+
+
+
+
+
+Template:-
+Template:-Class
+Template:-importance
+Template:!-
+Template:!!
+Template:'
+Template:*mp
+Template:=
+Template:·
+Template:A-Class
+Template:About
+Template:Adminbacklog
+Template:AfD categories
+Template:Afd2 starter
+Template:Afd3 starter
+Template:Age
+Template:Non-free album cover
+Template:Amg movie
+Template:Anonblock
+Template:AOL
+Template:AOLblock
+Template:Assessed-Class
+Template:Assessment index footer
+Template:Assessment index header
+Template:Audio
+Template:Autoblock
+Template:AutoLink
+Template:B-Class
+Template:Babel
+Template:BDYearsInDecade
+Template:Birthyr
+Template:Blatantvandal
+Template:Blocked user
+Template:Border-notinline
+Template:Bot
+Template:Campaign
+Template:Caption
+Template:Catmore
+Template:Check talk
+Template:Christianity-stub
+Template:Cite book
+Template:Cite journal
+Template:Cite news
+Template:Cite paper
+Template:Cite press release
+Template:Cite web
+Template:Citeweb
+Template:Cleanup-date
+Template:Clear
+Template:Clerk-Note
+Template:Click
+Template:Col-2
+Template:Col-3
+Template:Col-begin
+Template:Col-break
+Template:Col-end
+Template:Collab-australian
+Template:Collab-gaming
+Template:Comicsproj
+Template:Commonscat
+Template:Commonwealth of Nations
+Template:CompactTOC2
+Template:Context
+Template:Coor dms
+Template:Coor URL
+Template:Copy to Wikimedia Commons
+Template:Core-article
+Template:Country data Cocos (Keeling) Islands
+Template:Country data European Union
+Template:Country data French Guiana
+Template:Country data Guadeloupe
+Template:Country data Martinique
+Template:Country data New Caledonia
+Template:Country data none
+Template:Country data Réunion
+Template:Country data Tokelau
+Template:Country data United Kingdom
+Template:Country data United Nations
+Template:Country data United States
+Template:Country flag2
+Template:Country flagcountry2
+Template:Country flagicon2
+Template:Cquote
+Template:Croatia-bio-stub
+Template:Current
+Template:Dab (redirect)
+Template:Dab-Class
+Template:Dablink
+Template:DANFS
+Template:Day-1
+Template:Day+1
+Template:Db-meta
+Template:De icon
+Template:Deathyr
+Template:Decrease
+Template:DEFAULTSORT
+Template:Deletedpage
+Template:Deletedtalkpage
+Template:Details
+Template:Details more
+Template:Disambig (redirect)
+Template:Disambiguation
+Template:Distinguish
+Template:Documentation
+Template:Documentation subpage
+Template:Documentation/docname
+Template:Doppelganger
+Template:Doppelganger-other
+Template:Electiontable
+Template:EMedicine2
+Template:En icon
+Template:End
+Template:End box (redirect)
+Template:Episode list
+Template:Error:not substituted
+Template:Es icon
+Template:Esoteric (redirect)
+Template:Expand list
+Template:Expand-section
+Template:Expert
+Template:Expert-subject
+Template:FA-Class
+Template:Fact
+Template:Facts
+Template:Featured article
+Template:Film (cascading)
+Template:Film More Information
+Template:Fix
+Template:FJC Bio
+Template:Flag
+Template:Flagcountry
+Template:Flagicon
+Template:Flora of Australia Online
+Template:Football kit
+Template:Football squad player
+Template:For
+Template:Fr icon
+Template:GA-Class
+Template:Game-screenshot
+Template:Gbm4ibx
+Template:Gbmapping
+Template:Gbmaprim
+Template:Gutenberg author
+Template:GWAblock
+Template:Harvard citation
+Template:Harvard citation no brackets
+Template:High-importance
+Template:Howtoedit
+Template:ICD10
+Template:ICD9
+Template:ICDO
+Template:Image-Class
+Template:Increase
+Template:Infobox actor
+Template:Infobox album
+Template:Infobox album/color
+Template:Infobox album/link
+Template:Infobox ethnic group
+Template:Infobox film
+Template:Infobox football biography
+Template:Infobox military conflict
+Template:Infobox monarch
+Template:Infobox mountain
+Template:Infobox music genre
+Template:Infobox musical artist
+Template:Infobox officeholder
+Template:Infobox person
+Template:Infobox single
+Template:Infobox ship begin
+Template:Infobox website
+Template:Interwiki-all
+Template:Intricate template
+Template:IPA
+Template:IPA-all
+Template:Iran-geo-stub
+Template:Islam-stub
+Template:Islam-bio-stub
+Template:ISSN
+Template:ISSN search link
+Template:It icon
+Template:Italic title
+Template:Ja icon
+Template:Japanese episode list
+Template:Judaism-stub
+Template:KIA
+
+
+
+
+Template:La
+Template:Lang
+Template:Languageicon
+Template:LangWithName
+Template:Law-stub
+Template:LGBT sidebar
+Template:Link
+Template:List-Class
+Template:Listen
+Template:Loop
+Template:Low-importance
+Template:Lower
+Template:Lt
+Template:Lx
+Template:M-cropped
+Template:MacTutor
+Template:Main
+Template:MainPageInterwikis
+Template:Merge
+Template:Mid-importance
+Template:Min
+Template:MONTHNAME
+Template:MONTHNUMBER
+Template:Mprotected
+Template:Mprotected2
+Template:MultiLicenceWithCC-By-All-IntEng
+Template:MultiLicensePD
+Template:NA-Class
+Template:National squad
+Template:Navbox
+Template:Navigation with columns
+Template:NavigationBox
+Template:NavigationBox athletic conference
+Template:Needed-Class
+Template:Nihongo
+Template:Nl icon
+Template:No-Class
+Template:No copyright holder
+Template:No source
+Template:Not verified
+Template:Note
+Template:Nowrap
+Template:OIC
+Template:Oldafdfull
+Template:OMIM
+Template:Orphan
+Template:Oscoor
+Template:Other people2
+Template:Otherpersons
+Template:Otherpersons2 (redirect)
+Template:Otheruses
+Template:Otheruses2
+Template:Otherusesof
+Template:PAGENAMEU
+Template:Party-stub
+Template:PD-PhilippinesGov (redirect)
+Template:Pic of the day
+Template:Pl icon
+Template:Plainlink
+Template:Planetmath instructions
+Template:Plant-stub
+Template:Please check ISBN
+Template:Please leave this line alone (sandbox heading)
+Template:PMID
+Template:Policy
+Template:Policy section
+Template:Polytonic
+Template:Portal
+Template:Portal-Class
+Template:POTD
+Template:POV
+Template:Pow
+Template:Pp-dispute
+Template:pp-protected
+Template:Prod
+Template:Promotional
+Template:Protect-ex
+Template:ProtectBU
+Template:Protected template
+Template:Protected title
+Template:Protected2
+Template:Protectedtemplate (redirect)
+Template:Pt icon
+Template:Purge
+Template:Quote box
+Template:R from UN/LOCODE
+Template:Redirect
+Template:Redirect-Class
+Template:Ref
+Template:Refbegin
+Template:Refend
+Template:Ref label
+Template:Reflist
+Template:REMOVE THIS TEMPLATE WHEN CLOSING THIS AfD
+Template:Resolved
+Template:Retired
+Template:Rfd bottom (semi-protected)
+Template:Rfd top (semi-protected)
+Template:Rotten-tomatoes
+Template:Rtl-lang
+Template:S-dip
+Template:S-prec
+Template:S-rail
+Template:S-start
+Template:S-ttl
+Template:Schoolblock
+Template:See
+Template:See also
+Template:Shortcut
+Template:Single infobox request
+Template:Sisterlinks
+Template:Smallsup
+Template:Sockpuppet
+Template:Songs
+Template:Spa
+Template:Spaces
+Template:Specify
+Template:Spoken Wikipedia
+Template:Spoken Wikipedia boilerplate
+Template:Start-Class
+Template:Str find
+Template:Str find/logic
+Template:Str left
+Template:Str len
+Template:Str len/core
+Template:Stub
+Template:Stub-Class
+Template:Subst
+Template:Succession box
+Template:Superimpose
+Template:Sv icon
+Template:Talkarchive
+Template:Talkheader
+Template:Taxobox
+Template:This
+Template:Tl
+Template:Tlx
+Template:Tnavbar
+Template:Tnavbar-header
+Template:Top-importance
+Template:TrainsWikiProject
+Template:Turkey-bio-stub
+Template:Tv-screenshot
+Template:Unassessed-Class
+Template:Uncategorized
+Template:Unicode
+Template:Unsigned
+Template:Unsigned2
+Template:Unreferenced
+Template:User en
+Template:User0
+Template:User5
+Template:User6b
+Template:Userbox
+Template:Userboxtop
+Template:Usertalk-sprotect2
+Template:Uw-ublock
+Template:Verify credibility
+Template:Welcome
+Template:Welcomenh
+Template:Welcomespam
+Template:WikEd
+Template:Wikinews
+Template:WikiProject California
+Template:WikiProject Texas
+Template:WikiProject Video games
+Template:Wikiquote
+Template:Wikisource author
+Template:Wikispecies
+Template:Wiktionarypar
+Template:WikiProject Australia
+Template:WP India
+Template:WPBiography
+Template:WPMILHIST
+Template:WPMILHIST Infobox style
+Template:WPMILHIST/Class
+Template:Year in other calendars
+Template:Yearcat
+Template:Yi icon
+Template:Zero
+
+
+
+
+
+Javascript-related pages[edit]
+
+Installation templates
+
+The following templates are used to install javascript tools easily, and should be protected to prevent malicious javascript code creeping in.
+
+Template:js
+Template:navpop
+
+
+Input data
+
+
+User:Lupin/badwords is a list of words flagged by anti-vandalism tools. This is semi-protected to allow established editors to change it while avoiding vandals inserting common words into the list, rendering it useless.
+
+Other[edit]
+
+Wikipedia:Database reports/Indefinitely semi-protected talk pages
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:List_of_indefinitely_protected_pages&oldid=761501047"					
+Categories: Wikipedia page protectionWikipedia vandalism 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+Bahasa BanjarBahasa Indonesia 
+Edit links 
+
+
+
+
+
+ This page was last modified on 23 January 2017, at 08:14.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.224","walltime":"0.440","ppvisitednodes":{"value":1837,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":58996,"limit":2097152},"templateargumentsize":{"value":728,"limit":2097152},"expansiondepth":{"value":15,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   90.204      1 -total"," 38.99%   35.169      1 Template:Protection_templates"," 35.72%   32.217      1 Template:Navbox"," 24.79%   22.359      1 Template:Aligned_table"," 24.40%   22.012      1 Template:Shortcut"," 19.58%   17.662      2 Template:Incomplete_list"," 14.26%   12.864      1 Template:Hatnote"," 10.19%    9.196      1 Template:TDMCA","  8.63%    7.781      1 Template:DMCA","  7.19%    6.489      1 Template:Dated_maintenance_category"]},"scribunto":{"limitreport-timeusage":{"value":"0.023","limit":"10.000"},"limitreport-memusage":{"value":1252438,"limit":52428800}},"cachereport":{"origin":"mw1176","timestamp":"20170210093244","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":55,"wgHostname":"mw1185"});});

@@ -1,0 +1,198 @@
+ 
+
+
+
+
+
+
+
+Template:Protection table
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+Interaction of Wikipedia user groups and page protection levels
+
+ 
+Unregistered or Newly registered
+Auto-confirmed, Confirmed
+Extended confirmed
+Pending changes reviewer
+Admin
+Appropriate for
+(See also: Wikipedia:Protection policy)
+
+
+No protection
+Normal editing (can edit; changes go live immediately)
+"Go live" means the changes become visible to readers who are not logged in to Wikipedia. In all cases throughout this table, changes are immediately visible to readers who are logged in.
+The vast majority of pages
+
+
+Pending changes protection
+can edit; changes go live after reviewer acceptance
+Normal editing. (If there are previous pending changes, no changes will go live until the pending changes have been reviewed.)
+*Normal editing;
+can accept pending changes
+Infrequently edited articles with high levels of vandalism or BLP violations from unregistered and new users
+
+
+Semi-protection
+cannot edit
+Normal editing
+Articles with high levels of vandalism or edit warring from unregistered and new users; some highly visible templates & modules
+
+
+**Extended confirmed prot.
+cannot edit
+Normal editing
+Specific topic areas authorized by Arbcom; pages subject to persistent disruption that semi-protection has failed to stop
+
+
+Template prot.
+cannot edit (unless Template editor, in which case Normal editing)
+Normal editing
+High-risk templates & modules
+
+
+Full protection
+cannot edit
+Articles with persistent vandalism or edit warring from (auto)confirmed accounts; critical templates & modules
+
+
+* When an Administrator or Pending Changes Reviewer edits an article that has pending changes awaiting review, they are prompted to review the pending changes before saving their edit.
+** This row assumes that a Pending changes reviewer is also Extended confirmed. (A Pending changes reviewer needs separate Extended confirmed rights to edit through Extended confirmed protection; in practice nearly all Pending changes reviewers will have that additional right.)
+
+
+
+ Template documentation[view] [edit] [history] [purge]
+This is {{Protection table}}, intended to show the effects of protection on an article.
+
+
+
+
+The above documentation is transcluded from Template:Protection table/doc. (edit | history)
+Editors can experiment in this template's sandbox (create | mirror) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Protection_table&oldid=762405116"					
+Categories: Wikipedia information pagesWikipedia flagged revisionsHidden categories: Wikipedia semi-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+فارسی한국어KurdîTiếng Việt 
+Edit links 
+
+
+
+
+
+ This page was last modified on 28 January 2017, at 16:36.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.068","walltime":"0.117","ppvisitednodes":{"value":268,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":6226,"limit":2097152},"templateargumentsize":{"value":210,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  104.171      1 -total"," 97.83%  101.908      1 Template:Documentation"," 12.99%   13.535      1 Template:Protection_table/doc"," 10.61%   11.055      1 Template:Tlb","  8.98%    9.353      1 Template:Tlg","  1.86%    1.939      3 Template:Nobr","  1.71%    1.783      1 Template:!))","  1.68%    1.753      1 Template:Documentation_subpage","  1.27%    1.324      1 Template:!((","  0.11%    0.111      1 Template:Nowrap"]},"scribunto":{"limitreport-timeusage":{"value":"0.037","limit":"10.000"},"limitreport-memusage":{"value":1222907,"limit":52428800}},"cachereport":{"origin":"mw1235","timestamp":"20170128163609","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1172"});});

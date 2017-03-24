@@ -1,0 +1,1015 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Banning policy
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+"WP:Banning" redirects here. For banned links, see Wikipedia:Spam blacklist.
+For partial lists of banned and restricted editors, see Wikipedia:Long-term abuse, Category:Banned Wikipedia users, and Wikipedia:Editing restrictions.
+
+
+
+This page documents an English Wikipedia policy, a widely accepted standard that all editors should normally follow. Changes made to it should reflect consensus.
+
+
+Shortcuts:
+
+WP:BAN
+WP:BANPOL
+
+
+
+
+
+
+
+
+This page in a nutshell: Problematic behaviour may lead to editing restrictions (partial or complete) to be applied to any editor, either by community consensus or by the Arbitration Committee.
+
+
+
+
+Enforcement policies
+
+
+
+
+Administrators
+Banning policy
+Blocking policy
+Protection policy
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+A ban is a formal prohibition from editing some or all Wikipedia pages, or a formal prohibition from making certain types of edits on Wikipedia pages. Bans can be imposed for a specified duration or an indefinite duration.
+Bans are a possible outcome of dispute resolution. They may be imposed by community consensus, by the Arbitration Committee, or by administrators (in certain topic areas). A ban is normally a site ban (prohibiting all editing), but it may be limited to a topic ban (prohibiting edits on pages relating to certain topic areas) or an interaction ban (prohibiting edits that interact with certain other editors).
+Bans are different from blocks, which are used by administrators to technically prevent a user account or IP address from editing Wikipedia. Blocks are used chiefly to deal with immediate problems such as vandalism or edit warring. A ban, on the other hand, does not technically prevent editing; however, blocks may be used to enforce bans.
+
+
+
+Contents
+
+
+1 Types of bans
+
+1.1 Site ban
+1.2 Article ban or page ban
+1.3 Topic ban
+1.4 Interaction ban
+1.5 Exceptions to limited bans
+
+
+2 Decision to ban
+
+2.1 Authority to ban
+
+2.1.1 Community bans and restrictions
+
+
+2.2 Recidivism may lead to a ban
+2.3 Duration of bans
+
+
+3 Review and reversal of bans
+
+3.1 Appeals of bans imposed by the community
+3.2 Appeal of Arbitration Committee decisions
+
+3.2.1 Appeal to the Arbitration Committee
+3.2.2 Appeal to Jimbo Wales
+
+
+3.3 Arbitration enforcement bans
+
+
+4 Evasion and enforcement
+
+4.1 Bans apply to all editing, good or bad
+4.2 Blocks
+4.3 Reset of ban following evasion
+4.4 Edits by and on behalf of banned editors
+
+4.4.1 Proxying
+
+
+4.5 User pages
+4.6 Further enforcement measures
+
+
+5 Difference between bans and blocks
+6 Other considerations
+
+6.1 Conduct towards banned editors
+6.2 Scope and reciprocity
+
+
+7 See also
+8 Notes
+
+
+
+Types of bans
+Site ban
+
+Shortcuts:
+
+WP:Site ban
+WP:SBAN
+
+
+Unless otherwise specified, a ban is a site ban. An editor who is site-banned is forbidden from making any edit, anywhere on Wikipedia, via any account or as an unregistered user, under any and all circumstances. The only exception is that editors with talk page access may appeal in accordance with the provisions below.
+Article ban or page ban
+
+Shortcuts:
+
+WP:ABAN
+WP:PBAN
+
+
+An article ban forbids an editor from editing a specific article or set of articles. The text of the ban should state whether the ban includes or excludes the article's talk page. Editors subject to an article ban are free to edit other related pages or discuss the topic elsewhere on Wikipedia.
+When the word "page" is used in a ban it means any page on Wikipedia, including for example user, talk, discussion, image, category or template pages. The word "article" usually refers only to mainspace pages. If any other related pages (such as the page's talk page) are to be covered it will usually be stated explicitly.
+Topic ban
+
+Shortcut:
+
+WP:TBAN
+
+
+The purpose of a topic ban is to forbid an editor from making edits related to a certain topic area where their contributions have been disruptive, but to allow them to edit the rest of Wikipedia. Unless clearly and unambiguously specified otherwise, a topic ban covers all pages (not only articles) broadly related to the topic, as well as the parts of other pages that are related to the topic. For example, if an editor is banned from the topic "weather", they are not only forbidden to edit the article Weather, but also everything else that has to do with weather, such as:
+
+weather-related articles and lists, such as Wind and List of weather records, and their talk pages;
+weather-related categories such as all of the categories that are associated with Category:Weather;
+weather-related project pages, such as WikiProject Meteorology and Portal:Weather;
+weather-related parts of other pages, even if the pages as a whole have little or nothing to do with weather: the section entitled "Climate" in the article New York, for example, is covered by the topic ban, but the rest of the article is not;
+discussions or suggestions about weather-related topics anywhere on Wikipedia, for instance a deletion discussion concerning an article about a meteorologist, but also including edit summaries and the user's own user and talk pages (including sandboxes).
+
+Interaction ban
+
+Shortcut:
+
+WP:IBAN
+
+
+The purpose of an interaction ban (IBAN) is to stop a conflict between individuals. A one-way interaction ban prevents user X from interacting with user Y. A two-way ban prevents both parties from interacting with each other. Although the parties are generally allowed to edit the same pages or discussions so long as they avoid each other, they are not allowed to interact with each other.
+Editors subject to an IBAN are not permitted to:
+
+edit each other's user and user talk pages;
+reply to each other in discussions;
+make reference to or comment on each other anywhere on Wikipedia, directly or indirectly;
+undo each other's edits to any page, whether by use of the revert function or by other means;
+use the thanks extension to respond to each other's edits.
+
+A no-fault two-way interaction ban is often a quick and painless way to prevent a dispute from causing further distress or wider disruption.
+Exceptions to limited bans
+
+Shortcut:
+
+WP:BANEX
+
+
+Unless stated otherwise, article, page, topic, or interaction bans do not apply to the following:
+
+Reverting obvious vandalism (such as page content being replaced by obscenities) or obvious violations of the policy about biographies of living persons. The key word is "obvious", that is, cases in which no reasonable person could disagree.
+Engaging in legitimate and necessary dispute resolution, that is, addressing a legitimate concern about the ban itself in an appropriate forum. Examples include:
+
+asking an administrator to take action against a violation of an interaction ban by another party (but normally not more than once, and only by mentioning the fact of the violation).
+asking for necessary clarifications about the scope of the ban.
+appealing the ban.
+
+
+
+As a banned user, if you think your editing is excepted from the ban according to these rules, you should explain why that is so at the time of the edit, for example in the edit summary. When in doubt, do not make the edit. Instead, engage in dispute resolution or ask whoever imposed the ban to clarify.
+Decision to ban
+
+See also: Category:Banned Wikipedia users and Wikipedia:Long-term abuse. Note that the absence of an editor from these lists does not mean that they are not banned.
+
+Authority to ban
+The decision to ban an editor can be made by the following groups or persons:
+
+The Wikipedia community can impose a ban by consensus, as described in the section below.
+The Arbitration Committee can use a ban as a remedy, usually following a request for arbitration.
+The Arbitration Committee may delegate the authority to impose bans. It has authorized administrators to impose "discretionary sanctions" (including bans) in certain topic areas (see Wikipedia:Arbitration Committee/Discretionary sanctions).
+Jimbo Wales reserves the authority to ban editors.
+The Wikimedia Foundation has the authority to ban editors (see meta:WMF Global Ban Policy and Category:Wikipedians banned by the WMF), though it has rarely exercised this authority on the English Wikipedia individually.
+Users may be globally banned from English Wikipedia and all other Wikimedia projects, either by the broader Wikimedia community or by the Wikimedia Foundation. In case of the former, English Wikipedia users will be explicitly invited to participate in the Meta-Wiki discussion to ban the user in question.
+
+Except as noted above, individual editors, including administrators, may not directly impose bans.
+Community bans and restrictions
+
+Shortcut:
+
+WP:CBAN
+
+
+The community may reach a consensus to impose various types of sanctions on editors:
+
+If an editor has proven to be repeatedly disruptive in one or more areas of Wikipedia, the community may engage in a discussion to site ban, topic ban, or place an interaction ban or editing restriction via a consensus of editors who are not involved in the underlying dispute.[1] When determining consensus, the closing administrator will assess the strength and quality of the arguments made.
+In some cases the community may have discussed an indefinite block and reached a consensus of uninvolved editors not to unblock the editor. Editors who remain indefinitely blocked after due consideration by the community are considered "banned by the Wikipedia community".
+
+Community sanctions may be discussed on the Wikipedia:Administrators' noticeboard (preferred) or on Wikipedia:Administrators' noticeboard/Incidents. Discussions may be organized via a template to distinguish comments by involved and uninvolved editors, and to allow the subject editor to post a response. Sanction discussions are normally kept open for at least 24 hours to allow time for comments from a broad selection of community members. If the discussion appears to have reached a consensus for a particular sanction, an uninvolved administrator notifies the subject accordingly. The discussion is then closed, and the sanction should be logged at the appropriate venue if necessary, usually Wikipedia:Editing restrictions or Wikipedia:Long-term abuse.
+Editors without usernames may be banned by the community (example), but bans of editors using only IP addresses are rare.
+
+Recidivism may lead to a ban
+
+Shortcut:
+
+WP:RECIDIVISM
+
+
+In 2012, the Arbitration Committee decided that "Users who have been sanctioned for improper conduct are expected to avoid repeating it should they continue to participate in the project. Failure to do so may lead to the imposition of increasingly severe sanctions."[2]
+Duration of bans
+
+Shortcut:
+
+WP:BANLENGTH
+
+
+Bans are not intended as a short-term measure. Sometimes a ban may be for a fixed period of some months. More often no period is specified, because the ban is a decision that the editor may not edit or participate in the specified matters on this site.
+Review and reversal of bans
+
+Shortcut:
+
+WP:UNBAN
+
+
+
+
+
+Banned editors should not create a new account to file an appeal or to post in a discussion. This would be considered sock-puppetry and the new account will usually be blocked. They should be seen to comply with their ban, which will gain a more favorable opinion. Appeals and comments related to an existing ban should be submitted as described below.
+
+
+Appeals of bans imposed by the community
+Bans imposed by the community may be appealed to the community or, where there are serious questions about the validity of the ban discussion or its closure, to the Arbitration Committee.[3]
+
+
+
+Editors who are banned from a topic area or certain pages but can otherwise edit, may appeal (and comment in an appeal discussion) on-wiki, either at the administrators' noticeboard, or, if there are serious questions about the validity of the ban discussion or its closure, by filing a case request [3].
+Editors who cannot edit any page except their talk page may:
+
+
+
+
+Post an appeal or comment there and ask (by email or other off-site means such as UTRS) for it to be reposted to the appropriate discussion board. This is a voluntary act and should not be abused or used to excess.
+Submit an appeal to the Unblock Ticket Request System and ask to an administrator to post it to the appropriate discussion board. This is a voluntary act and should not be abused or used to excess.
+Where there are serious questions about the validity of the ban discussion or its closure, appeal by email to the Arbitration Committee. An e-mail appeal must specify the banned editor's Wikipedia username and any other usernames he or she has used to edit Wikipedia in the past two years. (Using Wikipedia's email feature to email Arbitration Committee automatically reveals the account used for sending it.) The appeal should clearly but succinctly explain the reasons the editor feels the ban should be overturned, such as what lessons the editor has learned since the ban or block was imposed, how the editor would conduct himself or herself differently in the future if they are allowed to resume editing, or why they believe the ban was unfair. The editor should also include links to any relevant on-wiki discussions and any other information necessary to understand the grounds for the appeal.
+
+
+
+
+
+
+
+
+Editors unable to edit any page (even their talk page) should appeal through the Unblock Ticket Request System asking an administrator to post their appeal to the appropriate discussion board. This is a voluntary act, and should not be abused or used to excess.
+
+
+
+
+
+
+In some cases, a banned editor may be unblocked for the purpose of filing an appeal. In such cases, editing of any unrelated page or other matter is grounds for immediate re-blocking. Editors banned by the Arbitration Committee must appeal to the Committee.
+
+
+
+Appeal of Arbitration Committee decisions
+Appeal to the Arbitration Committee
+
+
+
+Editors who are banned from a topic area or certain pages but can otherwise edit, may appeal (and comment in an appeal discussion) on-wiki, by filing an amendment request.
+Editors who are blocked from editing by the Arbitration Committee can appeal by emailing the Arbitration Committee using the EmailUser function or, if email is disabled, by emailing arbcom-llists.wikimedia.org.
+An e-mail appeal must specify the banned editor's Wikipedia username and any other usernames he or she has used to edit Wikipedia in the past two years. The appeal should clearly but succinctly explain the reasons the editor feels the ban should be overturned, such as what lessons the editor has learned since the ban or block was imposed, how the editor would conduct himself or herself differently in the future if they are allowed to resume editing, or why they believe the ban was unfair. The editor should also include links to any relevant on-wiki discussions and any other information necessary to understand the grounds for the appeal.
+
+
+
+
+Appeal to Jimbo Wales
+See also: Appeal to Jimbo Wales
+Any arbitration decision may be appealed to Jimbo Wales. While it is not unusual for him to consider an appeal, it is exceedingly unusual for him to overturn such a decision. A topic banned editor cannot discuss the topic ban or topic on Jimbo's talk page, but they are allowed to appeal the topic ban to Jimbo Wales. An appeal should be lodged at his user talk page within one week of the ArbCom decision.
+Arbitration enforcement bans
+The following are the applicable parts from the standard provision for appeals of arbitration enforcement bans:
+
+Appeals by sanctioned editors
+Appeals may be made only by the editor under sanction and only for a currently active sanction. The process has three possible stages (see "Important notes" below). The editor may:
+
+ask the enforcing administrator to reconsider their original decision;
+request review at the arbitration enforcement noticeboard ("AE") or at the administrators’ noticeboard ("AN"); and
+submit a request for amendment at "ARCA". If the editor is blocked, the appeal may be made by email through Special:EmailUser/Arbitration Committee (or, if email access is revoked, to arbcom-llists.wikimedia.org).
+
+Important notes:
+
+For a request to succeed, either
+
+
+
+
+(i) the clear and substantial consensus of (a) uninvolved administrators at AE or (b) uninvolved editors at AN or
+(ii) a passing motion of arbitrators at ARCA
+is required. If consensus at AE or AN is unclear, the status quo prevails.
+
+
+
+
+While asking the enforcing administrator and seeking reviews at AN or AE are not mandatory prior to seeking a decision from the committee, once the committee has reviewed a request, further substantive review at any forum is barred. The sole exception is editors under an active sanction who may still request an easing or removal of the sanction on the grounds that said sanction is no longer needed, but such requests may only be made once every six months, or whatever longer period the committee may specify.
+These provisions apply only to discretionary sanctions placed by administrators and to blocks placed by administrators to enforce arbitration case decisions. They do not apply to sanctions directly authorised by the committee, and enacted either by arbitrators or by arbitration clerks, or to special functionary blocks of whatever nature.
+— Arbitration Committee, Standard provision for appeals and modifications
+
+
+
+Evasion and enforcement
+Wikipedia's approach to enforcing bans balances a number of competing concerns:
+
+Maximizing the quality of the encyclopedia.
+Avoiding inconvenience or aggravation to any victims of mistaken identity.
+Maximizing the number of editors who can edit Wikipedia.
+Avoiding conflict within the community over banned editors.
+Dissuading or preventing banned editors from editing Wikipedia or the relevant area of the ban.
+
+As a result, enforcement has a number of aspects. While all editors are expected to respect the enforcement of policies by not undermining or sabotaging them, no editor is personally obligated to help enforce any ban.
+Bans apply to all editing, good or bad
+
+Shortcut:
+
+WP:BMB
+
+
+Editors are only site-banned as a last resort, usually for extreme or very persistent problems that have not been resolved by lesser sanctions and that often resulted in considerable disruption or stress to other editors. A ban is not merely a request to avoid editing "unless they behave". The measure of a site ban is that even if the editor were to make good edits, permitting them to re-join the community is perceived to pose enough risk of disruption, issues, or harm, that they may not edit at all, even if the edits seem good.[4]
+A number of banned editors have used "good editing" (such as anti-vandalism edits) tactically, to try and game the banning system, "prove" they cannot be banned, or force editors into the paradox of either allowing banned editing or removing good content. Even if the editor only makes good edits, they will be rebanned for evasion.[5]
+On very rare occasions, a limited exception may be requested; for example, to participate in a particular discussion.[6]
+If there is any doubt whether a limited ban prohibits any specific edit, the banned editor should assume that it does, unless whoever imposed the ban expressly clarifies that it does not. If clarification is not sought before making the edit, the banned editor assumes the risk that an administrator takes a broader view of the scope of the ban and enforces it with a block or other sanction.
+Blocks
+In the case of project-wide bans, the primary account of any banned editor may be entirely blocked for the duration of the ban.
+If the banned editor creates sock puppet accounts to evade the ban, these usually will be blocked as well. When evasion is a problem, the IP address of a banned editor who edits from a static IP address may also be blocked for the duration of the ban. If a banned editor evades the ban from a range of addresses, short-term IP blocks may be used.
+Reset of ban following evasion
+It is customary for the "ban timer" to be reset or extended if a banned editor attempts to edit in spite of the ban. No formal consideration is typically necessary. For example, if someone is banned for ten months, but on the sixth month attempts to evade the ban, then the ban timer may be reset from "four months remaining" to "ten months remaining", so if the editor does not subsequently evade the ban again, his or her eventual total duration would be 16 months. Repeated evasion may lead to a longer or more serious sanction.
+An editor who has been banned or has had their account blocked, and tries to evade this by creating a new account, is known as a reincarnation of the old account. Obvious reincarnations are easily dealt with—the account is blocked and contributions are reverted or deleted, as discussed above. See sock puppet for policy on dealing with unclear cases.
+
+Edits by and on behalf of banned editors 
+
+Shortcuts:
+
+WP:BANREVERT
+WP:REVERTBAN
+
+
+Anyone is free to revert any edits made in violation of a ban, without giving any further reason and without regard to the three-revert rule. This does not mean that edits must be reverted just because they were made by a banned editor (obviously helpful changes, such as fixing typos or undoing vandalism, can be allowed to stand), but the presumption in ambiguous cases should be to revert.
+When reverting edits, care should be taken not to reinstate material that may be in violation of such core policies as neutrality, verifiability, and biographies of living persons. Editors who reinstate edits made by a banned editor take complete responsibility for the content.
+Pages created by banned users in violation of their ban, and which have no substantial edits by others, are eligible for speedy deletion. Any editor can use the template {{db-g5}}, or its alternative name {{db-banned}}, to mark such a page. If editors other than the banned editor have made good-faith contributions to the page or its talk page, it is courteous to inform them that the page was created by a banned editor, and then decide on a case-by-case basis what to do.
+Since categorization can impact many pages, and deletion of a category without merging can leave pages orphaned, you should carefully consider what to do with categories created by a banned user. Blatantly useless categories can be speedy-deleted, as well as any categories which clearly violate existing category standards. Care should nonetheless be taken to see if articles need to be merged to a parent category before the speedy deletion. Categories created by a banned user which may be useful or fit into a larger category scheme should be tagged for discussion and possible merging using the categories for discussion process instead of deleting them outright.
+Proxying
+"WP:PROXYING" redirects here. For the Wikipedia policy on open proxy servers, see WP:PROXY.
+Policy shortcut:
+
+
+WP:PROXYING
+
+
+
+Wikipedians in turn are not permitted to post or edit material at the direction of a banned editor (sometimes called proxy editing or proxying) unless they are able to show that the changes are either verifiable or productive and they have independent reasons for making such edits.
+New accounts which engage in the same behavior as a banned editor or blocked account in the same context, and who appear to be editing Wikipedia solely for that purpose, are subject to the remedies applied to the editor whose behavior they are imitating.[7] See also the policy on sockpuppetry and meatpuppetry.
+User pages
+Banned editors' user and user talk pages should be updated with a notice of the ban, linking to any applicable discussion or decision-making pages. The purpose of this notice is to announce the ban to editors encountering the banned editor's edits. Indefinitely site-banned editors may be restricted from editing their user talk page or using e-mail.
+Further enforcement measures
+Serious, ongoing ban evasion is sometimes dealt with by technical means or by making an abuse complaint with the operator of the network from which the edits originate.
+Difference between bans and blocks
+Policy shortcuts:
+
+
+WP:BLOCKBANDIFF
+WP:BANBLOCKDIFF
+
+
+
+The standard distinction is that a ban is a social decision about the right to edit; a block is a technically imposed enforcement setting.
+The MediaWiki software does not have the capability to prevent editing selectively.[8] Editors who are banned from specific pages or topics must immediately cease editing these pages or topics. If they do not, then a block will be used to enforce the ban. Such a block will necessarily prevent their editing of the entire site, but they are not banned from the site and remain members of the community.
+An editor who is "sitebanned" (which may sometimes be described as a "full ban") has been completely ejected from the project. For the duration of their ban their edits are subject to reversion, although personal attacks towards them remain unacceptable.
+
+
+
+
+ 
+Blocked
+(including "indefinite blocks")
+Site banned
+Page/topic banned
+
+
+Still a member of the community?
+Yes, although currently unable to edit
+No
+Yes
+
+
+Access to own talk page?
+Usually allowed unless abused
+Usually not allowed
+Yes
+
+
+Imposing of block/ban
+May be imposed by any uninvolved admin
+May only be imposed by the Arbitration Committee, Jimbo Wales, the Wikimedia Foundation (or uninvolved users specifically authorized by one of these), or by community consensus. In the event an indefinitely blocked editor has continued to be disruptive and no administrator is willing to unblock, they are considered de facto banned.
+
+
+Content created during block or ban
+(by the user or by someone acting on their behalf)
+Edits by the editor or on his or her behalf may be reverted without question (exceptions), and any pages where the blocked/banned editor is both the page's creator and the only substantial contributor may be speedily deleted under CSD#G5.
+Edits by the editor or on his or her behalf that are clearly within the topic area may be reverted without question (exceptions), and any pages where the banned editor is both the page's creator and the only substantial contributor may be speedily deleted under CSD#G5. If there is any reasonable doubt as to whether the page falls within the topic ban, discussion prior to deletion is generally warranted.
+
+
+
+
+Other considerations
+
+Conduct towards banned editors
+Policy shortcut:
+
+
+WP:CONDUCTTOBANNED
+
+
+
+Wikipedia's hope for banned editors is that they will leave Wikipedia or the affected area with their pride and dignity intact, whether permanently or for the duration of their ban. It is unacceptable to take advantage of banned editors, whether by mocking, baiting, or otherwise abusing them. Personal attacks, outing and other behaviours remain unacceptable even if directed towards a banned editor.
+Scope and reciprocity
+The English-language Wikipedia does not have authority over the Meta-Wiki, Wikimedia sister projects, or Wikipedias in languages other than English. As such, bans issued by the English Wikipedia community or Arbitration Committee are not binding on other projects.
+See also
+
+Blacklist
+Wikipedia:Blocking policy
+Wikipedia:Arbitration Committee/Discretionary sanctions
+Wikipedia:Editing restrictions
+Wikipedia:Long-term abuse
+
+Notes
+
+
+^ The community sanction noticeboard which was created for such a purpose is now inactive
+^ Motion on recidivism, 15 February 2012
+^ a b Note the committee generally considers appeals of community sanctions only if there were serious questions about the validity of the ban discussion or its closure, as discussed at a past case finding
+^ Examples of use at Requests for Arbitration: by Hersfold, by Newyorkbrad, by Vassyana (line 478+) ("A ban is a ban. It's not uncommon for people to make "good" edits to create a soapbox for disputing their ban and/or thumbing their nose at the project. Let's not enable them").
+^ For example this case.
+^ For example, this motion where a topic-banned editor was allowed to participate in featured content discussions of his (non-contentious) diagrams.
+^ See Wikipedia:Requests for arbitration/Agapetos angel#Meatpuppets. See also: Wikipedia:Tag team
+^ Although simple page bans could be implemented in software, there is no easy way for software to determine whether an editor is editing in violation of other kinds of ban – on a given topic or issue, interacting with a given editor, or many other kinds of nuanced behavior. Bans require human judgment.
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia accounts and governance
+
+
+
+
+
+
+Unregistered (IP) users
+
+
+
+Why create an account?
+Create an account
+Request an account
+IPs are human too
+IP addresses are not people
+IP hopper
+
+
+
+
+
+
+
+
+Registered users
+
+
+
+New account
+Logging in
+
+Reset passwords
+
+
+Username policy
+
+Changing username
+Usernames for administrator attention
+
+
+Unified login or SUL
+Alternate account
+
+
+
+
+
+
+
+
+Account security
+
+
+
+Password strength requirements
+User account security
+Personal security practices
+Two-factor authentication
+
+Simple 2FA
+2FA for AWB
+
+
+Committed identity
+On privacy, confidentiality and discretion
+Compromised accounts
+
+
+
+
+
+
+
+
+Blocks, global locks,
+bans, sanctions
+
+
+
+Blocking policy
+
+FAQ
+Admins guide
+Tools
+Autoblock
+
+
+Appealing a block
+
+Guide to appealing blocks
+UTRS Unblock Ticket Request System
+
+
+Blocking IP addresses
+
+Range blocks
+IPv6
+Open proxies
+
+
+Global locks
+Banning policy
+
+ArbCom appeals
+
+
+Sanctions
+
+Personal sanctions
+General sanctions
+Discretionary sanctions and Log
+Essay
+
+
+Long-term abuse
+Standard offer
+
+
+
+
+
+
+
+
+Related to accounts
+
+
+
+Sock puppetry
+Single-purpose account
+Sleeper account
+Vandalism-only account
+Wikibreak
+
+Enforcer
+
+
+Retiring
+
+Courtesy vanishing
+
+
+Clean start
+
+Quiet return
+
+
+
+
+
+
+
+
+
+
+User groups
+and global user groups
+
+
+
+Requests for permissions
+
+Admin instructions
+Admin guide
+
+
+Account creator
+
+PERM
+
+
+Autopatrolled
+
+PERM
+
+
+AutoWikiBrowser
+
+PERM
+
+
+Confirmed
+
+PERM
+
+
+Extended confirmed
+
+PERM
+
+
+File mover
+
+PERM
+
+
+Mass message sender
+
+PERM
+
+
+New page reviewer
+
+PERM
+
+
+Page mover
+
+PERM
+
+
+Pending changes reviewer
+
+PERM
+
+
+Rollback
+
+PERM
+
+
+Template editor
+
+PERM
+
+
+IP-block-exempt
+
+Requests
+
+
+Courses access
+
+Requests
+
+
+Bot accounts
+
+Requests
+
+
+Global rights policy
+
+OTRS Volunteer Response Team
+
+
+
+
+
+
+
+
+
+
+Advanced user groups
+
+
+
+Administrators
+
+RfA
+
+
+Bureaucrats
+
+RfB
+
+
+Edit filter manager
+
+Requests
+
+
+CheckUser and Oversight
+
+Requests
+
+
+
+
+
+
+
+
+
+
+Committees and related
+
+
+
+Arbitration Committee
+Mediation Committee
+Bot approvals group
+Functionaries
+Clerks
+
+
+
+
+
+
+
+
+Governance
+
+
+
+Administration
+
+FAQ
+
+
+Formal organization
+Editorial oversight and control
+Quality control
+Wikimedia Foundation
+
+Meta-Wiki
+
+
+Leadership opportunities
+WikiProjects
+Elections
+Policies and guidelines
+Unbundling administrators' powers
+Petitions
+Noticeboards
+Consensus
+Dispute resolution
+Reforms
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Banning_policy&oldid=760041453"					
+Categories: Wikipedia policiesWikipedia enforcement policiesWikipedia Administrators' guideWikipedia blockingHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikiversity 
+
+
+
+Languages
+
+
+العربيةБългарскиΕλληνικάEspañolفارسیFrançais한국어ItalianoMagyarМакедонски日本語PortuguêsРусскийසිංහලاردوTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 14 January 2017, at 16:50.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.208","walltime":"0.293","ppvisitednodes":{"value":1660,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":71893,"limit":2097152},"templateargumentsize":{"value":3836,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  205.453      1 -total"," 18.76%   38.550      1 Template:Pp-semi-indef"," 12.80%   26.299      1 Template:Policy"," 11.59%   23.815      1 Template:Ombox"," 10.73%   22.055      3 Template:Policy_shortcut"," 10.21%   20.973      2 Template:Redirect","  9.58%   19.677     12 Template:Shortcut","  8.15%   16.749      3 Template:Bulleted_list","  6.71%   13.792      1 Template:Quotation","  5.11%   10.495      1 Template:Enforcement_policy_list"]},"scribunto":{"limitreport-timeusage":{"value":"0.071","limit":"10.000"},"limitreport-memusage":{"value":2933805,"limit":52428800}},"cachereport":{"origin":"mw1214","timestamp":"20170203085836","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":60,"wgHostname":"mw1188"});});

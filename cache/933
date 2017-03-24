@@ -1,0 +1,482 @@
+ 
+
+
+
+
+
+Help
+
+Category:Wikipedia fully-protected edit requests
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+Update
+this page
+
+
+
+
+This is a maintenance category. It is used for maintenance of the Wikipedia project and is not part of the encyclopedia. It contains pages that are not articles, or it groups articles by status rather than content. Do not include this category in content categories.
+
+
+Shortcut:
+
+CAT:EP
+
+
+
+
+
+
+
+
+Administrators: Please do not delete this category even if it is empty!
+This category may be empty occasionally or even most of the time.
+
+
+
+This category contains requests for edits to protected pages. Protected pages can only be edited by administrators, some of whom monitor this category and respond to requests.
+
+To list a page in this category, see Wikipedia:Edit requests for guidance.
+To respond to a request, see Wikipedia:Edit requests#Responding to requests for guidance.
+
+Pages are added to this category by the template {{edit protected}}. Editors may find the template {{EP}} useful when responding to protected edit requests.
+
+
+
+7 protected edit requests
+v·h
+
+
+
+
+
+
+Page
+Tagged since
+Protection level
+Last protection log entry
+
+
+Pink Pest Control (request)
+2017-02-11 04:40
+Fully protected (log)
+Protected by Mark Arsten on 2013-08-06: "Per outcome of Wikipedia:Articles for deletion/Pink Pest Control"
+
+
+2016 Indian banknote demonetisation (request)
+2017-02-11 14:41
+Fully protected, expires 2017-02-17 at 14:34:28 UTC (log)
+Protected by RegentsPark on 2017-02-07: "Edit warring / content dispute"
+
+
+David Zeidler (request)
+2017-02-11 18:28
+Fully protected, expires 2017-02-17 at 14:49:18 UTC (log)
+Protected by Fram on 2017-02-10: "Persistent vandalism"
+
+
+Thakur (rajput) (request)
+2017-02-12 06:48
+Not protected (log)
+
+
+
+List of best-selling albums by year in the United States (request)
+2017-02-12 07:18
+Fully protected, expires 2017-02-14 at 22:08:38 UTC (log)
+Protected by Beeblebrox on 2017-02-10: "Edit warring / content dispute"
+
+
+MediaWiki:Centralauth-admin-intro (request)
+2017-02-12 20:34
+MediaWiki page (log)
+
+
+
+Wikipedia:Credo accounts/header (request)
+2017-02-13 04:23
+Fully protected (log)
+From Wikipedia:Credo/header: Protected by SlimVirgin on 2011-03-21: "protecting this for March 23"
+
+
+
+
+
+Updated as needed. Last updated: 04:28, 13 February 2017 (UTC)
+
+
+
+
+
+
+A new user script is available to assist in answering edit requests. Details can be found at User:Jackmcbarn/editProtectedHelper.
+
+
+
+
+Color legend
+
+
+v
+t
+e
+
+
+
+
+
+Red
+Template-protected, title blacklist, extended-confirmed-protected, semi-protected, or not protected
+
+
+Yellow
+MediaWiki-namespace, user script (JS or CSS), or cascading protection
+
+
+Green
+Direct protection in the Template or Module namespaces
+
+
+White
+Direct protection in namespaces other than Template and Module
+
+
+
+Response templates
+
+
+
+{{subst:EP}} is used for responding to requests for edits to protected pages from Category:Wikipedia fully-protected edit requests
+{{subst:ETp}} is used for responding to requests for edits to template-protected pages from Category:Wikipedia template-protected edit requests.
+{{subst:EEp}} is used for responding to requests for edits to extended-confirmed-protected pages from Category:Wikipedia extended-confirmed-protected edit requests.
+{{subst:ESp}} is used for responding to requests for edits to semi-protected pages from Category:Wikipedia semi-protected edit requests.
+
+
+
+Result
+EP Code
+ETp Code
+ESp code
+Normalized
+
+
+ Done
+{{subst:EP|d}}
+{{subst:ETp|d}}
+{{subst:ESp|d}}
+done
+
+
+ Partly done:
+{{subst:EP|pd}}
+{{subst:ETp|pd}}
+{{subst:ESp|pd}}
+partly done
+
+
+ Not done:
+{{subst:EP|n}}
+{{subst:ETp|n}}
+{{subst:ESp|n}}
+not
+
+
+ Not done for now:
+{{subst:EP|nfn}}
+{{subst:ETp|nfn}}
+{{subst:ESp|nfn}}
+now
+
+
+ Not done: please establish a consensus for this alteration before using the {{edit protected}} template.
+{{subst:EP|c}}
+{{subst:ETp|c}}
+{{subst:ESp|c}}
+consensus
+
+
+ Not done: please provide reliable sources that support the change you want to be made.
+{{subst:EP|rs}}
+{{subst:ETp|rs}}
+{{subst:ESp|rs}}
+rs
+
+
+ Not done: it's not clear what changes you want to be made. Please mention the specific changes in a "change X to Y" format.
+{{subst:EP|xy}}
+{{subst:ETp|xy}}
+{{subst:ESp|xy}}
+specific
+
+
+ Not done: this is the talk page for discussing improvements to the page Category:Wikipedia fully-protected edit requests. Please make your request at the talk page for the article concerned.
+{{subst:EP|mis}}
+{{subst:ETp|mis}}
+{{subst:ESp|mis}}
+misplaced
+
+
+ Not done: please make your requested changes to the page's sandbox first; see WP:TESTCASES.
+{{subst:EP|sb}}
+{{subst:ETp|sb}}
+{{subst:ESp|sb}}
+sandbox
+
+
+ Not done: this is the talk page for discussing improvements to the page Category:Wikipedia fully-protected edit requests. If possible, please make your request at the talk page for the article concerned. If you cannot edit the article's talk page, you can instead make your request at Wikipedia:Requests for page protection#Current requests for edits to a protected page.
+{{subst:EP|tp}}
+{{subst:ETp|tp}}
+{{subst:ESp|tp}}
+talk protected
+
+
+ Already done
+{{subst:EP|a}}
+{{subst:ETp|a}}
+{{subst:ESp|a}}
+already
+
+
+ Not done: According to the page's protection level you should be able to edit the page yourself. If you seem to be unable to, please reopen the request with further details.
+{{subst:EP|hr}}
+{{subst:ETp|hr}}
+{{subst:ESp|hr}}
+haverights
+
+
+ Not done: The page's protection level has changed since this request was placed. You should now be able to edit the page yourself. If you still seem to be unable to, please reopen the request with further details.
+{{subst:EP|nlp}}
+{{subst:ETp|nlp}}
+{{subst:ESp|nlp}}
+no longer protected
+
+
+ Not done: {{edit protected}} is usually not required for edits to the documentation, categories, or interlanguage links of templates using a documentation subpage. Use the 'edit' link at the top of the green "Template documentation" box to edit the documentation subpage.
+{{subst:EP|doc}}
+{{subst:ETp|doc}}
+{{subst:ESp|doc}}
+doc
+
+
+ Not done: requests for recreating deleted pages protected against creation should be made at Wikipedia:Deletion review.
+{{subst:EP|drv}}
+{{subst:ETp|drv}}
+{{subst:ESp|drv}}
+drv
+
+
+ Not done: requests for increases to the page protection level should be made at Wikipedia:Requests for page protection.
+{{subst:EP|r}}
+{{subst:ETp|r}}
+{{subst:ESp|r}}
+rfpp
+
+
+ Not done: requests for decreases to the page protection level should be directed to the protecting admin or to Wikipedia:Requests for page protection if the protecting admin is not active or has declined the request.
+{{subst:EP|ru}}
+{{subst:ETp|ru}}
+{{subst:ESp|ru}}
+rfpu
+
+
+ Not done: Please make your request for a new image to be uploaded to Files For Upload. Once the file has been properly uploaded, feel free to reactivate this request to have the new image used.
+{{subst:EP|ffu}}
+{{subst:ETp|ffu}}
+{{subst:ESp|ffu}}
+file
+
+
+ Not done: this is not the right page to request additional user rights. You may reopen this request with the specific changes to be made and someone will add them for you.
+{{subst:EP|p}}
+{{subst:ETp|p}}
+{{subst:ESp|p}}
+permission
+
+
+ Not done: page move requests should be made at Wikipedia:Requested moves.
+{{subst:EP|m}}
+{{subst:ETp|m}}
+{{subst:ESp|m}}
+move
+
+
+ Question:
+{{subst:EP|q}}
+{{subst:ETp|q}}
+{{subst:ESp|q}}
+question
+
+
+ Note:
+{{subst:EP|note}}
+{{subst:ETp|note}}
+{{subst:ESp|note}}
+note
+
+
+ Undone: This request has been partially undone.
+{{subst:EP|udp}}
+{{subst:ETp|udp}}
+{{subst:ESp|udp}}
+undonepartly
+
+
+ Undone: This request has been undone.
+{{subst:EP|ud}}
+{{subst:ETp|ud}}
+{{subst:ESp|ud}}
+undone
+
+
+
+
+
+
+
+
+Pages in category "Wikipedia fully-protected edit requests"
+The following 7 pages are in this category, out of 7 total. This list may not reflect recent changes (learn more).
+0–9
+Talk:2016 Indian banknote demonetisationC
+MediaWiki talk:Centralauth-admin-intro
+Wikipedia talk:Credo/headerL
+Talk:List of best-selling albums by year in the United StatesP
+Talk:Pink Pest ControlT
+Talk:Thakur (rajput)Z
+Talk:David Zeidler
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Category:Wikipedia_fully-protected_edit_requests&oldid=686997849"					
+Categories: Wikipedia edit requestsWikipedia requests related to admins 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Category
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikidataWikisource 
+
+
+
+Languages
+
+
+Ængliscঅসমীয়াБеларускаяБеларуская (тарашкевіца)‎Catalàفارسی한국어IlokanoBahasa IndonesiaInterlinguaҚазақшаमराठीBahasa Melayu日本語Norsk bokmålRomânăРусскийSimple EnglishSlovenščinaУкраїнськаTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 22 October 2015, at 18:03.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.172","walltime":"0.232","ppvisitednodes":{"value":6788,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":56139,"limit":2097152},"templateargumentsize":{"value":1716,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  159.765      1 -total"," 43.43%   69.382      1 Template:EP/doc"," 26.38%   42.141      1 Template:Wikipedia_category"," 25.21%   40.283      3 Template:Cmbox"," 24.95%   39.861     72 Template:Tlxs"," 12.40%   19.819      1 Template:Purge_button"," 11.21%   17.915      1 Template:Abbr","  9.40%   15.019     24 Template:EP","  4.66%    7.442      1 Template:Edit_protected/color_legend","  4.57%    7.298      1 Template:Shortcut"]},"scribunto":{"limitreport-timeusage":{"value":"0.026","limit":"10.000"},"limitreport-memusage":{"value":1310696,"limit":52428800}},"cachereport":{"origin":"mw1278","timestamp":"20170213091624","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":339,"wgHostname":"mw1244"});});

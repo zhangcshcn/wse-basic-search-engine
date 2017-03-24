@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhang Chen's Basic Search Engine</title>
+</head>
+
+<body>
+<h1>Welcome to Chen Zhang's Minimum Search Engine!</h1>
+<br>
+<h2>It is not guaranteed that we work well with language other than English. </h2>
+<!--<h2>A few instructions:</h2>
+<ol>
+    <li>If it's the first time you use the seach engine, you may need to index some web pages by "startURL", "numMax", and "domain" before using giving query keywords. </li>
+    <li>If you have already crawled some pages, you can directly search the existing pages. However, if you relaunch a crawling process, the indexed pages will be overwritten. </li>
+</ol>-->
+<br>
+{% if inCache %}
+    {% for c in inCache %}
+        current index in cache: <br>
+        start: {{c.start}}<br>
+        number: {{c.number}}<br>
+        timestamp: {{c.timestamp}}<br>
+        <br>
+        Continue searching using the current index? <br>
+    {% endfor %}
+{% else %}
+    No files indexed in cache currently. Please crawl before use.<br>
+{% endif %}
+<br>
+<form action=" {% url 'query:search' %} " method="get">
+    <label for="q">query: </label>
+    <input id="q" type="text" name="q" value=" ">
+    <br>
+    <input type="submit" value="Go! ">
+</form>
+<br>
+<h2>Note</h2>
+{% if inCache %}
+    There are files in cache. Re-crawling will dispose all existing files!
+{% else %}
+    No files indexed in cache currently. Please crawl before use.<br>
+{% endif %}
+<br>
+Crawling hundreds of pages can take as long as tens of minutes. 
+<br>
+Please wait patiently for the page to load. 
+<br>
+<br>
+<form action="crawl" method="post">
+{% csrf_token %}
+    <label for="start">start: </label>
+    <input id="start" type="text" name="start" value="{{ start }}">
+    <br>
+    <label for="number">number: </label>
+    <input id="number" type="text" name="number" value="{{ number }}">
+    <br>
+    <label for="domain">domain: </label>
+    <input id="domain" type="text" name="domain" value="{{ domain }}">
+    <br>
+    <input type="submit" value="Let's crawl!" onclick="return confirm('Are you sure you sure to despose the current index? Re-indexing could take minites! ')">
+</form>
+
+
+</body>
+
+
+</html>
+
+

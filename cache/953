@@ -1,0 +1,489 @@
+ 
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Protecting
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+The relevant policy is at Wikipedia:Protection policy
+
+Shortcut:
+
+WP:ADMINGUIDE/P
+
+
+Administrators protect pages and images to prevent vandalism and assist in resolving content disputes, for example. The key principle to remember here is that Wikipedia is the encyclopedia that "anyone can edit". Protecting pages defeats that goal and so page protection should be avoided when possible and kept as short as possible.
+In general, the length of time used to protect a page is based on how long you think it will take for the contributor(s) to cool down and resume proper contributions. A 24 hour page protection is typical. If problems resume, the protection might be increased to 36 hours for example. The page protection history might help you figure out how long to protect the page by what has worked in the past for that page.
+Protecting etiquette is very lax. Generally, you do not need to consult with the original page protecting admin and there usually is no reason to notify them after you modify a page protection. A log of protections and unprotections is available at Special:Log/protect.
+Below are more detailed instructions for protecting and unprotecting pages. For this guide we will use the protection form provided by the MediaWiki software. However in practice you may more often use semi-automated tools to protect pages – namely Twinkle – which can make the process considerably easier.
+
+
+
+Contents
+
+
+1 Protecting a page
+2 Unprotecting a page
+3 Salting a deleted page
+4 Types of protection
+
+4.1 Semi-protection
+4.2 Full protection
+4.3 Special protection
+4.4 Office actions
+
+
+5 Tools
+6 Notes
+
+
+
+Protecting a page
+
+
+
+A list of semi-protected articles is at Protected pages.
+
+
+
+
+Go to the article you wish to protect; in this case, we will use Wikipedia:Administrators' guide/Protecting/Protect.
+At the top of the page, click Protect.[1]
+On the next page, you will see several confirm protection option boxes: Edit, Move, and Pending changes). The edit option box allows different levels of protection for textual additions to the page.
+By default, only the Edit option box is available. Most page protection (semi, template, or full) only requires this box but if you require move or pending pages protection, the 'Unlock further protect options' box can be checked to unlock them.
+We will semi protect the page from editing. In the edit box, you will see that the default "Allow all users" is checked. To semi-protect, check the box for Allow only autoconfirmed users. (To test fully protecting the page, select the Allow only administrators option.)
+At the bottom of the edit box there is a dropdown menu titled expires. The default setting is "infinite" (indefinite). However, page protection is not usually indefinite but for a fixed length of time. For this test case, we will protect for 1 day. Choose "1 day" from the dropdown menu.
+Scroll down to the bottom until you see Reason: to enter a reason for protecting the page. There are pre-phrased reasons for edit protection in the dropdown box. Choose one, or enter a reason in your own words in Other/additional reason. Enter "Page protection test/Vandalism" or select a reason from the pull down menu.
+Note: Checking the "cascading protection" box protects a page, and extends that protection automatically to any page that is transcluded onto the protected page. Is available only for fully protected pages; it is disabled for semi-protected pages because it causes issues as noted at Phabricator.
+Press the Confirm button. The page now is protected, but you now need to inform editors that the page is protected and to categorize the page in, for example, Category:Wikipedia semi-protected pages. This can be done with a single template from the protection template series.
+Add {{pp-protected}} to the top of the page to show that Wikipedia:Administrators' guide/Protecting/Protect has been semi-protected.
+Enter an edit summary, such as "Added {{pp-protected}} template"
+Press the "Save page" button
+At this point, you have semi-protected the page.
+
+The above is how to manually protect pages, but it is highly recommended you take advantage of Twinkle's protect module, which is accessible via the "PP" link. This will make the task of protecting and tagging pages considerably easier. In addition, it offers batch protection, where you can protect numerous pages at once. The batch protect looks for all links on a page, and you can selectively choose which of those pages to protect. An example might be protecting a page and all of its subpages, such as those in your userspace, in which case you would use Special:PrefixIndex to generate the list of links.
+Unprotecting a page
+
+Go to the article you wish to unprotect; in this case, we will use the page you just protected, Wikipedia:Administrators' guide/Protecting/Protect.
+At the top of the page, click the Change protection link.[1]
+On the next page, you will see several confirm protection option boxes: Edit, Move, and Pending changes.
+In the edit box, select Allow all users.
+Next to Expires, you will see the existing expiry time. You do not need to change this.
+Next to Reason, type the reason you are unprotecting the article, e.g. "Page protection test end".
+Press the Confirm button.
+At this point, you will have removed the actual protection from "Wikipedia:Administrators' guide/Protecting/Protect". However, you still need to remove the protection template from the page.
+Remove the {{pp-protected}} template from the top of the Wikipedia:Administrators' guide/Protecting/Protect page.
+Enter an edit summary, such as "Removed {{pp-protected}} template"
+Press the "Save page" button
+At this point, you have completed the unprotecting a page procedure.
+
+Salting a deleted page
+Full policy information at WP:SALT
+
+
+
+
+Protection form visible when salting a page
+
+
+Occasionally, administrators also need to protect non-existent pages to prevent them from being created/recreated. This is known as salting, after the process of salting the earth. For example, in the case of an article that went through a deletion discussion, the consensus was to delete and it is continually remade after the AfD, the page will need to be protected from recreation. Another example where salting is required is when vandals continue to create a disruptive page. Administrators should not use creation protection as a pre-emptive measure, but only in response to actual events. Salting is typically done for an indefinite duration, but any duration may be used.
+The way to protect a non-existent page is very similar to protecting a regular page. We will use the test page Protect & salt test page.
+
+Go to Protect & salt test page.
+At the top of the page, look under the "More" dropdown menu and choose "Protect". Or for an automated method, look under Twinkle and choose "PP".
+To salt the article, select Allow only administrators; this will prevent anyone who is not an administrator from creating the page. To semi-protect the article from creation, select Allow only autoconfirmed users in the Create box. IPs cannot create pages anyway; this choice means that registered users who are below the autoconfirmed level will also not be able to create the page.
+In the box titled Expires, choose the length of time the page is to be protected. For example, 1 week, or 6 hours. However, it is unlikely an expiry will be needed for the protection of a non-existent article, so "infinite" is the default.
+In the box titled Reason, choose a reason why you are preventing the page from creation, or type in your own reason.
+Press the Confirm button.
+
+To unprotect the page, follow the same steps you would to unprotect an existing page.
+Types of protection
+Semi-protection
+A lesser level of protection, called "semi-protection", can be applied to pages. In this mode, anonymous users and very recently-joined named users (who do not yet have confirmed status) are prevented from editing the page but longer-term signed-in users may still edit the page as usual. This mode of protection is commonly applied to pages that continually attract drive-by vandalism by anonymous editors.
+
+
+
+
+
+Editing: Autoconfirmed users.
+Moving: Autoconfirmed users.
+Padlock: Silver/Grey
+Commonly used for: Heavy vandalism by anonymous or new users.
+
+
+
+
+
+Note: See Wikipedia:Protection policy#Semi-protection for more details.
+
+Full protection
+Administrators may temporarily fully-protect pages which disables editing for everyone except administrators. This level of protection is commonly applied (sparingly) to pages that result in content disputes and repeated edit warring. The protection should be of a limited duration but long enough in order to resolve perceived conflicts.
+
+
+
+
+
+Editing: Administrators.
+Moving: Administrators.
+Padlock: Gold/Brass
+Commonly used for: More serious disputes, highly visible pages, such as the main page, or very heavily used templates.
+Cascading protection option: If used, also protects all templates and pages transcluded onto a fully protected page.
+
+
+
+
+
+Note: Any modification to a fully-protected page should be discussed on its talk page, and only when consensus has been established for a specific change. Administrators should not use their ability to edit these types of protected pages to make changes without prior discussion.
+
+Special protection
+When considering protection on pages such as policy pages and noticeboards, look through the pages' protection log first and the user(s) leading up to the previous page protections. You may find a pattern that leads you to consider blocking to be less harmful to the project than another page protection of one of these special pages.
+
+
+
+
+Move-protection: Commonly used for title disputes or pages subject to persistent page-move vandalism.
+Template-protection: Restricts editing to admins and template editors, used only for high-risk templates and modules.
+Interface protection: The MediaWiki namespace is protected by default and cannot be unprotected. Administrator editing only.
+Title/creation protection: Prevents deleted pages from being recreated or overriding Commons images with local ones. See Protecting deleted pages (Salting)
+
+
+
+
+Office actions
+Occasionally, the legal officers of the Wikimedia Foundation will protect a page against editing; this is referred to as an "office action". When this is done, a template will be placed on the page so that administrators will be aware of this action. Do not reverse this protection or remove the template! Only the officers may reverse such protection. See Wikipedia:Office actions for more details.
+
+
+
+
+
+Editing: Administrators can edit these pages technically, but should not do so.
+Moving: Administrators can move these pages technically, but should not do so.
+Padlock: Black
+Used for: Legal disputes. See Wikipedia:Office actions.
+
+
+
+
+Tools
+
+Twinkle – A comprehensive (un)protect+template tool. Allows you to choose a preset that auto-supplies the standard protect settings for a given scenario. If the page has been protected in the past, a link will be shown to the protect log or pending changes log accordingly.
+
+Batch-protect: Click on the "P-batch" link to activate Twinkle's batch protect feature, allowing you to protect multiple pages at once. The module loads all links on the current page and lets you select which ones to protect. For instance, to protect all pages in your userspace, you can generate the page of links with Special:PrefixIndex/Example. To batch protect a specific group of pages (for example multiple articles arising from the same RfPP request), you can create a page in your userspace that contains a link to each of the pages you want to protect.
+
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+Notes
+
+
+^ a b Depending on your skin, the link may be a tab (e.g., MonoBook) or an entry on the "more" drop-down menu near the Search text box (e.g., Vector).
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Protecting&oldid=754802119"					
+Categories: Wikipedia page protectionWikipedia Administrators' guide 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+日本語 
+Edit links 
+
+
+
+
+
+ This page was last modified on 14 December 2016, at 16:13.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.084","walltime":"0.111","ppvisitednodes":{"value":1016,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":66085,"limit":2097152},"templateargumentsize":{"value":773,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   65.275      1 -total"," 46.98%   30.668      1 Template:Protection_templates"," 46.97%   30.659      2 Template:Navbox"," 28.93%   18.882      1 Template:Aligned_table"," 21.27%   13.887      2 Template:Hatnote","  9.61%    6.272      1 Template:Shortcut","  8.32%    5.429      9 Template:Tlf","  7.73%    5.044      1 Template:Admin_guide","  5.44%    3.554      1 Template:Reflist","  4.08%    2.665      1 Wikipedia:Administrators'_guide/Protecting/Tools"]},"scribunto":{"limitreport-timeusage":{"value":"0.019","limit":"10.000"},"limitreport-memusage":{"value":1208973,"limit":52428800}},"cachereport":{"origin":"mw1252","timestamp":"20170210090541","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":49,"wgHostname":"mw1238"});});

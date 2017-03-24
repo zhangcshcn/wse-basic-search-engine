@@ -1,0 +1,710 @@
+ 
+
+
+
+
+
+
+Wikipedia:File mover
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+For the users that may move pages and subpages without leaving redirects, see Wikipedia:Page mover.
+
+
+
+
+
+
+
+
+
+This page contains information about the file mover right, relevant policy and guideline considerations concerning the use of the page mover privilege, and details concerning the use of the page mover tool on the English Wikipedia. Changes made to it should reflect consensus.
+
+Shortcuts:
+
+WP:FMV
+WP:FRN
+WP:FMR
+WP:FILEMOVE
+
+
+
+
+
+
+
+
+This page in a nutshell:
+
+
+The file mover permission allows editors to rename media in the File namespace (not articles).
+The right is granted to experienced users who have demonstrated a good understanding of working with media files.
+
+
+
+
+
+
+The file mover user right allows users experienced in working with files to rename them, subject to policy, with the ease that autoconfirmed users already enjoy when renaming Wikipedia articles.
+Any administrator can grant this right at their discretion to trusted users who regularly work with media files and have demonstrated familiarity with Wikipedia's policies and guidelines surrounding renaming this type of media. There is no set requirement but users should be well-versed in Wikipedia's image and media policies (specifically the renaming guidelines given in this document), have experience with images, and how the rename process works. Experience with the equivalent tool at Commons and other relevant experience with media files may be taken into account.
+The user right is not normally given to brand-new editors, regardless of the number of files uploaded.
+If you wish to request File mover rights for yourself or another user, please see Wikipedia:Requests for permissions/File mover. Administrators do not need to request or add this user right for themselves or other administrators; it is automatically granted as part of the administrator tools package.
+There are currently 395 file mover users, which makes the total number of users with this permission 1,669 (the rest are administrators).
+
+
+
+Contents
+
+
+1 How it works
+
+1.1 Commons files
+1.2 File redirects
+
+
+2 What files should be renamed?
+
+2.1 What files should not be renamed?
+
+
+3 See also
+4 Notes
+
+
+
+How it works[edit]
+Files uploaded to Wikipedia can only be renamed by administrators, file movers, and Wikimedia stewards. If you belong to any of the user groups above, and therefore have the 'movefile' right, just use the "move" tab as you would normally on a regular page.
+If you're not a file mover, you can place {{rename media}} on the image description page, which will put the page into Category:Wikipedia files requiring renaming. A file mover will perform the move, if it conforms to the guidelines described below. File movers should follow the instructions on the template.
+File movers cannot move a file if precisely the same file name exists on Commons. Administrators, however, can do so, because they have the 'reupload-shared' right.
+There is a helpful user script for moving files: User:Splarka/ajaxfilemove.js.
+Commons files[edit]
+Files uploaded to Commons cannot be renamed by Wikipedia administrators or filemovers. To request the rename of a file at Commons, follow the instructions at Commons:File renaming.
+File redirects[edit]
+As when a page is moved, a redirect is left when moving files. In most cases the file redirect should remain on the original page, except if the original name falls under one of the revision deletion criteria (purely disruptive, grossly insulting, privacy breaching, etc.) or shadows a file on Commons.
+What files should be renamed?[edit]
+
+Shortcut:
+
+WP:FMV/W
+
+
+Wikipedia:File names describes how files should be named. In general, Wikipedia aims to provide stable file names as these may be being used by tools outside of Wikipedia. Currently there are nine widely undisputed uses for rename requests:
+
+
+No.
+Aim
+Examples (old name)
+Examples (new name)
+Shortcut
+
+
+1
+Uploader requested
+
+
+WP:FNC#1
+
+
+2
+Change from completely meaningless names into suitable names, according to what the image displays
+File:22785u9ob807b3c4f4.jpg
+File:DSC_1342.jpg
+File:Tower_Bridge_2009.jpg
+File:Pretoria_Venningpark.jpg
+WP:FNC#2
+
+
+3
+Correct misleading names into accurate ones
+File:!My_cuTe!!_MOUSSE.JPG
+File:1BIGGest_nOSE_everS33n.JPG
+File:Dutch_pet_rabbit.jpg
+File:John_Doe_at_concert.jpg
+WP:FNC#3
+
+
+4
+Change generic bio-names into binomial scientific names
+File:Unknown_insect_02.jpg
+File:Unidentified_flowers_HFJ.jpg
+File:Hogna_radiata_02.jpg
+File:Echinops_setifer_Japan.jpg
+WP:FNC#4
+
+
+5
+Correct obvious errors in file names (e.g. wrong proper nouns or false historical dates)
+File:Ayres_Rock_3.png
+File:Van_Gogh_portrait_1787.jpg
+File:Ayers_Rock_3.png
+File:Van_Gogh_portrait_1887.jpg
+WP:FNC#5
+
+
+6
+Harmonize file names of a set of images (so that only one part of all names differs) to ease their usage in templates (e.g. diagram symbols, scans of pages of a book, maps)
+File:Bhf-BS-Icon.svg
+File:Icon_HST_bs_1.svg
+File:Dst_symbol.svg
+etc.
+File:BSicon_BHF.svg
+File:BSicon_HST.svg
+File:BSicon_DST.svg
+etc.
+WP:FNC#6
+
+
+7
+Disambiguate files with overly similar names. The software allows for multiple different files to have the same name, but with different capitalization (see ninja example) or different expressions of the same filetype extension (see bunny example). However, these are not ideal situations.
+File:Ninja.jpg
+File:NINJA.jpg
+Also
+File:Bunny.jpg
+File:Bunny.jpeg
+File:Bunny.JPEG
+File:Ninja_1.jpg
+File:Ninja_2.jpg
+Also
+File:Bunny_1.jpg
+File:Bunny_2.jpg
+File:Bunny_3.jpg
+WP:FNC#7
+
+
+8
+Remove pejorative, offensive or crude language that would not be appropriate in the file description
+File:Stupid fat bitch.jpg
+File:Worstpersonever.png
+File:Kill that nazi leader.JPG
+File:<Name of the person>.jpg
+File:<Name of the person>.png
+File:<Name of the person>.JPG
+WP:FNC#8
+
+
+9
+Rename files that shadow a Commons file or redirect[1]
+File:Dog.jpg
+Commons:File:Dog.jpg
+File:Golden Retriever.jpg
+Commons:File:Dog.jpg
+WP:FNC#9
+
+
+After moving the file, please replace all uses of the old file link with the new one.
+If a file name on English Wikipedia conflicts with a file name at Commons, please check the File usage on other wikis before deciding which should be renamed. Renaming a file at Commons might affect 500+ projects instead of just one.
+If the file was moved per WP:FNC#9, after all of the links have been updated, please place {{Db-redircom}} on the leftover redirect (file movers), or delete the leftover redirect using the summary generated by {{Db-redircom}} (administrators). Please see speedy deletion criterion G6 for more information.
+Additional naming conventions and exceptions from the above list might be discussed for specific projects.
+What files should not be renamed?[edit]
+
+Shortcut:
+
+WP:FMNN
+
+
+As a matter of principle, it is best to leave all files with generally valid names at their locations, even if slightly better names may exist. So, for example:
+
+File:TowerBridge'09.jpg should not be renamed to File:Tower_Bridge_2009.jpg only because the latter looks a bit better.
+File:Thiswouldbebetterwithspaces.jpg should not be renamed to File:This would be better with spaces.jpg.
+
+However, situations that could cause confusion are to be avoided.
+See also[edit]
+
+{{File mover topicon}}, a top icon template to indicate you have file mover permission.
+{{User wikipedia/Filemover}}, a userbox template to indicate you have file mover permission.
+{{FilemoverTalkpageNotice}}, a handy template that alerts you when files need to be renamed.
+Category:Wikipedia files requiring renaming, for file renaming requests awaiting action.
+Category:Incomplete file renaming requests, for file renaming requests without a specified target.
+Category:Wikipedia files that shadow a file on Wikimedia Commons.
+Transferring over filemover tool, March 8, 2011 decision to creating a new usergroup for File mover.
+Wikipedia:File namespace noticeboard
+
+Notes[edit]
+
+
+^ An image on Commons cannot be used here if a locally uploaded image has the same filename, and the Commons guidelines strongly discourage renaming a Commons image for this reason alone.
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia accounts and governance
+
+
+
+
+
+
+Unregistered (IP) users
+
+
+
+Why create an account?
+Create an account
+Request an account
+IPs are human too
+IP addresses are not people
+IP hopper
+
+
+
+
+
+
+
+
+Registered users
+
+
+
+New account
+Logging in
+
+Reset passwords
+
+
+Username policy
+
+Changing username
+Usernames for administrator attention
+
+
+Unified login or SUL
+Alternate account
+
+
+
+
+
+
+
+
+Account security
+
+
+
+Password strength requirements
+User account security
+Personal security practices
+Two-factor authentication
+
+Simple 2FA
+2FA for AWB
+
+
+Committed identity
+On privacy, confidentiality and discretion
+Compromised accounts
+
+
+
+
+
+
+
+
+Blocks, global locks,
+bans, sanctions
+
+
+
+Blocking policy
+
+FAQ
+Admins guide
+Tools
+Autoblock
+
+
+Appealing a block
+
+Guide to appealing blocks
+UTRS Unblock Ticket Request System
+
+
+Blocking IP addresses
+
+Range blocks
+IPv6
+Open proxies
+
+
+Global locks
+Banning policy
+
+ArbCom appeals
+
+
+Sanctions
+
+Personal sanctions
+General sanctions
+Discretionary sanctions and Log
+Essay
+
+
+Long-term abuse
+Standard offer
+
+
+
+
+
+
+
+
+Related to accounts
+
+
+
+Sock puppetry
+Single-purpose account
+Sleeper account
+Vandalism-only account
+Wikibreak
+
+Enforcer
+
+
+Retiring
+
+Courtesy vanishing
+
+
+Clean start
+
+Quiet return
+
+
+
+
+
+
+
+
+
+
+User groups
+and global user groups
+
+
+
+Requests for permissions
+
+Admin instructions
+Admin guide
+
+
+Account creator
+
+PERM
+
+
+Autopatrolled
+
+PERM
+
+
+AutoWikiBrowser
+
+PERM
+
+
+Confirmed
+
+PERM
+
+
+Extended confirmed
+
+PERM
+
+
+File mover
+
+PERM
+
+
+Mass message sender
+
+PERM
+
+
+New page reviewer
+
+PERM
+
+
+Page mover
+
+PERM
+
+
+Pending changes reviewer
+
+PERM
+
+
+Rollback
+
+PERM
+
+
+Template editor
+
+PERM
+
+
+IP-block-exempt
+
+Requests
+
+
+Courses access
+
+Requests
+
+
+Bot accounts
+
+Requests
+
+
+Global rights policy
+
+OTRS Volunteer Response Team
+
+
+
+
+
+
+
+
+
+
+Advanced user groups
+
+
+
+Administrators
+
+RfA
+
+
+Bureaucrats
+
+RfB
+
+
+Edit filter manager
+
+Requests
+
+
+CheckUser and Oversight
+
+Requests
+
+
+
+
+
+
+
+
+
+
+Committees and related
+
+
+
+Arbitration Committee
+Mediation Committee
+Bot approvals group
+Functionaries
+Clerks
+
+
+
+
+
+
+
+
+Governance
+
+
+
+Administration
+
+FAQ
+
+
+Formal organization
+Editorial oversight and control
+Quality control
+Wikimedia Foundation
+
+Meta-Wiki
+
+
+Leadership opportunities
+WikiProjects
+Elections
+Policies and guidelines
+Unbundling administrators' powers
+Petitions
+Noticeboards
+Consensus
+Dispute resolution
+Reforms
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:File_mover&oldid=753451055"					
+Categories: Wikipedia user access levelsWikipedia file renamingWikipedia filemover featureWikipedia procedural policies 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Languages
+
+
+বাংলা한국어हिन्दीItalianoनेपालीРусскийSrpskohrvatski / српскохрватскиУкраїнськаاردو 
+Edit links 
+
+
+
+
+
+ This page was last modified on 7 December 2016, at 06:17.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.100","walltime":"0.143","ppvisitednodes":{"value":694,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":45831,"limit":2097152},"templateargumentsize":{"value":760,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   87.778      1 -total"," 30.90%   27.126      1 Template:Ombox"," 21.67%   19.025      1 Template:For"," 18.04%   15.833      1 Wikipedia:File_names"," 12.65%   11.103      1 Template:Wikipedia_accounts"," 10.89%    9.559      1 Template:Nutshell"," 10.28%    9.025      1 Template:Navbox","  9.04%    7.931      1 Template:Mbox","  8.00%    7.024      2 Template:Shortcut","  6.26%    5.499      1 Template:Unordered_list"]},"scribunto":{"limitreport-timeusage":{"value":"0.025","limit":"10.000"},"limitreport-memusage":{"value":1595346,"limit":52428800}},"cachereport":{"origin":"mw1186","timestamp":"20170204032803","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":60,"wgHostname":"mw1218"});});

@@ -1,0 +1,1172 @@
+ 
+
+
+
+
+
+
+MediaWiki
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+About the usage of MediaWiki in Wikipedia, see "Wikipedia:MediaWiki"
+
+MediaWiki
+
+
+Official logo with slogan
+
+
+
+
+
+
+  Screenshot
+
+The main page of the English Wikipedia running MediaWiki 1.24
+
+
+
+
+
+Original author(s)
+Magnus Manske, Lee Daniel Crocker
+
+
+Developer(s)
+Wikimedia Foundation and MediaWiki volunteers
+
+
+Initial release
+January 25, 2002; 15 years ago (2002-01-25)
+
+
+
+
+
+Stable release
+1.28[1] (November 28, 2016; 2 months ago (2016-11-28)) [±]
+
+
+Preview release
+1.28 alpha (May 10, 2016; 8 months ago (2016-05-10)) [±]
+
+
+Repository
+phabricator.wikimedia.org/diffusion/MW/
+
+
+Written in
+PHP
+
+
+Operating system
+Windows, macOS, Linux, FreeBSD, Solaris, NetWare
+
+
+Size
+~31 MB (compressed)
+
+
+Available in
+203[2] languages
+
+
+Type
+Wiki
+
+
+License
+GPLv2+[3]
+
+
+Website
+mediawiki.org
+
+
+MediaWiki is a free and open-source wiki software. Originally developed by Magnus Manske and improved by Lee Daniel Crocker, it runs on many websites, including Wikipedia, Wiktionary and Wikimedia Commons.[4][5] It is written in the PHP programming language and stores the contents into a database. Like WordPress, which is based on a similar licensing and architecture, it has become the dominant software in its category.
+The first version of the software was deployed to serve the needs of the Wikipedia encyclopedia in 2002.[6] Wikipedia and other Wikimedia projects continue to define a large part of the requirement set for MediaWiki.[7] The software is optimized to efficiently handle large projects, which can have terabytes of content and hundreds of thousands of hits per second.[7][8] Because Wikipedia is one of the world's largest websites, achieving scalability through multiple layers of caching and database replication has been a major concern for developers.
+The software has more than 900 configuration settings[9] and more than 2,200 extensions available for enabling various features to be added or changed.[10] On Wikipedia alone, more than 1000 automated and semi-automated bots and other tools have been developed to assist in editing.[11]
+It has also been deployed by some companies as an internal knowledge management system,[12] and some educators have assigned students to use MediaWiki for collaborative group projects.[13]
+
+
+
+Contents
+
+
+1 License
+2 Development
+3 History
+
+3.1 Version history
+
+
+4 Sites using MediaWiki
+5 Key features
+
+5.1 Internationalization and localisation
+5.2 Installation and configuration
+5.3 Markup
+5.4 Editing interface
+5.5 Application programming interface
+5.6 Rich content
+5.7 Tracking edits
+5.8 Navigation
+5.9 Content organization
+
+5.9.1 Page tabs and associated pages
+5.9.2 Namespaces
+5.9.3 Category tags
+5.9.4 Subpages
+
+
+5.10 Customization
+5.11 Templates
+5.12 Groups and restriction of access
+5.13 Extensibility
+
+
+6 Extensions
+
+6.1 Resources to developers
+6.2 For parser functions
+6.3 For footnotes and academic-related display
+6.4 Integration
+6.5 Combating linkspam
+6.6 Searches and queries
+
+
+7 Database
+8 Performance and storage
+9 Limitations
+10 Security
+11 Developer community
+12 Support
+13 Comparison to other online collaboration software
+14 See also
+15 References
+16 External links
+
+
+
+License[edit]
+MediaWiki is free and open source software and is distributed under the terms of the GNU General Public License version 2 or any later version while its documentation is released under the Creative Commons BY-SA 3.0 license and partly in the public domain.[14] Specifically, the manuals and other content at MediaWiki.org are Creative Commons-licensed, while the set of help pages intended to be freely copied into fresh wiki installations and/or distributed with MediaWiki software is public domain. This was done to eliminate legal issues arising from the help pages being imported into wikis with licenses that are incompatible with the Creative Commons license.[15] MediaWiki development has generally favored the use of open-source media formats.[16]
+Development[edit]
+MediaWiki has an active volunteer community for development and maintenance. Users who have made meaningful contributions to the project by submitting patches are generally, upon request, granted access to commit revisions to the project's Apache Subversion and now Git/Gerrit repository.[17] There is also a small group of paid programmers who primarily develop projects for the Wikimedia Foundation. Wikimedia participates in the Google Summer of Code by facilitating the assignment of mentors to students wishing to work on MediaWiki core and extension projects.[18] As of early November 2012, there were about two hundred developers who had committed changes to the MediaWiki core or extensions within the past year.[19] Major MediaWiki releases are generated approximately every three to eight months by taking snapshots of the development trunk, which is kept continuously in a runnable state;[20] minor releases, or point releases, are issued as needed to correct bugs (especially security problems).
+MediaWiki also has a public bug tracker, phabricator.wikimedia.org, which runs Phabricator. The site is also used for feature and enhancement requests.[21]
+History[edit]
+
+
+
+
+Magnus Manske in 2012
+
+
+
+
+
+
+Lee Daniel Crocker in 2008
+
+
+
+
+
+
+Brion Vibber in 2008
+
+
+When Wikipedia was first launched in January 2001, it ran on the existing wiki software UseModWiki, which was written in Perl and stored all wiki pages in text files. This software soon proved limiting, both in its functionality and its performance. In mid-2001, Magnus Manske, a developer and student at the University of Cologne, who was also a Wikipedia editor, began working on new software that would replace UseModWiki, specifically for use by Wikipedia. This software was written in PHP and stored all its information in a MySQL database. It launched on the English Wikipedia in January 2002, and was gradually deployed on all the Wikipedia language sites of that time. This software was referred to as "the PHP script" and as "phase II", with the name "phase I" retroactively given to the use of UseModWiki.
+Increasing usage soon caused load problems again, and soon afterward, another rewrite of the software began, done by Lee Daniel Crocker, which was first known as "phase III". This new software was also written in PHP with a MySQL backend, and kept the basic interface of the phase II software, but was meant to be more scalable. It went live on Wikipedia in July 2002.
+The Wikimedia Foundation was announced on June 20, 2003, and in July, Wikipedia contributor Daniel Mayer suggested the name "MediaWiki" for the software, as a play on "Wikimedia".[22] The name was gradually phased in beginning in August 2003. The name has frequently caused confusion due to its (intentional) similarity to the "Wikimedia" name (which itself is similar to "Wikipedia").[23]
+The product logo was created by Erik Möller using a flower photograph taken by Florence Nibart-Devouard, and was originally submitted to an international logo contest for a new Wikipedia logo held in mid-2003.[24] The logo came in third place, and was chosen to represent MediaWiki instead of Wikipedia, with the second place logo used for the Wikimedia Foundation.[25] The double square brackets symbolize the syntax MediaWiki uses for creating hyperlinks to other wiki pages, and the sunflower represents the diversity of content on Wikipedia, the constant growth and also the wildness.[26]
+Later, Brion Vibber, the Chief Technical Officer of the Wikimedia Foundation,[27] took up the role of release manager and most active developer.[6][28]
+Major milestones in MediaWiki's development have included the categorization system, added in 2004; parser functions, added in 2006; flagged revisions, added in 2008;[29] the "ResourceLoader", a delivery system for CSS and JavaScript, added in 2011;[30] and the VisualEditor, a WYSIWYG (What You See Is What You Get) editor, added in 2013.[31]
+Version history[edit]
+Main article: MediaWiki version history
+The first version of MediaWiki, 1.1, was released in December 2003. The current stable version of MediaWiki, 1.28.0, was released in November 2016.
+Sites using MediaWiki[edit]
+See also: Category:MediaWiki websites
+
+
+
+
+Wikia also makes use of MediaWiki.
+
+
+MediaWiki's most famous use has been in Wikipedia and, to a lesser degree, Wikimedia's other projects. Wikia, a wiki farm, runs on MediaWiki. Other public wikis that run on MediaWiki include wikiHow and WikiLeaks.
+A number of alternative wiki encyclopedias to Wikipedia run on MediaWiki, including Citizendium, Metapedia, Scholarpedia and Conservapedia.[32] MediaWiki is also used internally by a large number of companies, including Novell and Intel.[33][34]
+Notable usages of MediaWiki within governments include Intellipedia, used by the United States Intelligence Community, and Diplopedia, used by the United States Department of State. United Nations agencies such as the U.N. Development Programme and INSTRAW chose to implement their wikis using MediaWiki because "this software runs Wikipedia and is therefore guaranteed to be thoroughly tested, will continue to be developed well into the future, and future technicians on these wikis will be more likely to have exposure to MediaWiki than any other wiki software."[35]
+
+Key features[edit]
+MediaWiki provides a rich core feature set and a mechanism to attach extensions to provide additional functionality.
+Internationalization and localisation[edit]
+
+
+Play media
+
+
+Niklas Laxström explains the features that allowed translatewiki.net to provide MediaWiki with more than 300 locales.
+
+
+Due to the strong emphasis on multilingualism in the Wikimedia projects, internationalization and localization has received significant attention by developers. The user interface has been fully or partially translated into more than 300 languages on translatewiki.net,[36] and can be further customized by site administrators (the entire interface is editable through the wiki).
+Several extensions, most notably those collected in the MediaWiki Language Extension Bundle, are designed to further enhance the multilingualism and internationalization of MediaWiki.
+Installation and configuration[edit]
+Installation of MediaWiki requires that the user have administrative privileges on a server running both PHP and a compatible type of SQL database. Some users find that setting up a virtual host is helpful if the majority of one's site runs under a framework (such as Zope or Ruby on Rails) that is largely incompatible with MediaWiki.[37] Cloud hosting can enable a user to dispense with the task of building a new server by hand.[38]
+An installation PHP script is accessed via a web browser to initialize the wiki's settings. It prompts the user for a minimal set of required parameters, leaving further changes, such as enabling uploads,[39] adding a site logo,[40] and installing extensions, to be made by modifying configuration settings[41] contained in a file called LocalSettings.php.[42] Some aspects of MediaWiki can be configured through special pages or by editing certain pages; for instance, abuse filters can be configured through a special page,[43] and certain gadgets can be added by creating JavaScript pages in the MediaWiki namespace.[44] The MediaWiki community publishes a comprehensive installation guide.[45]
+Markup[edit]
+One of the earliest differences between MediaWiki (and its predecessor, UseModWiki) and other wiki engines was the use of "free links" instead of CamelCase. When MediaWiki was created, it was typical for wikis to require text like "WorldWideWeb" to create a link to a page about the World Wide Web: links in MediaWiki, on the other hand, are created by surrounding words with double square brackets, and any spaces between them are left intact, e.g. [[World Wide Web]]. This change was logical for the purpose of creating an encyclopedia, where accuracy in titles is important.
+MediaWiki uses an extensible[46] lightweight wiki markup designed to be easier to use and learn than HTML. Tools exist for converting content such as tables between MediaWiki markup and HTML.[47] Efforts have been made to create a MediaWiki markup spec, but a consensus seems to have been reached that Wikicode requires context-sensitive grammar rules.[48][49] The following side-by-side comparison illustrates the differences between wiki markup and HTML:
+
+
+MediaWiki syntax
+Equivalent HTML
+Rendered output
+
+
+
+
+
+==== A dialogue ====
+
+"Take some more [[tea]]," the March Hare said to Alice, very earnestly.
+
+"I've had nothing yet," Alice replied in an offended tone: "so I can't take more."
+
+"You mean you can't take ''less''," said the Hatter: "it's '''very''' easy to take ''more'' than nothing."
+
+
+
+
+
+<h4><span class="mw-headline" id="A_dialogue">A dialogue</span></h4>
+
+<p>"Take some more <a href="/wiki/Tea" title="Tea">tea</a>," the March Hare said to Alice, very earnestly.</p>
+
+<p>"I've had nothing yet," Alice replied in an offended tone: "so I can't take more."</p>
+
+<p>"You mean you can't take <i>less</i>," said the Hatter: "it's <b>very</b> easy to take <i>more</i> than nothing."</p>
+
+
+
+A dialogue
+"Take some more tea," the March Hare said to Alice, very earnestly.
+"I've had nothing yet," Alice replied in an offended tone: "so I can't take more."
+"You mean you can't take less," said the Hatter: "it's very easy to take more than nothing."
+
+
+
+(Quotation above from Alice's Adventures in Wonderland by Lewis Carroll)
+Editing interface[edit]
+See also: VisualEditor
+
+
+
+
+Editing interface of MediaWiki 1.9, showing the edit toolbar and some examples of wiki syntax.
+
+
+MediaWiki's page-editing tools have been described as somewhat challenging to learn.[50] A survey of students assigned to use a MediaWiki-based wiki found that when they were asked an open question about main problems with the wiki, 24% cited technical problems with formatting, e.g. "Couldn't figure out how to get an image in. Can't figure out how to show a link with words; it inserts a number."[51]
+To make editing long pages easier, MediaWiki allows the editing of a subsection of a page (as identified by its header). A user can also indicate whether or not an edit is minor. Correcting spelling, grammar or punctuation are examples of minor edits, whereas adding paragraphs of new text is an example of a non-minor edit.
+Sometimes while one user is editing, a second user saves an edit to the same part of the page. Then, when the first user attempts to save the page, an edit conflict occurs. The second user is then given an opportunity to merge his content into the page as it now exists following the first user's page save. An optional extension gives selected user groups priority when edit conflicts occur.[52]
+MediaWiki's user interface has been localized in many different languages. A language for the wiki content itself can also be set, to be sent in the "Content-Language" HTTP header and "lang" HTML attribute.
+Application programming interface[edit]
+MediaWiki has an extensible web API (application programming interface) that provides direct, high-level access to the data contained in the MediaWiki databases. Client programs can use the API to log in, get data, and post changes. The API supports thin web-based JavaScript clients and end-user applications (such as vandal-fighting tools). The API can be accessed by the backend of another web site.[53] An extensive Python bot library, Pywikipediabot,[54] and a popular semi-automated tool called AutoWikiBrowser, also interface with the API.[55] The API is accessed via URLs such as http://en.wikipedia.org/w/api.php?action=query&list=recentchanges. In this case, the query would be asking Wikipedia for information relating to the last 10 edits to the site. One of the perceived advantages of the API is its language independence; it listens for HTTP connections from clients and can send a response in a variety of formats, such as XML, serialized PHP, YAML, or JSON.[56] Client code has been developed to provide layers of abstraction to the API.[57]
+Rich content[edit]
+
+
+
+
+Images can be arranged in galleries, a feature that is used extensively for Wikimedia's media archive, Wikimedia Commons.
+
+
+MediaWiki supports rich content generated through specialized syntax. For example, the software comes with optional support for rendering mathematical formulas using LaTeX and a special parser written in OCaml. Similar functionality for other content, ranging from graphical timelines over mathematical plotting and musical scores to Egyptian hieroglyphs, is available in the form of extensions and also aesthetic sense has improved considerably.
+The software has become more powerful at dealing with a wide variety of uploaded media files. Its richest functionality is in the area of images, where image galleries and thumbnails can be generated with relative ease. There is also support for Exif metadata. The use of MediaWiki to operate the Wikimedia Commons, one of the largest free content media archives, has driven the need for further functionality in this area.
+Because any WYSIWYG editor would have to know wikitext grammar, and no full grammar for wikitext exists, MediaWiki currently provides no native WYSIWYG support.[58] It does come with a customizable graphical toolbar for simplifying the process of learning the wiki syntax.[59] Various extensions exist for handling WYSIWYG editing to different degrees,[60] some using variations of the popular CKEditor. Wikia, a popular wiki farm, uses a WYSIWYG extension that, being designed to be a modal editor, allows the user to flip back and forth between WYSIWYG and WikiText and Preview modes in a single editing session.[citation needed] MediaWiki also has an interface to allow the transparent use of external editors for uploaded files and wiki pages.[61]
+Tracking edits[edit]
+Among the features of MediaWiki to assist in tracking edits is a Recent Changes feature that provides a list of recent edits to the wiki. This list contains basic information about those edits such as the editing user, the edit summary, the page edited, as well as any tags (e.g. "possible malware link")[62] added by customizable abuse filters and other extensions to aid in combating unhelpful edits.[63] On more active wikis, so many edits occur that it is hard to track Recent Changes manually. Anti-vandal software, including user-assisted tools[64] are sometimes employed on such wikis to process Recent Changes items. Server load can be reduced by sending a continuous feed of Recent Changes to an IRC channel that these tools can monitor, eliminating their need to send requests for a refreshed Recent Changes feed to the API.[65][66]
+Another important tool is watchlisting. Each logged-in user has a watchlist to which the user can add whatever pages he or she wishes. When an edit is made to one of those pages, a summary of that edit appears on the watchlist the next time it is refreshed.[67] As with the recent changes page, recent edits that appear on the watchlist contain clickable links for easy review of the article history and specific changes made.
+There is also capability to review all edits made by any particular user. In this way, if an edit is identified as problematic, it is possible to check the user's other edits for issues.
+MediaWiki allows one to link to specific versions of articles. This has been useful to the scientific community, in that expert peer reviewers could analyse articles, improve them and provide links to the trusted version of that article.[68]
+Navigation[edit]
+Navigation through the wiki is largely through internal wikilinks.
+These implement page existence detection, in which a link is colored blue if the target page exists on the local wiki and red if it does not. When a user clicks on a red link, they are prompted to create an article with that title. Page existence detection makes it practical for users to create "wikified" articles — that is, articles containing links to other pertinent subjects — without those other articles being yet in existence.
+The red/blue distinction alerts:
+
+readers lacking an interest in creating new articles of broken links that it would be fruitless for them to click upon
+editors interested in creating new articles of what topics their efforts might be usefully applied to.
+
+Interwiki links function much the same way as namespaces. A set of interwiki prefixes can be configured to cause, for instance, a page title of wikiquote:Jimbo Wales to direct the user to the Jimbo Wales article on Wikiquote.[69] Unlike internal wikilinks, interwiki links lack page existence detection functionality, and accordingly there is no way to tell whether a blue interwiki link is broken or not.
+Content organization[edit]
+Page tabs and associated pages[edit]
+
+
+MediaWiki page tabs, using the "Vector" skin. The red coloration of the "discussion" tab indicates that the article does not yet have a talk page. As with any other red wikilink, clicking on it prompts the user to create the page.
+
+
+Page tabs are displayed at the top of pages. These tabs allow users to perform actions or view pages that are related to the current page. The available default actions include viewing, editing, and discussing the current page. The specific tabs displayed depend on whether or not the user is logged into the wiki and whether the user has sysop privileges on the wiki. For instance, the ability to move a page or add it to one's watchlist is usually restricted to logged-in users. The site administrator can add or remove tabs by using JavaScript or installing extensions.[70]
+Each page has an associated history page from which the user can access every version of the page that has ever existed and generate diffs between two versions of his choice. Users' contributions are displayed not only here, but also via a "user contributions" option on a sidebar. Carl Challborn & Teresa Reimann note that "While this feature may be a slight deviation from the collaborative, 'ego-less' spirit of wiki purists, it can be very useful for educators who need to assess the contribution and participation of individual student users."[71]
+ Namespaces[edit]
+"Talk page" redirects here. For talk pages on Wikipedia, see Help:Using talk pages.
+MediaWiki provides many features beyond hyperlinks for structuring content. One of the earliest features is namespaces. One of Wikipedia's earliest problems had been the separation of encyclopedic content from pages pertaining to maintenance and communal discussion, as well as personal pages about encyclopedia editors. Namespaces are prefixes before a page title (such as "User:" or "Talk:") that serve as descriptors for the page's purpose and allow multiple pages with different functions to exist under the same title. For instance, a page titled "[[The Terminator]]", in the default namespace, could describe the 1984 movie starring Arnold Schwarzenegger, while a page titled "[[User:The Terminator]]" could be a profile describing a user who chooses this name as a pseudonym. More commonly, each namespace has an associated "Talk:" namespace, which can be used to discuss its contents, such as "User talk:" or "Template talk:". The purpose of having discussion pages is to allow content to be separated from discussion surrounding the content.[72][73]
+Namespaces can be viewed as folders that separate different basic types of information or functionality. Custom namespaces can be added by the site administrators. There are 16 namespaces by default for content, with 2 "pseudo-namespaces" used for dynamically generated "Special:" pages and links to media files. Each namespace on MediaWiki is numbered: content page namespaces have even numbers and their associated talk page namespaces have odd numbers.[74]
+Category tags[edit]
+Users can create new categories and add pages and files to those categories by appending one or more category tags to the content text. Adding these tags creates links at the bottom of the page that take the reader to the list of all pages in that category, making it easy to browse related articles.[75] The use of categorization to organize content has been described as a combination of:
+
+Collaborative tagging systems like del.icio.us and
+Hierarchical classifications like the Dewey Decimal Classification.[76]
+
+Subpages[edit]
+In addition to namespaces, content can be ordered using subpages. This simple feature provides automatic breadcrumbs of the pattern [[Page title/Subpage title]] from the page after the slash (in this case, "Subpage title") to the page before the slash (in this case, "Page title").
+Customization[edit]
+
+
+
+
+Users can configure custom JavaScript that is executed on every pageview. This has led to JavaScript tools that users can "install", the "navigation popup" tool shown here displays a small preview of an article when hovering over a link title.
+
+
+If the feature is enabled, users can customize their stylesheets and configure client-side JavaScript to be executed with every pageview. On Wikipedia, this has led to a large number of additional tools and helpers developed through the wiki and shared among users. For instance, Lupin's navigation popups is a custom JavaScript tool that shows previews of articles when the user hovers over links, and also provides shortcuts for common maintenance tasks.[77] Another example is wikEd, a full-featured MediaWiki-integrated text editor that provides syntax highlighting and search and replace functions.[44]
+
+
+
+
+A screenshot of a wiki using MediaWiki with a customized skin
+
+
+The entire MediaWiki user interface can be edited through the wiki itself by users with the necessary permissions (typically called "administrators"). This is done through a special namespace with the prefix "MediaWiki:", where each page title identifies a particular user interface message. Using an extension,[78] it is also possible for a user to create personal scripts, and to choose whether certain sitewide scripts should apply to them by toggling the appropriate options in the user preferences page.
+Templates[edit]
+The "MediaWiki:" namespace was also originally used for creating custom text blocks that could then be dynamically loaded into other pages using a special syntax. This content was later moved into its own namespace, "Template:".
+Templates are text blocks that can be dynamically loaded inside another page whenever that page is requested. The template is a special link in double curly brackets (for example "{{Disputed|date=October 2008}}"), which calls the template (in this case located at Template:Disputed) to load in place of the template call.
+Templates are structured documents containing attribute–value pairs. They are defined with parameters, to which are assigned values when transcluded on an article page. The name of the parameter is delimited from the value by an equals sign. A class of templates known as infoboxes is used on Wikipedia to collect and present a subset of information about its subject, usually on the top (mobile view) or top right-hand corner (desktop view) of the document.
+Templates are processed by a template processor, a template engine which produces a web document and a style sheet used for page layout of the document. This enables the design of the template to be separated from the content it manipulates.
+A related method, called template substitution (called by adding subst: at the beginning of a template link) inserts (like a copy and paste operation) the contents of the template into the target page, instead of loading the template contents dynamically whenever the page is loaded. This can lead to inconsistency when using templates, but may be useful in certain cases, and in most cases requires fewer server resources (the actual amount of savings can vary depending on wiki configuration and the complexity of the template).
+Templates have found many different uses. Templates enable users to create complex table layouts that are used consistently across multiple pages, and where only the content of the tables gets inserted using template parameters. Templates are often used to identify problems with a Wikipedia article by putting a template in the article. This template then outputs a graphical box stating that the article content is disputed or in need of some other attention, and also categorize it so that articles of this nature can be located. Templates are also used on user pages to send users standard messages welcoming them to the site,[79] giving them awards for outstanding contributions,[80][81] warning them when their behavior is considered inappropriate,[82] notifying them when they are blocked from editing,[83] and so on.
+Groups and restriction of access[edit]
+MediaWiki offers flexibility in creating and defining user groups. For instance, it would be possible to create an arbitrary "ninja" group that can block users and delete pages, and whose edits are hidden by default in the recent changes log. It is also possible to set up a group of "autoconfirmed" users that one becomes a member of after making a certain number of edits and waiting a certain number of days.[84] Some groups that are enabled by default are bureaucrats and sysops. Bureaucrats have power to change other users' rights. Sysops have power over page protection and deletion and the blocking of users from editing. MediaWiki's available controls on editing rights have been deemed sufficient for publishing and maintaining important documents such as a manual of standard operating procedures in a hospital.[85]
+When a page consists only of useless content, there are several ways to remove that content. The simplest way, available to all users, is simply to blank the page. However, this interferes with page existence detection, unless an extension is installed to treat blanked pages as though they were nonexistent.[86] Blanking also leaves the content accessible through the history page, an outcome that, while potentially increasing transparency by allowing non-sysops to easily review the content removal decision for appropriateness, might be unacceptable or even unlawful[87] in some cases. Another option is for a sysop to delete the page, and thereby prevent it from being viewed by non-sysops. Another level of deletion, called RevisionDelete, can be used by a group (e.g. "Oversighters") to prevent a page from being viewed by non-members of that group.[88] It is also possible, using certain extensions, to remove content from being viewed through any of the normal channels on the wiki,[89] or even to completely delete revisions from the database.[90]
+MediaWiki comes with a basic set of features related to restricting access, but its original and ongoing design is driven by functions that largely relate to content, not content segregation. As a result, with minimal exceptions (related to specific tools and their related "Special" pages), page access control has never been a high priority in core development and developers have stated that users requiring secure user access and authorisation controls should not rely on MediaWiki, since it was never designed for these kinds of situations. For instance, it is extremely difficult to create a wiki where only certain users can read and access some pages.[91] Here, wiki engines like TWiki, MoinMoin and WikkaWiki provide more flexibility by supporting advanced security mechanisms like access control lists.
+Extensibility[edit]
+The MediaWiki codebase contains various "hooks" using callback functions to add additional PHP code in an extensible way. This allows developers to write extensions without necessarily needing to modify the core or having to submit their code for review. Installing an extension typically consists of adding a line to the configuration file, though in some cases additional changes such as database updates or core patches are required.
+Five main extension points were created to allow developers to add features and functionalities to MediaWiki. Hooks are run every time a certain event happens; for instance, the ArticleSaveComplete hook occurs after a save article request has been processed.[92] This can be used, for example, by an extension that notifies selected users whenever a page edit occurs on the wiki from new or anonymous users.[93] New tags can be created to process data with opening and closing tags (<newtag>...</newtag>).[94] Parser functions can be used to create a new command ({{#if:...|...|...}}).[95] New special pages can be created to perform a specific function. These pages are dynamically generated. For example, a special page might show all pages that have one or more links to an external site or it might create a form providing user submitted feedback.[96] Skins allow users to customize the look and feel of MediaWiki.[97] A minor extension point allows the use of Amazon S3 to host image files.[98]
+Extensions[edit]
+Main article: MediaWiki extension
+
+
+
+
+A form to edit a page, using the Semantic Forms extension
+
+
+Resources to developers[edit]
+MediaWiki can be made more advanced and useful for various purposes through its extensions. These extensions vary greatly in complexity.
+The Wikimedia Foundation operates a Git server where many extensions host their repository. Most of them also have a documentation page on the MediaWiki website.
+Some other sites also known for development of – or support for – extensions are MediaWiki.org, which maintains an extension matrix;[10] and Google Code.[99]
+MediaWiki code review was itself historically facilitated through a MediaWiki extension.[100] As of March 2012, it has been done through Gerrit.
+Since version 1.16, MediaWiki also used the jQuery library.[101]
+For parser functions[edit]
+
+
+
+
+Tim Starling in 2008
+
+
+Among the most popular extensions is a parser function extension, ParserFunctions, that allows different content to be rendered based on the result of conditional statements.[102] These conditional statements can perform functions such as evaluating whether a parameter is empty, comparing strings, evaluating mathematical expressions, and returning one of two values depending on whether a page exists. It was designed as a replacement for a notoriously inefficient template called {{Qif}}.[103] Schindler recounts the history of the ParserFunctions extension as follows:[29]
+
+
+“
+In 2006 some Wikipedians discovered that through an intricate and complicated interplay of templating features and CSS they could create conditional wiki text, i.e. text that was displayed if a template parameter had a specific value. This included repeated calls of templates within templates, which bogged down the performance of the whole system. The developers faced the choice of either disallowing the spreading of an obviously desired feature by detecting such usage and explicitly disallowing it within the software, or offer an efficient alternative. The latter was done by Tim Starling, who announced the introduction of parser functions, wiki text that calls functions implemented in the underlying software.
+At first, only conditional text and the computation of simple mathematical expressions was implemented, but this already increased the possibilities for wiki editors enormously. With time further parser functions were introduced, finally leading to a framework that allowed the simple writing of extension function to add arbitrary functionalities, like e.g. geo-coding services or widgets. This time the developers were clearly reacting to the demand of the community, being forced either to fight the solution of the issue that the community had (i.e. conditional text), or offer an improved technical implementation to replace the previous practice and achieve an overall better performance.
+
+”
+
+
+Another parser functions extension, StringFunctions, was developed to allow evaluation of string length, string position, and so on. Wikimedia communities, having created awkward workarounds to accomplish the same functionality,[104] clamored for it to be enabled on their projects.[105] Much of its functionality was eventually integrated into the ParserFunctions extension,[106] albeit disabled by default and accompanied by a warning from Tim Starling that enabling string functions would allow users "to implement their own parsers in the ugliest, most inefficient programming language known to man: MediaWiki wikitext with ParserFunctions."[107]
+For footnotes and academic-related display[edit]
+Another very popular extension is a citation extension that enables footnotes to be added to pages using inline references.[108] This extension has, however, been criticized for being difficult to use and requiring the user to memorize complex syntax. A tool called ProveIt was proposed as a compensation.[109] A gadget called RefToolbar has also been created to make it easier to create citations using common templates. MediaWiki has some extensions that are well-suited for academia, such as mathematics extensions[110] and an extension that allows molecules to be rendered in 3D.[111]
+Integration[edit]
+A generic Widgets framework has been created that allows MediaWiki to integrate with virtually anything. Other examples of extensions that could improve a wiki are category suggestion extensions[112] and extensions for inclusion of Flash Videos,[113] YouTube videos,[114] and RSS feeds.[115] An extension to integrate with Facebook is forthcoming.[116] Metavid, a site that archives video footage of the U.S. Senate and House floor proceedings, was created using code extending MediaWiki into the domain of collaborative video authoring.[117] One extension, Viskimap, makes use of graphic organizers to visualize the relationships between content pages, so that students can easily get an understanding of the content elements and their relations, as they navigate through the wiki pages.[118]
+Combating linkspam[edit]
+There are many spambots that search the Internet for MediaWiki installations and add linkspam to them, despite the fact that MediaWiki uses the nofollow attribute to discourage such attempts at search engine optimization.[119] Part of the problem is that third party republishers, such as mirrors, may not independently implement the nofollow tag on their websites, so marketers can still get PageRank benefit by inserting links into pages when those entries appear on third party websites.[120] Anti-spam extensions have been developed to combat the problem by introducing CAPTCHAs,[121] blacklisting certain URLs,[122] and allowing bulk deletion of pages recently added by a particular user.[123]
+Searches and queries[edit]
+MediaWiki comes pre-installed with a standard text-based search (since 2014 uses the CirrusSearch engine). Extensions exist to let MediaWiki use third-party search tools like Lucene (used on Wikimedia sites)[124] and Sphinx.[125]
+Various MediaWiki extensions have also been created to allow for more complex, faceted search, on both data entered within the wiki and on metadata such as pages' revision history.[126][127] Example of extensions facilitating such analyses include Semantic MediaWiki,[128][129] which provides the ability to add structured and searchable relations and attributes to wiki pages, WikiTrust, which implements a system for checking the author, origin, and reliability of wiki text, and DynaTable.[130]
+An extension called Woogle[131] attempts to add enterprise search engine functionality to MediaWiki.[132]
+Database[edit]
+
+
+
+
+A schematic of the MediaWiki database structure.
+
+
+MediaWiki can use either the MySQL/MariaDB, PostgreSQL or SQLite relational database management system. There is limited support for Oracle Database.[133] A MediaWiki database contains several dozen tables, including a page table that contains page titles, page ids, and other metadata;[134] and a revision table to which is added a new row every time an edit is made, containing the page id, a brief textual summary of the change performed, the user name of the article editor (or its IP address the case of an unregistered user) and a timestamp.[135][136]
+In a 4½ year period, the MediaWiki database had 170 schema versions.[137] Possibly the largest schema change was done in MediaWiki 1.5, when the storage of metadata was separated from that of content, to improve performance flexibility. When this upgrade was applied to Wikipedia, the site was locked for editing, and the schema was converted to the new version in about 22 hours. Some software enhancement proposals, such as a proposal to allow sections of articles to be watched via watchlist, have been rejected because the necessary schema changes would have required excessive Wikipedia downtime.[138]
+Performance and storage[edit]
+Because it is used to run one of the highest-traffic sites on the Web, Wikipedia, MediaWiki performance and scalability have been highly optimized.[28] MediaWiki supports Squid, load-balanced database replication, client-side caching, memcached or table-based caching for frequently accessed processing of query results, a simple static file cache, feature-reduced operation, revision compression, and a job queue for database operations. According to Wikimedia Networking Coordinator Mark Bergsma, MediaWiki developers have attempted to optimize the software by not doing anything stupid, avoiding expensive algorithms, database queries, etc., caching every result that is expensive and has temporal locality of reference, and focusing on the hot spots in the code through profiling.[139]
+MediaWiki code is designed to allow for data to be written to a master database and read from slave databases, although the master can be used for some read operations if the slaves are not yet up to date. Metadata, such as article revision history, article relations (links, categories etc.), user accounts and settings can be stored in core databases and cached; the actual revision text, being more rarely used, can be stored as append-only blobs in external storage. The software is suitable for the operation of large scale wiki farms such as Wikimedia, which had about 800 wikis as of August 2011. However, MediaWiki comes with no built-in GUI to manage such installations.
+Empirical evidence shows most revisions in MediaWiki databases tend to differ only slightly from previous revisions. Therefore, subsequent revisions of an article can be concatenated and then compressed, achieving very high data compression ratios of up to 100x.[139]
+For more information on the architecture, such as how it stores wikitext and assembles a page, see External links.
+Limitations[edit]
+The parser serves as the de facto standard for the MediaWiki syntax, as no formal syntax has been defined. Due to this lack of a formal definition, it has been difficult to create WYSIWYG editors for MediaWiki (although one called VisualEditor is in progress[140]), or to port the parsing to another language.
+MediaWiki is not designed to be a suitable replacement for dedicated online forum or blogging software,[141] although extensions do exist to allow for both of these.[142][143]
+It is common for new MediaWiki users to make certain mistakes, such as forgetting to sign posts with four tildes (~~~~),[144] or manually entering a plaintext signature,[145] due to unfamiliarity with the idiosyncratic particulars involved in communication on MediaWiki discussion pages. On the other hand, the format of these discussion pages has been cited as a strength by one educator, who stated that it provides more fine-grain capabilities for discussion than traditional threaded discussion forums. For example, instead of 'replying' to an entire message, the participant in a discussion can create a hyperlink to a new wiki page on any word from the original page. Discussions are easier to follow since the content is available via hyperlinked wiki page, rather than a series of reply messages on a traditional threaded discussion forum. However, except in few cases, students were not using this capability, possibly because of their familiarity with the traditional linear discussion style and a lack of guidance on how to make the content more 'link-rich'.[146]
+MediaWiki has little support for the creation of dynamically assembled documents, or pages that aggregate data from other pages. While it is possible to create new "special" pages, it requires coding an extension in PHP and thus administrative rights to the server running MediaWiki. Some research has been done on enabling such features directly within MediaWiki.[147] The Semantic MediaWiki extension provides these features, but it is not in use on Wikipedia. The Wikibase Repository and Wikibase Repository client are however implemented in Wikidata and Wikipedia respectively, and to some extent provides semantic web features, and linking of centrally stored data to infoboxes in various Wikipedia articles.
+Upgrading MediaWiki is usually fully automated, requiring no changes to the site content or template programming. Historically troubles have been encountered when upgrading from significantly older versions.[148]
+Security[edit]
+MediaWiki developers have enacted security standards, both for core code and extensions.[149] SQL queries and HTML output are usually done through wrapper functions that handle validation, escaping, filtering for prevention of cross-site scripting and SQL injection.[150] As of April 2010, approximately 50 of MediaWiki's extensions had unresolved security issues.[151] Many security issues have had to be patched after a MediaWiki version release,[152] and accordingly MediaWiki.org states, "The most important security step you can take is to keep your software up to date" by subscribing to the announcement listserv and installing security updates that are announced.[153] A PHPIDS Extension for MediaWiki has been developed to identify intrusions.[154]
+Developer community[edit]
+MediaWiki developers are spread around the world, though with a majority in the United States and Europe. Face-to-face meetings and programming sessions for MediaWiki developers have been held once or several times a year since 2004.[155]
+Support[edit]
+Support for MediaWiki users consists of:
+
+MediaWiki.org, including the Support Desk.
+An official mailing list, Mediawiki-l.
+Several books have been written about MediaWiki administration,[5][156] including some free online books.[157][158]
+
+Comparison to other online collaboration software[edit]
+Main article: Comparison of wiki software
+Users of online collaboration software are familiar with MediaWiki's functions and layout due to its noted use on Wikipedia. Compared to other wikis, MediaWiki is also fairly aesthetically pleasing, though simple, and has an easily customized side menu and stylesheet.[159] However, in one assessment, Confluence was deemed to be a superior product due to its very usable API and ability to better support multiple wikis.[111] Wiki providers Socialtext, eXo Platform and JotSpot have/had project management features that MediaWiki lacks.[160]
+A study was done at the University of Hong Kong comparing TWiki to MediaWiki. The authors noted that TWiki has been considered as a collaborative tool for development of educational papers and technical projects, whereas MediaWiki's noted use is due to Wikipedia. Although both platforms allow discussion and tracking of progress, TWiki has a "Report" part that MediaWiki lacks. Students perceived MediaWiki as being easier to use and more enjoyable than TWiki. When asked whether they recommended using MediaWiki for knowledge management course group project, 15 out of 16 respondents expressed their preference for MediaWiki giving answers of great certainty, such as "of course", "for sure".[161] TWiki and MediaWiki both have flexible plug-in architecture.[162] A study that compared students' experience with MediaWiki to that with Google Documents found that students gave the latter a much higher rating on user-friendly layout.[163]
+See also[edit]
+
+
+Free software portal
+
+
+
+List of content management systems
+List of wiki software
+xowa – for viewing Wikipedia and other wikis offline
+
+References[edit]
+
+
+^ https://www.mediawiki.org/wiki/MediaWiki
+^ "Supported languages". translatewiki.net. 
+^ "Copyright". mediawiki.org. 
+^ Magnus Manske's announcement of "PHP Wikipedia", wikipedia-l, 2001-08-24
+^ a b Barrett, Daniel J. (October 2008). MediaWiki. O'Reilly Media. ISBN 978-0-596-51979-7. 
+^ a b "MediaWiki history". MediaWiki website. Retrieved 2013-08-04. 
+^ a b "What is MediaWiki?". Retrieved 2013-08-04. 
+^ Česky. "Wikipedia:Statistics – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ "Category:MediaWiki configuration settings". MediaWiki. September 11, 2016. Retrieved 2016-09-11. 
+^ a b "Extension Matrix". MediaWiki. Retrieved 2016-09-11. 
+^ "Wikipedia statistics – Bot editing activity". Wikimedia Foundation. October 31, 2012. Retrieved 2012-11-15. 
+^ "Sites using MediaWiki/corporate". MediaWiki. Retrieved 2010-05-30. 
+^ Schacht, Paul, "The Collaborative Writing Project", Using Wiki in Education (PDF) 
+^ "MediaWiki.org Project:Copyrights". Retrieved 2009-08-17. 
+^ "Project:PD help". MediaWiki. Retrieved 2010-05-30. 
+^ Rafe Needleman (November 19, 2008), Wikipedia gears up for flood of video and photo files, C-Net 
+^ "Development policy". MediaWiki. July 19, 2013. Retrieved 2013-08-04. 
+^ "Summer of Code". MediaWiki. March 26, 2013. Retrieved 2013-08-04. 
+^ "Wikimedia". Ohloh. Retrieved 2012-11-15.  Approximate counts (not deduplicated) as of 2012-11-04: 139 for core, 155 for extensions supported by WMF, 190 and 42 for extensions only hosted on WMF's Git and SVN repositories respectively.
+^ "Roadmap". MediaWiki. May 21, 2010. Retrieved 2010-05-30. 
+^ "www.mikeapedia.co.uk". 
+^ Mayer, Daniel. "Phase IV, Wikibooks.org/.com and WikimediaFoundation.org/.com (was Wikis and uniformity)". Wikipedia-L mailing list archives. 
+^ "Wikipmediawiki". MediaWiki. May 25, 2010. Retrieved 2010-05-30. 
+^ Wikimedia contributors (January 10, 2007). "International logo contest/results". Meta-wiki. Wikimedia Foundation. Retrieved 2007-03-14. 
+^ Wikimedia contributors (January 17, 2007). "Historical/Logo history". Meta-wiki. Wikimedia Foundation. Retrieved 2007-03-14. 
+^ Erik Möller (July 26, 2003). "File talk:EloquenceSunflowerNew-Small.png – Meta". Meta-wiki. Wikimedia Foundation. Retrieved 2013-02-03. 
+^ David Weinberger (2007). Everything Is Miscellaneous: The Power of the New Digital Disorder. Times Books. p. 99. ISBN 0-8050-8043-0. 
+^ a b "Wikipedia and MediaWiki". Presentation MediaWiki development (video). April 28, 2006. Retrieved 2009-09-23. 
+^ a b M Schindler; D Vrandecic (2009), Introducing new features to Wikipedia (PDF), Proceedings of WebSci 
+^ "MediaWiki ResourceLoader". Mediawiki.org. Retrieved 2013-07-06. 
+^ "VisualEditor – MediaWiki". MediaWiki. Retrieved September 15, 2013. 
+^ "Examples of Bias in Wikipedia". Conservapedia. Retrieved 2010-05-30. 
+^ MediaWiki testimonials, mediawiki.org
+^ "The story of Intelpedia: A model corporate wiki". Socialmedia.biz. 
+^ A. Maron; M. Maron (2007). "A stealth transformation: introducing wikis to the UN". Knowledge Management for Development Journal. Retrieved October 9, 2010. 
+^ See also: Translation statistics and Multilingual MediaWiki.
+^ Lerner, Reuven M. (February 23, 2006), Installing and Customizing MediaWiki, Linux Journal 
+^ Petrazickis, Leons (2009), Deploying PHP applications on IBM DB2 in my butt: MediaWiki as a case study, Proceedings of the 2009 Conference of the Center for Advanced Studies on Collaborative Research 
+^ "Manual:$wgEnableUploads". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:$wgLogo". MediaWiki. December 12, 2009. Retrieved 2010-05-30. 
+^ Manual:Configuration settings
+^ "Manual:LocalSettings.php". MediaWiki. March 29, 2007. Retrieved 2010-05-30. 
+^ "Extension:AbuseFilter". MediaWiki. Retrieved 2010-05-30. 
+^ a b "Cacycle". "wikEd". 
+^ "Manual:Installation guide". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:Extending wiki markup". MediaWiki. Retrieved 2010-05-30. 
+^ "HTML to Wiki Converter – tables". WMF Labs. March 29, 2008. Retrieved 2014-06-12. 
+^ "Markup spec". MediaWiki. Retrieved 2010-05-30. 
+^ "Extricating Meaning from Wikimedia Article Archives" (PDF). Retrieved 2011-01-02. 
+^ Jakes, David (August 15, 2006), Wild about Wikis, Tech & Learning 
+^ Brian Foley & Tae Chang (2008), Wiki as a professional development tool (PDF), Technology and Teacher Education 
+^ "Extension:EditConflict". MediaWiki. Retrieved 2010-05-30. 
+^ "API". MediaWiki. May 17, 2010. Retrieved 2010-05-30. 
+^ "Pywikipediabot – Meta". Meta.wikimedia.org. Retrieved 2010-05-30. 
+^ Česky. "Wikipedia:AutoWikiBrowser – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ Bartolo, Laura M.; Lowe, Cathy S.; Songar, Poonam; Tandy, Robert J. (May 20, 2009), Facilitating Wiki/Repository Communication with Metadata, Georgia Institute of Technology 
+^ "API:Client code". MediaWiki. May 24, 2010. Retrieved 2010-05-30. 
+^ "WYSIWYG editor". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:FAQ". MediaWiki. May 21, 2010. Retrieved 2010-05-30. 
+^ "Category:WYSIWYG extensions". MediaWiki. April 10, 2008. Retrieved 2010-05-30. 
+^ "Manual:External editors". MediaWiki. Retrieved 2010-05-30. 
+^ "Tags – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ "Manual:Tags". MediaWiki. August 31, 2009. Retrieved 2010-05-30. 
+^ "Wikipedia:Huggle – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ "IRC/Channels – Meta". Meta.wikimedia.org. Retrieved 2010-05-30. 
+^ Daniel Nasaw (July 25, 2012). "Meet the 'bots' that edit Wikipedia". BBC News. Retrieved July 30, 2012. 
+^ "Manual:Watchlist". MediaWiki. November 24, 2009. Retrieved 2010-05-30. 
+^ Kevin Yager (March 16, 2006), "Wiki ware could harness the Internet for science", Nature, 440: 278, doi:10.1038/440278a 
+^ "Manual:Interwiki". MediaWiki. Retrieved 2010-05-30. 
+^ "Help:Navigation". MediaWiki. May 21, 2010. Retrieved 2010-05-30. 
+^ Carl Challborn & Teresa Reimann (December 2004), Wiki products: a comparison (PDF), Athabasca University 
+^ Newman, Aaron, Adam Steinberg, and Jeremy Thomas (2008). Enterprise 2. 0 Implementation. McGraw-Hill Professional. p. 185. ISBN 978-0-07-159160-7.  CS1 maint: Multiple names: authors list (link)
+^ Malcolm, Jeremy (2008). Multi-Stakeholder Governance and the Internet Governance Forum. Terminus Press. pp. 188, 280. ISBN 978-0-9805084-0-6. 
+^ Ebersbach, Anja, Markus Glaser, Richard Heigl, and Gunter Dueck (2006). Wiki. Springer. pp. 55, 80–82, 109, 120–121, 156. ISBN 978-3-540-25995-4.  CS1 maint: Multiple names: authors list (link)
+^ "Help:Categories". MediaWiki. Retrieved 2010-05-30. 
+^ Jakob Voss (April 27, 2006). "Collaborative thesaurus tagging the Wikipedia way". arXiv:cs.IR/0604036. 
+^ "Lupin". "Wikipedia:Tools/Navigation popups". 
+^ "Extension:Gadgets". MediaWiki. March 30, 2010. Retrieved 2010-05-30. 
+^ Česky (May 16, 2010). "Template:Welcome – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ T Kriplean; I Beschastnikh; et al. (2008), Articulations of wikiwork: uncovering valued work in wikipedia through barnstars, Proceedings of the ACM 
+^ Česky. "Wikipedia:Barnstars – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ Česky. "Template:Test – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ "Template:Test5 – Wikipedia, the free encyclopedia". En.wikipedia.org. June 19, 2008. Retrieved 2010-05-30. 
+^ "Manual:User rights management". MediaWiki. Retrieved 2010-05-30. 
+^ H Zielke; W Boemke; M Kastrup; C Melzer (November 21, 2007), Operating Procedures in Clinical Practice (PDF), Royal College of Anaesthetists 
+^ "Extension:PureWikiDeletion". MediaWiki. May 26, 2010. Retrieved 2010-05-30. 
+^ "Wikipedia:Village pump (proposals)/Persistent proposals/Straw poll for view-deleted – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ "RevisionDelete". MediaWiki. Retrieved 2010-05-30. 
+^ "Extension:Oversight". MediaWiki. May 15, 2010. Retrieved 2010-05-30. 
+^ "Extension:DeletePagePermanently". MediaWiki. Retrieved 2010-05-30. 
+^ "Security issues with authorization extensions". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:Hooks/ArticleSaveComplete". MediaWiki. May 26, 2010. Retrieved 2010-05-30. 
+^ "Extension:Recent Activity Notify". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:Tag extensions". MediaWiki. May 21, 2010. Retrieved 2010-05-30. 
+^ "Manual:Parser functions". MediaWiki. March 22, 2010. Retrieved 2010-05-30. 
+^ "Manual:Special pages". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:Skins". MediaWiki. May 14, 2010. Retrieved 2010-05-30. 
+^ "Manual:Integration with S3". MediaWiki. March 22, 2010. Retrieved 2010-05-30. 
+^ MediaWiki Extensions, Google Code
+^ "Extension:CodeReview". MediaWiki. Retrieved 2010-05-30. 
+^ jQuery on MediaWiki
+^ "Extension:ParserFunctions". MediaWiki. December 25, 2009. Retrieved 2010-05-30. 
+^ "Wikipedia:Miscellany for deletion/Template:Qif – Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2010-05-30. 
+^ "Category:String manipulation templates – Wikipedia, the free encyclopedia". En.wikipedia.org. May 15, 2010. Retrieved 2010-05-30. 
+^ "Bug 6455 – Enable StringFunctions on WMF wikis". bugzilla.wikimedia.org. Retrieved October 9, 2010. 
+^ "Extension:StringFunctions". MediaWiki. Retrieved 2010-05-30. 
+^ "r51497 – Code Review". MediaWiki. Retrieved 2010-05-30. 
+^ "Extension:Cite". MediaWiki. May 3, 2010. Retrieved 2010-05-30. 
+^ Luther, Kurt; Flaschen, Matthew; Forte, Andrea; Jordan, Christopher; Bruckman, Amy (2009), ProveIt: a new tool for supporting citation in MediaWiki (PDF), ACM 
+^ "Category:Math extensions". MediaWiki. December 26, 2009. Retrieved 2010-05-30. 
+^ a b Marieke Guy (January 2007), Wikido: Exploiting the Potential of Wikis (50), Ariadne 
+^ "Extension:CategorySuggest". MediaWiki. Retrieved 2010-05-30. 
+^ "Category:Flash Video extensions". MediaWiki. Retrieved 2010-05-30. 
+^ "Category:YouTube extensions". MediaWiki. September 16, 2008. Retrieved 2010-05-30. 
+^ "Category:RSS extensions". MediaWiki. Retrieved 2010-05-30. 
+^ "Extension:FBConnect". MediaWiki. Retrieved 2010-05-30. 
+^ M Dale; A Stern; M Deckert; W Sack, System demonstration: Metavid.org: a social website and open archive of congressional video, Proceedings of the 10th Annual International Conference on Digital Government Research: Social Networks: Making Connections between Citizens, Data and Government, pp. 309–310, ISBN 978-1-60558-535-2 
+^ "Lecture Notes in Business Information Processing", Lecture Notes in Business Information Processing, Enterprise Information Systems, 3: 420–438, February 8, 2008, doi:10.1007/978-3-540-77581-2_29 
+^ "Wiki spam – Meta". Meta.wikimedia.org. Retrieved 2010-05-30. 
+^ Goldman, Eric, Wikipedia's Labor Squeeze and its Consequences, 8, Journal on Telecommunications and High Technology Law 
+^ "Extension:ConfirmEdit". MediaWiki. May 5, 2010. Retrieved 2010-05-30. 
+^ "Extension:SpamBlacklist". MediaWiki. March 24, 2010. Retrieved 2010-05-30. 
+^ "Extension:Nuke". MediaWiki. May 19, 2010. Retrieved 2010-05-30. 
+^ Lucene-search MediaWiki extension, mediawiki.org
+^ SphinxSearch MediaWiki extension, mediawiki.org
+^ Masanori Arita & Kazuhiro Suwa (September 17, 2008), "Search extension transforms Wiki into a relational system: A case for flavonoid metabolite database", BioData Min, BioData Mining, 1: 7, doi:10.1186/1756-0381-1-7, PMC 2556319, PMID 18822113 
+^ Finn Årup Nielsen (August 11, 2009), Lost in localization: A solution with neuroinformatics 2.0?, 48 (1), NeuroImage 
+^ Eric Ras; Jörg Rech; Sebastian Weber (August 1, 2008), Collaborative Authoring of Learning Elements for Adaptive Learning Spaces (PDF), Fifth International Conference on Adaptive Hypermedia and Adaptive Web-Based Systems 
+^ Hartung, Michael; et al. "A Platform for Collaborative Management of Semantic Grid Metadata". Intelligent distributed computing, systems and applications. p. 123. 
+^ Arnold, Carrie (2009), DynaTable: a Wiki extension for structured data, ISBN 978-1-60558-730-1 
+^ "Extension:Woogle4MediaWiki". MediaWiki. Retrieved 2010-05-30. 
+^ Hans-Jörg Happel (2009), Woogle – On Why and How to Marry Wikis with Enterprise Search (PDF) 
+^ "Manual:Database access". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:Page table". MediaWiki. May 15, 2010. Retrieved 2010-05-30. 
+^ "Manual:Revision table". MediaWiki. Retrieved 2010-05-30. 
+^ Ortega, Felipe; González-Barahona, Jesus M.; Robles, Gregorio (2007), The Top-Ten Wikipedias: A Quantitative Analysis Using WikiXRay, CiteSeerX 10.1.1.107.1424 
+^ Curino, Carlo A.; Tanca, Letizia; Zaniolo, Carlo (2008), Information Systems Integration and Evolution: Ontologies at Rescue (PDF), Workshop on Semantic 
+^ T Dumitras; P Narasimhan (2009), No downtime for data conversions: Rethinking hot upgrades (PDF) 
+^ a b Bergsma, Mark, Wikimedia Architecture (PDF) 
+^ "VisualEditor". MediaWiki. May 15, 2011. Retrieved 2013-02-24. 
+^ "Manual:What is". MediaWiki. Retrieved 2010-05-30. 
+^ "Extension:LiquidThreads". MediaWiki. May 23, 2010. Retrieved 2010-05-30. 
+^ "Extension:Wikilog". MediaWiki. November 27, 2009. Retrieved 2010-05-30. 
+^ "Help:Signatures". MediaWiki. Retrieved 2010-05-30. 
+^ N Augar; R Raitman; W Zhou (2004), Teaching and learning online with wikis, Beyond the comfort zone, CiteSeerX 10.1.1.133.1456 
+^ Cubric, Marija (2007), Analysis of the use of Wiki-based collaborations in enhancing student learning, University of Hertfordshire, p. 11 
+^ Albertsen, Johannes & Bouvin, Niels Olof (2008), User defined structural searches in mediawiki, Proceedings of the nineteenth ACM conference on Hypertext and hypermedia, ISBN 978-1-59593-985-2 
+^ T Dumitraş; P Narasimhan (2009), Toward upgrades-as-a-service in distributed systems, Proceedings of the 10th ACM/IFIP/USENIX International Conference on Middleware 
+^ "Security for developers". MediaWiki. Retrieved 2010-05-30. 
+^ Perrin, Chad (April 30, 2008), Five security tips from MediaWiki's lead developer, Tech Republic 
+^ "Category:Extensions by security risk". MediaWiki. Retrieved 2010-05-30. 
+^ "News". MediaWiki. Retrieved 2010-05-30. 
+^ "Manual:Security". MediaWiki. March 22, 2010. Retrieved 2010-05-30. 
+^ "MediaWiki Extension". Retrieved 2011-02-20. 
+^ "MediaWiki developer meetings". Mediawiki.org. Retrieved 2012-07-29. 
+^ Rahman, Mizanur (2007). MediaWiki Administrators' Tutorial Guide: Install, manage, and customize your MediaWiki installation. Packt Publishing. ISBN 1-904811-59-0. 
+^ MediaWiki Administrator's Handbook. Wikibooks. 
+^ MediaWiki User Guide, Wikibooks 
+^ Bryant, Todd (2006), Social Software in Academia (PDF), Educause Quarterly 
+^ Bean, L., & Hott, D. D. (July–August 2005), Wiki: A speedy new tool to manage projects, Journal of Corporate Accounting & Finance, pp. 3–8  CS1 maint: Multiple names: authors list (link)
+^ Liang, M., Chu, S., Siu, F., & Zhou, A. (Dec 3–4, 2009), Comparing User Experiences in Using Twiki & Mediawiki to Facilitate Collaborative Learning (PDF), Proceedings of the 2009 International Conference on Knowledge Management, archived from the original (PDF) on May 14, 2011  CS1 maint: Multiple names: authors list (link)
+^ Schulz, Judith (2009), Company-Wiki as a knowledge transfer instrument for reducing the shortage of skilled workers (PDF), Institute of Technology and Education 
+^ Chu, S., Kennedy, D., & Mak, M. (December 3–4, 2009), MediaWiki and Google Docs as online collaboration tools for group project co-construction (PDF), Proceedings of the 2009 International Conference on Knowledge Management  CS1 maint: Multiple names: authors list (link)
+
+
+External links[edit]
+
+Find more aboutMediaWikiat Wikipedia's sister projects
+
+Definitions from Wiktionary
+Media from Commons
+Quotations from Wikiquote
+Textbooks from Wikibooks
+Learning resources from Wikiversity
+Data from Wikidata
+Discussion from Meta-Wiki
+Documentation from MediaWiki
+
+
+
+MediaWiki homepage, with Hubs for users, system administrators and developers.
+#mediawiki connect on freenode
+PHP wiki engines at DMOZ
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia
+
+
+
+
+
+
+Overview
+
+
+
+Censorship
+Conflict-of-interest editing
+Criticism
+Deletionism and inclusionism
+Gender bias
+Racial bias
+MediaWiki
+Notability
+Reliability
+Vandalism
+
+
+
+
+
+
+
+
+Community
+
+
+
+Administrators
+Arbitration Committee
+Edit-a-thon
+List of Wikipedias
+The Signpost
+Wikipedian in residence
+Wikimania
+
+
+
+
+
+
+
+
+People
+
+
+
+Florence Devouard
+Sue Gardner
+James Heilman
+Katherine Maher
+Magnus Manske
+Erik Möller
+Larry Sanger
+Lila Tretikov
+Jimmy Wales
+Wikipedians
+Wikipedian of the Year
+
+
+
+
+
+
+
+
+History
+
+
+
+Bomis
+Logo
+Controversies
+
+U.S. Congressional staff edits
+Essjay controversy
+Seigenthaler biography incident
+Henryk Batuta hoax
+
+
+Internet Watch Foundation
+Scientology
+Italian Wikipedia blackout
+English Wikipedia blackout
+Hillsborough Wikipedia posts
+MyWikiBiz
+Lsjbot
+VisualEditor
+Art+Feminism
+#1Lib1Ref
+
+
+
+
+
+
+
+
+Recognition
+and honors
+
+
+
+2008 Quadriga award
+Wikipedia Monument
+2015 Erasmus Prize
+2015 Princess of Asturias Award
+Magna Carta (An Embroidery)
+
+
+
+
+
+
+
+
+References
+and analysis
+
+
+
+Cultural
+Bibliography
+Films
+Academic studies
+WikiScanner
+Wikipedia Review
+Wikipediocracy
+Wiki-Watch
+
+
+
+
+
+
+
+
+Mobile access
+
+
+
+Apps
+QRpedia
+Wapedia
+WikiNodes
+Wikipedia Zero
+Wikiwand
+
+
+
+
+
+
+
+
+Content use
+
+
+
+Books LLC
+DBpedia
+Deletionpedia
+Kiwix
+WikiReader
+Health information
+
+
+
+
+
+
+
+
+Similar projects
+
+
+
+Interpedia
+Nupedia
+Citizendium
+Enciclopedia Libre Universal en Español
+Veropedia
+List of online encyclopedias
+List of wikis
+
+
+
+
+
+
+
+
+Related
+
+
+
+Wikimedia movement
+
+Wikimedia Foundation
+projects
+
+
+The Iraq War: A Historiography of Wikipedia Changelogs
+Print Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+ Category
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wiki software
+
+
+
+
+
+
+.NET
+
+
+
+FlexWiki
+Microsoft SharePoint
+
+
+
+
+
+
+
+
+Java
+
+
+
+Confluence
+eXo Platform
+Jive
+Traction TeamPage
+XWiki
+
+
+
+
+
+
+
+
+Perl
+
+
+
+Foswiki
+ikiwiki
+TWiki
+UseModWiki
+
+
+
+
+
+
+
+
+PHP
+
+
+
+DokuWiki
+MediaWiki
+MindTouch
+PhpWiki
+Phriction
+PmWiki
+Tiki Wiki CMS Groupware
+PukiWiki
+
+
+
+
+
+
+
+
+Python
+
+
+
+Allura
+Bloodhound
+Kallithea
+MoinMoin
+Trac
+Zwiki
+
+
+
+
+
+
+
+
+Ruby
+
+
+
+Redmine
+Wagn
+Gollum
+
+
+
+
+
+
+
+
+Other languages
+
+
+
+CLiki
+
+Common Lisp
+
+
+Gitit
+
+Haskell
+
+
+TiddlyWiki
+
+JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Category
+ Comparison
+ List
+
+
+
+
+
+
+
+
+
+Authority control
+
+
+
+GND: 7629446-8
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=MediaWiki&oldid=764822341"					
+Categories: MediaWikiFree content management systemsFree software programmed in PHPFree wiki software2002 softwareCross-platform free softwareMultilingual websitesVersion control systemsHidden categories: CS1 maint: Multiple names: authors listWikipedia indefinitely move-protected pagesUse mdy dates from November 2014Pages using deprecated image syntaxAll articles with unsourced statementsArticles with unsourced statements from October 2010Articles with DMOZ linksWikipedia articles with GND identifiersArticles containing video clipsArticles with example code 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMeta-WikiWikibooksWikiquoteWikiversity 
+
+
+
+Languages
+
+
+AfrikaansAlemannischالعربيةঅসমীয়াAsturianuAzərbaycancaবাংলাBân-lâm-gúБеларускаяБеларуская (тарашкевіца)‎БългарскиBoarischBosanskiCatalàЧӑвашлаČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFryskGaeilgeGalego客家語/Hak-kâ-ngî한국어Հայերենहिन्दीHrvatskiIgboBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתಕನ್ನಡქართულიKaszëbscziKurdîLatinaLatviešuLëtzebuergeschLietuviųLimburgsMagyarМакедонскиMalagasyമലയാളംमराठीمصرىBahasa MelayuMìng-dĕ̤ng-ngṳ̄Nederlandsनेपाली日本語Norsk bokmålNorsk nynorskOccitanਪੰਜਾਬੀភាសាខ្មែរPolskiPortuguêsRomânăРусскийScotsShqipSicilianuසිංහලSimple EnglishسنڌيSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்తెలుగుไทยТоҷикӣTürkçeУкраїнськаاردوVènetoTiếng Việt文言WinarayייִדישYorùbá粵語Zazaki中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 11 February 2017, at 03:52.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.296","walltime":"1.428","ppvisitednodes":{"value":7752,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":305913,"limit":2097152},"templateargumentsize":{"value":4737,"limit":2097152},"expansiondepth":{"value":29,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 1193.824      1 -total"," 68.84%  821.828      1 Template:Reflist"," 36.25%  432.765    108 Template:Cite_web"," 13.89%  165.846     37 Template:Citation","  9.60%  114.640      2 Template:Infobox","  7.98%   95.291      1 Template:Infobox_software","  3.06%   36.499      1 Template:Citation_needed","  2.87%   34.229      1 Template:Fix","  2.49%   29.668      8 Template:Cite_book","  2.25%   26.868      1 Template:Infobox_software/simple"]},"scribunto":{"limitreport-timeusage":{"value":"0.660","limit":"10.000"},"limitreport-memusage":{"value":6686756,"limit":52428800}},"cachereport":{"origin":"mw1165","timestamp":"20170211035244","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":79,"wgHostname":"mw1275"});});

@@ -1,0 +1,4354 @@
+ 
+
+
+
+
+
+
+
+Help:Wiki markup
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+For the encyclopedic article on wiki markup, see Wiki markup.
+
+
+
+
+
+
+Abbreviations
+Edit summaries
+Glossary
+Shortcuts
+Wikicode
+
+HTML
+Templates
+
+
+Directory
+
+
+
+
+
+
+
+
+This page is a how-to guide, detailing processes or procedures of some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines, and is therefore an essay.
+
+
+Shortcuts:
+
+H:WIKICODE
+WP:WIKICODE
+H:MARKUP
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+
+Cheatsheet
+All wiki markup
+Magic links
+Visual files
+Sound files
+Tables
+Using templates
+Using HTML
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+Wiki markup, also known as wikitext or wikicode, consists of the syntax and keywords used by the MediaWiki software to format a page. To learn how to see this markup, and to save an edit, see: Help:Editing. There is a short list of markup and tips at Help:Cheatsheet.
+In addition to wiki markup, some HTML elements are also allowed for presentation formatting. See Help:HTML in wikitext for information on this.
+
+
+
+Contents
+
+
+1 Layout
+
+1.1 Sections
+
+1.1.1 Section headings
+1.1.2 Horizontal rule
+1.1.3 Table of contents
+
+
+1.2 Line breaks
+1.3 Indent text
+1.4 Blockquote
+1.5 Center text
+1.6 Align text to right
+1.7 Lists
+
+1.7.1 Unordered lists
+1.7.2 Ordered lists
+1.7.3 Description lists
+
+
+1.8 Retaining newlines and spaces
+
+
+2 Format
+
+2.1 Text formatting
+2.2 Special characters
+
+2.2.1 Diacritical marks
+2.2.2 Punctuation special characters
+2.2.3 Escaping punctuation characters
+2.2.4 Commercial symbols
+2.2.5 Greek characters
+2.2.6 Egyptian hieroglyphs
+2.2.7 Chess symbols
+2.2.8 Subscripts and superscripts
+2.2.9 Characters in the Private Use Area, and invisible formatting characters
+
+
+2.3 Mathematical characters and formulae
+
+2.3.1 Mathematical characters
+2.3.2 Mathematical formulae
+2.3.3 Spacing in simple math formulae
+2.3.4 Complicated formulae
+
+
+
+
+3 Links and URLs
+
+3.1 Free links
+
+3.1.1 Link to another wiki article
+3.1.2 Renamed link
+3.1.3 Automatically rename links
+3.1.4 Blend link
+3.1.5 Link to a section of a page
+3.1.6 Create a page link
+
+
+3.2 Redirects
+3.3 Link to another namespace
+3.4 Link to the same article in another language (interlanguage links)
+3.5 Interwiki link
+3.6 Categories
+3.7 External links
+3.8 Automatic links
+
+3.8.1 Book sources
+3.8.2 RFC number
+
+
+3.9 Miscellaneous
+
+3.9.1 "As of" template
+3.9.2 Media link
+3.9.3 Links directly into edit mode
+3.9.4 Links partially italicized
+
+
+
+
+4 Pronunciation aids
+5 Musical notation
+6 Images
+7 Tables
+8 References and citing sources
+9 Templates and transcluding pages
+10 Talk and project pages
+
+10.1 Signing comments
+10.2 Linking to old revisions of pages, diffs, and specific history pages
+10.3 What links here, and recent changes linked
+10.4 User edits
+10.5 Coloring and highlighting text
+10.6 Show deleted or inserted text
+
+
+11 Limiting formatting / escaping wiki markup
+
+11.1 Nowiki
+
+11.1.1 Displaying wikilinks
+11.1.2 Displaying template calls
+11.1.3 Displaying magic words
+11.1.4 Displaying tags
+
+
+11.2 Pre
+
+
+12 Invisible text (comments)
+13 Variables
+14 HTML
+15 Common templates
+16 See also
+
+
+
+Layout
+
+
+Instructions on this page may not work with VisualEditor. If you have opted in, you can use either VisualEditor or classic editing through wiki markup (wikitext) to edit most pages. The directions on this page, especially about what codes to type to produce formatting effects, are predominantly geared toward wikitext editing. For instructions on editing with VisualEditor, see Wikipedia:VisualEditor/User guide.
+
+Sections
+Sections in a page will follow the page's lead/introduction and (under certain conditions,) the Table of Contents.
+Section headings
+Further information: Help:Section and MOS:HEAD
+The = through ====== markup are headings for the sections with which they are associated.
+
+A single = is styled as the article title and should not be used within an article.
+Headings are styled through CSS and add an [edit] link. See this section for the relevant CSS.
+Four or more headings cause a table of contents to be generated automatically.
+Do not use any markup after the final heading markup – this will either break the heading, or will cause the heading to not be included in an edit summary.
+
+
+
+
+Markup
+Renders as
+
+
+
+
+= Heading 1 =
+== Heading 2 ==
+=== Heading 3 ===
+==== Heading 4 ====
+===== Heading 5 =====
+====== Heading 6 ======
+
+
+
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Heading 5
+Heading 6
+
+
+
+
+
+
+
+
+
+Templates: {{fake heading}} for use in documentation.
+Horizontal rule
+Further information: WP:LINE
+The horizontal rule represents a paragraph-level thematic break. Do not use in article content, as rules are only used after main sections, and this is automatic.
+
+
+Markup
+Renders as
+
+
+
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+HTML equivalent: <hr />
+Table of contents
+Further information: WP:TOC
+When a page has at least four headings, a table of contents (TOC) will automatically appear after the lead and before the first heading. The TOC can be controlled by magic words or templates:
+
+__FORCETOC__ forces the TOC to appear at the normal location regardless of the number of headings.
+__TOC__ forces the TOC to appear at the point where the magic word is inserted instead of the normal location.
+__NOTOC__ disables the TOC entirely.
+{{TOC limit}} can be used to control the depth of subsections included in the TOC. This is useful where the TOC is long and unwieldy.
+Category:Wikipedia table of contents templates contains a number of specialized TOC templates.
+
+Line breaks
+Further information: Wikipedia:Line-break handling and Wikipedia:Don't use line breaks
+Line breaks or newlines are used to add whitespace between lines, such as separating paragraphs.
+
+A line break that is visible in the content is inserted by pressing ↵ Enter twice.
+Pressing ↵ Enter once will place a line break in the markup, but it will not show in the rendered content, except when using list markup.
+Markup such as bold or italics will be terminated at a line break.
+
+
+
+Markup
+Renders as
+
+
+
+
+A single newline here
+has no effect on the layout.
+
+But an empty line starts a new paragraph, 
+or ends a list or an indented part.
+
+
+
+A single newline here has no effect on the layout.
+But an empty line starts a new paragraph, or ends a list or an indented part.
+
+
+
+
+
+
+
+
+HTML equivalent: <br> or <br />
+Templates:
+
+{{break}} adds multiple line breaks.
+{{-}} and {{clear}} adds a break with styling, to clear floating elements.
+{{plainlist}} and {{unbulleted list}} both create an unbulleted list.
+
+Indent text
+Further information: WP:INDENT
+Indentation is most commonly used on talk pages.
+
+
+Markup
+Renders as
+
+
+
+
+Indentation as used on talk pages:
+:Each colon at the start of a line
+::causes the line to be indented by three more character positions.
+:::(The indentation persists
+so long as no carriage return or line break is used.)
+:::Repeat the indentation at any line break.
+::::Use an extra colon for each response.
+:::::And so forth ...
+::::::And so on ...
+{{Outdent|::::::}}The outdent template can give a visual indicator that we're deliberately cancelling the indent (6 levels here)
+
+
+
+Indentation as used on talk pages:
+
+Each colon at the start of a line
+
+causes the line to be indented by three more character positions.
+
+(The indentation persists
+
+
+
+
+
+so long as no carriage return or line break is used.)
+
+
+
+
+
+Repeat the indentation at any line break.
+
+Use an extra colon for each response.
+
+And so forth ...
+
+And so on ...
+
+
+
+
+
+
+
+
+
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┘The outdent template can give a visual indicator that we're deliberately cancelling the indent (6 levels here)
+
+
+
+
+
+
+
+
+Templates: {{outdent}}, {{outdent2}}
+Blockquote
+When there is a need for separating a block of text. This is useful for (as the name says) inserting blocks of quoted (and cited) text.
+
+
+Markup
+Renders as
+
+
+
+
+<blockquote>
+The '''blockquote''' tag will indent both margins when needed instead of the left margin only as the colon does.
+</blockquote>
+
+
+
+
+The blockquote tag will indent both margins when needed instead of the left margin only as the colon does.
+
+
+
+
+
+
+
+
+
+Center text
+
+
+Markup
+Renders as
+
+
+
+
+<div class="center" style="width: auto; margin-left: auto; margin-right: auto;">Centered text</div>
+
+
+
+Centered text
+
+
+
+
+
+
+
+
+Template {{center}} uses the same markup. To center a table, see Help:Table#Centering tables. Please do not use <center>...</center>, as it is obsolete.
+Align text to right
+You can align content in a separate container:
+
+
+Markup
+Renders as
+
+
+
+
+<div style="text-align: right; direction: ltr; margin-left: 1em;">Text on the right</div>
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Text on the right
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+
+
+
+
+
+Or; make the text float around it:
+
+
+Markup
+Renders as
+
+
+
+
+<div class="floatright">Text on the right</div>
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Text on the right
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+
+
+
+{{stack|Text on the right}}
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Text on the right
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+
+
+
+
+
+Lists
+Further information: Help:List and MOS:LIST
+Do not leave blank lines between items in a list unless there is a reason to do so, since this causes the MediaWiki software to interpret each item as beginning a new list.
+Unordered lists
+
+
+Markup
+Renders as
+
+
+
+
+* Item1
+* Item2
+* Item3
+* Item4
+** Sub-item 4 a)
+*** Sub-item 4 a) 1.
+**** Sub-item 4 a) 1. i)
+**** Sub-item 4 a) 1. ii)
+** Sub-item 4 b)
+* Item5
+
+
+
+
+
+Item1
+Item2
+Item3
+Item4
+
+Sub-item 4 a)
+
+Sub-item 4 a) 1.
+
+Sub-item 4 a) 1. i)
+Sub-item 4 a) 1. ii)
+
+
+
+
+Sub-item 4 b)
+
+
+Item5
+
+
+
+
+
+
+
+
+
+Ordered lists
+
+
+Markup
+Renders as
+
+
+
+
+# Item1
+# Item2
+# Item3
+# Item4
+## Sub-item 1
+### Sub-sub-item
+#### Sub-sub-sub-item
+## Sub-item 2
+# Item5
+
+
+
+
+
+Item1
+Item2
+Item3
+Item4
+
+Sub-item 1
+
+Sub-sub-item
+
+Sub-sub-sub-item
+
+
+
+
+Sub-item 2
+
+
+Item5
+
+
+
+
+
+
+
+
+
+Description lists
+
+
+Shortcut:
+
+H:DL
+
+
+To list terms and definitions, start a new line with a semicolon (;) followed by the term. Then, type a colon (:) followed by a definition. The format can also be used for other purposes, such as make and models of vehicles, etc.
+Description lists (formerly definition lists, and a.k.a. association lists) consist of group names corresponding to values. Group names (terms) are in bold. Values (definitions) are indented. Each group must include one or more definitions. For a single or first value, the : can be placed on the same line after ; – but subsequent values must be placed on separate lines.
+Do not use a semicolon (;) simply to bold a line without defining a value using a colon (:). This usage renders invalid HTML5 and creates issues with screen readers.
+
+
+Markup
+Renders as
+
+
+
+
+; Term : Definition1
+
+
+
+
+
+Term 
+Definition1
+
+
+
+
+
+
+
+; Term
+: Definition1
+: Definition2
+: Definition3
+: Definition4
+
+
+
+
+
+Term
+Definition1
+Definition2
+Definition3
+Definition4
+
+
+
+
+
+
+
+
+
+HTML equivalent: <dl> <dt>...</dt>, <dd>...</dd> </dl>
+Templates: {{defn}}
+Retaining newlines and spaces
+
+Shortcut:
+
+H:POEM
+
+
+The MediaWiki software suppresses single newlines and converts lines starting with a space to preformatted text in a dashed box. HTML suppresses multiple spaces. It is often desirable to retain these elements for poems, lyrics, mottoes, oaths and the like. The Poem extension adds HTML-like <poem>...</poem> tags to maintain newlines and spaces. These tags may be used inside other tags such as <blockquote>...</blockquote>. CSS styles may be applied to this tag, e.g.: <poem style="margin-left: 2em;">.
+
+
+Markup
+Renders as
+
+
+
+
+<poem>
+In Xanadu did Kubla Khan
+  A stately pleasure-dome decree:
+Where Alph, the sacred river, ran
+  Through caverns measureless to man
+Down to a sunless sea.
+
+So twice five miles of fertile ground
+  With walls and towers were girdled round:
+And there were gardens bright with sinuous rills,
+  Where blossomed many an incense-bearing tree;
+And here were forests ancient as the hills,
+  Enfolding sunny spots of greenery.
+</poem>
+
+
+
+
+In Xanadu did Kubla Khan
+  A stately pleasure-dome decree:
+Where Alph, the sacred river, ran
+  Through caverns measureless to man
+Down to a sunless sea.
+
+So twice five miles of fertile ground
+  With walls and towers were girdled round:
+And there were gardens bright with sinuous rills,
+  Where blossomed many an incense-bearing tree;
+And here were forests ancient as the hills,
+  Enfolding sunny spots of greenery.
+
+
+
+
+
+
+
+
+
+Format
+Text formatting
+
+
+Description
+What you type
+What it looks like
+
+
+
+italics, bold, small capital letters
+
+
+
+To ''italicize text'', put two 
+consecutive apostrophes on each side 
+of it.
+
+Three apostrophes each side will 
+'''bold the text'''.
+
+Five consecutive apostrophes on each 
+side (two for italics plus three for 
+bold) produces '''''bold italics'''''.
+
+'''''Italic and bold formatting''''' 
+only works correctly within a single 
+line.
+
+For text as {{smallcaps|small caps}}, 
+use the template {{tl|smallcaps}}.
+
+
+To italicize text, put two consecutive apostrophes on each side of it.
+Three apostrophes each side will bold the text.
+Five consecutive apostrophes on each side (two for italics plus three for bold) produces bold italics.
+Italic and bold formatting only works correctly within a single line.
+For text as small caps, use the template {{smallcaps}}.
+
+
+
+
+Small chunks of source code within a line of normal text.
+Code is displayed in a monospace font.
+
+
+
+function <code>int m2()</code> is nice.
+
+
+function int m2() is nice.
+
+
+
+
+Syntax highlighting for source code.
+Computer code has colored text and more stringent formatting. For example, to define a function: int m2(), with highlights.
+
+
+
+<syntaxhighlight lang="cpp">
+#include <iostream>
+int m2 (int ax, char *p_ax) {
+  std::cout <<"Hello World!";
+  return 0;
+}</syntaxhighlight>
+
+
+
+
+#include <iostream>
+int m2 (int ax, char *p_ax) {
+  std::cout <<"Hello World!";
+  return 0;
+}
+
+
+
+
+
+Small text
+
+
+
+
+Use <small>small text</small> only 
+when necessary.
+
+
+
+Use small text only when necessary.
+
+
+
+
+a <small> span
+
+
+
+
+To match, for example, the font-size 
+used in an [[Help:Visual file 
+markup#Caption|image caption]], 
+the "small" tag can also be used to 
+<small style="font-size:87%;">reduce 
+a text's font-size to 87%</small>.
+
+
+
+To match, for example, the font-size used in an image caption, the "small" tag can also be used to reduce a text's font-size to 87%.
+
+
+
+
+Big text
+
+
+
+
+Better not use <big>big text</big>, 
+unless <small>it's <big>within</big> 
+small</small> text.
+
+
+
+Better not use big text, unless it's within small text.
+
+
+
+
+To prevent two words from becoming separated by a linewrap (e.g. Mr. Smith or 400 km/h) a non-breaking space, sometimes also called a "non-printing character", may be used between them. (For three or more words, the template {{nowrap}} is probably more suitable.)
+
+
+
+Mr.&nbsp;Smith or 400&nbsp;km/h
+
+
+Mr. Smith or 400 km/h
+
+
+
+
+Extra spacing within text is usually best achieved using the {{pad}} template.
+
+
+
+Mary {{pad|4.0em}} had a little lamb.
+
+
+Mary   had a little lamb.
+
+
+
+Special characters
+See also: Help:Special characters
+Special characters can often be displayed using numeric character references or character entity references. See Character encodings in HTML for more information. For example &Agrave; and &#xC0; both render À (A-grave). Percent-encoding can't be used, as it only works in URLs.
+Diacritical marks
+Diacritic marks, using character entity references.
+
+
+What you type
+What it looks like
+
+
+
+
+&Agrave; &Aacute; &Acirc; &Atilde; &Auml; &Aring; &AElig;
+
+&Ccedil; &Egrave; &Eacute; &Ecirc; &Euml;
+
+&Igrave; &Iacute; &Icirc; &Iuml; &Ntilde;
+
+&Ograve; &Oacute; &Ocirc; &Otilde; &Ouml; &Oslash; &OElig;
+
+&Ugrave; &Uacute; &Ucirc; &Uuml; &Yuml; &szlig;
+
+&agrave; &aacute; &acirc; &atilde; &auml; &aring; &aelig; &ccedil;
+
+&egrave; &eacute; &ecirc; &euml;
+
+&igrave; &iacute; &icirc; &iuml; &ntilde;
+
+&ograve; &oacute; &ocirc; &otilde; &ouml; &oslash; &oelig;
+
+&ugrave; &uacute; &ucirc; &uuml; &yuml;
+
+
+À Á Â Ã Ä Å Æ
+Ç È É Ê Ë
+Ì Í Î Ï Ñ
+Ò Ó Ô Õ Ö Ø Œ
+Ù Ú Û Ü Ÿ ß
+à á â ã ä å æ ç
+è é ê ë
+ì í î ï ñ
+ò ó ô õ ö ø œ
+ù ú û ü ÿ
+
+
+
+Punctuation special characters
+Using character entity references.
+
+
+What you type
+What it looks like
+
+
+&iquest; &iexcl; &sect; &para;
+¿ ¡ § ¶
+
+
+&dagger; &Dagger; &bull; &ndash; &mdash;
+† ‡ • – —
+
+
+&lsaquo; &rsaquo; &laquo; &raquo;
+‹ › « »
+
+
+&lsquo; &rsquo; &ldquo; &rdquo;
+‘ ’ “ ”
+
+
+&apos; &quot;
+' "
+
+
+Escaping punctuation characters
+The <pre>, <nowiki>, and <code> markup tags are also available, for writing "[", "{", "&", "}", "]" for example. These tags prevent these characters from being recognised as wiki markup, which is a possibility in some circumstances.
+Commercial symbols
+Using character entity references.
+
+
+What you type
+What it looks like
+
+
+&trade; &copy; &reg;
+™ © ®
+
+
+&cent; &euro; &yen; &pound; &curren;
+¢ € ¥ £ ¤
+
+
+Greek characters
+Using character entity references.
+
+
+What you type
+What it looks like
+
+
+&alpha; &beta; &gamma; &delta; &epsilon; &zeta;
+α β γ δ ε ζ
+
+
+&Alpha; &Beta; &Gamma; &Delta; &Epsilon; &Zeta;
+Α Β Γ Δ Ε Ζ
+
+
+&eta; &theta; &iota; &kappa; &lambda; &mu; &nu;
+η θ ι κ λ μ ν
+
+
+&Eta; &Theta; &Iota; &Kappa; &Lambda; &Mu; &Nu;
+Η Θ Ι Κ Λ Μ Ν
+
+
+&xi; &omicron; &pi; &rho; &sigma; &sigmaf;
+ξ ο π ρ σ ς
+
+
+&Xi; &Omicron; &Pi; &Rho; &Sigma;
+Ξ Ο Π Ρ Σ
+
+
+&tau; &upsilon; &phi; &chi; &psi; &omega;
+τ υ φ χ ψ ω
+
+
+&Tau; &Upsilon; &Phi; &Chi; &Psi; &Omega;
+Τ Υ Φ Χ Ψ Ω
+
+
+Egyptian hieroglyphs
+Main page: Help:WikiHiero syntax
+WikiHiero is a software extension that renders Egyptian hieroglyphs as PNG images using <hiero> tags.
+Example:
+
+
+Markup
+Renders as
+
+
+
+
+<hiero>P2</hiero>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chess symbols
+Main article: Chess symbols in Unicode
+For example, &#9812; displays ♔
+Subscripts and superscripts
+
+The Manual of Style prefers the <sub> and <sup> formats, for example x<sub>1</sub>. So this should be used under most circumstances.
+The latter methods of sub/superscripting cannot be used in the most general context, as they rely on Unicode support which may not be present on all users' machines.
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+Subscripts
+
+
+
+x<sub>1</sub> x<sub>2</sub> x<sub>3</sub> or
+
+x&#8320; x&#8321; x&#8322; x&#8323; x&#8324;
+
+x&#8325; x&#8326; x&#8327; x&#8328; x&#8329;
+
+
+x1 x2 x3 or
+x₀ x₁ x₂ x₃ x₄
+x₅ x₆ x₇ x₈ x₉
+
+
+
+
+Superscripts
+
+
+
+x<sup>1</sup> x<sup>2</sup> x<sup>3</sup> or
+
+x&#8304; x&sup1; x&sup2; x&sup3; x&#8308;
+
+x&#8309; x&#8310; x&#8311; x&#8312; x&#8313;
+
+
+x1 x2 x3 or
+x⁰ x¹ x² x³ x⁴
+x⁵ x⁶ x⁷ x⁸ x⁹
+
+
+
+
+Combined
+
+
+
+&epsilon;<sub>0</sub> = 8.85 &times; 10<sup>&minus;12</sup> C&sup2; / J m
+
+1 [[hectare]] = [[1 E+4 m&sup2;]]
+
+
+ε0 = 8.85 × 10−12 C² / J m
+1 hectare = 1 E+4 m²
+
+
+
+Characters in the Private Use Area, and invisible formatting characters
+Main article: MOS:TEXT § PUA and RTL
+Invisible and PUA (Private Use Areas) characters should be avoided where possible. When needed, they should both be replaced with their (hexa)decimal code values (as "&#(x)...;"). This renders invisible characters visible, for manual editing, and allows AWB to process pages with PUA characters. The latter should also be tagged with the {{PUA}} template for tracking and future maintenance.
+Mathematical characters and formulae
+Mathematical characters
+
+See also Wikipedia:Mathematical symbols, WikiProject Mathematics and TeX.
+
+
+
+What you type
+What it looks like
+
+
+&int; &sum; &prod; &radic;
+∫ ∑ ∏ √
+
+
+&minus; &plusmn; &infin;
+− ± ∞
+
+
+&asymp; &prop; &equiv; &ne;
+≈ ∝ ≡ ≠
+
+
+&le; &ge;
+≤ ≥
+
+
+&times; &middot; &divide; &part;
+× · ÷ ∂
+
+
+&prime; &Prime;
+′ ″
+
+
+&nabla; &permil; &deg; &there4; &alefsym;
+∇ ‰ ° ∴ ℵ
+
+
+&oslash;
+ø
+
+
+&isin; &notin; &cap; &cup;
+∈ ∉ ∩ ∪
+
+
+&sub; &sup; &sube; &supe;
+⊂ ⊃ ⊆ ⊇
+
+
+&not; &and; &or; &exist; &forall;
+¬ ∧ ∨ ∃ ∀
+
+
+&rArr; &lArr; &dArr; &uArr; &hArr;
+⇒ ⇐ ⇓ ⇑ ⇔
+
+
+&rarr; &darr; &uarr; &larr; &harr;
+→ ↓ ↑ ← ↔
+
+
+Mathematical formulae
+Main page: Help:Displaying a formula
+
+Formulae that include mathematical letters, like x, and operators like × should not use the plain letter x. See math font formatting. For a comprehensive set of symbols, and comparison between <math> tags and the {{math}} template see section TeX vs HTML.
+
+
+The <math> tag typesets using LaTeX markup, which may render as an image or as HTML, depending on environmental settings. The <math> tag is best for the complex formula on its own line in an image format. If you use this tag to put a formula in the line with text, put it in the {{nowrap}} template.
+
+
+The {{math}} template uses HTML, and will size-match a serif font, and will also prevent line-wrap. All templates are sensitive to the = sign, so remember to replace = with {{=}} in template input, or start the input with 1=. Use wikimarkup '' and ''' inside the {{math}} template, as well as other HTML entities. The {{math}} template is best for typeset formulas in line with the text.
+
+
+
+Markup
+Renders as
+
+
+
+
+<math>2x \times 4y \div 6z + 8 - \frac {y}{z^2} = 0</math>
+
+{{math|2x &times; 4y &divide; 6z + 8 &minus; {{Fraction|y|z<sup>2</sup>}} {{=}} 0}}
+
+<math>\sin 2\pi x + \ln e</math>
+
+{{math|sin 2&pi;''x'' + ln ''e''}}
+
+
+
+
+
+
+
+2
+x
+×
+4
+y
+÷
+6
+z
++
+8
+−
+
+
+y
+
+z
+
+2
+
+
+
+
+=
+0
+
+
+{\displaystyle 2x\times 4y\div 6z+8-{\frac {y}{z^{2}}}=0}
+
+
+2x × 4y ÷ 6z + 8 −  y⁄z2 = 0
+
+
+
+
+sin
+⁡
+2
+π
+x
++
+ln
+⁡
+e
+
+
+{\displaystyle \sin 2\pi x+\ln e}
+
+
+sin 2πx + ln e
+
+
+
+
+
+
+
+
+Spacing in simple math formulae
+
+Using &nbsp; to prevent line break is not needed; the {{math}} template will prevent line breaks anyway; you can use <br /> if you need an explicit line break inside a formula.
+
+
+
+Markup
+Renders as
+
+
+
+
+It follows that {{math|''x''<sup>2</sup> &ge; 0}} for real {{mvar|x}}.
+
+
+
+It follows that x2 ≥ 0 for real x.
+
+
+
+
+
+
+
+
+Complicated formulae
+
+See Help:Displaying a formula for how to use <math>.
+A formula displayed on a line by itself should probably be indented by using the colon (:) character.
+
+
+
+Markup
+Renders as
+
+
+
+
+: <math>\sum_{n=0}^\infty \frac{x^n}{n!}</math>
+
+
+
+
+
+
+
+
+
+
+∑
+
+n
+=
+0
+
+
+∞
+
+
+
+
+
+x
+
+n
+
+
+
+n
+!
+
+
+
+
+
+{\displaystyle \sum _{n=0}^{\infty }{\frac {x^{n}}{n!}}}
+
+
+
+
+
+
+
+
+
+
+
+Links and URLs
+Main page: Help:Link
+Free links
+In Wikipedia and some other wikis, free links are used in wikitext markup to produce internal links between pages, as opposed to the concept of CamelCase for the same purpose, which was used in the early days of Wikipedia – see CamelCase and Wikipedia.
+In Wikipedia's markup language, you create free links by putting double square brackets around text designating the title of the page you want to link to. Thus, [[Texas]] will be rendered as Texas. Optionally, you can use a vertical bar (|) to customize the link title. For example, typing [[Texas|Lone Star State]] will produce Lone Star State, a link that is displayed as "Lone Star State" but in fact links to Texas.
+Link to another wiki article
+
+Internally, the first letter of the target page is automatically capitalized and spaces are represented as underscores (typing an underscore in the link has the same effect as typing a space, but is not recommended).
+Thus the link hereafter is to the Web address en.wikipedia.org/wiki/Public_transport, which is the Wikipedia article with the name "Public transport". See also Canonicalization.
+A red link is a page that doesn't exist yet; it can be created by clicking on the link.
+A link to its own page will appear only as bold text.
+
+
+
+Markup
+Renders as
+
+
+
+
+London has [[public transport]].
+
+
+
+London has public transport.
+
+
+
+
+
+
+Link to this article: "[[Help:Wiki markup]]" will appear only as bold text.
+
+
+
+Link to this article: "Help:Wiki markup" will appear only as bold text.
+
+
+
+
+
+
+
+
+Renamed link
+
+Same target, different name.
+The target ("piped") text must be placed first, then the text to be displayed second.
+
+
+
+What you type
+What it looks like
+
+
+
+New York also has [[public transport|public transportation]].
+
+
+New York also has public transportation.
+
+
+
+Automatically rename links
+
+Simply typing the pipe character | after a link will automatically rename the link in certain circumstances. The next time you open the edit box you will see the expanded piped link. When previewing your edits, you will not see the expanded form until you press Save and Edit again. The same applies to links to sections within the same page.
+See Pipe trick for details.
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+Automatically hide stuff in parentheses
+
+
+[[kingdom (biology)|]]
+
+
+kingdom
+
+
+
+Automatically hide the comma and following text
+[[Seattle, Washington|]]
+Seattle
+
+
+
+Automatically hide namespace
+
+
+[[Wikipedia:Village pump|]]
+
+
+Village pump
+
+
+
+
+Or both
+
+
+[[Wikipedia:Manual of Style (headings)|]]
+
+
+Manual of Style
+
+
+
+
+But this doesn't work for section links
+
+
+[[Wikipedia:Manual of Style#Links|]]
+
+
+[[Wikipedia:Manual of Style#Links|]]
+
+
+
+Blend link
+
+Endings are blended into the link.
+
+Exception: a trailing apostrophe (') and any characters following the apostrophe are not blended.
+
+
+Preferred style is to use this instead of a piped link, if possible.
+Blending can be suppressed by using the <nowiki /> tag, which may be desirable in some instances.
+
+
+
+Description
+What you type
+What it looks like
+
+
+Blending active
+
+San Francisco also has [[public transport]]ation. Examples include [[bus]]es, [[taxicab]]s, and [[tram]]s.
+
+San Francisco also has public transportation. Examples include buses, taxicabs, and trams.
+
+
+A [[micro-]]second
+A micro-second
+
+
+
+Blending suppressed
+
+
+A [[micro-]]<nowiki />second.
+
+
+A micro-second
+
+
+
+Link to a section of a page
+
+The part after the hash sign (#) must match a section heading on the page. Matches must be exact in terms of spelling, case, and punctuation. Links to non-existent sections are not broken; they are treated as links to the beginning of the page.
+Include "| link title" to create a stylish (piped) link title.
+If sections have the same title, add a number to link to any but the first. #Example section 3 goes to the third section named "Example section". You can use the pipe and retype the section title to display the text without the # symbol.
+
+
+
+What you type
+What it looks like
+
+
+
+[[Wikipedia:Manual of Style#Italics]] is a link to a section within another page.
+
+
+Wikipedia:Manual of Style#Italics is a link to a section within another page.
+
+
+
+
+[[#Links and URLs]] is a link to another section on the current page. [[#Links and URLs|Links and URLs]] is a link to the same section without showing the # symbol.
+
+
+#Links and URLs is a link to another section on the current page. Links and URLs is a link to the same section without showing the # symbol.
+
+
+
+
+[[Wikipedia:Manual of Style#Italics|Italics]] is a piped link to a section within another page.
+
+
+Italics is a piped link to a section within another page.
+
+
+
+Create a page link
+
+To create a new page:
+
+Create a link to it on some other (related) page.
+Save that page.
+Click on the link you just made. The new page will open for editing.
+
+
+For more information, see starting an article and check out Wikipedia's naming conventions.
+Please do not create a new article without linking to it from at least one other article.
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+Links to pages that don’t exist yet look red.
+
+
+The article about [[cardboard sandwiches]] doesn't exist yet.
+
+
+The article about cardboard sandwiches doesn't exist yet.
+
+
+
+Redirects
+Main page: Help:Redirect
+
+Redirect one article title to another by placing a directive like the one shown to the right on the first line of the article (such as at a page titled "USA").
+It is possible to redirect to a section. For example, a redirect to United States#History will redirect to the History section of the United States page, if it exists.
+
+
+
+Description
+What you type
+
+
+
+Redirect to an article
+
+
+#REDIRECT [[United States]]
+
+
+
+
+Redirect to a section
+
+
+#REDIRECT [[United States#History]]
+
+
+
+Link to another namespace
+
+The full page name should be included in double square brackets.
+
+
+
+What you type
+What it looks like
+
+
+
+See the [[Wikipedia:Manual of Style]].
+
+
+See the Wikipedia:Manual of Style.
+
+
+
+Link to the same article in another language (interlanguage links)
+Main pages: Help:Interlanguage links and Wikipedia:Complete list of language wikis available
+
+
+
+After the launch of Wikidata, interlanguage links are now added through it. Links in articles should only exist in special cases, for example when an article in one language has two articles in another language.
+
+
+
+To link to a corresponding page in another language, use the form: [[language code:Foreign title]].
+It is recommended interlanguage links be placed at the very end of the article.
+Interlanguage links are not visible within the formatted article, but instead appear as language links on the sidebar (to the left) under the menu section "languages".
+
+
+NOTE: To create an inline link (a clickable link within the text) to any foreign language article, see Help:Interlanguage links#Inline interlanguage links and consider the usage notes.
+
+
+
+Description
+What you type
+
+
+
+Link from English article "Plankton" to the Spanish article "Plancton".
+"es" is the language code for "español" (the Spanish language).
+
+
+
+[[es:Plancton]]
+
+
+
+
+Other examples: French (fr for français), German (de for Deutsch), Russian (ru), and simple English (simple).
+
+
+
+[[fr:Plancton]]
+[[de:Plankton]]
+[[ru:Планктон]]
+[[simple:Plankton]]
+
+
+
+Interwiki link
+
+Interwiki links link to any page on other wikis. Interwikimedia links link to other Wikimedia wikis.
+Note that interwikimedia links use the internal link style, with double square brackets.
+See MetaWikiPedia:Interwiki_map for the list of shortcuts; if the site you want to link to is not on the list, use an external link.
+See also Wikimedia sister projects.
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+Linking to a page on another wiki in English.
+All of these forms lead to the URL http://en.wiktionary.org/wiki/hello.
+
+
+
+
+Simple link.
+Without prefix.
+Named link.
+
+
+[[Wiktionary:hello]]
+[[Wiktionary:hello|]]
+[[Wiktionary:hello|Wiktionary definition of "hello"]]
+
+
+Wiktionary:hello
+hello
+Wiktionary definition of "hello"
+
+
+
+
+Linking to a page on another wiki in another language.
+All of these forms lead to the URL http://fr.wiktionary.org/wiki/bonjour.
+
+
+
+
+Simple link.
+Without prefix.
+Named link.
+
+
+[[Wiktionary:fr:bonjour]]
+[[Wiktionary:fr:bonjour|]]
+[[Wiktionary:fr:bonjour|bonjour]]
+
+
+Wiktionary:fr:bonjour
+fr:bonjour
+bonjour
+
+
+
+Categories
+
+To put an article in a category, place a link like [[Category:Example]] into the article. As with interlanguage links, placing these links at the end of the article is recommended.
+To link to a category page without putting the article into the category, use a colon prefix (":Category") in the link.
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+Categorize an article.
+
+
+[[Category:Character sets]]
+
+
+
+
+
+Link to a category.
+
+
+[[:Category:Character sets]]
+
+
+Category:Character sets
+
+
+
+
+Without prefix.
+
+
+[[:Category:Character sets|]]
+
+
+Character sets
+
+
+
+External links
+
+Single square brackets indicate an external link. Note the use of a space (not a pipe |) to separate the URL from the link text in a named link. Square brackets may be used as normal punctuation when not linking to anything – [like this].
+A URL must begin with a supported URI scheme: http:// and https:// will be supported by all browsers; irc://, ircs://, ftp://, news://, mailto:, and gopher:// will require a plugin or an external application. IPv6 addresses in URLs are currently not supported.
+A URL containing certain characters will display and link incorrectly unless those characters are percent encoded. For example, a space must be replaced by %20. Encoding can be achieved by:
+
+
+
+
+Use the link button  on the enhanced editing toolbar to encode the link; this tool will add the bracket markup and the linked text, which may not always be desirable.
+Or manually encode the URL by replacing these characters:
+
+
+
+
+
+space
+"
+'
+,
+ ;
+<
+>
+ ?
+[
+]
+
+
+ %20
+ %22
+ %27
+ %2c
+ %3b
+ %3c
+ %3e
+ %3f
+ %5b
+ %5d
+
+
+
+
+
+Or use the {{urlencode:}} magic word. See Help:Magic words in the MediaWiki documentation for more details.
+
+
+
+
+See External links for style issues, and External link file type templates for indicating the file type of an external link with an icon.
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+Named link with an external link icon
+
+
+[http://www.wikipedia.org Wikipedia]
+
+
+Wikipedia
+
+
+
+
+Unnamed link
+(Only used within article body for footnotes)
+
+
+[http://www.wikipedia.org]
+
+
+[1]
+
+
+
+
+Bare URL
+(Bad style)
+use <nowiki></nowiki> to keep this bad style from showing
+
+
+http://www.wikipedia.org
+
+
+http://www.wikipedia.org
+
+
+
+
+Link without arrow
+(Not often used)
+
+
+<span class="plainlinks">[http://www.wikipedia.org Wikipedia]</span>
+
+
+Wikipedia
+
+
+
+Automatic links
+Main page: Help:Magic links
+Magic links are automatic links for certain unique identifiers, that require no markup. They can be used for ISBN numbers, RFC numbers, and PMID numbers.
+Book sources
+
+Link to books using their ISBN, which creates a link to Special:BookSources. This is preferred to linking to a specific online bookstore, because it gives the reader a choice of vendors. However, if one bookstore or online service provides additional free information, such as table of contents or excerpts from the text, then a link to that source will aid the user and is recommended. ISBN links do not need any extra markup, provided you use one of the indicated formats.
+To create a link to Special:BookSources using alternative text (e.g. the book's title), use the internal link style with the appropriate namespace.
+
+
+
+What you type
+What it looks like
+
+
+
+ISBN 012345678X
+
+
+ISBN 012345678X
+
+
+
+
+ISBN 0-12-345678-X
+
+
+ISBN 0-12-345678-X
+
+
+
+
+Link to a book using [[Special:BookSources/0670037818|alternative text, such as its title]]
+
+
+Link to a book using alternative text, such as its title
+
+
+
+RFC number
+
+Link to an Internet Engineering Task Force Request for Comments (RFC).
+
+
+
+What you type
+What it looks like
+
+
+
+Text mentioning an RFC number anywhere, e.g. RFC 4321.
+
+
+Text mentioning an RFC number anywhere, e.g. RFC 4321.
+
+
+
+Miscellaneous
+"As of" template
+
+The As of template generates phrases like "As of April 2009" or "as of April 2009", and categorize information that will need updating. For an explanation of the parameters see the {{As of}} documentation.
+
+
+
+What you type
+What it looks like
+
+
+
+{{As of|2009|4|df=us}}
+
+
+As of April 2009[update]
+
+
+
+
+{{As of|2009|4|df=us|lc=y}}
+
+
+as of April 2009[update]
+
+
+
+Media link
+
+To include links to non image uploads such as sounds, use a "media" link. For images, see next section.
+Some uploaded sounds are listed at Commons:Sound.
+
+
+
+What you type
+What it looks like
+
+
+
+[[media:Classical guitar scale.ogg|Sound]]
+
+
+Sound
+
+
+
+Links directly into edit mode
+
+These create links that directly go to the edit or view source tab. For example, to create links to the edit tab for this page, either of the following works:
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+Using the {{fullurl}} template
+
+
+[{{fullurl:Help:Wiki markup|action=edit}} edit]
+
+
+edit
+
+
+
+
+Using the {{Edit}} template
+
+
+{{edit}}
+
+
+edit
+
+
+
+Links partially italicized
+
+Linking to a page with a title containing words that are usually italicized, such as the Hindenburg disaster article.
+
+
+
+What you type
+What it looks like
+
+
+
+[[Hindenburg disaster|''Hindenburg'' disaster]]
+
+
+Hindenburg disaster
+
+
+
+Pronunciation aids
+It is often desirable to provide an aid to pronunciation for a word. The IPAc-en and Respell templates can be of assistance.
+
+
+What you type
+What it looks like
+
+
+
+'''Konjac''' {{IPAc-en|lang|pron|ˈ|k|oʊ|n|j|æ|k}}
+
+
+Konjac English pronunciation: /ˈkoʊnjæk/
+
+
+
+
+'''Konjac''' ({{IPAc-en|lang|pron|ˈ|k|oʊ|n|j|æ|k}} {{respell|KOHN|yak}})
+
+
+Konjac (English pronunciation: /ˈkoʊnjæk/ KOHN-yak)
+
+
+
+
+''Konjac'' is pronounced {{IPAc-en|ˈ|k|oʊ|n|j|æ|k}} in English.
+
+
+Konjac is pronounced /ˈkoʊnjæk/ in English.
+
+
+
+Refer to Wikipedia:Manual of Style (pronunciation) for more information.
+Musical notation
+Main page: Help:Score
+Musical notation is added by using the <score>...</score> extension tag. For example:
+
+
+Markup
+Renders as
+
+
+
+
+<score>\relative c' { fis d fis a d f e d c cis d e a g f ees }</score>
+
+
+
+
+
+
+
+
+
+
+
+
+Images
+Main pages: Help:Visual file markup and Wikipedia:Images
+Only images that have been uploaded to Wikipedia can be used. To upload images, use the upload page. You can find the uploaded image on the image list.
+See the Wikipedia's image use policy for the policy used on Wikipedia.
+For further help on images, including some more versatile abilities, see the picture tutorial and extended image syntax.
+
+
+What you type
+What it looks like
+Notes
+
+
+
+
+A picture: 
+[[File:wiki.png]]
+
+A picture:
+
+
+
+
+
+
+
+With alternative text: 
+[[File:wiki.png|alt=Puzzle globe logo]]
+
+With alternative text:
+
+
+
+
+Alternative text, used when the image is unavailable or when the image is loaded in a text-only browser, or when spoken aloud, is strongly encouraged. See Alternative text for images for help on choosing it.
+
+
+
+
+
+
+With link: 
+[[File:wiki.png|link=Wikipedia]]
+
+With link: 
+
+
+
+
+The link directs to a page, Wikipedia, instead of the file.
+
+
+
+
+
+
+Floating to the right side of the page
+using the ''frame'' attribute and a caption: 
+[[File:wiki.png|frame|alt=Puzzle globe|Wikipedia logo]]
+
+Floating to the right side of the page using the frame attribute and a caption:
+
+
+Wikipedia logo
+
+
+
+
+
+
+The frame tag automatically floats the image right.
+The last parameter is the caption that appears below the image.
+
+
+
+
+
+
+Floating to the right side of the page
+using the ''thumb'' attribute and a caption: 
+[[File:wiki.png|thumb|alt=Puzzle globe|Wikipedia logo]]
+
+Floating to the right side of the page using the thumb attribute and a caption:
+
+
+
+
+Wikipedia logo
+
+
+
+
+
+
+The thumb tag automatically floats the image right.
+An enlarge icon is placed in the lower right corner.
+
+
+
+
+
+
+Floating to the right side of the page
+''without'' a caption: 
+[[File:wiki.png|right|Wikipedia encyclopedia]]
+
+Floating to the right side of the page without a caption:
+
+
+
+
+The picture tutorial explains more options.
+
+
+
+
+
+
+A picture resized to 30 pixels... 
+[[File:wiki.png|30 px|Wikipedia encyclopedia]]
+
+A picture resized to 30 pixels...
+
+
+
+
+The picture tutorial explains more options.
+
+
+
+
+
+
+Linking directly to the description page of an image: 
+[[:File:wiki.png]]
+
+Linking directly to the description page of an image:
+File:wiki.png
+
+
+
+Clicking on an image displayed normally on a page also leads to the description page.
+
+
+
+
+
+
+Linking directly to an image without displaying it: 
+[[Media:wiki.png|Image of jigsaw globe]]
+
+Linking directly to an image without displaying it:
+Image of jigsaw globe
+
+
+
+To include links to images shown as links instead of drawn on the page, use a "media" link.
+
+
+
+
+
+
+
+Example: 
+<div style="display: inline; width: 220px; float: right;">
+Place images here </div>
+
+
+
+Example:
+Place images here
+
+
+Using the span or div elements to separate images from text (note that this may allow images to cover text).
+
+
+
+
+
+Example:
+
+{| align=right
+|-
+|
+Place images here
+|}
+
+
+Example:
+
+
+
+Place images here
+
+
+
+
+
+Using wiki markup to make a table in which to place a vertical column of images (this helps edit links match headers, especially in Firefox browsers).
+
+
+
+Tables
+Main page: Help:Table
+There are two ways to build tables:
+
+In special wiki-markup (see Help:Table).
+Using HTML elements: <table>, <tr>, <td> or <th>.
+
+See also When tables are appropriate.
+References and citing sources
+Main pages: Wikipedia:Citing sources and Help:Footnotes
+See also: APA style, Chicago style, Harvard style, and MLA style
+Making a reference citing a printed or online source can be accomplished by using the <ref>...</ref> tags. Inside these tags details about the reference are added.
+Details about the citation can be provided using a structure provided by various templates; the table below lists some typical citation components.
+
+
+What it's for
+What you type
+
+
+To create the reference
+<ref name="name for reference">Use a closing tag</ref>
+
+
+To cite a book
+{{cite book}}
+
+
+To cite a web source
+{{cite web}}
+
+
+Book ISBN
+|isbn=0-4397-0818-4 (ISBN of the book)
+
+
+Web URL
+|url=http://www.wikipedia.org
+
+
+Title
+|title=title of source
+
+
+Author
+|author=authors, use commas for multiple
+
+
+First name
+|first=first name
+
+
+Last name
+|last=last name
+
+
+Location
+|location=location of publisher
+
+
+Publisher
+|publisher=who published the source
+
+
+Date
+|date=2007-09-21 (date of source)
+
+
+Year
+|year=year of source
+
+
+Accessed date
+|accessdate=2008-12-25 (only if url= is included)
+
+
+A complete reference tag
+<ref name="WikiMarkup">{{cite web |url=http://en.wikipedia.org/w/index.php?title=Help:Wiki_markup |title=Help:Wiki markup |publisher=Wikimedia Foundation}}</ref>
+
+
+Referencing this again
+<ref name="WikiMarkup" />
+
+
+Citation needed
+{{Citation needed|{{subst:DATE}}}}
+
+
+Templates and transcluding pages
+Main page: Wikipedia:Transclusion
+See also: Help:Template § Noinclude, includeonly, and onlyinclude
+Examples for templates: {{pad|...}}, {{math|...}}, {{as of|...}}, {{edit}}
+Templates are segments of wiki markup that are meant to be copied automatically ("transcluded") into a page. You add them by putting the template's name in {{double braces}}. It is also possible to transclude other pages by using {{:colon and double braces}}.
+There are three pairs of tags that can be used in wikitext to control how transclusion affects parts of a template or article. They determine whether or not wikitext renders, either in its own article, which we will call "here", or in another article where it is transcluded, which we will call "there".
+
+<noinclude>: the content will not be rendered there. These tags have no effect here.
+<includeonly>: the content will render only there, and will not render here (like invisible ink made visible by means of transclusion).
+<onlyinclude>: the content will render here and will render there, but it will only render there what is between these tags.
+
+There can be several such section "elements". Also, they can be nested. All possible renderings are achievable. For example, to render there one or more sections of the page here use <onlyinclude> tags. To append text there, wrap the addition in <includeonly> tags before, within, or after the section. To omit portions of the section, nest <noinclude> tags within it.
+If a page is transcluded without transclusion markup, it may cause an unintentional categorization. Any page transcluding it will contain the same category as the original page. Wrap the category markup with <noinclude> tags to prevent incorrect categorization.
+Some templates take parameters, as well, which you separate with the pipe character |.
+
+
+What you type
+What it looks like
+
+
+
+
+{{Transclusion demo}}
+
+
+
+This text comes from the page named Template:Transclusion demo. It has been transcluded into this page.
+
+
+
+
+
+
+{{Help:Transclusion demo}}
+
+
+This transclusion demo is a little bit of text from the page Help:Transclusion demo to be included into any file.
+
+
+
+
+
+This template takes two parameters,
+and creates underlined text with a
+hover box for many modern browsers
+supporting CSS:
+
+{{H:title|This is the hover text|
+Hover your mouse over this text}}
+
+Go to this page to see the H:title
+template itself: {{tl|H:title}}
+
+
+This template takes two parameters, and creates underlined text with a hover box for many modern browsers supporting CSS:
+Hover your mouse over this text
+Go to this page to see the H:title template itself: {{H:title}}
+
+
+
+Talk and project pages
+These are likely to be helpful on talk and project pages.
+Signing comments
+
+The tilde character (~) is used when signing a comment on a talk page. Your username provides a link to your user page.
+
+
+
+Description
+What you type
+What it looks like
+
+
+
+You should sign your comments by appending four tildes to the comment, which adds your user name plus date/time.
+
+
+~~~~
+
+
+Username (talk) 15:41, 8 February 2017 (UTC)
+
+
+
+
+Adding three tildes will add just your user name.
+
+
+~~~
+
+
+Username (talk)
+
+
+
+
+Adding five tildes gives the date/time alone.
+
+
+~~~~~
+
+
+15:41, 8 February 2017 (UTC)
+
+
+
+Linking to old revisions of pages, diffs, and specific history pages
+
+The external link function is mainly used for these. Open an old revision or diff, and copy the URL from the address bar, pasting it where you want it.
+
+
+
+What you type
+What it looks like
+
+
+
+[http://en.wikipedia.org/w/index.php?title=Help:Wiki_markup&diff=330350877&oldid=330349143 Diff between revisions 330349143 and 330350877]
+
+
+Diff between revisions 330349143 and 330350877
+
+
+
+
+You can also use an internal diff link. Unlike the template {{diff}}, this kind of link can even be used in edit summaries.
+
+
+
+What you type
+What it looks like
+
+
+
+[[Special:Diff/330349143/330350877|Diff between revisions 330349143 and 330350877]]
+
+
+Diff between revisions 330349143 and 330350877
+
+
+
+
+If the diff intended to be shown is between an immediately previous revision, the first parameter can be dropped.
+
+
+
+What you type
+What it looks like
+
+
+
+[[Special:Diff/330350877|Diff between revisions 330349143 and 330350877]]
+
+
+Diff between revisions 330349143 and 330350877
+
+
+
+
+For an old revision, you can also use a permalink. Though here only the main text is guaranteed to be retained (images and templates will be shown as they are today, not as they were at the time).
+
+
+
+What you type
+What it looks like
+
+
+
+[[Special:Permalink/330350877|Revision 330350877]]
+
+
+Revision 330350877
+
+
+
+What links here, and recent changes linked
+
+The following markup can be used. For example, for the article Beetroot:
+
+
+
+What you type
+What it looks like
+
+
+
+[[Special:WhatLinksHere/Beetroot]]
+
+
+Special:WhatLinksHere/Beetroot
+
+
+
+
+[[Special:RecentChangesLinked/Beetroot]]
+
+
+Special:RecentChangesLinked/Beetroot
+
+
+
+User edits
+
+Link to a user's contributions page.
+
+
+
+Description
+What you type
+What it looks like
+
+
+Username (registered users).
+[[Special:Contributions/UserName]]
+Special:Contributions/UserName
+
+
+IPv4 address (unregistered users).
+[[Special:Contributions/192.0.2.0]]
+Special:Contributions/192.0.2.0
+
+
+IPv6 address (unregistered users).
+[[Special:Contributions/2001:0db8:0000:0000:0000:ff00:0042:8329]]
+Special:Contributions/2001:0db8:0000:0000:0000:ff00:0042:8329
+
+
+Coloring and highlighting text
+
+
+Using the {{Color}} and {{Font color}} templates:
+
+
+
+What you type
+What it looks like
+
+
+
+I will change the color in {{color|blue|the middle part of}} this sentence.
+
+
+I will change the color in the middle part of this sentence.
+
+
+
+
+This is how to {{Font color||yellow|highlight part of a sentence}}.
+
+
+This is how to highlight part of a sentence.
+
+
+
+Show deleted or inserted text
+For more details on this topic, see Wikipedia:Talk page guidelines.
+
+When editing your own previous remarks in talk pages, it is sometimes appropriate to mark up deleted or inserted content:
+
+It is best to indicate deleted content using the strike-through markup <s>...</s>.
+It is best to indicate inserted content using the underline markup <u>...</u>.
+
+
+When editing regular Wikipedia articles, just make your changes, and do not mark them up in any special way. However, when the article itself discusses deleted or inserted content, such as an amendment to a statute:
+
+It is best to indicate deleted content using the strike-through markup <del>...</del>.
+It is best to indicate inserted content using the underline markup <ins>...</ins>.
+
+
+
+Note: <s></s> and <u></u> (speced in HTML 3 & 4) are considerably more popular than <del></del> and <ins></ins> (speced in HTML 5) on Wikipedia.
+
+
+What you type
+What it looks like
+
+
+
+You can <del>strike out deleted material</del> and <ins>underline new material</ins>.
+
+
+You can strike out deleted material and underline new material.
+
+
+
+
+Alternative markup:
+You can <s>strike out deleted material</s> and <u>underline new material</u>.
+
+
+
+You can strike out deleted material and underline new material.
+
+
+
+ Limiting formatting / escaping wiki markup
+A few different kinds of formatting will tell the wiki to display things as you typed them – what you see is what you get!
+
+
+What you type
+What it looks like
+
+
+
+
+'''&lt;nowiki&gt; tag:'''
+
+<nowiki>
+The nowiki tag ignores [[wiki]]
+''markup''. It reformats text by
+removing newlines and multiple
+spaces. It still interprets
+characters specified by
+&name;: &rarr;
+</nowiki>
+
+
+<nowiki> tag:
+The nowiki tag ignores [[wiki]] ''markup''. It reformats text by removing newlines and multiple spaces. It still interprets characters specified by &name;: →
+
+
+
+
+
+'''&lt;pre&gt; tag:'''
+
+<pre>The <pre> tag ignores [[wiki]]
+''markup'' as does the <nowiki>
+tag. Additionally, <pre> displays
+in a mono-spaced font, and does
+not  reformat    text    spaces.
+It still interprets special
+characters: &rarr;
+</pre>
+
+
+<pre> tag:
+
+The <pre> tag ignores [[wiki]]
+''markup'' as does the <nowiki>
+tag. Additionally, <pre> displays
+in a mono-spaced font, and does
+not  reformat    text    spaces.
+It still interprets special
+characters: →
+
+
+
+
+
+'''[Text without a URL]:'''
+
+Single square brackets holding
+[text without a HTTP URL] are
+preserved, but single square
+brackets containing a URL are
+treated as being an external
+[http://example.com/ Web link].
+
+
+[Text without a URL]:
+Single square brackets holding [text without a HTTP URL] are preserved, but single square brackets containing a URL are treated as being an external Web link.
+
+
+
+
+
+
+'''Leading space:'''
+
+Leading spaces are another way
+to preserve formatting.
+ Putting a space at the
+ beginning of each line
+ stops the text   from
+ being reformatted.
+ It still interprets [[wiki]]
+ ''markup'' and special characters: &amp;rarr;
+
+
+
+Leading space:
+Leading spaces are another way to preserve formatting.
+
+Putting a space at the
+beginning of each line
+stops the text   from
+being reformatted.
+It still interprets wiki
+markup and special characters: →
+
+
+
+Nowiki
+
+Shortcuts:
+
+Help:NOWIKI
+WP:NOWIKI
+
+
+In order for the software to interpret wiki markup, its parser first scans the page. When it sees its nowiki tags
+
+<nowiki>...</nowiki> (escapes all contained wiki markup), and
+<nowiki /> (escapes the interpretations it is designed to "break"),
+
+it escapes its wikicode, so editors can document its markup using its markup.
+Article editors can normalize the font of characters trailing [[...]]outside a wikilink, that would otherwise adhere to the wikilink font. They can also add line-spacing in the wikitext. Template editors: tag <nowiki> only works on it's source page, not the target; also {{#tag:nowiki | content}}, although it wraps that content in nowiki tags, it also does a pre-save transform on that content, which is entirely at odds with the intended purpose of nowiki for templates, subst, signatures, and the pipe-trick.
+The two kinds of nowiki operate in different ways to target content, but they both remove meaning (subtract rendering) of wiki markup, then disappear into the background font. Nowiki does nothing toward rendering, but it can add newlines to wikitext (for readability), just like the HTML comment (the preferred method) can. Unlike it does for wiki markup, nowiki does not remove the meaning of character entities, either HTML or MediaWiki special characters.
+There is only one meaning for what <nowiki>...</nowiki> contains, so it needs few examples; but the singular <nowiki /> tag "contains" many linkage structures, where it is expected between bracketing-pair characters or in the keyword area. So this section has many examples and few mis-examples.
+For example, only at the beginning of a line (bol of wikitext, bol in a transclusion, or beginning of a table cell), do *, #, ; or : mean something.
+
+
+Markup
+Renders as
+
+
+
+
+# Ordered list
+
+
+
+
+
+Ordered list
+
+
+
+
+
+
+
+<nowiki /># Ordered list
+
+
+
+# Ordered list
+
+
+
+
+
+
+A [[micro-]]second.
+
+
+
+A micro-second.
+
+
+
+
+
+
+A [[micro-]]<nowiki />second.
+
+
+
+A micro-second.
+
+
+
+
+
+
+a<nowiki>
+
+b</nowiki>
+
+
+
+a b
+
+
+
+
+
+
+'<nowiki />'Italics' markup'<nowiki />'
+
+
+
+''Italics' markup''
+
+
+
+
+
+
+<nowiki>[[Example]]</nowiki>
+
+
+
+[[Example]]
+
+
+
+
+
+
+<nowiki><!-- revealed --></nowiki>
+
+
+
+<!-- revealed -->
+
+
+
+
+
+
+
+
+The rest of the section are simple, live examples showing how a single nowiki tag escapes entire linkage structures, beyond [[ wikilink ]] and {{ template }}:
+
+[[ fullpagename | label ]]
+{{ pagename | parameter }}
+[[fullpagename | {{ pagename }} ]]
+{{ pagename | [[ fullpagename ]] }}
+{{ pagename | {{ pagename }} }}
+
+Unless you use the two "balanced" nowiki tags, troubleshooting strip marker errors and template parameter-handling inconsistencies is a risk. Also, a rendering error may arise when two [[...]] square brackets are on the same line, or two {{...}} curly brackets are in the same section, but only when the two have the nowiki markup placed inconsistently.
+Displaying wikilinks
+(These are all live examples.)
+
+[[ wp:pagename | page name ]]
+[<nowiki />[ wp:pagename | page name ]]
+[[<nowiki /> wp:pagename | page name ]]
+[[ wp:pagename <nowiki />| page name ]]
+[[ wp:pagename | page name ]<nowiki />]
+
+
+page name
+[[ wp:pagename | page name ]]
+[[ wp:pagename | page name ]]
+[[ wp:pagename | page name ]]
+[[wp:pagename | page name ]]
+
+For nested structures, escaping an inner structure escapes its outer structure too.
+
+[[ wp: {{ 1x | pagename }} ]]
+[[ wp: {<nowiki />{ 1x | pagename }} ]]
+[[ wp: {{<nowiki /> 1x | pagename }} ]]
+[[ wp: {{ 1x <nowiki />| pagename }} ]]
+
+
+wp: pagename
+[[ wp: {{ 1x | pagename }} ]]
+[[ wp: {{ 1x | pagename }} ]]
+[[ wp: {{ 1x | pagename }} ]]
+
+For two, first pipes, two nowiki tags are required:
+
+[[ wp: pagename | {{ 1x | label }} ]]
+[[ wp: pagename <nowiki />| {{ 1x <nowiki />| label }} ]]
+<nowiki>[[ wp: pagename | {{ 1x | label }} ]] </nowiki>
+
+
+label
+[[ wp: pagename | {{ 1x | label }} ]]
+[[ wp: pagename | {{ 1x | label }} ]]
+
+Displaying template calls
+See also: Template:tl
+For templates, put nowiki before the first pipe. If a parameter has a wikilink, put it in that, an inmost position.
+
+{<nowiki />{ val | u=&gt; [[ms]] | 49082 }}
+{{<nowiki /> val | u=&gt; [[ms]] | 49082 }}
+{{ val <nowiki />| u=&gt; [[ms]] | 49082 }}
+{{ val | u= > [[ms]] | 49082 }<nowiki />}
+{{ val | u= > [[ ms ]<nowiki />] | 49082 }} 
+
+
+{{ val | u=> ms | 49082 }}
+{{ val | u= > ms | 49082 }}
+{{ val | u=> ms | 49082 }}
+{{ val | u=> ms | 49082 }}
+{{ val | u= > [[ ms ]] | 49082 }} Y
+
+Displaying magic words
+For input parameters, {{{1}}}, {{{2}}}, just write them out, unless they have a default (which goes behind their pipe): {{<nowiki />{1|default}}} → {{{1|default}}}
+For a parser function nowiki goes between bracketing-pair characters, or anywhere before the : colon.
+
+{{ #ifeq: inYes | inYes | outYes | outNo }}
+{<nowiki />{ #ifeq: inYes | inYes | outYes | outNo }}
+{{<nowiki /> #ifeq: inYes | inYes | outYes | outNo }}
+{{ #ifeq<nowiki />: inYes | inYes | outYes | outNo }}
+{{ #ifeq: inYes | inYes | outYes | outNo }<nowiki />}
+
+
+outYes
+{{ #ifeq: inYes | inYes | outYes | outNo }}
+{{ #ifeq: inYes | inYes | outYes | outNo }}
+{{ #ifeq: inYes | inYes | outYes | outNo }}
+{{ #ifeq: inYes | inYes | outYes | outNo }}
+
+Behavioral switches expect the tag anywhere:
+
+ 1. __HIDDENCAT__
+ 2. __HIDDENCAT<nowiki />__
+
+
+1.
+2. __HIDDENCAT__
+
+Displaying tags
+<tags> do not display; they are just markup. If you want them to, insert <nowiki /> after an < opening angle bracket; it only goes in the very front. Opening tags and closing tags must be treated separately.
+
+<span style=color:blue> Blue </span>
+<<nowiki />span style=color:blue> Blue <<nowiki />/span>
+<section end=la<nowiki />bel /> 
+
+
+Blue
+<span style=color:blue> Blue </span>
+bel /> N
+
+Use template {{tag}} instead of nowiki tags to display parser tags:
+Character entities, nowiki cannot escape. To escape HTML or special character entities, replace & with &amp;. For example &amp;lt; → &lt;
+To display a nowiki tag, you can (1) use {{tag}}, (2) replace the < left angle bracket with its HTML character entity, or (3) nest nowiki tags in each other:
+
+{{ tag | nowiki }}
+<code>&lt; nowiki>...&lt;/ nowiki ></code>
+<code><<nowiki />nowiki>...<<nowiki />/ nowiki ></code>
+
+
+< nowiki>...</ nowiki >
+< nowiki>...</ nowiki >
+< nowiki>...</ nowiki >
+
+
+{{ tag | nowiki | s }}
+<code>&lt; nowiki /></code>
+<code><<nowiki /> nowiki /></code>
+<code><nowiki>< nowiki /></nowiki></code>
+
+
+< nowiki />
+< nowiki />
+< nowiki />
+< nowiki />
+
+Nowiki tags do not otherwise nest, so it is the second and fourth that displays:
+
+1<nowiki>2<nowiki>3</nowiki>4</nowiki>
+<nowiki>{{!}}<nowiki></nowiki>{{!}}</nowiki>
+
+
+12<nowiki>34</nowiki>       second and fourth
+{{!}}<nowiki>|</nowiki>
+
+These simply scan from left to right. The paired tags cannot overlap, because the very first pair-match nullifies any intervening tags inside. Unbalanced tags always display.
+Nowiki tags do not display table markup, use <pre>...</pre>.
+Pre
+
+Shortcut:
+
+WP:PRE
+
+
+<pre> is a parser tag that emulates the HTML <pre> tag. It defines preformatted text that is displayed in a fixed-width font and is enclosed in a dashed box. HTML and wiki markups are escaped and spaces and line breaks are preserved, but HTML entities are parsed.
+
+<pre> examples
+
+Markup
+Renders as
+
+
+
+
+<pre><!--Comment-->
+
+[[wiki]] markup &amp;</pre>
+
+
+
+
+<!--Comment-->
+
+[[wiki]] markup &
+
+
+
+
+
+
+
+
+<pre> formatted text does not wrap, thus text may extend past the browser window:
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+To resolve this, <pre> may use CSS styling to add wrapping or a horizontal scrollbar:
+
+Wrapping: <pre style="white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:pre-wrap; word-wrap:break-word;">
+Scroll bar: <pre style="overflow:auto; width:auto;">
+
+Alternatively, consider using {{pre2}} template or <syntaxhighlight lang="text">...</syntaxhighlight>.
+Invisible text (comments)
+See also: Help:Hidden text
+It's uncommon – but on occasion acceptable for notes to other editors – to add a hidden comment within the text of an article. These comments are only visible when editing or viewing the source of a page. Most comments should go on the appropriate Talk page. The format is to surround the hidden text with "<!--" and "-->" and may cover several lines, e.g.:
+
+<!-- An example of hidden comments
+ This won't be visible except in "edit" mode. -->
+
+Another way to include a comment in the wiki markup uses the {{Void}} template, which can be abbreviated as {{^}}. This template "expands" to the empty string, generating no HTML output; it is visible only to people editing the wiki source. Thus {{^|A lengthy comment here}} operates similarly to the comment <!-- A lengthy comment here -->. The main difference is that the template version can be nested, while attempting to nest HTML comments produces odd results.
+Variables
+See also: Help:Magic_words § Variables
+
+
+Code
+Effect
+Notes
+
+
+{{CURRENTWEEK}}
+6
+
+
+
+{{CURRENTDOW}}
+3
+
+Monday = 1, Tuesday = 2, etc., but Sunday = 0
+
+
+
+{{CURRENTMONTH}}
+02
+
+
+
+{{CURRENTMONTHNAME}}
+February
+
+
+
+{{CURRENTMONTHNAMEGEN}}
+February
+
+
+
+{{CURRENTDAY}}
+8
+
+
+
+{{CURRENTDAYNAME}}
+Wednesday
+
+
+
+{{CURRENTYEAR}}
+2017
+
+
+
+{{CURRENTTIME}}
+15:41
+
+
+
+{{NUMBEROFARTICLES}}
+5,330,940
+
+
+
+{{NUMBEROFPAGES}}
+41,384,238
+
+
+
+{{NUMBEROFUSERS}}
+30,168,922
+
+
+
+{{PAGENAME}}
+Wiki markup
+
+
+
+{{NAMESPACE}}
+Help
+
+
+
+{{REVISIONID}}
+764373432
+
+
+
+{{REVISIONUSER}}
+Perry V
+
+
+
+{{localurl:pagename}}
+/wiki/Pagename
+
+
+
+{{localurl:Wikipedia:Sandbox|action=edit}}
+/w/index.php?title=Wikipedia:Sandbox&action=edit
+
+
+
+{{fullurl:pagename}}
+//en.wikipedia.org/wiki/Pagename
+
+
+
+{{fullurl:pagename|query_string}}
+//en.wikipedia.org/w/index.php?title=Pagename&query_string
+
+
+
+{{SERVER}}
+//en.wikipedia.org
+
+
+
+{{ns:1}}
+Talk
+
+{{ns:index}} e.g. {{ns:1}} → full name of namespace
+
+
+
+{{SITENAME}}
+Wikipedia
+
+
+
+{{NUMBEROFARTICLES}} is the number of pages in the main namespace which contain a link and are not a redirect. This includes full articles, stubs containing a link, and disambiguation pages.
+{{CURRENTMONTHNAMEGEN}} is the genitive (possessive) grammatical form of the month name, as used in some languages but not in English; {{CURRENTMONTHNAME}} is the nominative (subject) form, as usually seen in English.
+In languages where it makes a difference, you can use constructs like {{grammar:case|word}} to convert a word from the nominative case to some other case. For example, {{grammar:genitive|{{CURRENTMONTHNAME}}}} means the same as {{CURRENTMONTHNAMEGEN}}.
+HTML
+Main page: Help:HTML in wikitext
+Many HTML tags can be used in wiki markup. You can check your HTML by using markup validation.
+Common templates
+
+
+
+
+
+
+v
+t
+e
+
+
+
+Quick Templates
+
+
+
+
+
+Image
+
+
+[[File: | thumb | 250px | upright | right | alt= | caption ]]
+
+
+
+
+Cite Web
+
+
+<ref>{{cite web
+|url=
+|title=
+|author=
+|date=
+|work=
+|publisher=
+|accessdate=
+}}</ref>
+
+
+
+
+
+Cite Journal
+
+
+<ref>{{cite journal
+|last1=
+|first1=
+|last2=
+|first2=
+|year=
+|title=
+|journal=
+|volume=
+|issue=
+|pages=
+|publisher=
+|doi=
+|url=
+|accessdate= }}</ref>
+
+
+
+
+
+Cite Book (Short)
+
+
+<ref>{{cite book
+|last =
+|first =
+|authorlink =
+|title =
+|publisher =
+|series =
+|year =
+|doi =
+|isbn =
+}}</ref>
+
+
+
+
+
+Cite Book (Extended)
+
+
+<ref>{{cite book
+| last =
+| first =
+| authorlink =
+| coauthors =
+| editor =
+| title =
+| trans_title =
+| url =
+| accessdate =
+| edition =
+| series =
+| volume =
+| date =
+| year =
+| publisher =
+| location =
+| isbn =
+| doi =
+| page =
+| pages =
+| chapter =
+}}</ref>
+
+
+
+
+
+Metric Conversions
+
+
+Single Input:
+{{convert|original_value|original_unit|conversion_unit|abbr=on}}
+Range of Values:
+{{convert|orig_val1|range|orig_val2|original_unit|conversion_unit|abbr=on}}
+
+EXAMPLES:
+{{convert|60|and|170|kg|lb|abbr=on}}
+{{convert|18|°C|°F}}
+{{convert|3.21|kg|lb}}
+
+
+
+
+
+Variables
+
+
+
+
+
+Code
+Effect
+
+
+{{CURRENTWEEK}}
+6
+
+
+{{CURRENTDOW}}
+3
+
+
+{{CURRENTMONTH}}
+02
+
+
+{{CURRENTMONTHNAME}}
+February
+
+
+{{CURRENTMONTHNAMEGEN}}
+February
+
+
+{{CURRENTDAY}}
+8
+
+
+{{CURRENTDAYNAME}}
+Wednesday
+
+
+{{CURRENTYEAR}}
+2017
+
+
+{{CURRENTTIME}}
+15:41
+
+
+{{NUMBEROFARTICLES}}
+5,330,940
+
+
+{{NUMBEROFPAGES}}
+41,384,238
+
+
+{{NUMBEROFUSERS}}
+30,168,922
+
+
+{{PAGENAME}}
+Wiki markup
+
+
+{{NAMESPACE}}
+Help
+
+
+{{REVISIONID}}
+764373432
+
+
+{{REVISIONUSER}}
+Perry V
+
+
+{{localurl:pagename}}
+/wiki/Pagename
+
+
+{{localurl:Wikipedia:Sandbox|action=edit}}
+/w/index.php?title=Wikipedia:Sandbox&action=edit
+
+
+{{fullurl:pagename}}
+//en.wikipedia.org/wiki/Pagename
+
+
+{{fullurl:pagename|query_string}}
+//en.wikipedia.org/w/index.php?title=Pagename&query_string
+
+
+{{SERVER}}
+//en.wikipedia.org
+
+
+{{ns:index}} e.g. '{{ns:1}}'
+fullname of namespace e.g 'Talk'
+
+
+{{SITENAME}}
+Wikipedia
+
+
+
+
+
+
+
+Recalling Named Reference
+
+
+<ref name="NAMEOFREF" />
+
+
+
+
+Quote
+
+
+{{quote| text =| sign =}}
+
+
+
+
+Blockquote
+
+
+<blockquote>
+<p>QUOTED PARAGRAPH</p>
+<p>NAME, SOURCE, REFERENCE</p>
+</blockquote>
+
+
+
+
+
+About
+
+
+(This page is about USE1. For other uses, see About (disambiguation).)
+{{About|USE1}}
+
+
+
+(This page is about USE1. For other uses, see PAGE2.)
+{{About|USE1||PAGE2}}
+
+
+
+(This page is about USE1. For USE2, see PAGE2.)
+{{About|USE1|USE2|PAGE2}}
+
+
+
+(This page is about USE1. For USE2, see PAGE2. For USE3, see PAGE3. For USE4, see PAGE4. For USE5, see PAGE5.)
+{{About|USE1|USE2|PAGE2|USE3|PAGE3|USE4|PAGE4|USE5}}
+
+
+
+
+
+Table (Borderless)
+
+
+{|
+|-
+! scope="col" width="width:20em;" |COLUMN1
+! scope="col" width="width:20em;" |COLUMN2
+|-
+|ROW1
+|ROW1/COL2
+|-
+|ROW2
+|ROW2/COL2
+|-
+|}
+
+
+
+
+
+Table Style 1
+
+
+{| border="1" cellpadding="2"
+|----
+! scope="col" width="width:20em;" |COLUMN1
+! scope="col" width="width:20em;" |COLUMN2
+|-
+|ROW1
+|ROW1/COL2
+|-
+|ROW2
+|ROW2/COL2
+|----
+|}
+
+
+
+
+
+Table Style 2 (Wikitable)
+
+
+{| class="wikitable" style="text-align: left;"
+|-
+! style="width:20em;" |COLUMN1
+! style="width:20em;" |COLUMN2
+|-
+|ROW1
+|ROW1/COL2
+|-
+|ROW2
+|ROW2/COL2
+|-
+|}
+
+
+
+
+
+Collapsible Table, Default: Collapsed
+
+
+{| class="wikitable collapsible collapsed" style="text-align: left;margin:0px;"
+|-
+! style="width:20em;" |COLUMN1
+! style="width:20em;" |COLUMN2
+|-
+|ROW1
+|ROW1/COL2
+|-
+|ROW2
+|ROW2/COL2
+|-
+|}
+
+
+
+
+
+Columns
+
+
+{{col-begin|width=100%}}
+{{col-break|width=}}
+{{col-end}}
+
+
+
+
+
+Interwiki
+
+
+
+
+
+Wiki
+Shortcut
+
+
+Wikicommons
+[[commons:]]
+
+
+Wikipedia
+[[w:]]
+
+
+Wiktionary
+[[wikt:]]
+
+
+Wikibooks
+[[b:]]
+
+
+Wikisource
+[[s:]]
+
+
+Wikispecies
+[[species:]]
+
+
+Metawiki
+[[m:]]
+
+
+Mediawiki
+[[mw:]]
+
+
+
+
+
+
+
+Vandalism Response Templates
+
+
+
+
+
+
+
+* {{subst:uw-vandalism1|PageName}} ~~~~ (unintentional vandalism/test)* {{subst:uw-delete1|PageName}} ~~~~ (unintentional removal of content)* {{subst:uw-vandalism2|PageName}} ~~~~ (suitable for intentional nonsense or disruption)* {{subst:uw-delete2|PageName}} ~~~~ (variant for removal of content)* {{subst:uw-vandalism3|PageName}} ~~~~ ("please stop" for use after level 2 warning)* {{subst:uw-delete3|PageName}} ~~~~ (please stop removing content)* {{subst:uw-vandalism4|PageName}} ~~~~ (last warning for vandalism)* {{subst:uw-delete4|PageName}} ~~~~ (last warning for removing content)* {{subst:uw-vandalism4im|PageName}} ~~~~ (only warning; for severe or grotesque vandalism only)* {{subst:uw-delete4im|PageName}} ~~~~ (only warning; for many blankings in a short period of time)
+
+
+
+
+
+
+
+
+Page Citation
+
+
+{{rp|page=}}
+
+
+
+
+
+
+See also
+ Help desk
+See the 'Coding wiki markup' section of the Help navigation navbox below for additional links.
+
+Help:Magic links: magic links are automatic links for certain unique identifiers that require no markup.
+Wikipedia:Extended image syntax: advanced visual file markup.
+Help:A quick guide to templates: an introduction to templates.
+Help:Substitution: substitution is an alternative way of including templates than transclusion
+Help:Score: how to render musical scores.
+Help:Displaying a formula: displaying mathematical formulae.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia help pages
+
+
+
+
+
+
+
+
+
+
+Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.
+Or ask for help on your talk page
+
+
+
+
+Noticeboards (?)
+FAQs (?)
+Reference desks (?)
+The Missing Manual (?)
+Directories (?)
+
+
+
+
+
+
+
+
+About Wikipedia
+
+
+
+Administration
+Principles (Wikipedia in brief)
+Policies and guidelines
+What Wikipedia is not
+Disclaimer (parental advice)
+Making requests
+
+where to ask questions
+contact Wikipedia directly
+
+
+Who writes Wikipedia?
+Why create an account?
+
+
+
+
+
+
+
+
+Help for readers
+
+
+
+FAQ
+Books
+Copyright
+Glossary
+Mobile access
+Navigation
+Other languages
+Searching
+Students
+Viewing media
+
+
+
+
+
+
+
+
+Contributing
+to Wikipedia
+
+
+
+A plain and simple overview
+A primer for newcomers
+Asking for help
+Advice for young editors
+Avoiding common mistakes
+Etiquette (community expectations)
+Learning the ropes
+Instructional material
+Simplified Manual of Style
+Simplified rule-set
+
+"Ignore all rules"
+"The rules are principles"
+
+
+Style-tips
+Tip of the day
+Task Center
+Your first article (article wizard)
+Vandalism
+
+
+
+
+
+
+
+
+Getting started
+
+
+
+Wikipedia intro
+Wikipedia tutorial
+The Wikipedia Adventure
+Manual of Style intro
+Graphics tutorials
+Picture tutorial (Uploading intro)
+IRC (live chat) tutorial
+Navigating intro
+Policies intro
+Referencing intro
+Tables intro
+Talk pages intro
+VisualEditor user guide
+
+
+
+
+
+
+
+
+Dos and don'ts
+
+
+
+Accessibility
+Bio's
+Categorization
+Disambiguation
+Images
+Links
+Lists
+References
+Tables
+Talks
+
+
+
+
+
+
+
+
+How-to pages and
+information pages
+
+
+
+Appealing blocks
+Article deletion
+Categories
+Citations / references
+
+Referencing for beginners
+Citation Style 1
+Cite errors
+References and page numbers
+
+
+Convert
+Diff
+Editing
+
+toolbar
+edit conflict
+
+
+Email confirmation
+Find sources
+Files
+Footnotes
+Image deletion
+Infoboxes
+Linking (link color)
+Logging in
+Merging
+Namespaces
+Page name
+Redirect
+Renaming pages
+Passwords
+Reverting
+Talk pages (archiving)
+URL
+User contributions
+User page design center
+
+
+
+
+
+
+
+
+Coding wiki markup
+
+
+
+Wiki markup (cheatsheet)
+Barcharts
+Calculations
+Characters
+Citation templates
+Columns
+Hidden text
+HTML
+Lists
+Magic words (introduction)
+Music symbols
+Sections
+Sounds
+Tables (introduction)
+Templates
+
+documentation
+messages
+
+cleanup messages
+
+
+
+
+Transclusion
+Visual files
+Wiki tools
+
+
+
+
+
+
+
+
+Directories
+
+
+
+Abbreviations
+Departments
+Editor's index
+Essays
+FAQs
+Glossary
+Guidelines
+Help menu
+Manual of Style
+Policies
+Shortcuts
+Tips
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Toolbox
+
+
+
+
+
+
+Template
+messages
+
+
+
+
+Welcome
+
+
+
+{{Welcome}}
+{{subst:Welcomeh}}
+{{Welcome-anon}}
+{{subst:W-graphical-anon}}
+{{subst:Welcome-anon-unconstructive}}
+{{welcome-t}}
+{{thanks}}
+
+
+
+
+
+
+
+
+Vandalism
+
+
+
+{{uw-vandalism1}}
+{{uw-vandalism2}}
+{{uw-vandalism3}}
+{{uw-vandalism4}}
+{{uw-vandalism4im}}
+
+
+
+
+
+
+
+
+Content removal
+
+
+
+{{uw-delete1}}
+{{uw-delete2}}
+{{uw-delete3}}
+{{uw-delete4}}
+{{uw-delete4im}}
+
+
+
+
+
+
+
+
+Check
+
+
+
+{{subst:Copyvio|url=source}}
+{{Db|...}}
+{{Di-no license}}
+{{Di-no source}}
+
+
+
+
+
+
+
+
+Dispute
+
+
+
+{{Citation needed}}
+{{Controversial}}
+{{Disputed}}
+{{Fringe theories}}
+{{POV}}
+{{Unreferenced section}}
+
+
+
+
+
+
+
+
+Delete
+
+
+
+{{afd}}
+{{cfd}}
+{{ffd}}
+{{mfd}}
+{{rfd}}
+{{sfd-t}}
+{{tfd}}
+{{proposed deletion}}
+
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+
+Barnstars
+Community portal
+Current discussions
+
+Request directory
+
+
+Essays
+Departments
+Noticeboards
+Peer review
+RC patrol
+Tools
+Village pumps
+WikiProjects
+
+
+
+
+
+
+
+
+Protocols
+
+
+
+Policies
+Guidelines
+Manual of Style
+
+
+
+
+
+
+
+
+Main
+
+
+
+Did you know
+In the news
+Picture of the day
+Selected anniversaries
+Today's featured article
+
+
+
+
+
+
+
+
+Stats
+
+
+
+Statistics
+
+Site map
+
+
+
+
+
+
+
+
+
+
+External
+
+
+
+HTML to Wiki Converter for Tables
+
+
+
+
+
+
+
+
+
+Wikipedia directories and indexes
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Help:Wiki_markup&oldid=764373432"					
+Categories: Wikipedia how-toWikipedia editor helpWikipedia text helpHidden categories: Pages with syntax highlighting errorsWikipedia semi-protected project pagesPages using ISBN magic linksPages using RFC magic links 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Help page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+MediaWikiMeta-WikiWikiversityWikivoyage 
+
+
+
+Languages
+
+
+AlemannischالعربيةAzərbaycancaتۆرکجهবাংলাБашҡортсаभोजपुरीCatalàЧӑвашлаČeštinaDeutschDolnoserbskiΕλληνικάEspañolEsperantoفارسیFrançaisગુજરાતી한국어HornjoserbsceBahasa IndonesiaItalianoעבריתҚазақшаLëtzebuergeschMaltiမြန်မာဘာသာNederlandsOʻzbekcha/ўзбекчаਪੰਜਾਬੀPälzischپښتوРусскийSámegiellaShqipSimple EnglishسنڌيSuomiТатарча/tatarçaไทยTürkçeУдмуртاردوTiếng Việt 
+Edit links 
+
+
+
+
+
+ This page was last modified on 8 February 2017, at 15:41.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.592","walltime":"0.787","ppvisitednodes":{"value":11160,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":203113,"limit":2097152},"templateargumentsize":{"value":24052,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  539.537      1 -total"," 22.33%  120.454     20 Template:Markup"," 14.55%   78.517     30 Template:Markup/row","  8.04%   43.374      3 Template:Navbox","  8.01%   43.191      1 Template:Pp-vandalism","  7.22%   38.938     56 Template:Tag","  4.17%   22.480      1 Template:Help_navigation","  3.86%   20.809     13 Template:Main","  3.06%   16.506      2 Template:Mbox","  3.01%   16.260      1 Template:Tools"]},"scribunto":{"limitreport-timeusage":{"value":"0.110","limit":"10.000"},"limitreport-memusage":{"value":4167637,"limit":52428800}},"cachereport":{"origin":"mw1227","timestamp":"20170208154132","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":56,"wgHostname":"mw1266"});});

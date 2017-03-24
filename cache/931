@@ -1,0 +1,194 @@
+ 
+
+
+
+
+
+
+Protected pages considered harmful
+
+From Meta, a Wikimedia project coordination wiki
+
+
+					Jump to:					navigation, 					search
+
+How protected pages are used:
+
+To ensure legal responsibilities are met:
+
+Lock-off the copyright license notice for the site (en:Wikipedia:Text of the GNU Free Documentation License)
+
+
+To protect the most frequently accessed entry point, the Main Page, from petty vandalism
+To force community editing of other policy/rules pages to be done on talk pages
+
+This is more controversial!
+
+
+To enforce cool-down periods in edit wars
+
+Somewhat controversial; what do you leave in place? When do you un-protect? What about theoretically already calm third parties who will be turned off by the inability to edit? What if the protecting sysop was involved in the edit war?
+
+
+
+What's wrong:
+
+Difficulty of editing
+
+Legitimate community policy changes, and even minor spelling corrections and linking, have to be mediated through sysops
+
+If there is low sysop interest in some page, requests may not be noticed (sysops as bottleneck)
+
+
+
+
+
+Suggested improvements:
+
+Automate the system of temp/draft pages, such that a publicly editable copy will take over for the main page after some period of time in the absence of intervention (MeatBall:FileReplacement)
+
+Caveat: if a wiki has relatively low activity, vandals could sneak in unnoticed and alter protected pages
+Caveat: this may be less helpful for edit wars, as it doesn't prevent the parties from butting heads over the draft copy
+Introduce reputation recording mechanisms, so that editors with good reputations can alter the page. Inappropriate edits can then reflected in the reputation; and this will deter and prevent editors from making too many bad edits.
+
+
+Automatic edit war squashing
+
+Does protecting a page indicate a lack of trust?[edit]
+Does protecting a page indicate a lack of trust? In some cases, like the main page of Wikipedia, protecting the page makes perfect sense because it is the page that most new users see and creating a good impression is a good idea. But how about the typical lock? Surely in most cases there are alternative ways to resolve a problem. If the philosophy that Wikipedia is based on is trust in the public is a guiding principle of the project, then protecting a page indicates a lack of trust. On the other hand, we all know there are people who will violate the trust of others, so protection of articles on highly-controversial subjects may be an unfortunate necessity.
+Rather than protecting pages, because Truth remains in the eye of the beholder, mediawiki needs a process for community vetting of versions of articles, and filters for end-users to allow them to see the version they want. If trolls want the troll version of an article, they should be allowed to see it. If sysops want the sysop version of the same article, likewise they also should be allowed to see that. For those who believe Truth lies in verifiable facts and documented evidence, this is not an appealing idea, as they believe the prime guiding principle of a useful Wikipedia must be verifiable fact, not opinion. However it is opinion that lies in the eye of the beholder, not Truth.
+See also[edit]
+
+The Wrong Version
+
+
+
+
+ 
+						Retrieved from "https://meta.wikimedia.org/w/index.php?title=Protected_pages_considered_harmful&oldid=10864764"					
+Category: Meta-Wiki administrators 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+EnglishNot logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Content page
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageWikimedia NewsTranslationsRecent changesRandom pageHelpBabel 
+
+
+
+Community
+
+
+Wikimedia ForumMailing listsRequestsBabylonReportsResearchPlanet Wikimedia 
+
+
+
+Beyond the Web
+
+
+Meet WikimediansEventsMovement affiliatesDonate 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPermanent linkPage informationCite this page 
+
+
+
+In other languages
+
+
+
+Add links 
+
+
+
+
+
+ This page was last modified on 31 December 2014, at 15:05.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+See Terms of Use for details.
+
+
+Privacy policy
+About Meta
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.004","walltime":"0.007","ppvisitednodes":{"value":14,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"origin":"mw1244","timestamp":"20170205221716","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":49,"wgHostname":"mw1256"});});

@@ -1,0 +1,1264 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Transclusion
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+"WP:TRANS" redirects here. You may be looking for Wikipedia:Transwiki log, Help:Transwiki, Wikipedia:Translation, Wikipedia:WikiProject Transwiki or Wikipedia:Transgender.
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcut:
+
+WP:TRANS
+
+
+
+
+
+Transclusion means the inclusion of the content of one document within another document by reference. In Wikipedia transclusion, the MediaWiki software will refer to the content of one page, the template, for inclusion into the content of any other page, the target page. Similar to the way any page name can become a link by placing its name in double square brackets, any page name can become a template by placing it in double curly braces, {{Namespace:Pagename}}. Changes made to the template are then automatically reflected on all pages into which that page has been transcluded (though a purge may sometimes be necessary).
+If the template's page name does not begin with a namespace, it is assumed to be in the Template namespace. To refer to a page in the "Main" (article) namespace, it is necessary to prefix it with a colon (:). Examples:
+
+{{Like}} will transclude from the page Template:Like ( Like)
+{{Stochastic processes}} will transclude from the page Template:Stochastic processes
+{{:Stochastic processes}} will transclude from the page Stochastic processes (in the Main namespace)
+{{WP:Assume good faith}} will transclude from the page Wikipedia:Assume good faith
+
+What will transclude from a page can be controlled with the tags <noinclude>, <onlyinclude> and <includeonly> placed in the source page wikitext. (See markup, below.) The use of tags enables the template to transclude partially, otherwise the double curly braces will always transclude all content. For selective transclusion the <includeonly> parts of the template are named (with the help of parser functions) and that template is then called with the parameter transcludesection=name.
+Transclusion events occur every time the page is loaded, when the template is rendered. Another use of the same mechanism is a one-shot substitution of the template call itself by its transcluded source page. A template call {{fullpagename}} with the "subst:" prefix {{subst:fullpagename}} is transcluded once but never again, because the wikitext of that call is replaced (substituted) when its page is saved. What was a one-time template call becomes the actual wikitext of the template at the time of its call.
+
+
+
+Contents
+
+
+1 How transclusion works
+2 Basic syntax
+
+2.1 Template transclusion
+2.2 Substitution
+2.3 Magic words
+
+
+3 Applications of transclusion
+
+3.1 Composite pages
+3.2 Pages with a common section
+3.3 Repetition within a page
+
+
+4 Standard section transclusion (Special source document markup not needed!)
+5 Partial transclusion
+
+5.1 Markup
+
+
+6 Selective transclusion
+
+6.1 Using the labeled section method
+6.2 Without using the labeled section method
+
+6.2.1 Source document markup
+6.2.2 Target document markup
+6.2.3 Example
+
+
+
+
+7 Subpages
+8 Special pages
+9 See also
+
+9.1 MediaWiki transclusion
+9.2 Templates
+9.3 Other
+
+
+
+
+
+How transclusion works
+
+
+view
+talk
+edit
+
+
+To transclude any source page (within a single MediaWiki project, such as en:Wikipedia), include the following code in the target page:
+{{SOMEPAGE}}
+Whenever the target page A with this code is rendered, the engine will include in that place not the code itself, but the entire content of the source page B, SOMEPAGE.
+
+
+
+For example, you might decide to place a welcome message on every newcomer's talk page.
+Transclusion creates a "live" link between the template page and the target page(s) upon which the template's contents should appear. When the template is edited, the rendering of that template on the target pages is updated as well. For example, you create a (template) page in Wikipedia with your home mailing address and then transclude that template not only on your page, but all your friends' pages, too. Later, after moving to a new house, you then update your address template and the new address will automatically appear on all your friends' pages.
+There are further simple examples at mw:Transclusion.
+Basic syntax
+The basic syntax for transclusion on Wikipedia is {{Namespace:Pagename}}, where Namespace:Pagename describes the title of a Wikipedia page.
+On Wikipedia, non-article pages have titles with a visible Namespace and Pagename: for example, the page Wikipedia:Tips has Wikipedia as the Namespace, and Tips as the Pagename. But encyclopedic articles only have a visible Pagename in their titles: for example, the article Potato has Potato as the Pagename; the Namespace, called Main Namespace, is not visible.
+
+Having the wikitext {{Namespace:Pagename}} in a page, will transclude the page titled Namespace:Pagename into that page. For example, if a page has the wiki markup {{Wikipedia:Notability}} in it, it will transclude the page Wikipedia:Notability into it. Please note: {{WP:Notability}} would do the exactly the same thing, as WP: is a namespace alias, which is automatically translated by the Wikipedia servers to Wikipedia:.
+If the namespace is omitted, but the colon is included, like {{:Pagename}}, the encyclopedic article Pagename will be transcluded. For example, {{:Notability}} will transclude the article Notability.
+If both namepace and colon are omitted, like {{Pagename}}, the Template:Pagename will be transcluded. For example, {{Notability}}, and also {{Template:Notability}}, will both transclude the Template:Notability.
+For transcluding subpages, see this section.
+
+So, in summary, an example page having the wikitext {{Pagename}} or {{Template:Pagename}} included, will transclude the Template:Pagename into that example page. But {{:Pagename}} will have a different effect: it will transclude the article Pagename. Also, {{Namespace:Pagename}} will transclude the page Namespace:Pagename, for pages with titles of that format.
+Template transclusion
+For a quick guide to templates, see Help:A quick guide to templates.
+The most common application of transclusion is the transclusion of templates. Templates are pages that are written with the prime objective of being included in other pages, either through transclusion or substitution. As shown above, the usual syntax for transcluding a template titled Template:Pagename is {{Pagename}}. However, some templates can also use parameters. Parameters are values (also termed arguments) that can be passed on to certain templates in order for them to work in different ways. Templates can either use no parameters, a fixed number of parameters, or a variable number of parameters. The number of parameters a template can use is from one upwards.
+The exact syntax for using parameters with templates can vary greatly, depending on the actual template being used. But, for an example template titled Template:Pagename, which happened to use three parameters, the general form would be:
+{{Pagename|parameter1|parameter2|parameter3}}
+with each parameter being substituted with an actual value, or a parameter name=actual value, when used in practice. Notice that each parameter is separated with a vertical bar. Parameters that take the form value are called unnamed or positional parameters. Parameters that take the form name=value are called named parameters. With unnamed parameters, the first, second, third etc. parameters are equivalent to parameters '1', '2', '3' etc. in template documentation. Unnamed parameters must be in the correct order, and should come before any named parameters. An example of the syntax using the Template:Collapse top:
+{{Collapse top|This is the title text|This is a custom warning line|left=true}}
+In this particular example, three parameters are used, but it can actually use a variable number of parameters. This is the title text and This is a custom warning line are the values of unnamed parameters '1' and '2'; and true is the value of the named parameter left.
+For more details, see Help:Template. Also, see Wikipedia:Template messages for a list of links to available Main Namespace related templates (usually for encyclopedic articles); and other Namespace related templates (usually for non-article pages); there is also a search function.
+Substitution
+Substitution has a similar double curly-bracket syntax, and its action is similar to transclusion. For example, {{subst:Like}} would substitute the Template:Like. But transclusion only occurs once, since when you save a page with that wikitext in it, it sustitutes the wikitext {{subst:Like}} with the actual wikitext from the Template:Like. The main difference that this makes is that if an update happened to the wikitext of the Template:Like, it would not update any pages where {{subst:Like}} had already been saved.
+Magic words
+Some magic words have a similar double curly-bracket syntax, and have a similar action to transclusion. For example, {{FULLPAGENAME}} renders the Fullpagename of any Wikipedia page. Some magic words can also take parameters, which are separated using a colon (:); for example {{FULLPAGENAME:value}}. But they are not examples of transclusion.
+Templates do exist for some magic words, for example Template:FULLPAGENAME; but these just invoke the related magic word if passing parameters using a vertical bar (|); for example like {{FULLPAGENAME|value}}. But magic words parameters are best passed directly by using a colon, for example like {{FULLPAGENAME:value}}, which bypasses any templates.
+Applications of transclusion
+The most common application of transclusion is in the use of templates. However, other pages are also sometimes transcluded, mainly within project space.
+Composite pages
+Composite pages consist, wholly or partly, of transcluded component pages. The wikitext of such a page may, partly or fully, consist of tags, for the inclusion of component pages. The component pages are usually not in the template namespace, and are often full pages in their own right. Composite pages are intended to gather them into a central location.
+Examples of composite pages:
+
+Wikipedia:Village pump: mostly consists of the transcluded page Template:Village pump.
+A daily page like Wikipedia:Votes for deletion/Log/2005 May 31, where each component page consists of the discussion on the deletion of one Wikipedia page, e.g. Wikipedia:Votes for deletion/Sp3tt. For this day, 75 component pages made up the composite page.
+m:Meta:Translation/Coordination, mainly containing
+
+m:Meta:Translation/Coordination/List/Meta
+m:Meta:Translation/Coordination/List/Main
+
+
+
+This allows the choice between viewing the component pages separately or together. Viewing a composite page is convenient when there are many small, related component pages, in that it allows an overview of all the components without the effort of following numerous links.
+In general, each component page and the composite page are treated separately. While the actual changes on the component pages will be transcluded onto the composite page, the edit history, recent changes, page-watch settings, page protection, TOC, "what links here" links, and other features of the composite page do not reflect, or affect, the histories, watch settings, protection levels, what links here lists of the component pages. The composite page is a page in its own right. The talk page of a composite page is used to talk about the composition and the page in general, not the component pages; although it in turn could be a composite of the talk pages of the component pages.
+Editing a section of a component page can be done directly from the composite page, see editing sections of included templates. After saving, one ends up editing the component page to which the section belongs.
+On projects with the interlanguage link feature, the composite page shows the combined interlanguage links of all component pages, hence possibly multiple links for one language or even for one page.
+See also Wikipedia talk:Template namespace/Archive 1#transcluding prose.
+Pages with a common section
+When two pages need to discuss the same material in the same way, they can share a section. This involves creating a third page and transcluding that page onto both pages. This third page may be a page in its own right or a subpage of either of the other two, and if the first it may be placed in the same namespace as the other pages or in template namespace. Common sections like this should be marked with an explanatory header, and/or given a special layout, to inform the reader that this section of the page is in a different location, since transcluding shared article sections can easily confuse novice editors and readers alike if left unmarked.
+This can be very useful when two disambiguation pages share content, or a list page and a disambiguation page share content (see third example below).
+Examples:
+
+The Help:Editing sections of included templates article is included in Help:Section with the markup {{Help:Editing sections of included templates}}. By including a heading in the included article, a user clicking the "Edit" link on that heading in Help:Section is automatically directed to edit Help:Editing sections of included templates.
+m:Help:Alphabetic order (talk, backlinks, edit)
+Joseph Gordon-Levitt transcludes the introduction of HitRecord into a summary section of the same name, rather than maintaining two copies of the identical text.
+
+Repetition within a page
+On pages where there is a lot of repetitive information — various kinds of lists, usually — it is sometimes useful to make a template that contains the repeating text, and then call that template multiple times. For example, Template:EH listed building row is used repeatedly to construct tables in many articles.
+Simple repetition of the same text can be handled with repetition of a parameter in a single template: e.g., {{3x}}, where {{3x| howdy!}} produces howdy! howdy! howdy!.
+For more information on repetition, see also m:Help:Recursive conversion of wikitext.
+For more information on the current template system, see Wikipedia:Template namespace.
+Standard section transclusion (Special source document markup not needed!)
+New! By using {{#section-h:PAGENAME|SECTIONNAME}}, one can easily include a section of one page in another, by referring to the standard, ubiquitous headline-based section headers used throughout Wikipedia. This is simpler than the already widely used and more controllable partial and selective transclusion methods of the sections below, which require special source document markup.
+Partial transclusion
+
+Shortcuts:
+
+WP:PARTRANS
+PARTRANS
+
+
+By using <noinclude>, <onlyinclude> and <includeonly> markup, it is possible to transclude part of a page, rather than all of it. Such partial transclusions can be achieved by transcluding from any pages, including subpages. It is often useful to exclude part of a page in a transclusion, an example being with template documentation.
+For an example of how this technique can be applied to simplify the creation of summary articles, see how part of the History of pathology (see the diff here) was transcluded into Pathology (see the diff here) using the {{:History of pathology}} markup. The Pathology article at that time (see here) mainly consisted of transcluded lead paragraphs and other sections from a number of articles. Look at the source to see how this was done. Since then, the Pathology article has been rewritten, and does not include all these transclusions.
+Another example can be found in the transclusion of part of HitRecord (introductory paragraph only) into a same-named summary section in Joseph Gordon-Levitt.
+
+Markup
+See also: Help:Template § Noinclude, includeonly, and onlyinclude; and Help:Category § Categories and templates
+In transclusion, a source page is transcluded into a destination page. But with partial transclusion, only part of that source page will be transcluded into a destination page. But in addition, what is transcluded to a destination page does not have to be visible on the source page.
+Page rendering of a source page can be defined as the rendering of that source page when it is saved, which will be the same as the preview. We can call this rendering here.
+Transclusion rendering of a source page can be defined as the rendering of a destination page that has a source page transcluded into it; but only that part of the destination page that was transcluded from the source page. The preview of the transclusion rendering will again be identical. We can call this rendering there.
+There are three pairs of tags involved in cases where page rendering here should differ from transclusion rendering there. As described earlier, these are <noinclude>, <includeonly> and <onlyinclude>. These tags are invisible, but affect both page rendering here and transclusion rendering there. These tags pair-off to demarcate sections that will create differences. Each tag will describe exceptions to transcluding the whole page named.
+
+<noinclude>  This section is visible here; but this section is not visible there. Sections outside of these tags will be visible both here and there. </noinclude>
+
+<onlyinclude> This section is visible here; this section is also visible there. Sections outside of these tags will be visible here, but will not be visible there. </onlyinclude> 
+
+<includeonly> This section is not visible here; but it is visible there. Sections outside of these tags will be visible both here and there. </includeonly>
+
+
+
+Wikitext
+What it rendered here (source page)
+What is transcluded there (destination page)
+
+
+<noinclude> text1 </noinclude> text2
+text1 text2
+text2
+
+
+<onlyinclude> text1 </onlyinclude> text2
+text1 text2
+text1
+
+
+<includeonly> text1 </includeonly> text2
+text2
+text1 text2
+
+
+An important point to note is that <noinclude> and <onlyinclude> do not affect at all what is page rendered here at all, unlike <includeonly>. The <noinclude> tags stops text inside the tags being transcluded there, while <onlyinclude> has the opposite effect: it stops text outside of the tags from being transcluded there.
+Only <includeonly> stops text from being page rendered here. But naturally enough it is transcluded there. Text outside of the tags will both be rendered here and transcluded there.
+There can be several such sections. Also, they can be nested. All possible differences between here and there are achievable. One example is a content editor who picks an <onlyinclude> section, and then takes a <noinclude> section out of that; but then picks out yet another <onlyinclude> section to append to there; but none of this affects their article in any way.
+The other example is the template programmer, who will <includeonly> the code section and <noinclude> the documentation section of a page.
+A mis-example is, on a the user page, to use <includeonly> to "comment out" a section. While it might comment out sections here, such invisible ink may prove to be troublesome; if transcluded, the comments would be revealed. Use <!-- and --> instead.
+NoInclude as a name about transcluding is pretty straightforward. A mnemonic for the other two transclusions there is: InclusionONLY; and Yet Another ONLYInclusion.
+Selective transclusion
+
+Shortcuts:
+
+WP:SELECTIVETRANSCLUSION
+WP:SELTRANS
+
+
+Selective transclusion is the process of partially transcluding one selected section of a document that has more than one transcludable section. As noted above, if only one section of a document is to be transcluded, this can be done by simply surrounding the section of interest with <onlyinclude> … </onlyinclude> tags, and transcluding the whole page. However, to selectively transclude one section from a template or document into one page, and another section from the same template or document into another page, requires a way to:
+
+a) uniquely mark each transcludable section in the source document; and
+b) in the target document(s) (those to show the transcluded sections), a way to specify which section is to be transcluded.
+
+This section describes how to accomplish this. There are two ways of doing this: (a) Labeled section transclusion or (b) the more complicated method (does not need the Labeled Section Transclusion Extension).
+Using the labeled section method
+Main page: Help:Labeled section transclusion
+Labeled-section selective transclusion uses mw:Extension:Labeled Section Transclusion which is enabled on all Wikimedia wikis. See Help:Labeled section transclusion for how it works. The following subsections are about a more complicated way to make selective transclusion without using the extension.
+Without using the labeled section method
+Source document markup
+Insert the following line into the "source" document (the one from which text is to be transcluded), immediately preceding the first line of each section to be transcluded, substituting SECTIONNAME (twice) with the unique name of the respective section. The section name can be any identifier and must be unique within that document:
+
+<onlyinclude>{{#ifeq:{{{transcludesection|SECTIONNAME}}}|SECTIONNAME|
+
+End each such transcludable section with:
+
+}}</onlyinclude>
+
+Target document markup
+To transclude a section marked as above into another page (the "target page"), use the following line on that page, substituting PAGENAME for the "source" document from which text to be transcluded, and SECTIONNAME with the name of the section you want to transclude:
+
+{{PAGENAME|transcludesection=SECTIONNAME}}
+
+Thus each section enclosed within <onlyinclude> … </onlyinclude> tags will always be rendered when the transcludesection parameter is not set (when the document is viewed ordinarily, or when the document is transcluded without setting the transcludesection parameter as shown below), and will be rendered by transclusion on any page that does set transcludesection to the section's name. It will not be rendered by transclusion that uses the transcludesection parameter but sets it to anything other than the name of the section.
+Also, when providing PAGENAME, without providing a Namespace, the wiki will assume that the PAGENAME belongs in the Template Namespace. To transclude from a Mainspace article, use :PAGENAME.
+
+{{:PAGENAME|transcludesection=SECTIONNAME}}
+
+Example
+If we want to make the "Principal Criteria" and "Common Name" sections of WP:TITLE be independently transcludable, we edit the WP:TITLE page and enclose the "Principal Criteria" section as follows:
+
+
+<onlyinclude>{{#ifeq:{{{transcludesection|principalcriteria}}}|principalcriteria|
+...
+''(text of "Principal Criteria" section)''
+...
+}}</onlyinclude>
+
+Similarly, we enclose the "Common Name" section with:
+
+
+<onlyinclude>{{#ifeq:{{{transcludesection|commonname}}}|commonname|
+...
+''(text of "Common Name" section)''
+...
+}}</onlyinclude>
+
+Then, to transclude the "Principal Criteria" section into another page, we insert into that page:
+
+{{WP:TITLE|transcludesection=principalcriteria}}
+
+To transclude the "Common Name" section into another page, we insert into that page:
+
+{{WP:TITLE|transcludesection=commonname}}
+
+Of course, the same page can transclude two or more sections this way by including multiple such lines.
+There is no limit to how many selectable sections for transclusion a document can have. The only requirement is that each transcludesection be given a value that is unique within that page.
+Subpages
+To transclude a subpage, the general syntax is {{Namespace:Pagename/subpagename}}. If it is a subpage of the page you are editing, then it is the general syntax, or {{/subpagename}}. For an encyclopedic article it is {{:Pagename/subpagename}}, although article subpages are normally disabled. For a template, it is the general syntax, or {{Pagename/subpagename}}. For example, to transclude the Template:Like/doc, it would be either {{Template:Like/doc}} or {{Like/doc}}. Subpages are only allowed in certain namespaces, such as User, Talk or Wikipedia pages; currently, subpages of main article pages cannot be created.
+Subpages could be used for a shared discussion on talk pages. For example: you want to discuss the deletion and redirecting of the article Pussycat to the article Cat in both talk pages. First, create the subpage Talk:Pussycat/Let's delete Pussycat!, write your comment into it, then transclude it in Talk:Pussycat and Talk:Cat using the template {{Talk:Pussycat/Let's delete Pussycat!}}. Comments posted in this subpage will be shown in both talk pages. To ease the editing of the subpage, it may be helpful to precede the transcluded talk with {{lat}}; for example the wikitext {{lat|Pussycat/Let's delete Pussycat!}} would produce Talk:Pussycat/Let's delete Pussycat! (edit | article | history | links | watch | logs). Transcluding in this way will not preserve a fixed record of the discussion at the time of any archiving, so discussions should be closed in conjunction with archiving.
+An alternative is not to use subpages at all. You could centralise the discussion, in the normal manner, on a single talk page, and point to it on the other talk page by substituting the {{Please see}} template, as per WP:MULTI. As an example, a discussion could take place at Talk:Pussycat#Let's delete Pussycat!; you could then place the wikitext {{subst:Please see|Talk:Pussycat#Let's delete Pussycat!}} in the Talk:Cat page. When the edit was saved, it would substitute it with the text:
+
+==Discussion at Talk:Pussycat#Let's delete Pussycat!==
+[[File:Farm-Fresh eye.png|15px|link=|alt=]] You are invited to join the discussion at [[Talk:Pussycat#Let's delete Pussycat!]]. Thanks. [[User:Example|Example]] ([[User talk:Example|talk]]) 19:03, 20 October 2014 (UTC){{z48}}<!--Template:Please see-->
+
+Special pages
+See also: Wikipedia:Special pages § Miscellaneous
+Some pages on Special:Specialpages can be transcluded, such as Special:Allpages, Special:Prefixindex, Special:Newfiles, Special:Newpages, Special:Recentchanges and Special:Recentchangeslinked. Samples:
+
+{{Special:Allpages/General}} – a list of pages starting at "General".
+{{Special:Prefixindex/General}} – a list of pages with prefix "General".
+{{Special:Newfiles/4}} – a gallery of the four most recently uploaded files.
+{{Special:Newpages/5}} – a list of the five most recently created pages.
+{{Special:Recentchanges/5}} – the five most recent changes.
+{{Special:Recentchangeslinked/General}} – recent changes to the pages linked from "General".
+
+Except for Special:Recentchangeslinked, the slash, and the word or number after the slash, can be omitted, giving a list of pages without a specific starting point, or a list of the default length.
+URL parameters can be given like template parameters:
+
+{{Special:Recentchanges|namespace=10|limit=5}} – the five most recent changes in the "Template" namespace.
+
+Note: Transcluding certain special pages (such as Special:Newpages) can change the displayed title of the page.
+See also
+MediaWiki transclusion
+
+mw:Transclusion: a simple introduction (at MediaWiki).
+meta:Help:Embed page: gives basic information (at Meta-Wiki).
+Wikipedia:MediaWiki namespace
+
+meta:Help:MediaWiki namespace: at Meta-Wiki.
+
+
+meta:Help:Variable: information on MediaWiki variables (at Meta-Wiki).
+Help:Labeled section transclusion:
+
+mw:Extension:Labeled Section Transclusion:at MediaWiki.
+meta:Help:Template#Labeled section transclusion: at Meta-Wiki.
+
+
+
+Templates
+
+Help:A quick guide to templates: a simple introduction.
+Help:Template: more detailed description.
+
+meta:Help:Template: help at Meta-Wiki. Links to various other guides in the lead.
+mw:Help:Template: a simple introduction at MediaWiki.
+
+
+Wikipedia:Template messages: a directory of available templates.
+Wikipedia:Template namespace: about the template namespace.
+Wikipedia:Template limits: limitations to complexity of pages.
+
+Other
+
+
+
+This page is referenced from the glossary.
+
+
+
+
+Wikipedia:Transclusion costs and benefits
+Wikipedia:Purge: to force transclusion of newly updated templates.
+Wikipedia:Substitution: the opposite of transclusion.
+Wikipedia:WikiProject Modular Articles: now defunct.
+Bugzilla:Request for template transclusion from Commons: a proposal for interwiki template support.
+Mw:User:Peter17/Reasonably efficient interwiki transclusion
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia help pages
+
+
+
+
+
+
+
+
+
+
+Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.
+Or ask for help on your talk page
+
+
+
+
+Noticeboards (?)
+FAQs (?)
+Reference desks (?)
+The Missing Manual (?)
+Directories (?)
+
+
+
+
+
+
+
+
+About Wikipedia
+
+
+
+Administration
+Principles (Wikipedia in brief)
+Policies and guidelines
+What Wikipedia is not
+Disclaimer (parental advice)
+Making requests
+
+where to ask questions
+contact Wikipedia directly
+
+
+Who writes Wikipedia?
+Why create an account?
+
+
+
+
+
+
+
+
+Help for readers
+
+
+
+FAQ
+Books
+Copyright
+Glossary
+Mobile access
+Navigation
+Other languages
+Searching
+Students
+Viewing media
+
+
+
+
+
+
+
+
+Contributing
+to Wikipedia
+
+
+
+A plain and simple overview
+A primer for newcomers
+Asking for help
+Advice for young editors
+Avoiding common mistakes
+Etiquette (community expectations)
+Learning the ropes
+Instructional material
+Simplified Manual of Style
+Simplified rule-set
+
+"Ignore all rules"
+"The rules are principles"
+
+
+Style-tips
+Tip of the day
+Task Center
+Your first article (article wizard)
+Vandalism
+
+
+
+
+
+
+
+
+Getting started
+
+
+
+Wikipedia intro
+Wikipedia tutorial
+The Wikipedia Adventure
+Manual of Style intro
+Graphics tutorials
+Picture tutorial (Uploading intro)
+IRC (live chat) tutorial
+Navigating intro
+Policies intro
+Referencing intro
+Tables intro
+Talk pages intro
+VisualEditor user guide
+
+
+
+
+
+
+
+
+Dos and don'ts
+
+
+
+Accessibility
+Bio's
+Categorization
+Disambiguation
+Images
+Links
+Lists
+References
+Tables
+Talks
+
+
+
+
+
+
+
+
+How-to pages and
+information pages
+
+
+
+Appealing blocks
+Article deletion
+Categories
+Citations / references
+
+Referencing for beginners
+Citation Style 1
+Cite errors
+References and page numbers
+
+
+Convert
+Diff
+Editing
+
+toolbar
+edit conflict
+
+
+Email confirmation
+Find sources
+Files
+Footnotes
+Image deletion
+Infoboxes
+Linking (link color)
+Logging in
+Merging
+Namespaces
+Page name
+Redirect
+Renaming pages
+Passwords
+Reverting
+Talk pages (archiving)
+URL
+User contributions
+User page design center
+
+
+
+
+
+
+
+
+Coding wiki markup
+
+
+
+Wiki markup (cheatsheet)
+Barcharts
+Calculations
+Characters
+Citation templates
+Columns
+Hidden text
+HTML
+Lists
+Magic words (introduction)
+Music symbols
+Sections
+Sounds
+Tables (introduction)
+Templates
+
+documentation
+messages
+
+cleanup messages
+
+
+
+
+Transclusion
+Visual files
+Wiki tools
+
+
+
+
+
+
+
+
+Directories
+
+
+
+Abbreviations
+Departments
+Editor's index
+Essays
+FAQs
+Glossary
+Guidelines
+Help menu
+Manual of Style
+Policies
+Shortcuts
+Tips
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Transclusion&oldid=761373063"					
+Categories: Wikipedia information pagesWikipedia glossary itemsWikipedia editingWikipedia templatesWikipedia page helpHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+AfrikaansবাংলাDanskفارسیFrançaisGàidhlig한국어हिन्दीIlokanoItalianoBasa JawaМакедонскиمازِرونیBahasa MelayuनेपालीNorsk bokmålଓଡ଼ିଆPolskiPortuguêsසිංහලSimple EnglishСрпски / srpskiBasa Sunda吴语ייִדישZazakiŽemaitėška中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 22 January 2017, at 16:55.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.396","walltime":"0.522","ppvisitednodes":{"value":1577,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":98458,"limit":2097152},"templateargumentsize":{"value":2488,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  308.666      1 -total"," 30.60%   94.443      1 Template:Pp-vandalism"," 17.87%   55.146      1 Template:Information_page"," 16.09%   49.654      2 Template:Navbox"," 14.48%   44.710      1 Template:Help_navigation"," 13.20%   40.731      1 Template:Ombox","  5.02%   15.509      3 Template:Shortcut","  4.37%   13.491      1 Wikipedia:Transclusion/How_Transclusion_Works","  4.07%   12.548      1 Template:Wikipedia_technical_help","  3.53%   10.899      1 Template:For"]},"scribunto":{"limitreport-timeusage":{"value":"0.109","limit":"10.000"},"limitreport-memusage":{"value":3041973,"limit":52428800}},"cachereport":{"origin":"mw1161","timestamp":"20170206003017","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":75,"wgHostname":"mw1271"});});

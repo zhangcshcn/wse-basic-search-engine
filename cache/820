@@ -1,0 +1,1216 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Administrators
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Wikipedia:UNINVOLVED)
+
+					Jump to:					navigation, 					search
+
+For the encyclopedia page about administrators on Wikipedia, see Wikipedia administrators.
+For information on the administrative structure of Wikipedia, see Wikipedia:Administration.
+
+
+
+Note: This is neither the page to post questions for administrators, nor to request administrator privileges.
+Instead use Requests for administrator attention or Requests for adminship.
+
+
+
+
+
+This page documents an English Wikipedia policy, a widely accepted standard that all editors should normally follow. Changes made to it should reflect consensus.
+
+
+Shortcuts:
+
+WP:ADMIN
+WP:SYSOP
+WP:MOP
+
+
+
+
+
+
+
+
+This page in a nutshell: Administrators are users trusted with access to certain tools on the English Wikipedia. They are expected to observe a high standard of conduct, to use the tools fairly, and never to use them to gain advantage in a dispute.
+
+
+
+
+
+ 
+Are you in the right place?
+
+
+
+
+
+
+
+
+This page is for explaining the technical details of a Wikipedia user permission.
+
+
+Do you need to report persistent vandalism or spam to an administrator? File a vandalism report.
+Are you currently blocked from editing Wikipedia and wish to request an unblock? You can resolve this matter by appealing your block.
+Are you trying to request page protection on an article? Request page protection.
+Are you trying to request removal of page protection on an article? Request a change in page protection level.
+Do you want to request an edit be made to a protected article? Create an edit request.
+Do you need help with resolving a dispute with another editor? See dispute resolution.
+Do you need to report an edit war or three-revert rule violation to an administrator? File an edit war report.
+Do you need to report or discuss a policy violation or behavioral issue (such as an evasion of a block, abuse of tools, or other incidents) on Wikipedia that requires administrator intervention? File an incident report.
+
+
+
+
+
+
+
+
+Human Administration
+
+
+Wikimedia Board of Trustees
+
+
+Wikimedia Staff
+
+
+Stewards
+
+
+Arbitration Committee
+
+
+Bureaucrats
+
+
+Administrators
+
+
+Wikipedians
+
+
+Readers
+
+
+
+
+
+
+Wikipedia's administrative tools are often likened to a janitor's mop, leading to adminship being described at times as being "given the mop".
+
+
+
+
+Enforcement policies
+
+
+
+
+Administrators
+Banning policy
+Blocking policy
+Protection policy
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+
+Administrators, commonly known as admins or sysops (system operators), are Wikipedia editors who have been granted the technical ability to perform certain special actions on the English Wikipedia. They include the ability to block and unblock user accounts and IP addresses from editing, edit fully protected pages, protect and unprotect pages from editing, delete and undelete pages, rename pages without restriction, and use certain other tools.
+Administrators assume these responsibilities as volunteers after undergoing a community review process. They do not act as employees of the Wikimedia Foundation. They are never required to use their tools, and must never use them to gain an advantage in a dispute in which they were involved. Administrators should not be confused with Wikimedia system administrators ("sysadmins").
+The English Wikipedia has 1,274 administrators (see full list of accounts with administrator privileges or lists of administrators by activity level).
+
+
+
+Contents
+
+
+1 Administrators' abilities
+2 History
+3 Becoming an administrator
+
+3.1 Places where administrators in particular can assist
+
+
+4 Administrator noticeboards
+5 Expectations of adminship
+
+5.1 Care and judgement
+5.2 Administrator conduct
+5.3 Accountability
+5.4 Security
+
+
+6 Involved admins
+7 Grievances by users ("administrator abuse")
+8 Misuse of administrative tools
+
+8.1 Reversing another administrator's action
+
+8.1.1 Special situations
+
+
+8.2 Reinstating a reverted action ("wheel warring")
+8.3 Exceptional circumstances
+
+
+9 Review and removal of adminship
+
+9.1 Procedural removal for inactive administrators
+9.2 Voluntary removal
+9.3 Disputes or complaints
+
+9.3.1 Administrator recall
+9.3.2 Arbitration Committee review
+
+
+
+
+10 Restoration of adminship
+
+10.1 Lengthy inactivity
+10.2 After voluntary removal
+10.3 After removal due to inactivity
+
+
+11 See also
+12 Notes
+13 External links
+
+
+
+Administrators' abilities
+Administrators have the technical ability to perform the following actions:
+
+block user accounts and IP addresses from editing
+apply page protection to restrict editing of a particular page
+delete pages with 5,000 or fewer revisions
+override the title blacklist
+move a page to any desired title (this is in part a consequence of the last two)
+edit fully protected pages
+view and restore deleted pages
+hide and delete page revisions
+perform other special actions as listed at Wikipedia:Administrators/Tools
+
+By convention, administrators normally take responsibility for judging the outcome of certain discussions, such as deletion discussions, move discussions, and move-review discussions, but other editors may close discussions in some cases (see non-admin closures).
+History
+In the very early days of Wikipedia, only Bomis employees were administrators, as the server password was required to make any administrative changes.[1] The idea of an administrator role was proposed in late 2001 during the development of the first version of MediaWiki.[2] Jimmy Wales directly appointed the first administrators in February 2002.
+Under the role-based access control currently used, individual accounts are marked with the special roles they may play, these roles in turn determine any special tools they may access. Administrators were not intended to develop into a special subgroup. Rather, administrators should be a part of the community like other editors. Anyone can perform most maintenance and administration tasks on Wikipedia without the specific technical functions granted to administrators. An often paraphrased comment about the title and process of adminship was made by Jimmy Wales in February 2003—referred to as "sysops" here:
+
+Policy shortcuts:
+
+
+WP:DEAL
+WP:NOBIGDEAL
+
+
+
+
+I just wanted to say that becoming a sysop is *not a big deal*.
+I think perhaps I'll go through semi-willy-nilly and make a bunch of people who have been around for awhile sysops. I want to dispel the aura of "authority" around the position. It's merely a technical matter that the powers given to sysops are not given out to everyone.
+I don't like that there's the apparent feeling here that being granted sysop status is a really special thing.
+— Jimmy Wales, wikimedia.org archive entry
+
+Stated simply, while the correct use of the tools and appropriate conduct should be considered important, merely "being an administrator" should not be.
+As Wikipedia's worldwide cultural impact and visibility grew, and as the community grew with it, the role of administrators evolved and standards for adminship rose. Given the lengthy procedures required to remove administrative access, which often include attempts to resolve the dispute prior to arbitration, the community carefully scrutinizes requests for adminship.
+Becoming an administrator
+Main page: Wikipedia:Guide to requests for adminship
+
+
+
+Each individual Wikimedia project (including other Wikipedias) may have its own policy for granting adminship.
+
+
+The English Wikipedia has no official requirements to become a Wikipedia administrator. Anyone can request adminship ("RFA") from the community, regardless of their Wikipedia experience. However, administrators are expected to have the trust and confidence of the community, so requests from users who do not have considerable experience are not usually approved. Any registered editor can comment on a request, and each editor will assess each candidate in their own way.
+Before requesting or accepting a nomination, candidates should generally be active and regular Wikipedia contributors for at least several months, be familiar with the procedures and practices of Wikipedia, respect and understand its policies, and have gained the general trust of the community. A discussion (not a vote) takes place for seven days about whether the candidate should become an administrator. Per community consensus, RfAs are advertised on editors' watchlists and Template:Centralized discussion. The community has also instituted a question limit: no editor may ask more than two questions of a candidate. Also disallowed are multi-part questions which are framed as one question, but which in effect ask multiple questions and exceed the limit. Bureaucrats may "clerk" RfAs, dealing with comments and/or votes which they deem to be inappropriate.
+The RfA process allows other editors to get to know the candidate, and explore the candidate's involvement and background as an editor, conduct in discussions, and understanding of the role they are requesting, and to state if they support or oppose the request, along with their reasons and impressions of the candidate. An uninvolved bureaucrat then determines if there is consensus to approve the request. This determination is not based exclusively on the percentage of support, but in practice most RfAs above 75% pass. The community has determined that in general, RfAs between 65–75% support should be subject to the discretion of bureaucrats. (Therefore, it logically follows that almost all RfAs below 65% support will fail.)
+While RFA is an intensive process, the quality of feedback and review on the candidate's readiness and demeanor by experienced editors is often very high - applicants who are unsuccessful but take steps to address points raised will often succeed on a subsequent request some months later. If you are interested in requesting adminship, you should first read the guide to requests for adminship and the nomination instructions. When you are ready to apply, you may add your nomination to the Wikipedia:Requests for adminship ("RFA") page, according to the instructions on that page.
+Only one account of a given person may have administrative tools. The only exceptions are bots with administrative access. See WP:ADMINSOCK.
+Adminship is granted indefinitely, and is only removed upon request, under circumstances involving high-level intervention (see administrator abuse below), or temporarily for inactive admins.
+Places where administrators in particular can assist
+Administrator rights can be particularly helpful for working in certain areas of Wikipedia:
+
+Administrative backlogs
+Anti-vandalism
+Copyright problems (advice for admins)
+Incidents for admin attention
+Main Page sections, such as In the news or Did you know
+Recent changes patrol
+Speedy deletion requests
+Three-revert rule and edit warring violations
+
+See also Wikipedia:Admins willing to make difficult blocks and the administrators channel on IRC for IRC users.
+"Uninvolved administrators" can also help in the management of Arbitration Committee remedies and the dispute resolution concerning disruptive areas and situations. Administrators acting in this role are neutral; they do not have any direct involvement in the issues they are helping people with. Lists of sanctions that are to be enforced by neutral administrators can be found at Wikipedia:General sanctions and Wikipedia:Arbitration/Active sanctions (see also requests for enforcement at Wikipedia:Arbitration/Requests/Enforcement).
+
+Administrator noticeboards
+Policy shortcut:
+
+
+WP:ANYUSER
+
+
+
+Two main noticeboards exist on which general administrator discussion takes place (any user may post or take part in discussions there):
+
+Wikipedia:Administrators' noticeboard (WP:AN) – Used for things administrators may wish to (or need to) know, such as notices and general information.
+Wikipedia:Administrators' noticeboard/Incidents (WP:ANI) – Used for matters needing attention from passing administrators. Although threads here can become long, this board is primarily for incidents and other matters needing advice or attention.
+
+Expectations of adminship
+Care and judgement
+If you are granted access, you must exercise care in using these new functions, especially the ability to delete pages and to block users and IP addresses. You can learn how to do these things at the Administrators' how-to guide and the new administrator page. Please also look at the pages linked from the Administrators' reading list before using your administrative abilities. Occasional lapses are accepted but serious or repeated lapses, or lapses involving breaches of 'involved' administrator conduct may not always be.
+Administrator tools are also used with judgment; it can take some time for a new administrator to learn when it's best to use the tools, and it can take months to gain a good sense of how long a period to set when using tools such as blocking and page protection in difficult disputes. New administrators are strongly encouraged to start slowly and build up experience on areas they are used to, and to ask others if unsure.
+Administrator conduct
+Policy shortcut:
+
+
+WP:ADMINCOND
+
+
+
+Administrators are expected to lead by example and to behave in a respectful, civil manner in their interactions with others. Administrators are expected to follow Wikipedia policies and to perform their duties to the best of their abilities. Occasional mistakes are entirely compatible with adminship; administrators are not expected to be perfect. However, sustained or serious disruption of Wikipedia is incompatible with the status of administrator, and consistently or egregiously poor judgment may result in the removal of administrator status. Administrators should strive to model appropriate standards of courtesy and civility to other editors and to one another.[2][3][4][5]
+Administrators should bear in mind that they have hundreds of colleagues. Therefore, if an administrator finds that they cannot adhere to site policies and remain civil (even toward users exhibiting problematic behavior) while addressing a given issue, then the administrator should bring the issue to a noticeboard or refer it to another administrator to address, rather than potentially compound the problem by poor conduct.
+Accountability
+Policy shortcut:
+
+
+WP:ADMINACCT
+
+
+
+Administrators are accountable for their actions involving administrator tools, as unexplained administrator actions can demoralize other editors who lack such tools. Subject only to the bounds of civility, avoiding personal attacks, and reasonable good faith, editors are free to question or to criticize administrator actions. Administrators are expected to respond promptly and civilly to queries about their Wikipedia-related conduct and administrator actions and to justify them when needed.
+Administrators who seriously, or repeatedly, act in a problematic manner or have lost the trust or confidence of the community may be sanctioned or have their access removed. In the past, this has happened or been suggested for:
+
+"Bad faith" adminship (sock puppetry, gross breach of trust,[7] etc.)
+Breach of basic policies (attacks, biting/civility, edit warring, privacy, etc.)
+Conduct elsewhere incompatible with adminship (off-site attacking, etc.).
+Failure to communicate[6] – this can be either to users (e.g., lack of suitable warnings or explanations of actions), or to concerns of the community (especially when explanations or other serious comments are sought).
+Repeated or consistent poor judgment
+
+Security
+
+
+
+For administrators unfamiliar with two-factor authentication, see the Plain and simple two-factor authentication guide
+
+
+
+Main page: Wikipedia:User account security
+Wikipedia's policy on password strength requirements requires administrators to have strong passwords and follow appropriate personal security practices. Because they have the potential to cause site-wide damage with a single edit, a compromised admin account will be blocked and its privileges removed on grounds of site security. In certain circumstances, the revocation of privileges may be permanent. Any administrator who is discovered to have a password less than 8 bytes in length or among the most 10,000 common passwords may also be desysopped. Discretion on resysopping temporarily desysopped administrators is left to bureaucrats, who will consider whether the rightful owner has been correctly identified, and their view on the incident and the management and security (including likely future security) of the account.
+Two-factor authentication is available to further secure your account from unauthorized use.
+Administrators should never share their password or account with any other person, for any reason. If they find out their password has been compromised, or their account has been otherwise compromised (even by an editor or individual they know and trust), they should attempt to change it immediately, or otherwise report it to a bureaucrat for temporary desysopping. Users who fail to report unauthorized use of their account will be desysopped. Unauthorized use is considered 'controversial circumstance', and access will not be automatically restored.
+Involved admins
+
+Policy shortcuts:
+
+
+WP:INVOLVED
+WP:UNINVOLVED
+
+
+
+In general, editors should not act as administrators in disputed cases in which they have been involved. This is because involved administrators may have, or may be seen as having, a conflict of interest in disputes they have been a party to or have strong feelings about. Involvement is generally construed very broadly by the community, to include current or past conflicts with an editor (or editors), and disputes on topics, regardless of the nature, age, or outcome of the dispute.
+One important caveat is that an administrator who has interacted with an editor or topic area purely in an administrative role, or whose prior involvements are minor or obvious edits which do not speak to bias, is not involved and is not prevented from acting in an administrative capacity in relation to that editor or topic area. This is because one of the roles of administrators is precisely to deal with such matters, at length if necessary. Warnings, calm and reasonable discussion and explanation of those warnings, advice about community norms, and suggestions on possible wordings and approaches do not make an administrator 'involved'.
+In straightforward cases (e.g., blatant vandalism), the community has historically endorsed the obvious action of any administrator – even if involved – on the basis that any reasonable administrator would have probably come to the same conclusion. Although there are exceptions to the prohibition on involved editors taking administrative action, it is still the best practice, in cases where an administrator may be seen to be involved, to pass the matter to another administrator via the relevant noticeboards.
+Grievances by users ("administrator abuse")
+Further information: Wikipedia:Requests for de-adminship
+Policy shortcuts:
+
+
+WP:ADMINABUSE
+WP:ADMINISTRATORABUSE
+WP:GBU
+
+
+
+If a user believes an administrator has acted improperly, they should express their concerns directly to the administrator responsible and try to come to a resolution in an orderly and civil manner. However, if the matter is not resolved between the two parties, users can proceed with dispute resolution (see this section below for further information). One possible approach is to use Administrators' noticeboard/Incidents to request feedback from the community - however, complainants should be aware that the behavior of the filer is often also reviewed (see WP:BOOMERANG). If a user believes they have been blocked improperly, they may appeal the block using the procedures outlined here.
+While the Arbitration Committee does not review short or routine blocks, concerns about an administrator's suitability for the role may be brought in a Request for Arbitration, usually when other dispute resolution approaches are unsuccessful (see this section below).
+Misuse of administrative tools
+Policy shortcut:
+
+
+WP:TOOLMISUSE
+
+
+
+Misusing the administrative tools is considered a serious issue. The administrative tools are provided to trusted users for maintenance and other tasks, and should be used with thought. Serious misuse may result in sanction or even their removal.
+Common situations where avoiding tool use is often required:
+
+
+
+Conflict of interest or non-neutrality – Administrators should not normally use their tools in matters in which they are personally involved (for example, in a content dispute in which they are a party). See Involved admins.
+Communal norms or policies – When a policy or communal norm is clear that tools should not be used, then tools should not be used without an explanation that shows the matter has been considered, and why a (rare) exception is genuinely considered reasonable.
+Reversing the actions of other administrators – Only in a manner that respects the admin whose action is involved, and (usually) after consultation.
+Reinstating an admin action that has already been reversed (sometimes known as "wheel warring") – Responses have included Arbitration and desysopping even the first time.
+
+
+
+See below for these and for the very few exceptions.
+In most cases even when use of the tools is reasonable, if a reasonable doubt may exist, it is frequently better to ask an independent administrator to review and (if justified) take the action. This is a matter of judgment if necessary.
+Reversing another administrator's action
+Policy shortcut:
+
+
+WP:RAAA
+
+
+
+Administrators are expected to have good judgment, and are presumed to have considered carefully any actions or decisions they carry out as administrators. Administrators may disagree, but administrative actions should not be reversed without good cause, careful thought, and (if likely to be objected to), where the administrator is presently available, a brief discussion with the administrator whose action is challenged.
+Special situations
+In some situations, the usual policy for reversing another administrator's action does not apply:
+
+Blocks made with the summary "Appeal is only to the Arbitration Committee": Rarely, in blocking an editor, an administrator will have to note that their block "should only be lifted by the Arbitration Committee" or that "any appeal from this block is to ArbCom only". Such a provision must only be made if the nature of the block demands that its circumstances not be further discussed on-wiki (and instead be considered further only in a confidential environment). This could include situations where discussion would reveal or emphasize information whose disclosure could jeopardize an editor's physical or mental well-being, where on-wiki discussion would identify an anonymous editor, or where the underlying block reason would be defamatory if the block were unjustified. In such cases, the blocking administrator should immediately notify the Arbitration Committee by e-mail of the block and the reasons for it.
+In August 2012, the Arbitration Committee issued a reminder that administrators must promptly notify the committee when making sensitive blocks or when noting that a block can be "appealed only to ArbCom". In these situations, the administrator retains responsibility for their block (see this arbitration ruling) but will be accountable to the committee. (Such blocks have been the subject of long-standing Wikipedia practice, and were also discussed in the fourth paragraph of this statement.)
+
+Blocks made by the Arbitration Committee: Separate from the first situation, a member of the Arbitration Committee may block an account. Blocks made by an arbitrator with the summary "For the Arbitration Committee", "Appeal is only to the Arbitration Committee", or "{{ArbComBlock}}" are made on behalf of the Arbitration Committee. These blocks are made by a decision of arbitrators, very rarely, and only with good reason… Therefore, administrators must not reverse ArbCom blocks without the prior, written consent of the committee. (See also: Wikipedia:Arbitration/Policy#Appeal of decisions.)
+Checkuser blocks: Blocks designated as "Checkuser blocks" (that is blocks relying on confidential checkuser findings) may not be reversed by administrators who do not have access to the checkuser permission. Appeal of these blocks may be made to the Unblock Ticket Requests System (which has a designated "checkuser" area) or to the Arbitration Committee. Administrators were reminded in July 2010 that they may not reverse checkuser blocks without prior consent from the committee or a checkuser.
+
+Reinstating a reverted action ("wheel warring")
+"WP:WW" redirects here. You may be looking for Wikipedia:Avoid weasel words, Wikipedia:WikiProject WikipediaWeekly or Wikipedia:WikiProject Women writers.
+Policy shortcuts:
+
+
+WP:WW
+WP:WHEEL
+WP:0WW
+WP:MOPFIGHT
+
+
+
+When another administrator has already reversed an administrative action, there is very rarely any valid reason for the original or another administrator to reinstate the same or similar action again without clear discussion leading to a consensus decision. Wheel warring is when an administrator's action is reversed by another admin, but rather than discussing the disagreement, administrator tools are then used in a combative fashion to undo or redo the action. With very few exceptions, once an administrative action has been reverted, it should not be restored without consensus.
+
+Do not repeat a reversed administrative action when you know that another administrator opposes it. Do not continue a chain of administrative reversals without discussion. Resolve admin disputes by discussion.
+
+Wheel warring usually results in an immediate Request for Arbitration. Sanctions for wheel warring have varied from reprimands and cautions, to temporary blocks, to desysopping, even for first time incidents. There have been several relevant arbitration cases on the subject of wheel-warring.[3] The phrase was also used historically for an administrator improperly reversing some kinds of very formal action.[4]
+Possible indications of an incipient wheel war:
+
+An administrator getting too distressed to discuss calmly,
+Deliberately ignoring an existing discussion in favor of a unilateral preferred action,
+Abruptly undoing administrator actions without consultation.
+Reversal of a Wikimedia Foundation office action.
+
+Wikipedia works on the spirit of consensus; disputes should be settled through civil discussion rather than power wrestling. There are few issues so critical that fighting is better than discussion, or worth losing your own good standing for. If you feel the urge to wheel war, try these alternatives:
+
+Seek constructive discussion, and aim to cool the situation and bring it back to normal processes, if able. Adopting a deliberately calming manner and approach as you explain may help. In some cases email may allow heartfelt personal advice to be given that could not easily be posted on-wiki.
+If concerned by improper conduct, follow dispute resolution processes, as with any other conduct matter. For example: move the issue to WP:AN or WP:ANI and wait for input. For serious and egregious misuse of tools consider RFAR.
+If you are concerned that not acting (or the delay needed for dialog) could quickly cause the situation to get much worse or would be grossly inappropriate, it can sometimes be sensible to email the Arbitration Committee and let them know about the situation or request intervention or speedy advice. (This might be the case where non-public information or harm could result).
+And remember you have hundreds of colleagues: you are not alone and most issues are made worse by poor judgment. If you are seen to conduct yourself well, usually the matter will blow over soon, however bad it may seem. Sometimes it's best simply to take a break and calm down.
+
+The term "wheel" comes from the description of highest privileged accounts on the PDP-10 and TOPS-20 mainframe computers, where "wheel" was used the way "root" is used on Linux/Unix systems.
+Exceptional circumstances
+There are a few exceptional circumstances to this general principle. (Note: these are one-way exceptions.)
+
+Biographies of living persons – Material deleted because it contravenes BLP may be re-deleted if reinstated, if it continues to be non-BLP-compliant.
+Privacy – Personal information deleted under the Foundation's privacy policy may be re-deleted if reinstated.
+Emergency – In certain situations there may arise an emergency that cannot be adjourned for discussion. An administrator should not claim emergency unless there is a reasonable belief of a present and very serious emergency (i.e., reasonable possibility of actual, imminent, serious harm to the project or a person if not acted upon with administrative tools), and should immediately seek to describe and address the matter, but in such a case the action should not usually be reverted (and may be reinstated) until appropriate discussion has taken place.
+Page protection in edit warring – Reasonable actions undertaken by uninvolved administrators to quell a visible and heated edit war by protecting a contended page should be respected by all users, and protection may be reinstated if needed, until it is clear the edit war will not resume or consensus agrees it is appropriate to unprotect.
+
+Review and removal of adminship
+
+If an administrator abuses administrative powers, these powers can be removed. Administrators may be removed by Jimbo Wales, by stewards, or by a ruling of the Arbitration Committee. At their discretion, lesser penalties may also be assessed against problematic administrators, including the restriction of their use of certain functions or placement on administrative probation. The technical ability to remove administrator status rests with bureaucrats, stewards and Jimbo Wales.
+There have been several procedures suggested for a community-based desysop process, but none of them has achieved consensus. Some administrators will voluntarily stand for reconfirmation under certain circumstances; see #Administrator recall. Users may use dispute resolution to request comment on an administrator's suitability.
+Technical note – Removal of rights performed by stewards does not currently show up in the usual user logs. Use {{Userrights|username}} for full links to user rights information and full logs, including the stewards' global logs on meta as well, or Special:ListUsers to verify a user's current rights. See: Bugzilla:4055.
+Procedural removal for inactive administrators
+Policy shortcut:
+
+
+WP:INACTIVITY
+
+
+
+Admin accounts which have made no edits or administrative actions for at least 12 months may be desysopped.[5] Subject to the #Lengthy inactivity consideration below, this desysopping is not to be considered permanent, or a reflection on the user's use of, or rights to, the admin tools. The admin must be contacted on their user talk page and via e-mail (if possible) one month before the request for desysopping and again several days before the desysopping goes into effect. Desysopping on inactivity grounds should be handled by English Wikipedia bureaucrats. The summary in the user rights log should make it clear that the desysopping is purely procedural.
+If necessary, the user's userpage should be edited to clarify the status — particularly if any categorization is involved. For example, the userbox {{User wikipedia/Administrator}} should be replaced with {{User wikipedia/Former administrator|inactive=yes}}.
+Voluntary removal
+Administrators may request that their access to administrative tools be removed at Wikipedia:Bureaucrats' noticeboard.
+Disputes or complaints
+Further information: Wikipedia:Dispute resolution
+In most cases, disputes with administrators should be resolved with the normal dispute resolution process. If the dispute reflects seriously on a user's administrative capacity (blatant misuse of administrative tools, gross or persistent misjudgment or conduct issues), or dialog fails, then the following steps are available.
+Administrator recall
+Main page: Wikipedia:Administrators open to recall
+Some administrators place themselves "open to recall", whereby they pledge to voluntarily step down if specified criteria are met. The specific criteria are set by each administrator for themselves, and usually detailed in their userspace. The process is entirely voluntary and administrators may change their criteria at any time, or decline to adhere to previously made recall pledges.
+Arbitration Committee review
+This is an involuntary process. Generally, the Arbitration Committee requires that other steps of dispute resolution are tried before it intervenes in a dispute, such as raising the issue at Wikipedia:Administrators' noticeboard/Incidents. However, if the matter is serious enough, the Arbitration Committee may intervene early on. Remedies that may be imposed, at the discretion of the Committee, include warnings, admonishments, restrictions, and removal of administrator privileges.
+Restoration of adminship
+ Unless specifically prevented by prior community consensus, or by ruling by the Arbitration Committee, regardless of how adminship is removed, any editor is free to re-request adminship through the typical Requests for adminship process.
+When an editor re-requests adminship at WP:BN subsequent to voluntary removal or removal due to inactivity (see below), there will be at least a 24-hour wait to ascertain whether at the time of removal the editor was "under a cloud". If there is a currently open community discussion concerning this issue, re-granting will wait until the discussion is closed.
+Lengthy inactivity
+If an editor has had at least three years of uninterrupted inactivity (no edits) between the removal of the admin tools and the re-request, regardless of the reason for removal, the editor will need to instead request through the WP:RFA process.
+In the case of an administrator desysopped due to inactivity, if, after the one year of inactivity which led to the desysopping due to inactivity, there is a subsequent two years of continued inactivity (no edits), then, if the editor returns after that, they will no longer be able to merely re-request the admin tools, but instead will need to request adminship through the WP:RFA process. Again, this means there is a total of at least three uninterrupted years of inactivity.
+After voluntary removal
+Administrators in good standing who were not considered to be "under a cloud" when voluntarily requesting removal (that is not in controversial circumstances), may request at any time that their administrator status be restored by a bureaucrat, provided the bureaucrat is satisfied that the account's security has not been compromised in the meantime. This is commonly done at the bureaucrats' noticeboard and is recorded at the list of resysopped users.
+After removal due to inactivity
+Former administrators returning to Wikipedia may be resysopped by a bureaucrat without further discussion (after a minimum 24 hour wait) as long as there are no issues with their identity and they stopped editing Wikipedia while still in good standing or in uncontroversial circumstances. The resysopping will be listed at the list of resysopped users.
+See also
+
+
+
+
+
+History and statistics
+
+
+Chart of numbers of administrators passing RfA
+Former administrators
+Requests for Adminship by month
+Statistics of administrator activity
+
+
+
+
+For administrators
+
+
+Administrators' how-to guide
+Administrators' noticeboard
+Administrators' reading list
+Advice for new administrators
+Information for new administrators
+Administrators' Mass Message list
+
+
+
+
+Miscellaneous
+
+
+List of administrators (automatically generated version)
+Advice for RfA candidates, essay
+What adminship is not, an essay
+Wikipedia:User access levels
+Wikipedia:Inactive administrators
+m:Tech/News
+
+
+
+
+
+
+Contacting administrators
+
+
+Wikipedia:Requests for administrator attention (various methods of contacting administrators for general help)
+Active Wikipedia administrators list and semi-active Wikipedia administrators list (for contacting specific administrators)
+
+Notes
+
+^ nostalgia:Wikipedia_utilities/Old_Page_titles_to_be_deleted_talk
+^ nostalgia:Wiki Administrators
+^ Tony Sidaway; UBX war; Pedophilia userbox wheel war; Freestylefrappe; Daniel Brandt deletion wheel war; Sarah Palin protection wheel war.
+^ e.g., "Wheel warring against Jimbo Wales" and "Wheel warring against BLP special enforcement"
+^ Wikipedia:Village pump (proposals)/suspend sysop rights of inactive admins, June 2011
+
+External links
+
+
+
+Wikiversity has learning resources about How to be a Wikimedia sysop
+
+
+
+Administrators in all Wikipedias, Meta-Wiki
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Requests for adminship (RfA), bureaucratship (RfB), and past request archives (search)
+
+
+
+
+
+
+Administrators
+
+
+
+Requests for adminship
+
+edit
+watch
+
+
+RfA talk
+
+new post
+Archives
+
+
+RfA nominations
+
+Request a nom
+
+
+Optional RfA candidate poll
+Advice for RfA candidates
+
+Guide
+Miniguide
+
+
+Advice for voters
+
+Arguments to avoid
+
+
+
+
+
+
+
+
+
+
+RfA analysis
+
+
+
+Requests for adminship by year
+Successful RfAs
+
+By month
+Alphabetical
+Chronological
+
+
+Unsuccessful RfAs
+
+Alphabetical
+Chronological
+
+
+
+
+
+
+
+
+
+
+Bureaucrats
+
+
+
+Noticeboard
+Successful RfBs
+
+Alphabetical
+Chronological
+
+
+Unsuccessful RfBs
+
+Alphabetical
+Chronological
+
+
+Bureaucrat discussion
+
+
+
+
+
+
+
+
+Useful pages
+
+
+
+RFA reform
+RfX Report
+Inactive administrators
+Former administrators
+Logs
+
+User rights log
+Old log
+Meta log
+Meta old log
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current admin count: 1,274 (list all)
+Current bureaucrat count: 22 (list all)
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia accounts and governance
+
+
+
+
+
+
+Unregistered (IP) users
+
+
+
+Why create an account?
+Create an account
+Request an account
+IPs are human too
+IP addresses are not people
+IP hopper
+
+
+
+
+
+
+
+
+Registered users
+
+
+
+New account
+Logging in
+
+Reset passwords
+
+
+Username policy
+
+Changing username
+Usernames for administrator attention
+
+
+Unified login or SUL
+Alternate account
+
+
+
+
+
+
+
+
+Account security
+
+
+
+Password strength requirements
+User account security
+Personal security practices
+Two-factor authentication
+
+Simple 2FA
+2FA for AWB
+
+
+Committed identity
+On privacy, confidentiality and discretion
+Compromised accounts
+
+
+
+
+
+
+
+
+Blocks, global locks,
+bans, sanctions
+
+
+
+Blocking policy
+
+FAQ
+Admins guide
+Tools
+Autoblock
+
+
+Appealing a block
+
+Guide to appealing blocks
+UTRS Unblock Ticket Request System
+
+
+Blocking IP addresses
+
+Range blocks
+IPv6
+Open proxies
+
+
+Global locks
+Banning policy
+
+ArbCom appeals
+
+
+Sanctions
+
+Personal sanctions
+General sanctions
+Discretionary sanctions and Log
+Essay
+
+
+Long-term abuse
+Standard offer
+
+
+
+
+
+
+
+
+Related to accounts
+
+
+
+Sock puppetry
+Single-purpose account
+Sleeper account
+Vandalism-only account
+Wikibreak
+
+Enforcer
+
+
+Retiring
+
+Courtesy vanishing
+
+
+Clean start
+
+Quiet return
+
+
+
+
+
+
+
+
+
+
+User groups
+and global user groups
+
+
+
+Requests for permissions
+
+Admin instructions
+Admin guide
+
+
+Account creator
+
+PERM
+
+
+Autopatrolled
+
+PERM
+
+
+AutoWikiBrowser
+
+PERM
+
+
+Confirmed
+
+PERM
+
+
+Extended confirmed
+
+PERM
+
+
+File mover
+
+PERM
+
+
+Mass message sender
+
+PERM
+
+
+New page reviewer
+
+PERM
+
+
+Page mover
+
+PERM
+
+
+Pending changes reviewer
+
+PERM
+
+
+Rollback
+
+PERM
+
+
+Template editor
+
+PERM
+
+
+IP-block-exempt
+
+Requests
+
+
+Courses access
+
+Requests
+
+
+Bot accounts
+
+Requests
+
+
+Global rights policy
+
+OTRS Volunteer Response Team
+
+
+
+
+
+
+
+
+
+
+Advanced user groups
+
+
+
+Administrators
+
+RfA
+
+
+Bureaucrats
+
+RfB
+
+
+Edit filter manager
+
+Requests
+
+
+CheckUser and Oversight
+
+Requests
+
+
+
+
+
+
+
+
+
+
+Committees and related
+
+
+
+Arbitration Committee
+Mediation Committee
+Bot approvals group
+Functionaries
+Clerks
+
+
+
+
+
+
+
+
+Governance
+
+
+
+Administration
+
+FAQ
+
+
+Formal organization
+Editorial oversight and control
+Quality control
+Wikimedia Foundation
+
+Meta-Wiki
+
+
+Leadership opportunities
+WikiProjects
+Elections
+Policies and guidelines
+Unbundling administrators' powers
+Petitions
+Noticeboards
+Consensus
+Dispute resolution
+Reforms
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators&oldid=765188692#UNINVOLVED"					
+Categories: Wikipedia policiesWikipedia Administrators' guideWikipedia adminshipWikipedia enforcement policiesWikipedia user access levelsHidden categories: Wikipedia semi-protected project pagesWikipedia move-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Languages
+
+
+AcèhАдыгабзэAfrikaansAkanAlemannischአማርኛÆngliscАҧсшәаالعربيةAragonésܐܪܡܝܐArpetanঅসমীয়াAsturianuАварAymar aruAzərbaycancaتۆرکجهBamanankanবাংলাBahasa BanjarBân-lâm-gúBasa BanyumasanБашҡортсаБеларускаяБеларуская (тарашкевіца)‎भोजपुरीБългарскиBoarischབོད་ཡིགBosanskiBrezhonegБуряадCatalàЧӑвашлаCebuanoČeštinaChavacano de ZamboangaChi-ChewaChiTumbukaCymraegDanskDeitschDeutschދިވެހިބަސްDiné bizaadDolnoserbskiEestiΕλληνικάEmiliàn e rumagnòlЭрзяньEspañolEsperantoEuskaraEʋegbeفارسیFøroysktFrançaisFryskFulfuldeFurlanGaeilgeGaelgGagauzGàidhligGalego贛語Gĩkũyũગુજરાતી客家語/Hak-kâ-ngî한국어HausaHawaiʻiՀայերենहिन्दीHornjoserbsceHrvatskiIdoIgboIlokanoবিষ্ণুপ্রিয়া মণিপুরীBahasa IndonesiaInterlinguaInterlingueᐃᓄᒃᑎᑐᑦ/inuktitutIñupiakИронIsiZuluÍslenskaItalianoעבריתBasa JawaKalaallisutಕನ್ನಡKapampanganКъарачай-малкъарქართულიकॉशुर / کٲشُرKaszëbscziҚазақшаKernowekKinyarwandaKiswahiliKongoKreyòl ayisyenKurdîКыргызчаLadinoЛезгиລາວLatgaļuLatinaLatviešuLëtzebuergeschLietuviųLigureLimburgsLingálaLa .lojban.LugandaLumbaartMagyarमैथिलीМакедонскиMalagasyമലയാളംMaltiMāoriमराठीمصرىمازِرونیBahasa MelayuBaso MinangkabauMìng-dĕ̤ng-ngṳ̄MirandésМокшеньМонголမြန်မာဘာသာNāhuatlDorerin NaoeroNa Vosa VakavitiNederlandsNedersaksiesNēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣनेपाली日本語NapulitanoНохчийнNordfriiskNorfuk / PitkernNorsk bokmålNorsk nynorskNouormandOccitanОлык марийଓଡ଼ିଆOʻzbekcha/ўзбекчаपालिPälzischPangasinanپنجابیپښتوPatoisPicardPiemontèisTok PisinPlattdüütschPolskiPortuguêsQaraqalpaqshaQırımtatarcaRipoarischRomânăRomaniRuna SimiРусскийСаха тылаSámegiellaGagana Samoaसंस्कृतम्SängöSarduScotsSeelterskSesotho sa LeboaShqipSicilianuසිංහලSimple EnglishسنڌيSiSwatiSlovenčinaSlovenščinaŚlůnskiSoomaaligaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиBasa SundaSuomiSvenskaTagalogதமிழ்TarandíneТатарча/tatarçaతెలుగుTetunไทยТоҷикӣLea faka-TongaᏣᎳᎩTshivendaತುಳುTürkçeTürkmençeTwiУдмуртᨅᨔ ᨕᨘᨁᨗУкраїнськаاردوئۇيغۇرچە / UyghurcheVènetoTiếng ViệtVolapükVõroWalon文言West-VlamsWinarayWolof吴语XitsongaייִדישYorùbá粵語ZazakiŽemaitėška中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 13 February 2017, at 01:48.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.320","walltime":"0.438","ppvisitednodes":{"value":3150,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":106330,"limit":2097152},"templateargumentsize":{"value":4236,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":21,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  300.753      1 -total"," 23.56%   70.857     10 Template:Policy_shortcut"," 19.77%   59.474     10 Template:Bulleted_list"," 12.26%   36.862     17 Template:No_redirect"," 11.76%   35.362      1 Template:Sprotected2"," 11.09%   33.351      2 Template:Ombox","  7.58%   22.802      2 Template:For","  7.55%   22.693      4 Template:Navbox","  4.07%   12.236      1 Template:Policy","  3.68%   11.072      1 Template:Quote"]},"scribunto":{"limitreport-timeusage":{"value":"0.099","limit":"10.000"},"limitreport-memusage":{"value":3985404,"limit":52428800}},"cachereport":{"origin":"mw1186","timestamp":"20170213015326","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":95,"wgHostname":"mw1272"});});

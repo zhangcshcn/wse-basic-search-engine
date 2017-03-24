@@ -1,0 +1,1156 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Deletion policy
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+Multiple shortcuts redirect here; you may be looking for Deletion process, Articles for deletion, Wikipedia:WikiProject Deletion, Disambiguation pages or WikiProject Delaware.
+
+
+
+This page documents an English Wikipedia policy, a widely accepted standard that all editors should normally follow. Changes made to it should reflect consensus.
+
+
+Shortcuts:
+
+WP:DP
+WP:DEL
+WP:DELETE
+
+
+
+
+
+
+
+
+This page in a nutshell: Administrators have the ability to delete articles and other Wikipedia pages from general view, and to undelete pages that were previously deleted. These powers are exercised in accordance with established policies and guidelines, and community consensus. There are often alternatives to deletion.
+
+
+
+
+Deletion policies
+
+
+
+
+Criteria for speedy deletion
+Deletion policy
+Oversight
+Proposed deletion
+Proposed deletion (BLP)
+Proposed deletion (books)
+Revision deletion
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+
+
+Deletion discussions
+
+
+
+
+
+
+
+Deletion today
+Undeletion
+
+
+
+
+
+
+Deletion review
+Deletion log
+
+
+
+
+Request a copy of a
+deleted article
+
+
+
+
+
+Articles
+
+
+
+
+today (1)
+all (2)
+closing (3)
+
+
+
+
+Templates
+
+
+
+
+today
+all
+closing
+holding
+
+
+
+
+Files
+
+
+
+
+today
+all
+closing
+
+
+
+
+Categories
+
+
+
+
+today
+all
+closing
+speedy
+
+
+
+
+Redirects
+
+
+
+
+today
+all
+closing
+log
+
+
+
+
+Miscellany
+
+
+
+
+today
+all
+closing
+
+
+
+
+Speedy deletion
+
+
+
+
+candidates
+
+
+
+
+Proposed deletion
+
+
+
+
+all
+books
+BLPs
+
+
+
+
+
+
+
+
+
+Policy
+Process
+Guide
+
+
+
+Administrator guidelines
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+The Wikipedia deletion policy describes how pages that do not meet the relevant criteria for content of the encyclopedia are identified and removed from Wikipedia. On Wikipedia, many pages are deleted each day through the processes outlined below.
+Deletion of a Wikipedia article removes the current version and all previous versions from public view. Page blanking can be performed (or reverted) by any user, but only administrators can perform deletion, view deleted pages, and reverse ("undelete") any deletion. All such actions are recorded in the deletion log, and deletion statistics are recorded at WP:Deletion statistics. If in doubt as to whether there is consensus to delete a page, administrators normally will not delete it.
+
+
+
+Contents
+
+
+1 Reasons for deletion
+2 Alternatives to deletion
+
+2.1 Editing and discussion
+2.2 Tagging
+2.3 Merging
+2.4 Redirection
+2.5 Incubation
+2.6 Other projects
+2.7 Archiving
+
+
+3 Processes
+
+3.1 Copyright violations
+3.2 Speedy deletion
+3.3 Proposed deletion
+
+3.3.1 Proposed deletion of biographies of living people
+
+
+3.4 Deletion discussion
+3.5 Deletion of articles
+3.6 Deletion of biographies and BLPs
+3.7 Deletion review
+
+3.7.1 Undeletion
+
+
+
+
+4 Process interaction
+5 Other issues
+
+5.1 Access to deleted pages
+5.2 Courtesy blanking of talkpage or deletion debates
+5.3 Revision deletion
+
+
+6 See also
+
+
+
+Reasons for deletion
+
+Policy shortcuts:
+
+
+WP:DEL-REASON
+WP:DEL#REASON
+WP:DEL1
+WP:DEL2
+...
+WP:DEL14
+
+
+
+Reasons for deletion include, but are not limited to, the following (subject to the condition that improvement or deletion of an offending section, if practical, is preferable to deletion of an entire page):
+
+ Content that meets at least one of the criteria for speedy deletion
+ Copyright violations and other material violating Wikipedia's non-free content criteria
+ Vandalism, including inflammatory redirects, pages that exist only to disparage their subject, patent nonsense, or gibberish
+ Advertising or other spam without any relevant or encyclopedic content (but not an article about an advertising-related subject)
+ Content forks (unless a merger or redirect is appropriate)
+ Articles that cannot possibly be attributed to reliable sources, including neologisms, original theories and conclusions, and articles that are themselves hoaxes (but not articles describing notable hoaxes)
+ Articles for which thorough attempts to find reliable sources to verify them have failed
+ Articles whose subjects fail to meet the relevant notability guideline (WP:N, WP:GNG, WP:BIO, WP:MUSIC, WP:CORP, and so forth)
+ Articles that breach Wikipedia's policy on biographies of living persons
+ Redundant or otherwise useless templates
+ Categories representing overcategorization
+ Files that are unused, obsolete, or violate the non-free policy
+ Any other use of the article, template, project, or user namespace that is contrary to the established separate policy for that namespace
+ Any other content not suitable for an encyclopedia
+
+Alternatives to deletion
+Policy shortcuts:
+
+
+WP:ATD
+WP:DEL-CONTENT
+WP:DEL#CONTENT
+
+
+
+Editing and discussion
+
+Main page: Wikipedia:Editing policy
+If editing can improve the page, this should be done rather than deleting the page. Vandalism to a page's content can be reverted by any user.
+Disputes over page content are usually not dealt with by deleting the page, except in severe cases. The content issues should be discussed at the relevant talk page, and other methods of dispute resolution should be used first, such as listing on Wikipedia:Requests for comments for further input. Deletion discussions that are really unresolved content disputes may be closed by an uninvolved editor, and referred to the talk page or other appropriate forum.
+If an article on a notable topic severely fails the verifiability or neutral point of view policies, it may be reduced to a stub, or completely deleted by consensus at WP:AfD. The Arbitration Committee has topic-banned editors who have serially created biased articles.
+Disagreement over a policy or guideline is not dealt with by deleting it. Similarly, issues with an inappropriate user page can often be resolved through discussion with the user.
+Tagging
+Policy shortcut:
+
+
+WP:ATD-T
+
+
+
+A variety of tags can be added to articles to note the problem. Tags however are not intended as permanent solutions; they are intended to warn the readers and to allow interested editors to easily locate and fix the problems. Tags are listed here. Some of the more common ones include:
+
+{{cleanup}} for poor writing
+{{expert-subject}} for articles needing expert attention
+{{notenglish}} for articles written in a foreign language
+{{npov}} for bias
+{{stub}} for a short article
+{{refimprove}} for lack of verifiability
+{{merge}} for a small article that could be merged into a larger one
+
+Pages with incorrect names can simply be renamed via page movement procedure. Naming disputes are discussed on the articles' talk pages or listed at requested moves.
+Be mindful when adding tags to biographies of living persons. Certain tags are known to produce WP:OTRS complaints from the article's subject—for instance {{notability}}, because it may be interpreted as Wikipedia passing judgement on the person. Nominating the article for deletion so that consensus may be more quickly established is an alternative.
+Merging
+Policy shortcut:
+
+
+WP:ATD-M
+
+
+
+Articles that are short and unlikely to be expanded could be merged into larger articles or lists. For example, information about family members of a celebrity who are not otherwise notable is generally included in, or merged into, the article on that celebrity. Pages about non-notable fictional elements are generally merged into list articles or articles covering the work of fiction in which they appear.
+If two pages are duplicates or otherwise redundant, one should be merged and redirected to the other, using the most common, or more general page name. This does not require process or formal debate beforehand.
+Note that an outcome of "merge and delete" may potentially cause licensing problems if attribution for the merged content is lost in the process. The essay Wikipedia:Merge and delete discusses this, whereas the essay Wikipedia:Delete or merge discusses a different case that causes no such licensing problems.
+Redirection
+Policy shortcut:
+
+
+WP:ATD-R
+
+
+
+See also: Wikipedia:Redirect § Redirects that replace previous articles
+Sometimes an unsuitable article may have a title that would make a useful redirect. In these cases, deletion is not required; any user can boldly blank the page and redirect it to another article. If the change is disputed, an attempt should be made on the talk page to reach a consensus before restoring the redirect.
+Incubation
+Policy shortcut:
+
+
+WP:ATD-I
+
+
+
+Articles which have potential, but which do not yet meet Wikipedia's quality standards, may be moved to the Wikipedia:Drafts namespace, where they may continue to be collaboratively edited before either "graduating" to mainspace or ultimately being deleted. Incubation provides several benefits over the previous practice of moving such articles into user space. Primarily, the Draft namespace makes these proto-articles easier to find and edit. User-spacing is still often done with templates that seem to serve a single editor's needs, and essays that only reflect a particular editor's viewpoint, in lieu of deleting them.
+Other projects
+Policy shortcut:
+
+
+WP:ATD-TRANS
+
+
+
+See also: Wikipedia:Transwiki log
+Some articles do not belong on Wikipedia, but fit one of the Wikimedia sister projects. They may be copied there using transwiki functionality before considering their merger or deletion. If an article to be deleted is likely to be re-created under the same name, it may be turned into a soft redirect to a more appropriate sister project's article.
+This is especially true for Wiktionary. To request a transwiki operation in this case, please first search the Wiktionary to see whether a dictionary entry does not already exist, and then simply tag an article with {{Copy to Wiktionary}}. Articles that can never be anything other than a dictionary article ("dicdef") should preferably be merged and redirected (within Wikipedia) in an adjective→noun or a verb→gerund manner. If there is no appropriate Wikipedia article to redirect to, the dicdef should either be considered for deletion, or turned into a disambiguation page or a soft redirect to a Wiktionary entry using the template {{wi}}.
+Archiving
+Policy shortcut:
+
+
+WP:PERMADEL
+
+
+
+Deletion should not be used for archiving a page. The developers have indicated that the deleted pages can be cleared or removed from the database at any time.
+Processes
+
+Main page: Wikipedia:Deletion process
+See also: Wikipedia:Guide to image deletion
+Policy shortcuts:
+
+
+WP:DEL-PROCESSES
+WP:DEL#PROCESSES
+
+
+
+There are four basic processes for deletion and two to review and overturn the outcome of these processes and other deletions.
+Copyright violations
+For legal reasons, Wikipedia cannot host content that is in violation of copyright.
+
+Where to find them: Wikipedia:Copyright problems and Wikipedia:Files for discussion
+How to do this: See Wikipedia:Files for discussion. For other pages, remove the violation if possible, or edit the page to replace its entire content with {{subst:copyvio|url=address of copied material}}. For blatant, whole-page copyright violation, you can simply tag it for speedy deletion with {{db-copyvio|url=...}} after checking that there are no non-copyvio versions in the page history.
+If you disagree: Try to contact the authors of the text or image and see if they are willing to release their work (1) under an acceptable license (for text, this is CC-BY-SA and GFDL co-licensed, CC-BY-SA alone, or CC-BY-SA-compatible), or (2) into the public domain. Permission to use a work "on Wikipedia only" or "for non-commercial use only" isn't enough, as it is incompatible with our license.
+Renominations: Recreations of copyrighted content are speedily deleted, as below. It is disruptive to persist in recreating such content.
+
+Speedy deletion
+Pages can be deleted without any discussion if they meet one of the criteria for speedy deletion. Speedy deletion is meant to remove pages that are so obviously inappropriate for Wikipedia that they have no chance of surviving a deletion discussion. Speedy deletion should not be used except in the most obvious cases.
+If a page has survived a prior deletion discussion, it must not be speedy deleted except for newly discovered copyright violations. Pages currently on proposed deletion or deletion discussion (see below) may be deleted through speedy deletion.
+
+Where to find them: A list of all pages flagged for speedy deletion can be found in Category:Candidates for speedy deletion.
+How to do this: Administrators can delete such pages on sight. Other editors can request speedy deletion by editing the relevant page to add a speedy deletion template to the top of the page.
+If you disagree: Anyone except a page's creator may contest the speedy deletion of a page by removing the deletion notice from the page. If a page you created is tagged for speedy deletion, you may either improve the page or explain your reasoning on the relevant talk page. The page may still be deleted if it meets the speedy deletion criteria. If a page has been speedily deleted and there is disagreement over whether or not it should have been, this is discussed at deletion review, described below.
+Renominations: Either a page fits the speedy deletion criteria or it does not. If there is a dispute over whether a page meets the criteria, the issue is typically taken to deletion discussions, mentioned below, rather than being deleted.
+
+Proposed deletion
+An editor who believes a page obviously and uncontroversially doesn't belong in an encyclopedia can propose its deletion. Such a page can be deleted by any administrator if, after seven days, no one objects to the proposed deletion. Once there is an objection or a deletion discussion, a page may not be proposed for deletion again. This process only applies to pages in the main namespace (article namespace). Redirects are not eligible for proposed deletion.
+
+Where to find them: A list of all pages flagged for proposed deletion can be found in Category:Proposed deletion, as well as in an automatically generated summary table.
+How to do this: Edit the page to add the following text to the top: {{subst:prod|reason}}, writing your reasoning in the "reason" field.
+If you disagree: Any editor who disagrees with a proposed deletion can simply remove the tag. Even after the page is deleted, any editor can have the page restored by any administrator simply by asking. In both cases, the editor is encouraged to fix the perceived problem with the page.
+Renominations: Once the proposed deletion of a page has been objected to by anyone, it may not be proposed for deletion again. If an editor still feels the page ought to be deleted, a deletion discussion should be used, as indicated below.
+
+Proposed deletion of biographies of living people
+Further information: Wikipedia:Proposed deletion of biographies of living people
+As of April 3, 2010, a proposed deletion process for unsourced biographies was established, requiring all biographies of living persons created after March 18, 2010, to have at least one reliable source that supports at least one statement about the subject. Once the article is tagged in this manner, the {{prod blp}} tag may not be removed until such a source is provided. If none is forthcoming, the article may be deleted after 7 days. This does not affect any other deletion process.
+Deletion discussion
+Main page: WP:AFDHOWTO
+
+Shortcuts:
+
+WP:DPAFD
+WP:DELAFD
+
+
+Pages that do not fall in the above three categories may be deleted after community discussion at one of the deletion discussions, the results of which may be reviewed after the fact at deletion review (see below). This includes contested speedy or proposed deletions. Here, editors who wish to participate can give their opinions on what should be done with the page.
+These processes are not decided through a head count, so participants are each encouraged to explain their opinion and refer to policy. The discussion lasts at least seven full days; afterwards, pages are deleted by an administrator if there is consensus to do so. A nomination that gets little response after the discussion period has ended can be relisted if the closing editor believes that more time would be likely to generate a clearer consensus.
+It is considered inappropriate to ask people outside of Wikipedia to come to the discussion to sway its outcome; such meatpuppet comments may be ignored. They are not removed, but may be tagged with {{spa}}, noting that a user "has made few or no other edits". In extreme cases, a deletion debate can be semi-protected.
+It is also inappropriate to request deletion because of an editorial dispute. Such disputes are not resolved by deleting the whole page; instead, use dispute resolution.
+
+Where to find them: There are separate processes for articles, categories (except stub categories), files, redirects, templates (except stub templates and userboxes), stub templates and categories, and everything else.
+How to do this: Follow the instructions at the top of the relevant process page.
+If you disagree: Go to the relevant process page and explain why you disagree. Do not remove the tag from the page. For more information on this process, read the Wikipedia:Guide to deletion.
+Renominations: After a deletion debate concludes and the consensus is in favor of keeping the page, users should allow a reasonable amount of time to pass before nominating the same page for deletion again, to give editors the time to improve the page. Renominations shortly after the earlier debate are generally closed quickly. It can be disruptive to repeatedly nominate a page in the hope of getting a different outcome.
+
+Deletion of articles
+The deletion of a page based on a deletion discussion should only be done when there is consensus to do so. Therefore, if there is no rough consensus, the page is kept and is again subject to normal editing, merging, or redirecting as appropriate.
+Deletion of biographies and BLPs
+See also: Wikipedia:Biographies of living persons § Summary deletion, creation prevention, and courtesy blanking
+
+Shortcuts:
+
+WP:BIODEL
+WP:BIODELETE
+
+
+Discussions concerning biographical articles of relatively unknown, non-public figures, where the subject has requested deletion and there is no rough consensus, may be closed as delete. Poorly sourced biographical articles of unknown, non-public figures, where the discussions have no editor opposing the deletion, may be deleted after discussions have been completed. If a deletion discussion of any biographical article (of whether a well known or less known individual) has received few or no comments from any editor besides the nominator, the discussion may be closed at the closer's discretion and best judgment.
+Deletion review
+If you believe a page was wrongly deleted, or should have been deleted but wasn't, or a deletion discussion was improperly closed, you should discuss this with the person who performed the deletion, or closed the debate, on their talk page. If this fails to resolve the issue, you can request review of the closure at Wikipedia:Deletion review.
+If a page was obviously deleted "out of process" (per this policy), then an administrator may choose to undelete it immediately. In such a case, the administrator who deleted the page should be informed. However, such undeletions without gaining consensus may be viewed as disruptive, so they should be undertaken with care.
+If an article was deleted for lacking content or for having inappropriate content (this applies to most speedy deletions) and you wish to create a better article about the same subject, you can simply go ahead and do so, with no need for review. It is especially wasteful to go to deletion review over an unsourced stub when the alternative of creating a sourced article is available.
+The deletion review process is not decided solely by head count, but by consensus. The review normally lasts for seven days, sometimes longer if the outcome is unclear.
+Overturned deletions may go to a deletion discussion if someone still wishes to delete and chooses to nominate.
+
+Where to find them: Wikipedia:Deletion review
+How to do this: Follow the instructions at the top of the page.
+If you disagree: Go to the review page and explain why you disagree.
+Renominations: As with deletion discussions, a certain amount of time should pass between repeated requests for deletion review, and these requests should be carefully considered in light of policy. Renominations that lack new arguments or new evidence are likely to be closed quickly.
+
+Undeletion
+In the case of pages deleted as a result of summary decisions and not following community discussions, undeletion may be requested at Wikipedia:Requests for undeletion. It serves two primary functions: the restoration of content deleted without discussion, and the userfication of content that is unfit for restoration. Requests for undeletion should be used to appeal most instances of proposed deletion and some speedy deletions. However, appeals of the outcomes of deletion discussions and other deletion matters requiring community review should be made at Wikipedia:Deletion review. Be aware that pages restored to articlespace may immediately be subject to a deletion discussion.
+
+Where to find them: Wikipedia:Requests for undeletion
+How to do this: Follow the instructions at the top of the page.
+If you disagree: Take the matter to Wikipedia:Deletion review
+Renominations: Unlike deletion discussions, there is no suggested waiting period between requests, although requests that have been declined should not be re-submitted unless circumstances such as undeletion norms or the motivation for undeletion have changed.
+
+Process interaction
+
+Issues that are on the wrong process (e.g. templates on the article-deletion page) are simply moved to the proper one.
+A page on deletion review should not be listed on a deletion discussion page until the review closes, and a page on a deletion discussion page should not be listed on deletion review until the discussion closes.
+Deletion discussion trumps proposed deletion, so for a page listed on both, deletion discussion takes precedence.
+Pages that meet the criteria for speedy deletion can be deleted regardless of other circumstances. If a page on a deletion debate is speedied, the debate is closed.
+If it is doubtful whether a page is or is not speedily deletable, a deletion discussion takes precedence. In practice, this means that a page that had a deletion discussion resulting in 'keep' or 'no consensus' should not be speedily deleted.
+Pages that violate copyright can be deleted regardless of circumstances or earlier discussion.
+
+Other issues
+Access to deleted pages
+Further information: Wikipedia:Viewing and restoring deleted pages
+
+
+
+
+Deleted pages look like this to Administrators
+
+
+Because many deleted articles are found to contain defamatory or other legally suspect material, deleted pages are not permitted to be generally viewed. However, they remain in the database (at least temporarily) and are accessible to administrators, along with their edit history unless they are oversighted, a form of enhanced deletion which, unlike normal deletion, expunges information from any form of usual access even by administrators. Any user with a genuine reason to view a copy of a deleted page may request a temporary review (or simply ask an administrator to supply a copy of the page). Note that these requests are likely to be denied if the content has been deleted on legal grounds (such as defamation or copyright violation), or if no good reason is given for the request.
+Courtesy blanking of talkpage or deletion debates
+Policy shortcut:
+
+
+WP:CBLANK
+
+
+
+From time to time, a discussion will have its content hidden from view based on the judgment of the community, an administrator, or another functionary. This generally is not done except under rare circumstances, such as where public view of the discussion may cause harm to some person or organisation. To avoid having such text in the most recent version and thus being indexed by search engines, the debate will be blanked out of courtesy. For deletion discussions, the entire debate can be replaced with the {{xfd-privacy}} template. When either courtesy blanking or xfd-blanking is used, the actual content remains accessible via the edit history. In more serious cases, the entire history of the page may be deleted. Courtesy blanking, history blanking, or oversighting should be rare, and should be performed only after due consideration.
+On occasion, pages in the project namespace, such as requests for adminship and requests for arbitration will be blanked as a courtesy, for reasons similar to those outlined above.
+How to do this: Remove all text from the subpage and then add {{subst:courtesy blanked}}; for deletion discussions, use {{subst:xfd-privacy|article|result}} with the correct parameters.
+Revision deletion
+It is possible to delete some parts of a page's history, while leaving the current revision of the page intact, so that readers are unaware of the partial deletion (unless they attempt to visit a deleted old page revision). Administrators have access to the Revision Deletion tool, which makes it possible for them to remove selected old revisions of a page (and/or edit summaries or user names). The Revision Deletion policy strictly covers the circumstances in which this is permitted.
+Revision Deletion replaces the previous method of selective undeletion, which involved deleting the entire page and then selectively undeleting/restoring revisions. Selective undeletion still has a few valid uses that Revision Deletion cannot cover (such as complex history merges). However, due to its relative lack of transparency and poor efficiency, selective undeletion is no longer used to remove revisions from the page history.
+See also
+
+
+Guide to deletion
+Guide to abbreviations used in deletion debates
+Why was my page deleted?
+Introduction to deletion process
+Recreation of previously deleted pages
+Deletion guidelines for administrators
+Deletion precedents
+Deletion process
+Deletion review guide
+Revision deletion
+Alternative outlets to recreate deleted articles
+Arguments to avoid in deletion discussions
+Arguments to avoid in image deletion discussions
+Don't demolish the house while it's still being built
+List of policies and guidelines to cite in deletion debates
+Deletion by redirection
+WP:IMPROVEDONTREMOVE
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia key policies and guidelines
+
+
+
+
+
+
+Overview
+
+
+
+Five pillars
+Policies and guidelines
+List of policies and guidelines
+
+List of policies
+List of guidelines
+
+
+
+
+
+
+
+
+
+
+Project-wide principles
+
+
+
+Consensus
+Dispute resolution
+Editing policy
+Ignore all rules
+What Wikipedia is not
+Wikipedia is not a dictionary
+
+
+
+
+
+
+
+
+Core content policies
+
+
+
+Neutral point of view
+No original research
+Verifiability
+
+
+
+
+
+
+
+
+Other content policies
+
+
+
+Article titles
+Autobiography
+Biographies of living persons
+Image use
+
+
+
+
+
+
+
+
+Content guidelines
+
+
+
+Citing sources
+Don't create hoaxes
+Do not include copies of primary sources
+External links
+Fringe theories
+Identifying reliable sources
+Notability
+Patent nonsense
+
+
+
+
+
+
+
+
+Behavioural policies
+
+
+
+Child protection
+Civility
+Courtesy vanishing
+Edit warring
+Harassment
+No legal threats
+No personal attacks
+Ownership of content
+Sock puppetry
+
+
+
+
+
+
+
+
+Behavioural guidelines
+
+
+
+Assume good faith
+Conflict of interest
+Disruptive editing
+Do not disrupt Wikipedia to illustrate a point
+Etiquette
+Gaming the system
+Please do not bite the newcomers
+
+
+
+
+
+
+
+
+Editing guidelines
+
+
+
+Article size
+Be bold
+Disambiguation
+Hatnotes
+Set index articles
+Signatures
+Subpages
+Talk page guidelines
+User pages
+Vandalism
+WikiProjects
+
+
+
+
+
+
+
+
+Style conventions
+
+
+
+Manual of Style
+
+Contents
+
+
+Accessibility
+
+Understandability
+
+
+Dates and numbers
+Images
+Layout
+Lead section
+Linking
+Lists
+
+
+
+
+
+
+
+
+Classification guidelines
+
+
+
+Categories, lists, and navigation templates
+Categorization
+Template namespace
+
+
+
+
+
+
+
+
+Deletion policies
+
+
+
+Attack page
+Criteria for speedy deletion
+Deletion policy
+Oversight
+Proposed deletion
+Proposed deletion of BLP
+Proposed deletion (books)
+Revision deletion
+
+
+
+
+
+
+
+
+Wikimedia Foundation
+
+
+
+List of policies
+Friendly space policy
+Licensing and copyright
+Privacy policy
+Values
+
+
+
+
+
+
+
+
+
+
+
+ Book
+ Category: Policies / Guidelines
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Deletion discussions
+
+
+
+
+
+
+
+All deletion discussions today
+
+
+
+
+
+
+Articles
+
+
+
+Today
+all
+closing
+
+
+
+
+
+
+
+
+
+
+
+Templates
+
+
+
+Today
+all
+closing
+holding
+
+
+
+
+
+
+
+
+Files
+
+
+
+Today
+all
+closing
+
+
+
+
+
+
+
+
+Categories
+
+
+
+Today
+all
+closing
+speedy
+
+
+
+
+
+
+
+
+Redirects
+
+
+
+Today
+all
+closing
+log
+
+
+
+
+
+
+
+
+Speedy deletion
+
+
+
+Candidates
+
+
+
+
+
+
+
+
+Proposed deletion
+
+
+
+All
+books
+BLPs
+
+
+
+
+
+
+
+
+Pages
+
+
+
+Guide
+Undeletion
+Deletion review
+Deletion log
+Request copy of deleted article
+
+
+
+
+
+
+
+
+Guidelines and policies
+
+
+
+Policy
+Process
+Administrator guidelines
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Deletion_policy&oldid=763818453"					
+Categories: Wikipedia policiesWikipedia Administrators' guideWikipedia deletionWikipedia deletion policiesHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMediaWikiMeta-WikiWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Languages
+
+
+Afrikaansالعربيةঅসমীয়াAzərbaycancaবাংলাBasa BanyumasanБашҡортсаБеларускаяBosanskiCatalàDeutschEestiΕλληνικάEspañolEsperantoفارسیFrançaisGalegoगोंयची कोंकणी / Gõychi Konknni한국어Հայերենहिन्दीIlokanoBahasa IndonesiaÍslenskaItalianoעבריתქართულიҚазақшаLatinaLatviešuMagyarМакедонскиമലയാളംमराठीمصرىBahasa MelayuBaso MinangkabauМонголမြန်မာဘာသာनेपाली日本語Norsk bokmålOccitanOʻzbekcha/ўзбекчаPolskiPortuguêsRomânăРусскийසිංහලSimple EnglishSoomaaligaSuomiSvenskaTagalogTarandíneТатарча/tatarçaతెలుగుไทยTürkçeУкраїнськаاردوTiếng Việtייִדיש粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 February 2017, at 11:22.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.280","walltime":"0.374","ppvisitednodes":{"value":3461,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":118988,"limit":2097152},"templateargumentsize":{"value":3982,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":19,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  261.967      1 -total"," 21.70%   56.853     10 Template:Policy_shortcut"," 21.69%   56.833      1 Template:Pp-semi-indef"," 17.92%   46.936     10 Template:Bulleted_list"," 11.34%   29.703     18 Template:No_redirect"," 10.76%   28.193      1 Template:Policy","  9.98%   26.138      3 Template:Navbox","  9.90%   25.937      1 Template:Ombox","  7.28%   19.076      2 Template:Sidebar","  6.99%   18.311     20 Template:Anchor"]},"scribunto":{"limitreport-timeusage":{"value":"0.100","limit":"10.000"},"limitreport-memusage":{"value":3564235,"limit":52428800}},"cachereport":{"origin":"mw1182","timestamp":"20170210092944","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":66,"wgHostname":"mw1182"});});

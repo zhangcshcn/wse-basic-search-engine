@@ -1,0 +1,1086 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Blocking policy
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This page documents an English Wikipedia policy, a widely accepted standard that all editors should normally follow. Changes made to it should reflect consensus.
+
+
+Shortcuts:
+
+WP:BP
+WP:BLOCK
+
+
+
+
+
+
+
+
+This page in a nutshell: User accounts and IP addresses may be blocked from editing to protect Wikipedia from disruption.
+
+
+
+
+Enforcement policies
+
+
+
+
+Administrators
+Banning policy
+Blocking policy
+Protection policy
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+Blocking is the method by which administrators technically prevent users from editing Wikipedia. Blocks may be applied to user accounts, to IP addresses, and to ranges of IP addresses, for either a definite or an indefinite time. Blocked users can continue to access Wikipedia, but cannot edit any page (including their own user pages), except (in most cases) their own user talk pages.
+Blocks are used to prevent damage or disruption to Wikipedia, not to punish users (see Purpose and goals below). Any user may report disruption and ask administrators to consider blocking a disruptive account or IP address (see Requesting blocks).
+If editors believe a block has been improperly issued, they can request a review of that block on WP:ANI. Administrators can "unblock" a user when they feel the block is unwarranted or no longer appropriate.
+Blocking is different from banning, a formal retraction of editing privileges on all or part of Wikipedia. Blocks disable a user's ability to edit pages; bans do not. However, users who are subject to a total ban, or who breach the terms of a partial ban, will most likely be blocked to enforce the ban.
+
+
+
+Contents
+
+
+1 Purpose and goals
+
+1.1 Blocks should not be punitive
+1.2 Blocks should be preventative
+
+
+2 Common rationales for blocks
+
+2.1 Protection
+2.2 Disruption
+
+2.2.1 Disruption-only
+
+
+2.3 Open or anonymous proxies
+2.4 Enforcing bans
+2.5 "Not here to build an encyclopedia"
+
+
+3 Evasion of blocks
+
+3.1 Edits by and on behalf of blocked editors
+
+3.1.1 Enforcement by reverting
+
+
+
+
+4 Self-requested blocks
+5 When blocking may not be used
+
+5.1 Conflicts and involvement
+5.2 Cool-down blocks
+5.3 Recording in the block log
+
+
+6 Requesting blocks
+
+6.1 Dealing with off-wiki block requests
+
+
+7 Blocking
+
+7.1 Preliminary: Education and warnings
+7.2 Explanation of blocks
+
+7.2.1 Notifying the blocked user
+7.2.2 Other important information
+7.2.3 Confidential evidence
+
+
+7.3 Implementing blocks
+
+7.3.1 IP address blocks
+
+7.3.1.1 Collateral damage
+
+
+7.3.2 Duration of blocks
+
+7.3.2.1 Indefinite blocks
+
+
+7.3.3 Setting block options
+
+
+7.4 Blocking bots
+7.5 Recording in the block log after a "clean start"
+
+
+8 Unblocking
+
+8.1 Unblock requests
+8.2 Temporary circumstances blocks
+8.3 Temporary circumstances unblocks
+8.4 CheckUser blocks
+8.5 Oversight blocks
+8.6 Conditional unblock
+
+
+9 Global blocks
+
+9.1 Unblocking and appeal
+
+
+10 See also
+11 Notes
+
+
+
+Purpose and goals
+Blocks serve to protect the project from harm, and reduce likely future problems. Blocks may escalate in duration if problems recur. They are meted out not as retribution but to protect the project and other users from disruption and inappropriate conduct, and to deter any future possible repetitions of inappropriate conduct. Administrators should be familiar with the circumstances prior to intervening.
+In general, once a matter has become "cold" and the risk of present disruption has clearly ended, reopening it by blocking retrospectively is usually not seen as appropriate. Where an ongoing or serious concern persists, a number of processes exist to allow discussion and possible sanction of a user due to serious or persistent misconduct.
+Blocks can be appealed (see further). Requests to be unblocked are also decided in light of prevention and deterrence. A user who agrees to desist and appears to have learned from the matter, or where the situation was temporary and has now ended, may be unblocked early. Equally, a user who has previously returned to inappropriate conduct after other unblocks may find their unblock request declined for deterrence reasons, to underline the importance of change and unacceptability of the conduct.
+Blocks should not be punitive
+See also: Wikipedia:Sanctions against editors are not punishment
+Policy shortcuts:
+
+
+WP:BLOCKNOTPUNITIVE
+WP:NOPUNISH
+
+
+
+Blocks should not be used:
+
+in retaliation against users;
+to disparage other users;
+as punishment against users;
+or where there is no current conduct issue of concern.
+
+Blocks should be preventative
+Policy shortcuts:
+
+
+WP:BLOCKPREVENTATIVE
+WP:BLOCKDETERRENT
+
+
+
+Blocks should be used to:
+
+prevent imminent or continuing damage and disruption to Wikipedia;
+deter the continuation of present, disruptive behavior;
+and encourage a more productive, congenial editing style within community norms.
+
+Deterrence is based upon the likelihood of repetition. For example, though it might have been justifiable to block an editor a short time ago, such a block may no longer be justifiable right now, particularly if the actions have since ceased or the conduct issues have been resolved.
+Common rationales for blocks
+Policy shortcut:
+
+
+WP:WHYBLOCK
+
+
+
+The following are some of the most common rationales for blocks.
+As a rule of thumb, when in doubt, do not block; instead, consult other administrators for advice. After placing a potentially controversial block, it is a good idea to make a note of the block at the administrators' incidents noticeboard for peer review.
+Administrators should take special care when dealing with new users. Beginning editors are often unfamiliar with Wikipedia policy and convention, and so their behavior may initially appear to be disruptive. Responding to these new users with excessive force can discourage them from editing in the future. See Wikipedia:Do not bite the newcomers.
+Protection
+A user may be blocked when necessary to protect the rights, property, or safety of the Wikimedia Foundation, its users, or the public. A block for protection may be necessary in response to:
+
+persistent personal attacks;
+personal, professional, or legal threats (including outside the Wikipedia site);
+actions placing users in danger;
+actions that may compromise the safety of children, in accordance with Wikipedia:Child protection;
+disclosures of others' personal information (whether or not the information is accurate);
+persistent copyright violations;
+persistent posts of unreferenced, poorly or incorrectly referenced, or potentially defamatory information about living persons; or
+an account appearing to have been compromised (as an emergency measure), i.e. there is some reason to believe the account is being used by someone other than the person who registered the account.
+
+When blocking in response to personal information disclosures or actions that place users in danger, consider notifying the Arbitration Committee by e-mail (arbcom-lwikimedia.org) about the disclosure or danger and contacting someone with oversight permissions to request permanent deletion of the material in question.
+Disruption
+A user may be blocked when his or her conduct severely disrupts the project; that is, when his or her conduct is inconsistent with a civil, collegial atmosphere and interferes with the process of editors working together harmoniously to create an encyclopedia. A block for disruption may be necessary in response to:
+
+vandalism;
+gross incivility;
+harassment;
+spamming;
+edit warring, especially breaches of the three-revert rule;
+breaching the policies or guidelines, especially the sock puppetry policy;
+attempts to coerce actions of editors through threats of actions outside the Wikipedia processes, whether onsite or offsite.
+
+Disruption-only
+See also: Wikipedia:Username policy § Usernames violating the BLP policy
+Some types of user accounts are considered disruptive and may be blocked without warning, usually indefinitely:
+
+Accounts used exclusively for disruptive purposes, such as vandalism.
+Public accounts (where the password is publicly available or shared with a large group).
+Accounts with inappropriate usernames.
+Bots operating without approval or outside their approval.
+Accounts that appear, based on their edit history, to exist for the sole or primary purpose of promoting a person, company, product, service, or organization. See Wikipedia:Conflict of interest and Wikipedia:Spam.
+
+Open or anonymous proxies
+Main page: Wikipedia:Open proxies
+Open or anonymous proxies may be blocked on sight.
+Non-static IP addresses or hosts that are otherwise not permanent proxies typically warrant blocking for a shorter period of time, as the IP address is likely to be reassigned, or the open proxy is likely to be closed. Many Tor proxies, in particular, are "exit nodes" for only a short time; in general, these proxies should not be blocked indefinitely without consideration. See Wikipedia:Blocking IP addresses for further details.
+There is also a Wikipedia project, the WikiProject on open proxies, which seeks to identify and block open proxy servers.
+Enforcing bans
+
+For more details on this topic, see Wikipedia:Banning policy.
+A Wikipedia ban is a formal revocation of editing privileges on all or part of Wikipedia. A ban may be temporary and of fixed duration, or indefinite and potentially permanent.
+Blocks may be imposed as a technical measure to enforce a ban. Such blocks are based on the particulars of the ban. Bans that apply to all of Wikipedia—that is, they are not partial—may be backed up by a block, which is usually set to apply for the period of the ban.
+"Not here to build an encyclopedia"
+A rationale found at this information page that is often used as a blocking rationale.
+Evasion of blocks
+Policy shortcuts:
+
+
+WP:EVASION
+WP:EVADE
+WP:BE
+WP:BLOCK EVASION
+WP:BLOCKEVASION
+
+
+
+See also: Wikipedia:Sock puppetry
+An administrator may reset the block of a user who intentionally evades a block, and may extend the duration of the block if the user engages in further blockable behavior while evading the block. User accounts or IP addresses used to evade a block should also be blocked.
+Edits by and on behalf of blocked editors
+Anyone is free to revert any edits made in violation of a block, without giving any further reason and without regard to the three-revert rule. This does not mean that edits must be reverted just because they were made by a blocked editor (obviously helpful changes, such as fixing typos or undoing vandalism, can be allowed to stand), but the presumption in ambiguous cases should be to revert. However, in closed discussions, comments by blocked editors should not generally be reverted or struck through.
+Wikipedians in turn are not permitted to post or edit material at the direction of a blocked editor (sometimes called proxy editing or proxying) unless they can show that the changes are either verifiable or productive and they have independent reasons for making such edits. New accounts which engage in the same behavior as a banned editor or blocked account in the same context, and who appear to be editing Wikipedia solely for that purpose, are subject to the remedies applied to the editor whose behavior they are imitating.[1] See also the policy on sockpuppetry and meatpuppetry.
+Enforcement by reverting
+ When reverting edits, care should be taken not to reinstate material that may be in violation of such core policies as neutrality, verifiability, and biographies of living persons. Editors who subsequently reinstate edits originally made by a blocked editor take complete responsibility for the content.
+It is not possible to revert newly created pages, as there is nothing to revert to. Accordingly, pages created by blocked editors are eligible for speedy deletion. Any editor can use the template {{db-g5}}, or its alternative name {{db-banned}}, to mark such a page. If editors other than the blocked editor have made good-faith contributions to the page or its talk page, it is courteous to inform them that the page was created by a blocked editor, and then decide on a case-by-case basis what to do.
+Self-requested blocks
+
+Shortcuts:
+
+WP:SELFBLOCK
+WP:BLOCKME
+
+
+Sometimes, people request that their account be blocked, for example to enforce a wikibreak. Typically, such requests are declined. However, there is a category of administrators who will consider such requests.
+As an alternative to requesting a self-block, users may use the Wikibreak Enforcer, a user script that can prevent a user from logging in.
+When blocking may not be used
+Policy shortcut:
+
+
+WP:BLOCKNO
+
+
+
+Conflicts and involvement
+Administrators must not block users with whom they are engaged in a content dispute; instead, they should report the problem to other administrators. Administrators should also be aware of potential conflicts involving pages or subject areas with which they are involved. It is acceptable for an administrator to block someone who has been engaging in clear-cut vandalism in that administrator's userspace.
+Cool-down blocks
+Policy shortcuts:
+
+
+WP:CDB
+WP:COOLDOWN
+
+
+
+Blocks intended solely to "cool down" an angry user should not be used, as they often have the opposite effect. However, an angry user who is also being disruptive can be blocked to prevent further disruption.
+Recording in the block log
+Blocks should not be used solely for the purpose of recording warnings or other negative events in a user's block log. The practice, typically involving very short blocks, is often seen as punitive and humiliating.
+Very short blocks may be used to record, for example, an apology or acknowledgement of mistake in the block log in the event of a wrongful or accidental block, if the original block has expired. (If it has not, the message may be recorded in the unblocking reason.)
+Requesting blocks
+Disruptive behavior can be reported, and blocks requested at a specialized venue such as the administrator intervention against vandalism noticeboard or if appropriate, at the administrators' noticeboard for incidents. Users requesting blocks should supply credible evidence of the circumstances warranting a block. Administrators are never obliged to place a block, and are free to investigate the situation for themselves. Prior to imposing a block, administrators are expected to be fully familiar with the circumstances of the situation. See also #Explanation of blocks.
+Dealing with off-wiki block requests
+Administrators who use Wikipedia-related IRC channels are reminded that, while these channels have legitimate purposes, discussing an issue on IRC necessarily excludes those editors who do not use IRC from the discussion (and excludes all non-administrators from the discussion if it takes place in #wikipedia-en-admins), and therefore, such IRC discussion is never the equivalent of on-wiki discussion or dispute resolution. Consensus about blocks or other subjects should not be formed off-wiki.
+As the practice of off-wiki "block-shopping" is strongly discouraged, and that except where there is an urgent situation and no reasonable administrator could disagree with an immediate block (e.g. ongoing vandalism or serious BLP violations), the appropriate response for an administrator asked on IRC to block an editor is to refer the requester to the appropriate on-wiki noticeboard.
+Blocking
+Preliminary: Education and warnings
+
+Shortcuts:
+
+WP:BEFOREBLOCK
+WP:BEFOREBLOCKING
+
+
+Before a block is imposed, efforts should be made to educate users about Wikipedia policies and guidelines, and to warn them when their behavior conflicts with these. Welcome newcomers, do not bite them, and assume that most people who work on the project are trying to help it, not hurt it. Newcomers should make an effort to learn about our policies and guidelines so that they can learn how to avoid making mistakes. A variety of template messages exist for convenience, although purpose-written messages are often preferable. Template warnings that state that a user may be blocked for disruption or other blockable behavior may also be issued by regular editors rather than administrators only.
+However, note that warnings are not a prerequisite for blocking. In general, administrators should ensure that users who are acting in good faith are aware of policies and are given reasonable opportunity to adjust their behavior before blocking. On the other hand, users acting in bad faith, whose main or only use is forbidden activity (sockpuppetry, vandalism, and so on), do not require any warning and may be blocked immediately.
+Explanation of blocks
+
+Shortcut:
+
+WP:EXPLAINBLOCK
+
+
+Blocking is a serious matter. The community expects that blocks will be made with good reasons only, based upon reviewable evidence and reasonable judgment, and that all factors that support a block are subject to independent peer review if requested.
+Notifying the blocked user
+Administrators must supply a clear and specific block reason that indicates why a user was blocked. Block reasons should avoid the use of jargon as much as possible so that blocked users may better understand them. Administrators should notify users when blocking them by leaving a message on their user talk page. It is often easier to explain the reason for a block at the time than it is to explain a block well after the event.
+When implementing a block, a number of pro forma block reasons are available in a drop-down menu; other or additional reasons can also be added. Users can be notified of blocks and block reasons using a number of convenient template messages—see Category:User block templates and Wikipedia:Template messages/User talk namespace#Blocks.
+Other important information
+If there are any specific recommendations or circumstances that a reviewing administrator would need to know, or that may help to avoid administrator disputes upon review of a block, the blocking administrator should consider including this information in the block notice. For example:
+
+When there is information or evidence that may not be obvious, may not be fully appreciated, or may otherwise be relevant.
+Prior endorsement that if any administrator wishes to unblock, or there is consensus for it, they may without consulting the blocking administrator.
+Suggested conditions for an unblock.
+
+Confidential evidence
+Policy shortcut:
+
+
+WP:BLOCKEVIDENCE
+
+
+
+If a user needs to be blocked based on information that will not be made available to all administrators, that information should be sent to the Arbitration Committee or a Checkuser or oversighter for action. These editors are qualified to handle non-public evidence, and they operate under strict controls. The community has rejected the idea of individual administrators acting on evidence that cannot be peer-reviewed.
+An exception is made for administrators holding Checkuser or Oversight privileges; such administrators may block users based on non-public information revealed through the checkuser tool, or on edits that have been suppressed ("oversighted") and are inaccessible to administrators. As such, an administrative action is generally viewed to be made in the user's capacity as an oversight or checkuser, although the action itself is an administrative one. All such blocks are subject to direct review by the Arbitration Committee.
+
+Contact details: individual Checkusers and Oversighters are listed on the relevant pages; they can also be contacted via the functionaries mailing-list (e.g., if in doubt who to contact).
+
+Implementing blocks
+Technical instructions on how to block and unblock, and information on the blocking interface, are available at mw:Help:Blocking users. The following is advice specifically related to blocking and unblocking on Wikipedia.
+IP address blocks
+Main page: Wikipedia:Blocking IP addresses
+In addition to the further advice, there are special considerations to take into account when blocking IP addresses. IP address blocks can affect many users, and IP addresses can change. Users intending to block an IP address should at a minimum check for usage of that address, and consider duration carefully. IP addresses should rarely, if ever, be blocked indefinitely. You should notify the Wikimedia Foundation if the IP is related to a sensitive organization or a government agency.
+Collateral damage
+
+Shortcut:
+
+WP:COLLATERAL
+
+
+A block of a range of IP addresses may unintentionally affect other users in that range. Before blocking an IP range, especially for a significant time, consider checking for other users who may be unintentionally affected by the range block:
+
+anonymous users – Range Contributions – X!'s tools
+non-anonymous users – ask a user with checkuser access to check.
+
+If any are found, an IP block exemption ensures they will not be affected.
+Duration of blocks
+The purpose of blocking is prevention, not punishment. The duration of blocks should thus be related to the likelihood of a user repeating inappropriate behavior. Longer blocks for repeated and high levels of disruption is to reduce administrative burden; it is under presumption that such users are likely to cause frequent disruption or harm in future. Administrators should consider:
+
+the severity of the behavior;
+whether the user has engaged in that behavior before.
+
+Blocks on shared or dynamic IP addresses are typically shorter than blocks on registered accounts or static IP addresses made in otherwise similar circumstances, to limit side-effects on other users sharing that IP address.
+While the duration of a block should vary with the circumstances, there are some broad standards:
+
+incidents of disruptive behavior typically result in blocks of from a day to a few days, longer for persistent violations;
+accounts used exclusively for disruption may be blocked indefinitely without warning;
+protective blocks typically last as long as protection is necessary, often indefinitely.
+
+Indefinite blocks
+See also: Wikipedia:Blocking IP addresses § Indefinite blocks
+"WP:INDEF" redirects here. For indefinitely protected pages, see WP:List of indefinitely protected pages.
+Policy shortcut:
+
+
+WP:INDEF
+
+
+
+An indefinite block is a block that does not have a definite (or fixed) duration. Indefinite blocks are usually applied when there is significant disruption or threats of disruption, or major breaches of policy. In such cases an open-ended block may be appropriate to prevent further problems until the matter can be resolved by discussion. As with all blocks, it is not a punishment. It is designed to prevent further disruption, and the desired outcome is a commitment to observe Wikipedia's policies and to stop problematic conduct in future.
+Indefinite does not mean infinite: an indefinitely blocked user may later be unblocked in appropriate circumstances. In particularly serious cases where no administrator would be willing to lift the block, the user is effectively banned by the community.
+Setting block options
+
+Shortcut:
+
+WP:OPTIONS
+
+
+Several options are available to modify the effect of blocks, which should be used in certain circumstances.
+
+Automatically block the last IP address used by this user, and any subsequent IP addresses they try to edit from or Autoblock will prevent contributors from contributing on the IP address that the blocked user was using, and should typically be disabled when blocking unapproved or malfunctioning bots (so as not to block the bot's operator, or other bots using that IP), though it should be enabled when blocking malicious bots. (This feature is enabled by default.)
+Prevent account creation will prevent accounts from being created by the blocked user; if autoblock is enabled, it will also prevent accounts from being created on the IP address that the blocked user was using. It should typically be disabled when blocking accounts with inappropriate names (to allow the user to create an account with an appropriate name), though it should be enabled when blocking bad-faith names (for example, clear attacks on other users) or vandalism-only accounts.
+Prevent user from sending email will disable the user from accessing Special:Emailuser for the duration of the block. This option should not be used by default when blocking an account, but rather it should be used only in cases of abuse of the "email this user" feature (however, in instances when administrators feel that email abuse is extremely likely, they may use their discretion). When enabled, efforts should be taken to ensure that the user's talk page remains unprotected and that the user is aware of other avenues (such as the Unblock Ticket Request System) through which s/he can discuss the block. This is often used in cases of a user who is likely to do damage and disruption through e-mail.
+Prevent this user from editing their own talk page while blocked, if checked, will prevent blocked users from editing their own talk page, including requesting unblock. This option is not checked by default, and typically should not be checked; editing of the user's talk page should be disabled only in the case of continued abuse of the talk page. The protection policy has further details.
+Prevent logged-in users from editing from this IP address, see "hard block" below.
+
+
+Shortcuts:
+
+WP:HARDBLOCK
+WP:SOFTBLOCK
+
+
+There are two common blocks that may be imposed on registered accounts:
+
+A soft block (autoblock disabled, account creation allowed) will only block the account from editing. A block is not applied to the IP address the account last logged in from. Accounts that log in from the IP address are allowed to edit. This is generally used in situations such as blocking promotional usernames or other other username policy violations and allow them to register a new account.
+A hard block (autoblock enabled, account creation disabled) will block the account from editing and block editing from the IP address the account last logged into. Any IP the account attempts to edit from while blocked is also automatically blocked. Accounts cannot be created from the IP nor the user while it is blocked, but existing accounts may log in from the IP and edit without restriction. This is typically used in cases of blocking vandalism or to prevent other disruption.
+
+There are two common blocks that may be imposed on IP addresses:
+
+A soft block is used in most cases of vandalism or disruption.
+A hard block (Prevent logged-in users from editing from this IP address) disables all editing from the IP address, whether or not from logged in users (except accounts that are IP-block exempt). This is typically used when the level of vandalism or disruption via creation of "throwaway" accounts is such that all editing from the IP address is to be prevented except after individual checking of requests. Open proxies are hard-blocked on detection.
+
+Blocking bots
+See also: Wikipedia:Bot policy
+Automated or semi-automated bots may occasionally not operate as intended for a variety of reasons. Bots (or their associated IP address should the actual bot not be readily identifiable) may be blocked until the issue is resolved. Administrators should take care not to apply an autoblock to a bot as this will result in the autoblock propagating to all the other bots that share IPs on Wikimedia Labs.
+Bots that are unapproved, or usernames that violate the username policy due to a resemblance to a bot, are immediately and indefinitely blocked when discovered.
+The edits of a bot are considered to be, by extension, the edits of the editor responsible for the bot. As a result, should a bot operator be blocked, any bot attributed to them may also be blocked for the same duration as that of the blocked editor.
+Recording in the block log after a "clean start"
+Editors may cite Wikipedia:Clean start and rename themselves, asking that their previous username not be disclosed. If such editors have been blocked previously then the administrator who has been requested to make the deletion should contact a Checkuser so that the connection between the accounts can be verified. The Checkuser should then consider adding short blocks to the new account to denote each entry in the user's old account log. Such short blocks should provide protection in case the "clean start" was based on a genuine risk of off-wiki harassment, by not disclosing the previous username, while at the same time eliminating the possibility of avoiding the scrutiny of the community.
+The short blocks should be described in the block summary as "previous account block" and the final duration of the block should be noted. Blocks placed in error and lifted early should not be noted at all.
+Unblocking
+Unblocking or shortening of a block is most common when a blocked user appeals a block. An uninvolved administrator acting independently reviews the circumstances of the block, the editor's prior conduct, and other relevant evidence, along with any additional information provided by the user and others, to determine if the unblock request should be accepted. Common reasons include: the circumstances have changed, a commitment to change is given, the administrator was not fully familiar with the circumstances prior to blocking, or there was a clear mistake. See "Block reviews" below for additional steps to take.
+Unblocking will almost never be acceptable:
+
+When it would constitute wheel warring.
+To unblock one's own account (unless an administrator blocked themselves).
+When the block is explicitly enforcing an active Arbitration remedy and there is no ArbCom authorization or "a clear, substantial, and active consensus of uninvolved editors at a community discussion noticeboard (such as WP:AN or WP:ANI)" (Arbcom motion).
+
+Each of these may lead to sanctions for misuse of administrative tools—possibly including desysopping—even for first-time incidents.
+There is no limit to the number of unblock requests that a user may issue. However, disruptive use of the unblock template may prompt an administrator to remove the blocked user's ability to edit his or her talk page. In this case, a block may still be appealed by submitting a request to the Unblock Ticket Request System.
+Unblock requests
+As part of an unblock request, uninvolved editors may discuss the block, and the blocking administrator is often asked to review or discuss the block, or provide further information. Since the purpose of an unblock request is to obtain review from a third party, the blocking administrators should not decline unblock requests from users they have blocked. Also, by convention, administrators don't usually review more than one unblock request regarding the same block.
+Except in cases of unambiguous error or significant change in circumstances dealing with the reason for blocking, administrators should avoid unblocking users without first attempting to contact the blocking administrator to discuss the matter. If the blocking administrator is not available, or if the administrators cannot come to an agreement, then a discussion at the administrators' noticeboard is recommended.
+Administrators reviewing a block should consider that some historical context may not be immediately obvious. Cases involving sockpuppets, harassment, or privacy concerns are particularly difficult to judge. At times such issues have led to contentious unblocks. Where an uninformed unblock may be problematic, the blocking administrator may also wish to note as part of the block notice that there are specific circumstances, and that a reviewing administrator should not unblock without discussing the case with the blocking admin (or possibly ArbCom) to fully understand the matter.
+If users claim they wish to contribute constructively but there are doubts as to their sincerity, the {{2nd chance}} template can be used to allow them to demonstrate how they will contribute to the encyclopedia, should their unblock request be granted.
+Any user may comment on an unblock request; however, only administrators may resolve the request (either declining or unblocking).[2]
+Temporary circumstances blocks
+Some types of blocks are used in response to particular temporary circumstances, and should be undone once the circumstance no longer applies:
+
+Blocks on open or anonymous proxies should be undone once it is confirmed that they have been closed (but be aware some open proxies may be open only at certain times, so careful checking may be needed that it really is apparently no longer in use that way).
+Blocks of unapproved or malfunctioning bots should be undone once the bots gain approval or are repaired.
+Blocks for making legal threats should be undone once the threats are confirmed as permanently withdrawn and no longer outstanding.
+
+Temporary circumstances unblocks
+Users may be temporarily and conditionally unblocked to respond to a discussion regarding the circumstances of their block. Such temporary and conditional unblocks are made on the understanding that the users may not edit any pages (besides their user talk page) except the relevant discussion page(s) explicitly specified by the unblocking admin. The users are effectively banned from editing any other pages, and breaching this ban will be sanctioned appropriately. When the discussion concludes, the block should be reinstated unless there is a consensus to overturn the block.
+CheckUser blocks
+See also: Wikipedia:CheckUser § CheckUser blocks
+
+Shortcut:
+
+WP:CUBL
+
+
+Without first consulting a Checkuser, administrators should not undo or alter any block that is specifically identified as a "checkuser" block, such as through the use of the {{checkuserblock}} or {{checkuserblock-account}} templates in the action summary.[3] If an administrator believes that a checkuser block has been made in error, the administrator should first discuss the matter with the Checkuser in question, and if a satisfactory resolution is not reached, should e-mail the Arbitration Committee. A reversal or alteration of such a block without prior consultation may result in removal of permissions.[4]
+Oversight blocks
+
+Shortcut:
+
+WP:OSBL
+
+
+Appeals of blocks that have been marked by an oversighter as oversight blocks should be sent to the oversight team via email (Oversight-llists.wikimedia.org) to be decided by the English Wikipedia oversighters, or to the Arbitration Committee. Blocks may still be marked by the blocking oversighter as appealable only to the Arbitration Committee, per the 2010 statement, in which case appeals must only be directed to the Arbitration Committee.[5] Unblocking or altering without consent of an oversighter may result in removal of permissions.[6]
+Conditional unblock
+
+Shortcut:
+
+WP:CONDUNBLOCK
+
+
+Administrators may, with the agreement of the blocked user, impose conditions when unblocking. Unblock conditions are designed to prevent recurrence of the behaviour that led to the block (such as a page ban to prevent further edit warring).
+
+If the blocked user does not reach an agreement on proposed unblock conditions with an administrator, the blocked user may post another block appeal.
+Administrators have discretion to set the expiry of unblock conditions, provided that:
+
+The unblock conditions of blocks that expire after one year or less shall expire after no more than a year,
+The unblock conditions of blocks that expire after more than a year (including indefinite) may expire up to and including indefinitely.
+
+
+Unblock conditions may include page bans, topic bans, interaction bans, revert restrictions, single account restrictions and other restrictions at the discretion of the unblocking administrator.
+If editors breach the unblock conditions or engage in fresh misconduct, they may be blocked or further restricted.
+After the blocked user has accepted the conditions and been unblocked, the conditions may be appealed only to the unblocking administrator or to AN.
+The user shall be notified of unblock conditions on their talk page when they are unblocked and a diff/permalink of this notification added to the unblock reason. The conditions will also be recorded at Wikipedia:Editing restrictions#Final warnings / Unblock conditions.
+
+Global blocks
+Policy shortcut:
+
+
+WP:GB
+
+
+
+"WP:GB" redirects here. For the go button, see Help:Go button.
+GlobalBlocking is a MediaWiki extension available to stewards to prevent cross-wiki disruption from an IP address or a range of IP addresses. When an IP address or range of IP addresses is globally blocked, they are prevented from editing any public Wikimedia wiki, except for Meta-Wiki, where globally blocked users may appeal the decision. (A global block is not the same as a global ban.) When a user's editing is prevented by a global block, the contents of MediaWiki:Globalblocking-ipblocked (formerly MediaWiki:Globalblocking-blocked) are shown as an error message (analogous to MediaWiki:Blockedtext for locally blocked users). Registered users cannot be globally blocked. The analogous action is global locking, which prevents anyone from logging into the account.
+A current list of globally blocked users is available at Special:GlobalBlockList.
+Unblocking and appeal
+Local whitelisting — A user who is globally blocked can be unblocked locally (to edit the specific wiki concerned only), by any local administrator, at Special:GlobalBlockWhitelist. It is not possible to override global locks locally.
+Appeal against a global block — Users who are globally blocked or locked may appeal the block or lock at Steward requests/Global, on Meta-Wiki. Alternatively, appeals may be directed through the email queue to stewardswikimedia.org.
+See also
+
+
+
+This page is referenced from the glossary.
+
+
+
+
+Difference between bans and blocks
+MediaWiki:Blockedtext – the message shown to blocked users when they attempt to edit
+Wikipedia:Appealing a block – information about contesting a block
+Wikipedia:Autoblock
+Wikipedia:Blocking IP addresses and sensitive IP addresses – information relating to blocking IP addresses
+Wikipedia:Guide to appealing blocks
+Wikipedia:Here to build an encyclopedia
+Wikipedia:Template messages/User talk namespace
+Wikipedia:WikiWar
+meta:Global blocks
+User block templates
+User:ThisIsaTest, created for blocking practice
+
+Notes
+
+^ See Wikipedia:Requests for arbitration/Agapetos angel#Meatpuppets. See also: Wikipedia:Tag team
+^ See July–August 2012 discussion at Wikipedia:Administrators' noticeboard/Archive238#Unblock requests being handled by non-administrators
+^ Non-Checkusers should not review Checkuser blocks that require access to Checkuser data, e.g., when an editor is professing innocence or is questioning the validity of the technical findings in any way. Administrators may still decline unblock requests that are made in bad faith, are more procedural in nature, or are off topic.
+^ Arbitration Committee resolution on CheckUser blocks
+^ 2016 Arbitration Committee resolution on Oversight-related blocks
+^ 2010 Arbitration Committee resolution on Oversight-related blocks
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia accounts and governance
+
+
+
+
+
+
+Unregistered (IP) users
+
+
+
+Why create an account?
+Create an account
+Request an account
+IPs are human too
+IP addresses are not people
+IP hopper
+
+
+
+
+
+
+
+
+Registered users
+
+
+
+New account
+Logging in
+
+Reset passwords
+
+
+Username policy
+
+Changing username
+Usernames for administrator attention
+
+
+Unified login or SUL
+Alternate account
+
+
+
+
+
+
+
+
+Account security
+
+
+
+Password strength requirements
+User account security
+Personal security practices
+Two-factor authentication
+
+Simple 2FA
+2FA for AWB
+
+
+Committed identity
+On privacy, confidentiality and discretion
+Compromised accounts
+
+
+
+
+
+
+
+
+Blocks, global locks,
+bans, sanctions
+
+
+
+Blocking policy
+
+FAQ
+Admins guide
+Tools
+Autoblock
+
+
+Appealing a block
+
+Guide to appealing blocks
+UTRS Unblock Ticket Request System
+
+
+Blocking IP addresses
+
+Range blocks
+IPv6
+Open proxies
+
+
+Global locks
+Banning policy
+
+ArbCom appeals
+
+
+Sanctions
+
+Personal sanctions
+General sanctions
+Discretionary sanctions and Log
+Essay
+
+
+Long-term abuse
+Standard offer
+
+
+
+
+
+
+
+
+Related to accounts
+
+
+
+Sock puppetry
+Single-purpose account
+Sleeper account
+Vandalism-only account
+Wikibreak
+
+Enforcer
+
+
+Retiring
+
+Courtesy vanishing
+
+
+Clean start
+
+Quiet return
+
+
+
+
+
+
+
+
+
+
+User groups
+and global user groups
+
+
+
+Requests for permissions
+
+Admin instructions
+Admin guide
+
+
+Account creator
+
+PERM
+
+
+Autopatrolled
+
+PERM
+
+
+AutoWikiBrowser
+
+PERM
+
+
+Confirmed
+
+PERM
+
+
+Extended confirmed
+
+PERM
+
+
+File mover
+
+PERM
+
+
+Mass message sender
+
+PERM
+
+
+New page reviewer
+
+PERM
+
+
+Page mover
+
+PERM
+
+
+Pending changes reviewer
+
+PERM
+
+
+Rollback
+
+PERM
+
+
+Template editor
+
+PERM
+
+
+IP-block-exempt
+
+Requests
+
+
+Courses access
+
+Requests
+
+
+Bot accounts
+
+Requests
+
+
+Global rights policy
+
+OTRS Volunteer Response Team
+
+
+
+
+
+
+
+
+
+
+Advanced user groups
+
+
+
+Administrators
+
+RfA
+
+
+Bureaucrats
+
+RfB
+
+
+Edit filter manager
+
+Requests
+
+
+CheckUser and Oversight
+
+Requests
+
+
+
+
+
+
+
+
+
+
+Committees and related
+
+
+
+Arbitration Committee
+Mediation Committee
+Bot approvals group
+Functionaries
+Clerks
+
+
+
+
+
+
+
+
+Governance
+
+
+
+Administration
+
+FAQ
+
+
+Formal organization
+Editorial oversight and control
+Quality control
+Wikimedia Foundation
+
+Meta-Wiki
+
+
+Leadership opportunities
+WikiProjects
+Elections
+Policies and guidelines
+Unbundling administrators' powers
+Petitions
+Noticeboards
+Consensus
+Dispute resolution
+Reforms
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Blocking_policy&oldid=764707345"					
+Categories: Wikipedia policiesWikipedia enforcement policiesWikipedia glossary itemsWikipedia Administrators' guideWikipedia blockingHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversity 
+
+
+
+Languages
+
+
+AlemannischالعربيةAzərbaycancaবাংলাБългарскиBoarischBrezhonegCatalàČeštinaDanskDeutschΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalegoગુજરાતી한국어Հայերենहिन्दीBahasa IndonesiaItalianoעבריתBasa JawaქართულიLietuviųMagyarМакедонскиമലയാളംमराठीمصرىBahasa MelayuМонголမြန်မာဘာသာ日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăRuna SimiРусскийСаха тылаScotsShqipසිංහලSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSuomiSvenskaதமிழ்తెలుగుไทยTürkçeУкраїнськаاردوVènetoTiếng Việt文言ייִדישYorùbá粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 10 February 2017, at 13:47.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.260","walltime":"0.339","ppvisitednodes":{"value":2638,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":80484,"limit":2097152},"templateargumentsize":{"value":2022,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":19,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  232.643      1 -total"," 28.08%   65.318      9 Template:Policy_shortcut"," 23.56%   54.805      9 Template:Bulleted_list"," 18.13%   42.186      1 Template:Pp-vandalism"," 15.00%   34.898     16 Template:No_redirect"," 10.85%   25.248      1 Template:Policy","  9.89%   23.000      1 Template:Ombox","  7.39%   17.194     10 Template:Shortcut","  5.35%   12.439      1 Template:Enforcement_policy_list","  5.26%   12.227      8 Template:Anchor"]},"scribunto":{"limitreport-timeusage":{"value":"0.088","limit":"10.000"},"limitreport-memusage":{"value":3905484,"limit":52428800}},"cachereport":{"origin":"mw1226","timestamp":"20170210134758","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":61,"wgHostname":"mw1275"});});

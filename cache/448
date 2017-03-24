@@ -1,0 +1,950 @@
+ 
+
+
+
+
+
+
+Wikipedia:Portal
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcuts:
+
+WP:P
+WP:PORTAL
+
+
+
+
+
+
+
+
+
+
+
+Portals are pages intended to serve as "Main Pages" for specific topics or areas. A portal may be associated with one or more WikiProjects; unlike a WikiProject, however, it is meant for both readers and editors of Wikipedia, and should promote content and encourage contribution. Portals are created for encyclopedic topics only and not for article maintenance categories.
+
+
+List of all portals
+Featured portals
+
+
+
+
+
+
+
+
+
+Contents
+
+
+What are portals?
+How to find portals
+How to add portal links to articles
+How to create a portal
+How to make a good portal
+How to categorize a portal
+How to get involved
+See also
+
+
+
+
+
+
+What are portals?[edit]
+
+
+
+Wikipedia data structure
+
+
+
+
+Namespaces
+
+
+
+Subject namespaces
+Talk namespaces
+
+
+0
+(Main/Article)
+Talk
+1
+
+
+2
+User
+User talk
+3
+
+
+4
+Wikipedia
+Wikipedia talk
+5
+
+
+6
+File
+File talk
+7
+
+
+8
+MediaWiki
+MediaWiki talk
+9
+
+
+10
+Template
+Template talk
+11
+
+
+12
+Help
+Help talk
+13
+
+
+14
+Category
+Category talk
+15
+
+
+100
+Portal
+Portal talk
+101
+
+
+108
+Book
+Book talk
+109
+
+
+118
+Draft
+Draft talk
+119
+
+
+446
+Education Program
+Education Program talk
+447
+
+
+710
+TimedText
+TimedText talk
+711
+
+
+828
+Module
+Module talk
+829
+
+
+2300
+Gadget
+Gadget talk
+2301
+
+
+2302
+Gadget definition
+Gadget definition talk
+2303
+
+
+
+Virtual namespaces
+
+
+
+-1
+Special
+
+
+-2
+Media
+
+
+The idea of a portal is to help readers and/or editors navigate their way through Wikipedia topic areas through pages similar to the Main Page. In essence, portals are useful entry-points to Wikipedia content.
+Portals originated in the Polish and German Wikipedias. In early 2005, the concept was imported to the English Wikipedia and the first Wikiportals were established. Later that year, a special namespace (Portal:) was created for portals.
+Portals are subject to the Wikipedia's five pillars and must comply with Wikipedia's core content policies (neutral point of view, no original research, verifiability, etc.).
+Currently, this Wikipedia, the English Wikipedia, has 1476 registered portals, of which 173 have featured status.
+How to find portals[edit]
+Main pages: Wikipedia:Portal/Directory and Portal:Contents/Portals
+All portals should be listed at the directory of portals, which also details their founding dates and whom you can contact with regard to a particular portal. If you have created a portal, you must list it here. Portal:Contents/Portals lists all portals of reader-ready quality.
+Portals are also largely inter-accessible with users able to navigate from one portal to another. Universal features, such as the browsebar (which links to top-level portals), and the portals template (which links to Portal:Contents/Portals), allow for convenient browsing. Moreover, portals are also categorised according to hierarchy. Portals, in most instances, also link to their Related portals (those lateral to them) and their Subportals (those that descend from them).
+Links to portals are often found in the "See also" section of relevant articles. Links to portals may also be found at the top of an article's talk page (as part of WikiProject banner templates). Portals for top-level subjects are also linked from the Main Page.
+
+You can also use the Special:Search box below to locate Portals and sub-pages.
+
+
+
+
+  
+
+
+
+How to add portal links to articles[edit]
+
+
+Energy portal
+Cycling portal
+
+
+Within articles, this template is meant to be placed at the bottom of the article in the See also section. If there is no See also section, you can put it in the External links section instead; there is no need to create a new section just to house this template. If there is no External links section either, just put it below the article text in the place that seems most appropriate. There are no particular rules about the placement of portals on other kinds of page.
+Entering the link at the top of the section will allow it to sit on the top right. Add a portal link by typing {{Portal|<portal name>}} for example {{Portal|Energy}}. If more than one portal is to be linked use a second parameter, for example {{Portal|Energy|Cycling}} (illustrated on right). If there are problems with the regular {{Portal}} causing undesired layout effects use {{Clear}}, {{Portal bar}} (example shown below), {{Portal-inline}}, or an icon-free text link * [[Portal:Energy|Energy portal]],
+
+Energy portal
+
+
+
+
+Energy portal
+Cycling portal
+
+
+You can float{{Portal}} to the left by preceding it with a ":"
+
+
+
+
+
+
+Energy portal
+
+How to create a portal[edit]
+Main page: Wikipedia:Portal/Instructions
+There is no single standard design for portals, but the most widely used layout is the "box portal". The use of this design is recommended due to the ease with which it can be created and maintained. For further ideas on portal design, browse existing portals and see the featured portals. For step-by-step instructions on how to set up a new portal, refer to the instructions page. Unlike WikiProjects, portals should not be created for article maintenance category, but only for encyclopedic topics.
+Once you have created the portal, please update the {{number of portals}} template.
+How to make a good portal[edit]
+Main page: Wikipedia:Portal guidelines
+Most portals present the following:
+
+A selected article and/or picture;
+Links into the main category for the topic and possibly subcategories (some portals actually appear in the description page for the main category);
+General info about the subject, or links thereto;
+Links to other portals (using templates) and for editors;
+Links to related WikiProjects ({{Sister project links}} can be used to add Wikimedia sister-project links to a portal);
+Links to specific articles or tasks;
+Collaboration of the week, month, etc.
+
+You may want to embark on an effort to fill the related categories with appropriate articles if this has not been done already (or add it to the portal's "to do" list so visitors can help out).
+How to categorize a portal[edit]
+Main page: Wikipedia:Portal/Categorizing
+
+For a simple portal, simply add a specific subcategory of Category:Portals to the bottom of the portal page.
+For a complex, multi-page portal, a portal category is needed.
+Portal categories are generally named [[Category:TOPIC portal]] where the portal itself is named [[Portal:TOPIC]].
+Portal categories are categorized under Category:Portals subcategories just like portals.
+Portals with their own categories are only categorized in that category, which in turn is put into the other categories that the portal would have been in.
+
+How to get involved[edit]
+Main page: Wikipedia:WikiProject Portals
+Just as with Wikipedia at large, portals can be edited by anyone. However, it is important to pay due regard to the established work of others. Editors are always needed to maintain individual portals; if you would like to participate in the upkeep of a particular portal, note your intention on its talk page, list yourself as a maintainer in the directory of portals, then get to work – thank you!
+A WikiProject on Portals has been founded to coordinate portal activity. The current objectives are to develop standards for all portals and to ensure maintenance. Other tasks include the integration and categorisation of portals.
+Immediate attention is needed at portals listed in Category:Portals under construction and Category:Portals needing attention.
+
+
+
+See also[edit]
+
+ Featured portal
+
+
+Poetry
+Show another featured portal
+
+
+List of portals
+Featured portals
+
+
+
+
+
+WikiProject
+Directory
+
+
+
+
+
+
+
+Regional
+Notice Boards
+
+
+
+
+
+
+
+
+Portals
+Featured (Criteria · Candidates)
+List
+Directory
+WikiProject
+Guidelines
+Instructions
+Categorizing (Portals category)
+Peer review
+
+
+Contents Overview Outlines Lists Portals Glossaries Categories Indices
+
+
+Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Portal&oldid=764015254"					
+Categories: Wikipedia information pagesWikipedia portal administrationWikipedia featuresHidden categories: Wikipedia move-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikiquoteWikiversity 
+
+
+
+Languages
+
+
+العربيةAragonésAzərbaycancaБеларуская (тарашкевіца)‎BosanskiBrezhonegCatalàCebuanoČeštinaCymraegDanskDeutschΕλληνικάEspañolEsperantoEuskaraفارسی한국어हिन्दीHrvatskiBahasa IndonesiaItalianoעבריתქართულიLatviešuLumbaartമലയാളംBahasa MelayuNāhuatlNederlands日本語Norsk bokmålOccitanਪੰਜਾਬੀPlattdüütschPolskiPortuguêsRipoarischRomânăРусскийScotsسنڌيSlovenčinaSoomaaligaکوردیی ناوەندیСрпски / srpskiBasa SundaSuomiதமிழ்Татарча/tatarçaไทยTürkçeTürkmençeУкраїнськаاردوTiếng Việtייִדיש 
+Edit links 
+
+
+
+
+
+ This page was last modified on 6 February 2017, at 15:49.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.200","walltime":"0.285","ppvisitednodes":{"value":1559,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":90691,"limit":2097152},"templateargumentsize":{"value":14654,"limit":2097152},"expansiondepth":{"value":15,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  193.034      1 -total"," 19.85%   38.312      1 Template:Portal_nav_footer"," 17.28%   33.358      1 Template:Information_page"," 16.73%   32.298      6 Template:Center"," 16.36%   31.588      1 Template:Portals2"," 15.80%   30.498      1 Portal:Contents/TOC_navbar"," 13.71%   26.474      1 Template:Ombox"," 13.10%   25.282     20 Template:Clickable_button_2"," 12.37%   23.887      1 Template:NBbox","  8.85%   17.089      1 Template:Wikipedia_technical_help"]},"scribunto":{"limitreport-timeusage":{"value":"0.056","limit":"10.000"},"limitreport-memusage":{"value":3291968,"limit":52428800}},"cachereport":{"origin":"mw1176","timestamp":"20170211120343","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":59,"wgHostname":"mw1255"});});

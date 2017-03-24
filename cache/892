@@ -1,0 +1,325 @@
+ 
+
+
+
+
+
+
+
+Template:Documentation
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+This template is used on approximately 71,000 pages, so changes to it will be widely noticed. Please test any changes in the template's /sandbox or /testcases subpages, or in your own user subpage. Please consider discussing changes on the talk page before implementing them.
+
+
+
+Shortcut:
+
+T:DOC
+
+
+
+
+
+
+
+Uses Lua:
+
+
+Module:Documentation
+
+
+
+
+
+
+
+This is the {{Documentation}} template, used on almost every template page to contain that template's documented instructions and information.
+For detailed instructions on how and when to use this template, see Wikipedia:Template documentation (shortcut: WP:TDOC).
+This template displays a green documentation box like you are seeing now and automatically loads the content from a /doc subpage. It can also load the content from other places if instructed to.
+This template is intended for documenting templates and other pages that are transcluded onto other pages. It can be used in the template namespace and most other namespaces.
+Use of this template allows templates to be protected where necessary, while allowing anyone to edit the documentation and categories.
+
+
+Contents
+
+
+1 Usage
+2 Short cut
+3 Best practice
+4 Heading
+5 Link box
+6 Automatic functions
+7 Subject namespaces vs. talk namespaces
+8 Testing
+9 Technical details
+
+9.1 Full syntax
+
+
+10 See also
+
+
+Usage
+Normally this template is used without any parameters, placed at the bottom of the template or page being documented, within a <noinclude>...</noinclude> container:
+
+
+<!--Last line of your template code--><noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage and interwikis in Wikidata, not here! -->
+</noinclude>
+
+Then this template automatically loads the content from the /doc subpage of the template it is used on.
+This template can also load the content from any other page. Like this:
+
+
+<!--Last line of your template code--><noinclude>
+{{Documentation |Template:Other page/doc}}
+</noinclude>
+
+Note that when loading the documentation from a page other than the local /doc page it becomes tricky to handle the categories.
+The content can also be fed directly as text. Like this:
+
+
+<!--Last line of your template code--><noinclude>
+{{Documentation
+ | content =
+(some documentation)
+}}</noinclude>
+
+When the |content= parameter is used, the doc box normally does not show the [edit] [purge] links in the top right corner. Note that if the /doc page exists, a link to it is still shown in the link box below the doc box.
+Parameter |1= and the |content= parameter can also be combined, like this:
+
+
+<!--Last line of your template code--><noinclude>
+{{Documentation |1=Template:Any page/doc
+| content =
+{{Template:Any page/doc |parameters}}
+}}</noinclude>
+
+Then the pagename fed as parameter 1 is used for the [edit] [purge] links and for the /doc link in the link box below the doc box. But the content parameter is used for the content shown in the doc box. The above code means that the content is transcluded as {{Template:Any page/doc|parameters}}. In this example a parameter is also fed to the /doc page being loaded.
+Short cut
+Type {{subst:doc-code}} to automatically insert noinclude tags, the template call and the guiding comment.
+Best practice
+The code should be added at the bottom of the template code, with no space before <noinclude> (which would cause extra space on pages where the template is used).
+Categories that apply to the template itself should be added to the bottom of the /doc subpage, inside <includeonly>...</includeonly> tags. Interwiki links that apply to the template should be listed at Wikidata (more at wp:Wikidata). For more complex cases, see Wikipedia:Template documentation#Categories and interwiki links.
+If the documentation page contains <includeonly> or <noinclude> tags as part of the visible documentation text, replace the "<" with "&lt;".
+Heading
+When in the Template namespace, this template shows this heading:
+
+ Template documentation
+
+In most other namespaces, such as "Wikipedia:", it shows this heading:
+
+Documentation
+
+But when on File (image) pages it shows this heading:
+
+Summary
+
+The heading parameter can be used to set the heading to something else. Like this:
+
+{{Documentation |heading=Infobox documentation}}
+
+If the heading parameter is empty but defined, no heading is shown and no [edit] [purge] links are shown. Like this:
+
+{{Documentation |heading=}}
+
+The heading-style parameter can be fed optional CSS values. Without quotation marks " " but with the ending semicolons ;. For example:
+
+heading-style=font-size:150%;color:red;
+
+Link box
+Below the big doc box is a small link box that shows some meta-data about the documentation. The link box shows different things depending on what parameters are fed to this template, and in which namespace it is used. In some cases the link box is not shown at all.
+To hide the link box, add the parameter
+
+|link box=off.
+
+You can also insert customised text into the link box, by setting the |link box= parameter. For example:
+
+  |link box=This documentation is automatically generated by [[Template:Country showdata]]
+
+Automatic functions
+If the documentation page does not exist, the [create] link includes a preload page so that clicking it will pre-fill the edit form with the basic documentation page format. Preload text is also used for the /sandbox and /testcases [create] links.
+When this template is on a protected template page it now automatically adds {{pp-template}}, which shows the grey or red padlock in the top right corner. So no need to manually add {{pp-template}} to templates that use {{Documentation}}.
+When this template is on a /sandbox subpage it automatically adds the {{Template sandbox notice}}.
+Subject namespaces vs. talk namespaces
+Terminology: Subject namespaces are the opposite of talk namespaces. For instance "Template:" is the subject space of "Template talk:".
+This template is usually placed in a subject namespace, within <noinclude> tags. But in some cases this template needs to be on the talk page:
+
+In the Mediawiki namespace, since <noinclude> often does not work in system messages, and since the Mediawiki namespace needs to be kept clean for performance reasons.
+
+When placed on talk pages, this template usually is placed near the top of the page and without <noinclude>...</noinclude> tags.
+The /doc, /sandbox and /testcases pages should normally be in the subject namespace, except in the namespaces that do not have the MediaWiki subpage feature enabled: Main, File, Mediawiki and Category. (But currently we only show the /sandbox and /testcases links from User, User talk, Template and Template talk namespaces.) There are also a whole bunch of other technical reasons why the /doc page must be stored under the talk page for those (but only those) namespaces.
+This template automatically points its [create] links for the /doc, /sandbox and /testcases to the right namespace.
+Testing
+You can simulate the output for a given page by using the |page= parameter. For example, if you use the code |page=Template:Edit protected, the template will behave exactly as if it were on the page Template:Edit protected, including showing the documentation from Template:Edit protected/doc, linking to Template:Edit protected/sandbox, etc. This parameter is useful for testing and is used extensively on the module testcases page.
+Technical details
+The preload page for the /doc [create] link is Template:Documentation/preload. The preload pages for the /sandbox and /testcases [create] links are Template:Documentation/preload-sandbox and Template:Documentation/preload-testcases.
+For more details, see the talk page.
+Full syntax
+
+{{Documentation}}
+
+{{Documentation
+ | content =
+}}
+
+{{Documentation
+| [path to documentation page]
+| heading-style = 
+| heading = 
+| link box = 
+}}
+
+See also
+
+{{Documentation subpage}}, a notice placed at the top of a /doc subpage explaining its role and including a link to the page it documents.
+{{Barnstar documentation}}, a variant of {{Documentation}} for use with barnstar templates.
+{{Documentation/color scheme}} presents the color scheme used by {{Documentation}}.
+Wikipedia:Template documentation is a how-to guide to template documentation.
+Wikipedia:Template sandbox and test cases explains the use of /sandbox and /testcases subpages and includes more information about template testing.
+User:Technical 13/Scripts/editTemplateNoDoc.js, a beta script that enables documentation to be hidden by default when editing templates.
+
+
+
+
+
+The above documentation is transcluded from Template:Documentation/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (edit) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Documentation&oldid=714754089"					
+Categories: Lua-based templatesTemplate documentationTemplate-related templatesHidden categories: Wikipedia template-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Languages
+
+
+AcèhАдыгэбзэАдыгабзэAfrikaansAkanAlemannischአማርኛÆngliscАҧсшәаالعربيةAragonésܐܪܡܝܐঅসমীয়াAsturianuАварAymar aruAzərbaycancaتۆرکجهবাংলাBahasa BanjarBân-lâm-gúBasa BanyumasanБашҡортсаБеларускаяБеларуская (тарашкевіца)‎भोजपुरीBikol CentralBislamaБългарскиBoarischབོད་ཡིགBosanskiBrezhonegБуряадCatalàЧӑвашлаCebuanoČeštinaChamoruChavacano de ZamboangaChi-ChewaChiShonaChiTumbukaCymraegDanskDeutschދިވެހިބަސްDolnoserbskiཇོང་ཁEestiΕλληνικάEmiliàn e rumagnòlЭрзяньEspañolEsperantoEstremeñuEuskaraEʋegbeفارسیFiji HindiFrançaisFryskFulfuldeGaeilgeGaelgGagauzGàidhligGalego贛語Gĩkũyũگیلکیગુજરાતી𐌲𐌿𐍄𐌹𐍃𐌺गोंयची कोंकणी / Gõychi Konknni客家語/Hak-kâ-ngîХальмг한국어HausaՀայերենहिन्दीHornjoserbsceHrvatskiIdoIgboIlokanoবিষ্ণুপ্রিয়া মণিপুরীBahasa IndonesiaInterlinguaInterlingueᐃᓄᒃᑎᑐᑦ/inuktitutИронIsiXhosaIsiZuluÍslenskaItalianoעבריתBasa JawaKalaallisutಕನ್ನಡKapampanganКъарачай-малкъарქართულიकॉशुर / کٲشُرKaszëbscziҚазақшаKernowekKinyarwandaKirundiKiswahiliKongoKreyòl ayisyenKurdîКыргызчаКырык марыLadinoЛезгиລາວلۊری شومالیLatgaļuLatinaLatviešuLëtzebuergeschLietuviųLimburgsLingálaLivvinkarjalaLa .lojban.LugandaLumbaartMagyarमैथिलीМакедонскиMalagasyമലയാളംMaltiMāoriमराठीმარგალურიمصرىمازِرونیBahasa MelayuBaso MinangkabauMìng-dĕ̤ng-ngṳ̄MirandésМонголမြန်မာဘာသာNāhuatlNa Vosa VakavitiNederlandsNedersaksiesNēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣनेपालीनेपाल भाषा日本語НохчийнNorfuk / PitkernNorsk bokmålNorsk nynorskNovialOccitanОлык марийଓଡ଼ିଆOromooOʻzbekcha/ўзбекчаਪੰਜਾਬੀपालिPälzischPangasinanپنجابیPapiamentuپښتوPatoisПерем Комиភាសាខ្មែរPicardPiemontèisTok PisinPlattdüütschPolskiPortuguêsQaraqalpaqshaReo tahitiRomânăRumantschRuna SimiРусиньскыйРусскийСаха тылаSámegiellaGagana Samoaसंस्कृतम्SängöSarduScotsSeelterskSesotho sa LeboaSetswanaShqipසිංහලSimple EnglishسنڌيSlovenčinaSlovenščinaСловѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟŚlůnskiSoomaaligaکوردیی ناوەندیSranantongoСрпски / srpskiSrpskohrvatski / српскохрватскиBasa SundaSuomiSvenskaTagalogதமிழ்TaqbaylitTarandíneТатарча/tatarçaతెలుగుไทยትግርኛТоҷикӣᏣᎳᎩTsetsêhestâheseTshivendaತುಳುTürkçeTürkmençeTwiТыва дылУдмуртᨅᨔ ᨕᨘᨁᨗУкраїнськаاردوئۇيغۇرچە / UyghurcheVahcuenghVènetoVepsän kel’Tiếng ViệtVolapükWalon文言WinarayWolof吴语XitsongaYorùbá粵語Zazaki中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 11 April 2016, at 17:18.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.100","walltime":"0.153","ppvisitednodes":{"value":954,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":31882,"limit":2097152},"templateargumentsize":{"value":1502,"limit":2097152},"expansiondepth":{"value":19,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   72.472      1 -total","100.00%   72.472      1 Template:Documentation/doc"," 49.68%   36.004      1 Template:High-use"," 47.33%   34.302      1 Template:Ombox"," 25.00%   18.121      1 Template:High-use/num"," 12.84%    9.308      1 Template:Sigfig"," 12.79%    9.267      1 Template:Stack","  9.96%    7.219      1 Template:Significant_figures/rnd","  9.53%    6.908      1 Template:Lua","  8.52%    6.175      1 Template:Shortcut"]},"scribunto":{"limitreport-timeusage":{"value":"0.042","limit":"10.000"},"limitreport-memusage":{"value":1663542,"limit":52428800}},"cachereport":{"origin":"mw1279","timestamp":"20170124221706","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":65,"wgHostname":"mw1272"});});

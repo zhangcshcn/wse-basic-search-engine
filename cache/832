@@ -1,0 +1,446 @@
+ 
+
+
+
+
+
+
+
+Template:Tl
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+{{[[Template:{{{1}}}|{{{1}}}]]}}
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+This template is used on 3,450,000+ pages.
+To avoid large-scale disruption and unnecessary server load, any changes to this template should first be tested in its /sandbox or /testcases subpages or in your own user subpage. The tested changes can then be added to this page in one single edit. Please consider discussing any changes on the talk page before implementing them.
+
+
+
+
+
+This template is used in system messages.
+Changes to it can cause immediate changes to the Wikipedia user interface. To avoid large-scale disruption, any changes should first be tested in this template's /sandbox or /testcases subpage, or in your own user space. The tested changes can then be added in one single edit to this template. Please discuss any changes on the talk page before implementing them.
+
+
+Not to be confused with Template:Ti.
+The template link template is a simple macro template used to display a template name as a link surrounded by braces, thus showing how the template name would be used in code. Its primary use is in instruction and documentation. A short example is:
+
+
+
+{{tl|Example}}
+
+
+which generates
+
+{{Example}}
+
+
+
+
+This template displays a template name as a link surrounded by braces, thus showing how the template name would be used in code. Its primary use is in instruction and documentation.
+Template parameters
+
+
+
+Parameter
+Description
+Type
+Status
+
+
+
+
+template name
+1
+
+the template name without the namespace prefix “Template:”, which is added automatically
+
+Default
+empty
+Example
+empty
+Auto value
+empty
+
+
+Line
+required
+
+
+
+
+More complex variations are described below.
+Examples
+
+
+Code
+Result
+Notes
+
+
+{{tl|Void}}
+{{Void}}
+Standard usage
+
+
+{{tls|Void}}
+{{subst:Example}}
+For templates that should be substituted
+
+
+{{tl2|X1}}
+{{X1}}
+This formats the link to show how it would look in code
+
+
+{{tl2|sister=M:|3x}}
+{{3x}}
+Same as above, for templates on another Wikimedia project (such as meta)
+
+
+{{tl2|sister=wikibooks|lang=de:|WP}}
+{{WP}}
+For templates on another language project
+
+
+{{tl|1==)}}
+{{=)}}
+Use the format {{tl|1=templatename}} if the template contains template coding characters such as {{=)}} or {{!}}
+
+
+See also
+
+
+view
+talk
+edit
+
+
+General-purpose formatting
+
+Comparison of template-linking templates according to their style
+
+
+Link style →
+Linked
+Unlinked
+Linked with subst
+Linked including braces
+Linked with alternative text
+
+
+Text style ↓
+↓ {{tlg}} options1 →
+N/A
+nolink=yes
+subst=yes
+braceinside=yes
+alttext=Foo
+2=Foo
+
+
+Normal
+N/A
+{{tlg}}1
+{{tl}}
+{{tl2}}
+{{tlp}}2
+{{tlu}}4
+{{tlf}}2
+{{tls}}
+{{tlsp}}
+{{tn}}
+{{tla}}
+
+
+Code
+code=yes or
+tt=yes
+{{tlx}}
+{{tltt}}
+{{tltt2}}
+{{tlc}}2
+{{tld}}2
+{{tnull}}
+{{tlxs}}
+{{tltts}}
+{{tltts3}}
+{{tltss}}3
+N/A
+
+
+Bold
+bold=yes
+{{tlb}}
+N/A
+
+
+Bold code
+bold=yes|code=yes
+{{tlxb}}
+
+
+Italic code
+italic=yes|code=yes
+{{tlxi}}
+
+
+
+
+
+1 {{tlg}} is the most general, allowing any combination of text style and/or link style options.
+2 Prevents wrapping of text by placing it inside <span class="nowrap">...</span> tags.
+3 Uses monospace font but not <code>...</code>.
+4 Allows links to templates in any namespace.
+
+
+Other formatting templates
+
+
+Code example
+Effect
+Notes
+
+
+{{tl2|Hatnote|lang=fr}}
+{{hatnote}}
+Supports linking to sister projects (e.g., fr:Hatnote)
+
+
+{{tlu|User:Ahunt/SSHFS}}
+{{User:Ahunt/SSHFS}}
+Supports linking to any namespace
+
+
+{{demo|<nowiki>{{Hatnote|lang=fr|Some text}}</nowiki>}}
+
+
+{{hatnote|lang=fr|Some text}}
+
+
+Some text
+
+Shows code and example
+
+
+{{xpd|Hatnote|Some hatnote text}}
+"{{hatnote|Some hatnote text}}" gives "
+Some hatnote text
+" [1]
+Shows code, example and a link to expand the template code
+
+
+{{para|title|<var>book title</var>}}
+|title=book title
+Formats template parameters for display, with or without values
+
+
+{{elc|Template:Hatnote}}
+{{elc|Template:Hatnote|Hatnote}}
+[[Template:Hatnote]]
+[[Template:Hatnote|Hatnote]]
+Formats wikilink, with optional piped link text and blended suffix
+
+
+With utility links
+
+
+Code example
+Effect
+
+
+{{lts|Hatnote}}
+Template:Hatnote(edit talk links history)
+
+
+{{t links|Hatnote}}
+Hatnote (edit talk history links # /subpages /doc /doc edit /sbox /sbox diff /test) · Module:hatnote
+
+
+{{tfd links|Hatnote}}
+Template:Hatnote (edit · talk · history · links · logs · subpages · delete)
+
+
+{{tiw|Hatnote}}
+Template:hatnote (backlinks edit)
+
+
+{{tltt|Hatnote}}
+{{Hatnote}}
+
+
+{{tetl|Hatnote}}
+{{Hatnote}}
+links talk view
+
+
+{{tsetl|Hatnote}}
+{{subst:Hatnote}}
+ links talk view
+
+
+{{ti|Hatnote}}
+Template:Hatnote (talk · links · edit)
+
+
+{{tic|Hatnote}}
+Template:Hatnote (talk links edit)
+
+
+{{tiw|Hatnote}}
+Template:Hatnote (backlinks edit)
+
+
+{{tlt|Hatnote}}
+{{Hatnote}} (talk)
+
+
+{{ttl|Hatnote}}
+{{Hatnote}} (t/l)
+
+
+{{twlh|Hatnote}}
+Template:Hatnote (links, talk)
+
+
+
+
+
+
+The above documentation is transcluded from Template:Tl/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (edit) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Tl&oldid=622723682"					
+Categories: Internal template-link templatesHidden categories: Wikipedia fully-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Languages
+
+
+AcèhAlemannischአማርኛАҧсшәаالعربيةArpetanঅসমীয়াAsturianuAvañe'ẽАварAzərbaycancaتۆرکجهBamanankanবাংলাBahasa BanjarBân-lâm-gúБашҡортсаБеларускаяБеларуская (тарашкевіца)‎भोजपुरीБългарскиBoarischབོད་ཡིགBosanskiБуряадCatalàЧӑвашлаCebuanoČeštinaChamoruChavacano de ZamboangaChi-ChewaChiShonaCymraegDanskDeutschދިވެހިބަސްDiné bizaadDolnoserbskiEestiΕλληνικάEmiliàn e rumagnòlЭрзяньEspañolEsperantoEuskaraفارسیFøroysktFrançaisFurlanGaeilgeGaelgGalego贛語گیلکیગુજરાતી𐌲𐌿𐍄𐌹𐍃𐌺गोंयची कोंकणी / Gõychi Konknni客家語/Hak-kâ-ngîХальмг한국어HausaՀայերենहिन्दीHornjoserbsceHrvatskiIdoIlokanoBahasa IndonesiaInterlinguaInterlingueИронIsiXhosaIsiZuluItalianoעבריתಕನ್ನಡქართულიKaszëbscziҚазақшаKernowekKiswahiliКомиKongoKreyòl ayisyenKurdîКыргызчаLadinoЛезгиລາວلۊری شومالیLatgaļuLatinaLatviešuLëtzebuergeschLietuviųLimburgsLivvinkarjalaMagyarमैथिलीМакедонскиMalagasyമലയാളംMaltiमराठीمصرىمازِرونیBaso MinangkabauMìng-dĕ̤ng-ngṳ̄MirandésМокшеньМонголမြန်မာဘာသာNāhuatlNederlandsNedersaksiesNēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣनेपाली日本語NapulitanoНохчийнNordfriiskNorfuk / PitkernNorsk bokmålNorsk nynorskOccitanОлык марийଓଡ଼ିଆOʻzbekcha/ўзбекчаਪੰਜਾਬੀپنجابیПерем КомиPicardPiemontèisTok PisinPlattdüütschPolskiΠοντιακάPortuguêsRomânăRomaniRumantschРусиньскыйРусскийСаха тылаसंस्कृतम्SarduScotsSeelterskSetswanaShqipසිංහලSimple EnglishسنڌيSlovenčinaSlovenščinaСловѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟŚlůnskiکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиBasa SundaSuomiSvenskaதமிழ்TaqbaylitТатарча/tatarçaతెలుగుไทยТоҷикӣᏣᎳᎩTsetsêhestâheseತುಳುTürkçeTürkmençeУдмуртУкраїнськаاردوئۇيغۇرچە / UyghurcheVènetoTiếng ViệtWalon文言West-VlamsWolof吴语ייִדיש粵語Zazaki中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 25 August 2014, at 10:26.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.184","walltime":"0.263","ppvisitednodes":{"value":3116,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":100886,"limit":2097152},"templateargumentsize":{"value":6706,"limit":2097152},"expansiondepth":{"value":32,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  221.310      1 -total","100.00%  221.310      1 Template:Documentation"," 76.54%  169.388      1 Template:Tl/doc"," 59.94%  132.645      1 Template:Template-linking_templates"," 17.96%   39.741      4 Template:P1"," 14.62%   32.358      3 Template:If"," 12.42%   27.487     45 Template:Tlx","  9.13%   20.203      2 Template:P2","  7.81%   17.290      2 Template:Ombox","  7.77%   17.206      1 Template:High-risk"]},"scribunto":{"limitreport-timeusage":{"value":"0.045","limit":"10.000"},"limitreport-memusage":{"value":1794148,"limit":52428800}},"cachereport":{"origin":"mw1299","timestamp":"20170124192008","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":67,"wgHostname":"mw1251"});});

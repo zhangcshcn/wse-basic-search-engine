@@ -1,0 +1,1352 @@
+ 
+
+
+
+
+
+
+Wikipedia:Moving a page
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Help:Moving (renaming) a page)
+
+					Jump to:					navigation, 					search
+
+"WP:MOVE" redirects here. For move requests, see Wikipedia:Requested moves.
+"WP:MV" redirects here. For the Media Viewer, see Wikipedia:Media Viewer.
+"WP:PAGEMOVE" redirects here. It is not to be confused with WP:PAGEMOVER.
+For a condensed version of this guide targeted to first-time page movers, see Help:How to move a page.
+
+
+
+This page is a how-to guide, detailing processes or procedures of some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines, and is therefore an essay.
+
+
+Shortcuts:
+
+WP:MOVE
+WP:MV
+
+
+
+
+
+In Wikipedia, a page can usually be renamed if the existing title is incorrect or needs to be changed; this is called moving a page. A page may also be moved to another namespace without changing the base title—for example, a userspace draft may be moved to article space. Autoconfirmed rights are required for page moving but you may request a page move at Wikipedia:Requested moves if you are not yet autoconfirmed, there is a technical barrier to the move, or the retitling is expected to be controversial and you need to seek consensus for the name change.
+Files (images and media) can be moved only by Wikipedia administrators and file movers, but moves can be requested.
+Category moves should be investigated and planned before they are initiated. Please post requests for category moves at Wikipedia:Categories for discussion if you are, or expect to be, unable to complete the process.
+
+
+
+Contents
+
+
+1 Reasons for moving a page
+2 Technical restrictions
+3 Before moving a page
+4 How to move a page
+5 How to move a category
+6 Post-move cleanup
+
+6.1 Change the boldfaced title in the article lead
+6.2 Address any technical restrictions
+6.3 Fix double redirects
+6.4 Categorizing redirects
+6.5 Interlanguage links
+6.6 Sort key
+6.7 Sidebars and navbars
+6.8 Fixing talk page archiving
+6.9 Editnotices
+6.10 Files: containing non-free content
+6.11 Categories: pages in old category
+
+
+7 Page histories
+
+7.1 Moving redirect pages
+
+
+8 Moves where the target name has an existing page
+
+8.1 Moving over a redirect
+8.2 Usurping a page title
+
+
+9 Move restrictions
+
+9.1 Move-protected pages
+9.2 Moving a file page
+
+
+10 Other notes
+
+10.1 Talk subpages
+10.2 Moving a portal
+
+
+11 Undoing a move
+12 Swapping two pages
+13 Fixing cut and paste moves
+
+13.1 Merging page histories of pages with many revisions
+
+
+14 Move vs rename
+15 Automating multiple page moves
+16 See also
+
+
+
+Reasons for moving a page[edit]
+There are many reasons why you might wish to rename a page:
+
+The title does not follow Wikipedia's naming conventions, such as that it is not the common name of the subject or it is overprecise
+The subject of the article has changed its name and the new name has come into majority use
+The title has been misspelled, does not contain standard capitalization or punctuation, or is misleading or inaccurate
+It needs to be disambiguated in some way to avoid confusion with an existing, similarly named topic, or it exists at a disambiguated name but should not because it is the primary topic
+It is an article at a descriptive name and the scope of the article has been reduced, extended or otherwise changed
+It is an article that has been created as a subpage of a Wikipedian's user or user talk space for development purposes and it is ready to be posted to the mainspace or to draft space.
+It is a draft article that has been created or edited in draft space for development purposes and it is ready to be posted to the mainspace.
+
+Technical restrictions[edit]
+Technical restrictions prevent the storage of titles beginning with a lowercase letter, containing certain characters, and using formatting such as italics. Templates which may be used as workarounds include:
+
+
+Template
+Involves
+Correct name
+Actual article name
+
+
+{{Italic title}}
+Title in italics
+To Kill a Mockingbird
+To Kill a Mockingbird
+
+
+{{Lowercase title}}
+Lowercase first character
+eBay
+EBay
+
+
+{{Correct title|reason=bracket}}
+< > [ ] { }
+Benzo[a]pyrene
+Benzo(a)pyrene
+
+
+{{Correct title|reason=#}}
+#
+Pilot #5
+Pilot No. 5
+
+
+{{Correct title|reason=:}}
+/ :
+DK: King of Swing
+DK King of Swing
+
+
+{{DISPLAYTITLE}}
+Various
+:wumpscut:
+Wumpscut:
+
+
+Before moving a page[edit]
+Consider listing pages that you want to have renamed/moved at Wikipedia:Requested moves. List them at Wikipedia:Requested moves/Technical requests, if:
+
+You are unable to move the page because your account is too new (the account must be autoconfirmed)
+You are unable to move the page because the target page exists
+The page is protected from moves
+The target page is protected from creation
+
+For other cases, follow the instructions for controversial and potentially controversial moves:
+
+If you believe the move might be controversial then you should follow the advice in the section "Requesting controversial and potentially controversial moves" in Wikipedia:Requested moves
+If you are unsure about the best page name, despite reading Wikipedia: Article naming guidelines
+If you believe your proposed move would benefit from wider community input
+
+Do not move or rename a page by copying/pasting its content, because doing so fragments the edit history. (Wikipedia's copyright license requires acknowledgement of all contributors, and editors continue to hold copyright on their contributions unless they specifically give up this right. Hence it is required that edit histories be preserved for all major contributions until the normal copyright expires. See also Wikipedia:Copying within Wikipedia.)
+If you find a cut-and-paste move that needs to be fixed, please follow the instructions at Wikipedia:Requests for history merge to have an administrator take care of the problem.
+If you need technical help in a simple pagemove situation which is blocked by history at the target of the move, list the page at WP:RMT following the listing procedure outlined there.
+How to move a page[edit]
+
+
+
+
+The move option in the Vector skin appears when you move your mouse cursor over the small drop-down menu, shown here.
+
+
+
+
+
+
+A common example: moving a userspace draft into place. The intended article name is entered without any prefixes.
+
+
+To be able to move pages yourself, you must be logged in and you must have an autoconfirmed account (i.e., generally you must have had the account for four days and made at least ten article edits with it). Moreover the move will fail if a page already exists at the target name, unless it is simply a redirect to the present name that has never been modified, in which case you can move over the redirect (check the edit history). If you cannot move a page yourself because of a technical restriction, and you expect the move to be uncontroversial, you can list it at the technical section of requested moves. Otherwise, you can make your request at its section for controversial and potentially controversial moves.
+To move a page:
+
+Go to the page that you want to move. There is no need to click "Edit".
+Locate the "Move" option at the top of the page.
+
+Most users will find the "Move" option in a drop-down menu at the top right of the screen, labelled "More", after "History" and the "Watchlist" star (see picture)
+The layout of the screen will be different if you have selected a "skin" other than the default Vector in your preferences. In the Monobook skin, it is a tab at the top.
+If there is no "move" link at the top of the page at all, the page is most likely protected from moving. Ask for the page to be moved at the technical move request page.
+
+
+Click the "Move" option, and fill in the details of your move.
+
+If the page is for the main encyclopedia, choose "(Article)" from the drop-down box. Otherwise choose the appropriate namespace prefix.
+To the right of the text box, enter the new name of the page as the "New title".
+Give a reason for the move (which is like an edit summary). Although filling out the "Reason" field isn't required, you should state a reason for the page move.
+Choose whether to also move the page's talk page (this box should usually be left checked).
+
+
+When ready, click the Move page button and, if successful, the page will be renamed to the new title. The old title will become a redirect page, so any links to the old title will still go to the new page. However, note that double redirects (pages that redirect to the original page), will not automatically follow to the new page, so you will have to refer them manually (as explained at How to fix a double redirect and Checking for double redirects).
+A successful page move will be recorded in the Move Log (against the old page name) and a "move has succeeded" message will be displayed, on a page looking like this: MediaWiki:Movepage-moved.
+
+If the old page was protected, its protection settings will be copied to the new page, and this will be recorded in the Protection Log (against the new page name). If Pending changes was enabled, the settings will be moved but they will not be logged against the new page title.
+
+
+
+How to move a category[edit]
+See also: Wikipedia:Criteria for speedy deletion § Categories, and Wikipedia:Categories for discussion § Speedy renaming and merging
+Pages in the category namespace can be moved, but if done manually, the process requires considerable post-move cleanup, and can be time-consuming. A category move is not complete until the old category contains only the soft redirect and no pages. For complicated cases, it is recommended to list category moves to be performed by a bot.
+To move a category manually:
+
+Move the category page (description wiki markup).
+Change any subcategories: the category of each subcategory should be changed to the new category.
+Change all pages contained in the old category to the new category.
+
+Change the template code for all templates that are assigning pages to the old category.
+
+It may be necessary to purge (or perform a null edit on) every page that uses the template(s).
+
+
+Change the category on all pages where it is explicitly specified by editing every page. This may be hundreds or thousands of pages.
+
+
+
+This manual process can be alleviated by following the categories for discussion speedy renaming and merging procedure.
+When pages are in a category that is not shown in the wiki-markup, this most likely means that a template placed on the page is adding the category. When the category is moved, the template itself will have to be changed. Once the template is updated with the new category, the pages with the template are automatically placed into the job queue and will eventually be updated with the new category. If there are a very large number of pages transcluding the template(s), the process of updating all pages through the job queue may take days, weeks, or even months to complete. Some pages or templates may be protected and require elevated privileges to accomplish the change. In such cases, the normal protected edit request process should be followed. Depending on the number of templates and articles that require elevated privileges to edit them, it may be more appropriate to involve an administrator from the beginning of the process (see Wikipedia:Categories for discussion).
+Post-move cleanup[edit]
+
+
+
+This section in a nutshell:
+
+Fix double redirects resulting from the move (handy link)
+For any non-free media on the page, check their fair use rationale and update the links to the new title.
+For any navboxes pointing to the old page, fix the links to point to the new title.
+Make appropriate DISPLAYTITLE, DEFAULTSORT, lede, and hatnote corrections to the moved or affected pages as needed.
+If the old title becomes a disambiguation page, or points to a disambig page, please disambiguate incoming links.
+Ask for technical assistance or expertise where needed.
+
+
+
+
+Change the boldfaced title in the article lead[edit]
+Since the article name is reflected in the lead section, that section may need to be updated to be consistent with the new name. Along with generic lead corrections, add appropriate hatnotes where appropriate to affected pages.
+Address any technical restrictions[edit]
+Further information: § Technical restrictions
+If the article meets the criteria for italic titles given in the Article titles policy, place {{italic title}} at the top of the article. Some infobox templates, e.g. {{Infobox album}} and {{Infobox book}}, automatically italicize titles. If only part of the title should be italicized after the move, use {{DISPLAYTITLE}} instead.
+The moved page may have an existing DISPLAYTITLE that will become invalid after the move and will produce red warnings. It is highly recommended to update these values appropriately to reflect the new title. If its corresponding talk page has a DISPLAYTITLE, it would need to be updated as well.
+Fix double redirects[edit]
+See also: Wikipedia:Double redirects § Double redirects and bots
+Redirects to redirects, a.k.a. Double redirects, aren't automatically followed (this prevents infinite loops and spaghetti linking). Note: don't fix double redirects if you think your move might be controversial and be reverted.
+
+Open Special:WhatLinksHere for that page (there may be a shortcut link on the page-moved summary screen to this directly).
+In the section of that page marked filters, click on the button labeled "Hide links" to filter to redirects to the prior name. For each redirect, change its target to the new page title.
+If there are more than 50 redirects listed, don't forget to navigate to all parts of the list using the "next 50" or other links available.
+
+Unless subsequently usurped, a page move will result in a redirect page at the old title that sends the reader to the new one. Generally, there is no problem with this  – for example, one should not change inbound links in articles to bypass the redirect.
+Editing of this redirect itself is usually not helpful, but if such a need exists, then a special care should be taken about inbound ("double") redirects. If the page was moved because of a misnomer (i.e. its content has a sense, but does not match the title), then its old title should be replaced or deleted. It should be done quickly, otherwise bots will start to alter redirects bound to the old title, pointing them to the new title, which is obviously not a correct solution in the case of a misnomer.
+Contrarily, if the page had a lot of legitimate inbound links, but has to move because of a title usurpation, then inbound redirects should be promptly examined. If most redirects rightfully belong to the page just moved, then the old→new redirect should not be replaced until bots fixed those double redirects. Early replacing the old→new redirect with old→something_else can be especially disruptive, since bots start to "fix" redirects to "something_else" target – see example after usurpation of the title Viper.
+Categorizing redirects[edit]
+Redirects should be categorized per the WikiProject Redirect style guide.
+Interlanguage links[edit]
+Check to see if there are any interlanguage links. Usually, with a page move, the Wikidata for the associated item is automatically updated. If necessary, update it using the "Edit links" link at the bottom of the list of links.
+Sort key[edit]
+If the page has a sort key, change how this article is to be sorted, if appropriate.
+Sidebars and navbars[edit]
+Pages that have a sidebar- or navbar-template will need their page title in the template edited from the old name to the new. Until this is altered, the old page title, which usually becomes a redirect to the new title, will appear as a blue wikilink instead of as the unlinked page name in boldface type.
+Fixing talk page archiving[edit]
+Some archiving bots have hardcoded page names in their archiving settings. After closing the move and moving the talk page archiving, the bot settings should be updated on the talk page to the new name of the talk page. In some circumstances, this will involve updating (moving) a hard-coded bot subpage.
+Editnotices[edit]
+Occasionally, a page has an accompanying editnotice in the template namespace. For example, the editnotice for 0.999... is Template:Editnotices/Page/0.999.... Sometimes, a page may be accompanied by a group editnotice (like this one), or more rarely, a protection editnotice (like this one). If a page with an editnotice is moved, the editnotices should move with them. Currently, this requires the technical assistance of an administrator or template editor.
+Files: containing non-free content[edit]
+If you moved an article which contains any non-free content (such as images or sound clips), you will need to edit the files' own Wikipedia page, changing the non-free use rationale to refer to the new article title. This is to ensure continued compliance with the non-free content criteria (part 10c), which if not followed, may result in the file's speedy deletion.
+Categories: pages in old category[edit]
+Ensure there are no pages in categories that will no longer be used because of moves. Subcategories from wiki markup and templates should be updated with the new category.
+Page histories[edit]
+The "move page" function keeps the entire edit history of the page before and after the move in one place, as if the page had always been named that way.
+The move itself is recorded in the edit histories of both pages. This feature was introduced in MediaWiki 1.5 and does not work retroactively: older moves are only recorded indirectly, in the page history of the old page name.
+You should never just move a page by cutting all the text out of one page, and pasting it into a new one; old revisions, notes, and attributions are much harder to keep track of if you do that. (But you may have to if, for instance, you're splitting a page into multiple topics. If you do, please include a note in the new page's edit summary and talk page stating where you took the text from.) Also see #Fixing cut and paste moves below.
+Moving redirect pages[edit]
+A page that is a redirect can be moved like any other page, although it is rarely useful because it has the same detrimental effect on page history as copy-pasting content to a new page, and making the old page a redirect: when moving a redirect page to a new page name, the redirect on the old page (now directing to the new redirect page) will have to be altered in order to avoid double redirects. So the content of the old page will no longer redirect to the page containing the history of that old page. The effect is that the whereabouts of the page history of the old page (now seemingly a "recently created page") are a bit trickier to find, while on the other hand the new page has a history attached to it not clarifying why it would need to be a redirect page. However, if a redirect page has to be evacuated (for example, to reuse its title), but contains a valuable edit history, then it should be moved (unless merging of history is suitable).
+If a redirect page does not redirect to the page it would need to be redirecting to, then the only viable strategy that respects page histories is to adapt the redirect on that page, without moving the page.
+
+Moves where the target name has an existing page[edit]
+Non-administrators cannot complete a move where the target page exists (except sometimes over a redirect). If the user is not a page mover, moving the existing page out of the way will not help, as it leaves behind a redirect which cannot be overwritten either. Administrators can delete a page and move another page to the deleted name, in one step. Page movers can move the target page to a new location, move the intended page to the location, and request deletion of the moved page.
+If the new title already exists and isn't just a redirect to the old title, with no history, and you are not an administrator, the wiki will tell you that you can't rename the page. If this happens, list the move at Requested moves, or (if the replacement of the existing page merits further discussion) nominate the existing page for deletion (typically via Articles for deletion).
+Moving over a redirect[edit]
+
+Shortcut:
+
+WP:MOR
+
+
+If the new title exists but is a redirect to the old title with a single line in the page history, then you can rename the page. The most common case in which this applies is that of re-renaming a page back to its original name.
+The information about the former creation of the redirect over which the move takes place was lost before MediaWiki 1.28/wmf.16 in August 2016. Since then the deletion of the redirect has been added to the deletion log. It is the only way non-administrators can get entries in the deletion log. If the deletion was the result of an earlier move of the page that is now moved back, that information is still available in the history of that page.
+More moves back and forth are possible, and the page history of the current title always shows all moves, and that of the other title only contains the edit line of the latest move. Pages moved before MediaWiki 1.5 do not have an entry in the page move log, so only the latest page move prior to MediaWiki 1.5 is recorded. The oldest moves recorded in the move log date to June 28, 2005.
+There was a bug in earlier versions of MediaWiki that caused inaccurate dates in edit histories. In these versions of the software, if a page was moved over a redirect, the edit history of the newly created redirect would show the latest move with the correct user name, but with the date and time when the overwritten redirect was created. The date and time of the actual page move was therefore lost (though it appeared in the recent changes list). See this comment at talk:PETA for a demonstration of this bug.
+Requests for moves over redirects can be posted at Wikipedia:Requested moves.
+If a redirect has more than just one line in the page history but still a minor edit history, file a technical move request at Wikipedia:Requested moves/Technical requests using {{subst:RMassist|current page name|new page name}} (using the format outlined at the page there).
+Usurping a page title[edit]
+
+Shortcuts:
+
+WP:USURPTITLE
+WP:UPT
+
+
+Usurping a page title is the process of moving an existing page to a new title followed by creating a new page (such as a new article or a disambiguation page) on the old title, or redirecting the old title to a different destination.
+Once the move of the original page is completed, the old title instantly becomes a redirect, and the redirect can then be edited to become a separate, possibly unrelated article, disambiguation page, or some other type of page.
+It is permitted to usurp a page title for a new article, and it generally does not require administrative assistance, though good judgment should be used in determining if these are best positions for both the old and the new page.
+If in doubt, holding a discussion before such a move following the instructions on the requested moves page is recommended. If you wish to create the new page initially before a decision is made from a discussion, you can create it using a different, unused title for the new page you wish to create, and then usurp the title once this is agreed.
+If you do decide to boldly usurp a title, it is strongly recommended that you modify all pages that link to the old title so they will link to the new title. To do this, while on the new page bearing the old title, click on "what links here" below "toolbox" on the left. This will list all the pages linking to the old title. Once you reach this list, edit each of these pages and modify the links to the new title of the old page. For helpful tools and advice, see Wikipedia:Disambiguation pages with links.
+If there are so many pages linking to the old title, that you feel you cannot make all the changes yourself, or for any other reason, you feel you cannot change them all yourself, place the template {{converted}} at the top of the new page you created on the old title. This will let others know that this move was recently made, and that all these changes are necessary.
+Move restrictions[edit]
+Anonymous users and new users who are not yet autoconfirmed can't move any pages. With a few exceptions, established users have the technical ability to move any page.
+Move-protected pages[edit]
+Administrators can protect pages from moves, so that only administrators can move them. If a page is protected from moves only, the "Move this page" link will not be available. In this case, you can ask that an administrator move it for you, but you should not manually move the page by copying the contents to the new page and redirecting the old page to the new page, as this destroys the page history.
+Pages that are protected from editing are automatically protected from moves.
+Moving a file page[edit]
+
+Shortcuts:
+
+WP:MOF
+WP:FFR
+
+
+See also: Wikipedia:File mover
+Administrators or file movers can move pages in the file namespace. When such a page is moved the associated file is moved as well. The move leaves a redirect that functions like the file itself. For instance, the image can be displayed by linking to a redirect to it. In non-controversial cases you can request a file to be moved by adding the template {{rename media}} to the description page of the file. Files should generally only be moved for one of nine reasons.
+Files uploaded to Wikimedia Commons cannot be renamed by Wikipedia administrators or filemovers. Commons:File naming describes how Commons files should be named. In general, Commons aims to provide stable file names as there might be external file clients and file moving involves significant human and computing resources. Thus renaming should be used with caution. To request the rename of a file at Commons, follow the instructions at Commons:File renaming.
+To rename a file:
+
+Ensure the file meets one of the nine reasons
+Place {{rename media|new name|reason}} on the page of the file and a file mover or administrator will move the file if it conforms to the guidelines.
+
+For more information about appropriate names for pages in the file namespace, see Wikipedia:File names.
+Other notes[edit]
+Avoid moving a page while the edit box of the corresponding Talk page is open: when you hit "Save page" you overwrite the redirect to the new talk page (you do not get the usual warning that the page has been edited while your edit box was open) and get a duplication of the contents of the talk page, with your latest addition added to the old instead of the new one.
+It is useful to copy the message "Page ... moved to ..." to the new talk page, especially if there has been discussion about the name of the page.
+Moving a page shows up in Recent Changes under "Move log", which links to a log of all moves. It also shows up on the watchlist if the page is watched; after the move both the old and the new name are watched.
+Talk subpages[edit]
+When moving a page, the talk page is automatically moved as well. A talk page may include subpages, such as archives, to-do pages, good article nominations, and the like. To ensure that these subpages are moved, check "Move all subpages, if applicable" during the move process. This ability is granted to administrators and page movers. A list of talk page subpages is visible in the "Special:MovePage" form.
+If subpages were not moved, they will show as redlinks on the new talk page. To locate lost subpages, use Special:Prefixindex; enter the name of the old article page followed by a "/" and set the namespace to Talk. Move individual subpages as needed.
+On some occasions, one might inadvertently move a talk page incorrectly assumed by the MediaWiki software to be a talk subpage of a different article. For example, Talk:A/B testing is the talk page for A/B testing, but not technically a subpage for Talk:A. If a mover uses move-subpages on Talk:A, the move operation would incorrectly move Talk:A/B testing. (This is not an issue for the article mainspace, as it does not have subpages enabled.)
+Moving a portal[edit]
+A portal consists of a main portal page plus tens, sometimes hundreds, of interconnected subpages. To rename a portal efficiently, post at Wikipedia:Requested moves/Technical requests to ask for an administrator to move the page and its subpages, and once that is done, post at Wikipedia:AutoWikiBrowser/Tasks to ask for an AWB user to scan all the portal pages to fix the outdated links. You may also need to visit Categories for Discussion to have a category renamed, if the portal's pages have been placed in a category; and Template talk:Portal, if the {{Portal}} template does not recognise the new name.
+Undoing a move[edit]
+To undo a move from page A to page B, simply move page B back to page A. But if someone intervened to the A→B redirect, then the move cannot be fixed without special privileges.
+Note that usual "undo" link on history or diff pages does not work on moves. An easy way to rename the page back is clicking "View logs for this page" from the history page, typing in the previous page name that you want to revert to and then "revert" link from the corresponding record in Special:Log.
+The software requires that the redirect be pointing to the page you're moving it from. Therefore, if a user moved page A to page B and then to page C, you cannot simply move C to A. If a bot has not "fixed" the double A→B redirect yet (see above), then you have to:
+
+Move page C to page B
+Move page B to page A
+
+If page A has subsequently been edited, or the move software is behaving weirdly, only an admin can sort things out:
+
+Delete page A (make sure it has no useful history – you may wish to add an explicit author credit on a talk page to compensate)
+Move page B to page A
+Delete page B (should be a history-free redirect to page A)
+
+"Move wars" are highly unproductive, and leave vast numbers of pointless redirects littering the place, which some poor soul will have to fix.
+After undoing a move, if you do not need B as a redirect, tag it for deletion (using the appropriate process on the wiki you're using, for instance 'speedy deletion' or 'votes for deletion'), or (administrators only) just delete it.
+Swapping two pages[edit]
+
+Shortcuts:
+
+WP:SWAP
+WP:ROUNDROBIN
+
+
+There are two methods to swap pages A and B, preserving history.
+Classic sequence
+
+Move page A to the title C (previously non-existing, and preferably to a name useful for redirecting)
+Tag page A for deletion (the method of doing this depends on the wiki), or (administrators only) just delete it.
+Move page B to the title A (allowed because A is deleted)
+Tag/Delete page B as above
+Move page C to the title B (allowed because B is deleted)
+Tag/Delete page C as above, unless it is useful as a redirect to B
+
+Improved sequence
+
+Move page A to the title C (previously non-existing) without creating a redirect
+Move page B to the title A (allowed because A is evacuated) without creating a redirect
+Move page C to the title B (allowed because B is evacuated) without creating a redirect unless it is useful as a redirect to B
+
+This improved sequence, sometimes called a "round-robin move", does not require deletions, but rather it relies on the redirect-suppressing (red move) feature, which is available to administrators and page movers. You can think about it as compressing two operations (moving and deleting the resulting redirect) to one. The classical sequence has an advantage that it relies only on conventional operations such as WP:CSD#G6. Help with this task can be found at Wikipedia:Requested moves.
+The same sequences, but with only two moves, can be used for half-swapping (chain shifting) two pages (such that A would become C and B would become A).
+Fixing cut and paste moves[edit]
+
+Some more complex cases are explained at Wikipedia:How to fix cut and paste moves
+
+Many past renamings took place before the move page function was created by our hard-working developers, and others are done by people not aware of this function. Such manual moves were done using cut and paste. As a result, the page history of an article or talk page can be split among two or more different pages.
+In some circumstances, administrators can fix this by merging page histories.
+Warning: this procedure may only be undone by an administrator, by spending quite silly amounts of time: to undo a merge, every single version has to be manually reassigned to the correct source page (by deleting the revisions that are in the correct location currently and moving the other revisions to their new correct location, then undeleting the revisions that were in the correct location). Do not do this if you are not sure what you are doing.
+Follow this procedure to merge page histories:
+
+Suppose we wish to merge edit history from Alabama/History (old title) into History of Alabama (new title):
+Delete History of Alabama, with comment deleting to merge page histories – back soon.
+Move Alabama/History to History of Alabama, using the move tool.
+Undelete the History of Alabama article.
+Edit History of Alabama to restore the most recent version (or use administrator rollback).
+
+Note that the page history will often look wrong until the last step here is carried out, because it doesn't update after an undeletion until the next time the page is edited.
+Merging page histories of pages with many revisions[edit]
+Suppose that the page History of Alabama had too many revisions to be deleted or deleting it may cause other disruption. The following procedure can be used to merge page histories in this situation:
+
+Move History of Alabama to Alabama/History with a move summary like "history merge, will be back at correct title soon". Answer yes when asked to delete the Alabama/History page.
+Undelete the revisions of Alabama/History containing the page history.
+Move Alabama/History back to History of Alabama.
+If needed, undelete the remaining revisions at Alabama/History.
+
+Move vs rename[edit]
+The terms "rename" and "move" mean the same in this context. They just refer to different models for picturing the operation:
+
+rename: keep the page but give it another name; the page history is now attached to the new name; a new page with the old name is created which redirects to the new name and whose page history records the renaming.
+move: move the contents and the page history to a new page; change the old page into a redirect; change the page history into one that only records the move.
+
+Since the system marks the page with the old name as new page, it applies the first of the two models. (The entry in the page table connects a new page name to the page ID. The revision table just gets entries about the move, nothing else, because the relation between page ID and revision IDs remains the same.) This model avoids "changing the history", a kind of "historical revisionism".
+"Rename" may have other meanings on Wikipedia. See Help:Rename.
+Automating multiple page moves[edit]
+Administrators and other users with the "move-subpages" right are also given an option to move up to $wgMaximumMovedPages subpages and talk subpages can be moved along with a move target if enabled. Currently this is enabled for all Wikimedia wikis with $wgMaximumMovedPages set to 100 by default, but raised to 500 for Wikibooks wikis, which have a greater need for this ability.
+See also[edit]
+
+Wikipedia:How to fix cut-and-paste moves
+Wikipedia:Merging
+Wikipedia:Redirect, creating a page that points to another's content
+Wikipedia:Splitting
+Wikipedia:Userfication, moving material from an article to an editor's user subpage
+mw:Help:Moving a page, the MediaWiki help page
+meta:Help:Moving a page, the Wikimedia Meta-Wiki help page
+{{Can't move}}
+
+Find this page confusing? Just use this link to ask for help on your talk page; a volunteer will visit you there shortly!
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia help pages
+
+
+
+
+
+
+
+
+
+
+Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.
+Or ask for help on your talk page
+
+
+
+
+Noticeboards (?)
+FAQs (?)
+Reference desks (?)
+The Missing Manual (?)
+Directories (?)
+
+
+
+
+
+
+
+
+About Wikipedia
+
+
+
+Administration
+Principles (Wikipedia in brief)
+Policies and guidelines
+What Wikipedia is not
+Disclaimer (parental advice)
+Making requests
+
+where to ask questions
+contact Wikipedia directly
+
+
+Who writes Wikipedia?
+Why create an account?
+
+
+
+
+
+
+
+
+Help for readers
+
+
+
+FAQ
+Books
+Copyright
+Glossary
+Mobile access
+Navigation
+Other languages
+Searching
+Students
+Viewing media
+
+
+
+
+
+
+
+
+Contributing
+to Wikipedia
+
+
+
+A plain and simple overview
+A primer for newcomers
+Asking for help
+Advice for young editors
+Avoiding common mistakes
+Etiquette (community expectations)
+Learning the ropes
+Instructional material
+Simplified Manual of Style
+Simplified rule-set
+
+"Ignore all rules"
+"The rules are principles"
+
+
+Style-tips
+Tip of the day
+Task Center
+Your first article (article wizard)
+Vandalism
+
+
+
+
+
+
+
+
+Getting started
+
+
+
+Wikipedia intro
+Wikipedia tutorial
+The Wikipedia Adventure
+Manual of Style intro
+Graphics tutorials
+Picture tutorial (Uploading intro)
+IRC (live chat) tutorial
+Navigating intro
+Policies intro
+Referencing intro
+Tables intro
+Talk pages intro
+VisualEditor user guide
+
+
+
+
+
+
+
+
+Dos and don'ts
+
+
+
+Accessibility
+Bio's
+Categorization
+Disambiguation
+Images
+Links
+Lists
+References
+Tables
+Talks
+
+
+
+
+
+
+
+
+How-to pages and
+information pages
+
+
+
+Appealing blocks
+Article deletion
+Categories
+Citations / references
+
+Referencing for beginners
+Citation Style 1
+Cite errors
+References and page numbers
+
+
+Convert
+Diff
+Editing
+
+toolbar
+edit conflict
+
+
+Email confirmation
+Find sources
+Files
+Footnotes
+Image deletion
+Infoboxes
+Linking (link color)
+Logging in
+Merging
+Namespaces
+Page name
+Redirect
+Renaming pages
+Passwords
+Reverting
+Talk pages (archiving)
+URL
+User contributions
+User page design center
+
+
+
+
+
+
+
+
+Coding wiki markup
+
+
+
+Wiki markup (cheatsheet)
+Barcharts
+Calculations
+Characters
+Citation templates
+Columns
+Hidden text
+HTML
+Lists
+Magic words (introduction)
+Music symbols
+Sections
+Sounds
+Tables (introduction)
+Templates
+
+documentation
+messages
+
+cleanup messages
+
+
+
+
+Transclusion
+Visual files
+Wiki tools
+
+
+
+
+
+
+
+
+Directories
+
+
+
+Abbreviations
+Departments
+Editor's index
+Essays
+FAQs
+Glossary
+Guidelines
+Help menu
+Manual of Style
+Policies
+Shortcuts
+Tips
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Moving_a_page&oldid=763774972"					
+Categories: Wikipedia how-toWikipedia article title helpWikipedia interface helpWikipedia page helpHidden categories: Wikipedia move-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+MediaWikiMeta-WikiWikivoyage 
+
+
+
+Languages
+
+
+AlemannischالعربيةবাংলাБългарскиCatalàČeštinaCymraegDanskDeutschΕλληνικάEspañolEsperantoفارسیFrançaisGalego한국어हिन्दीHrvatskiBahasa IndonesiaÍslenskaItalianoעבריתქართულიLatinaMagyarമലയാളംمصرىNederlands日本語Norsk bokmålOccitanPolskiPortuguêsRomânăРусскийСаха тылаසිංහලSimple EnglishSlovenčinaSlovenščinaSuomiSvenskaதமிழ்TürkçeУкраїнськаVènetoTiếng Việtייִדיש粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 February 2017, at 04:45.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.192","walltime":"0.244","ppvisitednodes":{"value":1688,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":104083,"limit":2097152},"templateargumentsize":{"value":4485,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  125.226      1 -total"," 20.77%   26.007      1 Template:Wikipedia_how_to"," 20.26%   25.377      2 Template:Navbox"," 18.07%   22.632      1 Template:Help_navigation"," 15.87%   19.878      1 Template:Ombox"," 12.45%   15.591      2 Template:Redirect","  7.19%    9.009      5 Template:Shortcut","  6.29%    7.876      1 Template:WrongTitleExamples","  6.26%    7.834      1 Template:Key_press","  5.72%    7.159      1 Template:Wikipedia_technical_help"]},"scribunto":{"limitreport-timeusage":{"value":"0.040","limit":"10.000"},"limitreport-memusage":{"value":2812948,"limit":52428800}},"cachereport":{"origin":"mw1255","timestamp":"20170206002949","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":63,"wgHostname":"mw1247"});});

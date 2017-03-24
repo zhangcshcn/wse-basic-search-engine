@@ -1,0 +1,303 @@
+ 
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Cleaning backlogs
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+Shortcuts:
+
+WP:ADMINGUIDE/CB
+WP:ADMINGUIDE/BACKLOGS
+
+
+The full backlog can be found at Category:Administrative backlog
+Wikipedia is a backlog, in and out – there's always plenty of work to do as an admin. This page documents the venues that often require admin attention.
+Your best friend for finding work to do is the admin dashboard. Note that anything highlighted in red in the "immediate requests" table have priority - either due to its severity or that it is heavily backlogged. Many admins transclude this template {{admin dashboard}} in their userspace, providing it options to show only the venues and backlogs they specialize in.[1] See the template documentation for more information.
+
+
+
+Contents
+
+
+1 List of venues
+
+1.1 Administrators' noticeboards
+1.2 Urgent matters
+1.3 Deletion
+1.4 Other
+
+
+2 How to respond to reports
+
+2.1 Semi-automation
+
+
+3 Notes
+
+
+
+List of venues
+For a full list of noticeboards, see Wikipedia:Noticeboards
+The following noticeboards are those that do or might require administrator attention.
+The citations indicate user scripts or gadgets that can assist you in responding to reports at that noticeboard. Usage of these is recommended as you may find yourself doing repetitive tasks, and anything to expedite your work means more work can be done and the project is overall better maintained.
+Administrators' noticeboards
+
+Wikipedia:Administrators' noticeboard (WP:AN) – for anything that affects administrators; General announcements, discussion of administration methods, ban proposals, block reviews, and backlog notices
+Wikipedia:Administrators' noticeboard/Incidents (WP:AN/I) – reports of incidents requiring admin intervention
+Wikipedia:Administrators' noticeboard/Edit warring (WP:AN/EW)[2] – reports of edit warriors and violations of the three-revert rule
+Wikipedia:Administrators' noticeboard/Requests for closure (WP:AN/RFC) – requests to have uninvolved administrators assess, summarize, and formally close a discussion
+
+Urgent matters
+These noticeboards fill up quickly, and usually involve matters that require immediate administrator intervention in the form of blocks, page protection, or deletion.
+
+Wikipedia:Administrator intervention against vandalism (WP:AIV)[2] – reports of vandalism requiring immediate administrator intervention
+Wikipedia:Requests for page protection (WP:RFPP)[2] – reports of disruption to pages that may require protection as a preventive measure, or templates that are of high-risk due to high transclusion count
+Wikipedia:Usernames for administrator attention (WP:UAA)[2][3][4][5] – reports of usernames that are such blatant and serious problems that they may need to be immediately blocked
+Category:Candidates for speedy deletion (CAT:CSD)[6][3][4][5] – pages tagged for speedy deletion
+
+Deletion
+Deletion guideline at Wikipedia:Deletion process
+The following venues (not necessarily referred to as a noticeboard) are for pages or items that might require deletion or merging.
+
+Wikipedia:Articles for deletion (WP:AfD)[7]
+Wikipedia:Templates for discussion (WP:TfD)[8]
+Wikipedia:Files for discussion (WP:FfD)[8]
+Wikipedia:Categories for discussion (WP:CfD)[8]
+Wikipedia:Redirects for discussion (WP:RfD)[8]
+Wikipedia:Miscellany for deletion (WP:MfD)[8]
+Category:Candidates for speedy deletion (CAT:CSD)[6][3][4][5]
+Category:All articles proposed for deletion (CAT:ALLPROD) – pages tagged for proposed deletion
+
+Note also CAT:BLPPROD for BLP-specific PROD articles
+
+
+Wikipedia:Requests for undeletion (WP:REFUND)
+
+Other
+
+Wikipedia:Sockpuppet investigations (WP:SPI)[9] – requests that we investigate whether two or more Wikipedia accounts are being abusively operated by the same person
+Wikipedia:Requests for permissions (WP:PERM)[2] – requests changes in user access levels
+Wikipedia:Requested moves (WP:RM) – retitling (moving) of pages that may require an admin to delete the target page to make way for the move
+Wikipedia:Copyright problems (WP:CP) – reports of possible copyright problems that may require admins to delete revisions from the page history, or the page altogether
+Wikipedia:Requests for history merge (WP:RFHM)
+Wikipedia:Edit filter noticeboard (WP:EFN) – coordination and discussion of edit filter use and management
+Wikipedia:Edit filter/Requested (WP:EFR)
+Category:Wikipedia fully-protected edit requests (CAT:EP)[10] – requested edits to pages that only admins (or sometimes template editors) can edit
+Category:Requests for unblock (CAT:RUB) – requests for unblock or block reduction from blocked users, or users under collateral damage caused by an unrelated block
+Category:Wikipedians looking for help from administrators (CAT:ADMIN!)
+
+How to respond to reports
+Every noticeboard differs in some way. Specific instructions for any given noticeboard may be found at the /Administrator instructions subpage. If such page exists, you will see a link to it at the top-right of the noticeboard page. For instance, Wikipedia:Articles for deletion/Administrator instructions (notice the link to this page at the top-right of WP:AfD).
+Instructions are sometimes also found in the edit notice.
+Semi-automation
+Working at some noticeboards can involve repetitive tasks, for which there are some useful scripts to expedite your work. Above in the list of noticeboards, look for citations that denote scripts that may pertain to that venue.
+Twinkle applies to any area where you might need to delete, block or protect. Note especially its usefulness when mass-deleting or mass-protecting pages.
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+Notes
+
+
+^ You could also add a link to your sidebar to your customized dashboard. E.g. if your dashboard is located at Special:MyPage/Dashboard, add the code mw.util.addPortletLink('p-navigation', mw.util.getUrl('User:MyUserName/Dashboard'), "DASHBOARD"); to your common.js and you will have a nifty link to it from anywhere on Wikipedia.
+^ a b c d e responseHelper – makes it easier to respond to requests/reports at WP:AIV, WP:ANEW, WP:PERM, WP:RFPP and WP:UAA. Links are added to your sidebar to quickly insert administrator notation templates and supply an informative edit summary.
+^ a b c SpamUserPage (WP:SUPG) – allows you to delete a userspace page, block the user, and issue them with a block notice, all in one click, with options for types of blocks, deletion rationale, etc.
+^ a b c User:Mr. Stradivarius/gadgets/Draftify (WP:DFY) – allows you to move a userspace draft to the draft namespace, tag it with a draft template, and notify the user of your action
+^ a b c spamublock – delete a userpage, block the user, and issue {{uw-spamublock}} with one click
+^ a b CSD Helper (source) – helps admins delete speedy deletions much more quickly, including changing rationales, and assists everyone in declining/contesting speedy deletions and changing speedy deletions to PRODs
+^ User:Mr.Z-man/closeAFD.js – helper to close discussions at WP:AfD
+^ a b c d e User:King of Hearts/closexfd.js – helpers to close discussions at WP:TfD, WP:FfD, WP:CfD, WP:RfD and WP:MfD
+^ User:Timotheus Canens/spihelper.js – essentially a must if you regularly work at WP:SPI
+^ editProtectedHelper (WP:EPH) – adds the ability to respond to edit requests quickl
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Cleaning_backlogs&oldid=691605582"					
+Categories: Wikipedia Administrators' guide 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+Add links 
+
+
+
+
+
+ This page was last modified on 20 November 2015, at 23:40.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.080","walltime":"0.290","ppvisitednodes":{"value":511,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":11252,"limit":2097152},"templateargumentsize":{"value":523,"limit":2097152},"expansiondepth":{"value":6,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  256.561      1 -total"," 73.72%  189.135      2 Template:Code"," 46.09%  118.242      1 Template:Reflist","  6.37%   16.353      1 Template:Shortcut","  4.14%   10.624      1 Template:Admin_guide","  3.01%    7.717      1 Template:Navbox","  2.42%    6.209      3 Template:Hatnote","  0.42%    1.071      1 Template:Column-width","  0.36%    0.932      2 Template:Tl"]},"scribunto":{"limitreport-timeusage":{"value":"0.010","limit":"10.000"},"limitreport-memusage":{"value":849041,"limit":52428800}},"cachereport":{"origin":"mw1248","timestamp":"20170131013939","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":48,"wgHostname":"mw1267"});});

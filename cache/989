@@ -1,0 +1,634 @@
+ 
+
+
+
+
+
+
+ވިކިޕީޑިއާ:Protected page
+
+ވިކިޕީޑިއާ އިންވިކިޕީޑިއާ
+
+
+					ފުންމަވާ:					ސަމުގާ, 					ހޯއްދަވާ
+
+
+
+
+
+Shortcut:
+
+[[WP:PP
+WP:PROT]]
+
+
+
+
+
+Note: pages permanently protected because of visibility or legal reasons are now listed separately at Wikipedia:List of indefinitely protected pages.
+Note: pages protected as a {{deletedpage}} or redirect to another page are now listed separately at Wikipedia:List of pages protected against re-creation.
+Note: You can request protection and unprotection at Wikipedia:Requests for page protection.
+
+Administrators have the ability to "protect" pages or images so that they cannot be modified except by other admins (the link "މި ޞަފްޙާއަށް އުނިއިތުރު ގެންނަވާ" is replaced by a link "މަސްދަރު ބައްލަވާ" when viewed by non-admins). This ability is only to be used in limited circumstances.
+Admins must not protect pages they are actively engaged in editing, except in the case of simple vandalism.
+
+
+Articles linked from the main page should NOT be protected (full or semi) except to clean up vandalism. Protection should be kept to 10-15 minutes in these cases.
+
+
+
+
+ފިހުރިސްތު
+
+
+1 Policy
+2 Procedure
+3 See also
+4 Rationale
+5 Instructions
+6 Pages protected due to WP:OFFICE guidelines
+7 Pages protected only against moves
+8 Pages protected due to edit wars or vandalism
+
+8.1 Real articles
+
+8.1.1 Full protection
+
+8.1.1.1 12 Feb and before
+8.1.1.2 13 Feb to 19 Feb
+8.1.1.3 20 Feb to 26 Feb
+
+
+8.1.2 Semi-protection
+
+8.1.2.1 12 Feb and before
+8.1.2.2 13 Feb to 19 Feb
+8.1.2.3 20 Feb to 26 Feb
+
+
+
+
+8.2 Pages protected against spambot
+8.3 Other
+
+
+9 Images protected while on the Main Page
+10 Protected user pages
+
+10.1 Full protection
+10.2 Semi-protected
+10.3 Protected user subpages and boilerplates
+10.4 User talk pages: Registered users
+10.5 User talk pages: Anonymous users
+
+
+
+
+Policy[އުނިއިތުރު ގެންނަވާ]
+
+Do not edit a temporarily protected page except to add a protected page notice.
+Do not protect a page on which you are involved in an edit dispute (Category:Conflicts).
+
+See Wikipedia:Protection policy for more detailed advice and the purpose of protected pages.
+Procedure[އުނިއިތުރު ގެންނަވާ]
+
+Protect the page, supplying a reason.
+Add {{protected}} (or {{vprotected}} for vandalism) to the top of the temporarily protected page and make mention of the protection in the edit summary.
+List pages you protect on Wikipedia:Protected page; if it is protected due to a conflict, you may want to list all user names/IPs involved in the conflict.
+
+Please use {{article|ARTICLE NAME}} when listing a page at Wikipedia:Protected page, where ARTICLE NAME is the article or page you wish to protect.
+
+
+Consider encouraging a resolution between the disputing parties.
+Remove the protection (while supplying a reason) once the conflict has been resolved.
+Remove {{protected}} from the top of an unprotected page and make mention of the removal in the edit summary.
+
+See also[އުނިއިތުރު ގެންނަވާ]
+
+Wikipedia:List of permanently protected pages - please list long-term protections here.
+Requests for page protection - place to request protection; use when your involvement in editing a page precludes protecting it yourself. Also used by non-administrators who wish for a page to be protected. Also for unprotection requests.
+Protection log - automated log of protections and unprotections
+This page is protected
+Wikipedia maintenance section on maintaining this page
+Wikipedia:Most vandalized pages - please add pages subjected to repeated vandalism to this list
+m:Protected pages considered harmful - essay
+m:The Wrong Version - semi-humorous essay about reverting warriors' perception of page protection
+Template:Editprotected - enables a streamline process to edit protected pages by quickly putting up requests
+
+Rationale[އުނިއިތުރު ގެންނަވާ]
+See meta:Protected pages considered harmful, meta:edit wars
+Instructions[އުނިއިތުރު ގެންނަވާ]
+If you protect a page, or find a protected page not listed here, please add it below, to the appropriate sections. Please also add a short description of ten words or less indicating why you protected it. If you need to say more, discuss on the talk page of the page you protected. Also see the protection log for recent unprotections, which replaces the manual list of recently unprotected pages. The {{protected}} header automatically adds Category:Protected to the page, adding it to the Category's listing.
+Pages protected due to WP:OFFICE guidelines[އުނިއިތުރު ގެންނަވާ]
+Per Jimbo Wales, some articles are being protected by User:Danny due to complaints at Wikimedia's office. Please do not unprotect these without asking Danny first
+
+ފަންވަތް:Article - vandalism. Protected by Danny per WP:OFFICE. howcheng {chat} 00:32, 11 February 2006 (UTC)
+ފަންވަތް:Article - protected on 1/23 by User:Jimbo Wales. OFFICE. --Woohookitty(cat scratches) 10:59, 15 February 2006 (UTC)
+ފަންވަތް:Article - semi-protected per Danny's request --Shanel 22:24, 1 February 2006 (UTC)
+ފަންވަތް:Article- Until work is completed there. Danny 21:12, 14 February 2006 (UTC)
+
+Pages protected only against moves[އުނިއިތުރު ގެންނަވާ]
+Please ensure that you add
+
+{{moveprotected}} to the top of a move-locked page. New protections should be added at the bottom of this list.
+
+ފަންވަތް:Non-article, just noticed this, not sure why else except for the obvious visibility. Dmcdevit·t 01:21, July 27, 2005 (UTC)
+ފަންވަތް:Non-article Protected way back due to reasons of visibility.Geni 10:55, 27 July 2005 (UTC)
+ފަންވަތް:Article Protected from moving to something abusive. Redwolf24 04:39, 30 July 2005 (UTC)
+ފަންވަތް:Non-article visibility reasons. Shanes 04:19, 25 August 2005 (UTC)
+ފަންވަތް:Non-article – should not be moved without consensus on talk page. Sudden moving of widely used Wikipedia systems disrupts wikipedia. --Phroziac (talk) 21:54, September 9, 2005 (UTC)
+Nidhogg - Note that a "vote" is going on about whether it should be moved from the foreign language title to English - I have moved it there already, and have suggested that the vote be reframed to whether it should be moved away from the move-protected English title. Uncle Ed 20:47, 28 November 2005 (UTC)
+
+I have unprotected the page for moves, since there is no active page-move back and forth. If such occurs, the page can easily be re-protected. Cimon avaro; on a pogostick. 00:22, 29 November 2005 (UTC)
+
+
+ފަންވަތް:Non-article User:Docglasgow protected this a while ago... I unprotected and then reprotected today after not knowing what's going on. --Nlu (talk) 02:42, 8 December 2005 (UTC)
+ފަންވަތް:Article. Look at what happened to the United States. Titoxd(?!? - did you read this?) 23:21, 15 December 2005 (UTC)
+ފަންވަތް:Article. what happened. 'nuff said. – ugen64 23:29, 15 December 2005 (UTC)
+ފަންވަތް:Article. IANLEELOVE (talk • contribs) keeps moving it to titles such as "Mr Ian Lee" (which is now a redirect) or even "Mr Ian 'the man' Lee" (which I've deleted twice now). These moves are done against the consensus of the other editors at that article, and without discussion. Lupo 13:35, 21 December 2005 (UTC)
+ފަންވަތް:Article Controversy and multiple moves, plus a recent WP:RM descision. WhiteNight T | @ | C 06:30, 29 December 2005 (UTC)
+pages with long edit history. -- User:Docu
+ފަންވަތް:Article - some editor has decided that he know a better name, contrary to naming convention of other Polish monarchs. Page protected from moves until discussion (between this user and rest of editors) is resolved on talk page.--Piotr Konieczny aka Prokonsul Piotrus Talk 03:54, 27 January 2006 (UTC)
+ފަންވަތް:Article Repeatedly moved without consensus. Markyour words 19:19, 22 February 2006 (UTC)
+
+Pages protected due to edit wars or vandalism[އުނިއިތުރު ގެންނަވާ]
+This list always needs pruning. Wikipedia works perfectly fine on a protection cycle of less than one week. Please examine older listings and unprotect if at all possible. If you add an article here, please remember to check the talk page frequently, and always consider removing protection as soon as possible.
+Real articles[އުނިއިތުރު ގެންނަވާ]
+Full protection[އުނިއިތުރު ގެންނަވާ]
+
+e ,efvqbjlsqd,dbakadqqbvsjhvsafe also Category:Protected, Category:Protected against vandalism and Protection log
+
+Latest at the bottom, please; and please sign all entries so we know how old they are.
+Please ensure that you add one of the following templates at the top of a protected page:
+{{protected}} or
+
+{{vprotected}} in the case of vandalism.
+12 Feb and before[އުނިއިތުރު ގެންނަވާ]
+
+ފަންވަތް:Article repeated removal of photos and insertion of NPOV tags with no explanation offered, despite talk page entries dating back to 2 months ago on why they were kept. Disguised (persistent) vandalism, perhaps? -- Миборовский U|T|C|E|Chugoku Banzai! 05:16, 2 January 2006 (UTC)
+From what I read on the talk page, they are almost ready for unprotection. Good. 7 weeks is excessive. --Woohookitty(cat scratches) 11:38, 18 February 2006 (UTC)
+ފަންވަތް:Article Third attempt at protection in a month. People use edit wars to enforce their point. Oleg Alexandrov (talk) 02:27, 29 January 2006 (UTC)
+ފަންވަތް:Article - protected by GregAsche on 1/27. --Woohookitty(cat scratches) 09:42, 4 February 2006 (UTC)
+ފަންވަތް:Article It's being protected per decision of the mentors on the article (which would be me, Katefan0, Jdavidb and Ral315. If you want it unprotected, ask one of us and we will discuss it. --Woohookitty(cat scratches) 12:12, 11 February 2006 (UTC)
+ފަންވަތް:Article edit war - RexNL 22:55, 6 February 2006 (UTC)
+ފަންވަތް:Article - edit war yet again. howcheng {chat}</spaKglegxggxvn> 00:41, 9 February 2006 (UTC)
+ފަންވަތް:Article - edit war involving the same parties as ފަންވަތް:Article. howcheng {chat} 00:41, 9 February 2006 (UTC)
+ފަންވަތް:Article, ފަންވަތް:Article, ފަންވަތް:Article. All subject of a pernicious edit war mostly involving one user blocked multiple times for 3RR against consensus. I'm hoping protection will encourage him to come discuss the matter on the talk page as a last resort. If not, longer blocks may be necessary. · Katefan0(scribble)/poll 16:49, 10 February 2006 (UTC)
+
+Oh, he comes and discuss on Talk:Sea of Japan all right -- he just thinks that he's absolutely right and people who disagree with him to be absolutely wrong. --Nlu (talk) 17:05, 10 February 2006 (UTC)
+
+
+
+
+
+
+Not encouraging =( · Katefan0(scribble)/poll 17:13, 10 February 2006 (UTC)
+
+
+
+
+ފަންވަތް:Article edit war. --a.n.o.n.y.m t 18:16, 11 February 2006 (UTC)
+ފަންވަތް:Article "ROHA" returns. --Nlu (talk) 07:45, 12 February 2006 (UTC)
+
+13 Feb to 19 Feb[އުނިއިތުރު ގެންނަވާ]
+
+ފަންވަތް:Article - Edit war · Katefan0(scribble)/poll 17:20, 13 February 2006 (UTC)
+ފަންވަތް:Article - Redirect. Anon keeps forking the original article to push his own POV. Should be unprotected when things settle down. --Conti|✉ 18:08, 14 February 2006 (UTC)
+ފަންވަތް:Article- Edit war, protected by Essjay.--Sean Black (talk) 21:26, 14 February 2006 (UTC)
+ފަންވަތް:Article and ފަންވަތް:Article are protected, apparently as part of the "experimental" process on Wikipedia:Stable versions. This strikes me as rather dubious, but at at any rate it should presumably be done transparently, hence I'm listing here. Alai 02:14, 15 February 2006 (UTC)
+
+I rejected the request myself and nothing has changed since then. Sigh. I don't care if it's stable or not. I'm against protecting pages just to protect them, which is what this feels like. No one has touched them outside of legit editors. If they become high risk and high profile, fine, then protect, but right now it feels like a waste of protection. --Woohookitty(cat scratches) 05:37, 15 February 2006 (UTC)
+
+
+ފަންވަތް:Article low level edit war and use of sockpuppets by one editor to avoid 3RR.--MONGO 05:19, 15 February 2006 (UTC)
+ފަންވަތް:Article, edit warring over splitting article. Protected to encourage discussion. the wub "?!" 19:16, 15 February 2006 (UTC)
+ފަންވަތް:Article - revert war. --Woohookitty(cat scratches) 08:22, 16 February 2006 (UTC)
+ފަންވަތް:Article Edit war · Katefan0(scribble)/poll 16:03, 16 February 2006 (UTC)
+ފަންވަތް:Article - reversion war. // Pathoschild (admin / ') 23:50, 16 February 2006 (UTC)
+ފަންވަތް:Article (edit war between two users) Sceptre (Talk) 13:36, 17 February 2006 (UTC)
+ފަންވަތް:Article compromise position to avoid wheel warring between other admins, and to allow discussion to continue. I believe there are also WP:OFFICE concerns. Physchim62 (talk) 19:39, 17 February 2006 (UTC)
+ފަންވަތް:Article. Edit war. -Will Beback 00:30, 18 February 2006 (UTC)
+ފަންވަތް:Article - edit war is back. --Woohookitty(cat scratches) 05:48, 18 February 2006 (UTC)
+ފަންވަތް:Article - protected by Inter on 2/16. --Woohookitty(cat scratches) 11:56, 18 February 2006 (UTC)
+ފަންވަތް:Article - protected by Raul654 on 2/18. --Woohookitty(cat scratches) 11:56, 18 February 2006 (UTC)
+ފަންވަތް:Article - FP by Mr. Splash on 2/16. --Woohookitty(cat scratches) 11:59, 18 February 2006 (UTC)
+ފަންވަތް:Article. Revert warring.--Sean Black (talk) 23:12, 18 February 2006 (UTC)
+ފަންވަތް:Article Edit war · Katefan0(scribble)/poll 03:27, 19 February 2006 (UTC)
+ފަންވަތް:Article. Revert war and addition of potentially libellous content. The Uninvited Co., Inc. 05:11, 19 February 2006 (UTC)
+ފަންވަތް:Article - Edit war during afd debate. --Woohookitty(cat scratches) 06:26, 19 February 2006 (UTC)
+ފަންވަތް:La - edit war with people using edit summaries to "discuss". --Woohookitty(cat scratches) 08:38, 19 February 2006 (UTC)
+ފަންވަތް:Article - IP address edit warring. Jayjg (talk) 13:09, 19 February 2006 (UTC)
+ފަންވަތް:Article - revert war. --Woohookitty(cat scratches) 14:07, 19 February 2006 (UTC)
+ފަންވަތް:Article - protected by JzG on 2/19. --Woohookitty(cat scratches) 11:22, 24 February 2006 (UTC)
+
+20 Feb to 26 Feb[އުނިއިތުރު ގެންނަވާ]
+
+ފަންވަތް:Article - moved to full protect due to people getting around SP. --Woohookitty(cat scratches) 09:14, 20 February 2006 (UTC)
+ފަންވަތް:Article - protected by User:CambridgeBayWeather. --Woohookitty(cat scratches) 09:14, 20 February 2006 (UTC)
+ފަންވަތް:Article - revert war still continuing despite previous 12-hour cooling-down protection; protected until consensus is sorted out on talk page. --Nick Boalch ?!? 11:27, 20 February 2006 (UTC)
+ފަންވަތް:Article protected after request from FCYTravis (talk • contribs • blocks • protects • deletions • moves): edit warring over OTRS concerns. Short protection term should be sufficient in first instance. Physchim62 (talk) 22:02, 20 February 2006 (UTC)
+ފަންވަތް:Article Edit war · Katefan0(scribble)/poll 13:19, 21 February 2006 (UTC)
+ފަންވަތް:La - edit war. --Woohookitty(cat scratches) 13:55, 21 February 2006 (UTC)
+ފަންވަތް:La - long long simmering edit war. Goes back to mid December if not further. --Woohookitty(cat scratches) 19:37, 21 February 2006 (UTC)
+ފަންވަތް:La and ފަންވަތް:La - Same issue they had in mid December. What do they call it? oi. --Woohookitty(cat scratches) 05:44, 22 February 2006 (UTC)
+ފަންވަތް:La Edit war · Katefan0(scribble)/poll 22:09, 22 February 2006 (UTC)
+ފަންވަތް:La Sterile edit war. Rhobite 00:57, 25 February 2006 (UTC)
+ފަންވަތް:La - edit war. --Woohookitty(cat scratches) 06:42, 25 February 2006 (UTC)
+
+Semi-protection[އުނިއިތުރު ގެންނަވާ]
+
+See also Category:Semi-protected and Protection log
+
+Latest at the bottom, please; and please sign all entries so we know how old they are.
+Please ensure that you add {{sprotected}} at the top of the semi-protected page.
+12 Feb and before[އުނިއިތުރު ގެންނަވާ]
+
+ފަންވަތް:Article - unprotection is tried occasionally, but for the most part, this article is permanently SP. Keeping this here as a placeholder really. --Woohookitty(cat scratches) 03:00, 17 January 2006 (UTC)
+ފަންވަތް:Article - needs to be SP at least for awhile yet. Dispute has only stopped because the page is semi protected. --Woohookitty(cat scratches) 03:21, 1 January 2006 (UTC)
+ފަންވަތް:Non-article, part of Wikipedia:Introduction, one of the first things many see. -- user:zanimum
+ފަންވަތް:Article is still suffering from DickyRoberts vandalism. Reprotected by Alkivar some time ago. -Splashtalk 23:44, 31 January 2006 (UTC)
+ފަންވަތް:Article - Semi-protected per Arbcom ruling. --Woohookitty(cat scratches) 20:59, 7 February 2006 (UTC)
+ފަންވަތް:Article - attempted unprotection on 2/7; anon reversions happened just over five hours later. I don't see this being lifted anytime soon. android79 20:06, 7 February 2006 (UTC)
+ފަންވަތް:Article protected by David Gerard. howcheng {chat} 00:34, 11 February 2006 (UTC)
+
+13 Feb to 19 Feb[އުނިއިތުރު ގެންނަވާ]
+
+ފަންވަތް:Article — moved from full to sem-protection. Some issues resolved on the Talk page, but emotional ranting from anons there suggest that it's still at risk. --Mel Etitis (Μελ Ετητης) 18:43, 13 February 2006 (UTC)
+
+This was unprotected by User:Splash, since when it has been vandalised three times in sixteen hours, identically but from different IP addresses. --Mel Etitis (Μελ Ετητης) 18:14, 17 February 2006 (UTC)
+
+
+ފަންވަތް:Article - part of the whole cartoons thing. Being hit hard. --Woohookitty(cat scratches) 08:06, 16 February 2006 (UTC)
+ފަންވަތް:La - protected by Essjay on 2/15. --Woohookitty(cat scratches) 09:43, 16 February 2006 (UTC)
+ފަންވަތް:Article - protected by Voice of All on 2/16. --Woohookitty(cat scratches) 11:16, 24 February 2006 (UTC)
+ފަންވަތް:Article - an anon keeps trying to use cut and paste to move the page to Islamic Revolution. Angr/talk 10:51, 16 February 2006 (UTC)
+ފަންވަތް:Article Constant vandalism by students of the school.
+ފަންވަތް:Article - recent pattern of silly vandalism by different anon IPs. BD2412 T 19:10, 16 February 2006 (UTC)
+ފަންވަތް:Article - vandalism. --Woohookitty(cat scratches) 07:17, 19 February 2006 (UTC)
+ފަންވަތް:Article seems to have a magnetic appeal for hilariously original edits like adding changing Jesus Christ to Spongebob Squarepants. Just zis  Guy, you know? [T]/[C]  16:41, 17 February 2006 (UTC)
+ފަންވަތް:Article - more vandalism Sceptre (Talk) 11:15, 19 February 2006 (UTC)
+ފަންވަތް:Article - protected on 2/14. Vandalism. Good old YTMND. Oi. --Woohookitty(cat scratches) 11:24, 19 February 2006 (UTC)
+ފަންވަތް:Article - Anon persists in reinserting content deleted on AfD. --cesarb 17:15, 19 February 2006 (UTC)
+ފަންވަތް:Article - vandalism by several IPs.SoothingR 18:27, 19 February 2006 (UTC)
+ފަންވަތް:Article - Eight anons editred in 24 hours, every single one vandals - Cecropia 23:21, 19 February 2006 (UTC)
+
+20 Feb to 26 Feb[އުނިއިތުރު ގެންނަވާ]
+
+ފަންވަތް:Article - protected by Voice of All on 2/20. --Woohookitty(cat scratches) 11:25, 24 February 2006 (UTC)
+ފަންވަތް:Article - I realize it's highly unusual to protect a discussion page, but there seemed no alternative in this case. Repeated vandalism, as per the previous entry. CJCurrie 23:46, 23 February 2006 (UTC)
+ފަންވަތް:Article - Repeated vandalism, from a user who claims he will shift to another address if blocked. CJCurrie 23:53, 22 February 2006 (UTC)
+ފަންވަތް:Article - The article has been vandalized 20+ recently. I protected it for 48 hours with the intention of discouraging the vandals. I will lift the protection myself, word of honor. Tony the Marine 01:34, 22 February 2006 (UTC)
+ފަންވަތް:Article - Lots of linkspam by multiple IPs.SoothingR 08:03, 20 February 2006 (UTC)
+
+Same for ފަންވަތް:Article.SoothingR 08:08, 20 February 2006 (UTC)
+
+
+ފަންވަތް:Article - Edit war. CambridgeBayWeather (Talk) 08:54, 20 February 2006 (UTC)
+ފަންވަތް:Article - Persistent vandalism by someone with access to an apparently-large block of IPs. android79 18:09, 20 February 2006 (UTC)
+ފަންވަތް:Article. Continual insertion of POV comments from a blog. This isn't meant to be a long-term measure. I intend the semi-protection to stay just long enough to encourage whoever's doing it to leave. enochlau (talk) 14:37, 21 February 2006 (UTC)
+ފަންވަތް:Article I downgraded this to semi from VoA's full; maybe doesn't even need semi William M. Connolley 23:03, 21 February 2006 (UTC)
+ފަންވަތް:Article Persistent edits by anon using a number of IPs against consensus and considered vandalism by editors of page. Vsmith 23:46, 21 February 2006 (UTC)
+ފަންވަތް:Article as with Feb 8 semiprotection, IP vandalism over content dispute. NSLE (T+C) at 09:10 UTC (2006-02-22) 09:10, 22 February 2006 (UTC)
+ފަންވަތް:Article persistent anon vandal with rapidly changing IP address. --Martyman-(talk) 00:29, 23 February 2006 (UTC)
+ފަންވަތް:La - Asian fetish vandal. --Woohookitty(cat scratches) 14:01, 23 February 2006 (UTC)
+ފަންވަތް:La - protected by David.Monniaux on 2/23. Needs to be short. 4-5 vandal edits a day isn't alot. --Woohookitty(cat scratches) 11:22, 24 February 2006 (UTC)
+ފަންވަތް:La - protected by alhutch on 2/24. --Woohookitty(cat scratches) 11:28, 24 February 2006 (UTC)
+ފަންވަތް:La - protected for the 2834th time on 2/22. --Woohookitty(cat scratches) 11:28, 24 February 2006 (UTC)
+ފަންވަތް:La SP for a few hours to foil dynamic IP vandal hitting this page pretty hard today. · Katefan0(scribble)/poll 17:49, 24 February 2006 (UTC)
+ފަންވަތް:La Wow. Insane amounts of vandalism. · Katefan0(scribble)/poll 20:58, 24 February 2006 (UTC)
+ފަންވަތް:La Anonymous user believes he has control over the page, and has been vandalising it (or something along those lines). User is blocked, but he has used more than one sockpuppet. Deltabeignet 22:57, 24 February 2006 (UTC)
+
+The talk page has been sprotected now as well -- Francs2000  23:13, 24 February 2006 (UTC)
+
+
+ފަންވަތް:La - vandalism. --Woohookitty(cat scratches) 05:24, 25 February 2006 (UTC)
+
+Pages protected against spambot[އުނިއިތުރު ގެންނަވާ]
+See Category:Protected against spambots
+Other[އުނިއިތުރު ގެންނަވާ]
+Note:Pages protected against recreation should be placed at Wikipedia:List_of_pages_protected_against_re-creation
+
+ފަންވަތް:Ln One editor making repeated tiny edits to heavily used template. Have left note on editor's page, suggesting he needs to work on a copy in the sandbox, rather than on the template itself. Should think this only needs to be a brief protection. 00:42, 25 December 2005 (UTC)
+ފަންވަތް:Ln: Edit war on whether to link to a list of times the admin has been blocked. — FREAK OF NURxTURE (TALK) 03:56, Jan. 8, 2006
+ފަންވަތް:Ln: Edit war on the icon: flag or map. The map doesn't look right, but the flag is a problem for political reasons. For now, it has no icon - hopefully a equitable solution will be found soon, but the temperature is more than a little warm on the talk page. Grutness...wha? 05:15, 17 January 2006 (UTC)
+ފަންވަތް:Article - full protection from Ardenn (talk • contribs) changing the closing admin's decision text. I'll remove the protection in 15 minutes when Ardenn has cooled down, hopefully. Update - Not sure the user has agreed to not change it if I unprotect, so leaving protected for now. Should be minimal inpact, since it shouldnt be being changed anyhow. --Syrthiss 22:03, 31 January 2006 (UTC)
+Image:Turks2.jpg - edit war on Turkish people spilled over to this image. howcheng {chat} 00:35, 1 February 2006 (UTC)
+Image:Jyllands-Posten Muhammad drawings.jpg - a hugely controversial image undergoing repeated vandalism from multiple sources. This will almost certainly need to be protected for a long time - perhaps permanently, given the degree of animosity involved. -- ChrisO 21:47, 1 February 2006 (UTC)
+
+
+
+
+Image talk:Jyllands-Posten Muhammad drawings.jpg - somewhat unusually, I've also had to protect the image's talk page; it's been picking up some very ugly comments of the kind which Jimbo blanked from the main article's talk page. Users are now redirected to Talk:Jyllands-Posten Muhammad cartoons controversy if they wish to discuss the image. Again, this will require long-term protection. -- ChrisO 09:57, 5 February 2006 (UTC)
+
+
+
+
+Category:Chinese_newspapers - many edits in this category which was voted for deletion are being used as evidence in a pending arbitration case. I restored the deletion and protected the page while the case is being deliberated. After it has been concluded the protection can be removed and the category deleted. --Wgfinley 13:47, 3 February 2006 (UTC)
+ފަންވަތް:Ln: Semiprotected. Talk header template with moderate visibility, repeatedly vandalized by anons. —Ilmari Karonen (talk) 03:47, 8 February 2006 (UTC)
+
+Images protected while on the Main Page[އުނިއިތުރު ގެންނަވާ]
+Images on the main page often become the target of vandalism, particularly being overwritten with shock site images, which harms the credibility of the project due to that page's extreme visibility. Also, it takes some time for sysops to determine what caused a main page change. As such, images have begun to be protected during their time there, and this has become a de facto policy since the second or third week of November 2004.
+In order to keep track of these images, please add {{ProtectedMainPageImage}} to them. This will add the image to Category:Protected main page images. There are typically 4 to 5 images on the main page, although some of them may be from the Wikicommons.
+Protected user pages[އުނިއިތުރު ގެންނަވާ]
+User pages sometimes become targets for vandalism, and may be protected upon request of the user associated with the page if this is a serious problem. Clear evidence can be seen from a user's history of the page, and their history from their discussion page.
+By software configuration, script files (*.js) and stylesheets (*.css) in user spaces are protected such that only the user or an administrator can edit it.
+Full protection[އުނިއިތުރު ގެންނަވާ]
+
+User talk:Freestylefrappe Temporarily protected to ward off incivility. Mackensen (talk) 03:26, 30 January 2006 (UTC)
+User:Lir This user is banned for one year (ending 23 September 2006 as of 23 September 2005). This user's page has been repeatedly altered to conform to the banned user's wishes without the express authorization of the Arbitration Committee.
+User:Journalist (frequent vandalism — over 20 times)
+User:Danny
+User:Gerald Farinas
+User:Kaihsu
+User:Olivier
+User:GeneralPatton
+User:Chris 73 {page moves only)
+User:Neutrality (page moves only) - protected by ugen64 - frequent page move vandalism target
+User:Nitram0002, User:Nitram0003 etc. Blocked sock puppet that comes back and removes sock puppet warnings.
+User:Geogre (page moves only) Because of vandal fighting, am anticipating a very quick attack. Protection from moves only desired, as I'll revert anything else.
+User:AndreasPraefcke, because of multi-project vandalism of this user's pages.
+User:Mel Etitis
+User:Mike Halterman
+User:Babelfishs -- Sockpuppet of banned user MARMOT.
+User:Bank of Wikipedia -- temporary protection as of 22:05, 9 July 2005 (UTC) until socks lose interest.
+User:Weev -- see this version to see why. This is to be permanently locked. - Ta bu shi da yu 03:18, 13 July 2005 (UTC)
+User:Bobbybuilder
+User:Skyring - User banned by ArbComm from Wikipedia on 12 August. Nevertheless returned to make edit (changing comment by another user, part of his usual strategy of trying to show he can break rules and seeing if he does it in a small way, how far can he get away with breaking them) on 15th. Have placed details of the ban on his userpage and protected page to stop its removal. FearÉIREANN\(caint)
+ފަންވަތް:Article Func( t, c, @, ) 17:47, 18 August 2005 (UTC)
+ފަންވަތް:Article perm banned user for various offenses ranging from posting a list of Jewish wikipedians to posting instructions on how to best disrupt wikipedia using open proxies. Jtkiefer T | @ | C ----- 20:32, September 2, 2005 (UTC)
+ފަންވަތް:Article Banned by the ArbCom for one year for leagal treates, continued vandalism and legal threats as an IP on page.--nixie 01:39, 5 September 2005 (UTC)
+ފަންވަތް:Article to prevent continued edits to it by IP socks of perm banned user. Jtkiefer T | @ | C ----- 02:41, September 8, 2005 (UTC)
+ފަންވަތް:Article imposter of User:Fenian_Swine IP keeps vandalizing by restoring to copycat page of Fenian Swine's. Jtkiefer T | @ | C ----- 20:31, September 10, 2005 (UTC)
+User:Nihiltres requested by user on WP:RFPP, being vandalized. --cesarb 23:55, 12 September 2005 (UTC)
+
+NOTE: Vandal is known to have impersonated User:Nihiltres and asked for unprotection [1]. Be sure it's the real User:Nihiltres if unprotecting on request. --cesarb 22:07, 22 September 2005 (UTC)
+
+
+User:216.175.112.9 — this is a non-static IP address, of which one user has taken possession, blanking explanation on the user page and "archiving" vandalism warnings on the Talk page. --Mel Etitis (Μελ Ετητης) 07:59, 26 September 2005 (UTC)
+
+--HappyCamper 21:34, 1 October 2005 (UTC)
+
+User:DJ_Clayworth - repeat vandalism by an AOL proxy IP
+User:Chantin' Fox - user page of a permablocked vandal. Page contained vandalism denigrating another (legitimate) user. Lupo 12:49, 6 October 2005 (UTC)
+User:BigDaddy777 and User talk:BigDaddy777. Redwolf24 protected the user talk page on October 11th. I protected the user page on the same day. It was done because BigDaddy777 was blocked indefinitely, but continued to be disruptive. --Woohookitty 09:14, 15 October 2005 (UTC)
+
+Added the page of User:68.40.168.173 and User talk:68.40.168.173. Sock of BD777. --Woohookitty(cat scratches) 19:12, 19 December 2005 (UTC)
+On November 16th, I changed the tag on the talk page because it had inadvertently created a User talk talk page. --Woohookitty(cat scratches) 07:13, 18 November 2005 (UTC)
+
+
+User:Aranda56- protected at Aranda's request, since hurricanes force his absence and it has been vandalized several times. --Maru (talk) Contributions 22:29, 24 October 2005 (UTC)
+Image:Jdavidb.jpg - used on my user page and vandalized; since this is a picture of myself and my child there should never be any need for anyone to change it. Not sure if this is within policy, but I'll unprotect if there's a problem. Jdavidb (talk) 15:50, 25 October 2005 (UTC)
+User:Curps
+User:snoyes
+ފަންވަތް:Article - socks of permanently blocked impostor changing this page to a redir. Owen× ☎ 00:21, 12 November 2005 (UTC)
+User:Jake Remington and User talk:Jake Remington - indefinitely blocked user. 2 of his sockpuppets have vandalized the pages and there's a possibility that they are using it to call other people in to vandalized. He's blocked indefinitely anyway. No reason not to protect. Similar to BigDaddy777 case up above. --Woohookitty(cat scratches) 21:24, 5 December 2005 (UTC)
+User:AI – AI is banned by an ArbCom ruling, yet their user page keeps getting edited and I'm tired of reverting. There's no reason to edit this page: AI cannot edit personally, and cannot reply to other people's edits. --MarkSweep (call me collect) 18:00, 6 December 2005 (UTC)
+User:Voice of All(MTG) -IP vandalism.Voice of AllT|@|ESP 21:45, 11 December 2005 (UTC)
+User:BrownPigeon. Blocked sock puppet account of user:Marcuse, being vandalized by antagonist user:Jonah Ayers, all related to "Biff Rose". -Willmcw 02:06, 12 December 2005 (UTC)
+ފަންވަތް:Article - after being vandalized 168 times, decided to semi-protect it. Owen× ☎ 23:40, 26 December 2005 (UTC)
+User:ERcheck - semiprotected following spate of defacements by AOL IP addresses. TenOfAllTrades(talk) 15:00, 29 December 2005 (UTC)
+User:B1link82 - blocked user. Protected on 12/30 by User:Jpgordon. --Woohookitty(cat scratches) 11:51, 5 January 2006 (UTC)
+User:SlimVirgin Permanently protected in early November after multiple bouts of rather horrifying vandalism, which started up again whenever the page was unprotected. Jayjg (talk) 21:04, 19 January 2006 (UTC)
+
+Semi-protected[އުނިއިތުރު ގެންނަވާ]
+
+User:Dijxtra semi'd upon request following persistent vandal. -Splashtalk 03:07, 5 January 2006 (UTC)
+User:Jason Gastrich - semi protected since 12/28 by User:Voice of All. --Woohookitty(cat scratches) 11:51, 5 January 2006 (UTC)
+User:Naconkantari - SP since 1/1/06 by User:Doc glasgow. --Woohookitty(cat scratches) 11:51, 5 January 2006 (UTC)
+User:Alkivar - Semi protected.
+User:AMbroodEY per user request following persistent vandalism (9 times in quick succession).--May the Force be with you! Shreshth91($ |-| r 3 $ |-| t |-|) 15:15, 19 January 2006 (UTC)
+User:IAAL multiple IP vandalism, hopefully clear up soon. Dragons flight 06:12, 21 January 2006 (UTC)
+User:Irismeister- lots of problems from this banned user recently. Dmcdevit·t 19:50, 26 January 2006 (UTC)
+User:Mistress Selina Kyle this page was protected by Fuzheado on the 12 January. Prodego talk 00:50, 30 January 2006 (UTC)
+ފަންވަތް:Article Recurring vandalism. ≈ jossi ≈ t • @ 19:51, 3 February 2006 (UTC)
+ފަންވަތް:Article Attacks by open proxies, may be sockpuppets of blocked user User:VinnyCee. --Nlu (talk) 09:31, 20 February 2006 (UTC)
+ފަންވަތް:Article Bunch of vandalism, semi-protected by User:Fuzheado, and I appreciate it. Based on pattern of vandalism, probably related to the vandalism of User:Nescio above. --Nlu (talk) 07:31, 21 February 2006 (UTC)
+ފަންވަތް:Article Insults from various IPs, apparently same vandal as above. andy 12:24, 23 February 2006 (UTC)
+
+Protected user subpages and boilerplates[އުނިއިތުރު ގެންނަވާ]
+Some users have created boilerplate pages in their user namespace and protected them from editing. The appropriateness of doing this is disputed.
+
+User:Blankfaze/Greet
+User:Blankfaze/VW
+User:David Newton/Bird Dispute
+User:Davidcannon/Biotable
+User:Davidcannon/Honours
+User:Davidcannon/Index-1
+User:Davidcannon/Index
+User:Dori/Copyrights
+User:Dori/Disclaimers
+User:Eloquence/Boilerplate texts
+User:Gerald Farinas/index
+User:Lupo/Do not copyvio
+User:Lupo/Img Src
+User:Lupo/Welcome
+User:Mkmcconn/sig
+User:Neutrality/Vandal
+User:Neutrality/Welcome
+User:Plato/Welcome
+User:Raul654/License
+User:Raul654/archive
+User:Redwolf24/Welcome
+User:Scott Burley/sig
+User:Silsor/Sam Hocevar
+User:Snoyes/boiler
+User:TShilo12/Welcome
+User:Taxman/Copyrights
+User:Thorpe/signature - user is done with this, doesn't intend to edit and it's widely transcluded.
+User:Cool Cat/Vandalismcounter
+User:Trödel/sig - At user request; not in current use, concerned about possible vandalism in regards to transclusions. Please contact me on my talk or via email before unprotecting.
+User:BD2412/Status - used for personal reasons; heading off great potential for mischief
+
+User talk pages: Registered users[އުނިއިތުރު ގެންނަވާ]
+User talk pages should only be protected in cases of persistent vandalism, and then only for as brief a period as possible. Please use the template
+
+{{Usertalk-sprotect}} to mark such pages. This adds the page to Category:Semi-protected user and user talk pages.
+
+ފަންވަތް:Article — temp. protected so that user can cool down and refrain adding further personal attacks. --Madchester 18:32, 18 February 2006 (UTC)
+ފަންވަތް:Article — blocked for one hour; personal attacks continue on the talk page, now protected. Someone else should look into it and implement unprotetion whenever they see fit. El_C 01:47, 15 December 2005 (UTC)
+ފަންވަތް:Article — user blocked for a week for personal attacks, continued on his Talk page, so protection applied. To be removed at end of block. — Matt Crypto 16:24, 26 July 2005 (UTC)
+ފަންވަތް:Article. User banned by arbcom for a year, but exploits the mediawiki 1.5 misfeature to converse with sockpuppets. Thrydulf 21:59, 27 July 2005 (UTC)
+ފަންވަތް:Article - protected from the potential vandalism that the return of Wik/Gzornenplatz would almost certainly bring out. - Lucky 6.9 05:04, 16 August 2005 (UTC)
+ފަންވަތް:Article The user has been banned for one year, but due to the block function's design he is still able to edit his talk page, which he blanked. To my knowledge, banning does not allow for any editing whatsoever, so there is no lgetimate reason for User:Skyring to edit the page. -Willmcw 00:16, August 26, 2005 (UTC)
+ފަންވަތް:Article If you know who Tern is, you know why its protected. Redwolf24 (talk) 23:23, 30 August 2005 (UTC)
+ފަންވަތް:Article perm banned user for various offenses ranging from posting a list of Jewish wikipedians to posting instructions on how to best disrupt wikipedia using open proxies. Jtkiefer T | @ | C ----- 20:29, September 2, 2005 (UTC)
+ފަންވަތް:Article Banned user MilkMan posting too many personal attacks on the user talk page. Zzyzx11 (Talk) 01:04, 5 September 2005 (UTC)
+ފަންވަތް:Article Banned by the ArbCom for one year for leagal treates, continued vandalism and legal threats as an IP on page.--nixie 01:38, 5 September 2005 (UTC)
+ފަންވަތް:Article - user has been permanently blocked from editing and their user talk page has become a gamut of threats against other users: have protected to stop others appearing. -- Francs2000  00:36, 22 September 2005 (UTC)
+ފަންވަތް:Article - indefinitely blocked sock puppet of user:Zephram Stark; was using his talk page after the block to continue stirring up trouble. SlimVirgin (talk) 00:02, 8 October 2005 (UTC)
+ފަންވަތް:Article - using talk page after indefinite block for rantings and personal attacks. Jtkiefer T | @ | C ----- 18:43, 8 October 2005 (UTC)
+ފަންވަތް:Article - indefinite blocked user, continuously ranting about the system and the admins. Jtkiefer T | @ | C ----- 20:26, 8 October 2005 (UTC)
+ފަންވަތް:Article – Indefinitely blocked troll (banned by admin consensus) who recently edited his own talk page in order to create the impression that he's still active. --MarkSweep✍ 07:59, 10 October 2005 (UTC)
+ފަންވަތް:Article - legal threats (IP is blocked). --fvw* 19:56, 13 October 2005 (UTC)
+ފަންވަތް:Article - getting indefinitely blocked didn't appear to phase this user who just carried on regardless on their talk page -- Francs2000  13:52, 16 October 2005 (UTC)
+ފަންވަތް:Article Anonymous IP repeatedly blanking page to remove warnings and notices from administrators. TenOfAllTrades(talk) 14:27, 17 October 2005 (UTC)
+ފަންވަތް:Article is the talk page of a permanently banned user who seems to still be able to edit the page and make threats. Not any more. Back to the wiki-vacation. - Lucky 6.9 20:58, 4 November 2005 (UTC)
+ފަންވަތް:Article - blocked enviroknot sockpuppet posting rants and flames. —Charles P. (Mirv) 23:05, 17 December 2005 (UTC)
+ފަންވަތް:Article permablocked impostor keeps changing this page into a redir. Owen× ☎ 00:24, 12 November 2005 (UTC)
+ފަންވަތް:Article Was warned repeatedly not to blank talk page, but continued to do so. --Shanel 02:32, 22 December 2005 (UTC)
+ފަންވަތް:Article blocked user continues offensive remarks on Talk page. Owen× ☎ 23:05, 26 December 2005 (UTC)
+ފަންވަތް:Article The North Carolina vandal, after his IP range (63.19.128.0/17) was shut down, changing the various warning notices to abusive this-and-that. Can be unprotected shortly since the range block will expire later tonight. Antandrus (talk) 03:50, 31 December 2005 (UTC)
+ފަންވަތް:Article is semiprotected because of an anon AOL ip vandal. The 15 minute blocks AOL's get doesn't seem to be discouraging the vandalism (nor did a 45) so trying this instead. Lifted protection from the talk page so test the waters. --Syrthiss 19:05, 30 January 2006 (UTC) (updated, page has been protected since Jan 6th)
+ފަންވަތް:Article is semiprotected for repeated removal/replacement by profanities of warnings and block notices. User indefinitely blocked by Curps for vandalism, and for 2 hours by Lupin. -- Arwel (talk) 23:30, 6 January 2006 (UTC)
+User_talk:Nicodemus75- blocked user using his talk page for vicious personal attacks. Dmcdevit·t 19:43, 9 February 2006 (UTC)
+User_talk:Beckjord being used to continue to edit despite his one year arbcom ban. Dmcdevit·t 23:04, 10 February 2006 (UTC)
+User talk:Zen-master being used to continue to edit despite his one year arbcom ban. Dmcdevit·t 23:04, 10 February 2006 (UTC)
+User talk:SPUI. User was give a short ban by arbitration committee for putting an unsuitable userbox on his userpage. During the ban, he has placed a copy of it on his talk page. This has been reverted and the page has been protected under a vprotect template. --Tony Sidaway 23:22, 11 February 2006 (UTC)
+
+
+User talk:Dschor, banned, as with the others. Dmcdevit·t 07:06, 12 February 2006 (UTC)
+User talk:Braaad, blocked indefinitely but still spewing hate on his talk page. —Guanaco 18:29, 12 February 2006 (UTC)
+ފަންވަތް:Vandal Sockpuppet of User:Braaad, blocked indefinitely but soapboxing on page -- initially feigning ignorance but since then has unambiguously demonstrated sock puppetry. --Nlu (talk) 19:09, 12 February 2006 (UTC)
+ފަންވަތް:Vandal Persistent vandal regarding the unsafe time travel nonsense, blanking and leaving abusive messages on his talk page; by request. Antandrus (talk) 23:03, 14 February 2006 (UTC)
+ފަންވަތް:Article Attack by open proxies. Likely to be sock puppets of blocked user User:VinnyCee. --Nlu (talk) 09:32, 20 February 2006 (UTC)
+ފަންވަތް:Article Attack by open proxies. Believed to be a sock of User:VinnyCee, --LBMixPro<Speak|on|it!> 10:25, 23 February 2006 (UTC)
+
+User talk pages: Anonymous users[އުނިއިތުރު ގެންނަވާ]
+Talk pages of anonymous users should generally only be semi-protected. This prevents a vandal from blanking warnings etc., but still allows non-admin RC patrollers to issue warnings on this page. Please use the template
+{{Usertalk-sprotect}} to mark such pages. This adds the page to Category:Semi-protected user and user talk pages. Please use the
+
+{{vandal}} tag (replacing " " with "_" as appropriate).
+
+ފަންވަތް:Vandal - Offensive, threatening behaviour on talk page. Most recent edits are just a small example of previous behaviour - the most recent was reverted and I don't like to repeat what it said. -- Francs2000  22:22, 2 October 2005 (UTC) (semi-protected) Block expires 2 October 2006 (UTC)
+ފަންވަތް:Vandal Semi protected due to vandalism by blocked anon. [[Sam Korn]] 13:45, 19 January 2006 (UTC)
+ފަންވަތް:Vandal Offensive changing of warning messages, even after being blocked. Semiprotected. --BorgQueen 06:48, 10 January 2006 (UTC)
+ފަންވަތް:Vandal Blocked this school ip for 36 hours yeserday and semi-protected talk page after persistent blanking. The IP has a (lengthy) history of this. SoLando (Talk) 09:28, 12 January 2006 (UTC)
+ފަންވަތް:Vandal Full protection. User is blocked one month. CambridgeBayWeather (Talk) 07:30, 7 February 2006 (UTC)
+ފަންވަތް:Vandal Vandal blocked until February 27 is blanking talk page. CambridgeBayWeather (Talk) 00:46, 8 February 2006 (UTC)
+ފަންވަތް:Vandal - keeps blanking and putting pictures on his talk page, thus removing warnings. --Woohookitty(cat scratches) 14:29, 14 February 2006 (UTC)
+ފަންވަތް:Vandal Soapboxing. Should be unprotected 14 Mar 2006, when block expires. --Nlu (talk) 04:40, 15 February 2006 (UTC)
+ފަންވަތް:Vandal Soapboxing. Should be unprotected 8 Aug 2006, when block expires. --Nlu (talk) 06:26, 18 February 2006 (UTC)
+ފަންވަތް:Vandal Vandalsim. Should be unprotected 36 hours from this posting when the block expires. --LBMixPro<Speak|on|it!> 07:36, 23 February 2006 (UTC)
+ފަންވަތް:Vandal Soapboxing. Should be unprotected 1 Mar 2006, when block expires. --Nlu (talk) 16:28, 23 February 2006 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+ 
+https://dv.wikipedia.org/w/index.php?title=ވިކިޕީޑިއާ:Protected_page&oldid=119398 އިން					
+ޤިސްމުތައް: Wikipedia shortcut box first parameter needs fixingProtectedWikipedia vandalism 
+
+
+
+Navigation menu
+
+
+އަމިއްލަ
+
+Log inCreate accountContributionsމި އައި.ޕީ އަށް މެސެޖެއް ފޮނުއްވާNot logged in 
+
+
+
+
+Variants
+
+
+
+
+
+
+
+ނަންސްޕޭސަސް
+
+ޚިޔާލު ސަފްޙާ
+މަޝްރޫޢު ޞަފްޙާ
+
+
+
+
+
+
+ހޯއްދަވާ
+
+
+
+ 
+
+
+
+އިތުރަށް
+
+
+
+
+
+
+ހިޔާލުފުޅުތައް
+
+ޞަފްޙާގެ ތާރީޚް
+Edit source
+ކިޔުއްވާ
+
+
+
+
+
+
+
+ސަމުގާ
+
+
+މައި ޞަފްޙާއާންމު ހޮޅުއަށިހިނގަމުންދާ ހާދިސާތައްފަހު ބަދަލުތައްކޮންމެވެސް ޞަފްޙާއެއްއެހީޚައިރާތުތައް 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFޗާޕަށްފަހި ނުސްހާ 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikidata 
+
+
+
+އަތްމަތީފޮށި
+
+
+މިއާ ގުޅެނީ ކޮންއެއްޗެއްގުޅުންހުރި ބަދަލުތައްފައިލު ފޮނުވާހާއްސަ ޞަފްޙާތައްދާއިމީ ފާލަންސަފްޙާ އާއި ބެހޭ މައުލޫމާތުWikidata ޞަފްޙާ 
+
+
+
+އެހެން ބަސްބަހުން
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىঅসমীয়াবাংলাCatalàCebuanoČeštinaCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+އުނިއިތުރުގެންނަވާ 
+
+
+
+
+
+ މި ޞަފްހާ އަށް އެންމެ ފަހުން ބަދަލެއް ގެނެވިފައިވަނީ 19 އެޕްރީލް 2016، 16:56 ގައެވެ.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+See Terms of Use for details.
+
+
+އަމިއްލަވަންތަ ސިޔާސަތު
+ވިކިޕީޑިއާ ގެ ތާރަފު
+އިއުލާނުތައް
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.252","walltime":"0.595","ppvisitednodes":{"value":1461,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":7437,"limit":2097152},"templateargumentsize":{"value":424,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   34.444      1 -total"," 12.32%    4.242      1 ފަންވަތް:Shortcut","  7.91%    2.723    125 ފަންވަތް:Article","  7.60%    2.619      1 މީޑިއާވިކީ:Editthispage","  7.37%    2.539      6 ފަންވަތް:Tl","  5.77%    1.986      1 ފަންވަތް:Admin","  5.68%    1.955     13 ފަންވަތް:Vandal","  5.67%    1.954      1 މީޑިއާވިކީ:Viewsource","  5.36%    1.845     17 ފަންވަތް:La","  5.12%    1.763      4 ފަންވަތް:Ln"]},"cachereport":{"origin":"mw1302","timestamp":"20170202025346","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":79,"wgHostname":"mw1261"});});

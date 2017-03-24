@@ -1,0 +1,2315 @@
+ 
+
+
+
+
+
+
+Wikipedia:Cascade-protected items
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This page is fully protected with the cascading option enabled. Pages transcluded on this page are highly important templates or pages that require full protection to guard against vandalism. Most of them are also directly full-protected, but this page serves as a safeguard against security leaks and human error. If you would like to make an edit to any of these pages, please use the {{editprotected}} template on their talk pages to get an administrator's attention.
+
+
+
+
+Shortcut:
+
+WP:CASC
+
+
+
+
+
+
+
+Note: This page is not intended for most templates or files. Items transcluded here are considered ultra-high-use and are often critical to the Wikipedia interface or used on many articles or other pages. Occasionally, individual templates will be part of a very closely-related family of templates, all of which should probably be cascade-protected to avoid problems; even if an individual template in such a family isn't widely used, it should still be protected for the same reason. Templates that are template protected or temporarily full-protected (whether for vandalism, an edit war, or some other reason) do not belong here. Articles should NEVER be added to this page.
+This page is used to protect:
+
+High-risk templates that should always be protected, using cascading protection. On occasion, accidental unprotection or transclusion of unprotected templates into protected templates have led to severe disruption.
+High risk files transcluded by them or used in the interface.
+
+Do not delete or unprotect items because they are listed at this page! Don't do it, especially if a file has a backup copy on Commons. This page is meant to be an extra protection, to protect against silly mistakes, such as admins deleting or unprotecting high-risk templates and files. This cascade page is not meant to be the only protection. Items should generally only be removed from this page as a result of a deletion discussion closed as delete, in the course of complete deprecation in favor of a newer item, or because there is consensus to drop the item's protection to template protection. They should not be removed just because they are no longer widely used.
+If this page causes any kind of problem, please ask on the talk page or speak to an(other) admin.
+As a last note, due to the nature of cascading protection, it is technically impossible to allow users (even autoconfirmed users or bots) to directly edit the lead, see also section, categories or interwiki links of this page; therefore, all changes must be requested on the talk page using {{editprotected}}. For the same reason, cascading protection should not, generally, be applied to individual templates, since it protects their /doc subpages as well.
+
+
+
+Contents
+
+
+1 Escape templates
+2 Citation templates
+3 Meta stuff
+4 Interface templates
+5 Ceranium's stuff
+6 Cascade protected images
+
+6.1 Used in interface and message boxes
+6.2 The 50 most-used images
+6.3 The 51-100 most used images
+6.4 Images used in system messages
+6.5 Other known high-risk images
+
+
+7 DYK stuff
+8 Footnotes
+9 See also
+
+
+
+Escape templates
+Often used in system messages and templates with Parser Functions.
+
+Template:!-
+Template:Pipedash
+Template:&
+Template:'
+Template:(
+Template:((
+Template:)
+Template:)!
+Template:))
+Template:*mp
+Template:-!-
+Template:End
+Template:End U.S. electoral vote box
+Template:End U.S. judgeship
+Template:End U.S. judgeship Current
+Template:End U.S. judgeship Former
+Template:End U.S. judge succession
+Template:End U.S. judge succession 2
+Template:End electoral college selection
+Template:End box
+Template:N-end
+Template:Note-end
+Template:End table
+Template:S-end
+Template:Radiolist end
+Template:Finish box
+Template:NBA player statistics end
+Template:Lessthan
+Template:ndash
+Template:–
+Template:dash
+Template:endash
+Template:En dash
+Template:·
+Template:,
+Template:•
+Template:*
+Template:bull
+Template:bullet
+
+Citation templates
+Used in almost every article
+
+Template:Citation
+Template:Cite
+Template:Cite citation
+Template:Citation/core
+Template:Harvard reference/core
+Template:Citation core
+Template:Citation/make link
+Template:Citation/Link
+Template:Cite book
+Template:Book reference
+Template:Book reference url
+Template:Citebook
+Template:Cite Book
+Template:Cite books
+Template:Cite-book
+Template:Cite conference
+Template:Conference reference
+Template:Cite court
+Template:Cite case
+Template:Cite encyclopedia
+Template:Citeencyclopedia
+Template:Cite encyclopaedia
+Template:Cite dictionary
+Template:Cite encyclopædia
+Template:Cite episode
+Template:Cite show
+Template:Cite journal
+Template:Citepaper
+Template:Cite paper
+Template:Cite magazine
+Template:Cite magazine article
+Template:Cite Journal
+Template:Citejournal
+Template:Cite Magazine
+Template:Cite mailing list
+Template:Cite mailinglist
+Template:Cite map
+Template:Cite maps
+Template:Cite news
+Template:Citenews
+Template:Citenewsauthor
+Template:Cite news-q
+Template:Cite article
+Template:Cite newspaper
+Template:Cite-news
+Template:Cite news2
+Template:Cute news
+Template:Cite new
+Template:Cite newsgroup
+Template:Cite usenet
+Template:Cite press release
+Template:Cite pressrelease
+Template:Cite press
+Template:Cite press release.
+Template:Cite video
+Template:Cite audio
+Template:Cite media
+Template:Cite DVD
+Template:Cite dvd
+Template:Cite web
+Template:Web reference
+Template:Web-reference
+Template:Web cite
+Template:Cite website
+Template:Cite-web
+Template:Citeweb
+Template:Web citation
+Template:Cite url
+Template:Cite blog
+Template:Cite Web
+Template:Cite webpage
+Template:Comic strip reference
+Template:Harvard citation
+Template:Citation needed
+Template:Are you sure?
+Template:Citation missing
+Template:Citation Needed
+Template:Citation requested
+Template:Citation required
+Template:Citation-needed
+Template:Citationeeded
+Template:Citationneeded
+Template:Cite missing
+Template:Cite needed
+Template:Cite source
+Template:Cite-needed
+Template:Citeneeded
+Template:Citesource
+Template:Cn
+Template:CN
+Template:Fact
+Template:Facts
+Template:FACT
+Template:Needcite
+Template:Needs citation
+Template:Needs citations
+Template:Needsref
+Template:Proveit
+Template:Ref?
+Template:Reference needed
+Template:Refneeded
+Template:Refplease
+Template:Source needed
+Template:Source?
+Template:Sourceme
+Template:Uncited
+
+Meta stuff
+High-risk templates that serve as "roots" for more specific templates.
+
+Template:tl
+Template:t
+Template:t1
+Template:tp
+Template:TL
+Template:TI
+Template:Temp
+Template:Template
+Template:Template link
+Template:TemplateLink
+Template:Tmbox
+Template:Cmbox
+Template:Ombox
+Template:Mbox
+Template:Fmbox
+Template:Fmbox warning ruler
+Template:Infobox
+Template:main other
+Template:ns0
+Template:talk other
+Template:file other
+Template:image other
+Template:template other
+Template:category other
+Template:namespace detect
+Template:namespace detect showall
+Template:category handler
+Template:category handler/numbered
+Template:category handler/blacklist
+Template:nowrap begin
+Template:nowrap end
+Template:ifempty
+Template:str len
+Template:str len/core
+Template:str ≤ len
+Template:str ≥ len
+Template:Check talk
+Template:Check talk Talk
+Template:Check talk Template
+Template:Check talk Wikipedia
+Template:Check talk Wikipedia talk
+Template:Check talk User talk
+Template:Check talk User
+Template:Check talk Image
+Template:Check talk Image talk
+Template:Check talk Category
+Template:Check talk Category talk
+Template:Checktalk
+
+Interface templates
+Templates that are used in the interface. That is, templates that have been designed to be used in the MediaWiki namespace.
+
+Template:editnotice load
+Template:editnotice load/core
+Template:no article text
+Template:script doc auto
+Template:script doc auto/core
+Template:script doc auto/core2
+Template:skin-file disambig
+Template:SpecialCategoryTOC
+Template:Anontools
+Template:Anontools/ipv4
+Template:Anontools/ipv6
+
+Ceranium's stuff
+
+Template:Yesno
+Template:Class
+Template:Classicon
+Template:Classcol
+Template:Class colour
+Template:Class color
+Template:Classcolour
+Template:Classcolor
+Template:Class col
+Template:importance
+Template:nowrap
+Template:Reflist
+Template:MONTHNUMBER
+Template:MONTHNAME
+Template:Lang
+Template:Stub-Class
+Template:Free media
+Template:Fix
+Template:Rnd
+Template:0
+Template:Birthdate and age
+Template:Bda
+Template:Date of birth and age
+Template:BDA
+Template:Birthdateandage
+Template:Birth Date and age
+Template:WPBannerMeta
+Template:WPBannerMeta/importance
+Template:WPBannerMeta/core
+Template:WPBannerMeta/istemplate
+Template:WPBannerMeta/class
+Template:WPBannerMeta/qualityscale
+Template:WPBannerMeta/importancescale
+Template:Low-importance
+Template:-importance
+Template:Unknown-importance
+Template:Mid-importance
+Template:Low-Class
+Template:-Class
+Template:Unknown-Class
+
+Cascade protected images
+The images listed here are protected even if they are accidentally deleted. Thus no-one can upload a bad image during that time. This also protects the images after they have been restored, since admins sometimes forget to re-protect the images after they have restored them.
+Admins sometimes delete protected images by accident, or because they think we don't need them since they exist on Commons. But images are usually locally uploaded and protected here at the English Wikipedia since they are used in an interface message or in some widely used template. Thus these images are high-use and high-risk.
+Used in interface and message boxes
+
+
+
+
+
+
+
+File:Edit-clear.svg
+Used in {{ambox}} and the other mboxes.
+
+
+
+
+
+
+
+
+
+File:Ambox notice.png
+
+
+
+
+
+
+
+
+
+File:Ambox move.png
+
+
+
+
+
+
+
+
+
+File:Ambox protection.png
+
+
+
+
+
+
+
+
+
+File:Imbox speedy deletion.png
+
+
+
+
+
+
+
+
+
+File:Imbox deletion.png
+
+
+
+
+
+
+
+
+
+File:Imbox content.png
+
+
+
+
+
+
+
+
+
+File:Imbox style.png
+
+
+
+
+
+
+
+
+
+File:Imbox notice.png
+
+
+
+
+
+
+
+
+
+File:Imbox move.png
+
+
+
+
+
+
+
+
+
+File:Imbox protection.png
+
+
+
+
+
+
+
+
+
+File:Imbox license.png
+
+
+
+
+
+
+
+
+
+File:Imbox featured.png
+
+
+
+
+
+
+
+
+
+File:Cmbox deletion.png
+
+
+
+
+
+
+
+
+
+File:Cmbox content.png
+
+
+
+
+
+
+
+
+
+File:Cmbox style.png
+
+
+
+
+
+
+
+
+
+File:Cmbox notice.png
+
+
+
+
+
+
+
+
+
+File:Cmbox move.png
+
+
+
+
+
+
+
+
+
+File:Cmbox protection.png
+
+
+
+
+
+
+
+
+
+File:Padlock.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-silver-medium.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-olive.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-red.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-black.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-skyblue.svg
+
+
+
+
+
+
+
+
+
+File:Lock icon blue.gif
+
+
+
+
+The 50 most-used images
+
+
+
+
+
+
+
+File:Information.svg
+
+
+
+
+
+
+
+
+
+File:Symbol stub class.svg
+
+
+
+
+
+
+
+
+
+File:Information.png
+
+
+
+
+
+
+
+
+
+File:Crystal personal.svg
+
+
+
+
+
+
+
+
+
+File:P vip.svg
+
+
+
+
+
+
+
+
+
+File:Nuvola apps important.svg
+
+
+
+
+
+
+
+
+
+File:Symbol start class.svg
+
+
+
+
+
+
+
+
+
+File:Symbol question.svg
+
+
+
+
+
+
+
+
+
+File:Ambox warning pn.svg
+
+
+
+
+
+
+
+
+
+File:Folder Hexagonal Icon.svg
+
+
+
+
+
+
+
+
+
+File:Robot icôn.svg
+
+
+
+
+
+
+
+
+
+File:Question book-new.svg
+
+
+
+
+
+
+
+
+
+File:Stop hand nuvola.svg
+
+
+
+
+
+
+
+
+
+File:Flag of the United States.svg
+
+
+
+
+
+
+
+
+
+File:Commons-logo.svg
+
+
+
+
+
+
+
+
+
+File:Red pog.svg
+
+
+
+
+
+
+
+
+
+File:Imbox deletion.png
+
+
+
+
+
+
+
+
+
+File:PD-icon.svg
+
+
+
+
+
+
+
+
+
+File:Nuvola apps korganizer.svg
+
+
+
+
+
+
+
+
+
+File:Ambox content.png
+
+
+
+
+
+
+
+
+
+File:Sports and games.png
+
+
+
+
+
+
+
+
+
+File:Video-x-generic.svg
+
+
+
+
+
+
+
+
+
+File:Wiki letter w.svg
+
+
+
+
+
+
+
+
+
+File:Vynil record.jpg
+
+
+
+
+
+
+
+
+
+File:Disambig gray.svg
+
+
+
+
+
+
+
+
+
+File:CC some rights reserved.svg
+
+
+
+
+
+
+
+
+
+File:Cc-by new white.svg
+
+
+
+
+
+
+
+
+
+File:Button sig.png
+
+
+
+
+
+
+
+
+
+File:Flag of France.svg
+
+
+
+
+
+
+
+
+
+File:Disambig.svg
+
+
+
+
+
+
+
+
+
+File:Cc-sa white.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Poland.svg
+
+
+
+
+
+
+
+
+
+File:NotCommons-emblem-copyrighted.svg
+
+
+
+
+
+
+
+
+
+File:Camera-photo.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Australia.svg
+
+
+
+
+
+
+
+
+
+File:Soccer ball.svg
+
+
+
+
+
+
+
+
+
+File:WikiProject United States logo.svg
+
+
+
+
+
+
+
+
+
+File:Stop x nuvola with clock.svg
+
+
+
+
+
+
+
+
+
+File:Waricon.svg
+
+
+
+
+
+
+
+
+
+File:Stop x nuvola.svg
+
+
+
+
+
+
+
+
+
+File:Portal-puzzle.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Canada.svg
+
+
+
+
+
+
+
+
+
+File:Copyright CD.svg
+
+
+
+
+
+
+
+
+
+File:A coloured voting box.svg
+
+
+
+
+
+
+
+
+
+File:Symbol c class.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Germany.svg
+
+
+
+
+
+
+
+
+
+File:Stop hand.svg
+
+
+
+
+
+
+
+
+
+File:Flag of India.svg
+
+
+
+
+The 51-100 most used images
+
+
+
+
+
+
+
+File:Replacement filing cabinet.svg
+
+
+
+
+
+
+
+
+
+File:Symbol neutral vote.svg
+
+
+
+
+
+
+
+
+
+File:Edit-clear.svg
+
+
+
+
+
+
+
+
+
+File:Symbol template class.svg
+
+
+
+
+
+
+
+
+
+File:Flag of the United Kingdom.svg
+
+
+
+
+
+
+
+
+
+File:Symbol list class.svg
+
+
+
+
+
+
+
+
+
+File:Purple question mark.svg
+
+
+
+
+
+
+
+
+
+File:Feed-icon.svg
+
+
+
+
+
+
+
+
+
+File:Symbol b class.svg
+
+
+
+
+
+
+
+
+
+File:Bclass-checklist.svg
+
+
+
+
+
+
+
+
+
+File:Ambox warning yellow.svg
+
+
+
+
+
+
+
+
+
+File:Clipboard.svg
+
+
+
+
+
+
+
+
+
+File:Symbol support vote.svg
+
+
+
+
+
+
+
+
+
+File:Wikipedia-logo-v2.svg
+
+
+
+
+
+
+
+
+
+File:Imbox content.png
+
+
+
+
+
+
+
+
+
+File:Copyright-problem.svg
+
+
+
+
+
+
+
+
+
+File:Terrestrial globe.svg
+
+
+
+
+
+
+
+
+
+File:Flag of England.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Italy.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Russia.svg
+
+
+
+
+
+
+
+
+
+File:WP Canada Logo-.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Japan.svg
+
+
+
+
+
+
+
+
+
+File:Exquisite-kfind.png
+
+
+
+
+
+
+
+
+
+File:Poland map flag.svg
+
+
+
+
+
+
+
+
+
+File:Symbol redirect vote2.svg
+
+
+
+
+
+
+
+
+
+File:Template-info.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Spain.svg
+
+
+
+
+
+
+
+
+
+File:Olympic Rings.svg
+
+
+
+
+
+
+
+
+
+File:Gnome-mime-text-x-credits.svg
+
+
+
+
+
+
+
+
+
+File:OlympicsWP logo.svg
+
+
+
+
+
+
+
+
+
+File:Africa satellite orthographic.jpg
+
+
+
+
+
+
+
+
+
+File:Updated DYK query.svg
+
+
+
+
+
+
+
+
+
+File:Exquisite-microphone.png
+
+
+
+
+
+
+
+
+
+File:Nuvola apps package graphics.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Sweden.svg
+
+
+
+
+
+
+
+
+
+File:Puppeter template.svg
+
+
+
+
+
+
+
+
+
+File:Insert-signature.png
+
+
+
+
+
+
+
+
+
+File:P train.svg
+
+
+
+
+
+
+
+
+
+File:Image-request.svg
+
+
+
+
+
+
+
+
+
+File:Three rail tracks 350.jpg
+
+
+
+
+
+
+
+
+
+File:Information icon.svg
+
+
+
+
+
+
+
+
+
+File:Red x.svg
+
+
+
+
+
+
+
+
+
+File:Gamepad.svg
+
+
+
+
+
+
+
+
+
+File:Flag of Brazil.svg
+
+
+
+
+
+
+
+
+
+File:Soccerball mask.svg
+
+
+
+
+
+
+
+
+
+File:Television icon.png
+
+
+
+
+
+
+
+
+
+File:Yes check.svg
+
+
+
+
+
+
+
+
+
+File:School ip.svg
+
+
+
+
+
+
+
+
+
+File:Crystal Clear app Login Manager 2.png
+
+
+
+
+
+
+
+
+
+File:Baseball (crop).jpg
+
+
+
+
+
+
+
+
+
+File:WPVG icon 2016.svg
+
+
+
+
+Images used in system messages
+
+
+
+
+
+
+
+File:Lock icon blue.gif
+
+
+
+
+
+
+
+
+
+File:Example.jpg
+
+
+
+
+
+
+
+
+
+File:Button redirect.png
+
+
+
+
+
+
+
+
+
+File:Button enter.png
+
+
+
+
+
+
+
+
+
+File:Button upper letter.png
+
+
+
+
+
+
+
+
+
+File:Button lower letter.png
+
+
+
+
+
+
+
+
+
+File:Button small.png
+
+
+
+
+
+
+
+
+
+File:Button hide comment.png
+
+
+
+
+
+
+
+
+
+File:Button gallery.png
+
+
+
+
+
+
+
+
+
+File:Button blockquote.png
+
+
+
+
+
+
+
+
+
+File:Button insert table.png
+
+
+
+
+
+
+
+
+
+File:Button reflink.png
+
+
+
+
+
+
+
+
+
+File:Monobook-bullet.png
+
+
+
+
+
+
+
+
+
+File:Monobook-bullet-ga.png
+
+
+
+
+
+
+
+
+
+File:Monobook-bullet-star.png
+
+
+
+
+
+
+
+
+
+File:Button link.png
+
+
+
+
+
+
+
+
+
+File:Crystal 128 kivio.png
+
+
+
+
+
+
+
+
+
+File:Gtk-dialog-info-14px.png
+
+
+
+
+
+
+
+
+
+File:Imbox content.png
+
+
+
+
+
+
+
+
+
+File:Imbox notice.png
+
+
+
+
+
+
+
+
+
+File:Imbox style.png
+
+
+
+
+
+
+
+
+
+File:Nuvola actions undo.png
+
+
+
+
+
+
+
+
+
+File:Ambox warning orange.svg
+
+
+
+
+
+
+
+
+
+File:Ambox warning pn.svg
+
+
+
+
+
+
+
+
+
+File:Ambox warning yellow.svg
+
+
+
+
+
+
+
+
+
+File:Circle-style-warning.svg
+
+
+
+
+
+
+
+
+
+File:Commons-logo.svg
+
+
+
+
+
+
+
+
+
+File:Crystal Clear app amor.png
+
+
+
+
+
+
+
+
+
+File:Crystal Clear app help index.png
+
+
+
+
+
+
+
+
+
+File:Crystal Clear app ktip.png
+
+
+
+
+
+
+
+
+
+File:Crystal Clear app lphoto.png
+
+
+
+
+
+
+
+
+
+File:Emblem-question-yellow.svg
+
+
+
+
+
+
+
+
+
+File:Mail-send-receive.svg
+
+
+
+
+
+
+
+
+
+File:Namespace MediaWiki.svg
+
+
+
+
+
+
+
+
+
+File:Padlock.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-red.svg
+
+
+
+
+
+
+
+
+
+File:Pango-name.svg
+
+
+
+
+
+
+
+
+
+File:Template-info.svg
+
+
+
+
+
+
+
+
+
+File:User-info.svg
+
+
+
+
+
+
+
+
+
+File:Yes check.svg
+
+
+
+
+
+
+
+
+
+File:Wiki letter w.svg
+
+
+
+
+Other known high-risk images
+
+
+
+
+
+
+
+File:Ambox deletion.png
+
+
+
+
+
+
+
+
+
+File:Padlock-silver-medium.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-olive.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-black.svg
+
+
+
+
+
+
+
+
+
+File:Padlock-skyblue.svg
+
+
+
+
+
+
+
+
+
+File:Cscr-featured.svg
+
+
+
+
+
+
+
+
+
+File:Icon - upload photo.svg
+
+
+
+
+
+
+
+
+
+File:Commons-logo-en.svg
+
+
+
+
+
+
+
+
+
+File:Questionmark copyright.svg
+
+
+
+
+
+
+
+
+
+File:Gtk-go-back-ltr.svg
+
+
+
+
+
+
+
+
+
+File:Emblem-important.svg
+
+
+
+
+
+
+
+
+
+File:Searchtool.svg
+
+
+
+
+
+
+
+
+
+File:Cc-nc white.svg
+
+
+
+
+
+
+
+
+
+File:Cc-nd white.svg
+
+
+
+
+
+
+
+
+
+File:Green check.png
+
+
+
+
+DYK stuff
+
+Template:Did you know/Queue/1
+Template:Did you know/Queue/2
+Template:Did you know/Queue/3
+Template:Did you know/Queue/4
+Template:Did you know/Queue/5
+Template:Did you know/Queue/6
+
+Footnotes
+This page was initially in user space at User:Cenarium/Protected templates, whose idea it was. It was copied/moved to Wikipedia space on 16:57, 14 October 2009 (UTC). Similar pages from other users, notably User:Hersfold/Lockbox, User:Dinoguy1000/Lockbox and User:Davidgothberg/Lockbox have been incorporated.
+See also
+
+Full list of cascade-protected pages
+Wikipedia:Protection policy#Cascading protection
+Wikipedia:High-risk templates
+Wikipedia:List of indefinitely protected pages#High use templates
+Category:Wikipedia protected templates
+{{High-risk}}
+
+{{High-use}}
+
+
+{{Used in system}}
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Cascade-protected_items&oldid=758758900"					
+Categories: Wikipedia page protectionHidden categories: Noindexed pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Languages
+
+
+فارسیУкраїнська 
+Edit links 
+
+
+
+
+
+ This page was last modified on 7 January 2017, at 12:03.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.272","walltime":"0.503","ppvisitednodes":{"value":589,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":7300,"limit":2097152},"templateargumentsize":{"value":36,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  285.202      1 -total","  0.48%    1.374      1 Template:NOINDEX","  0.46%    1.314      2 Template:Tl"]},"scribunto":{"limitreport-timeusage":{"value":"0.099","limit":"10.000"},"limitreport-memusage":{"value":857578,"limit":52428800}},"cachereport":{"origin":"mw1215","timestamp":"20170212125546","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1215"});});

@@ -1,0 +1,237 @@
+ 
+
+
+
+
+
+
+WMF product development process/2015-11-05
+
+From MediaWiki.org
+< WMF product development process
+
+					Jump to:					navigation, 					search
+
+
+
+
+Contents
+
+
+1 Superprotect is gone
+2 Q&A
+
+2.1 What was Superprotect?
+2.2 When has Superprotect been used?
+2.3 What is a software product development process?
+2.4 What else is changing about our software product development process?
+2.5 Why was Superprotect removed?
+2.6 Why is the WMF doing this now?
+2.7 Is there an alternative to Superprotect?
+2.8 What happens when there is no agreement between the WMF and a community about the deployment of a feature?
+
+
+3 Announcement
+4 Comments
+
+
+
+Superprotect is gone[edit]
+Superprotect was introduced by the Wikimedia Foundation to resolve a product development disagreement. We have not used it for resolving a dispute since. Consequently, today we are removing Superprotect from Wikimedia servers.
+Without Superprotect, a symbolic point of tension is resolved. However, we still have the underlying problem of disagreement and consequent delays at the product deployment phase. We need to become better software partners, work together towards better products, and ship better features faster. The collaboration between the WMF and the communities depends on mutual trust and constructive criticism. We need to improve Wikimedia mechanisms to build consensus, include more voices, and resolve disputes.
+There is a first draft of an updated Product Development Process that will guide the work of the WMF Engineering and Product teams. It stresses the need for community feedback throughout the process, but particularly in the early phases of development. More feedback earlier on will allow us to incorporate community-driven improvements and address potential controversy while plans and software are most flexible.
+We welcome the feedback of technical and non-technical contributors. Check the Q&A for details.
+Quim Gil, Engineering Community Manager @ Wikimedia Foundation
+Q&A[edit]
+What was Superprotect?[edit]
+Superprotect was a user right available to Wikimedia wikis and granted to a global group of WMF staff members, deployed to stop changes to an executable code. Its main target was administrative pages like MediaWiki:Common.js, which can be used to modify the user experience of a wiki. At the time of this announcement, Superprotect was not enforced anywhere.
+When has Superprotect been used?[edit]
+Superprotect was announced and enabled in Wikimedia servers on August 10, 2014. It has been used on two occasions:
+
+On August 10, 2014, to keep MediaViewer enabled by default in German Wikipedia against the community consensus expressed in a request for comment. The protection was used when an administrator disabled the feature by modifying code in MediaWiki:Common.js. Detailed descriptions of the events can be found in English and German.
+On 5 October, 2014, to restore a previous version of a Wikidata article that was suddenly affected by a series of bugs. This time it was a temporary solution to a deployment that went accidentally wrong, and used with the explicit permission of the affected project's core admins. The protection was lifted after 2 months, when the bugs were fixed.
+
+What is a software product development process?[edit]
+It is a series of actions that define how software projects should be created in a team or organization. The work of developing software is organized in different stages, and quality criteria are defined to move from stage to the the next. There are many ways to organize software development.
+What else is changing about our software product development process?[edit]
+The Team Practices Group is drafting a proposal for a framework for helping us manage our day-to-day work and will operationalize aspects of the Product Development Process, derived from team organization and agile methodologies in collaboration with stakeholders involved in the product development process. The intended audience of these efforts are the product development teams executing the work.
+The Community Liaisons are working on Design and Development principles to act as an overall guide for WMF Engineering teams. Professional software developers, designers, product managers, etc, are increasingly familiar with the principles of free open source development, but the Wikimedia movement additionally has its own culture of openness, collaboration, and expectations.
+Why was Superprotect removed?[edit]
+The new software product development process in the drafts should make Superprotect unnecessary. Collaboration with Wikimedia communities starting with the early planning stages will give contributors opportunities to shape product direction early. Community feedback and reviews should start well before the deployment phase, in order to identify blockers and other release criteria. Product launch decisions should be based on quality of code and features. Disagreements should be discussed openly and if irregular edits would happen, they should be dealt by the wiki's own administrators using their regular processes, not by a tool controlled exclusively by the WMF, alien to the community processes and administrators.
+Why is the WMF doing this now?[edit]
+The Product department has published a new draft product development process for discussion with communities and contributors. The intention of this new process is to provide a clear and accessible expectation of how the Foundation will develop software and how it will partner with users collaboratively in order to do so; removing Superprotect upfront was a logical step.
+Is there an alternative to Superprotect?[edit]
+There is no alternative to Superprotect as a tool controlled by the WMF to protect specific wiki pages, and the WMF is not seeking to build or use a similar tool. Wikimedia projects have processes to protect pages and to revoke administrator's permissions, which are under the control of their own administrators, bureaucrats and the Wikimedia stewards.
+What happens when there is no agreement between the WMF and a community about the deployment of a feature?[edit]
+The WMF is responsible for providing a consistent user experience across Wikimedia projects, following a public development process that includes community feedback and reviews. Volunteers are responsible for providing feedback and shaping features early in the process, and helping to define success criteria. When a community review is negative, specific and actionable blockers should be identified (open bugs, design flaws, performance criteria) so the product owners at the WMF can discuss how to address the issues. Potential moves forward include the acceptance of new release blockers, A/B tests to analyze the impact of the new features, satisfaction surveys to users in order to increase the diversity of feedback, and a commitment to revert the deployment quickly if unexpected problems arise.
+Announcement[edit]
+#Superprotect is gone was announced in these channels on 2015-11-05:
+
+w:de:Wikipedia:Technik/Werkstatt#Superprotect_ist_vorbei (in German)
+w:en:Wikipedia:Village_pump_(technical)#Superprotect_is_gone
+c:Commons:Village_pump#Superprotect_is_gone
+wikitech-l
+wikitech-ambassadors
+wikimedia-l
+
+Since then, the news have spread to other channels:
+
+w:de:Wikipedia_Diskussion:Kurier#Superprotect_ist_weg (in German)
+http://wikistrategies.net/superprotect-removed/
+w:en:Wikipedia:Wikipedia_Signpost/2015-11-04/News_and_notes#Superprotect_is_gone
+m:Talk:Letter_to_Wikimedia_Foundation:_Superprotect_and_Media_Viewer#Relevant_statement_and_action_from_the_Wikimedia_Foundation
+w:en:Wikipedia:Wikipedia Signpost/2015-11-11/Op-ed
+
+Comments[edit]
+(Discuss)
+
+About time! Good. Nemo 17:43, 5 November 2015 (UTC)
+Well done, thanks. --Holmium (talk) 17:57, 5 November 2015 (UTC)
+Wonderbar. Sargoth (talk) 18:07, 5 November 2015 (UTC)
+A good step. Thanks for sharing your thinking about the process. Sj (talk) 19:06, 5 November 2015 (UTC)
+Good riddance. :-) --MZMcBride (talk) 23:01, 5 November 2015 (UTC)
+ --WikiAnika (talk) 07:51, 6 November 2015 (UTC)
+Thanks --Horcrux92 (talk) 15:44, 6 November 2015 (UTC)
+Not a minute too soon. Thank you! Jbribeiro1 (talk) 18:53, 7 November 2015 (UTC)
+Finally, quite considerably too late, but nevertheless. Grüße vom Sänger ♫(Reden) 15:52, 8 November 2015 (UTC)
+Good move. Thank you.--Aphaia (talk) 16:24, 8 November 2015 (UTC)
+Thanx Alsee (talk) 21:24, 26 November 2015 (UTC)
+
+
+
+
+ 
+						Retrieved from "https://www.mediawiki.org/w/index.php?title=WMF_product_development_process/2015-11-05&oldid=2005363"					
+ 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+EnglishNot logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Page
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageGet MediaWikiGet extensionsTech blogContribute 
+
+
+
+Support
+
+
+User helpFAQTechnical manualSupport deskCommunication 
+
+
+
+Development
+
+
+Bug trackerCode repositoryCode docsStatisticsWikimedia engineering 
+
+
+
+MediaWiki.org
+
+
+Browse categoriesCommunity portalRecent changesRandom pageCurrent issuesSandbox 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPermanent linkPage informationCite this page 
+
+
+
+In other languages
+
+
+
+Add links 
+
+
+
+
+
+ This page was last modified on 7 January 2016, at 12:59.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+See Terms of Use for details.
+
+
+Privacy policy
+About MediaWiki.org
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.032","walltime":"0.280","ppvisitednodes":{"value":65,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"origin":"mw1184","timestamp":"20170203182551","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1209"});});

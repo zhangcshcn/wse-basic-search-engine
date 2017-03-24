@@ -1,0 +1,553 @@
+ 
+
+
+
+
+
+
+Wikipedia:Requests for page protection
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Wikipedia:RFED)
+
+					Jump to:					navigation, 					search
+
+"WP:RFP" and "WP:RPP" redirect here. You may also be looking for Wikipedia:Requests for permissions, Wikipedia:Requesting copyright permission, or Wikipedia:Random page patrol.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Noticeboards
+
+
+
+
+
+
+
+Wikipedia's centralized discussion, request, and help venues. For a listing of ongoing discussions and current requests, see the dashboard.
+
+
+
+
+
+
+General
+
+
+
+Administrators
+
+main
+incidents
+
+
+Bot owners
+Bureaucrats
+Closure
+Education
+
+main
+incidents
+
+
+Main Page errors
+Open proxies
+OTRS
+Oversight
+User permissions
+
+
+
+
+
+
+
+
+Articles and content
+
+
+
+Biographies of living persons
+Copyrights
+
+questions on media
+problems
+
+
+Dispute resolution
+External links
+Fringe theories
+Neutral point of view
+Original research
+Reliable sources
+Resource requests
+Spam
+
+blacklist
+whitelist
+
+
+Scalable vector graphics
+Titleblacklist
+Translation
+
+
+
+
+
+
+
+
+Page handling
+
+
+
+History merges
+Mergers
+Moves
+Protection
+Importing pages
+XfD
+
+Articles
+Redirects
+Categories
+Templates
+Files
+Miscellany
+
+
+Undeletion
+
+
+
+
+
+
+
+
+User conduct
+
+
+
+Long-term abuse
+Conflict of interest
+Contributor copyright
+Edit warring and 3RR
+Sanctions
+
+Personal sanctions
+General sanctions
+
+
+New pages patrollers
+Paid editing
+Sockpuppets
+Usernames
+Vandalism
+
+
+
+
+
+
+
+
+Other
+
+
+
+Arbitration
+
+Committee noticeboard
+requests
+enforcement
+
+
+Edit filters
+
+requested
+
+
+Mediation
+Questions
+
+Editor assistance
+Help desk
+Teahouse
+Reference desk
+New articles
+
+
+Requests for comment
+Special services
+Village pump
+
+ideas
+policy
+proposals
+technical
+miscellaneous
+
+
+WikiProject proposals
+
+
+
+
+
+
+
+
+
+Category:Wikipedia noticeboards
+
+
+
+
+
+
+Skip to TOC
+Skip to bottom
+
+
+
+
+Requests for page protection
+
+
+
+
+Shortcuts:
+
+WP:RFPP
+WP:RFP
+WP:RPP
+
+
+This page is for requesting that a page, file or template be fully protected, create protected (salted), extended confirmed protected, semi-protected, added to pending changes, move-protected, template protected (template-specific), upload protected (file-specific), or unprotected. Please read up on the protection policy. Full protection is used to stop edit warring between multiple users or to prevent vandalism to high-risk templates, semi-protection and pending changes are usually used only to prevent IP and new user vandalism (see the rough guide to semi-protection), and move protection is used to stop pagemove revert wars.
+After a page has been protected, the protection is listed in the page history and logs with a short description indicating why it was protected, and the article is listed on Special:Protectedpages. Further discussion should take place on the Talk page of the article. In the case of full protection due to edit warring, admins do not revert to specific versions of the page, except to get rid of obvious vandalism.
+
+
+
+
+
+Skip to table of contents
+requests to raise protection
+lower protection
+requested edits
+rolling archive (up to 7 days)
+(purge)
+
+
+
+
+
+Instructions
+
+If you would like to request to have a page protected, have a page's existing protection level lowered or raised, or would like to submit an edit request for a protected page, please follow these steps (note: if you enable the Twinkle gadget for your Wikipedia account, this process can be largely automated for you):
+
+If you are requesting unprotection, the correct protocol is to ask the protecting administrator first for unprotection (the admin's user account name can be found in the page's edit history). If for any reason he or she is unresponsive, unwilling, or unable to lower protection then you may list your request on this page.
+Add a level 3 header (i.e. === [[Example title]] ===) with the namespace if not an article.[clarification needed] Place your request at the bottom of either the protection or unprotection list, depending on the nature of your request, and place the pagelinks template below the header in the form of * {{pagelinks|Example title}}. Please make sure you have spelled the name of the article properly; a common error stems from mistaken requests for the protection of redirects, particularly capitalised ones (Twinkle can make sure this never happens to you!).
+If you are requesting protection, write the type of request (full protection, semi-protection, pending changes, move protection) and a brief reason for your request below your header.
+Please do not add arbitrary requests for a protection expiry time to your request, or request indefinite protection arbitrarily.
+
+If there is a reason for a page to be protected for a certain amount of time, such as protecting a user talk page until the user is unblocked, please make this clear.
+If you are requesting indefinite semi-protection or pending changes, be aware that it is only applied to articles with endemic and endless vandalism problems which multiple increasing periods of temporary semi-protection or pending changes have failed to stop.
+Note that different expiry times can be set for edit- and for move-protections— thus, an article can, for example, be semi-edit-protected for a week and also fully-move-protected indefinitely.
+
+
+Sign your request with four tildes ~~~~ and click Save page.
+
+
+Note: editors should not consider requesting page protection as a method for continuing an argument from elsewhere nor as a venue for starting a new discussion regarding article content. If a request contains excessive argument, appears to be intended to resolve a content dispute, includes personal attacks or uncivil comments, or has any other unrelated discussion, it will be removed from this page and no action will be taken.
+
+
+Examples
+
+
+
+
+For single page requests
+
+
+
+
+=== [[Example Article Name]] ===
+* {{pagelinks|Example Article Name}}
+'''Semi-protection:''' High level of IP vandalism. ~~~~
+
+
+=== [[Template:Example Template Name]] ===
+* {{pagelinks|Template:Example Template Name}}
+'''Reduction in protection level:''' From full protection to template editor protection. ~~~~
+
+
+
+
+For multiple page requests with the same criteria
+
+
+
+
+=== Short descriptive header ===
+* {{pagelinks|Wikipedia:Example Page Name 1}}
+* {{pagelinks|Wikipedia:Example Page Name 2}}
+'''Temporary semi-protection:''' High level of IP vandalism. ~~~~
+
+ You can subscribe to a web feed of this page in either RSS or Atom format.
+
+
+
+this header: view • edit
+
+
+Contents
+
+
+1 Current requests for increase in protection level
+
+1.1 CeeLo_Green
+1.2 Knowing (film)
+1.3 List of programs broadcast by Qubo
+1.4 Wikipedia:Why Wikipedia is not so great
+1.5 User talk:Nordic Nightfury
+
+
+2 Current requests for reduction in protection level
+3 Current requests for edits to a protected page
+4 Handled requests
+
+
+
+
+Administrator instructions
+
+
+Current requests for increase in protection level[edit]
+Place requests for new or upgrading pending changes, semi-protection, full protection, move protection, create protection, template editor protection, or upload protection at the BOTTOM of this section. Check the rolling archive of fulfilled and denied requests or, failing that, the page history if you cannot find your request. Only recently answered requests are still listed here.
+CeeLo_Green[edit]
+https://en.wikipedia.org/wiki/CeeLo_Green
+
+
+
+Temporary semi-protection**: He wore a gold outfit and people and vandalising his wikipedia page now
+
+
+
+Dorianinou (talk) 03:09, 13 February 2017 (UTC)
+
+Automated comment: @Dorianinou: This request cannot be parsed. Please ensure it follows formatting consistent with the current or previous methods of submission.—cyberbot ITalk to my owner:Online 03:19, 13 February 2017 (UTC)
+
+
+ Declined – Not enough recent disruptive activity to justify protection. Mifter (talk) 04:06, 13 February 2017 (UTC)
+
+Knowing (film)[edit]
+
+Knowing (film) (edit | talk | history | links | watch | logs)
+
+Semi-protection: High level of IP vandalism. Mvcg66b3r (talk) 04:04, 13 February 2017 (UTC)
+
+ Declined – Not enough recent disruptive activity to justify protection. Mifter (talk) 04:06, 13 February 2017 (UTC)
+
+List of programs broadcast by Qubo[edit]
+
+List of programs broadcast by Qubo (edit | talk | history | links | watch | logs)
+
+Indefinite semi-protection: Persistent disruptive editing – trolls continue to add unsourced info. Digifan23 (talk) 06:48, 13 February 2017 (UTC)
+
+ Semi-protected for a period of 1 year, after which the page will be automatically unprotected.--Ymblanter (talk) 07:59, 13 February 2017 (UTC)
+
+Wikipedia:Why Wikipedia is not so great[edit]
+
+Wikipedia:Why Wikipedia is not so great (edit | talk | history | links | watch | logs)
+
+Semi-protection: Many IPs keep removing content; the removals have been reverted. I don't think PC would hold off such removals. George Ho (talk) 07:39, 13 February 2017 (UTC)
+
+ Semi-protected for a period of 3 weeks, after which the page will be automatically unprotected. Materialscientist (talk) 07:41, 13 February 2017 (UTC)
+
+User talk:Nordic Nightfury[edit]
+
+User talk:Nordic Nightfury (edit | subject | history | links | watch | logs)
+
+Semi-protection: Persistent sockpuppetry – This should've been protected indef... Persistent editing of my userpage by banned sock Profile101. Nördic Nightfury 08:18, 13 February 2017 (UTC)
+
+ Semi-protected for a period of 1 month, after which the page will be automatically unprotected. (in my opinion user talk pages shouldn't be semi-protected indefinitely - hopefully 1 month is enough to put them off though) -- Samtar talk · contribs 08:21, 13 February 2017 (UTC)
+
+Current requests for reduction in protection level[edit]
+
+Shortcuts:
+
+WP:RFRPL
+WP:RFUP
+WP:RFPU
+WP:RUP
+WP:UNPROTECT
+
+
+Please post requests in this section for removing or reducing the protection level of a page if the protecting admin is inactive or you have already asked them.
+
+To find out the username of the admin who protected the page click on "history" at the top of the page, then click on "View logs for this page" which is under the title of the page. The protecting admin is the username in blue before the words "protected", "changed protection level" or "pending changes". If there are a number of entries on the log page, you might find it easier to select "Protection log" or "Pending changes log" from the dropdown menu in the blue box.
+Requests to downgrade full protection to template protection on templates and modules can be directed straight here; you do not need to ask the protecting admin first.
+Requests for removing create protection on redlinked articles are generally assisted by having a draft version of the intended article prepared beforehand.
+If you want to make spelling corrections or add uncontroversial information to a protected page please add {{Edit fully-protected}} to the article's talk page, along with an explanation of what you want to add to the page. If the talk page is protected please use the section below.
+
+Check here if you cannot find your request. Only recently answered requests are still listed here.
+Current requests for edits to a protected page[edit]
+Further information: Wikipedia:Edit requests
+
+Shortcut:
+
+WP:RFED
+
+
+Ideally, requests should be made on the article talk page rather than here.
+
+Unless the talk page itself is protected, you may instead add the appropriate template among {{Edit protected}}, {{Edit template-protected}}, {{Edit extended-protected}}, or {{Edit semi-protected}} to the article's talk page if you would like to make a change rather than requesting it here. Doing so will automatically place the page in the appropriate category for the request to be reviewed.
+Where requests are made due to the editor having a conflict of interest (COI; see Wikipedia:Suggestions for COI compliance), the {{request edit}} template should be used.
+Page move requests should be made at Wikipedia:Requested moves, not here.
+If the discussion page and the article are both protected preventing you from making an edit request, this page is the right place to make that request. Please see the top of this page for instructions on how to post requests.
+This page is not for continuing or starting discussions regarding content should both an article and its discussion page be locked. Please make requests as long as you have a specific edit you wish to make.
+
+Handled requests[edit]
+A rolling archive of the last seven days of protection requests can be found at Wikipedia:Requests for page protection/Rolling archive.
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_page_protection&oldid=765232645#Requests_for_edits_to_a_protected_page"					
+Categories: Wikipedia vandalismWikipedia noticeboardsWikipedia requestsWikipedia requests related to adminsHidden categories: Wikipedia move-protected project pagesNon-talk pages that are automatically signed 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikisource 
+
+
+
+Languages
+
+
+АҧсшәаالعربيةتۆرکجهবাংলাBosanskiBrezhonegDeutschEspañolفارسیFrançais한국어हिन्दीBahasa IndonesiaItalianoLëtzebuergeschLietuviųBahasa MelayuNederlands日本語Norsk bokmålOccitanPortuguêsRomânăРусскийScotsShqipසිංහලSlovenščinaதமிழ்TürkçeУкраїнськаVènetoTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 13 February 2017, at 08:35.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.164","walltime":"0.261","ppvisitednodes":{"value":1234,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":67304,"limit":2097152},"templateargumentsize":{"value":2680,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  178.456      1 -total"," 56.41%  100.672      1 Wikipedia:Requests_for_page_protection/Header"," 14.02%   25.011      1 Template:Ombox"," 13.27%   23.683      1 Template:Nowrap"," 12.71%   22.673      1 Template:What"," 10.48%   18.698      1 Template:Fix-span"," 10.39%   18.548      1 Template:Noticeboard_links","  9.18%   16.384      1 Template:Pp-move-indef","  7.96%   14.201      1 Template:Navbox","  7.90%   14.105      4 Template:Pagelinks"]},"scribunto":{"limitreport-timeusage":{"value":"0.050","limit":"10.000"},"limitreport-memusage":{"value":2270913,"limit":52428800}},"cachereport":{"origin":"mw1231","timestamp":"20170213083527","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":83,"wgHostname":"mw1275"});});

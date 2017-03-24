@@ -1,0 +1,776 @@
+ 
+
+
+
+
+
+
+Wikipedia talk:Protection policy: Difference between revisions
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+
+
+Revision as of 23:59, 22 September 2016 (edit)Xaosflux (talk | contribs) (→‎Draft mass message to administrators:  Wikipedia:Administrators'_noticeboard/Requests_for_closure#Wikipedia_talk:Protection_policy.23ECP_-_Remove_manual_AN_posting_requirement)← Previous edit
+Revision as of 16:09, 23 September 2016 (edit) (undo)Jo-Jo Eumerus (talk | contribs)  (→‎ECP - Remove manual AN posting requirement:  Closing discussion)Next edit →
+
+Line 143:
+Line 143:
+
+
+ 
+
+ 
+
+
+
+ 
+== ECP - Remove manual AN posting requirement ==
+ 
+== ECP - Remove manual AN posting requirement ==
+
+
+−
+
++
+{{atop|status=Accepted|result=Consensus is that so as long as the bot report stays in place, an additional manual notification is not necessary. [[User:Jo-Jo Eumerus|Jo-Jo Eumerus]] ([[User talk:Jo-Jo Eumerus|talk]], [[Special:CentralAuth/Jo-Jo Eumerus|contributions]]) 16:09, 23 September 2016 (UTC)}}
+
+
+ 
+I propose we remove the {{tq|Notification is to be posted in a subsection of AN for review, unless the topic is already authorized for 30/500 protection by the Arbitration Committee.}} requirement from ECP usage.  The primary reason - it is not being done, and no one seems to care.  There is a bot report that is transcluded to AN already ([[User:MusikBot/ECPMonitor/Report]]) and all of these protection actions are already clearly visible in the protection log.  Any thoughts? — [[User:Xaosflux|<span style="color:#FF9933; font-weight:bold; font-family:monotype;">xaosflux</span>]] <sup>[[User talk:Xaosflux|<span style="color:#009933;">Talk</span>]]</sup> 19:05, 1 September 2016 (UTC)
+ 
+I propose we remove the {{tq|Notification is to be posted in a subsection of AN for review, unless the topic is already authorized for 30/500 protection by the Arbitration Committee.}} requirement from ECP usage.  The primary reason - it is not being done, and no one seems to care.  There is a bot report that is transcluded to AN already ([[User:MusikBot/ECPMonitor/Report]]) and all of these protection actions are already clearly visible in the protection log.  Any thoughts? — [[User:Xaosflux|<span style="color:#FF9933; font-weight:bold; font-family:monotype;">xaosflux</span>]] <sup>[[User talk:Xaosflux|<span style="color:#009933;">Talk</span>]]</sup> 19:05, 1 September 2016 (UTC)
+
+
+ 
+:Note: all pages are also clearly visible at [https://en.wikipedia.org/w/index.php?title=Special%3AProtectedPages&namespace=&type=edit&level=extendedconfirmed&sizetype=min&size= Special:ProtectedPages]. — [[User:Xaosflux|<span style="color:#FF9933; font-weight:bold; font-family:monotype;">xaosflux</span>]] <sup>[[User talk:Xaosflux|<span style="color:#009933;">Talk</span>]]</sup> 11:37, 2 September 2016 (UTC)
+ 
+:Note: all pages are also clearly visible at [https://en.wikipedia.org/w/index.php?title=Special%3AProtectedPages&namespace=&type=edit&level=extendedconfirmed&sizetype=min&size= Special:ProtectedPages]. — [[User:Xaosflux|<span style="color:#FF9933; font-weight:bold; font-family:monotype;">xaosflux</span>]] <sup>[[User talk:Xaosflux|<span style="color:#009933;">Talk</span>]]</sup> 11:37, 2 September 2016 (UTC)
+
+
+Line 165:
+Line 165:
+
+
+ 
+*'''Support''' clarifying this issue by specifically noting the bot satisfies this requirement. This was never a requirement in the first place. Consensus was that notification must be posted at AN, not that notification must be posted ''manually''. Administrators would technically be on the hook if the bot malfunctioned, I suppose, but as far as I'm concerned the transclusion of the bot's table satisfies the existing requirement with no changes. ~ [[User:BU Rob13|<b>Rob</b><small><sub>13</sub></small>]]<sup style="margin-left:-1.0ex;">[[User talk:BU Rob13|Talk]]</sup> 17:22, 17 September 2016 (UTC)
+ 
+*'''Support''' clarifying this issue by specifically noting the bot satisfies this requirement. This was never a requirement in the first place. Consensus was that notification must be posted at AN, not that notification must be posted ''manually''. Administrators would technically be on the hook if the bot malfunctioned, I suppose, but as far as I'm concerned the transclusion of the bot's table satisfies the existing requirement with no changes. ~ [[User:BU Rob13|<b>Rob</b><small><sub>13</sub></small>]]<sup style="margin-left:-1.0ex;">[[User talk:BU Rob13|Talk]]</sup> 17:22, 17 September 2016 (UTC)
+
+
+ 
+*'''Reluctant support''': this is not what I envisaged when taking part in the RfC, but we might as well clean this up as a recognition of the facts on the ground. As long as the bot report remains in replace, I see no need at present for manual notification. [[User:BethNaught|BethNaught]] ([[User talk:BethNaught|talk]]) 17:46, 17 September 2016 (UTC)
+ 
+*'''Reluctant support''': this is not what I envisaged when taking part in the RfC, but we might as well clean this up as a recognition of the facts on the ground. As long as the bot report remains in replace, I see no need at present for manual notification. [[User:BethNaught|BethNaught]] ([[User talk:BethNaught|talk]]) 17:46, 17 September 2016 (UTC)
+
+
+−
+
++
+{{abottom}}
+
+
+ 
+=== Draft mass message to administrators ===
+ 
+=== Draft mass message to administrators ===
+
+
+ 
+This is a ''very'' rough draft:
+ 
+This is a ''very'' rough draft:
+
+
+Revision as of 16:09, 23 September 2016
+
+
+↓
+Skip to table of contents
+↓
+
+
+
+
+This is the talk page for discussing improvements to the Protection policy page.
+
+
+
+
+Put new text under old text. Click here to start a new topic.
+Please sign and date your posts by typing four tildes (~~~~).
+New to Wikipedia? Welcome! Ask questions, get answers.
+
+
+
+
+Be polite, and welcoming to new users
+Assume good faith
+Avoid personal attacks
+For disputes, seek dispute resolution
+
+
+
+
+Shortcuts:
+
+WT:PROTECT
+WT:PPOL
+
+
+
+
+
+
+
+
+The project page associated with this talk page is an official policy on Wikipedia. Policies have wide acceptance among editors and are considered a standard for all users to follow. Please review policy editing recommendations before making any substantive change to this page. Always remember to keep cool when editing, and don't panic.
+
+
+
+
+
+
+
+This page is not for proposing or discussing edits to protected pages.
+To request or propose a change to a page that you are not able to edit, place a message on its talk page. If the page is fully protected, you may attract the attention of an admin to make the change by placing the {{edit fully-protected}} template above your request. Requests placed here will probably be removed or ignored.
+
+If the page in question and its talk page are both protected please make your edit request at Wikipedia:Request for edit.
+To request that a page be protected or unprotected, see Wikipedia:Requests for page protection.
+To suggest that a move-protected page be renamed, see Wikipedia:Requested moves.
+To request that a deleted page protected against re-creation be re-created or restored, see Wikipedia:Deletion review.
+For information about protecting the main page featured article or other featured content, see Wikipedia:Main Page featured article protection.
+
+
+
+
+
+
+
+
+Archives
+
+
+
+
+Archive 1 December 2003 - February 2005
+Archive 2 April 2005 - February 2007
+Archive 3 February 2007 - May 2007
+Archive 4 April 2007 - May 2007
+Archive 5 June 2007 - August 2007
+Archive 6 August 2007 - December 2007
+Archive 7 January 2008 - April 2008
+Archive 8 April 2008 - October 2008
+Archive 9 October 2008 - June 2009
+Archive 10 May 2009 - October 2009
+Archive 11 November 2009 - March 2010
+Archive 12 March 2010 - June 2010
+Archive 13 June 2010 - April 2012
+Archive 14 October 2010 - May 2013
+Archive 15 June 2013 - July 2013
+Archive 16 July 2013 -
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Threads older than 60 days may be archived by MiszaBot II.
+
+
+
+
+
+Contents
+
+
+1 Updated certain outdated icons
+2 When to salt?
+3 What are people's opinions on use of ECP for salting?
+4 ECP wording
+5 RfC: Protect user pages by default
+6 ECP - Remove manual AN posting requirement
+
+6.1 Draft mass message to administrators
+
+
+7 Clean up: Arbitration 30/500 -> Extended confirmed ?
+8 User Protection
+
+
+
+Updated certain outdated icons
+ Moved from Wikipedia:Village pump (proposals)#Update certain outdated icons: Music1201 (talk) 21:54, 19 July 2016 (UTC)
+I think it's time for new icon and template-related images, specifically protection icons. Here is what I was thinking:
+
+Semi-Protect: 
+Full-Protect: 
+Template Protect: 
+Move Protect: 
+Pending changes protect: 
+Many other ideas...
+
+
+Those are the same icons used over at Wikidata. They appear to be more modern and consistent with the rest of the internet. The current icons occasionally appear blurry on some devices (I've seen it myself and even have seen a few complaints via OTRS). Does anyone agree, disagree, or have another idea? — Music1201 talk 01:29, 19 July 2016 (UTC)
+
+If we're going to update the padlocks, we should consider if we can improve accessibility – specifically with regards to WP:COLOR: "Ensure that color is not the only method used to convey important information". Note also that currently-used padlocks and a variety of available padlocks are documented at WP:PADLOCKS. - Evad37 [talk] 08:49, 19 July 2016 (UTC)
+How about writing inside the lock the initial (S, F, T, M, P) for the kind of protect? This way we wouldn't need to remember the color code, and they'd work for the color blind as well. Diego (talk) 09:00, 19 July 2016 (UTC)
+
+That seems a good idea, and would work much better with the simple padlock as opposed to the current versions. —  crh 23  (Talk) 09:01, 19 July 2016 (UTC)
+
+Some mock-ups with letters:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could probably do with a thicker font, but you get the idea. —  crh 23  (Talk) 09:38, 19 July 2016 (UTC)
+
+
+
+@Crh23, I'd make the characters smaller and provide some margin (for example the "T" top bar is almost invisible as it nearly touches the page background). Diego (talk) 09:49, 19 July 2016 (UTC)
+
+
+
+
+
+
+
+
+The meaning is embodied in the tooltip (which can also include a lot of additional information; see {{pp}}) and the link target. Sure, you could reinforce that meaning with the letter. And by all means fix any problem with blurriness. But using different colors would only serve to make things prettier, since few people would be able to memorize the meanings of the colors. I'd suggest a single, common color that provides excellent contrast for the letter, which would be quite small and would need all the readability help it could get. In my opinion this is too blue-sky for this page and should have started at WP:VPI. ―Mandruss ☎ 09:18, 19 July 2016 (UTC)
+
+
+Those are the same icons used over at Wikidata – Wikidata is an outlier. They appear to be more modern and consistent with the rest of the internet – MediaWiki, anyone? The current icons occasionally appear blurry on some devices – I get this sometimes on my phone, and so what? I can still recognise the meaning. This is very BIKESHED. Besides, the current ones are pretty. BethNaught (talk) 09:53, 19 July 2016 (UTC)
+
+This is very BIKESHED. All conversations regarding usability and accessibility tend to be. That doesn't make them any less necessary. I can still recognise the meaning. So, because you can, everyone else can too? ;-) The point is enhancing the icons for people who have problems recognizing the symbols. The current icon set is definitely against the WP:COLORS guideline, "Ensure that color is not the only method used to convey important information". Sure you have information in the tooltip, but that is still harder to access for people with motor disabilities, and it takes longer to read. Diego (talk) 11:41, 19 July 2016 (UTC)
+
+I also think that all instances of File:Stop x nuvola.svg should be replaced with File:White X in red background.svg. — Music1201 talk 15:03, 19 July 2016 (UTC)
+
+FWIW, Windows 10 did abandon "3-D" icons and other UI elements and return to 2-D, apparently reflecting some wisdom that 2-D works better across various platforms. I liked the 3-D better, but then I'm entirely keyboard PC-centric. ―Mandruss ☎ 15:49, 19 July 2016 (UTC)
+
+
+
+
+
+
+This is really a discussion for Wikipedia talk:Protection policy (that being the talk page of Template:Padlock list), where there have been previous threads, e.g. Wikipedia talk:Protection policy/Archive 16#Semi-protected and Pending Changes templates. --Redrose64 (talk) 18:16, 19 July 2016 (UTC)
+
+Pinging discussion participants: @Evad37, Diego Moya, Crh23, Mandruss, BethNaught, and Redrose64: The discussion has been moved here. — Music1201 talk 21:54, 19 July 2016 (UTC)
+Is it just me, or did moving this here kill this discussion? ―Mandruss ☎ 15:21, 26 July 2016 (UTC)
+
+
+
+ Oppose - I suggest creating a user script with a panel like the Twinkles one. In This script you can set your preferances to the type of lock you want which will be much better because I already like the current locks. So we can have a script written by someone. VarunFEB2003 I am Offline 13:40, 13 August 2016 (UTC)
+
+
+
+
+Perhaps what we really need is to update Wikipedia's default skin again. The current padlocks work well with the new Vector and the old Monobook skins, and thus I don't see much need to change them. The suggested "modern" look above seems – at least for me – to clash with the overall look of Wikipedia. Mz7 (talk) 03:09, 23 August 2016 (UTC)
+
+When to salt?
+I've been cleaning up after PRODs a lot lately. Quite often these are promotional material that's been recreated and deleted repeatedly.
+At what point do we salt these, and to what level?
+I don't want to salt a page unnecessarily, but a lot of these are clearly just spam magnets. - David Gerard (talk) 10:51, 7 August 2016 (UTC)
+
+In my understanding, there hasn't been discussion of salt levels, but fully prot salting seems to be the norm. There are about 2000 pages salted at "semi" level and about 54000 pages fully salted (as far as I can tell). — Andy W. (talk · ctb) 15:41, 9 August 2016 (UTC)
+
+Anything which was PROD-deleted shouldn't be PROD-deleted again if recreated; it should go through a full AFD diuscussion unless they are, in fact, speedy-deletable (including spam, which would be G11). After an AFD, any subsequent recreation becomes a G4 deletion, and would generally be SALTed after 2 or 3 G4-deletions. עוד מישהו Od Mishehu 17:23, 17 August 2016 (UTC)
+
+Trouble is that's frequently not evident - the new versions are recreated without the history, and it's not apparent to anyone it was PRODed until come time for the second deletion. I've been zapping obvious and terrible PRODs that are this close to a CSD, and there's no indication that it was previously PRODed until the previous deletions show up after I've actually hit "delete". I deleted anyway, because arguably the recreated article is unlikely to be the same article as the previously PRODed text, even though it's at the same title. You could try to require people check the deletion log before PRODing anything, but that's likely to be considered onerous unless there's dev work to make it obvious in the interface. PROD was invented as a lightweight mechanism to avoid AFD for articles nobody cares about, after all - David Gerard (talk) 18:03, 17 August 2016 (UTC)
+
+Even non-admins can easily access a list of previous deletions from the history page, including the reason for deletion - follow the "View logs for this page" link at the top. For admins it's even easier to see that there had been deletions - look at the "View or restore ## deleted edits?" (## being some number), this is proof that there had been deletions. Every deletion, if course, has a given reason - and with PRODs, a link to WP:PROD is present. עוד מישהו Od Mishehu 19:27, 17 August 2016 (UTC)
+What Od Mishehu said. You're supposed to be looking at the page history anyway and the 'view X deleted edits?' is right up there at the top left. If it's gone through PROD before, you should decline it and tell the nominator to use AFD if they want. I usually do this in the edit summary, but a talk page section works too. As for the dose of salt, I fully salt the spam ones indefinitely; I'll almost always fully salt anyway but sometimes I'll limit it to one year. To me, salting with semi is pointless, and I do not believe ECP is authorized for salting under the last RFC unless we've tried semi first. Katietalk 19:59, 17 August 2016 (UTC)
+
+You are, of course, both quite correct on past PRODs and spotting them - David Gerard (talk) 15:50, 19 August 2016 (UTC)
+
+
+
+
+
+
+
+
+
+What are people's opinions on use of ECP for salting?
+[moved from AN]
+While we're here - if this was a use case that wasn't considered, it might be worth talking about.
+After filing a lot of PRODs, I thought I should do my duty and help clear the backlog I was adding to. So I started clearing expired PRODs, and oh my goodness we have a lot of spammers, many of whom return (usually under other names). So I looked up how to salt things.
+My reasoning for using ECP was: multiply-recreated spammy articles about companies or people. Autoconfirmed is too light to deal with the problem, full protection seems drastic (in general we want as little locking of articles as possible). ECP seemed a way to make sure it would be generally-sensible users at least, without requiring admin intervention. The alternative would have been fully locking. What do others think? - David Gerard (talk) 14:11, 17 August 2016 (UTC)
+
+I think this is an excellent use case, but I think the discussion regarding that should be at WT:PP... --Izno (talk) 14:47, 17 August 2016 (UTC)
+
+Good point; I'll go there and see if you've started a discussion there. Nyttend (talk) 14:47, 17 August 2016 (UTC)
+
+WP:MULTI--and as I didn't start the discussion, seems rude to steal the discussion away. --Izno (talk) 15:17, 17 August 2016 (UTC)
+
+
+
+
+
+
+I think fully locking is better. I doubt that most of these multiply-created articles are ones we'd ever want; and an admin can always unSALT the few which are. עוד מישהו Od Mishehu 17:20, 17 August 2016 (UTC)
+
+In most cases I agree, but I've always had misgivings about salting titles that might plausibly be used for a different subject (personal names in particular), or which might be notable and so might get an article if created by someone with clue rather than a COI. In general, I salt these for a year instead of indefinitely, and try to tell myself that if there hasn't been a viable article created in the past fifteen years, another year's delay won't matter, but my first impression of ECP salting looks like a better fit. (I've on occasion noticed another admin salt an article I've previously deleted as create=autoconfirmed, and always thought that laughably inadequate for any purpose.) —Cryptic 18:45, 17 August 2016 (UTC)
+
+
+Gosh, gang, I apologize for not thinking of this when I put up the RFC. Self-trouted. :-/
+As it stands, I think we're authorized as the RFC stated - in cases where semi-protection was ineffective. How we prove that? Well, we have to semi-salt it first, I guess. Not going to happen with this admin, though. I can count on one hand the number of semi-salts I've ever done (I think) because to me it's pointless. My practice is pretty much what Cryptic does – I'll salt for a year or six months sometimes, but I always give the max dose while it lasts. And you'd be surprised how many unprotect requests we get at RFUP from established editors with drafts they think are okay but aren't. Katietalk 20:09, 17 August 2016 (UTC)
+
+Semi-salting indeed seems rather pointless; most uses of semiprotection are due to problems with IP editing, and IPs can't create pages in the first place. How often do we have issues with not-yet-confirmed accounts creating the same page over and over again? And in those situations where a salted title needs to be unprotected (e.g. a minor politician's article is deleted and salted, and then years later he gets elected to the national parliament, or a random person's biography's salted, and we have a draft about a different person with the same name), most editors doing the work with moving the new page (or creating the new page at this title) will be extended-confirmed. My only concern was a continuation of the protection (the new page at the salted title would itself be EC-protected), but that's not an issue: I created a page, deleted it, EC-salted it, created another page, and moved it to the first title, and the resulting second page at the first title ended up not being protected at all. So overall I think this is a good idea, but only in cases in which full-protection is otherwise the only option we'd pick. Think of it like the template-editor protection, which is to be applied only to pages that previously would have been full-protected. Nyttend (talk) 00:29, 18 August 2016 (UTC)
+
+
+
+
+ECP will be lost on me because due to the added layer of bureaucracy, I will probably continue to use the harsher, but less contentious Full Protection, especially when I salt pages. That said, although I work a lot on deletions, it is in fact actually quite rare that I indef FP anything at all. This is one example that is not a salting. Kudpung กุดผึ้ง (talk) 16:07, 18 August 2016 (UTC)
+
+Yeah, on reflection if it's worth salting at all (in this discussion, as frequently-recreated spam or frequently-recreated BLP) it may as well be full protection, and maybe limit the time or not - David Gerard (talk) 15:51, 19 August 2016 (UTC)
+
+To me, I think extended comfimed salting as very usefull, but back in July, an admin just applied EC-salting when I requested the self-promo article to be salted, but Nakon said it not authorized yet because the RFC is still ongoing, then the same admin just applied full-protect salting which is too restrictive. KGirlTrucker81 talk what I'm been doing 20:01, 19 August 2016 (UTC)
+
+ECP wording
+
+The policy: "...nor should it be used to privilege extended confirmed users over unregistered users in (valid) content disputes."
+The template: "All IP editors, accounts with fewer than 500 edits, and accounts with less than 30 days tenure are prohibited from editing any page that could be reasonably construed as being related to the Arab–Israeli conflict."
+
+Which is it? Can IPs participate in valid content disputes or are they prohibited from editing the article? --NeilN talk to me 19:30, 27 August 2016 (UTC)
+
+@NeilN: Both. Consider the situation that an article which cannot be reasonably construed as being related to the Arab–Israeli conflict is in a content dispute between an editor with 500+ edits and 30+ days who favours one version, and an editor with fewer than 500 edits or fewer than 30 days who favours another version. Wikipedia:Protection policy#Content disputes indicates that whilst it is permitted to use protection to halt a content dispute, it is then a misuse of privilege for those who have a high enough right to then edit the article to favour their view in that dispute. Therefore, it is a misuse of protection to use ECP and then allow edits by higher-privileged editors over those who lack such privileges. --Redrose64 (talk) 09:37, 30 August 2016 (UTC)
+I prefer the change by NeilN, because the present wording is so vague as to be meaningless for purposes of guiding actions, and only serves as justifications to argue one's case by either side. Weasel word: "valid"; weasel concept: requires divining intent - David Gerard (talk) 10:24, 30 August 2016 (UTC)
+
+So remove the word "valid", no need to remove the whole phrase. --Redrose64 (talk) 11:15, 30 August 2016 (UTC)
+
+That would be worse, as it would cover invalid content disputes, i.e. not a content dispute at all but one side claims it is to get cover under this wording - David Gerard (talk) 11:26, 30 August 2016 (UTC)
+
+What about: "Extended confirmed protection should not be used as a preemptive measure against disruption that has not yet occurred, nor should it be used to privilege extended confirmed users over unregistered users in valid content disputes on articles not covered by Arbitration Committee rulings." --NeilN talk to me 13:15, 30 August 2016 (UTC)
+
+That's clearer, though it basically makes ECP enough of a PITA for practical purposes that admins are always going to lock articles entirely rather than use it. (See above section.) Depends if that's the community will - David Gerard (talk) 18:09, 30 August 2016 (UTC)
+
+
+
+
+
+
+
+
+
+Any further comments before I implement the change? --NeilN talk to me 00:59, 3 September 2016 (UTC)
+
+I'm concerned that there's a valid reading of the text as it now stands which implies that it is ok to use extended confirmed protection to influence a content dispute where the article is covered by an ArbCom ruling. And not quite understanding, from reading the discussion above, the concern with the previous text. I'm going to revert this part of the change to allow more discussion. - Ryk72 'c.s.n.s.' 20:43, 7 September 2016 (UTC)
+
+@Ryk72: "...nor should it be used to privilege extended confirmed users over unregistered users in valid content disputes." directly contradicts the Arbcom decision. We are favoring extended confirmed users in Arab-Israeli conflict articles because other editors simply aren't allowed to edit them, valid content dispute or no. --NeilN talk to me 21:00, 7 September 2016 (UTC)
+
+NeilN, Agreed, we are favouring extended confirmed users; but we are not favouring, hopefully, one side of a content dispute. The prohibition here is on using ECP to influence a content dispute; and that prohibition should not be limited. Can we work out some wording which covers both concerns? Perhaps even just "... should not be used to influence valid content disputes"? - Ryk72 'c.s.n.s.' 21:34, 7 September 2016 (UTC)
+
+
+
+Ryk72, certainly. I waited for a week to see if anyone had any input on my text and there were no concrete suggestions. I thought my disclaimer about how Arbcom-covered articles were excluded was clear and concise but if anyone has better wording I'm all for that. My main point is that admins patrolling RFPP should not use "content dispute" if declining to use ECP on AI-conflict articles. --NeilN talk to me 21:44, 7 September 2016 (UTC)
+
+NeilN, I appreciate the week's wait for further input, and that I am truly late to the party; the vagaries of page notification. I also appreciate that the concern outlined (admins declining ECP on AI-conflict articles) is a valid one; and that there's a valid reading of this policy which implies support for such declination; and I thank you for articulating it. Concur that Admins should not be declining to ECP any article in the ARBPIA topic space, for any reason; the decision on those pages has been made. (In many ways, they are already protected, and Admins implementing ECP serve only as ArbCom's hammer.) With a terribly literally minded reading, however, the proposed wording covers more than the ARBPIA topic space; extending to all articles covered by all ArbCom decisions. (I do not conceive that explicitly naming ARBPIA is a good solution to this.) I'll try to come up with something which covers all concerns over the next couple of days. And in the meantime, will self-revert to the proposed wording. - Ryk72 'c.s.n.s.' 22:30, 7 September 2016 (UTC)
+
+@Ryk72: Thanks. I see what you're saying now. What about: "Extended confirmed protection should not be used as a preemptive measure against disruption that has not yet occurred, nor should it be used to privilege extended confirmed users over unregistered users in valid content disputes on topics not authorized for 30/500 protection by the Arbitration Committee." --NeilN talk to me 23:09, 7 September 2016 (UTC)
+
+Or, simpler, modify the existing wording: "...Arbitration Committee 30/500 rulings." --NeilN talk to me 23:15, 7 September 2016 (UTC)
+
+NeilN, Thanks for the response. Happier with either of these; though inclined to "mandated" over "authorized". Mandated would cover ARBPIA, and any future decisions where ArbCom similarly decides "these articles are protected", but would not include any future decisions where ArbCom decides "these articles may be protected as a discretionary sanction". Authorized would include both. Thoughts? - Ryk72 'c.s.n.s.' 14:41, 8 September 2016 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┘ @Ryk72: You're okay with the less wordy "Extended confirmed protection should not be used as a preemptive measure against disruption that has not yet occurred, nor should it be used to privilege extended confirmed users over unregistered users in valid content disputes on articles not covered by Arbitration Committee 30/500 rulings."? If so, I think that tweak will be uncontroversial. --NeilN talk to me 15:53, 8 September 2016 (UTC)
+
+I think it's incrementally an improvement. I'm assuming, having proposed that text, you're also okay with it; so will make that change; if not okay, please revert. - Ryk72 'c.s.n.s.' 15:58, 8 September 2016 (UTC)
+
+RfC: Protect user pages by default
+Please see new RfC on protecting user pages by default from edits by anonymous and new users. Funcrunch (talk) 17:13, 31 August 2016 (UTC)
+ECP - Remove manual AN posting requirement
+
+
+ACCEPTED:
+
+
+Consensus is that so as long as the bot report stays in place, an additional manual notification is not necessary. Jo-Jo Eumerus (talk, contributions) 16:09, 23 September 2016 (UTC)
+
+
+
+
+The following discussion is closed. Please do not modify it. Subsequent comments should be made on the appropriate discussion page. No further edits should be made to this discussion.
+
+
+I propose we remove the Notification is to be posted in a subsection of AN for review, unless the topic is already authorized for 30/500 protection by the Arbitration Committee. requirement from ECP usage. The primary reason - it is not being done, and no one seems to care. There is a bot report that is transcluded to AN already (User:MusikBot/ECPMonitor/Report) and all of these protection actions are already clearly visible in the protection log. Any thoughts? — xaosflux Talk 19:05, 1 September 2016 (UTC)
+
+Note: all pages are also clearly visible at Special:ProtectedPages. — xaosflux Talk 11:37, 2 September 2016 (UTC)
+
+
+Support - absolutely. The requirement is already discouraging even its appropriate use. If it's being automatically logged somewhere for statistical and tracking purposes, that should be more than enough. --Kudpung กุดผึ้ง (talk) 12:33, 2 September 2016 (UTC)
+Support it's that magical bit of added bureaucracy that makes admins go "buggrit, just full protect". Get rid of it - David Gerard (talk) 14:09, 2 September 2016 (UTC)
+Comment I am not sure it can be amended by a vote here. The RFC to extend use of ECP specifically had options A, B, C to implement, of which C was the preferred choice which explicitly included the notification at AN. I dont think it can be amended by a local vote here, not without either notifying all the original participants who voted, or having an equally advertised RFC. Only in death does duty end (talk) 14:31, 2 September 2016 (UTC)
+
+We can certainly straw-poll here to see if a wider RFC is a good idea - David Gerard (talk) 19:32, 2 September 2016 (UTC)
+
+
+Oppose as moot. How I read the discussion at WP:ECP2016#AN notification 2 is that the User:MusikBot/ECPMonitor/Report transclusion is sufficient notification to satisfy the policy requirement. Current policy does not mandate a separate subsection for each use. We could rephrase the policy to clarify this if that would be helpful. Mz7 (talk) 19:26, 2 September 2016 (UTC)
+
+I've had people telling me I failed to notify when I used it, and getting annoyed I didn't, so what's clear to you may not be clear to others - David Gerard (talk) 19:32, 2 September 2016 (UTC)
+The policy currently reads as prescriptive to me; and as far as bot reports go - a policy can not force anyone to make any edit - including the bot or its operator. I love the bot report and think that it should stay on AN. I'm also fine with changing this from part of the policy, to just an informative clause telling people reading about this policy that there is a bot report that is currently being maintained. — xaosflux Talk 21:00, 2 September 2016 (UTC)
+
+Hmm, interesting. I didn't realize that people were getting annoyed. Yeah, I also would support adding an informative clause that explicitly confirms that the bot report is there to serve as the notification. If and when someone disagrees with an ECP application, they can create an individual AN section for it then. On a related matter, there were talks during WP:ECP2016 of doing some sort of mass message to all Wikipedia administrators clarifying the expectations for the use of ECP – would something like that be advisable to get everyone on the same page? Mz7 (talk) 23:21, 2 September 2016 (UTC)
+
+That seems fine, I can make a MMS list - perhaps we should see if this passes first? — xaosflux Talk 00:47, 3 September 2016 (UTC)
+
+List at Wikipedia:Administrators/Message_list. — xaosflux Talk 00:59, 3 September 2016 (UTC)
+
+I think we should send out a mass message sooner than later. I'm under the impression many admins aren't aware of ECP, some accidentally using it when they meant to use semi, and at least one that I talked to on IRC thought it was weaker than semi. We probably should wait till this discussion is closed, though, in the (hopefully) unlikely event we are forced to continue posting at AN — MusikAnimal talk 02:08, 3 September 2016 (UTC)
+
+Either way still a good idea - anyone want to draft the message (use a section below) ? — xaosflux Talk 02:23, 3 September 2016 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+Support. Well, I didn't realize we were going to take that line so literally. You can count my vote as "option c, but without manual AN notification". NinjaRobotPirate (talk) 05:00, 4 September 2016 (UTC)
+Any further comments on this ? — xaosflux Talk 14:49, 10 September 2016 (UTC)
+Support From the pre-RFC discussion that framed the question, I was the one that suggested that the manual notification be required. Subsequent discussion during the RFC brought about MusikAnimal's excellent idea of an automated bot script and figured that the wording at the close was clear enough that the bot notification was sufficient, so I definitely endorse the proposal to explicitly state that the bot notification is sufficient and that all admins be made aware. Blackmane (talk) 21:36, 14 September 2016 (UTC)
+Support As I said in the RFC discussion, I think the bot notification is sufficient. Manual notification is redundant. Also, what Blackmane said. Katietalk 21:58, 14 September 2016 (UTC)
+Support the removal of needless bureaucracy. Boing! said Zebedee (talk) 08:33, 15 September 2016 (UTC)
+Support clarifying this issue by specifically noting the bot satisfies this requirement. This was never a requirement in the first place. Consensus was that notification must be posted at AN, not that notification must be posted manually. Administrators would technically be on the hook if the bot malfunctioned, I suppose, but as far as I'm concerned the transclusion of the bot's table satisfies the existing requirement with no changes. ~ Rob13Talk 17:22, 17 September 2016 (UTC)
+Reluctant support: this is not what I envisaged when taking part in the RfC, but we might as well clean this up as a recognition of the facts on the ground. As long as the bot report remains in replace, I see no need at present for manual notification. BethNaught (talk) 17:46, 17 September 2016 (UTC)
+
+
+
+The discussion above is closed. Please do not modify it. Subsequent comments should be made on the appropriate discussion page. No further edits should be made to this discussion.
+
+
+
+Draft mass message to administrators
+This is a very rough draft:
+
+
+
+Hello, {{subst:BASEPAGENAME}}. This message is intended to notify administrators of important changes to the protection policy.
+Extended confirmed protection (also known as "30/500 protection") is a new level of page protection that only allows edits from accounts at least 30 days old and with 500 edits. The automatically assigned "extended confirmed" user right was created for this purpose. The protection level was created following this community discussion with the primary intention of enforcing various arbitration remedies that prohibited editors under the "30 days/500 edits" threshold to edit certain topic areas.
+In July and August 2016, a request for comment established consensus for community use of the new protection level. Administrators are authorized to apply extended confirmed protection to combat any form of disruption (e.g. vandalism, sock puppetry, edit warring, etc.) on any topic, subject to the following conditions:
+
+Extended confirmed protection may only be used in cases where semi-protection has proven ineffective. It should not be used as a first resort.
+A bot will post a notification at Wikipedia:Administrators' noticeboard of each use. MusikBot currently does this by updating a report, which is transcluded onto the noticeboard.
+
+Please review the protection policy carefully before using this new level of protection on pages. Thank you.
+This message was sent to the administrators' mass message list. To opt-out of future messages, please remove yourself from the list. ~~~~~
+
+
+The text in green is subject to change as we continue to discuss above. I pulled some of the text from the background section at WP:ECP2016. Mz7 (talk) 03:09, 3 September 2016 (UTC)
+
+Comment: I think this is a bit premature. It assumes a consensus that hasn't been reached yet. I would prefer xaosflux to relaunch his original statement as a full blown RfC, because consensus can, and certainly does change. I'll repeat here for emphasis, that the bureaucracy surrounding this new protection level is so restrictive that I, and most likely other admins will prefer not to use it rather than be accused of abuse of it by those who take it upon themelves to watch over every single word and act our admins say and do. Kudpung กุดผึ้ง (talk) 07:06, 4 September 2016 (UTC).
+
+I really don't care to write an entire RfC to discuss the 'mechanics' of bot-reporting vs editor reporting. This notice is not meant to go out until the issue above is addressed one way or the other. — xaosflux Talk 15:02, 5 September 2016 (UTC)
+
+
+
+
+A signature will need to be added to the end of the message with a timestamp. Graham87 11:16, 15 September 2016 (UTC)
+
+
+Made a few tweaks for readability, finalizing some text assuming the manual posting requirement will change as above, the timestamp will need to be a real one to mass message this out, added opt-out info. — xaosflux Talk 23:03, 15 September 2016 (UTC)
+
+Please don't use double-small - accessibility. --Redrose64 (talk) 23:27, 15 September 2016 (UTC)
+
+Changed - this is still "draft" please update in any way you think might help (or discuss here!). — xaosflux Talk 01:02, 16 September 2016 (UTC)
+
+
+
+
+
+
+MediaWiki:Protect-text should be updated at the same time this is sent out (assuming the manual posting requirement is dropped) - Evad37 [talk] 02:25, 16 September 2016 (UTC)
+I rephrased the second condition to emphasize that no manual action is necessary for the notification. Mz7 (talk) 21:14, 20 September 2016 (UTC)
+
+@Xaosflux: At this point, I would signal the green light for the mass message. There seems to be a consensus above that the bot report is sufficient as far as notification. Mz7 (talk) 22:52, 22 September 2016 (UTC)
+
+I'll happily process the mass-message as soon as someone can close the discussion above; requested at Wikipedia:Administrators'_noticeboard/Requests_for_closure#Wikipedia_talk:Protection_policy.23ECP_-_Remove_manual_AN_posting_requirement. — xaosflux Talk 23:59, 22 September 2016 (UTC)
+
+
+
+
+
+Clean up: Arbitration 30/500 -> Extended confirmed ?
+Fellow editors,
+With the RfC having closed in support of community approved use of the 30/500 restrictions, should we now go through the policy & clean up any vestiges of "Arbitration 30/500 protection" by moving to the "Extended confirmed protection" phrasing? If there's sufficient support, I am happy to make the changes. - Ryk72 'c.s.n.s.' 14:49, 8 September 2016 (UTC)
+
+@Ryk72: See Special:Diff/720423245 and Special:Diff/720425885. "Arbitration 30/500 protection" → "Extended confirmed protection" is probably okay, but "Arbitration 30/500" → "Extended confirmed" is not, I think. There are many pages (such as Hezbollah at semiprot, and Islamic State of Iraq with no protection) that fall under "Arbitration 30/500" sanctions that are not extended confirmed protected. — Andy W. (talk · ctb) 16:51, 8 September 2016 (UTC)
+
+Technically speaking, is there any difference between the two? If not, we should merge references to one with references to the other, because continuing to use two separate terms makes the reader think that the two protection levels have different effects. Nyttend (talk) 01:19, 15 September 2016 (UTC)
+
+@Nyttend: Technically speaking, they are just two different names for one of the five protection levels that are available. When an admin protects a page (whether for create, edit, move, or upload), they have to select from a five-entry list:
+
+Allow all users (see system message)
+Require autoconfirmed or confirmed access (see system message)
+Require extended confirmed access (see system message)
+Require template editor access (see system message)
+Require administrator access (see system message)
+
+
+We're discussing the third of these five. As can be seen from following the link, the non-localised version of this is "Allow only established editors and administrators" (see mw:MediaWiki:Protect-level-extendedconfirmed), but for users who have selected the language "en - English", we have localised this to "Require extended confirmed access". For those with British English or Canadian English, it's left alone.
+The term "Arbitration 30/500" originated in the early days of this prot level, before it was decided that other situations could merit a similar restriction. --Redrose64 (talk) 11:09, 15 September 2016 (UTC)
+
+So in other words, there's no reason that I can see not to merge the references to one with the references to the other. Nyttend (talk) 11:18, 15 September 2016 (UTC)
+
+Guess not? (it's just that when it comes to protection reasons, one is ArbCom, the other is roughly when semi isn't enough) — Andy W. (talk · ctb) 02:58, 17 September 2016 (UTC)
+
+
+
+
+
+
+
+
+
+User Protection
+
+Top posting: The notice below has not been approved by the community, but may be a proposal. The current RFC on user page protection is running at Wikipedia:Requests for comment/Protect user pages by default. — xaosflux Talk 14:50, 10 September 2016 (UTC)
+
+
+This kind of new protection will be used on User pages. Under this protection policy, only that user can edit its own user page. Yellow locks will be used. Wetit🐷 0 11:08, 10 September 2016 (UTC)
+
+Oppose This can be a serious method of vandalism. The user can get it protected and then do whatever he wants and nonody can touch it. Instead better methods are listed at Wikipedia:User_pages#Protection_of_user_pages Anyway I have left a notice at WT:RFPP about this. Wetitpig0 VarunFEB2003 11:41, 10 September 2016 (UTC)
+
+Wetit, where is this coming from? The current RFC proposes nothing of the sort. --NeilN talk to me 11:50, 10 September 2016 (UTC)
+
+@NeilN: This is not by any ways connected to that RfC but is instead another proposal, however I am moving this into that RfC soon! VarunFEB2003 14:25, 10 September 2016 (UTC)
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia_talk:Protection_policy&oldid=740835205"					
+ 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+This version of the page has been revised. Besides normal editing, the reason for revision may have been that this version contains factual inaccuracies, vandalism, or material not compatible with the Creative Commons Attribution-ShareAlike License.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.188","walltime":"0.326","ppvisitednodes":{"value":1433,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":27003,"limit":2097152},"templateargumentsize":{"value":5910,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  153.510      1 -total"," 24.45%   37.537      2 Template:Mbox"," 22.76%   34.941      1 Template:Skip_to_talk"," 13.07%   20.068      1 Template:Talk_header","  5.78%    8.869      1 Template:Pagetype","  4.54%    6.971      1 Template:Archive_box","  3.95%    6.064      1 Template:Not_editprotected","  3.72%    5.713      1 Template:Ivmbox","  3.63%    5.568      1 Template:Archives","  3.60%    5.528      1 Template:Atop"]},"scribunto":{"limitreport-timeusage":{"value":"0.030","limit":"10.000"},"limitreport-memusage":{"value":1682558,"limit":52428800}},"cachereport":{"origin":"mw1187","timestamp":"20170213093208","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":433,"wgHostname":"mw1187"});});

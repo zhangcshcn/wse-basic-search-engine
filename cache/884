@@ -1,0 +1,223 @@
+ 
+
+
+
+
+
+
+
+Template:Edit fully-protected
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Template:Edit protected)
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+"Template:Editrequest" redirects here. For editing a page when you have a conflict of interest, see Template:Request edit.
+Shortcuts
+
+
+{{fper}}
+{{FPER}}
+
+
+
+
+
+
+Uses Lua:
+
+
+Module:Protected edit request
+
+
+
+
+
+This template is placed on a talk page to request an edit of the corresponding fully protected page. The template should be accompanied by a clear and specific description of the requested change, and consensus should be obtained before the template is added. Please see Wikipedia:Edit requests for guidance, especially if this is the first time you are making an edit request.
+To report an error you have noticed on the current main page or tomorrow's main page, please add it to the appropriate section on Wikipedia:Main Page/Errors instead of using this template.
+
+
+Contents
+
+
+1 Usage
+
+1.1 Basic usage
+1.2 Specify pages to be edited
+1.3 Deactivate a request
+1.4 All parameters
+
+
+2 Parameters
+3 Responding to requests
+4 See also
+
+
+Usage
+Basic usage
+{{Edit fully-protected}}
+Specify pages to be edited
+{{Edit fully-protected|First page to be edited|Second page to be edited|...}}
+Deactivate a request
+{{Edit fully protected}}
+All parameters
+
+{{edit fully-protected
+| First page to be edited | Second page to be edited | Third page to be edited | ...
+| answered = 
+| demo     = 
+}}
+
+Parameters
+All parameters are optional:
+
+positional parameters – Specify pages to be edited. You can add an unlimited number of pages.
+|answered= or |ans= – Set this to "yes", "y", "true" or "1" to mark the edit request as answered. This removes the page from the edit request category.
+|demo= – Set this to "yes", "y", "true" or "1" to demonstrate the template. This suppresses categories and namespace checks.
+
+Responding to requests
+See Wikipedia:Edit requests#Responding to requests.
+See also
+
+{{Edit semi-protected}} – Use this template instead to request that other editors update a page, if you are not logged in or are too new to edit a semi-protected page.
+{{edit extended-protected}} - use this template for pages with extended confirmed protection.
+{{Edit template-protected}} – Use this template for templates and Lua modules that have been protected with template protection.
+Category:Wikipedia fully-protected edit requests – The category to which this template adds pages.
+Wikipedia:Requested moves – For move-protected pages
+
+
+
+
+
+The above documentation is transcluded from Template:Edit fully-protected/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (edit) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Edit_fully-protected&oldid=671694393"					
+Categories: Lua-based templatesRequest templatesHidden categories: Wikipedia template-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMediaWikiMeta-WikiWikibooksWikidataWikinewsWikisourceWikiversity 
+
+
+
+Languages
+
+
+Ængliscঅসমীয়াবাংলাБеларускаяभोजपुरीCatalàCebuanoDolnoserbskiEspañolEuskaraفارسی贛語한국어HornjoserbsceIlokanoBahasa IndonesiaInterlinguaქართულიҚазақшаKurdîМакедонскиമലയാളംმარგალურიBahasa MelayuMìng-dĕ̤ng-ngṳ̄မြန်မာဘာသာनेपाली日本語Norsk bokmålଓଡ଼ିଆRomânăРусскийසිංහලSimple EnglishSlovenščinaBasa SundaTagalogதமிழ்తెలుగుไทยТоҷикӣУдмуртУкраїнськаاردوTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 16 July 2015, at 10:56.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.068","walltime":"0.110","ppvisitednodes":{"value":325,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":19867,"limit":2097152},"templateargumentsize":{"value":486,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":8,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   90.939      1 Template:Documentation","100.00%   90.939      1 -total"," 47.73%   43.409      1 Template:Edit_fully-protected/doc"," 20.82%   18.935      1 Template:Lua","  6.87%    6.252      1 Template:Redirect","  5.33%    4.849      1 Template:Template_shortcut","  3.97%    3.607      3 Template:Tlc","  2.48%    2.256      1 Template:Documentation_subpage","  1.85%    1.679      3 Template:Para","  1.31%    1.192      3 Template:Tl"]},"scribunto":{"limitreport-timeusage":{"value":"0.034","limit":"10.000"},"limitreport-memusage":{"value":1564204,"limit":52428800}},"cachereport":{"origin":"mw1216","timestamp":"20170202135531","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":61,"wgHostname":"mw1247"});});

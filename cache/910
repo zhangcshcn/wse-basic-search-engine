@@ -1,0 +1,294 @@
+ 
+
+
+
+
+
+
+
+Template:Pp-move-dispute
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+If you plan to make breaking changes to this template, move it, or nominate it for deletion, please notify Twinkle's users and maintainers at Wikipedia talk:Twinkle as a courtesy, as this template is used in the standard installation of Twinkle. Thank you!
+
+
+
+
+
+Uses Lua:
+
+
+Module:Protection banner
+
+
+
+
+
+Usage
+
+Use {{pp-move-dispute}} for the normal template
+Use {{pp-move-dispute|expiry=March 10, 2017}} for a specific expiration date
+Use {{pp-move-dispute|small=yes}} for just an icon at the top
+Use {{pp-move-dispute|expiry={{subst:#time:F j, Y|+7 days}}}} for a specific expiration time period
+
+Note that (UTC) will be added automatically.
+This template will be visible only on move-protected pages. Please note that only administrators can protect pages.
+This template should only be used on pages that are move-protected due to disputes; for pages move-protected due to high-visibility, use {{pp-move-indef}}; for other pages move-protected due to vandalism, use {{pp-move-vandalism}}. For other cases, use the generic {{pp-move}}.
+
+This template will categorize into Category:Wikipedia pages move-protected due to dispute  and Category:Wikipedia pages with incorrect protection templates.
+
+See also
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Pp-move-dispute/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Pp-move-dispute&oldid=619983011"					
+Categories: Templates used by TwinkleLua-based templatesTop icon protection templatesHidden categories: Wikipedia fully-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+فارسی한국어IlokanoBahasa MelayuTürkçe中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 August 2014, at 17:16.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.124","walltime":"0.158","ppvisitednodes":{"value":1118,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":104317,"limit":2097152},"templateargumentsize":{"value":1428,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  133.960      1 -total","100.00%  133.960      1 Template:Documentation"," 58.82%   78.792      1 Template:Pp-move-dispute/doc"," 27.43%   36.751      1 Template:Protection_templates"," 24.72%   33.110      1 Template:Navbox"," 14.45%   19.359      1 Template:Aligned_table"," 10.92%   14.633      1 Template:Twinkle_standard_installation","  9.61%   12.875      1 Template:Mbox","  6.22%    8.334      1 Template:In_category","  6.08%    8.149      1 Template:Lua"]},"scribunto":{"limitreport-timeusage":{"value":"0.056","limit":"10.000"},"limitreport-memusage":{"value":1776301,"limit":52428800}},"cachereport":{"origin":"mw1300","timestamp":"20170210082718","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":69,"wgHostname":"mw1274"});});

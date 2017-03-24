@@ -1,0 +1,587 @@
+ 
+
+
+
+
+
+
+
+Template:Pp
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This template is currently protected from editing.
+See the protection policy and protection log for more details. Please discuss any changes on the talk page; you may submit an edit request to ask an administrator to make an edit if it is uncontroversial or supported by consensus. You may also request that this page be unprotected.
+
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+This template is used on approximately 5,000 pages, so changes to it will be widely noticed. Please test any changes in the template's /sandbox or /testcases subpages, or in your own user subpage. Please consider discussing changes on the talk page before implementing them.
+
+
+
+
+
+If you plan to make breaking changes to this template, move it, or nominate it for deletion, please notify Twinkle's users and maintainers at Wikipedia talk:Twinkle as a courtesy, as this template is used in the standard installation of Twinkle. Thank you!
+
+
+
+
+
+Uses Lua:
+
+
+Module:Protection banner
+
+
+
+
+
+This is a general template for producing protection banners and padlock icons. It can be used with any protection reason, any protection action, and any protection level.
+
+
+Contents
+
+
+1 Usage
+2 Parameters
+3 Reasons
+4 Syntax examples
+5 TemplateDate
+6 See also
+
+
+Usage
+
+{{pp
+| 1        = reason
+| small    = yes/no
+| action   = action
+| expiry   = expiry
+| date     = protection date
+| user     = username
+| section  = talk page section name
+| category = no
+}}
+
+Parameters
+All parameters are optional:
+
+1 – The reason that the page was protected. If set, this must be one of the values listed in the reasons table.
+small – If set to "yes", "y", "1", or "true", a padlock icon is generated instead of a full protection banner.
+action – The protection action. Must be one of "edit" (for normal protection), "move" (for move-protection) or "autoreview" (for pending changes). The default value is "edit".
+expiry – The expiry date of the protection. This can be a date (for temporary protection), or one of the strings "indef", "indefinite", "indefinitely", or "infinite" (for indefinite protection). If this is a date, it must be valid input to the second parameter of the #time parser function.
+date – The protection date. This must be valid input to the second parameter of the #time parser function. This argument only has an effect for the "office" and "reset" reasons.
+user – The username of the user to generate links for. As of July 2014, this only has an effect when the "usertalk" reason is specified.
+section – The section name of the protected page's talk page where discussion is taking place. This works for most, but not all, values of reason.
+category – Categories are suppressed if this is set to "no", "n", "0", or "false".
+
+Reasons
+The following table contains the available reasons, plus the actions for which they are available.
+
+
+Reason
+Action
+Description
+
+
+blp
+edit
+For pages protected to promote compliance with the biographies of living persons policy
+
+
+dispute
+edit
+For pages protected due to editing disputes
+
+
+dmca
+edit
+For pages protected by the Wikimedia Foundation due to Digital Millennium Copyright Act takedown requests
+
+
+ecp
+edit
+For articles in topic areas authorized by ArbCom or meets the criteria for community use
+
+
+mainpage
+edit
+For pages protected for being displayed on the Main Page
+
+
+office
+edit
+For pages protected by the Wikimedia Foundation
+
+
+reset
+edit
+For pages protected by the Wikimedia Foundation and "reset" to a bare-bones version
+
+
+sock
+edit
+For pages protected due to sock puppetry
+
+
+template
+edit
+For high-risk templates and Lua modules
+
+
+usertalk
+edit
+For pages protected against disruptive edits by a particular user
+
+
+vandalism
+edit
+For pages protected against vandalism
+
+
+dispute
+move
+For pages protected against page moves due to disputes over the page title
+
+
+vandalism
+move
+For pages protected against page-move vandalism
+
+
+Syntax examples
+Padlock icons
+Padlock icon for a page protected due to vandalism:
+
+{{pp|vandalism|small=yes}}
+
+Padlock icon for a page temporarily protected due to editing disputes:
+
+{{pp|dispute|small=yes|expiry=17 February 2017}}
+
+Banners
+Banner for a page protected due to sockpuppetry, with a link to a talk page discussion:
+
+{{pp|sock|section=Sockpuppetry concerns}}
+
+Banner for a page temporarily move-protected due to page-move vandalism:
+
+{{pp|vandalism|action=move|expiry=10 March 2017}}
+
+TemplateDate
+
+Produces banners to describe why a page is protected and padlock icons
+Template parameters
+This template has custom formatting.
+
+
+
+Parameter
+Description
+Type
+Status
+
+
+
+
+Reason
+1
+
+Reason for protection, may be one of: blp, dispute, dmca, mainpage, office, reset, sock, template, usertalk, vandalism
+
+Default
+empty
+Example
+blp
+Auto value
+empty
+
+
+String
+suggested
+
+
+Small
+small
+
+Specifies whether the small format is used. If set to "yes", "y", "1", or "true", a padlock icon is generated instead of a full protection banner.
+
+Default
+no
+Example
+yes
+Auto value
+empty
+
+
+Boolean
+suggested
+
+
+Action
+action
+
+Protection action. Must be one of "edit" (for normal protection), "move" (for move-protection) or "autoreview" (for pending changes). The default value is "edit".
+
+Default
+edit
+Example
+edit
+Auto value
+empty
+
+
+String
+optional
+
+
+Expiry
+expiry
+
+Expiry date of the protection. This can be a date (for temporary protection), or one of the strings "indef", "indefinite", "indefinitely", or "infinite" (for indefinite protection). If this is a date, it must be valid input to the second parameter of the #time parser function.
+
+Default
+empty
+Example
+20 December 2027
+Auto value
+empty
+
+
+Date
+suggested
+
+
+Date
+date
+
+Protection date. This must be valid input to the second parameter of the #time parser function. This argument only has an effect for the "office" and "reset" reasons.
+
+Default
+empty
+Example
+empty
+Auto value
+empty
+
+
+Date
+optional
+
+
+User
+user
+
+Username of the user to generate links for. This only has an effect when the "usertalk" reason is specified.
+
+Default
+empty
+Example
+empty
+Auto value
+empty
+
+
+User
+optional
+
+
+Section
+section
+
+Section name of the protected page's talk page where discussion is taking place. This works for most, but not all, values of reason.
+
+Default
+empty
+Example
+empty
+Auto value
+empty
+
+
+String
+optional
+
+
+Category
+category
+
+Categories are suppressed if this is set to "no", "n", "0", or "false".
+
+Default
+empty
+Example
+empty
+Auto value
+empty
+
+
+Boolean
+optional
+
+
+
+
+See also
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Pp/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Pp&oldid=761735106"					
+Categories: Templates used by TwinkleLua-based templatesProtection templatesHidden categories: Wikipedia fully-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMediaWikiWikidataWikiquoteWikisource 
+
+
+
+Languages
+
+
+অসমীয়াবাংলাБеларуская (тарашкевіца)‎भोजपुरीBikol CentralCatalàČeštinaދިވެހިބަސްفارسیGagauzગુજરાતી한국어Հայերենहिन्दीHrvatskiIlokanoBahasa IndonesiaKurdîमैथिलीBahasa MelayuBaso Minangkabauမြန်မာဘာသာNederlandsनेपालीनेपाल भाषाଓଡ଼ିଆOʻzbekcha/ўзбекчаភាសាខ្មែរPortuguêsRomânăसंस्कृतम्Sesotho sa LeboaසිංහලSimple EnglishسنڌيSlovenčinaSlovenščinaکوردیی ناوەندیSuomiSvenskaไทยTürkçeاردوTiếng Việt粵語Zeêuws中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 24 January 2017, at 15:07.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.248","walltime":"0.326","ppvisitednodes":{"value":1013,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":115881,"limit":2097152},"templateargumentsize":{"value":793,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":10,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  136.158      1 -total","100.00%  136.158      1 Template:Documentation"," 80.60%  109.749      1 Template:Pp/doc"," 44.16%   60.131      1 Template:Protection_templates"," 41.10%   55.956      1 Template:Navbox"," 26.98%   36.730      1 Template:Aligned_table"," 16.50%   22.463      1 Template:High-use"," 14.95%   20.354      1 Template:Ombox"," 11.79%   16.054      1 Template:High-use/num","  7.72%   10.507      9 Template:Tlf"]},"scribunto":{"limitreport-timeusage":{"value":"0.140","limit":"10.000"},"limitreport-memusage":{"value":2526385,"limit":52428800}},"cachereport":{"origin":"mw1161","timestamp":"20170210083636","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":62,"wgHostname":"mw1210"});});

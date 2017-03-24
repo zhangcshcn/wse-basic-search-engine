@@ -1,0 +1,337 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Deleting
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+Shortcut:
+
+WP:ADMINGUIDE/D
+
+
+
+
+
+
+The administrators' mop and bucket.
+
+
+The relevant policy can be found at Wikipedia:Deletion policy
+Part of an administrator's role is to delete pages due to speedy deletion criteria, XfD discussions, or articles that have been proposed for deletion.
+Deleting a page is relatively easy. Basically, click on the "delete" tab at the top of the page (the tab will only appear if you are an administrator logged in to your account), enter a reason (or edit the automatically supplied reason), and hit delete. That's all there is to it. On very rare occasions, you might post a note at the Deletion Review page to allow others to review your speedy delete action, but that is not a usual practice. Restoring etiquette is the same as deleting etiquette when done per consensus such as per an XfD. However, if you restore a page without a consensus, it is considered proper to notify the page deleting admin of your actions and the reasons for your actions.
+Below are instructions on how to delete and restore pages. Please follow the instructions to delete and then restore the page Wikipedia:Administrators' guide/Deleting/delete2. The instructions below also describe how to use the revision deletion function and restoring selected revisions. As a new administrator, you may not want to use the delete/restore revision extension until you have accommodating experience with basic admin functions.
+
+
+
+Contents
+
+
+1 Deleting a page
+
+1.1 Batch deletion
+
+
+2 Restoring a page
+3 Deleting a revision
+4 Restoring selected revisions
+5 Deleting files
+6 Tools
+
+6.1 Deleting pages
+6.2 Deleting revisions
+
+
+7 See also
+8 Notes
+
+
+
+Deleting a page
+
+
+
+
+You can find many pre-loaded deletion rationales using the drop down option (shown here in a March 2008 screen shot)
+
+
+
+Go to the page you wish to delete, in this case, we will use Wikipedia:Administrators' guide/Deleting/delete2.
+Above the page, you may[1] see tabs history and move and, in between them, you will see  - click the delete button. Don't worry, this will not delete the page, and you will have a chance to review the deletion in the deletion screen that is brought up via clicking the delete button.
+Next to Reason:, select the reason for deleting the page. There are pre-phrased reasons for speedy delete and a few others. The default is "Other reason", and is for typing the deletion reason in the box next to Other/additional reason:. The typed reason in the "Other/additional reason:" box should refer to a particular discussion page for XfD's, such as [[Wikipedia:Articles for deletion/Article]], or a particular criteria for speedy deletion such as A7. You should use an informative reason: "G12" is not helpful, "Speedy deletion per G12- Copyright infringement." is much better. If text from the article appears in the "Other/additional reason:" box, please review that text to remove any libelous, attacking, or other personal information which may appear there; otherwise that material will appear in the deletion log, where it is very difficult to remove.
+Click the Delete page button. That will delete the page.
+At this point, your actions will have deleted all revisions of the page.
+
+Batch deletion
+If you need to delete all the pages created by a particular user, you can use Special:Nuke. For other mass-deletion needs, you can use Twinkle's "D-batch" module (see tools).
+
+Restoring a page
+
+Go to the article you wish to restore, in this case, it is Wikipedia:Administrators' guide/Deleting/delete2.
+Just below the title, you will see "View or restore (one) deleted edit?" - Click on (one) deleted edit.
+This will list all the deleted revisions of the article. Next to each revision, you will check boxes. If you want to restore all the revisions, leave all the boxes unchecked.
+Towards the middle of the screen, there is a box with comment next to it. Type the reason you are going to restore the page into the box.
+Click on restore.
+The page will then be restored.
+
+Deleting a revision
+Under certain circumstances, such as edits involving libel or a user's private information, a particular revision may need to be deleted from history. Before using this tool you should familiarize yourself with the criteria for redaction.
+
+Go to the page history for Wikipedia:Administrators' guide/Deleting/delete.
+Selectively tick which revisions should be deleted in the square boxes immediately to the left of the revision.
+Go to the upper right of the history page and click the "Del/undel selected revisions" button. The system will take you to another screen.
+Select whether to revision-delete the content, the edit summary, the username or all three.
+Provide a revision deletion summary.
+Prior to deleting revisions, make sure that the material to be deleted is no longer in the article.
+Press delete to delete all revisions where the material to be deleted is present on the screen.
+
+Please note that in some cases, revision suppression (which has replaced the old "oversight" process) may be required; see Wikipedia:Oversight for edits that may be suppressed. Administrators may elect to first revision delete the material, and then notify an oversighter directly or via the Oversight mail feature: email oversight-en-wp@wikimedia.org (or use Special:Emailuser/Oversight).
+It is possible to delete individual revisions of a page by deleting the entire page and then selecting revisions to be undeleted, but this method is no longer used routinely.
+Restoring selected revisions
+
+Go to the page Wikipedia:Administrators' guide/Deleting/delete2.
+Insert an edit in which you will want to avoid restoring after you delete the page.
+Repeat steps 2-4 of Deleting a page.
+Repeat steps 1-4 of Restoring a page.
+To restore selected revisions and not restore the edit that needs to be removed from the page history, select the checkboxes only of the edits you need to restore (note: by holding the shift key on your keyboard and selecting one checkbox and the checkboxes above or below it, you can select multiple checkboxes without having to click on each one by one.)
+Repeat steps 5-6 of Restoring a page and the revisions you selected from the checkboxes will be restored.
+
+Deleting files
+You can delete files the same way you would delete any other page by deleting the page itself. However under "File history" you can delete specific versions of the file or change their visibility. If there is more than one revision of a file, clicking the "Delete all" will do exactly that. You cannot delete the most recent one without deleting all older copies and the image description page as well.
+For non-free images, only the most recent revision should be live. All previous revisions should be deleted per the policy on non-free content. This process usually involves tagging the article with {{orphaned non-free revisions}}, then after seven days the older revisions are deleted under CSD F5/WP:F7.
+All deletions of versions of files are logged.
+Tools
+Deleting pages
+
+Twinkle – Allows you to delete a page and optionally its talk page, all the redirects to that page, and even unlink any links to that page. Ability to delete under multiple criteria is now supported
+
+Batch-delete: Click on the "D-batch" link to activate Twinkle's batch delete feature, allowing you to delete multiple pages at once. The module loads all links on the current page and lets you select which ones to delete, along with options to also delete their talk pages, redirects to those pages, and removing links to those pages. Very useful for instance when closing a discussion at WP:AfD as delete, where you need to delete all pages in a category. You can also use Special:PrefixIndex to generate a list of subpages of a page, and then use D-batch to delete all of them.
+
+
+SpamUserPage (WP:SUPG) – Allows you to delete a userspace page, block the user, and issue them with a block notice, all in one click, with options for types of blocks, deletion rationale, etc.
+spamublock – Delete a userpage, block the user, and issue {{uw-spamublock}} with one click
+User:Mr. Stradivarius/gadgets/Draftify (WP:DFY) – allows you to move a userspace draft to the draft namespace without a redirect (deleting the userpage), tag the new draft with a draft template, and notify the user of your action
+Special:Nuke – MediaWiki-provided tool to selectively delete all pages created by a user.
+
+Deleting revisions
+
+massRevdel – Selectively revdel/suppress all edits by a user
+
+See also
+
+Closing deletion discussions - Process for recording community decisions
+
+
+
+
+Articles for deletion
+Miscellany for deletion
+Categories for discussion
+Templates for deletion page
+Redirects for discussion
+Files for discussion
+Undeletion
+Deletion review
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+Notes
+
+
+^ Depending on your skin, the location of the delete link may be an entry on the "More" drop-down near the Search text box (e.g., Vector).
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Deleting&oldid=710633575"					
+Categories: Wikipedia deletionWikipedia Administrators' guideHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+Deutsch日本語 
+Edit links 
+
+
+
+
+
+ This page was last modified on 18 March 2016, at 03:13.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.076","walltime":"0.114","ppvisitednodes":{"value":215,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":12299,"limit":2097152},"templateargumentsize":{"value":80,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   84.649      1 -total"," 58.62%   49.625      1 Template:Sprotected2"," 10.66%    9.027      1 Template:Admin_guide","  9.99%    8.453      1 Template:Shortcut","  7.92%    6.702      1 Template:Navbox","  6.92%    5.861      1 Template:Hatnote","  3.55%    3.004      1 Wikipedia:Administrators'_guide/Deleting/Tools","  2.91%    2.463      1 Template:Reflist","  1.89%    1.601      2 Template:Tl","  1.79%    1.515      1 Template:Clear"]},"scribunto":{"limitreport-timeusage":{"value":"0.030","limit":"10.000"},"limitreport-memusage":{"value":1049453,"limit":52428800}},"cachereport":{"origin":"mw1238","timestamp":"20170204094038","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":67,"wgHostname":"mw1211"});});

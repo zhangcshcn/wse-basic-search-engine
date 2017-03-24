@@ -1,0 +1,882 @@
+ 
+
+
+
+
+
+
+Wikipedia:Drafts
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+This page is about the Draft namespace. For other uses, see Wikipedia:Draft.
+
+
+
+This is not the page to create a new draft. For that, please see #Creating and editing drafts below.
+
+
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcut:
+
+WP:DRAFTS
+
+
+
+
+
+
+
+
+Wikipedia data structure
+
+
+
+
+Namespaces
+
+
+
+Subject namespaces
+Talk namespaces
+
+
+0
+(Main/Article)
+Talk
+1
+
+
+2
+User
+User talk
+3
+
+
+4
+Wikipedia
+Wikipedia talk
+5
+
+
+6
+File
+File talk
+7
+
+
+8
+MediaWiki
+MediaWiki talk
+9
+
+
+10
+Template
+Template talk
+11
+
+
+12
+Help
+Help talk
+13
+
+
+14
+Category
+Category talk
+15
+
+
+100
+Portal
+Portal talk
+101
+
+
+108
+Book
+Book talk
+109
+
+
+118
+Draft
+Draft talk
+119
+
+
+446
+Education Program
+Education Program talk
+447
+
+
+710
+TimedText
+TimedText talk
+711
+
+
+828
+Module
+Module talk
+829
+
+
+2300
+Gadget
+Gadget talk
+2301
+
+
+2302
+Gadget definition
+Gadget definition talk
+2303
+
+
+
+Virtual namespaces
+
+
+
+-1
+Special
+
+
+-2
+Media
+
+
+Drafts are administration pages in the Draft namespace where new articles may be stored. They help facilitate new articles to develop and receive feedback before being moved to Wikipedia's mainspace. If you are logged in, creating a draft before directly publishing the article is optional. Editors may instead choose to create draft pages in their userspace, or directly into mainspace, if they prefer.
+
+
+
+Contents
+
+
+1 How drafts work
+
+1.1 Finding drafts
+1.2 Creating and editing drafts
+1.3 Incubation
+1.4 Preparing drafts
+1.5 Publishing a draft
+
+
+2 Deleting a draft
+
+2.1 Speedy deletion
+2.2 Miscellany for deletion
+2.3 Deletion of old AfC drafts
+2.4 Redirects from drafts moved to mainspace
+
+
+3 Notes
+4 See also
+5 Learn more
+
+
+
+How drafts work[edit]
+Finding drafts[edit]
+Drafts are not indexed by most search engines including Google,[note 1] meaning most readers will not find them. Anyone may search and view drafts on Wikipedia directly using Wikipedia's built-in search engine: simply choose "Advanced", then tick "Draft" or "Draft talk" on the list of options (i.e. in this manner). The list of all Draft pages is at Special:AllPages or Special:PrefixIndex. You may also view recent Draft changes to the namespace, newly created drafts or visit a random draft.
+Creating and editing drafts[edit]
+Anyone, including users who are not logged in, may create and edit drafts. Drafts in the namespace have "Draft:" before their normal title, and also have an associated draft talk page. Users who have VisualEditor enabled will be able to use VisualEditor just like on articles. Registered editors may also move a userspace draft in to the Draft namespace if they choose.
+
+
+
+
+
+
+Create a new draft
+
+
+
+
+
+
+
+
+
+Incubation[edit]
+Incubation was previously done at the Wikipedia:Article incubator. Once in draftspace, incubated articles have the same status as other drafts.
+
+
+
+
+Moved to incubation...
+in need of loving care and gentle handling
+
+
+
+Articles are incubated as a result of i) a deletion discussion, ii) an undeletion request, or iii) userfication
+An editor moves the article or userfication into draftspace. For example: [[Foo article]] is moved to [[Draft:Foo article]], and [[Talk:Foo article]] is moved to [[Draft talk:Foo article]]. The redirects left at [[Foo article]] and [[Talk:Foo article]] must be tagged for speedy deletion as a cross-namespace redirect using {{db-r2}}.
+It would be helpful to link to the original deletion discussion and the decision to move the article into draftspace.
+
+Preparing drafts[edit]
+
+Add the template Draft article, {{Draft article}}, at the top of the draft (not the talk page).
+Disable any categories by inserting a colon before the word "Category". Example: change [[Category:Living people]] to [[:Category:Living people]]
+
+Publishing a draft[edit]
+Publishing a draft will (for now) require an editor to use the page move function to move it in the Main (article) namespace. This means that anonymous editors, or registered editors not autoconfirmed, will need to request publication by inserting into their drafts the relevant template for page move. Editors may also optionally submit drafts for review via the articles for creation process.
+An article created in draftspace does not belong to the editor who created it, and any other registered user can decide that it is done and can be published. Editors who do not want that to happen should use their sandbox or talk page subsections.
+Deleting a draft[edit]
+Drafts are meant to be works in progress, and most will not meet Wikipedia's standards for quality at first.
+Speedy deletion[edit]
+The general section of the criteria for speedy deletion may be applied to drafts. Drafts that are copyright violations, vandalism, BLP violations, or blatant advertising or promotion will be speedily deleted. No special deletion policy for drafts has been decided.
+Miscellany for deletion[edit]
+Drafts are not subject to article deletion criteria like "no context" or no indication of notability. Drafts may be nominated for deletion at Wikipedia:Miscellany for deletion, but not on a primary concern of notability.[note 2]
+Deletion of old AfC drafts[edit]
+Drafts that were created through the articles for creation process and include the {{AFC submission}} template may be deleted under criterion for speedy deletion G13. Most G13 deletions are listed for deletion by bots, which may also warn and inform the draft creator. Pages deleted under G13 may be restored upon request at WP:REFUND (see Wikipedia:Requests for undeletion/G13).
+
+Shortcut:
+
+WP:RDRAFT
+
+
+Redirects from drafts moved to mainspace[edit]
+Redirects that are a result of page moves from the draft namespace to the main namespace should be retained.[note 3]
+Notes[edit]
+
+
+^ Search engines or mirrors that do not respect the robots.txt convention may still index drafts.
+^ It was determined that the community consensus in this RfC regarding the applicability of Wikipedia:Notability to drafts in the userspace or draftspace amounted to "notability guidelines do not apply to userspace and draftspace drafts".
+^ It was determined that the community consensus in this RfC regarding draft namespace redirects amounted to "There is a clear consensus against deletion of draft namespace redirects. There is a rough consensus against the alternative proposal to delete draft namespace redirects after six months."
+
+
+See also[edit]
+
+Request for Comment for the new namespace on the Village pump (proposals)
+Wikipedia:Namespaces
+
+Learn more[edit]
+
+See the technical requirements and future development ideas on MediaWiki.org
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Drafts&oldid=764504088"					
+Categories: Wikipedia information pagesWikipedia draftsWikipedia features 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+فارسی한국어עבריתМакедонскиRipoarischРусскийУкраїнськаاردو中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 9 February 2017, at 08:37.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.148","walltime":"0.263","ppvisitednodes":{"value":686,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":55610,"limit":2097152},"templateargumentsize":{"value":1718,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  189.535      1 -total"," 32.54%   61.681      1 Template:Notice"," 29.75%   56.393      1 Template:Mbox"," 26.23%   49.714      1 Template:Infopage"," 17.83%   33.801      1 Template:About"," 14.72%   27.905      1 Template:Ombox"," 11.58%   21.948      2 Template:Shortcut","  9.68%   18.348      1 Template:Wikipedia_technical_help","  8.46%   16.031      1 Template:Navbox","  5.80%   10.994      1 Template:Namespace_detect"]},"scribunto":{"limitreport-timeusage":{"value":"0.041","limit":"10.000"},"limitreport-memusage":{"value":1688394,"limit":52428800}},"cachereport":{"origin":"mw1281","timestamp":"20170209083712","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1257"});});

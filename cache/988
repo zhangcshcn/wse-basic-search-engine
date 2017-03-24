@@ -1,0 +1,230 @@
+ 
+
+
+
+
+
+
+Wikipedia:Geschützte Seiten
+
+aus Wikipedia, der freien Enzyklopädie
+
+
+					Wechseln zu:					Navigation, 					Suche
+
+Abkürzung: WP:GS
+
+
+
+
+
+Richtlinien
+
+
+Grundprinzipien
+Artikel
+Systematik
+Verlinken
+Formatierung
+Themenbereiche
+
+
+
+Geschützte Seiten sind Seiten, die von bestimmten Benutzergruppen nicht bearbeitet oder sonst verändert werden können. Seitenschutze können nur durch Administratoren gesetzt und aufgehoben werden.
+Auf dieser Seite werden Grundsätze und Konventionen in der deutschsprachigen Wikipedia dargestellt, welche Seiten warum wann für welchen Zeitraum in welcher Version zu schützen sind und wann sie freigegeben würden.
+Über Spezial:Geschützte Seiten können die aktuell geschützten Seiten aufgelistet und nach verschiedenen Kriterien gefiltert werden.
+
+
+
+Die allgemeinen technischen Grundlagen werden unter Hilfe:Seitenschutz beschrieben.
+
+
+
+
+
+Inhaltsverzeichnis
+
+
+1 Gründe und Verhaltensrichtlinien
+
+1.1 Vandalismus
+1.2 Editwar
+1.3 Vorgehen
+
+
+2 Geschützte Lemmata
+3 Kaskadierende Sperrung
+4 Weitere Informationen
+
+
+
+Gründe und Verhaltensrichtlinien
+Es gibt verschiedene Gründe, warum ein Administrator eine Seite schützt:
+Vandalismus
+
+Zum einen sind es Seiten, die neuen Benutzern wichtige Informationen geben sollen und deren Veränderung durch unerfahrene Benutzer großen Schaden anrichten könnte. Dies trifft beispielsweise auf die Hauptseite und auf häufig benutzte Vorlagen zu.
+Bei wiederholtem Vandalismus auf einer Seite sollte diese zeitweise vor der Bearbeitung durch nicht angemeldete Benutzer geschützt werden, wenn eine Benutzersperre des Vandalen nicht greift. Falls eine Seite regelmäßig und in größerem Umfang Vandalismus anzieht (zum Beispiel bei Reizwörtern), kann sie auch dauerhaft für nicht angemeldete Benutzer gesperrt bzw. vor der Bearbeitung durch diese geschützt werden.
+
+In diesen Fällen spricht nichts dagegen, dass schreibberechtigte Benutzer die Seiten weiterbearbeiten.
+Editwar
+
+Ein anderer Anlass für die Sperrung einer Seite kann ein Edit-War zwischen zwei oder mehreren Benutzern sein. Um eine konstruktive Diskussion über den strittigen Punkt zu fördern, kann der Admin die Seite für eine gewisse Zeit schützen und die Editoren somit zur Nutzung der Diskussionsseite zwingen. In diesem Fall sollten bis zum Erzielen des Kompromisses und der Freigabe der Seite höchstens unstrittige Artikelteile bearbeitet oder offensichtliche Fehlinformationen korrigiert bzw. entfernt werden. Zur Auswahl der zu schützenden Version stehen mehrere Möglichkeiten zur Verfügung.
+
+
+Die letzte Version in der Versionsgeschichte kann geschützt werden. Dabei wird der Edit-War zufällig an einer Version angehalten.
+Die letzte Version vor dem Edit-War kann hergestellt und geschützt werden. Dabei werden alle Veränderungen zurückgesetzt, die während des Streits gemacht wurden.
+Eine andere Version kann hergestellt und geschützt werden, wenn die Artikelsperrung sonst einen offensichtlichen Verstoß gegen formale Regeln oder Strafgesetze besiegeln würde.
+
+Vorgehen
+Der Schutz einer Seite kann auf Wikipedia:Vandalismusmeldung beantragt werden. Wer der Meinung ist, dass der Schutz einer Seite aufgehoben werden soll, kann eine entsprechende Nachricht auf Wikipedia:Entsperrwünsche hinterlassen. Änderungswünsche für geschützte Seiten können auf der jeweiligen Diskussionsseite angegeben und diskutiert werden.
+Wird der Schutz um eine Stufe erhöht, so setzt die Software nach Ablauf der Seitenschutzdauer die Seite automatisch zurück auf „ungeschützt“. In diesen Fällen sollte der die Seite schützende Admin prüfen, ob ein Wiedereinsetzen der alten Stufe nach Ablauf der höheren Stufe sinnvoll ist und entsprechend handeln.
+Die Seiten im MediaWiki-Namensraum sind durch die Software automatisch geschützt und können nicht freigegeben werden. Sie können nur von Administratoren bearbeitet werden. Änderungen an diesen Seiten können auf ihren jeweiligen Diskussionsseiten oder auf Wikipedia:Administratoren/Anfragen beantragt werden.
+Seitensperren, die nicht aufgrund von akutem Vandalismus erfolgen sollen (z. B. Seiten im Benutzernamensraum), können unter Wikipedia:Administratoren/Anfragen beantragt werden.
+Geschützte Lemmata
+Abkürzung für diesen Abschnitt: WP:GL
+So wie eine vorhandene Seite geschützt und freigegeben werden kann, können Administratoren auch verhindern, dass eine mehrfach nach den Löschkriterien gelöschte Seite erneut angelegt wird. Soll unter einem solchen Titel ein Artikel wieder angelegt werden, kann man unter Wikipedia:Entsperrwünsche um Freigabe des Seitennamens bitten. Hierbei kann die gleichzeitige Vorlage eines neuen Artikelentwurfs nützlich sein.
+Siehe auch: Wikipedia:Präventivsperre für Castingshowteilnehmer
+Kaskadierende Sperrung
+Die kaskadierende Sperrung (Kaskadensperroption) schützt eine Seite und automatisch auch alle Seiten, die in sie eingebunden sind. Dazu gehören alle Artikel sowie Vorlagen und Bilder.
+Erscheint eine ausführlichere Begründung für einen Seitenschutz notwendig, sollte der die Seite schützende Administrator diese auf der Diskussionsseite der entsprechenden Seite angeben.
+Weitere Informationen
+
+Wikipedia:Die falsche Version
+Wikipedia:Superschutz
+Wikipedia:Pressemitteilungen/FAQ Semi-protection policy – häufige Fragen zur Einführung der Halbsperrung (2005)
+Seitenschutze listet die Gesamtzahl der von Admins vorgenommenen Seitenschutze, die am häufigsten geschützten Seiten und die häufigsten Seitenschutzkommentare.
+Wikipedia:Liste der am längsten geschützten Artikel (nur angemeldete Benutzer)
+Wikipedia:Liste der am längsten geschützten Artikel (Editeditor)
+Wikipedia:Liste der am längsten geschützten Artikel (nur Administratoren)
+
+
+
+
+ 
+						Abgerufen von „https://de.wikipedia.org/w/index.php?title=Wikipedia:Geschützte_Seiten&oldid=156401783“					
+Kategorie: Wikipedia:Artikel 
+
+
+
+Navigationsmenü
+
+
+Meine Werkzeuge
+
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden 
+
+
+
+Namensräume
+
+Projektseite
+Diskussion
+
+
+
+
+Varianten
+
+
+
+
+
+
+
+
+
+Ansichten
+
+Lesen
+Quelltext anzeigen
+Versionsgeschichte
+
+
+
+Mehr
+
+
+
+
+
+
+
+Suche
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel 
+
+
+
+Mitmachen
+
+
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden 
+
+
+
+Werkzeuge
+
+
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-Datenobjekt 
+
+
+
+Drucken/­exportieren
+
+
+Buch erstellenAls PDF herunterladenDruckversion 
+
+
+
+In anderen Projekten
+
+
+CommonsWikidataWikivoyage 
+
+
+
+In anderen Sprachen
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىঅসমীয়াবাংলাCatalàCebuanoČeštinaCymraegDanskދިވެހިބަސްΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+Links bearbeiten 
+
+
+
+
+
+ Diese Seite wurde zuletzt am 24. Juli 2016 um 01:37 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+
+
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.052","walltime":"0.068","ppvisitednodes":{"value":233,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":2638,"limit":2097152},"templateargumentsize":{"value":457,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   42.554      1 -total"," 64.62%   27.498      1 Vorlage:Shortcut"," 13.45%    5.725      1 Vorlage:Hilfeseite-Projektseite"," 10.10%    4.299      1 Vorlage:Wikipedia-Konventionen","  9.79%    4.167      1 Vorlage:Hilfeseite-Projektseite/core","  7.56%    3.215      1 Vorlage:Siehe_auch","  4.36%    1.856      3 Vorlage:Hilfe/style","  3.26%    1.389      1 Vorlage:ShortcutAbschnitt"]},"scribunto":{"limitreport-timeusage":{"value":"0.011","limit":"10.000"},"limitreport-memusage":{"value":874842,"limit":52428800}},"cachereport":{"origin":"mw1188","timestamp":"20170211194112","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":172,"wgHostname":"mw1188"});});

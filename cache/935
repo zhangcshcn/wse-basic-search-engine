@@ -1,0 +1,1148 @@
+ 
+
+
+
+
+
+
+Wikipedia:Village pump (proposals)
+
+From Wikipedia, the free encyclopedia
+This is an old revision of this page, as edited by Izno (talk | contribs) at 01:31, 28 January 2017 (→‎Straw poll:  tweak again). The present address (URL) is a permanent link to this revision, which may differ significantly from the current revision.Revision as of 01:31, 28 January 2017 by Izno (talk | contribs) (→‎Straw poll:  tweak again)
+(diff) ← Previous revision | Latest revision (diff) | Newer revision → (diff)
+
+					Jump to:					navigation, 					search
+
+
+
+
+ 
+Policy
+ 
+Technical
+ 
+Proposals
+ 
+Idea lab
+ 
+Miscellaneous
+ 
+
+
+
+
+
+
+Table of contents
+First discussion
+End of page
+New post
+
+
+
+
+
+
+
+Shortcuts:
+
+WP:VPR
+WP:VP/PR
+WP:VPPRO
+WP:PROPS
+
+
+New ideas and proposals are discussed here. Before submitting:
+
+Check to see whether your proposal is already described at Perennial proposals. You may also wish to search the FAQ.
+Consider developing your proposal at the idea lab.
+Proposed software changes should be filed at Phabricator (configuration changes should have gained a consensus).
+Proposed policy changes belong at Wikipedia:Village pump (policy).
+Proposed WikiProjects or task forces may be submitted at Wikipedia:WikiProject Council/Proposals.
+Proposed new wikis belong at meta:Proposals for new projects.
+Proposed new articles belong at Wikipedia:Requested articles.
+
+
+
+
+« Older discussions, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Centralized discussion
+
+
+
+
+
+Proposals: policy
+other
+Discussions
+Ideas
+
+
+
+
+
+A request for adminship is open for discussion.
+Unpatrol pages that have been moved
+Mandatory tagging of all refdesk pages and some refdesk questions
+New wikitext editor
+Notifying creators of pages nominated for speedy deletion
+Investigating COI editing
+How editing restrictions are listed
+Future of Articles for Creation
+Guidelines for recent year articles
+Notability of secondary schools
+
+
+
+For a listing of ongoing discussions, see the dashboard.
+
+
+
+
+
+archive
+talk
+edit
+history
+watch
+purge
+
+
+
+
+
+
+
+Contents
+
+
+1 Infoboxes – optional plural parameters – removing (s) from labels
+2 Make PC2 no longer available to admins
+3 uploading image choices: should be a third "ownership" IMHO
+4 YouTubers Suggestion
+5 Renaming Category:WikiProject Infoboxes
+6 Proposal to submit blockers on replacing our wikitext editor
+
+6.1 Responses
+6.2 Discussion
+6.3 Third blocker: undo no longer works?
+6.4 There is no plan to remove the old wikitext editor
+
+
+7 Propose marking Wikipedia:Article Rescue Squadron as historical
+8 Notability proposal
+9 "In The News" should be past-tense
+10 Consensus for semi-protection of all userpages
+
+10.1 Edit notice
+
+
+11 Translation of non-English articles
+
+11.1 Duolingo has dropped its Immersion translation system; perhaps Wikipedia can get it; it's far better than machine translation
+
+
+12 Color of charts, graphs, and maps
+13 RfC on the future of G13 and AfC
+14 Need assistance on NFLPrimaryColor
+15 Proposal regarding signatures
+16 Bot to publicize Good Article nominees
+17 RFC on WP:RESTRICT
+
+17.1 Possible solutions
+17.2 Discussion (WP:RESTRICT)
+
+
+18 Mass update of nytimes.com URLs
+19 Wikidata items pointing into our draft space
+
+19.1 Straw poll
+
+
+
+
+
+
+
+Infoboxes – optional plural parameters – removing (s) from labels
+Hello all. Many infoboxes have labels that end with "(s)" (e.g. Template:Infobox person's "Opponent(s)", "Spouse(s)", "Partner(s)" & "Parent(s)", or nearly all labels on Template:Infobox video game).
+For more than three years now, Template:Infobox book has had optional "plural" parameters for these, so instead of |author= having the label "Author(s)", if you use |author= the label says "Author", but if you use |authors= it says "Authors". If someone accidentally fills out both parameters it only shows one item (defaulting to "Authors" in this case, as more than one parameter is filled out). In practice, this means that editors treat these as different aliases of one parameter (many infoboxes have things like this already), and find it easy to choose whether the "s" shows at the end or not.
+"Incremental" changes like this don't make a massive difference on their own, and may not even be consciously noticed by readers, but in my opinion it's small things like this which together add up to make Wikipedia either look professional, streamlined, and easy to read, or messy and convoluted.
+I'd like to test the waters to see what people think about rolling this out across more infoboxes, and, if there's a general consensus of support, propose that we start a trial with a few well-watched medium profile infoboxes (suggestions welcome!), and go from there. ‑‑YodinT 20:29, 29 December 2016 (UTC)
+
+I'd like any option that gets rid of the clumsy "(s)", especially if there's only one of a kind. {{infobox opera}} has also an example to do so: always |librettist=, - the reader will get it if more than one is shown, as here. --Gerda Arendt (talk) 21:33, 29 December 2016 (UTC)
+
+@Gerda Arendt: +1 --User:Ceyockey (talk to me) 23:16, 21 January 2017 (UTC)
+The best thing is to replace most terms that don't require plural forms, or in the case of relatives, simply have a singular "Relatives" field and leave it plural in much the same way we keep "External links" section plural even when there is only one link in the section. — Preceding unsigned comment added by TheFarix (talk • contribs) 18:25, 30 December 2016 (UTC)
+
+Ok, thanks both. I'll start looking at which infoboxes would be suitable to have changes. ‑‑YodinT 14:31, 5 January 2017 (UTC)
+
+In {{Chembox}} I've implemented to cound the number of elements in an input list (comma separates, <br> separated), plus the editors option of 2 parameters. Double imnput could have a warning or maintenance category message. Can {{unbulleted list}} input be detected & analysed? -DePiep (talk) 12:43, 6 January 2017 (UTC)
+
+Lists in infoboxes should not be separated using commas (or other characters, such as dashes) or line-breaks, but instead should be marked up as lists (iusing *), which may be styled in-line with {{Unbulleted list}}, {{Plainlist}} or {{Flatlist}}, or the equivalent in the template code, as desired. Andy Mabbett (Pigsonthewing); Talk to Andy; Andy's edits 12:12, 13 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+Make PC2 no longer available to admins
+
+
+
+
+By a large margin, the participants to this discussion have shown there is no longer a need for this technical control and removal of the configuration is supported. — xaosflux Talk 04:10, 27 January 2017 (UTC)
+
+No objection. See Nyttend's reply on my talk page. - Dank (push to talk) 05:09, 27 January 2017 (UTC)
+
+
+
+
+
+The following discussion is closed. Please do not modify it. Subsequent comments should be made on the appropriate discussion page. No further edits should be made to this discussion.
+
+
+Tracked in Phabricator
+Task T156448
+Since there has been no consensus for the amended PC2, no consensus exists for the original PC2, and it is unlikely to achieve consensus, we should remove the option for (original) PC2 from the protection form and policy. Cenarium (talk) 16:11, 13 January 2017 (UTC)
+
+I agree.--Ymblanter (talk) 19:18, 13 January 2017 (UTC)
+
+
+We need more comments for this to go to phabricator, I'll list this to CENT. Cenarium (talk) 12:03, 19 January 2017 (UTC)
+I agree in principle. However, since PC2 has been used, both on test pages and actual articles, I would not want to mess up the logs. If PC2 is removed will the logs be affected? BethNaught (talk) 12:58, 19 January 2017 (UTC)
+
+No, it won't be. Cenarium (talk) 21:15, 19 January 2017 (UTC)
+
+
+Support - this almost never used PC2 is no more than a legal fiction, taking up space in policy & guidance pages and a potential source of confusion. References to PC2 in project space should be erased and references to "Pending changes level 1" renamed as just "Pending changes": Noyster (talk), 13:21, 19 January 2017 (UTC)
+Support until such time that there is consensus to use it. עוד מישהו Od Mishehu 13:35, 19 January 2017 (UTC)
+Support - this is a tool which admins cannot use in any situation, per repeated broad consensus, and any admin who does is bound to meet with severe dramah. There's no reason why it should even be a technical option at this point. Ivanvector (Talk/Edits) 13:58, 19 January 2017 (UTC)
+Support There's no point in having this cluttering up the options when protecting if we aren't supposed to be using it anyway. There are plenty of other options for protection, this one is simply unecessary and unused. Beeblebrox (talk) 19:12, 19 January 2017 (UTC)
+Support If it can't be used, it shouldn't be able to be used. --AntiCompositeNumber (Leave a message) 23:38, 19 January 2017 (UTC)
+Support removal from the admin toolbox; I don't keep any tools in my toolbox at home that I know I will never use. However, should consensus on using PC2 ever be achieved, it should be able to be restored to the toolbox. — Jkudlick ⚓ t ⚓ c ⚓ s 23:49, 19 January 2017 (UTC)
+Support. PC2 used to be used ad-hoc for cases typically involving arbitration enforcement of some sort, and required a consensus to be obtained at the talk page/ANI/wherever for each individual use. I'm glad we now have ECP. -- King of ♥ ♦ ♣ ♠ 00:21, 20 January 2017 (UTC)
+Support as long as there is no negative impact on historical logs. –Grondemar 06:28, 20 January 2017 (UTC)
+Somewhere between weak support to meh - Not using it is almost the same as not having it, and it seems an unnecessary gray space between PC1 and ECP, even if I can make myself imagine some IAR instances involving BLP where PC2 would be a preferable middle ground (though some combination of ECP and PC1 would do a better job of that IMO). It's not readily available to individuals who would delete the main page, though, so I don't see the work of removing it as absolutely necessary (unless the people involved really want to spend time on that). Ian.thomson (talk) 07:08, 20 January 2017 (UTC)
+Comment - is there an example of a problem this removal would solve? Not opposed to the proposal by any means, but I can't immediately see why it matters either way. -- Euryalus (talk) 07:17, 20 January 2017 (UTC)
+
+
+
+
+Accidental clicking comes to mind. Otherwise, that exact question is why my support is weak and I otherwise !voted "meh". Ian.thomson (talk) 07:19, 20 January 2017 (UTC)
+
+I don't know that it has happened recently, but it has been applied against policy and consensus a number of times by admins who wer somehow unaware they should be using it. While we should expect admins to know such things, I can't see the harm in just getting rid of the option to use it at all. Beeblebrox (talk) 07:36, 20 January 2017 (UTC)
+
+Fair enough. Support per Ian.thomson, as a housekeeping measure. -- Euryalus (talk) 08:13, 20 January 2017 (UTC)
+
+
+
+
+
+
+
+
+Support since repeated RfCs have failed to show a consensus for using it and the major rationale for using it doesn't really apply anymore. The suggestion has always been that this would offer a middle ground between semi- and full-protection in some category of cases. Extended confirmed protection now fills that role, and does so more effectively in a wider variety of situations. I don't see any consensus for PC2 use developing in the future. Hut 8.5 07:48, 20 January 2017 (UTC)
+Support.  Sandstein  08:05, 20 January 2017 (UTC)
+Support if easy to achieve from a technical standpoint. This isn't so urgent because we should trust admins to abide by consensus and desysop those who refuse to, but if we can eliminate the option, might as well. ~ Rob13Talk 20:07, 20 January 2017 (UTC)
+Support on one hand, there is no real risk here, other than misclicks, on the other there is no damage. Iazyges Consermonor Opus meum 23:06, 20 January 2017 (UTC)
+
+Undermining consensus *is* damage. —Jeremy v^_^v Bori! 00:30, 24 January 2017 (UTC)
+
+
+Need closure soon - The consensus is becoming obvious. Time for someone to be bold and then... disable PC2 right away. --George Ho (talk) 00:14, 21 January 2017 (UTC)
+Support per Noyster. --Tom (LT) (talk) 05:41, 21 January 2017 (UTC)
+Comment The request for a snow closure isn't unreasonable. To anyone thinking of !voting: please go ahead and vote. - Dank (push to talk) 14:51, 21 January 2017 (UTC)
+Support—as long as there is no consensus for its use, but it should restored immediately if there is consensus for it later. —MartinZ02 (talk) 19:58, 21 January 2017 (UTC)
+Support, as several RfCs have failed to find a consensus for using PC2. I hope that WP:PC2017 remains a red link. Altamel (talk) 23:57, 21 January 2017 (UTC)
+Oppose. If I remember rightly, it's been used in a few specific circumstances following community discussions about specific pages where other forms of non-full protection have failed to get the job done; the discussion concluded that it was IAR time. In those circumstances (to which I can't point, unfortunately), removing the PC2 would make you the admin who refused to abide by consensus. Nyttend (talk) 13:12, 22 January 2017 (UTC)
+
+While it has been used per IAR in the past, PC2 is not currently in use except on some test pages. BethNaught (talk) 13:17, 22 January 2017 (UTC)
+
+
+Support this and any other measure that restricts or reduces the use of pending changes on en.wiki.—S Marshall T/C 20:52, 23 January 2017 (UTC)
+Support until a PC2 RFC passes by some miracle. — Gestrid (talk) 00:14, 24 January 2017 (UTC)
+Support. Not this shit again. You don't have consensus, stop acting like you do. —Jeremy v^_^v Bori! 00:28, 24 January 2017 (UTC)
+Support - This should not be applied to pages, whether intentionally or accidentally, as the community has not sanctioned it. Removing this level of protection has no downside in my eyes.— Godsy (TALKCONT) 05:54, 24 January 2017 (UTC)
+
+
+ Question: Since a consensus here is fairly obvious, do we know how to turn it off? Can we do it locally or do we have to get devs or other foundation people to do it? Beeblebrox (talk) 21:57, 25 January 2017 (UTC)
+
+In a little over 12 hours, it will be one week since this question was listed at T:CENT. At that point, I'll have one question for Nyttend and another one for everyone. Depending on the answers, I may snow-close this, and then I think it makes sense to present this to the WMF and see what happens. It's entirely possible that everyone will be happy with the result. No drama is better than drama. If something goes wrong, we can deal with it at the time. - Dank (push to talk) 22:26, 25 January 2017 (UTC)
+This is trivial to remove, see User_talk:Cenarium#PC2_and_WP:DEFER. Cenarium (talk) 02:28, 27 January 2017 (UTC)
+
+
+Question. Does anyone here know of any admin, or any group of non-admins, expressing a preference for ever using PC2 within, say, the last year, apart from the related discussion at WP:Pending changes/Request for Comment 2016? I'll ask Nyttend a similar question on his talk page. Normally, of course, the voting here would suggest a snow-close without further discussion, but it's impossible to know ahead of time what the WMF's response will be, so it's a good idea to be clear with them about the state of discussions on the topic. My general sense has been that PC2 discussion has died down in the wake of the two new alternatives, the edit filter and extended-confirmed protection, but I admit I haven't been keeping up. (To save people the trouble of clicking, WP:Pending changes/Request for Comment March 2016 was open for over a month and attracted almost no support.) - Dank (push to talk) 19:32, 26 January 2017 (UTC)
+
+
+
+
+Seems like forever ago that you and me sat down and tried to crack this nut at Wikimania. I have to say that even then I wasn't sure what benefit there was to PC2 over other forms of protection. Seeing as PC as a whole was developed specifically for this project, I would hope the WMF devs and engineers would be fine with a piece of it just going away as it's one less thing they have to maintain. In fact, that's exactly how you should approach them, "hey guys, good news, we can get rid of something nobody's using end never worry about it again!" Beeblebrox (talk) 20:25, 26 January 2017 (UTC)
+
+I don't get what this is all about - nobody is going to be bothered at the WMF by the removal, which is completely trivial. But it isn't going to be one less thing to maintain, it works the same way as PC1 and other wikis use multiple PC levels. We just need to link this discussion and that's it (which doesn't mean it's going to get removed quickly). Cenarium (talk) 02:28, 27 January 2017 (UTC)
+
+
+
+
+
+
+
+The discussion above is closed. Please do not modify it. Subsequent comments should be made on the appropriate discussion page. No further edits should be made to this discussion.
+
+
+
+uploading image choices: should be a third "ownership" IMHO
+Folks, I'm a relative newbie who has uploaded several images to the commons and I believe there should be another category of ownership. I'm not even sure if I will use precisely correct terminology, but here goes... Currently, we are given the option to declare if an image is our own work or not our own work. What to do if the image is a derivative work???? That is, I think there should be a third choice of "my derivatie work". After declaring that, the uploader would be sent to pages that would allow listing of the original source(s) of the image, yet still allow the uploader to eventually declare it as their work and license it with cc4.0 or whatever. This issue has come up multiple times for me, since I've needed to make some "collage" images to illustrate scientific scenarios. If I gather 3 different images with 3 different cc permissions, combine parts of those images into a collage derivative image with other text, etc, shouldn't the derivative image become mine to license under cc4.0? Thanks, DennisPietras (talk) 14:08, 14 January 2017 (UTC)
+
+I often use the {{Photo of art}} template for such things. Maybe generalizing it for non-photo derivative works may make sense. Collages are more complex, though. Jo-Jo Eumerus (talk, contributions) 14:24, 14 January 2017 (UTC)
+@DennisPietras: I see that you are already uploading files to Wikimedia Commons. Thanks for that. Wikipedia mostly manages the encyclopedia, and Commons mostly manages the image repository. If you wish to talk more about this, I recommend going to Commons:Commons:Village_pump/Copyright for the most insightful copyright discussions you will find anywhere online.
+At that forum, I expect people would think about this in a different way. Instead of "yours" or "not yours", the only question is about copyright holders. If someone creates a new work then is one copyright holder, and any derivative work has the original copyright holder plus the copyright for the creator of the derivative. If you combine works of multiple copyright holders then the derived work includes the copyright for each plus an additional one for the derivative. Copyrights only add to each other. They are not replaced when a derivative is created. Blue Rasberry (talk) 20:28, 19 January 2017 (UTC)
+
+@Bluerasberry: "Copyrights only add to each other." is what I needed to understand. Thanks, DennisPietras (talk) 21:07, 19 January 2017 (UTC)
+
+
+
+YouTubers Suggestion
+Hello everyone!
+Recently, I've noticed a lot of articles being created about different YouTubers. Many of them are stubs, for example this article was one of the YouTuber biographies recently uploaded. While the one I just referenced is quite well-sourced, many of them aren't and don't suitably pass WP:GNG.
+So I thought I'd propose a guideline (not policy). Guidelines and essays seem to have been able to form community consensus, for example in WP:FOOTYN.
+Maybe a specific guideline for YouTubers could be created, for example their main channel must have over 500,000 subscribers.
+Opinions?
+Regards,
+DrStrauss talk 14:59, 15 January 2017 (UTC)
+
+I can tell you immidiately - this will never happen. English Wikipedia does not have these types of notability guidelines. What you see at WP:GNG is what you get. If they don't fulfill that, they don't belong on Wikipedia. Simple as that. No further responses necessary. Carl Fredrik 💌 📧 15:04, 15 January 2017 (UTC)
+If they are not notable they can be merged into one page titled "List of YouTubers". QuackGuru (talk) 17:17, 15 January 2017 (UTC)
+A subject-specific notability guideline implies a specific purpose: setting the bar of inclusion slightly above or slightly below the general notability guideline (GNG). I must strongly oppose a guideline that would set an easier threshold, given that virtually all YouTuber biographies will be biographies of living people (BLPs) and thus fall under our relevant policy. There is an interesting case for a guideline that's more restrictive than the GNG, but I suspect that wouldn't reach consensus. {{Nihiltres |talk |edits}} 20:36, 15 January 2017 (UTC)
+
+
+CFCF, QuackGuru, @Nihiltres:: I get the double standard point, probably wanted to set the bar higher but I envisage disagreement. Thanks for your feedback! DrStrauss talk 18:46, 16 January 2017 (UTC)
+
+User:DrStrauss, what about the idea for the "List of YouTubers"? That would solve the issue and preserve content. QuackGuru (talk) 19:08, 16 January 2017 (UTC)
+
+
+
+
+
+
+
+
+@QuackGuru: that's actually a really good idea but how do we "promote" it? DrStrauss talk 19:55, 16 January 2017 (UTC)
+
+You don't need to promote it. You can start a draft and add all the non-notable YouTubers. Once you have enough content you can start a new page. QuackGuru (talk) 19:58, 16 January 2017 (UTC)
+You could also check the edit history of the YouTubers articles. Others may be interested in helping to create a new page. QuackGuru (talk) 14:18, 17 January 2017 (UTC)
+There is page for YouTubers. It is titled "List of YouTubers". If any YouTubers article is not notable it can be merged to "List of YouTubers". QuackGuru (talk) 14:20, 17 January 2017 (UTC)
+
+
+
+
+
+
+I doubt we'll ever have guidelines like that for Youtube or any social media. I'm not going to spill any WP:BEANS but there are definitely places you can go to spend a small amount of money (literally a few bucks) and get thousands of "followers", most of them actually compromised accounts or bot-generated fakes. I'm not going to get into the legality or morality of doing that, but it's a real thing that happens and it's one reason social media WP:BIGNUMBERs can't be trusted. Andrew Lenahan - Starblind 20:59, 21 January 2017 (UTC)
+
+Renaming Category:WikiProject Infoboxes
+I just want to alert people that there is currently a proposal at CFD for renaming Category:WikiProject Infoboxes to Category:Wikipedia infoboxes [1]. Personally, I have opposed this, as this is obviously a maintenance category. I don't understand the rationale behind the proposal. ---Steve Quinn (talk)
+Proposal to submit blockers on replacing our wikitext editor
+Tracked in Phabricator
+Task T154843
+Tracked in Phabricator
+Task T154844
+
+
+
+
+
+
+
+
+
+Please consider joining the feedback request service.
+
+
+
+An editor has requested comments from other editors for this discussion. This page has been added to the following list:
+
+Wikipedia proposals
+
+When discussion has ended, remove this tag and it will be removed from the list. If this page is on additional lists, they will be noted below.
+
+
+The Wikimeda Foundation is working on a new software project called New Wikitext Editor (also known as NWE, or 2017 Wikitext Editor). The "new editor" is being built as a new wikitext mode within the Visual Editor extension. This allows the WMF to consolidate on a single editor with both Visual and wikitext modes. The plan is for this to become the default wikitext editor in a few months. The current wikitext editor would be temporarily retained as an opt-in in preferences, but eventually the current wikitext editor would be removed completely. Please view mw:2017_wikitext_editor for a more thorough explanation of the project, as well as the WMF's reasons for it. The new editor is available for opt-in testing under the Beta features section of Preferences.
+The WMF is still working on a number of issues with the new software, however over the last few months several editors have raised a pair of issues which (in my opinion) they have not constructively addressed. Both of these issues appear to be a direct consequence of designing the "new wikitext editor" as a mode within Visual editor. The issues are:
+
+Slow load time, primarily on larger articles. Different people may experience different load times, but I will report my experience. With the current wikitext editor I am able to start editing the article United States within 3 seconds after clicking edit. (The toolbar at top took a moment longer to finish loading, but that does not obstruct editing.) The new editor took 30 seconds to load before I could begin editing. With the current wikitext editor it took 5 seconds until I could edit our largest article (List of named minor planets (numerical)). With the new editor my load time was 127 seconds.
+Faulty previews. The new editor does not provide genuine article-view previews. Instead it uses the Visual Editor rendering engine for previews. This results in a large assortment of things that render incorrectly in preview, or fail to render at all. The WMF has been working to address these issues for years as part of the Visual Editor work, and they plan to continue hunting down and fixing many of these rendering problems. However the WMF has indicated that some of these rendering problems are CANTFIX or WONTFIX. They hope to address the common cases, and their goal is to eventually get 99+% correct previews.
+
+The WMF has been developing a Technical Collaboration Guideline. According to the guideline, the community is invited to submit "actionable blockers" on any software project. These are issues that block deployment unless/until the issues are adequately resolved. This RFC is seeking consensus to formally submit the one or both issues as actionable blockers. You may support one issue as a proposed blocker while opposing the other.
+EDIT FOR CLARIFICATION: The WMF has been developing a Technical Collaboration Guideline. It is currently a draft. At least one WMF staff member has been actively seeking to test the guideline in action (Qgil-WMF) and another WMF staff member subsequently requested removal of any mention of the guideline (Keegan (WMF)). Editors are reminded that it is merely a draft. This RFC could be interpreted by the WMF as a test of their draft best practices for collaboration with us, or it could be interpreted as some generic consensus on the New Editor's prospects for successful deployment if specific issues are or are not addressed, or it could be interpreted in some other manner. In any case, our goal is to work with each other as partners in a positive and constructive manner, seeking to serve our shared mission to the best of our ability. Added: Alsee (talk) 20:27, 19 January 2017 (UTC)
+Proposals:
+
+Actionable Blocker: Load time. Load time is a priority concern for both new editors and experienced editors. Possible resolutions:
+
+We could happily retain our current wikitext editor; or
+if possible, drastically reduce New Editor load times, particularly on large pages.
+
+
+Actionable Blocker: Article previews. Previews are a critical part of the learning process for new editors, as well as a critical tool for experienced editors. Inaccurate previews will confuse, disrupt, and frustrate. Possible resolutions:
+
+We could happily retain our current wikitext editor; or
+previews must use the article-view rendering engine (this is called the PHP parser), as well as any other relevant parts of the article-view software stack. This fixes the assorted rendering errors all at once, and it ensures that previews remain synchronized with article views when any changes are made to the software.
+
+
+
+Alsee (talk) 00:04, 17 January 2017 (UTC)
+Responses
+
+Support both. The load time on large articles is gross, and using an entirely different rendering engine for previews was a bizarre design decision. Unless both of these issues are adequately resolved, our current wikitext editor is clearly superior to the proposed replacement. If it ain't broke, DON'T BREAK IT! Alsee (talk) 23:52, 16 January 2017 (UTC)
+Support both Loading time is a problem with VisualEditor, I am guessing that it's a problem with Parsoid. And the preview engine should use the parser, not it's own software, otherwise it's just reinventing a wheel. A square one most likely. Jo-Jo Eumerus (talk, contributions) 00:08, 17 January 2017 (UTC)
+Strongly oppose removal. To clarify, strongly support both (03:58, 17 January 2017 (UTC)). On some very large pages the text editor takes a bit to load, let alone the JavaScript-heavy visual editor. The visual editor has its uses and I support keeping/improving it, but making it the sole option would definitely make it harder for me to edit. Daß Wölf 01:34, 17 January 2017 (UTC)
+
+It is a mischaracterization to say that the WMF is making the VE the sole option--it is that both the VE and the 2017 WTE use the same root software. --Izno (talk) 13:43, 17 January 2017 (UTC)
+
+Thanks for your reply, I wasn't aware that VE and 2017 WTE were different things. Still, new WTE also has bad loading times. For example, the minor planets list referenced by Yodin below takes about 20 seconds to render in reading mode, 5 seconds in normal edit source (less than reading mode!), 114 seconds in new edit source and at least 5 minutes and 12 timeouts in VE (I gave up). This page takes around 2.5 seconds in both reading mode and old edit source and 21 seconds in the new edit source. In both cases loading the new edit source caused prolonged browser freezing and delayed keyboard and mouse response as long as the minor planets page was opened in a background tab. I'm going with "don't fix what ain't broke" here. Daß Wölf 01:10, 18 January 2017 (UTC)
+
+
+
+
+Support both. I'd rephrase the first one as "loading times must be less than or equal to the current wikitext editor". Previewing using Parsoid is a mind-bogglingly stupid decision, especially when proper previewing is just an API call away. MER-C 02:59, 17 January 2017 (UTC)
+Support load time as a blocker. Do not support previews as a blocker. Previews are pretty gosh-darn close. --Izno (talk) 13:43, 17 January 2017 (UTC)
+
+Dear Izno, would you submit an edit when you can't preview it? --NaBUru38 (talk) 00:13, 24 January 2017 (UTC)
+
+@NaBUru38: You can preview your edits in WTE2017, though the workflow is a little wonky: Click "Save Changes", and in the box that pops up is an option "Show preview". There's a task open to pull the "preview" button onto the main editing screen at phab:T153306. The original poster of this discussion is making the distinction that previews are not 100% equivalent to the PHP parser (which is a fact, but lacking the context that something like 99%+ renders using Parsoid are correct), not that they don't exist. --Izno (talk) 00:27, 24 January 2017 (UTC)
+
+
+
+
+Support both as I will any other reasonable measures that may achieve allowing us to "happily retain our current wikitext editor". — Godsy (TALKCONT) 13:46, 17 January 2017 (UTC)
+Weak support 2, wary about 1. Load times are going to vary from computer to computer and browser to browser, and I think it's hard if not impossible to explicitly say that a specific measured load time applies to everyone. I support the idea of 1, that load times should be at worst comparable to the current editor, but I'm not sure that in practice this is something that could be a certain result. As for 2, I'm fine with the current previewer (I assume there's a good reason for using it), provided it reaches parity with the old one and is consistent with the saved contents of the page. For the record I very much support the new text editor, and apart from the unintuitive copy/paste behaviour (being debated elsewhere I believe), will be happy to use it. Sam Walton (talk) 15:48, 17 January 2017 (UTC)
+Support both noting that 2 is particularly egregious. Also comment that I do not want the current wikitext editor to be dropped for a very long time. BethNaught (talk) 15:51, 17 January 2017 (UTC)
+Support both Having a resource heavy GUI as the only option would prevent a lot of contributions from editors who don't have the hardware or bandwidth to handle it, which defeats the object of wikimedia encouraging grassroots participation. Not everywhere is wikisilicon valley. In addition inaccurate rendering of previews can cause countless problems, direct and indirect.Cesdeva (talk) 22:41, 17 January 2017 (UTC)
+Oppose I've been using the new source editor since the beta was announced and haven't run into anything like the load times you describe. I'm also not sure the "preview" issue is nearly as serious as you present it; many of the cases in which the preview is substantively inaccurate are pathological in the first place (i.e. you shouldn't be doing whatever it is that's causing the renderer to barf). There are definitely some irritating usability issues, but neither of the items on your list seems worth throwing a wrench in the works over. Opabinia regalis (talk) 23:25, 17 January 2017 (UTC)
+Support both. I have a decent computer, but don't have broadband, and decided to try both of the examples given above. United States: in the current editor took 4 seconds before I could start typing, and 6 seconds before the full page loaded; in the new Visual Editor text mode, it took 35 seconds! Then List of named minor planets (numerical): in the current text mode it took me 8 seconds before I could start typing, and 14 seconds for the entire page to load; in the new editor, it took 90 seconds before timing out, then timed out again at 120 seconds, and took about 122 seconds in total to load. As pointed out above, these figures are just anecdotal, but now that the issue has been raised, please provide reliable stats on a range of modern and old devices, at various internet speeds and in various countries – we don't want to become "Wikipedia, the encyclopedia that anyone with a fast enough connection can edit"! I'm genuinely pleased for people who enjoy using the Visual Editor, and wouldn't want to take it away from them, but likewise please at least provide an option that will allow me and others in a similar position to keep editing. ‑‑YodinT 00:29, 18 January 2017 (UTC)
+
+The best answer to the problem with List of named minor planets (numerical) is that 1.12MB is just too big for one article. I hope the people responsible for the 26 views per day via mobile aren't actually using their mobile data for that. Opabinia regalis (talk) 01:28, 18 January 2017 (UTC)
+Speed varies considerably per account, browser, device, and location. For example, it took me just six seconds in Safari 10 and nine seconds in Firefox 50 to open United States in the wikitext mode of VisualEditor – much less than the time it took your computer. In Safari, VisualEditor's wikitext mode is slightly faster than reading the page; in Firefox, loading the page in read mode is one second faster than opening it to edit.
+The team has a standardized system for testing this. In general, the results are that short pages take faster than long pages; that VisualEditor is faster in Europe and Africa than in North America; that any method of editing wikitext is faster than anything that shows a lot of images (e.g., reading a page); that newer computers are faster than older computers; and that IPs and new editors have faster load times than experienced editors (who tend to have a lot of performance-harming scripts in their accounts). For a reasonable sample of pages (i.e., not just the longest ones), when editing as an IP (e.g., with no scripts or gadgets), with nothing else running (e.g., no other scripts running or tabs refreshing in the background), in a highly standardized setting, the time-to-open speeds are approximately the same for VisualEditor's built-in wikitext mode vs the 2010 wikitext editor.
+And then you impose all of the real-world, non-standardized conditions that affect each of us, and the answer becomes: Who knows? Your experience is your real experience, and whether your experience is fast or slow, it's not safe to assume that the next editor will have the same experience. Whatamidoing (WMF) (talk) 19:33, 19 January 2017 (UTC)
+
+
+Oppose (edit conflict) both procedurally and on the merits. Firstly, the technical guide is still a draft, it's not a guideline like the proposer states. I think it's far too premature to start implementing things from it. Secondly, the draft says that "Development teams participate in the discussion focusing on the proposed blockers (whether they are sensible, consistent with the project, actionable, realistic…)" so I am hesitant to make any decisions until the proposer shows they've discussed this with the devs or until the devs actually participate in this discussion. Thirdly, the purspose of "actionable blockers" is that they be actionable, they, in my mind, need to have clearly defined criteria for when they have successfully been actioned. Neither the proposal nor the draft technical guide adequately lay out how it is determined that an actionable blocker has been overcome. The draft says: "If the development team solves the blockers, the community will be asked for a new review. If no surprises are found, the deployment will proceed." What constitutes "surprises"? What is the threshhold for these proposed actionable blockers? Load times are highly variable, how will we determine an adequate level of load time? What if we just happen to have a discussion full of people contributing via Windows 95 who oppose the re-review? More likely, what if we just keep inflating our standards saying it's not fast enough or the preview isn't good enough in order to filibuster implementation? Wugapodes [thɔk] [ˈkan.ˌʧɻɪbz] 01:37, 18 January 2017 (UTC)
+Support both. Both have long been known as serious VE problems, to introduce these (and other VE problems) into normal editing would be a very bad idea. Fram (talk) 09:32, 18 January 2017 (UTC). To be sure these are still problems, I switched on the new Wikitext mode again, and edited Leuchtenberg Gallery. Not only does it take too long (15 seconds!) before I can start editing, the preview doesn't give ma good idea of how the page will look eventually (e.g. by eliminating the left sidebar, increasing the width of the page). On a second try, I first did "review changes" and from that window "preview", with the result "Error loading data from server: Failed to connect." This happened three times in a row. I could still edit the page and review my changes, so connection wasn't really lost... On preview, I don't get to see redlinks. This is one of the essential elements of preview for me, as it allows the correction of bad links before saving. Opening Exposition des primitifs flamands à Bruges first returns the standard editor for some reason, a second try gives me the new wikitext editor, but only after 50 seconds, which is way too long. I added an image, asked for a preview, and again got "Error loading data from server: Failed to connect.". In standard editing mode (I at this point switched back, quite relieved that that option still existed) opening the page took a few seconds, previewing went without any problem and showed the page as it would look after saving, including redlinks and the like. Fram (talk) 10:00, 18 January 2017 (UTC)
+Oppose. I use primarily use the Visual Editor for content work and find the Parsoid preview adequate 99% of the time. In the few instances where it's troublesome (e.g. not seeing references), there's a very easy workaround: save the page. Excessive load times are a concern, but the proposed "blocker" is too vaguely worded to achieve anything. It seems to me that submitting a phabricator ticket asking for it to be profiled and reduced would suffice (if one doesn't already exist). – Joe (talk) 10:12, 18 January 2017 (UTC)
+
+A. It seems a bit rude for someone not affected by this change (since you are a VE user) to oppose those who are affected by this change. B. "Saving" is no workaround for previewing, previewing is also meant for testing, but the mainspace is no place to test things. Of course, one can copy a page to a sandbox, comment out the categories, and then start testing, but this is no longer an "easy workaround" but a lot of haasle. C. Excessive load times of VE have been noted from the very start of VE, and numerous times since then[2], but have four (five, whatever) years later not been corrected. Yet another phabricator ticket won't solve this. (the "redlinks should be red" issue has been a ticket for more than a month now[3], no activity as far as I can see; other issues also are already phab tickets). Note that the new editor also seems to break some well-used gadgets and tools like Twinkle, apparently (I haven't tested this). Fram (talk) 11:00, 18 January 2017 (UTC)
+
+Fram, the new editor is an entirely new system. Gadgets and scripts will need to be rebuilt from scratch. That adds a one-time cost to switching, but I think it's fair to primarily focus on long-term pros and cons. (Although I'm not really seeing a long-term pro to the new editor.) Alsee (talk) 22:32, 18 January 2017 (UTC)
+@Fram: I said primarily; I also use the wikitext editor so I'm as "affected" as anyone else. After seeing this I opted into the NWE beta and haven't experienced any appreciable slowness, making me think that this, like the very few edge cases where Parsoid previews aren't sufficient, isn't a hugely critical issue. We can't keep obstructing the WMF's efforts at improving our antiquated interface because the new versions have a few bugs. All new software has bugs. – Joe (talk) 09:23, 19 January 2017 (UTC)
+
+
+
+
+Support both, On point one, as a regular editor from developing countries the last thing I need is even slower download times. On point two, I'm mystified at the idea of a preview function that doesn't render the page as it would if you saved it. -- Euryalus (talk) 11:14, 18 January 2017 (UTC)
+Support both. Slower loading times are an issue for developing countries and mobile users who don't like the mobile interface (I know I'm not the only one). But having a preview that doesn't render the page exactly like it appears whennsaved (even if it is just a missing sidebar) is daft. As Alsee said, if it ain't. Time, don't break it. There's no reason to eliminate the plain text editor; far from simplifying things, the proposal to ultimately eliminate it is a switch to a more resorlurcenhungty process for no real benefit. oknazevad (talk) 23:00, 18 January 2017 (UTC)
+Support both The optimism that allows programmers to ply their trade often leads them down strange paths, but none stranger than thinking these features should be imposed on everyone, with performance details on the todo list. Just save your edits for a true preview! That must be what was behind the fuss a couple of months back when someone dropped into WP:VPT to tell template/module writers they should not show extra error messages during preview. Johnuniq (talk) 23:04, 18 January 2017 (UTC)
+Support both per every single support listed here. I tried the new editor and did not enjoy it. If they do go ahead and bring the new wikitext editor out of beta, they must keep the old editor. — Gestrid (talk) 05:46, 19 January 2017 (UTC)
+Support both These sound like serious issues that need to be addressed. Change always makes me a bit uncomfortable, especially when there are problems. Also Support keeping old editor, as I think many editors would consider leaving if it was taken away, and we already have editor retention problems. Tamwin (talk) 05:50, 19 January 2017 (UTC)
+Support both per Euryalus. Ealdgyth - Talk 15:36, 19 January 2017 (UTC)
+Support both Don't fix what isn't broken: current editor working perfectly on my end. Psychotic Spartan 123 18:43, 19 January 2017 (UTC)
+
+Discussion
+
+Does anyone else think the current pasting behavior is weird, too? Whenever I copy a part of a page title and paste it, I want to get the text that I copied, not some empty bulleted lists and other wikitext cruft. Enterprisey (talk!) 03:03, 17 January 2017 (UTC)
+
+There's at least one currently open task for that. --Izno (talk) 13:50, 17 January 2017 (UTC)
+Enterprisey, the WMF is aware of the copy-paste issue. They'll address it. The ability to paste something like a fully formatted table could be really nice in some rare cases, but plaintext is what we want in nearly 100% of cases. Right now they are leaning towards the idea that a single line copy would be plaintext paste, and a multi-line copy would be markup-code paste. (I think that's probably the wrong fix, but I didn't comment on that.) Another idea is that ctrl-V would always paste plaintext, and ctrl-shift-V would always paste markup-code. (That's probably the better fix, but it would be hard to discover that ctrl-shift-V even exists.) The WMF will happily give us whatever we want. Alsee (talk) 14:52, 17 January 2017 (UTC)
+
+
+Once again, Alsee, you refer to a "large assortment" of rendering failures in the Parsoid previews, without providing a link or reference to help editors understand what you are talking about. With the exception of the fact that red links do not appear red (an obviously severe flaw that needs to be fixed), it seems to me that most of the issues that you are referring to are in fact obscure and rarely encountered. It would be helpful if you could link to or provide some examples of wikitext that does not preview as you expect. That way, editors can judge for themselves whether the problem is indeed as serious as you make it out to be. — This, that and the other (talk) 14:02, 17 January 2017 (UTC)
+
+This, that, I considered putting various examples in the RFC, but (1) I didn't want to bloat it up with a huge list, (2) the list that *I* happen to have compiled is an clearly an insignificant fraction of the issues that exist, and (3) I think the fundamental issue is broken previews, even if some of the cases are rare. I said in the RFC that the WMF is hoping to fix the common issues, and is aiming for 99+% accurate previews. If you think the exact list is important, then perhaps the WMF should compile a list. I'll happily contribute my pile of examples. Table of contents is missing. Redlinks, black links, external links, PDF links all show as plain blue links. Some links in the preview point to the wrong place... clicking them or opening-in-new-tab takes you to the wrong page. Markup on a link can completely break the link. Images can display in a completely wrong section (I haven't investigated why). Audio and video aren't included in the preview at all (they are replaced by a speaker-image). Oddly placed comments can break the preview. Some things that should be on one line are split onto multiple lines. Some elements - even entire paragraphs - can display in the wrong order. REFs can be missing from the reflist. I have multiple cases where it fails to render section-titles. Templating a template-name is is broken. Definition lists can render wrong. Some uses of elements like <code> <tt> and <s> can completely trash the preview. It can badly mangle table structure. Cases where stuff like <sub> doesn't get applied. Markup like #if can badly break if Parsiod doesn't like how it's arranged. And more. Some issues are related to Tidy, and the WMF is planning to remove Tidy, but so long as Tidy is part of the article view then Tidy must be part of the preview. And again, I'm sure the WMF can come up with far more examples than I have. And I'm sure that new examples will keep popping up. So let's consider the issue here as fix the endless render bugs that no one has listed yet, anywhere. In which case any particular list is irrelevant. Alsee (talk) 15:32, 17 January 2017 (UTC)
+
+
+I would also add that I forgot to switch off the VE before editing the above section... and for some reason was given the entire html of the page instead of the wikitext of just the section, <!DOCTYPE html><html prefix="dc: http://purl.org/dc/terms/ and all. I didn't dare click preview... ‑‑YodinT 00:34, 18 January 2017 (UTC)
+
+It's a problem I've been experiencing since the last software deploy. I believe that Parsoid is showing us the internals of the page (incorrectly). I would guess there's a phabricator task for this problem at this time but I haven't gone looking (nor have I reported one). It is well you did not save; I find that bypassing your cache fixes the problem. --Izno (talk) 01:10, 18 January 2017 (UTC)
+
+@Yodin: And I didn't see another task in Phabricator, so I've added one; tracked at phab:T155632. --Izno (talk) 15:26, 18 January 2017 (UTC)
+
+
+
+
+I tried the beta for this just now. I noticed the formatting issue when pasting text. That wasn't too bad but there was a major hiccup when I was using it to post an entry in a big RfC. There was an edit conflict and I chose the option to handle this manually. The resulting edit took an 86K bite out of the discussion. That was quite alarming so I reverted my edit immediately. I have stopped using the beta now as it's taking me too far out of my comfort zone when I want to get things done. Andrew D. (talk) 14:05, 18 January 2017 (UTC)
+
+@Andrew Davidson: This is tracked at phab:T154217. --Izno (talk) 15:14, 18 January 2017 (UTC)
+
+
+The Technical Collaboration Guideline is a document of guidance in communications that is in mid-draft and has nothing to do with this. It does not call for actionable blockers as framed here. Remove its mention, please. Keegan (WMF) (talk) 07:41, 19 January 2017 (UTC)
+
+
+
+
+Specifically, the very first line says "This is a recommendation for software projects following the Technical Collaboration Guideline (TCG)". No project is following the TCG since the thing is still being written. More importantly, the guideline is not a guideline in the sense of the word that the English Wikipedia knows, a form of directive. It's help, that's all. To the point: you can't put something under rules it doesn't qualify for, and that aren't rules to begin with. Remove its mention in the proposal. Keegan (WMF) (talk) 07:49, 19 January 2017 (UTC)
+
+
+
+
+Then consider this a Beta test of the TCG. A bit like we get from the WMF all kinds of software that is in mid-draft but which gets rolled out anyway... Fram (talk) 10:03, 19 January 2017 (UTC)
+
+
+
+
+No. Keegan (WMF) (talk) 18:26, 19 January 2017 (UTC)
+
+
+
+
+Keegan (WMF), I have added a clarification on this issue. I hope you find it constructive and satisfactory. Alsee (talk) 20:29, 19 January 2017 (UTC)
+
+I think the entire mention could have been taken out and the intent of the request is clear - I still think that's the better way to go, but meh. What I do not want is to see this as any sort of test or use of the TCG aside from "as an example." If that is your intent, that's fine. I'm working on building collaborative frameworks for the future years, and great harm can come from using them before everyone agrees and we're all ready. I hope you can appreciate that perspective. Keegan (WMF) (talk) 21:02, 19 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+This seems like a pretty pointless discussion, from a developer's perspective. Not sure what it is trying to accomplish. This feature is not being released yet, the feature is not bothering any of the people who are voting here, the previews will be aligned at some point in the next 1-2 years (mostly because maintaining 2 parsers is gonna be problematic), there is no plan to remove the current editor. If someone wants to be useful and constructive however, they could assist in some prototyping work, testing, design feedback etc etc. instead of nurturing your inner Statler and Waldorf. —TheDJ (talk • contribs) 01:49, 20 January 2017 (UTC)
+
+"probably in mid-2017, we'll begin to provide it by default in place of the current wikitext editor"[4] If the WMF plans to roll out a new default editor in mid-2017, then early 2017 seems like the perfect time to discuss whether this really is fit to be the default editor, and which things surely need correcting before this can happen. The result of making this the default editor would be that new editors would encounter three editing environments instead of two (luckily we don't have Flow), as it has been shown here that there are circumstances where you always get the old wikitext editor, even if the new one would be the default. Sending out the message to the WMF that this is not acceptable is best done in time and not at the last minute (or even worse but rather typical, the WMF implements this, then a consensus emerges that we don't want it, the WMF refuses to roll it back because that would be too complicated or "confusing for new editors" or some similar excuse, and only after a long and bitter dispute does the WMF relent). This is a Beta, no one is arguing to end the availability as beta feature, but the stated plans by the WMF to roll out this out as the default in a few months time are simply premature. To dismiss this as "unconstructive" and "nurturing your inner grumpy old men" and adding the rather disingenious "this feature is not being released yet" (no, but it would be very stupid to wait with this discussion until it is released, wouldn't it?) is typical "shut up" behaviour of WMF supporters and not helpful, constructive, or open-minded at all. You could instead take the comments made in this very discussion as "testing and design feedback" and be happy that people care and voice their opinions. Fram (talk) 08:29, 20 January 2017 (UTC)
+
+
+
+Third blocker: undo no longer works?
+
+Apparently from every page, if I am at "View History" (instead of "read") and then press "edit", I get the old editor instead of the new one. Apparently a page must be completely loaded in read mode before the new wikitext editor can be used. This would also mean that something like UNDO would no longer work when the new wikitext editor would be the only available editor. This seems to me to be a major blocker as well. Can others reproduce this and confirm this technically? Fram (talk) 11:18, 18 January 2017 (UTC)
+
+You're mischaracterizing the WMF's plans re the new editor, so far as I'm aware. It is not that there will be no other way to do it, but that the wikitext editor which will be available when e.g. Javascript fails to load will be a simple and plain text field (rather than include the editor bar and other such items). That said, I have reproduced that error multiple times, though no discrete steps for it (I think it's just clicking the 'undo' button, but I could be wrong). --Izno (talk) 13:04, 18 January 2017 (UTC)
+
+As long as the old wikitext editor remains, undo should keep on working, if they start it by default anytime the new editor fails (instead of e.g. only allowing it for people who have turned off the new editor explicitly). What their promises to keep the wikitext editor around are worth is anyone's guess of course. And obviously that "read - edit" gives a different result than "view history - edit" is perhaps not a technical blocker, but is it indicative of the total lack of adequate testing at the WMF, the thing that already sinked so many of their pet projects. The things that get discussed here are not exceptional occurrences or edge cases, these are basic functionality and actions. Fram (talk) 13:49, 18 January 2017 (UTC)
+
+I agree that undo is a regression--and I think their intent to keep a basic text box form is pretty sound because we do need to provide some support for Javascript-less users. --Izno (talk) 15:08, 18 January 2017 (UTC)
+
+
+Having activated and desactivated the new wikitext editor beta a few times, I now have all kinds of problems. At the moment, the beta (new editor) is activated: on most articles, I only get the old editor, and on some pages (e.g. Sumathi Murthy) I can,'t edit at all. This page has now opened in the new editor though (I thought it only worked in mainspace and user space?). Further testing confirms that I now can edit pages in the Wikipedia space with the new editor, but not in main namespace. I think I can safely conclude that this thing is far from ready to become a non-beta feature, never mind the default wikitext editor. Fram (talk) 14:28, 18 January 2017 (UTC)
+
+That sounds more like your cache is wonky. You should consider clearing it. --Izno (talk) 15:08, 18 January 2017 (UTC)
+
+Izno, Fram, I've also had issues where it seems random which editor starts up, and where turning the new editor on or off in preferences doesn't seem to take effect, among other problems. Bypassing local cache with shift-reload does not fix the issue. If it's a cache issue, it seems to be the server cache. I've also had cases preview fail to work at all, returning server errors. I suspect it's related to Parsoid, as I was trying to preview an article which the WMF had listed as generating a Parsoid roundtrip semantic error in their automated testing. Alsee (talk) 23:21, 18 January 2017 (UTC) On second thought, it might have been an article that generated Parsoid timeout in the automated testing. Alsee (talk) 23:45, 18 January 2017 (UTC)
+
+@Alsee: Yes, there's a handful of tasks documenting issues related to the 'wrong editor' in Phabricator. With Fram however "activating and deactivating a few times", that's not going to go well, I should think, and I'm pretty sure I've seen advice regarding other "Beta"-tab projects to the effect of "try to avoid turning things off and on multiple times". --Izno (talk) 23:54, 18 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+There is no plan to remove the old wikitext editor
+I have seen comments now on multiple pages that say something like, "eventually the current wikitext editor would be removed completely" – with the implication that this is definitely planned and will happen soon.
+If we use a typical definition of "plan" like a "list of steps with timing and resources, used to achieve an objective" (to quote the article), then there is no plan to remove any of the wikitext editors from any WMF site. It would be far more accurate to say that the Editing department (and anyone who's been around computing for more than a few years) has a reasonable expectation that none of the current software will be used a hundred years from now, or even a few decades from now. So, sure, it's technically true that "eventually the current wikitext editor would be removed completely": someday, it presumably will be. However, it's also technically true that "eventually" I'm going to die (as will all of us) – and AFAICT it's still an open question as to which of those events will happen first.
+On the other hand, I believe that we are all going to outlive the old parsing system, which is what the second proposed blocker concerns. They are planning to remove the old (HTML4-based) parser and to use (HTML5-based) Parsoid for saving all pages, no matter which of the many editing tools you're using. This epic project will certainly not be finished during 2017, but when it is finally completed, the odd differences between the two parsers will simply disappear. (One example: should [<!-- Invisible -->[Text]] produce a normal wikilink or should it display all the characters on the page or should it display the brackets but not the invisible HTML comment?) 
+If you are interested in this project, then I recommend that you join WP:WikiProject Check Wikipedia. The first major step in replacing the old parsing system is described at mw:Parsing/Replacing Tidy; basically, some typos in HTML codes (e.g., someone typing </br> rather than the correct <br>) will no longer be silently fixed. (NB: This initial set of disruptive changes would have to happen even if Parsoid didn't exist; the library is unmaintained and outdated.) Whatamidoing (WMF) (talk) 07:25, 19 January 2017 (UTC)
+
+@Whatamidoing (WMF): When you say that Parsoid will be used to save all pages, do you mean that pages will be saved in Wikitext but rendered with Parsoid, or saved in Parsoid HTML and round-tripped to Wikitext for source editing? I hope the former, as the latter will inevitably cause dirty diffs, and if made retroactive will change historical Wikitext revisions. BethNaught (talk) 09:00, 19 January 2017 (UTC)
+
+I mean that what we've called "the parser" for years (Parser.php and a string of other supporting pieces in that system) will be completely removed – gone, not used, completely unavailable, deleted from the servers, given a death certificate that lists bitrot as the primary cause of death, etc. If you use (for example) the oldest, Javascript-free wikitext editor to save a change today, the resulting wikitext revision is currently turned into HTML by the old parser so that a reader can read it. When (2018? 2020?) the switch to Parsoid-based rendering is completed, even if you use exactly the same editor, the resulting revision will be turned into HTML by Parsoid instead. This change should have no practical effect on most Wikipedians, although I suppose that people may someday wonder why "obvious typos" like </br> were overlooked in articles for years. The change will be retroactive in the specific sense that it will no longer be possible to use the old parsing system to render any pages, so if you go look at a revision from 2003, then you will see how Parsoid turns it into HTML5, rather than how the old parser turned it into HTML4. (This is not very different from what we have now, since "the old parser" has changed quite a lot during its existence, and there's currently no way for you to see the 2003 revision with the 2003 parser, either.)
+Whether revisions should be saved in wikitext alone or simultaneously saved in both wikitext and HTML+RDFa was an open question the last time I heard anyone mention it, but not one that affects the editing experience. (The idea seemed to be that dual-format saving would increase disk use but might be faster to read.) A few years ago, the devs discussed someday saving pages in HTML+RDFa alone and then turning them back into wikitext whenever someone wanted to edit, but interest in that option was limited. Maybe it's something they should consider again in future decades, but I don't expect it to happen in the foreseeable future. Whatamidoing (WMF) (talk) 17:13, 19 January 2017 (UTC)
+
+
+
+Propose marking Wikipedia:Article Rescue Squadron as historical
+Let me preface this by saying that this is not intended as a judgement or indictment of this project, rather a simple reflection of the fact that it is inactive. After a number of the more high-profile members of the project wound up blocked for various things several years ago, it seems to have petered out. Only four actual users posted to the talk page in all of 2016. Nobody has actually responded directly to another users' post in 14 months. Last edit of any kind to the talk page was over four months ago. There were only five edits by users to the project's main page in 2016, the last even marginally substantive edit was five months ago. The rescue list, the heart of this project, still gets an occasional post. For the last year there has been no actual discussion there, users post things and later on a bot archives them. Several formerly active areas of the project have already been marked as historical.
+All of that being the case, it seems clear that this project is basically not doing anything and should be marked as historical. However, I suspect if I or anyone else did so without discussing it first they would be reverted and needless drama would follow, so it would be better to establish a consensus to do so first. Beeblebrox (talk) 07:18, 18 January 2017 (UTC)
+
+Oppose The proposal is obviously mistaken because it states quite clearly that there has been activity in 2016 and there were clearly fresh listings in December 2016. Myself, I engage in rescue activity on a daily basis – patrolling and removing proposed deletions; participating at AFD; filling in red links and improving articles at related activities like Women in Red and editathons like the one scheduled for next Monday. And I'm still ready to answer a call for assistance when it comes; notice how quickly I responded to this proposal. The project is listed as a resource in works about Wikipedia such as Wikipedia – The Missing Manual and has been written about by illustrious members such as Nicholson Baker. If it's quieter now then that reflects the fact that AfD in general is much quieter than it used to be in previous years. Andrew D. (talk) 08:09, 18 January 2017 (UTC)
+
+
+The rescue list, the heart of this project, still gets an occasional post. This says it all: the project is still serving its purpose. The list averaged 3/4 posts per month last year, notifying us of articles where the skills of users good at finding sources would be helpful; there's no need for discussion taking place in the list itself, when usually there's a proper discussion at the other side of the link. Diego (talk) 15:19, 18 January 2017 (UTC)
+
+
+Oppose The fact that years ago two users got blocked, and one left do to addiction to Wikipedia, has nothing to do with anything. It was still quite active for quite awhile since then. Just today an article was mentioned there, and I went there, rewrote the article, and added references to reliable sources. Wikipedia:Articles for deletion/Ashley Qualls Dream Focus 17:12, 18 January 2017 (UTC)
+
+
+If you are discussing eliminating it, shouldn't you put a notice telling people who still go there about this discussion? Dream Focus 17:17, 18 January 2017 (UTC)
+
+
+
+
+i'm not proposing "eliminating" it, but for the record this was posted less than one minute after this discussion was opened. Beeblebrox (talk) —Preceding undated comment added 19:04, 18 January 2017 (UTC)
+
+Shutting it down is eliminating it. And I think a notice on the rescue list page itself would get more notice. I'll put one there. That's all people check regularly. Dream Focus 19:37, 18 January 2017 (UTC)
+
+
+
+
+
+
+Strong support We need to get better at closing down old projects that have long since stopped serving their cause. A major issue when I started on Wikipedia was how I found it difficult to find out where I could best partner up and discuss things with other editors. The reason for this was the bazillion different projects I could join, of which only a mere handful were actually active.
+
+
+I get the pride and why people defend it, but an occasional message every few months that doesn't get a response only acts to disperse what could be centralized discussion, leading to threads with no answers.
+Other online communities are maybe less impacted by this, or are better at closing down their dead spaces. We need to do it too. Carl Fredrik 💌 📧 19:34, 18 January 2017 (UTC)
+
+Edit: added strong – there is really no discussion to be seen on that page. Its talk page consists of a few notices without responses. That is precisely what a dead project looks like. Carl Fredrik 💌 📧 19:35, 18 January 2017 (UTC)
+
+Wikipedia:Article_Rescue_Squadron_-_Rescue_list does get activity, and does get results for articles listed there by people wanting help. Dream Focus 19:41, 18 January 2017 (UTC)
+
+
+
+
+
+
+Oppose - I've been an active user there in the past, and still monitor it for entries, and still occasionally participate when entries are added. Not sure why folks think it's "historical", though I guess you'd have to look at the Wikipedia:Article_Rescue_Squadron_-_Rescue_list page. -- GreenC 19:52, 18 January 2017 (UTC)
+Oppose - Active, not historical. Hmlarson (talk) 20:13, 18 January 2017 (UTC)
+All I can say is that to an outside observer it doesn't look like there is any actual collaboration happening via this project anymore. That is the purpose of wiki projects after all, but I'm willing to concede the possibility that they are doing so in ways that don't leave obvious footprints even though I've never seen anything like that before. Beeblebrox (talk) —Preceding undated comment added 23:26, 18 January 2017 (UTC)
+
+Someone asks for help finding sources for something that seems notable or working on the article to make it more encyclopedic, they post there, and various people show up to help if they can, more often than not. You posted there once asking for help with an article. Wikipedia:Article_Rescue_Squadron_-_Rescue_list/Archive_12#Course_.28meal.29 Ashley Qualls shows collaborations still happen. One editor asks for help and finds some books mentioning the person, mentioning them in the AFD. I read through references and searched for more reliable sources, and did some work on the article. Another editor shows up and added additional references to the article. Dream Focus 03:31, 19 January 2017 (UTC)
+
+
+ARS is a WikiProject. They are rarely marked "historical". The usual thing to do is to mark it as "semi-active" or "inactive" with {{WikiProject status}}. WhatamIdoing (talk) 07:29, 19 January 2017 (UTC)
+Oppose While I don't spend a lot of time watching the project, but I think the majority of my wikipedia time and edits are necessarily involved in article rescue. In other words, there are too damned many wiki editors out there who wish to delete valid content, who wish to censor knowledge from the rest of the world. If these feckless people would learn how to do a WP:BEFORE, meaning do a google search before acting; if they would learn to respect the hard work of other editors, particularly newbies and IPs; in some cases, if they would just learn how to read; article rescue would not be needed. However, that is not the case. We have, as a class, far too many illiterate, obstinate idiots, many with senior wikipedia credentials, who get their jollies out of removing content. If they would use their wiki skills to help editors with inferior, they would be doing some good for the community. Instead, the inflate their egos by throwing their weight around. One person's opinion vs serving the greater good. It is a never ending, thankless job to try to defend the material that is here. An effort to silence this group, to declare it dead, to try to make it go away, is reprehensible. Trackinfo (talk) 01:45, 24 January 2017 (UTC)
+
+Notability proposal
+A lot of time seems to be waisted on arguing whether an article about something, someone, some place, is or is not notable. Can we not triage into: (1) Encyclopedic notability (which need not be mentioned), (2) local notability (which should), (3) No consensus of notability (which is a must in the failure of a successful AfD, which is mostly due to it only coming to the attention of a too small cohort interested editors). It seems to me that many that fail to get AfD'ed are those minority articles that don't attract the interest of enough other editors enough to dissect and expose the lack of notability. This would reduce the size of a file that someone, educational or charity organisation needs to download when they have need for a copy of WP. As is said: WP is not a paper encyclopedia and so it now can accommodate millions of articles. There is no reason why another million can't be added but our reputation for reliability is getting evermore diluted as more and more non notable's and doubtfully accurate verbiage gets added by people that want to promote themselves, their company, their school, or their local hamburger stall, etc. Also, if articles that fall into categories (2) & (3) can it also have a different background colours to differentiate them from the truly notable pages? It may also put off (or make some people think twice) about asking a member of staff to create a WP page about them in the hope that having a WP page some how gives them more credibility than they really have in the hope that a WP article will promote their career. If the background is in another colour, they will relize it will only go to alert their prospective clients that they are really dealing with an also ran and perhaps self-promotional article rather than a WP Notable. This I think, continues our sprit of WP is not a paper encyclopedia and at the same time, allow new editors the freedom to create new (and hopefully great) articles. Obviously I haven't doted all the 'i' 's and crossed all the 't' 's so not ready for a ploicy change request. However, it could help us to take WP to a new level of being a font of all knowledge whilst saving 95% of our time on just sorting out 5% of the Paid and COI editors.--Aspro (talk) 21:02, 19 January 2017 (UTC)
+
+I have wondered, but not so far put into print, whether there should be a separate "Micropedia" where the test of notability is severely relaxed. Rather than pressing for full articles with pictures and detailed citations as in Wikipedia, such a space would consist of low notability, short articles. Obviously WP:BLP needs to be enforced, but a couple of text paragraphs on an obscure singer would be fine. If the singer becomes more notable, then the article could be prompted into WP. Keeping the micropedia separate will help protect WP's reputation whilst allowing Aspro's category 3 articles to exist. Restricting the length and graphical content would help mitigate the storage requirements for potentially millions of articles. Be gentle, I don't claim that this is fully worked out, just an idea to kick around. Martin of Sheffield (talk) 22:52, 19 January 2017 (UTC)
+No. Notability as a Wikipedia term d'art only means one and one thing only: the existence of sufficient independent reliable source material to use to help write a quality article from. If the source material exists, we write the article. If the source material doesn't exist, we don't write the article. All other considerations are distractions from the mission of the encyclopedia. --Jayron32 01:40, 20 January 2017 (UTC)
+
+
+
+Sorry Jayron, but is that no to Aspro's idea of colouring or no to my idea of a separate *pedia not part of Wikipedia? Martin of Sheffield (talk) 09:24, 20 January 2017 (UTC)
+
+
+Well, it's actually a three-part thing:
+
+sufficient independent reliable source material to use to help write a quality article from, and
+the subject isn't excluded by WP:NOT, and
+editors want to have it as a separate article (e.g., rather than merging it with a larger article).
+
+
+You have to have all three points (although #1 is usually the biggest problem). WhatamIdoing (talk) 02:04, 20 January 2017 (UTC)
+
+
+
+
+
+
+
+
+Agree that #1 is the main problem and the problem is that most craftsmen, artisans and professionals only need to be known locally to earn a living but other craftsmen and artisan that focus on niche markets need to promote their work also. They do so through more widely read magazines to reach a wider clientèle. There is a confusion that because these artisans, financial consultants, etc., get mentions in some widely read magazines and TV slots (that also need copy) that this makes them 'notable'. So many articles fail to contextually provide 'sufficient' reliable sources to back up the claim of notability. OK, some designer gets mentions in Vogue or some such. Does that make them notable? Many editors here have had scientific papers published. I have spoken on the radio and had some of my photographs reproduced many thousands of times – does that make me a 'notable' photographer or someone who has taken photographs that others reproduced because they need images - just like Fox, CBS Vogue and other magazines need copy? Sooner or later we have to bit this bullet of giving in to Wikilawyering.--Aspro (talk) 18:27, 21 January 2017 (UTC)
+
+
+
+
+
+"In The News" should be past-tense
+Have you ever noticed that documentaries on the Learning Channel have a bad habit of narrating everything in the present tense?
+On the home page, I would prefer Wikipedia's "In The News" to be a paragon of English style, and properly relate past events in the past tense, instead of emulating The Learning Channel. Today's In The News is a barrage of this error, implying that the writer is unable to conjugate verbs beyond the present tense. For me, it's a reflection of credibility.
+Thank you for your consideration Nei1 (talk) 02:44, 20 January 2017 (UTC)
+
+Oppose. Present tense is the standard for news reporting; just look at Google News. A majority of headlines are in present tense. -- King of ♥ ♦ ♣ ♠ 03:32, 20 January 2017 (UTC)
+Oppose Many people who see In The News will believe that it is what the news is covering now and not what is in the past. If this proposal is to go ahead then I would prefer it "In The News" was renamed. --SwiftyPeep (talk) 09:16, 21 January 2017 (UTC)
+
+Consensus for semi-protection of all userpages
+Since new and unregistered users are no longer allowed to edit pages in userspace, it would be best to semi-protect all userpages and require them to register and/or wait 4 days and make 10 edits.
+It would be nice if there was an error message displayed when they click on the View Source button on the top of the page. It would look like this:
+{{Divbox|red||[[File:Padlock-red.svg|left|64px]] '''You cannot edit this page in userspace because it belongs to the owner of this page.'''<br>It can be edited only by [[WP:AUTOCONFIRMED|established registered users]]; if you notice an error or would like to make a change, requests can be made on the talk page. Please ensure you have an account and are logged in to edit.}}
+Which renders:
+
+
+
+You cannot edit this page in userspace because it belongs to the owner of this page.
+It can be edited only by established registered users; if you notice an error or would like to make a change, requests can be made on the talk page. Please ensure you have an account and are logged in to edit.
+In many situations, however, when they try to edit and save the page, they are greeted with an error stating that "This edit has been prevented because new and unregistered users can not edit" another user's page. This was surprising on how Wikipedia started to prohibit this.
+So, as I stated, let's make consensus to semi-protect all userpages and confort policy. 2600:1:B10E:7C33:8856:4BB4:A832:3354 (talk) 06:24, 20 January 2017 (UTC)
+
+I don't think semi-protection per se is the right solution. Is it possible to create an edit notice that would appear specifically in this situation? Note that I'm not endorsing that the proposed notice above should be used verbatim. –Grondemar 06:35, 20 January 2017 (UTC)
+
+
+This is already done via edit filter. There's no need to have an adminbot semi-protecting everything when we have a perfectly good edit filter taking care of it. ~ Rob13Talk 21:46, 20 January 2017 (UTC)
+
+
+
+
+Probably distracting to the discussion
+
+
+
+
+When did this "unregistered users can't edit userspace" thing happen? That seems kind of messed up. Ivanvector (Talk/Edits) 21:49, 20 January 2017 (UTC)
+
+
+
+
+Wikipedia:Requests for comment/Protect user pages by default was open for over two months. It's a good idea to regularly check WP:CENT if you want to keep up with this stuff. Beeblebrox (talk)
+@Ivanvector: A little while ago (see above link). It was an anti-harassment initiative. It isn't all userspace by the way. It is the root user page of another user that non-autoconfirmed editors can't edit. As most of those are threats, harassment, vandalism, etc. anyways. --Majora (talk) 22:41, 20 January 2017 (UTC)
+
+Correct. Only registered users are able to put their threats, harassment & vandalism on User: pages. We make IP users put their threats, harassment & vandalism on User_talk:. I'm actually not sure why we didn't go all the way to full protection + owner. - Ryk72 'c.s.n.s.' 22:49, 20 January 2017 (UTC)
+
+Little steps. Harassment from regular editors on user talk can be quickly dealt with by blocking the entire account. Drifting IPs make that far more difficult for anons. And why don't we just do full + owner? Because sometimes user pages need to be CSD tagged or other things do need to be removed. Having to go to ANI every time to alert an admin in those instances would be a lot to ask. --Majora (talk) 22:56, 20 January 2017 (UTC)
+
+Just seems like an overreaction to me. If we're going to assume all IPs are harassers, shouldn't we just prevent logged-out editing entirely? And yeah, I should pay more attention to CENT. Ivanvector (Talk/Edits) 23:57, 20 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I'd recommend it be: "All pages but a user's main talk page would be given this protection." I like the idea of the protection, but it needs more solid standards. Iazyges Consermonor Opus meum 23:04, 20 January 2017 (UTC)
+I agree with Rob, if an edit filter is serving the same purpose as semiprotecting every root user page, then the purpose is met. The edit filter will work better anyway as it will not require ongoing action to apply the restriction to new user pages as they are created. Ivanvector (Talk/Edits) 00:04, 21 January 2017 (UTC)
+
+Edit notice
+I'm creating a subheading to get more attention on this portion of the IP's proposal, which I think is a good idea I don't want to be lost. Right now unregistered and new accounts do not learn they are not allowed to edit others' user pages until after they try to save the edit, which is WP:BITEy. Is it possible to create an edit notice that will appear only for unregistered and new accounts so they know they cannot perform the edit as soon as they open the editing window? –Grondemar 01:08, 21 January 2017 (UTC)
+
+I am not aware of any way to make an edit notice that functions like that. They usually appear to anyone trying to edit the page. Beeblebrox (talk) 03:40, 21 January 2017 (UTC)
+Yes. We can use CSS to only show it to non-autoconfirmed users. — JJMC89 (T·C) 03:50, 21 January 2017 (UTC)
+
+I'd tweak the wording a bit, since no one actually owns articles, using the sentance You cannot edit this page in userspace because it belongs to the owner of this page goes against that and implies that people do own articles.
+
+
+
+I'm for clear wording, but that really needs to be changed. KoshVorlon 19:51, 21 January 2017 (UTC)
+Translation of non-English articles
+A discussion has been started at AN about adopting Duolingo's crowd-sourced translation system. This might help dealing with non-English article content which is often just replaced with faulty machine translations. Please feel free to participate here. De728631 (talk) 18:21, 20 January 2017 (UTC)
+ Moved from WP:AN
+Duolingo has dropped its Immersion translation system; perhaps Wikipedia can get it; it's far better than machine translation
+I know that there's been problems with Wikipedia's current translation system and the overuse of machine translation. Duolingo had the model of crowd-sourcing translations. I have often contributed to Duolingo translations from non-English Wikipedias and found that crowd-sourcing can lead to high quality translations. Perhaps Wikipedia can look into getting Duolingo's system. Lots of Duolingo users are upset about the loss of Duolingo's Immersion translation system. I think Wikipedia has an opportunity to step in and offer a crowd-sourcing translation system (either get Doulingo's or develop our own). This is also a win-win situation both for Wikipedia and the fans of Duolingo's Immersion tool who spend a lot of time translating articles for free. Duolingo's system was very general and went between any two languages they supported. This system had some features that encouraged people to think through their translation. ----RJGray (talk) 18:09, 20 January 2017 (UTC)
+
+
+
+I wonder if Wikisource would be interested in this as well, if WMF were willing to support it. ‑‑YodinT 20:10, 21 January 2017 (UTC)
+A wikiproject to provide a 'home' and some sandboxes for collaborative working would be enough to get started, without even obtaining/developing any new tools - is there an existing Translation Wikiproject? 4u1e (talk) 11:10, 24 January 2017 (UTC)
+
+This seems to be it: Wikipedia:Translation. Not much going on the talk page, though. 4u1e (talk) 11:43, 24 January 2017 (UTC)
+
+@4u1e: Wikipedia:Translation is a project for translating existing articles from other language versions of Wikipedia. This is usually done carefully and doesn't need any attention, and is not the project that would likely profit from the Duolingo method. The machine translations RJGray was referring to use to occur in completely new articles that were posted here at the English Wikipedia in another language. The proper way of translating such pages is the WP:PNT project, but often the original authors of such articles just add a faulty machine translation to speed up the process or to avoid the deletion of their page. De728631 (talk) 12:38, 26 January 2017 (UTC)
+
+
+
+
+
+
+
+Color of charts, graphs, and maps
+About 10% of the population is partially or completely color blind. I included a page reference as my example.
+https://en.m.wikipedia.org/wiki/United_States_presidential_election,_1812
+I simply cannot tell two of the map colors apart. As an editorial guideline it might be worth suggesting to Wiki writers that they use primary colors in charts, etc. or use blank and striped contrasts.
+This is a common problem with many publications and those of us sho can't make the distinction between colors would be very appreciative if you could keep this in mind. Thank you. — Preceding unsigned comment added by Beauregard Armistead (talk • contribs) 23:11, 20 January 2017 (UTC)
+
+This is already in place, per WP:COLORS, but since Wikipedia is so massive sometimes not everyone knows al the rules and things like this aren't noticed. Beeblebrox (talk) 23:32, 20 January 2017 (UTC)
+
+
+
+
+We should create a template to flag those for cleanup, if that's not actually already done. Headbomb {talk / contribs / physics / books} 00:30, 21 January 2017 (UTC)
+
+We have those, Headbomb: {{Overcolored}} and {{Cleanup colors}} – Finnusertop (talk ⋅ contribs) 20:28, 21 January 2017 (UTC)
+
+It should also be noted that most of these maps and charts are hosted at Commons. The corresponding maintenance template for images over there is Commons:Template:Colour blind. De728631 (talk) 20:12, 23 January 2017 (UTC)
+
+
+
+
+
+
+
+RfC on the future of G13 and AfC
+Should G13 be suspended? Replaced? What should the future of AfC look like? Join the discussion at Wikipedia talk:Drafts#RfC on G13. — Preceding unsigned comment added by A2soup (talk • contribs) 05:38, 21 January 2017 (UTC)
+Need assistance on NFLPrimaryColor
+I need either a Template Editor or an Administrator looking at Template talk:NFLPrimaryColor#Template-protected edit request on 12 January 2017. Seems a little overdue, and I hope it'll be resolved as soon as possible. --George Ho (talk) 08:40, 21 January 2017 (UTC)
+
+Proposal regarding signatures
+It's already posted here . Feel free to weigh in on it. KoshVorlon 19:48, 21 January 2017 (UTC)
+
+I've taken the liberty of retitling this section to describe what's actually being proposed. Anomie⚔ 20:18, 21 January 2017 (UTC)
+
+Please don't. I'm not really asking that the signature length be dropped or scrapped, thus the title change wasn't accurate. KoshVorlon 14:33, 24 January 2017 (UTC)
+
+Meh. I think the title I used accurately describes what you proposed, but at least the current title is better than "Proposition for your consideration" that you originally used. Anomie⚔ 01:30, 25 January 2017 (UTC)
+
+
+
+
+
+Bot to publicize Good Article nominees
+
+
+The following discussion is closed. Please do not modify it. Subsequent comments should be made in a new section. A summary of the conclusions reached follows.
+
+I have found that WP:FRS does the same thing that I want the bot to do. PhilrocMy contribs 15:10, 24 January 2017 (UTC)
+
+
+
+
+The bot would pick three random pages from the "good article nominees awaiting review" category, use them as input to this template and then, with the massmessage right, send it out to everybody on a mailing list once a day. PhilrocMy contribs 16:17, 23 January 2017 (UTC)
+
+Oppose - A good deal of editors would be put off by the fact that it would be sent to everybody. Also, with this, a user's talk page would be very cluttered. Really, I think that it would be beneficial to perhaps integrate it into the community portal. It would also be good to integrate this with Wikipedia:Good articles or Wikipedia:Good article nominations. RileyBugzYell at me | Edits 22:59, 23 January 2017 (UTC)
+
+
+
+
+@RileyBugz: I send it to everybody on a mailing list which people could opt in or out of, as I said before. Did you not read that part? PhilrocMy contribs 23:08, 23 January 2017 (UTC)
+
+
+
+
+@Philroc: - Ohhhh... Well that makes more sense now. I thought that it said something like send it to everybody. Although, I will hold my position that it would clutter the talk page. Maybe it would be beneficial to just send it once a week, with five pages instead of three? RileyBugzYell at me | Edits 23:12, 23 January 2017 (UTC)
+
+
+
+
+@RileyBugz: Once a week would work, and I guess five pages would help get more GA nominees reviewed. Just made changes to the templates based on that suggestion.PhilrocMy contribs 23:14, 23 January 2017 (UTC)
+
+
+
+
+@Philroc: I think that it would probably also be a good idea to try and get this on to the community portal, along with possibly one featured article candidate with 1 review or less. RileyBugzYell at me | Edits 23:20, 23 January 2017 (UTC)
+
+
+
+
+@RileyBugz: The only problem with putting something like this on a page like the community portal or the GA nominations page is that it would be hidden in a galaxy of other things which would make it impossible to find. This is one of the reasons the GAN queue is so long. PhilrocMy contribs 23:25, 23 January 2017 (UTC)
+
+
+
+
+@Philroc: If the message goes out once a week, I would be happy to support it, I am just saying that it would be a good idea to also add it to the community portal. RileyBugzYell at me | Edits 23:28, 23 January 2017 (UTC)
+
+
+
+
+@RileyBugz: OK, I guess it's a good idea. Also, I've decided to make the message go out once a week instead of once a day. PhilrocMy contribs 23:30, 23 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+Why not have it set up to work like the feedback request service? Then users can control how often they're pestered. Sam Walton (talk) 14:11, 24 January 2017 (UTC)
+
+
+
+
+@Sam Walton: If it was like that, then it would be an exact copy of the feedback request service. It already notifies people in a milaing list about GA nominees, so that might stop me from doing this. Maybe it isn't working in publicizing GA nominees? PhilrocMy contribs 14:27, 24 January 2017 (UTC)
+
+
+
+
+@Philroc: Oh, indeed, I didnt notice FRS notifies on GANs. I'm confused about how this would be different then, could you explain? Sam Walton (talk) 14:44, 24 January 2017 (UTC)
+
+
+
+
+@Sam Walton: The problem is, I don't know how often FRS notifies people. If my proposal notifies people more often than FRS does, then it's different. PhilrocMy contribs 15:01, 24 January 2017 (UTC)
+
+
+
+
+@Philroc: The FRS is customisable for each user - see the page I linked - for example "3 per calendar month." Is there any other difference? Sam Walton (talk) 15:04, 24 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not to derail the discussion, but I'll remind people that WP:AALERTS exists. There can be, obviously, other noticeboards and methods to advertise GANs, obviously, but Article Alerts is a very widely used system. First line of action should be to make sure the article is tagged with the relevant WikiProject's banner, which will automatically trigger an WP:AALERTS update for the project (updates run daily). Headbomb {talk / contribs / physics / books} 02:35, 24 January 2017 (UTC)
+
+
+
+@Headbomb: Not all projects have that. Also, some of the oldest unreviewed nominations are from projects which have AA set up. On a different topic, I found that WP:FRS already randomly sends out messages about unreviewed GA nominees to people in a mailing list. Would that stop me from doing this? Or is it not working to inform people about GA nominees? PhilrocMy contribs 12:52, 24 January 2017 (UTC)
+
+
+
+
+Oh for sure, WP:AALERTS is not the only way to notify people, some don't even know it exists, and some projects don't post the alerts prominently on their page. Just saying that people should make sure articles are tagged, since in many cases it will help. Headbomb {talk / contribs / physics / books} 15:02, 24 January 2017 (UTC)
+
+
+
+
+
+
+
+
+The above discussion is closed. Please do not modify it. Subsequent comments should be made in a new section.
+
+
+
+RFC on WP:RESTRICT
+
+
+
+
+
+
+
+
+
+Please consider joining the feedback request service.
+
+
+
+An editor has requested comments from other editors for this discussion. This page has been added to the following list:
+
+Wikipedia proposals
+
+When discussion has ended, remove this tag and it will be removed from the list. If this page is on additional lists, they will be noted below.
+
+
+Wikipedia:Editing restrictions currently lists every single restriction that either the Arbitration Committee or the broader community have ever placed on a specific user, as well as lists of voluntary restrictions and conditional unblocks. The list is extremely long and contains many restrictions on users who are inactive or have been indefinitely blocked for an extended period. The purpose of this discussion will be to determine if it is desirable to continue to have all of these restrictions listed, and if not, what changes should be made. This is not a discussion of the validity of the individual restrictions or an attempt to have them revoked en masse, it is only concerned with managing the list to make it less cumbersome, and therefore more useful. Beeblebrox (talk) 21:52, 25 January 2017 (UTC)
+Possible solutions
+
+
+
+Feel free to add your own proposed solutions in this area, they will all be discussed below.
+
+
+
+Remove listings on inactive users. Simply take them off the list if they have not edited in three years. This does not void the restriction.
+Create an archive Any listing on a user who has not been active for two or more years will be placed in the archive. The restriction remains in place, and may be returned to the main list if the user resumes activity.
+Split Split the various lists onto their own subpages, and possibly split them further by age, create a searchable index of these pages.
+Status Quo It's fine the way it is.
+Get rid of voluntary listings The smallest of the lists, currently only three entries, not really enforceable, not really helpful.
+Mass review Do the thing we're not doing here: Compile a list of all restrictions that may no longer be necessary and review them all with an eye towards revoking them.
+
+Discussion (WP:RESTRICT)
+
+Status quo - Ctrl-F is a thing. Beyond My Ken (talk) 22:39, 25 January 2017 (UTC)
+I'm not sure that any of the suggested changes would outweigh the benefit of being able to, as BMK put it, Ctrl-F on one page to find a particular user. That said, perhaps a bot-curated archive could be a good solution; if the bot were to move people back and forth based on whether they have been active in the past X years (i.e. if someone goes away they get moved to the archive, then when they start editing again the bot notices and automatically moves them back to the main page). That way there's only a maximum of two pages to search on (and only if you're looking for someone who may or may not be active), but the main one becomes a bit more manageable. Sam Walton (talk) 23:21, 25 January 2017 (UTC)
+
+
+
+
+Just so you guys know, whetever it s that cntrl-F does for you isn't going to work on most mobile devices. Beeblebrox (talk) 23:29, 25 January 2017 (UTC)
+
+As far as I'm aware most mobile browsers have a "Find in page" option. Sam Walton (talk) 23:32, 25 January 2017 (UTC)
+
+Mine probably does somewhere, I guess, but I'm not sure that's really something we should require peopel to know in order to navigate this page. I don't see a particular benefit to bulking up these lists with a permanent record of restrictions on people who have been banned for five years or more, or who just left after their restriction was imposed and never came back. Beeblebrox (talk) 01:09, 26 January 2017 (UTC)
+
+
+
+
+
+
+
+
+Create an archive - move any inactive users to a spearate page; make sure that the introducsion to te page mentions this split, and should any of those users become actiove again, they can be moved back to te active page. עוד מישהו Od Mishehu 05:59, 26 January 2017 (UTC)
+
+@Beyond My Ken:If you think that this solution makes finding specific user's restrictions too difficult due to the Ctrl-F option being made difficult, we could also have a separate page which transcludes both parts; you could then use Ctrl-F there with no problem. Even if the community opposes such a third page in the project-space, you could create one in your userspace. עוד מישהו Od Mishehu 05:10, 27 January 2017 (UTC)
+
+Why in heck would I want to re-create what should be a community resource in my userspace? I see absolutely no reason to change the existing system - to me it seems like change for the sake of change, and has the distinct downside of potentially destroying information which could come in handy in any future cases involving the listed editors. (You have noticed that the same names tend to pop up again and again, right?) Without the information on the RESTRICT page, we are reliant on the fallible memories of editors. Beyond My Ken (talk) 05:24, 27 January 2017 (UTC)
+
+
+
+
+Archive per Od Mishehu's arguments. Jo-Jo Eumerus (talk, contributions) 10:28, 26 January 2017 (UTC)
+Archive per Od Misheu. A mass review may not be a bad idea too, but independent of the archiving. Thryduulf (talk) 12:18, 26 January 2017 (UTC)
+Archive old restrictions per Od Mishehu, ideally using a bot. Yunshui 雲水 12:29, 26 January 2017 (UTC)
+I suppose I should chime in that Archive is also my preferred option, and I also believe we can remove the voluntary restrictions as it just seems silly to have a permanent, public record of these. Beeblebrox (talk) 20:52, 26 January 2017 (UTC)
+
+
+
+
+Just to note that I created the "Voluntary Restrictions" section, and I was thanked by some of the participants for doing so, as it put in a permanent (I guess semi-permanent now that you all want to change it) public place what had been agreed to. Beyond My Ken (talk) 00:27, 27 January 2017 (UTC)
+
+
+
+
+Archive with bot per Samwalton and Od Mishehu. Iazyges Consermonor Opus meum 04:14, 27 January 2017 (UTC)
+Archive non-voluntary restrictions with a bot. Beyond My Ken makes a very good point about those voluntary restrictions being a needed resource that was requested. It is a valuable community resource that should be easily findable. Old blocks of long-inactive users aren't needed with the same ease and can be archived. While searching the whole page for a user name "as is" isn't that difficult, the difficulty comes when you vaguely remember a restriction and have to hunt it down and see if the user you thought it applied to is or isn't there. That type hunting is harder when the page contains not-current information. Eggishorn (talk) (contrib) 05:50, 27 January 2017 (UTC)
+Archive inactive users, especially if a bot can determine how active a user has been and move them between lists as necessary. — Jkudlick ⚓ t ⚓ c ⚓ s 00:52, 28 January 2017 (UTC)
+
+Mass update of nytimes.com URLs
+Hello all, a bot authorization request to update between 70,000 to 100,000 pages (mostly references in articles) to change nytimes.com links from http to https is currently open for discussion here: Wikipedia:Bots/Requests for approval/Bender the Bot 7. If you have any questions or concerns, please drop by the BRFA. Thank you, — xaosflux Talk 17:18, 26 January 2017 (UTC)
+
+For some background information, please read this. --bender235 (talk) 22:15, 26 January 2017 (UTC)
+
+Wikidata items pointing into our draft space
+I am horrified that I even have to open this discussion. Apparently there are people at wikidata who are either creating wikidata items pointing to our drafts, or who are attempting to do so. There is an open Phabricator task T122806 Wikidata items for articles in the Draft namespace: It is possible to add sitelinks to draft articles on Wikidata, but they are not functioning properly. If I understand the situation correctly(???), general public readers of foreign language wikis would be given these links, encouraged to read our draft as the "English language" version of the article.
+I've only been over at wikidata a few times. I will go over to wikidata and open a discussion on this, but first I'd like to have a quick rough consensus in hand.
+Straw poll proposed communique to our friends at Wikidata:
+
+The EnWiki community requests that Wikidata establish a policy against linking to our draft space. Drafts are intended as an internal workspace. Drafts may contain inappropriate or problematical content. External consumption of drafts is undesired, and is strongly discouraged.
+
+Alsee (talk) 23:43, 27 January 2017 (UTC)
+Followup: Yes, my understanding was correct. See wikidata item Q969904. It has links to a French wiki biography, an Italian wiki biography, and to our draft of the same biography. When I view the french biography fr:Gian_Francesco_Biandrate_di_San_Giorgio_Aldobrandini, the left sidebar on the article has links to the article "In other languages". It links to the Italian version, and it links to our draft space as "the English version" of the article. Alsee (talk) 00:00, 28 January 2017 (UTC)
+Straw poll
+
+Holy crap. Errr... I mean support. Because holy crap wikidata should not be promoting drafts for further external consumption. Alsee (talk) 23:43, 27 January 2017 (UTC)
+Support - Draftspace is for drafts, defined as articles not yet ready for mainspace. Nothing outside of enwiki (and Commons hosting transcluded media files) should be pointing at any Draft article. — Jkudlick ⚓ t ⚓ c ⚓ s 00:55, 28 January 2017 (UTC)
+Support that'sjst wrong, as if they don't actually understand what draft space is. Beeblebrox (talk) 01:23, 28 January 2017 (UTC)
+It's probable that the links to draft space are there because of moves from mainspace to draftspace, and the Wikidata notability policy specifies that Drafts are not welcome as dedicated items. I would guess they would be amenable (as a Wikidatan) to removing Draft-space pages. --Izno (talk) 01:31, 28 January 2017 (UTC)
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Village_pump_(proposals)&oldid=762319924"					
+Categories: Wikipedia village pumpWikipedia proposalsWikipedia requests for commentHidden categories: Wikipedia move-protected project pagesNon-talk pages with subpages that are automatically signedPages automatically checked for incorrect links 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+New section
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikibooksWikinews 
+
+
+
+Languages
+
+
+العربيةAragonésঅসমীয়াCatalàČeštinaDeutschEspañolEuskaraGalegoIlokanoBahasa IndonesiaქართულიҚазақшаKurdîMagyarBahasa MelayuНохчийнNordfriiskOʻzbekcha/ўзбекчаپښتوPortuguêsРусскийसंस्कृतम्සිංහලSlovenčinaŚlůnskiکوردیی ناوەندیСрпски / srpskiBasa SundaతెలుగుТоҷикӣTürkçeУкраїнськаاردو粵語 
+Edit links 
+
+
+
+
+
+This version of the page has been revised. Besides normal editing, the reason for revision may have been that this version contains factual inaccuracies, vandalism, or material not compatible with the Creative Commons Attribution-ShareAlike License.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.380","walltime":"0.634","ppvisitednodes":{"value":3949,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":57906,"limit":2097152},"templateargumentsize":{"value":13596,"limit":2097152},"expansiondepth":{"value":15,"limit":40},"expensivefunctioncount":{"value":19,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  252.869      1 -total"," 31.55%   79.785      1 Template:Village_pump_page_header"," 15.37%   38.878      1 Template:Start_tabs"," 12.70%   32.122     23 Template:Ping"," 11.80%   29.847      2 Template:Mbox"," 11.41%   28.844      1 Template:Rfc"," 10.44%   26.392      1 Template:Village_pump_archives","  9.96%   25.188      1 Template:Archive_list","  7.79%   19.703      1 Template:Max","  7.57%   19.152      1 Template:Cent"]},"scribunto":{"limitreport-timeusage":{"value":"0.059","limit":"10.000"},"limitreport-memusage":{"value":2602577,"limit":52428800}},"cachereport":{"origin":"mw1269","timestamp":"20170213093158","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":782,"wgHostname":"mw1269"});});

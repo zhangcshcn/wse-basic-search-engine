@@ -1,0 +1,247 @@
+ 
+
+
+
+
+
+
+Persuasive technology
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Persuasion technology)
+
+					Jump to:					navigation, 					search
+
+Persuasive technology is broadly defined as technology that is designed to change attitudes or behaviors of the users through persuasion and social influence, but not through coercion.[1] Such technologies are regularly used in sales, diplomacy, politics, religion, military training, public health, and management, and may potentially be used in any area of human-human or human-computer interaction. Most self-identified persuasive technology research focuses on interactive, computational technologies, including desktop computers, Internet services, video games, and mobile devices,[2] but this incorporates and builds on the results, theories, and methods of experimental psychology, rhetoric,[3] and human-computer interaction. The design of persuasive technologies can be seen as a particular case of design with intent.[4]
+
+
+
+Contents
+
+
+1 Taxonomies
+
+1.1 Functional Triad
+1.2 Direct interaction v. mediation
+1.3 Persuasion design
+
+
+2 Reciprocal equality
+3 Health behavior change
+4 See also
+5 References
+6 Sources
+7 External links
+
+
+
+Taxonomies[edit]
+Functional Triad[edit]
+Persuasive technologies can be categorized by their functional roles. B. J. Fogg proposes the Functional Triad as a classification of three "basic ways that people view or respond to computing technologies": persuasive technologies can function as tools, media, or social actors – or as more than one at once.[5]
+
+As tools, technologies can increase people's ability to perform a target behavior by making it easier or restructuring it.[6] For example, an installation wizard can influence task completion – including completing tasks (such as installation of additional software) not planned by users.
+As media, interactive technologies can use both interactivity and narrative to create persuasive experiences that support rehearsing a behavior, empathizing, or exploring causal relationships.[7] For example, simulations and games instantiate rules and procedures that express a point of view and can shape behavior and persuade; these use procedural rhetoric.[8]
+Technologies can also function as social actors.[9] This "opens the door for computers to apply [...] social influence".[10] Interactive technologies can cue social responses, e.g., through their use of language, assumption of established social roles, or physical presence. For example, computers can use embodied conversational agents as part of their interface. Or a helpful or disclosive computer can cause users to mindlessly reciprocate.[11]
+
+Direct interaction v. mediation[edit]
+Persuasive technologies can also be categorized by whether they change attitude and behaviors through direct interaction or through a mediating role:[12] do they persuade, for example, through human-computer interaction (HCI) or computer-mediated communication (CMC)? The examples already mentioned are the former, but there are many of the latter. Communication technologies can persuade or amplify the persuasion of others by transforming the social interaction,[13][14] providing shared feedback on interaction,[15] or restructuring communication processes.[16]
+Persuasion design[edit]
+Persuasion design is the design of messages by analyzing and evaluating their content, using established psychological research theories and methods. Andrew Chak[17] argues that the most persuasive web sites focus on making users feel comfortable about making decisions and helping them act on those decisions.
+Reciprocal equality[edit]
+One feature that distinguishes persuasion technology from familiar forms of persuasion is that the individual being persuaded often cannot respond in kind. This is a lack of reciprocal equality. For example, when a conversational agent persuades a user using social influence strategies, the user cannot also use similar strategies on the agent.[18]
+Health behavior change[edit]
+While persuasive technologies are found in many domains, considerable recent attention has focused on behavior change in health domains. Digital health coaching is the utilization of computers as persuasive technology to augment the personal care delivered to patients, and is used in numerous medical settings.[19]
+Numerous scientific studies show that online health behaviour change interventions can influence users' behaviours. Moreover, the most effective interventions are modelled on health coaching, where users are asked to set goals, educated about the consequences of their behaviour, then encouraged to track their progress toward their goals. Sophisticated systems even adapt to users who relapse by helping them get back on the bandwagon.[20]
+See also[edit]
+Other subjects which have some overlap or features in common with persuasive technology include:
+
+Advertising
+Artificial intelligence
+Brainwashing
+Coercion
+Collaboration tools (including wikis)
+Personal coaching
+Personal grooming
+Propaganda
+Psychology
+Rhetoric and oratory skills
+Technological rationality
+T3: Trends, Tips & Tools for Everyday Living
+
+References[edit]
+
+
+^ Fogg 2002
+^ Oinas-Kukkonen et al. 2008
+^ Bogost 2007
+^ Lockton et al. 2010
+^ Fogg 1998
+^ Fogg 2002, ch. 3
+^ Fogg 2002, ch. 4
+^ Bogost 2007
+^ Reeves & Nass 1996, Turkle 1984
+^ Fogg 2002, p. 90
+^ Fogg 1997b, Moon 2000
+^ Oinas-Kukkonen & Harjumaa 2008
+^ Licklider 1968
+^ Bailenson et al. 2004
+^ DiMicco 2004
+^ Winograd 1986
+^ Chak 2003
+^ Fogg, 2002
+^ Elton 2007
+^ Cugelman et al. 2011
+
+
+Sources[edit]
+
+Bailenson, J. N., Beall, A. C., Loomis, J., Blascovich, J., & Turk, M. (2004). Transformed Social Interaction: Decoupling Representation from Behavior and Form in Collaborative Virtual Environments. Presence: Teleoperators & Virtual Environments, 13(4), 428-441.
+Bogost, I. (2007). Persuasive Games: The Expressive Power of Videogames. MIT Press.
+Chak, Andrew (2003). Guiding Users with Persuasive Design: An Interview with Andrew Chak, by Christine Perfetti, User Interface Engineering.
+Cugelman, B., Thelwall, M., & Dawes, P. (2011). Online Interventions for Social Marketing Health Behavior Change Campaigns: A Meta-Analysis of Psychological Architectures and Adherence Factors. Journal of Medical Internet Research, 13(1), e17.
+DiMicco, J. M., Pandolfo, A., & Bender, W. (2004). Influencing group participation with a shared display. In Proceedings of CSCW 2004 (pp. 614-623). Chicago, Illinois, USA: ACM. doi:10.1145/1031607.1031713.
+Elton, Catherine . "`Laura' makes digital health coaching personal." The Boston Globe, May 21, 2007. [1]
+Fogg, B. J., & Nass, C. (1997a). Silicon sycophants: the effects of computers that flatter. International Journal of Human-Computer Studies, 46(5), 551-561.
+Fogg, B. J., & Nass, C. (1997b) How users reciprocate to computers: an experiment that demonstrates behavior change. In Proceedings of CHI 1997, ACM Press, 331-332. .
+Fogg, B. J. (1998). Persuasive computers: perspectives and research directions. Proceedings of CHI 1998, ACM Press, 225-232 .
+Fogg, B. J. (2002). Persuasive Technology: Using Computers to Change What We Think and Do. Morgan Kaufmann
+Fogg, B. J., & Eckles, D. (Eds.). (2007). Mobile Persuasion: 20 Perspectives on the Future of Behavior Change. Stanford, California: Stanford Captology Media.
+Licklider, J. C. R., & Taylor, R. W. (1968). The Computer as a Communication Device. Science and Technology, 76(2). [2]
+Lockton, D., Harrison, D., & Stanton, N. A. (2010). The Design with Intent Method: A design tool for influencing user behaviour. Applied Ergonomics, 41(3), 382-392. doi:10.1016/j.apergo.2009.09.001 [3] (preprint version)
+Moon, Y. (2000). Intimate Exchanges: Using Computers to Elicit Self-Disclosure from Consumers. The Journal of Consumer Research, 26(4), 323-339.
+Nass, C., & Moon, Y. (2000). Machines and Mindlessness: Social Responses to Computers. Journal of Social Issues, 56(1), 81-103.
+Oinas-Kukkonen Harri & Harjumaa Marja. 2008. A Systematic Framework for Designing and Evaluating Persuasive Systems. Proceedings of Persuasive Technology: Third International Conference, pp. 164-176.
+Oinas-Kukkonen, H., Hasle, P., Harjumaa, M., Segerståhl, K., Øhrstrøm, P. (Eds.). (2008). Proceedings of Persuasive Technology: Third International Conference. Oulu, Finland, June 4–6, 2008. Lecture Notes in Computer Science. Springer.
+Reeves, B., & Nass, C. (1996). The Media Equation: how people treat computers, television, and new media like real people and places. Cambridge University Press.
+Turkle, S. (1984). The second self: computers and the human spirit. Simon & Schuster, Inc. New York, NY, USA.
+Winograd, T. (1986). A language/action perspective on the design of cooperative work. Proceedings of the 1986 ACM conference on Computer-supported cooperative work, 203-220.
+
+External links[edit]
+
+Stanford Persuasive Technology Lab
+The Sixth International Conference on Persuasive Technology - Columbus, OH, USA - June 2-5th, 2011
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Persuasive_technology&oldid=764967899"					
+Categories: Human communicationHuman–computer interactionEthically disputed business practicesPersuasion 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+DanskעבריתNederlands 
+Edit links 
+
+
+
+
+
+ This page was last modified on 11 February 2017, at 23:23.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.056","walltime":"0.065","ppvisitednodes":{"value":404,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":1494,"limit":2097152},"templateargumentsize":{"value":463,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   25.821      1 -total"," 66.69%   17.220      1 Template:Reflist"," 32.35%    8.353      2 Template:Doi"," 15.55%    4.016      4 Template:Hide_in_print","  7.13%    1.840      2 Template:Only_in_print","  6.37%    1.645      2 Template:Str_left","  4.96%    1.282      1 Template:Column-width"]},"cachereport":{"origin":"mw1189","timestamp":"20170211232332","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":64,"wgHostname":"mw1272"});});

@@ -1,0 +1,201 @@
+ 
+
+
+
+
+
+
+
+Template:Unblock
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This blocked user is asking that their block be reviewed:
+Unblock (block log • active blocks • global blocks • autoblocks • contribs • deleted contribs • abuse filter log • creation log • change block settings • unblock • checkuser (log))
+
+
+Request reason:
+
+Notes:
+
+In some cases, you may not in fact be blocked, or your block has already expired. Please check the list of active blocks. If no block is listed, then you have been autoblocked by the automated anti-vandalism systems. Please remove this request and follow these instructions instead for quick attention by an administrator.
+Please read our guide to appealing blocks to make sure that your unblock request will help your case. You may change your request at any time.
+
+
+Administrator use only:
+
+If you ask the blocking administrator to comment on this request, replace this template with the following, replacing "blocking administrator" with the name of the blocking admin:
+
+{{Unblock on hold | 1=blocking administrator | 2=original unblock reason | 3 = ~~~~}}
+
+If you decline the unblock request, replace this template with the following code, substituting {{subst:Decline reason here}} with a specific rationale. Leaving the decline reason unchanged will result in display of a default reason, explaining why the request was declined.
+
+{{unblock reviewed | 1=original unblock reason | decline = {{subst:Decline reason here}} ~~~~}}
+
+If you accept the unblock request, replace this template with the following, substituting accept reason here with your rationale:
+
+{{unblock reviewed | 1=original unblock reason | accept = accept reason here ~~~~}}
+
+
+
+
+
+ Template documentation[view] [edit] [history] [purge]
+This template may be used by a blocked user or IP address to request a review of the block in accordance with the blocking policy. It is recommended to read the Guide to appealing blocks before using this template.
+Usage
+The following should be placed on your talk page:
+{{unblock | reason=your reason here ~~~~}}
+Remember to replace "your reason here" with why you think you should be unblocked.
+Notes
+
+This template puts pages into Category:Requests for unblock.
+Abuse of this template may result in your access to the talk page being removed.
+Do not subst this template.
+Do not unblock users without consulting with the administrator who placed the block, except in obvious, uncontroversial cases. Blocks marked as {{checkuserblock}}, {{checkuserblock-account}}, {{OversightBlock}} and {{ArbComBlock}} can only be reviewed by the users specified on the individual templates.
+
+See also
+
+{{unblock on hold}}
+{{unblock reviewed}}
+{{Blocked talk-revoked-notice}}
+{{Unblocked}}
+
+
+
+
+
+The above documentation is transcluded from Template:Unblock/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (edit) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Unblock&oldid=735834036"					
+Categories: User block templatesUnblock processHidden categories: Wikipedia semi-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other projects
+
+
+Wikimedia CommonsMeta-WikiWikibooksWikidataWikinewsWikiquoteWikisourceWikiversity 
+
+
+
+Languages
+
+
+العربيةবাংলাभोजपुरीBosanskiΕλληνικάEspañolفارسیFrançaisGalego한국어Հայերենहिन्दीHrvatskiעבריתქართულიKiswahiliLietuviųBahasa Melayuनेपाली日本語ଓଡ଼ିଆPortuguêsRomânăРусскийScotsShqipසිංහලSimple EnglishSlovenščinaСрпски / srpskiSuomiSvenskaதமிழ்ไทยТоҷикӣTürkçeاردوTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 23 August 2016, at 11:46.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.092","walltime":"0.140","ppvisitednodes":{"value":303,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":11816,"limit":2097152},"templateargumentsize":{"value":329,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  115.188      1 -total"," 95.45%  109.948      1 Template:Documentation"," 10.32%   11.892      1 Template:Unblock/doc","  4.00%    4.613      4 Template:Tlx","  2.16%    2.484      1 Template:Documentation_subpage","  1.76%    2.030      1 Template:Their","  1.16%    1.332      1 Template:Sandbox_other","  1.15%    1.330      1 Template:Clear","  1.12%    1.293      4 Template:Tl"]},"scribunto":{"limitreport-timeusage":{"value":"0.051","limit":"10.000"},"limitreport-memusage":{"value":1222767,"limit":52428800}},"cachereport":{"origin":"mw1188","timestamp":"20170206033314","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1266"});});

@@ -1,0 +1,298 @@
+ 
+
+
+
+
+
+
+
+Template:Pp-template
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+If you plan to make breaking changes to this template, move it, or nominate it for deletion, please notify Twinkle's users and maintainers at Wikipedia talk:Twinkle as a courtesy, as this template is used in the standard installation of Twinkle. Thank you!
+
+
+
+
+
+Uses Lua:
+
+
+Module:Protection banner
+
+
+
+
+
+This is the {{pp-template}} protection notice.
+It is used on protected templates and on protected file (image) pages.
+This template does not show on pages that are not protected, instead it reports an error. Please note that only administrators can protect pages, this template only informs about the protection status of the page.
+This template should usually not be manually placed on template pages, since it is automatically loaded by the {{Documentation}} template of protected template pages. Protected templates (both semi and full) should preferably have a documentation subpage (/doc) so that any editor can update the documentation, categories and interwiki links of the template. See Wikipedia:Template documentation for more on that.
+This template automatically detects the edit protection level (semi or full) of a page, and if it is on a template or file page, and modifies its appearance and how it categorizes the page.
+
+Use {{pp-template}} for the normal appearance (a small icon at the top).
+Use {{pp-template|small=no}} for the large message box. On file pages we recommend using the large box. (It is usually a good idea to also add the {{nocommons}} box on protected image pages, to remind people that protected images should not be deleted even if there is a backup copy on Commons.)
+
+When {{pp-template}} is added to a protected template, it should be placed inside <noinclude>...</noinclude> tags (otherwise, every page which uses the template will load the protection notice, which will result in an error message). On file (image) pages the <noinclude></noinclude> tags are not necessary.
+See also
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Pp-template/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (edit) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Pp-template&oldid=619983120"					
+Categories: Templates used by TwinkleLua-based templatesTop icon protection templatesHidden categories: Wikipedia template-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other projects
+
+
+MediaWikiWikispeciesWikibooksWikidataWikinewsWikisourceWikiversity 
+
+
+
+Languages
+
+
+AcèhAlemannischአማርኛÆngliscАҧсшәаالعربيةܐܪܡܝܐArmãneashtiঅসমীয়াAzərbaycancaتۆرکجهBamanankanবাংলাBahasa BanjarBân-lâm-gúBasa BanyumasanБашҡортсаभोजपुरीBikol CentralBislamaБългарскиབོད་ཡིགBosanskiBrezhonegБуряадCatalàЧӑвашлаCebuanoČeštinaChamoruCymraegDanskދިވެހިބަސްDolnoserbskiEestiΕλληνικάEsperantoفارسیFiji HindiFøroysktFrançaisFryskGaeilgeGaelgGagauzGàidhligGĩkũyũگیلکیગુજરાતી𐌲𐌿𐍄𐌹𐍃𐌺गोंयची कोंकणी / Gõychi Konknni客家語/Hak-kâ-ngîХальмг한국어HausaՀայերենहिन्दीHornjoserbsceIdoIgboIlokanoবিষ্ণুপ্রিয়া মণিপুরীBahasa IndonesiaInterlinguaInterlingueИронIsiXhosaIsiZuluÍslenskaItalianoBasa Jawaಕನ್ನಡKapampanganქართულიकॉशुर / کٲشُرKaszëbscziҚазақшаKernowekKiswahiliKongoKreyòl ayisyenKurdîКыргызчаLadinoລາວلۊری شومالیLatviešuLëtzebuergeschLietuviųLimburgsLingálaLumbaartMagyarमैथिलीМакедонскиMalagasyമലയാളംMaltiMāoriमराठीმარგალურიمصرىمازِرونیBahasa MelayuBaso MinangkabauMìng-dĕ̤ng-ngṳ̄МокшеньМонголမြန်မာဘာသာNēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣनेपालीनेपाल भाषा日本語Norsk bokmålNorsk nynorskNovialOccitanОлык марийଓଡ଼ିଆOromooOʻzbekcha/ўзбекчаਪੰਜਾਬੀपालिPangasinanپنجابیPapiamentuپښتوPatoisПерем Комиភាសាខ្មែរTok PisinΠοντιακάPortuguêsQaraqalpaqshaRomânăRomaniRuna SimiРусиньскыйРусскийСаха тылаसंस्कृतम्SängöSarduScotsSeelterskSesotho sa LeboaSetswanaShqipSicilianuසිංහලSimple EnglishسنڌيSlovenčinaSlovenščinaSoomaaligaکوردیی ناوەندیSranantongoСрпски / srpskiSrpskohrvatski / српскохрватскиBasa SundaTagalogதமிழ்Татарча/tatarçaతెలుగుไทยТоҷикӣᏣᎳᎩTsetsêhestâheseTürkçeTürkmençeTwiУдмуртᨅᨔ ᨕᨘᨁᨗاردوئۇيغۇرچە / UyghurcheVahcuenghTiếng Việt文言WinarayXitsongaYorùbá粵語Zazaki中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 August 2014, at 17:17.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.124","walltime":"0.163","ppvisitednodes":{"value":1033,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":103628,"limit":2097152},"templateargumentsize":{"value":929,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  125.944      1 Template:Documentation","100.00%  125.944      1 -total"," 53.34%   67.184      1 Template:Pp-template/doc"," 29.90%   37.663      1 Template:Protection_templates"," 27.69%   34.874      1 Template:Navbox"," 17.06%   21.488      1 Template:Aligned_table","  9.59%   12.074      1 Template:Twinkle_standard_installation","  8.29%   10.441      1 Template:Mbox","  5.35%    6.734      1 Template:Lua","  4.70%    5.914      9 Template:Tlf"]},"scribunto":{"limitreport-timeusage":{"value":"0.052","limit":"10.000"},"limitreport-memusage":{"value":1776923,"limit":52428800}},"cachereport":{"origin":"mw1163","timestamp":"20170210082716","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":97,"wgHostname":"mw1270"});});

@@ -1,0 +1,289 @@
+ 
+
+
+
+
+
+
+
+Template:Pp-semi-indef
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+If you plan to make breaking changes to this template, move it, or nominate it for deletion, please notify Twinkle's users and maintainers at Wikipedia talk:Twinkle as a courtesy, as this template is used in the standard installation of Twinkle. Thank you!
+
+
+
+
+
+Uses Lua:
+
+
+Module:Protection banner
+
+
+
+
+
+Note: This template is not blank, see the top right corner of the protected page
+Usage
+This template is normally used for pages that are semi-protected for longer periods of time.
+This template categorizes articles into Category:Wikipedia indefinitely semi-protected pages. For articles that are semi-protected, use Template:pp-vandalism.
+This template will not be visible on pages that are not protected. Adding this template to an article does not protect it. Protection can only be applied by administrators, and can be requested at Wikipedia:Requests for page protection.
+See also
+
+{{high traffic}}
+
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Pp-semi-indef/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Pp-semi-indef&oldid=619983103"					
+Categories: Templates used by TwinkleLua-based templatesTop icon protection templatesTitle templatesHidden categories: Wikipedia fully-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+অসমীয়াবাংলাБеларуская (тарашкевіца)‎भोजपुरीČeštinaދިވެހިބަސްفارسیFøroysktગુજરાતી한국어IlokanoBahasa IndonesiaBasa JawaქართულიKurdîमैथिलीمصرىBahasa Melayuनेपालीनेपाल भाषा日本語Românăसंस्कृतम्ScotsSesotho sa LeboaසිංහලسنڌيSlovenčinaکوردیی ناوەندیСрпски / srpskiதமிழ்తెలుగుไทยTürkçeᨅᨔ ᨕᨘᨁᨗاردوTiếng Việt文言粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 August 2014, at 17:17.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.108","walltime":"0.156","ppvisitednodes":{"value":863,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":99508,"limit":2097152},"templateargumentsize":{"value":749,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  126.783      1 Template:Documentation","100.00%  126.783      1 -total"," 58.27%   73.873      1 Template:Pp-semi-indef/doc"," 34.23%   43.403      1 Template:Protection_templates"," 31.53%   39.973      1 Template:Navbox"," 17.94%   22.739      1 Template:Aligned_table"," 13.16%   16.684      1 Template:Twinkle_standard_installation"," 11.79%   14.947      1 Template:Mbox","  6.82%    8.645      1 Template:Lua","  5.01%    6.352      9 Template:Tlf"]},"scribunto":{"limitreport-timeusage":{"value":"0.055","limit":"10.000"},"limitreport-memusage":{"value":1771319,"limit":52428800}},"cachereport":{"origin":"mw1306","timestamp":"20170210083433","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":60,"wgHostname":"mw1239"});});

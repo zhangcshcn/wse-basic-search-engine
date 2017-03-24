@@ -1,0 +1,427 @@
+ 
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Fixing cut-and-paste moves
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+Shortcuts:
+
+WP:ADMINGUIDE/CP
+WP:CUTPASTE
+WP:CPMOVE
+WP:HISTMERGE
+
+
+For information on copy and pasting text, see Wikipedia:Copying text from other sources.
+See also: Wikipedia:Requests for history merge
+In the early days of Wikipedia, renamings took place manually, using cut and paste, before the move page function was enabled for non-administrators in August 2002.
+Cut-and-paste moves still occur today because of unfamiliarity with the move function, unawareness that attribution is necessary, or when the move function fails (e.g., because the target has history) and people don't know to use the requested moves forum to ask for help from an administrator.
+When a cut-and-paste move is done, the page history of an article or talk page can be split among two or more different pages. This is highly undesirable, because we need to keep the history with the content for copyright reasons. (See Wikipedia:Copying within Wikipedia).
+In some circumstances, administrators can fix this by merging page histories, using the procedure given below.
+
+
+
+Contents
+
+
+1 Instructions for tagging a page for history merging
+2 Repair process (for admins)
+
+2.1 Using the MergeHistory special page
+2.2 Manual process
+
+2.2.1 An easy case
+2.2.2 Merging page histories of pages with many revisions
+2.2.3 A more complex case
+2.2.4 A troublesome case
+
+2.2.4.1 Parallel versions
+
+
+2.2.5 History splitting
+2.2.6 How to handle the left-over redirect
+
+
+2.3 History-merging a transcluded page
+
+
+3 How to undo a history merge
+4 Bugs
+
+4.1 Lost history bug
+
+4.1.1 Work around
+
+
+4.2 Former bugs
+
+
+5 See also
+
+
+
+Instructions for tagging a page for history merging
+
+Place {{Histmerge|NAME OF PAGE THE ARTICLE WAS CUT FROM}} at the new location, where the pasting was done. The page will appear in the hidden category Candidates for history merging.
+Consider notifying the user of the issue on their talk page, perhaps using {{subst:uw-c&pmove}}.
+
+In cases where additional edits were made to the original version after the copy-and-paste and which the additional edits can all be safely discarded (e.g. WP:WPAFC-related templates, edits which were reverted, etc.), place {{Histmerge|NAME OF PAGE THE ARTICLE WAS CUT FROM|reason=|details=}} at the new location as described above. Fill in the two parameters as needed for this particular situation (see {{histmerge}} for an example).
+If there are no changes since the copied-from revision in either the original page or the pasted-to page, consider tagging the pasted page for temporary deletion using {{db-copypaste}} (see WP:Speedy deletion#G6), and then do a proper page move. Special:ComparePages or a similar tool should be used to verify that no changes have been made.
+In more complex cases (explained below), please leave a description of the problem at Wikipedia:Cut and paste move repair holding pen.
+Repair process (for admins)
+Using the MergeHistory special page
+Administrators can use a special page, Special:MergeHistory, to perform history merges. It differs from the manual methods, as follows:
+
+It automatically detects the latest version of the source page which is older than the oldest version of the target page, and won't allow the user to move later revisions. This feature is good if the source page eventually became something else, but can be bad if the target page had started out as a redirect to the source.
+The user can, however, tell it to only move earlier revisions than that – it is possible to select the latest revision it should move.
+It doesn't mix deleted and non-deleted versions of the target page.
+It retains any protection the target page may have.
+It doesn't create a new revision of the old page.
+If the user moves all non-deleted revisions of the source, a hard redirect is automatically created. This can't be overridden.
+The logs for this action aren't in the move log - they're in a separate log.
+
+Manual process
+Warning: this procedure may only be undone by spending quite silly amounts of time. To undo a merge, see below. Do not do this if you're not sure what you're doing.
+An easy case
+
+The following procedure merges the page histories in the case of a hypothetical example:
+Suppose Alabama/History (old title) was the only article on that subject, and that the article developed in the course of a number of edits, until a decision that History of Alabama (new title) was a better style of name for the article. Suppose further that for whatever reason, the contents of the old article were
+
+cut from the old article,
+replaced in it with a redirect to the new title, and
+pasted into a newly created article bearing the new title.
+
+(That is, the move tool was not available or not used to simultaneously transfer the Wiki text and the history of edits to the new title.) And suppose this replacement (new-title) article develops further and reflects the new history of these further edits. Our goal is to graft the (old) edit history from Alabama/History (article with old title) onto the new history in History of Alabama (article with new title) where those partial histories can complement each other. The process is as follows:
+
+Move Alabama/History to History of Alabama, using the move tool. The admin approves deletion of History of Alabama to allow the move. (Now the old versions are the whole of the new title's history.)
+Undelete the History of Alabama article, by
+
+Viewing the Page history,1
+Linking via "View or restore ... deleted edits?", and
+Clicking on "Restore". (Now the new title's history has both the old and new versions, including an extra copy of the most recent version of Alabama/History, created by the move tool.)
+
+
+At this stage, History of Alabama will only show the text "#redirect History of Alabama" (assuming a redirect was the most recent version of Alabama/History, the History of Alabama page will now be showing whatever the most recent version of Alabama/History was). The last step is to revert to the last version of History of Alabama from before the move, by
+
+Linking via "Page history" on History of Alabama.
+Make a hard reload (Shift+Control+R in Mozilla or Opera, Ctrl+F5 in Internet Explorer, and Ctrl+R in Firefox) to see an up-to-date history reflecting the undeletion.1
+Reverting to the last pre-move version.
+
+
+
+Merging page histories of pages with many revisions
+Suppose that the page History of Alabama had too many revisions to be deleted or deleting it may cause other disruption. The following procedure can be used to merge page histories in this situation:
+
+Move History of Alabama to Alabama/History with a move summary like "history merge, will be back at correct title soon". Answer yes when asked to delete the Alabama/History page.
+Undelete the revisions of Alabama/History containing the page history.
+Move Alabama/History back to History of Alabama.
+If needed, undelete the remaining revisions at Alabama/History.
+
+A more complex case
+Sometimes, after a cut-and-paste move is performed, the article at the old title is then edited for some other purpose (e.g., turning it into a disambiguation page). That causes the article now at NewTitle to have part of its history there, and part at OldTitle, but the history at OldTitle also contains the history of NewMeaning. Use of the selective deletion function allows these to be repaired as well.
+
+To select more than one revision for undeletion, click on the tick box of the first revision to be undeleted, then shift-click on the last revision to be undeleted. Every intermediate revision will then be selected.
+An example of this was Military of Japan; the original was moved to Japan Self-Defense Forces with a cut-and-paste move, and the article Military of Japan was then turned into a disambiguation page. This was repaired with the following procedure:
+
+Military of Japan is deleted.
+Selective undelete is used to undelete only those versions of Military of Japan which belonged to "Japan Self-Defense Forces".
+The versions of "Japan Self-Defense Forces" at Military of Japan are moved to Japan Self-Defense Forces, using the normal page-move function. For this to happen, Japan Self-Defense Forces must be deleted, although this can be done as part of the move.
+Undeletion of Japan Self-Defense Forces restores the rest of the versions of that article to its history.1
+However, the most recent version in the history of Japan Self-Defense Forces is now the most recent version of the old history from Military of Japan (it's a copy of that version, created by the page-move function). So, go into the history of Japan Self-Defense Forces, select the next-most-recent version, click on it, and when it appears, click on "Edit this page", ignore the "WARNING: You are editing an out-of-date revision" message, type something suitable (e.g., "restoring most recent version after merging histories") in the edit summary, and hit "Save page". That article is now restored to its condition prior to this procedure, and now also has its complete history.
+Step 3 above (the move) will have left a history containing just a redirect at Military of Japan. Delete the redirect.
+Undeletion of all the other versions of Military of Japan restores the more recent history of that article; no additional steps are needed, as the most recent version should now be the current version.1
+
+A troublesome case
+
+Shortcuts:
+
+WP:PV
+WP:Parallel histories
+
+
+However, the examples just described only work well if the two pieces of the history of one 'article' are disjoint; i.e. one ends before the other begins. These procedures are inadequate if this condition does not apply, e.g., if the copy of the article at the old title has been edited after the pasting of its contents into the new title. For example, it is not uncommon for:
+
+an article at (old) page A to be cut and pasted into (new) page B, and
+page A later to be reverted to an article on the same topic, with a sequence of edits there as well.
+
+In this case, the time periods of the two series of edits will overlap.
+If someone then page-history merges pages A and B using the method described above, the result will sequence the versions of A and B strictly by time, with the result that various versions of A will be interleaved between versions in the page history of page B (and/or vice-versa). Inspecting this merged history without means of distinguishing between the two overlapping progressions (since nothing in this history indicates which version belongs to which sequence) invites severe confusion.
+An appropriate procedure for such a case is to forego the history merge, and instead handle the situation much like a normal merge; put a note pointing to the other version of the page on the article's talk page. If it is inappropriate to leave the second copy in the main article space, you can archive the duplicate page to Talk: space (i.e. by moving it to some suitable title, such as Talk:RandomArticle/OldVersion).
+Parallel versions
+Users sometimes send in an ill-advised history-merge request after the two pages involved have been text-merged. If the two pages have separate origins and simultaneous separate parallel histories before they were text-merged, they should not be history-merged, as that would shuffle the parallel editing histories together in one list and make a mess. There is an example in this edit of page Clemson Tigers football. There is an example with 5 incoming pages in this edit of page Wikipedia talk:WikiProject Emo. The best thing to do would be to use the {{Copied}} template and place it on the source and/or destination's talk page.
+Also, if page A is to be history-merged into page B, before the process, make sure that there are no deleted edits in page B, as then deleting B will shuffle the deleted and non-deleted edits attached to the page together. The deleted history should first be rescued from under B by some process such as this: Move B to some other name, say B_zxcvbnm (without making a redirect). Undelete B. Move B to some other name, say B/old_version . If necessary, re-delete B/old_version . Move B_zxcvbnm back to B (without making a redirect).
+Likewise, if a page must be deleted and then partly undeleted for a history-split, first check in case it is sitting over a deleted parallel history.
+History splitting
+
+Shortcut:
+
+WP:HISTSPLIT
+
+
+Over time, articles may change from one underlying topic to a completely separate topic. Normally this should be accomplished through moves and disambiguation pages. However, if a user is unfamiliar with those processes they may simply change the topic of an article (overwriting the old) and continue editing. If this is not caught immediately it is very easy for the new topic to build up a substantial edit history of its own. Admins can use the following steps to fix this problem and maintain separate histories for the separate topics:
+
+Delete the article (original article name)
+Restore previous revisions up to (but not including) the point where the topic was changed.
+Move [without redirect] the restored versions (old topic) to a new name (see also disambiguation)
+
+If there is already an article under the new name and you wish to histmerge into it:
+
+
+a) select the "delete the existing article" option, while moving;
+b) restore deleted revisions of new name.
+
+
+Restore new revisions of new topic (still at original article name)
+Revert to latest good versions as needed
+Establish a disambiguation page for the different topics
+
+How to handle the left-over redirect
+In most cases, you will be moving all non-redirect versions of one page into the history of another and leaving a redirect. Please keep the following situations in mind when deciding what to do with the redirect:
+
+Is the resulting redirect eligible for speedy deletion (see WP:SPEEDY#General and WP:SPEEDY#Redirects)? As with regular page moves, consider waiting a few days before deleting the leftover redirect even if it is eligible for speedy deletion.
+Are all incoming links to the leftover redirect fixed? If not, don't delete the redirect until they are.
+Is it likely the most recent editors of the moved revisions are watchlisting the page? Consider notifying them of the change.
+Is the leftover redirect in User: or User_talk: space? If you do delete it, notify the affected user unless there is a good reason not to. Consider leaving the redirect unless doing so would cause problems, such as in the case of:
+
+A redirect from the "main" user page or "main" user talk page to somewhere other than another page in that user's userspace.
+A redirect to another user's pages or non-user space in a way that may cause confusion or is otherwise inappropriate.
+
+
+
+History-merging a transcluded page
+If page X is transcluded in page Y, and page X is marked to be the recipient in a history-merge, then page X and page Y will both appear in Category:Candidates for history merging, and both pages will display the request to perform a history-merge. An admin should not try to perform a history-merge on page Y, but only on page X. This is most likely to happen if page X is a template, but it may happen to any page that is transcluded. To avoid this, {{histmerge}} should be placed in <noinclude> tags on page X.
+How to undo a history merge
+If a history merge should not have been performed, then it may be undone. Note, however, that it can be quite tedious, especially if the article has a very long history. The following procedure is listed:
+
+Suppose A has been history merged into B.
+We want to get A's former history back into A.
+Delete B.
+Selectively undelete the revisions of B that made up the history of A before the history merge.
+Move B to A.
+Undelete the rest of the revisions of B.
+If A and/or B is now a redirect to itself or the other article, then revert or change the redirect target, as deemed appropriate.
+
+An example of a successful history merge and undo is available at User:King of Hearts/Sandbox/6 (the A article) and User:King of Hearts/Sandbox/7 (the B article).
+Bugs
+Note: Due to some minor bugs in the MediaWiki code, article histories may seem to contain anomalies after performing some of the procedures listed below. They are not actual database errors, the underlying data is correct; they are just problems with the information displayed. See #Lost history bug for information about these seeming anomalies, and how to deal with them.
+Lost history bug
+After a history merge, the following peculiarity may be observed: after a successful undeletion, article histories may seem either:
+
+to be missing the recently restored versions, or
+to show the complete original history after a deletion/partial-restoration cycle, including versions which are actually still deleted.
+
+These errors persist even if the browser's "Refresh" button is clicked. These do not seem to be actual database errors, and the underlying data is correct; they are just problems with the information displayed. Note that there seems to be no consistency as to which (if either) of these bugs will appear—expect to see either, or neither.
+For some users, however, the bug can be cleared with a combination of purging and bypassing browser cache.
+Work around
+To see the correct, current, history of the article, select a different history length, e.g., "last 20" or "last 100", instead of the default 50. (Note that this trick only works once; if you do another restore, and the history is messed up again, you will need to select a different, previously unused length, to see the correct, current, history.)
+Also, making an edit on the page just moved will force the correct history to be shown, so if you have to perform an edit on the target page for some other reasons (e.g., to restore the most recent version, step 4.3 above), this will make the correct history appear. Alternatively, if you don't want to leave things so that a naive user will be confused, make a dummy edit to the page, which will update the history.
+Former bugs
+Previous versions of the Wikimedia software displayed other, similar issues:
+
+The success of the undeletion may be announced, but its results not be observable for a while, until the slave servers catch up to the master.
+The merged history may have all the versions of the two formerly separate articles, but without the most recent being shown at the top of the history list, and without the most recently edited version being delivered by the server, until a further edit is made to the article.
+It sometimes happens that viewing the history in step 3.1 shows the history of the just deleted page, not the history of the page just moved.
+
+These bugs do not seem to be happening any more, but it's worth keeping an eye out for them.
+See also
+
+Wikipedia:WikiProject History Merge (how to reduce the backlog)
+Wikipedia:Viewing and restoring deleted pages
+Wikipedia:Integrate
+Wikipedia:Merging (text merging)
+Wikipedia:Splitting
+Help:Merging
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Fixing_cut-and-paste_moves&oldid=756438110"					
+Categories: Wikipedia Administrators' guideWikipedia how-toAdministrator instructionsWikiProject History Merge 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+العربيةNederlands日本語Norsk bokmålPortuguêsසිංහල中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 24 December 2016, at 06:32.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.084","walltime":"0.106","ppvisitednodes":{"value":336,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":12509,"limit":2097152},"templateargumentsize":{"value":203,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   56.879      1 -total"," 50.52%   28.734      3 Template:Shortcut"," 19.76%   11.238      1 Template:Admin_guide"," 14.89%    8.471      1 Template:Navbox"," 10.54%    5.997      1 Template:See_also","  7.14%    4.061      1 Template:Hatnote","  5.89%    3.352      1 Template:Tlp","  2.18%    1.241      3 Template:Tl","  1.95%    1.108      1 Template:Tls"]},"scribunto":{"limitreport-timeusage":{"value":"0.018","limit":"10.000"},"limitreport-memusage":{"value":971239,"limit":52428800}},"cachereport":{"origin":"mw1170","timestamp":"20170203060946","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":51,"wgHostname":"mw1244"});});

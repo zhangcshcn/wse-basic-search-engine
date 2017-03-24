@@ -1,0 +1,828 @@
+ 
+
+
+
+
+
+
+Wikipedia:Pending changes
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Help:Pending changes)
+
+					Jump to:					navigation, 					search
+
+"WP:PC" redirects here. For establishing context in articles, see WP:PCR. For press coverage, see WP:PRESS. For the Pokémon Collaborative, see Wikipedia:WikiProject Pokémon. For the Page Curation tool, see WP:PAGCUR.
+"WP:PEND" redirects here. For pending AFC submissions, see CAT:PEND.
+For a list of articles with pending changes needing review, see Special:PendingChanges.
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcuts:
+
+WP:PC
+WP:FLP
+WP:PEND
+
+
+
+
+
+Pending changes protection is a tool used to suppress vandalism and certain other recurrent nuisances on Wikipedia while allowing a good-faith user to submit an edit for review. Intended for infrequently edited articles that are experiencing high levels of such troublesome edits from new or unregistered users, pending changes protection can be used as an alternative to semi-protection and full protection to allow unregistered and new users to edit pages, while keeping the edits hidden to most readers until they are accepted by a reviewer. There are relatively few articles on Wikipedia with this type of protection.
+When a page under pending changes protection is edited by an unregistered (also called IP) editor or a new user, the edit is not directly visible to the majority of Wikipedia readers, until it is reviewed and accepted by an editor with the reviewer right.
+Pending changes are visible in the page history, where they are marked as pending review. The latest accepted revision is displayed to the general public, while logged-in users see the latest revision of the page, with all changes applied. When editors who are not reviewers make changes to an article with unreviewed pending changes, their edits are also marked as pending and are not visible to most readers.
+Both logged-in users and anonymous users who click the "edit this page" tab edit the latest version as usual. If there are pending changes awaiting review, there will be a dropdown box next to the article title, pointing to the pending changes.
+Pending changes may be used to protect articles against persistent vandalism, violations of the biographies of living persons policy, and copyright violations.
+
+
+
+Contents
+
+
+1 Applying pending changes protection
+2 Reviewing pending edits
+3 Effect of various protection levels
+4 Frequently asked questions
+5 Timeline
+6 See also
+
+6.1 Interface
+6.2 Logs
+
+
+
+
+
+Applying pending changes protection[edit]
+
+
+
+For the policy on applying pending changes protection, see Wikipedia:Protection policy#Pending changes protection. This section is intended to supplement or clarify the policy. If they disagree, please defer to the policy or discuss the option of changing it.
+
+
+Administrators may apply pending changes protection to pages that are subject to heavy and persistent vandalism, violations of the biographies of living persons policy, or insertion of content that violates copyright. Pending changes protection should not be used as a preemptive measure against violations that have not yet occurred, nor should it be used to privilege registered users over unregistered users in content disputes. Pending changes protection should not be used on articles with a very high edit rate, even if they meet the aforementioned criteria. Instead semi-protection should be considered.
+In addition, administrators may apply temporary pending changes protection on pages that are subject to significant but temporary vandalism or disruption (for example, due to media attention) when blocking individual users is not a feasible option. As with other forms of protection, the time frame of the protection should be proportional to the problem. Indefinite PC protection should only be used in cases of severe long-term disruption.
+Like semi-protection, PC protection should never be used in genuine content disputes, where there is a risk of placing a particular group of editors at a disadvantage.
+Editors without administrator privileges can request page protection if the above criteria are met. Removal of pending changes protection can be requested of any administrator, or at requests for unprotection.
+Reviewing pending edits[edit]
+
+
+
+For the guideline on reviewing edits, see Wikipedia:Reviewing pending changes. This section is intended to supplement or clarify the guideline. If they disagree, please defer to the guideline or discuss the option of changing it.
+
+
+The process of reviewing is intended as a quick check to ensure edits don't contain vandalism, violations of the policy on living people, copyright violations, or other obviously inappropriate content. Reviewers are users sufficiently experienced who are granted the ability to accept other users' edits. Reviewers have a similar level of trust to rollbackers; all administrators have the reviewer right. Potential reviewers should recognize vandalism, be familiar with basic content policies such as the policy on living people, and have a reasonable level of experience editing Wikipedia. Reading the reviewing guideline, where the reviewing process and expectations for a reviewer are detailed, is recommended.
+Acceptance of an edit by a reviewer is not an endorsement of the correctness of the edit. It merely indicates that the edit has been checked for obvious problems as listed above.
+Reviewer rights are granted upon request at Wikipedia:Requests for permissions. While any administrator has the technical ability to remove the reviewer permission, removal should occur only as the result of consensus from a discussion or when an editor requests the removal of their own permission. Discussion regarding removal of the reviewer permission should normally occur at the Administrators' noticeboard. Discussion with the involved editor and/or a request for a second opinion at the Pending changes talk page is recommended before formally requesting removal.
+Reviewing of pending changes should be resolved within reasonable time limits (at most a few hours). Backlog management should be coordinated at a community level. The backlog can be viewed at Special:PendingChanges. As of January 2013, edits are rarely unreviewed for more than two to three hours and the backlog is frequently empty.
+Effect of various protection levels[edit]
+
+Interaction of Wikipedia user groups and page protection levels
+
+ 
+Unregistered or Newly registered
+Auto-confirmed, Confirmed
+Extended confirmed
+Pending changes reviewer
+Admin
+Appropriate for
+(See also: Wikipedia:Protection policy)
+
+
+No protection
+Normal editing (can edit; changes go live immediately)
+"Go live" means the changes become visible to readers who are not logged in to Wikipedia. In all cases throughout this table, changes are immediately visible to readers who are logged in.
+The vast majority of pages
+
+
+Pending changes protection
+can edit; changes go live after reviewer acceptance
+Normal editing. (If there are previous pending changes, no changes will go live until the pending changes have been reviewed.)
+*Normal editing;
+can accept pending changes
+Infrequently edited articles with high levels of vandalism or BLP violations from unregistered and new users
+
+
+Semi-protection
+cannot edit
+Normal editing
+Articles with high levels of vandalism or edit warring from unregistered and new users; some highly visible templates & modules
+
+
+**Extended confirmed prot.
+cannot edit
+Normal editing
+Specific topic areas authorized by Arbcom; pages subject to persistent disruption that semi-protection has failed to stop
+
+
+Template prot.
+cannot edit (unless Template editor, in which case Normal editing)
+Normal editing
+High-risk templates & modules
+
+
+Full protection
+cannot edit
+Articles with persistent vandalism or edit warring from (auto)confirmed accounts; critical templates & modules
+
+
+* When an Administrator or Pending Changes Reviewer edits an article that has pending changes awaiting review, they are prompted to review the pending changes before saving their edit.
+** This row assumes that a Pending changes reviewer is also Extended confirmed. (A Pending changes reviewer needs separate Extended confirmed rights to edit through Extended confirmed protection; in practice nearly all Pending changes reviewers will have that additional right.)
+
+view · talk · edit
+
+
+
+
+
+Frequently asked questions[edit]
+
+If an established user edits an article with unreviewed pending changes, is the new version automatically accepted?
+No. If the user is a reviewer (that is, the user has been granted the "reviewer" permission), they will be prompted to review and accept any unreviewed pending changes. If the user is not a reviewer, the edit will also be marked as "pending review". (Reviewers can test this by unaccepting the current version of a page under pending changes and then trying to edit.) An exception to this is when a user reverts a pending edit to the latest accepted revision: in this case the revert is automatically accepted.
+What happens if several IP edits to an article under pending changes result in a null edit? (For example, an IP makes an edit, then another IP undoes it.)
+If they were all made by a single IP, the new version is automatically accepted. If different users edited, the new version is not accepted (to prevent potential abuse).
+On which kinds of pages can pending changes be used?
+At first, it was determined by consensus that pending changes could be used only on articles, subject to the protection policy, and on test pages in project space. A later request for comment found it permissible to use pending changes beyond articles; however, it is restricted by the software to the main and project namespaces, and no request to allow other namespaces was made. It is not technically possible for talk pages to be placed on pending changes.
+Wasn't pending changes protection dropped?
+Yes and no. Pending changes protection was deployed on a trial basis in 2010. In 2011, pending changes protection was dropped as a mechanism for protecting pages, until a consensus agreement on its deployment was reached. There have been a series of discussions on using the feature and it was put back into service on December 1, 2012. Since then only pending changes level 1, affecting the edits of new and unregistered users, is being used. The use of level 2 may be proposed for truly exceptional cases, but is rarely accepted.
+How can you tell if a page has pending changes protection?
+Protected pages are normally marked with a small white-colored or orange-colored padlock symbol in the top corner depending on its level of protection. Also, there will be a drop-down box next to the article title, pointing to the pending changes, if there are any.
+
+Timeline[edit]
+
+Shortcut:
+
+WP:PCRFC
+
+
+See also: Template:Pending changes discussions
+Below is a list of past discussions and polls relating to the Pending Changes feature:
+
+March 2009: First poll 4 to 1 approving original trial
+May 2010: RFC on some pre-trial issues
+June 2010 – August 2010: Pending changes trial
+August 2010: Straw poll 2 to 1 in favor of continuing PC in some form
+September 2010: Straw poll on interim usage
+September 2010 – May 2011: Continuation of pending changes without clear mandate
+February 2011 – May 2011: PC RfC 2011 Ended the original PC trial.
+March 2012 – June 2012: PC RfC 2012 established consensus to enable PC before the end of 2012.
+
+September 2012: WP:PC2012/RfC 1 discussed whether to use Level 2 pending changes.
+October 2012: WP:PC2012/RfC 2 discussed when to apply pending changes, the criteria for rejecting edits, and various ideas for reducing backlog.
+November 2012: WP:PC2012/RfC 3 discussed deployment and usage of the pending changes feature.
+
+
+December 2012 – : Pending changes re-enabled on a permanent basis
+May 2013: PC RfC 2013 is closed as requiring further discussion for implementation. It reopened the question of whether to use Level 2 pending changes.
+January 2014: PC RFC 2014 opened to determine if there is consensus on how to implement pending changes level 2. By the time it was closed in June, there was no longer a consensus to use pending changes level 2 at all, but if and when such a consensus does develop, there is some consensus on when to apply it.
+October 2016 DC RFC 2016 opened to determine if the edit filter, bots and ORES should be allowed to defer suspicious edits for review using deferred changes. The RfC passed in its entirety.
+November 2016 PC RFC 2016 #1 opened to propose lowering the auto-accept threshold for PC2 and establish usage criteria.
+November 2016 PC RFC 2016 #2 opened to propose several things, including implementing pending changes for all articles, implementing it for certain types of articles (including good articles, featured articles, vital articles, and biography of living persons articles), auto-granting the reviewer right for those meeting certain criteria, and creating a semi-automated tool for reviewing. The portion for creating a semi-automated review tool was withdrawn from the RfC as not needing consensus, and the RfC was later snow-closed with consensus against all remaining proposed changes.
+January 2017 RFC to remove pending changes level 2, after all RFCs on the subject failed to achieve consensus for using it.
+
+See also[edit]
+
+Wikipedia:Flagged protection and patrolled revisions, the original trial proposal.
+Wikipedia:Deferred changes, proposal to allow bots, the edit filter, and/or ORES to defer suspect edits for review (originally Wikipedia:Deferred revisions).
+Wikipedia:Patrolled revisions, a request for a passive reviewing system, part of the original proposal.
+Wikipedia:Pending changes blocks, proposal for a form of user specific editing restriction that is to a classic block what pending changes protection is to classic protection.
+Wikipedia:PC2012, an overview of the 2012 implementation of pending changes.
+Wikipedia:Pending changes caveats, an essay on why the use of pending changes was severely limited.
+
+Interface[edit]
+
+Special:PendingChanges, pages with pending edits.
+Special:StablePages, pages under pending changes.
+Special:ValidationStatistics, various statistics pertaining to the Pending Changes feature.
+Template:Pending Changes backlog, a display of the current backlog, which can be added to user pages.
+
+Logs[edit]
+
+Special:Log/stable, actions to enable or disable pending changes.
+Special:AdvancedReviewLog, actions to review edits.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Pending_changes&oldid=762753901"					
+Categories: Wikipedia information pagesWikipedia flagged revisionsHidden categories: Wikipedia move-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikiversity 
+
+
+
+Languages
+
+
+العربيةБългарскиفارسیHrvatskiPolskiPortuguêsSuomiTiếng Việt中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 30 January 2017, at 15:24.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.116","walltime":"0.168","ppvisitednodes":{"value":547,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":60230,"limit":2097152},"templateargumentsize":{"value":190,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  102.038      1 -total"," 36.36%   37.098      1 Template:Infopage"," 31.29%   31.930      3 Template:Ombox"," 18.80%   19.179      1 Template:Pp-move-indef"," 11.72%   11.962      1 Template:Wikipedia_technical_help"," 10.88%   11.102      2 Template:Redirect","  9.73%    9.932      1 Template:Navbox","  8.77%    8.950      1 Template:Protection_table","  8.45%    8.625      2 Template:Shortcut","  4.77%    4.865      1 Template:For"]},"scribunto":{"limitreport-timeusage":{"value":"0.034","limit":"10.000"},"limitreport-memusage":{"value":1724103,"limit":52428800}},"cachereport":{"origin":"mw1275","timestamp":"20170204143157","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":60,"wgHostname":"mw1181"});});

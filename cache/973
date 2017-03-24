@@ -1,0 +1,324 @@
+ 
+
+
+
+document.write("\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca href=\"#\"\u003Ehide\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cdiv style=\"position:absolute; z-index:100; right:100px; top:-0px;\" class=\"metadata\" id=\"donate\"\u003E\n\u003Cdiv style=\"text-align:right; font-size:80%\"\u003E\u003Ci\u003EYour \u003Cb\u003E\u003Ca href=\"https://wikimediafoundation.org/wiki/Fundraising\" class=\"extiw\" title=\"wikimedia:Fundraising\"\u003Econtinued donations\u003C/a\u003E\u003C/b\u003E keep Wikiquote running!\u003C/i\u003E\n\u003C/div\u003E\u003C/div\u003E\n\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E");
+
+
+Wikiquote:Protection policy
+
+From Wikiquote
+
+
+					Jump to:					navigation, 					search
+
+
+This page is a draft policy on Wikiquote. It is available for consideration by the community, but does not yet reflect community consensus. Editors and sysops may follow the policies drafted here at their own responsibility. Please edit this page or make a comment on Wikiquote talk:Protection policy.
+Edit +/-
+
+
+Note: Currently this policy draft have no mention to semi protection feature, due to historical reasons. It is therefore needed to be revised before asking the community to adopt this policy.
+
+
+Although we must change the ways we protect our
+wiki, we must also guard against policies that
+appear attractive but offer little real protection
+and may even impede our ability to protect ourselves.
+— After Richard Burr (original has 'country' in place of 'wiki')
+
+Administrators have the ability to "protect" pages or images such that they cannot be modified except by other admins. Pages can also be "pinned down" so they cannot be moved by non-administrators. These capabilities are only to be used in limited circumstances.
+Shortcut:
+WQ:PP
+WQ:PROT
+WQ:PROTECT
+
+
+
+Contents
+
+
+1 Type of protection
+2 Policy
+3 Procedure
+4 List of protected pages
+
+4.1 Protected against article re-creation
+4.2 Semi/protected pages from editing
+4.3 Protected from moves only due to edit wars or vandalism
+
+4.3.1 User pages and subpages
+
+
+4.4 Other pages protected against page moves only
+4.5 Permanently protected pages
+4.6 Permanently semi-protected pages
+
+
+5 See also
+
+
+
+Type of protection[edit]
+There are several types of protection.
+
+Full protection Only sysops can edit and move the page.
+Semi protection Only registered users with some experience can edit the page.
+Move protection Only sysops can move the page. It can happen a page is semi protected for editing but also protection against moving. Please note, regardless protection, unregistered users and newly created accounts are not permitted to move the Wikiquote pages. See also w:Wikipedia:User access levels.
+Cascade protection Not only the page but also all its inclusions are fully protected.
+
+Duration of each protection is either indefinite ("permanent") or temporal (expiry is defined). For placing a temporal protection, sysops are highly recommended to set an expiry.
+General wiki protection descriptions can be found at w:Wikipedia:Protection policy, although Wikiquote guidelines may supercede them.
+Policy[edit]
+
+A sysop may protect the following types of pages:
+
+Highly visible pages, like the Main Page, to prevent casual edits.
+Pages involved in move or edit wars, to halt the conflict.
+Pages experiencing frequent vandalism, to suspend the attacks.
+Pages created or edited contrary to Wikiquote policy or community will, to enforce such policies or community decisions.
+
+
+Be aware the protection in situations 2, 3, and 4 should be temporary.
+If a sysop is involved in an edit war, he or she should not protect the page.
+
+
+A sysop may protect a page, if necessary, without discussion, following the procedure described in this page.
+Any editor may request for page protection on Wikiquote:Administrators' noticeboard (or other more appropriate page).
+In general, a sysop should not edit temporarily protected pages, except to revert obviously vandalized pages to appropriate versions.
+General wiki protection guidelines can be found at w:Wikipedia:Protection policy, although Wikiquote guidelines may supercede them.
+
+Procedure[edit]
+
+This section is a draft!
+
+
+Protection
+
+
+If you think a page should be protected, you may ask for protection on WQ:AN. You may use other channels, including WQ:VP, IRC #wikiquote, or even a sysop talk page. Sysops may protect pages solely on their discretion, if appropriate and necessary.
+A sysop protects the page, supplying a reason, using {{protected}} or {{semiprotected}}. Other information may be provided too. Protection may have expiry; for full protection on articles, protection with expiry may be a good option.
+
+
+Unprotection
+
+
+If you think a protected page should be unprotected, you may ask for unprotection on WQ:AN. Sysops may unprotect pages solely on their discretion, if appropriate and necessary.
+A sysop unprotects the page and remove the protection tag.
+If a page was protected but its protection was expired, it could happen the page is not protected, while the protection tag remains. In this case, you are encouraged to remove the tag.
+
+
+Record
+
+
+All pages protected after April 2007 are found at Special:Protectedpages. Pages protected before may be found on this page (see below).
+
+List of protected pages[edit]
+Note: This list is not complete and obsolated. It covers only the pages protected before April 2007. Pages proteced since then are found at Special:Protectedpages.
+If you need to say something on a certain protected page, discuss on its talk page. Also see the protection log for recent unprotections.
+Protected against article re-creation[edit]
+See Wikiquote:Protected titles
+Semi/protected pages from editing[edit]
+See Special:Protectedpages
+Protected from moves only due to edit wars or vandalism[edit]
+
+latest at bottom
+
+User pages and subpages[edit]
+
+All admin user and talk pages protected from moves indefinitely due to pattern vandalization. Protected by Aphaia and Jeffq, 08:18, 25 Apr 2005 (UTC).
+User:MosheZadka and its talk, protected by Aphaia. Once vandalized. --Aphaia 03:06, 9 Jun 2005 (UTC)
+
+Other pages protected against page moves only[edit]
+
+Main namespace
+Other namespaces
+
+
+Wikiquote:About
+Wikiquote:Administrators' noticeboard
+Help:Contents
+Wikiquote:Local embassy
+Wikiquote:Requested entries
+Wikiquote:Reference desk
+Wikiquote:Sandbox
+Wikiquote:Votes for deletion
+Wikiquote:Vandalism in progress
+Wikiquote:Village pump
+Wikiquote:Template messages
+Wikiquote:FAQ
+
+Permanently protected pages[edit]
+
+Main namespace
+
+
+Main Page
+
+
+Project namespace (Wikiquote namespace)
+
+
+Wikiquote:General disclaimer
+Wikiquote:Creative Commons Attribution-Share Alike 3.0 License
+Wikiquote:GNU FDL
+Wikiquote:Block log - old log pages
+Wikiquote:Protection log - old log pages
+Wikiquote:Deletion log - old log pages
+Wikiquote:Upload log - old log pages
+Subpages of Wikiquote:Quote of the day that are or have been in Main Page.
+Wikiquote:Contact us - linked from sidebar
+
+
+Template namespace
+
+
+Template:Welcome
+Template:User
+Template:Categorybrowsebar
+
+
+Others
+
+
+Image:WikiThanks.png - recurring target of the Ass Pus vandal. jni 18:01, 10 July 2005 (UTC)
+All pages in the MediaWiki namespace; technically not protected but you need the admin priviledge to edit them.
+
+Permanently semi-protected pages[edit]
+
+Wikiquote:Community portal (move sysop only)
+
+See also[edit]
+
+Protection log - automated log of protections and unprotections
+m:Protected pages considered harmful - essay
+m:The Wrong Version - semi-humorous essay about revert warriors' perception of page protection
+
+
+
+
+ 
+						Retrieved from "https://en.wikiquote.org/w/index.php?title=Wikiquote:Protection_policy&oldid=1023437"					
+Categories: Policy draftsWikiquotePolicies needing revision 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main PageCommunity portalVillage pumpRecent changesRandom pageHelpDonateContact Wikiquote 
+
+
+
+Wikiquote links
+
+
+PeopleLiterary worksProverbsFilmsTV showsThemesCategories 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikidataWikinewsWikipediaWikisourceWikiversityWikivoyage 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other languages
+
+
+DanskEspañolMagyarItaliano日本語LatinaSimple English中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 13 October 2009, at 18:59.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+
+
+Privacy policy
+About Wikiquote
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.024","walltime":"0.041","ppvisitednodes":{"value":133,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":1217,"limit":2097152},"templateargumentsize":{"value":100,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    6.609      1 -total"," 48.60%    3.212      1 Template:Policydraft"," 29.99%    1.982      2 Template:Tl"," 24.16%    1.597      1 Template:Ed"," 16.94%    1.120      1 Template:Shortcut"]},"cachereport":{"origin":"mw1163","timestamp":"20170202025330","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70,"wgHostname":"mw1272"});});

@@ -1,0 +1,217 @@
+ 
+
+
+
+document.write("\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca href=\"#\"\u003Edismiss\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cp\u003E\u003Ccenter\u003E\u003Cbig\u003E\u003Ca href=\"/wiki/Wikiversity:Why_create_an_account%3F\" class=\"mw-redirect\" title=\"Wikiversity:Why create an account?\"\u003EWhy create a Wikiversity account?\u003C/a\u003E\u003C/big\u003E\u003C/center\u003E\u003C/p\u003E\n\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E");
+
+
+Wikiversity:Page protection
+
+From Wikiversity
+
+
+					Jump to:					navigation, 					search
+
+
+Shortcuts:
+WV:PP
+WV:PROTECT
+Wikiversity custodians can protect pages from edits, name changes, and recreations. Protection is most often used to deter vandalism. For example, this page is editable by anyone as it is not protected. The procedure to protect a page is to put any of several page protection templates on the page.
+
+
+
+
+
+Semiprotection[edit]
+
+
+
+
+Wikiversity participants can only edit, rename, or recreate semiprotected pages when they are logged into a registered user account, have more than 9 edits, and their user account was registered more than 3 days ago.
+
+
+
+Full protection[edit]
+When a page is fully protected only Custodians can edit, move, or recreate the page.
+Move protection[edit]
+When a page is move protected the page can only be moved to a new name using the "move" button by registered users or custodians. Pages protected from edits and movs are listed at Special:Protectedpages.
+
+
+
+
+Create protection[edit]
+
+
+
+
+When a page is create protected the page can only be created by registered users or custodians. The protect tool is available to custodians for all pages, even deleted pages. Pages that are protected from creation are listed at Special:Protectedtitles.
+
+
+
+
+
+
+Creation protection menu.
+
+
+
+See also[edit]
+
+Wikiversity:Page protection templates
+TitleBlacklist extension, MediaWiki:Titleblacklist
+Template:Active course
+
+
+
+
+
+Cascading protection[edit]
+
+
+
+
+Custodian controls for page protection.
+
+
+When Cascading protection is used, all images and templates on a page are also protected.
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikiversity.org/w/index.php?title=Wikiversity:Page_protection&oldid=1498777"					
+Category: Wikiversity maintenance 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Community
+Discuss
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main PageBrowse wikiRecent changesGuided toursRandomHelpDonate 
+
+
+
+Community
+
+
+PortalColloquiumNewsProjectsSandboxHelp desk 
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In other languages
+
+
+日本語 
+Edit links 
+
+
+Wikimedia projects
+
+
+CommonsWikibooksWikipediaWiktionaryWikiquoteWikisourceWikinewsWikispeciesWikivoyageMeta-WikiOutreachMediaWikiWikimania 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikidataWikinewsWikipediaWikiquoteWikisourceWikivoyage 
+
+
+
+
+
+
+ This page was last modified on 8 January 2016, at 10:30.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+
+
+Privacy policy
+About Wikiversity
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.028","walltime":"0.034","ppvisitednodes":{"value":134,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":749,"limit":2097152},"templateargumentsize":{"value":95,"limit":2097152},"expansiondepth":{"value":5,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   10.227      1 -total"," 45.37%    4.640      1 Template:Shortcut"," 13.51%    1.381      1 Template:MultiCol"," 12.21%    1.249      2 Template:Clear"," 11.30%    1.156      2 Template:ColBreak"," 10.96%    1.121      1 Template:EndMultiCol"]},"cachereport":{"origin":"mw1303","timestamp":"20170202025354","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":61,"wgHostname":"mw1177"});});

@@ -1,0 +1,631 @@
+ 
+
+
+
+
+
+
+MediaWiki:Titleblacklist
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+# This is a title blacklist; titles that match regex here are forbidden, and cannot be created.
+# Options exist to stop editing, account creation, and moves as well.  See mw:Extension:Title Blacklist for documentation
+# See the talk page for more information.
+# This list affects only the English Wikipedia; refer also to the global blacklist at
+# m:Title blacklist
+
+
+# Please comment any additions made to the blacklist.
+# Note: Internally, the pattern delimiter is '/', so be sure to escape all '/'s.
+# UTF-8 mode is enabled. Do not use literal non-breaking spaces in regexes as some browsers cannot handle them.
+
+
+# OBSCURE ASCII CHARACTER LOOKALIKES
+.*[ℂ℃℄ɕƌʥℇ℈℉ℊℋℌℍℎℏℐ‼ℑℒℕ℗℘ℙℚℛℜℝ℞℟℣ℤℨ℩ℬℭ℮ℯℰℱℲℳℴℹ℺⅁⅂⅃⅄ⅅⅆⅇⅈⅉⅎ].* <casesensitive> # Select Unicode Letterlike Symbols (excluding Kelvin, Angstrom and Ohm signs, see talk)
+.*[\x{249C}-\x{24E9}].* <casesensitive> # Circled and parenthesized Latin letters
+.*[\x{FF21}-\x{FF3A}\x{FF41}-\x{FF5A}].* <casesensitive | errmsg=titleblacklist-custom-fullwidth> # Fullwidth Latin letters
+.*[？ʖ؟ʔ].* <casesensitive | moveonly> # Question mark lookalikes, used for page move vandalism
+.*[\x{1D00}-\x{1DBF}].* <casesensitive> # Phonetic extensions, almost never used in valid titles
+.*[\x{0250}-\x{02AF}].* <casesensitive | moveonly> # IPA extensions, somewhat more common, so blocking only moves for now
+.*[∀-∑∟-∳⊂-⋕⋲-⋿].* <casesensitive | moveonly> # Select mathematical operators (excluding "−", "∞" and some other common ones)
+.*[\x{27C0}-\x{27ef}\x{2980}-\x{29ff}\x{2a00}-\x{2aff}].* <casesensitive | moveonly> # Misc./supplemental mathematical symbols
+.*[ⱧȢƪƪҤҺԊѓԍҥҩԌЃϓғҒЊӷⱤɌɍᵲᶉɼᵃᵍᴱᵣᔮᓂᑫᓈᒦ٨٣ץױוזשלﬨטּפּבּڠɆɇᶒⱸȺⱥᶏ١].* <casesensitive | moveonly> # Letter lookalikes; none of these are currently used in any mainspace title
+
+
+# OTHER UNDESIRABLE CHARACTERS
+.*[\x{00A0}\x{1680}\x{180E}\x{2000}-\x{200B}\x{2028}\x{2029}\x{202F}\x{205F}\x{3000}].* <casesensitive | errmsg=titleblacklist-custom-nbsp> # Non-breaking and other unusual spaces, with custom error message
+.*[\x{202A}-\x{202E}].* <casesensitive> # BiDi overrides
+.*[^\P{So}¦§©®°¶№™☀-⚲✁-➾`].* <casesensitive> # "Other punctuation", with some exceptions (may need more, this is a huge character class); note that single-character titles are permitted by the title whitelist
+.*\p{Cc}.* <casesensitive> # Control characters
+.*\x{FEFF}.* <casesensitive> # Byte order mark
+.*[卍卐☭☠🖕].* <casesensitive> # Swastikas, hammer-and-sickle, skull-and-crossbones, middle finger
+.*\x{00AD}.* <casesensitive> # Soft-hyphen
+.*[^\0-\x{FFFF}].* <casesensitive> # Very few characters outside the Basic Multilingual Plane are useful in titles
+.*[\x{2400}-\x{2426}].* <casesensitive> # Graphic pictures for control codes
+
+
+# EXCESSIVE PUNCTUATION OR REPETITION
+.*[!?‽¿]{3}(?<!!!!).*
+.*[!?‽¿]{2}(?<!!!!).* <moveonly>
+.*[!?‽¿]\s+[!?‽¿].*
+.*‽‽.* <moveonly> 
+.*¿¿.* <moveonly>
+.*[\p{Z}]{2}.* # Disallows two adjacent "separator" characters (mostly funky spaces)
+.*[^\p{L}\d ]{6}.* # Disallows six consecutive characters that are not letters (in any script), numbers, or spaces
+.*([^0])\1{4}.* <moveonly> # Disallows four or more of the same character from page moves
+.*(.)\1{10}.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account-invalid> # Disallows eleven or more of the same character repeated in usernames
+.*\p{Lu}(\P{L}*\p{Lu}){9}.* <casesensitive | moveonly>  # Disallows moves with more than nine consecutive capital letters
+(.*[^0-9'])?'{2,}.*|.*'{2,}([^'\-].*)? <errmsg=titleblacklist-forbidden-apostrophes> # Multiple consecutive apostrophes get interpreted as wiki markup, so shouldn't be used in page titles
+
+
+# INVERTED QUESTION MARK WITH NON-LATIN TEXT
+.*¿.*[^\p{Latin}\P{L}].*
+.*[^\p{Latin}\P{L}].*¿.*
+
+
+# ATTACK TITLES AND/OR PAGE MOVE VANDALISM TARGETS
+.*Hunter (The|Baker|Classic|Original|Mariner|Fan|Berkeley|2|3|4|5|Oasis|Eclipse|Beacon|Custom|Stratford|Low|Summer|Studio).*
+.*bajotz.*
+.*chaos.{0,7}apper.*
+.*chaos.{0,7}usic.*
+.*chaos.{0,7}ntert.*
+.*chaos.{0,5}ashington.*
+.*chaos.{0,5}iscography.*
+.*chao\$.*
+.*customer support (phone|number).*
+.*tech support (phone|number).*
+.*Huff Da(l|ll)and.*
+.*Tiny Toon.*
+.*Meepsheep.*
+.*JEWS DID .* <casesensitive>
+.*[OÓÒÔÖÕǑŌŎǪŐŒØƏΌΟΩῸὈὉὌὊὍὋОӨӦӪ0][N₦ŃÑŅŇṆΝ][ ]?[WŴẀẂẄẆẈ₩][HΉĤĦȞʰʱḢḤḦḨḪНҢӇӉΗἨἩἪἫἬἭἮἯῊᾘЋΗⱧԋњһh][ÉÈËEĘĚĔĖẺẸẾỀỄễỂểȨȩḜḝĒḖḗȄȅȆȇỆệḘḙḚḛ3عڠeēėèéëẽĕęəẻếềẹ][ÉÈËEĘĚĔĖẺẸẾỀỄễỂểȨȩḜḝĒḖḗȄȅȆȇỆệḘḙḚḛ3عڠeēėèéëẽĕęəẻếềẹ]+[L₤ĹĽḶŁĿΛЛЉ7][[S$ŚŜŞŠṢΣЅz5].* <moveonly> # Disallows moves with "on wheels" with 2 or more Es
+.*on wh33ls.*
+.*on whiels.*
+.*on wiels.*
+.*on hueels.*
+.*onhueels.*
+.*\bwith wh?iels\b.* <moveonly>
+.*on rails.* <moveonly>
+.*on treads.* <moveonly>
+.*BITCH.* <casesensitive>
+.*COCK.* <casesensitive>
+.*[cċĉ¢сćĉçč][óòôöõǒōŏǫőøόδοσоʘǿọơờởỡớợồổỗốộ][cċĉ¢сćĉçč][kķкќқҝҡҟӄ].*
+.*[ċĉ¢сćĉçč][oóòôöõǒōŏǫőøόδοσоʘǿọơờởỡớợồổỗốộ][cċĉ¢сćĉçč][kķкќқҝҡҟӄ].*
+.*[cċĉ¢сćĉçč][oóòôöõǒōŏǫőøόδοσоʘǿọơờởỡớợồổỗốộ][ċĉ¢сćĉçč][kķкќқҝҡҟӄ].*
+.*[cċĉ¢сćĉçč][oóòôöõǒōŏǫőøόδοσоʘǿọơờởỡớợồổỗốộ][cċĉ¢сćĉçč][ķкќқҝҡҟӄ].*
+.*CUM.* <casesensitive | moveonly>
+.*DICK.* <casesensitive>
+.*giiant.*
+.*giant penis.*
+.*huge penis.*
+.*licking my peni[sz].*
+.*creamy semen.*
+.*smaller.than.average.* <moveonly>
+.*have sex.* <moveonly>
+.*(?:suck|his|your|my) penis.* <moveonly>
+.*(?:http|https|ftp|mailto|torrent|ed2k)\:\/\/[\w:@\-]+\.[\w\-]+.*
+.*\b((is\s+an?)|are)\s+(?:dick|cunt|fag|bitch|shit|fuck|loser|ass|gay|ghey|moron|retard|stupid|slut|pa?edo).* <autoconfirmed>
+.*\b((is\s+an?)|are)\s+(?:dick|cunt|fag|bitch|shit|fuck|loser|ass|gay|ghey|moron|retard|stupid|slut|pa?edo).* <moveonly>
+.*[Ll][Oo][Ll].*[Ww][Uu][Tt].*
+.*\bnimp\.org.*
+.*JIHAD, BITCHES.* <casesensitive>
+.*Vandalism is Terrorism.*
+.*WANT TO HA.* <casesensitive | moveonly>
+.*waant to h.* <moveonly>
+.*Brian.*Peppers.*
+.*suck my.* <moveonly>
+.*GE ORGAS.* <casesensitive | moveonly>
+.*ge orrg.* <moveonly>
+.*RM, STICKY.* <casesensitive>
+.*rm sticky.* <moveonly>
+.*TAIN OUT OF.* <casesensitive | moveonly>
+.*nig{2,}er.* # nigger
+.*loves the.* <moveonly>
+.*cking fail.*
+.*Epic fail.*
+.*[L₤ĹĽḶŁĿΛЛЉ][óòôöõǒōŏǫőøόδοσоʘoọ][L₤ĹĽḶŁĿΛЛЉ][,;:.].* <moveonly>
+.*WHUT.* <casesensitive | moveonly>
+.*What what.* <moveonly>
+.*Gr[óòôöõǒōŏǫőøόδοσоʘǿọ]p.* <moveonly>
+.*[ԍGGĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜ]r[\w\s]wp.*
+.*Rap(e|es|ing) (babies|children|kids).*
+.*r[\w\s]pl[\w\s]c[\w\s]ng.* <moveonly>
+.*h [GĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜ]s.* <moveonly>
+.*[^\p{L}][GĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜٯg][GĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜٯ].* <moveonly|casesensitive>
+.*ǃ[^!?]ǃ.* <moveonly>
+.*Ɩ\P{L}Ɩ.* <moveonly>
+.*has.been.moved.* <moveonly>
+.*was movėd.* <moveonly>
+.*NEGRO.* <casesensitive | moveonly>
+.*COON SPIC.* <casesensitive | moveonly>
+.*is stretched by.* <newaccountonly>
+.*coċk.* <newaccountonly>
+.*cóck.* <newaccountonly>
+.*aßs.* <newaccountonly>
+.*condemns.homosexuality.* <newaccountonly>
+.*[cċĉ¢сćĉçčʢ][HΉĤĦȞʰʱḢḤḦḨḪНҢӇӉΗἨἩἪἫἬἭἮἯῊᾘЋΗ][ÉÈËEĘĚĔĖẺẸẾỀỄễỂểȨȩḜḝĒḖḗȄȅȆȇỆệḘḙḚḛ3eعڠeēėèéëẽĕęəẻếềẹ][cċĉ¢сćĉçčʢ][K₭ΚКЌҠҞӃ][uUÚÙÛÜŨŮǓŪǖǘǚǜŬŲŰ][S$ŚŜŞŠṢΣЅz5][ÉÈËEĘĚĔĖẺẸẾỀỄễỂểȨȩḜḝĒḖḗȄȅȆȇỆệḘḙḚḛ3eعڠeēėèéëẽĕęəẻếềẹ][RŔŖŘȐȒƦʳʴʵʶṘṚṜṞЯ®ΡΡ₧ÞþΡρРрƤṔṖǷґЃrمŕŗřṛṝгΓ].* <newaccountonly>
+.*ͨh.* <newaccountonly>
+.*[Ss][Hh][!ƗíÍìÌĭĬîÎǐǏïÏĩĨįĮīĪıİľĽŀĿłŁļĻḷḶΙιїЇ][Tt].* <newaccountonly|casesensitive> # Cannot be case-insensitive, as İ may match i and ı may match I.
+.*[BΒБВ฿][RŔŖŘȐȒƦʳʴʵʶṘṚṜṞЯ®ΡΡ₧ÞþΡρРрƤṔṖǷґЃrمŕŗřṛṝгΓ][Il1!ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮį][T₮ŢŤṬΤТЋҬtţťṭτтŧ](ph|f)[AΑĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4][GĜĞĠĢƓǤǦǴḠ69&Γ].* #Britfag/phag
+.*\b(moral)?fag\b.* <moveonly>
+.*\bNWiki\b.*
+.*\b[N₦ŃÑŅŇṆΝ][AΑĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4óòôöõǒōŏǫőøόδοσоʘǿọờởỡớợồổỗốộ][W₩ŴΨШЩ][L₤ĹĽḶŁĿΛЛЉ][ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįī][N₦ŃÑŅŇṆΝ]s?(Wik)?\b.* <newaccountonly>
+.*\b[N₦ŃÑŅŇṆΝ][AΑĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4óòôöõǒōŏǫőøόδοσоʘǿọờởỡớợồổỗốộ][W₩ŴΨШЩ][L₤ĹĽḶŁĿΛЛЉ][ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįī][N₦ŃÑŅŇṆΝ]s?[W₩ŴΨШЩ][ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįī][K₭ΚКЌҠҞӃ][ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįī].* <newaccountonly>
+.*\b[N₦ŃÑŅŇṆΝ][AΑĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4óòôöõǒōŏǫőøόδοσоʘǿọờởỡớợồổỗốộ][W₩ŴΨШЩ][L₤ĹĽḶŁĿΛЛЉ][ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįī][N₦ŃÑŅŇṆΝ][W₩ŴΨШЩ][ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįī][K₭ΚКЌҠҞӃ][ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįī].* <newaccountonly>
+.*\b[L₤ĹĻĽĮḶḸŁĿ](o|[aă]w+|w[aă])l\b.* <moveonly>
+.*\b[HΉĤĦȞʰʱḢḤḦḨḪНҢӇӉΗἨἩἪἫἬἭἮἯῊᾘЋΗ−ŧⱧԋњһ\+łƗ!ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįḹtţťṭτтŧĵٲٱ]\W+[AΑĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4]\W+[GĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜ].* <moveonly>
+.*\b[HΉĤĦȞʰʱḢḤḦḨḪНҢӇӉΗἨἩἪἫἬἭἮἯῊᾘЋ\+Η−ŧſⱧԋњһłƗ!ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮįḹtţťṭτтŧĵſٲٱ]\W*[AΑĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4]\W*[GĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜg].* <moveonly|casesensitive>
+.*[ĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜٯģğġĝҩ]\s*[ĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜٯģğġĝҩ].* <moveonly>
+.*[ĜĢĞĠƓǤǦǴḠԌეอÇ&ΓϜٯģğġĝҩ]{2,5}.* <moveonly>
+.*Wikipedo.*
+.* killed in .*
+.*An hero.* <moveonly|casesensitive>
+.*\.\.\.H.* <moveonly>
+.*\.\.\.\.H.* <moveonly>
+.*\bfapped.* <moveonly>
+.*Krimpet.* <moveonly>
+.*,,+.* <moveonly>
+.*;;+.* <moveonly>
+.*(\pP{2,}\PP){4}.* <moveonly|errmsg=titleblacklist-custom-pagemove> #Antigrawp, works by blocking titles with overused punctuation (eg H..A..G..G..E..R)
+.*[ÂĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩][69]{2,5}.* #nonstandard A66
+.*Faggot.* <moveonly>
+.*Deletionis.* <moveonly>
+.*'H'.* <moveonly>
+.*\*h.* <moveonly>
+.*H'A.* <casesensitive|moveonly>
+.*piece of sh[iî][ţt].* <moveonly>
+.*moved by.* <moveonly>
+ .*[GĜĞĠĢƓǤǦǴḠ69&Γ]\s*[ZŹŽŻ]\s*[FҒ₣]\s*[FҒ₣]\s*[DĐĎḌÐΔ₫₯]\s*[QɊʠ].* <moveonly>
+.*[GĜĞĠĢƓǤǦǴḠ69&Γ]\s*[DĐĎḌÐΔ₫₯]\s*[QɊʠ]\s*[ĹĻĽḶŁĿ₤ΛLŀ]\s*[XҲΧ].* <moveonly>
+.*[RŔŖŘȐȒƦʳʴʵʶṘṚṜṞЯ®ΡΡ₧ÞþΡρРрƤṔṖǷґЃŕŗřṛṝгґѓΓя][eēėèéëẽĕęəẻếềẹể][PƤṔṖǷ₧ÞþΡρРр][L₤ĹĽḶŁĿΛЛЉ][AΑÂĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4aáàâäãǎāăảąæåάαᾳᾴὰᾲᾶᾷἀᾀἁᾁἄᾄἂᾂἆᾆἅᾅἃᾃἇᾇаӑӓӕạậ]c[eēėèéëẽĕęəẻếềẹể].[eēėèéëẽĕęəẻếềẹể][AΑÂĄĂÃÀĀΆẠẬẢẤẦẨẮẰẴẲẪẶḀǞǠȀᾼᾺᾈἉᾉἌᾌἊᾊἎᾎἍᾍἋᾋἏᾏÁÂÄÆÅǺ٩4aáàâäãǎāăảąæåάαᾳᾴὰᾲᾶᾷἀᾀἁᾁἄᾄἂᾂἆᾆἅᾅἃᾃἇᾇаӑӓӕạậ][cċĉ¢сćĉçč][HНΉĤĦȞʰʱḢḤḦḨḪНҢӇӉΗἨἩἪἫἬἭἮἯῊЋΗ].* <moveonly>
+.*[ÌÍÎÏĨļǏĪĬİḷ][’'`][dďḍÐ].[HΉĤĦȞʰʱḢḤḦḨḪНҢӇӉΗἨἩἪἫἬἭἮἯῊЋΗſⱧԋh][ÌÍÎÏĨļǏĪĬİḷ]t.[ÌÍÎÏĨļǏĪĬİḷ][tţťṭτтŧ].* <moveonly>
+.*\?\s*\(.{55,200}\).* <moveonly> # long Hagger parentheticals
+.*fuċking.*
+.*cuntmonkey.*
+.*\([QɊʠIl1!ÌÍÎÏĨļǏĪĬİḷŀΙЇɨ!łľıĮį].{95,200}.* <moveonly>
+.*[W₩ŴΨШЩ]{1,3}[ǼAÀÁÂÃÄÅĀĂĄǍǞǠǺȀȂȦȺḀẠẢẤẦẨẪẬẮẰẲẴẶÆǢ4@Α]{1,3}[N₦ŃÑŅŇṆΝ]{1,3}[tţťṭτтŧ]{1,3}.[tţťṭτтŧ]{1,3}[OÓÒÔÖÕǑŌŎǪŐŒØƏΌΟΩῸὈὉὌὊὍὋОӨӦӪǿọ]{1,3}.{50,200}.* <moveonly>
+.*[T₮ŢŤṬΤТЋҬtţťṭτтŧ][OÓÒÔÖÕǑŌŎǪŐŒØƏΌΟΩῸὈὉὌὊὍὋОӨӦӪọóòôöõǒōŏǫőøόδοσоʘǿọ].[Ccċĉ¢сćĉçčUÚÙÛÜŨŮǓŪǖǘǚǜŬŲŰ].{50,200}.* <moveonly>
+.*pawns.wiki.* <moveonly>
+.*nimp.org.*
+.*Tewapack.* <moveonly>
+.*Colonel.Sanders.* <moveonly>
+.*kzm\.pas.*  #used to create malicious user talk subpages
+.*zilog\s*head.* <autoconfirmed> # Prolific sock GEORGIEGIBBONS
+.*on\s*wheels.*edition.* <autoconfirmed>
+.*WikiDan.*61.* <newaccountonly> # See Wikipedia:Sockpuppet_investigations/Moutray2010
+.*shakur green.* #Recreation under different titles; see Wikipedia:Articles for deletion/Shakur Green
+.* shitt?ing in .*'?s? mouth #A specific page which needs to be SALTed and redacted
+.* fucking bastard.* #A specific page which needs to be SALTed and redacted
+.* first male to female transsexuall #A specific page which needs to be SALTed and redacted
+.*Wimbo Jales .* #Probably will never be used except to insult Jimbo Wales
+.*Ñ!gG3r.* #A specific page which needs to be SALTed and redacted
+.* is gay
+.*inside ?(his|her|its|their) ?anus.*
+.*exchanges? bodily fluids.*
+.*\b(eat(s|ing)?|ate)\b.*\bshit\b.*
+.*f(ú|u)cked up piece of shit.* #A specific page which needs to be SALTed and redacted
+.*get cocks shoved up (his|her|its|their) ass.*
+.*Flint Diao.* #Serial spamming
+.*Mega [Mm]om.* #Blatant hoax
+.*MLBP.* #Blatant hoax
+.*Maisani.*  #Continued sockpuppet vandalism
+.*Bikini Beach.* #Persistent disruption
+.*(Lucas|Luke) Ullrich.* #Persistent disruption
+Eolgi.* <autoconfirmed> #Persistent disruption
+.*eolgi.*highway.*system <autoconfirmed> #Persistent disruption
+.*Junior5a.* #pages created with outing information
+.*wo(o)?mo(o)?.* <autoconfirmed> #attack pages created by LTA
+.*[Ss]ro23.* <newaccountonly> #attack usernames directed at User:Sro23
+
+
+# DISALLOW CREATION OF USER OR USER TALK PAGES FOR A SPECIFIC IP RANGE BY NON-AUTOCONFIRMED USERS
+User( talk)?:71\.107\.(1(2[89]|[3-9]\d)|2([0-4]\d|5[0-5]))\.([01]?\d\d?|2(5[0-5]|[0-4]\d)) <autoconfirmed>
+User( talk)?:75\.47\.(1(2[89]|[3-9]\d)|2([0-4]\d|5[0-5]))\.([01]?\d\d?|2(5[0-5]|[0-4]\d)) <autoconfirmed>
+
+
+# PAGE MOVE TARGETS
+ Wikipedia( talk)?:([^\/]*(?-i:[^\x20-\xFF]).*|(.*\W)?[H]+(\W|\W.*\W)?(([AÀÁÂÃÄÅÆ4@](\W|\W.*\W)?)+([G69](\W|\W.*\W)?)+([AÀÁÂÃÄÅÆ4@EÈÉÊË3](\W|\W.*\W)?)+[R®]+|([EÈÉÊËÆ3](\W|\W.*\W)?)+([R®](\W|\W.*\W)?)+([MW](\W|\W.*\W)?)+Y+)(\W.*)?) <moveonly> # No haggery in project space, please. (Only ASCII/Latin1 characters needed in this regexp.)
+(Help|Portal)( talk)?:(.*(?-i:[^\x20-\xFF]).*|(.*\W)?[H]+(\W|\W.*\W)?(([AÀÁÂÃÄÅÆ4@](\W|\W.*\W)?)+([G69](\W|\W.*\W)?)+([AÀÁÂÃÄÅÆ4@EÈÉÊË3](\W|\W.*\W)?)+[R®]+|([EÈÉÊËÆ3](\W|\W.*\W)?)+([R®](\W|\W.*\W)?)+([MW](\W|\W.*\W)?)+Y+)(\W.*)?) <moveonly> # ..nor in help or portal spaces either. (Only ASCII/Latin1 characters needed in this regexp.)
+
+
+
+# POTENTIALLY CONFUSING MIXED-SCRIPT TITLES
+# Cyrillic/Greek + Latin intentionally skipped due to false positives
+(?!(User|Wikipedia|File)( talk)?:|Talk:)[\P{Latin}A-Z]*[^\P{Latin}A-Z].*\p{Cyrillic}.* # Cyrillic + Non-ASCII Latin
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{Cyrillic}*\p{Cyrillic}.*[^\P{Latin}A-Z].* # Cyrillic + Non-ASCII Latin
+(?!(User|Wikipedia|File)( talk)?:|Talk:)[\P{Latin}A-Z]*[^\P{Latin}A-Z].*\p{Greek}.* # Greek + Non-ASCII Latin
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{Greek}*\p{Greek}.*[^\P{Latin}A-Z].* # Greek + Non-ASCII Latin
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{Cyrillic}*\p{Cyrillic}.*\p{Greek}.* # Cyrillic + Greek
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{Greek}*\p{Greek}.*\p{Cyrillic}.* # Cyrillic + Greek
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Armenian}.*[^\p{Armenian}\P{L}].* # Armenian + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Armenian}\P{L}].*\p{Armenian}.* # Armenian + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Bengali}.*[^\p{Bengali}\P{L}].* # Bengali + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Bengali}\P{L}].*\p{Bengali}.* # Bengali + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Cherokee}.*[^\p{Cherokee}\P{L}].* # Cherokee + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Cherokee}\P{L}].*\p{Cherokee}.* # Cherokee + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Ethiopic}.*[^\p{Ethiopic}\P{L}].* # Ethiopic + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Ethiopic}\P{L}].*\p{Ethiopic}.* # Ethiopic + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Georgian}.*[^\p{Georgian}\P{L}].* # Georgian + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Georgian}\P{L}].*\p{Georgian}.* # Georgian + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Gujarati}.*[^\p{Gujarati}\P{L}].* # Gujarati + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Gujarati}\P{L}].*\p{Gujarati}.* # Gujarati + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Gurmukhi}.*[^\p{Gurmukhi}\P{L}].* # Gurmukhi + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Gurmukhi}\P{L}].*\p{Gurmukhi}.* # Gurmukhi + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Kannada}.*[^\p{Kannada}\P{L}].* # Kannada + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Kannada}\P{L}].*\p{Kannada}.* # Kannada + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Khmer}.*[^\p{Khmer}\P{L}].* # Khmer + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Khmer}\P{L}].*\p{Khmer}.* # Khmer + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Lao}.*[^\p{Lao}\P{L}].* # Lao + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Lao}\P{L}].*\p{Lao}.* # Lao + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Malayalam}.*[^\p{Malayalam}\P{L}].* # Malayalam + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Malayalam}\P{L}].*\p{Malayalam}.* # Malayalam + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Myanmar}.*[^\p{Myanmar}\P{L}].* # Myanmar + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Myanmar}\P{L}].*\p{Myanmar}.* # Myanmar + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Oriya}.*[^\p{Oriya}\P{L}].* # Oriya + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Oriya}\P{L}].*\p{Oriya}.* # Oriya + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Runic}.*[^\p{Runic}\P{L}].* # Runic + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Runic}\P{L}].*\p{Runic}.* # Runic + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Sinhala}.*[^\p{Sinhala}\P{L}].* # Sinhala + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Sinhala}\P{L}].*\p{Sinhala}.* # Sinhala + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Syriac}.*[^\p{Syriac}\P{L}].* # Syriac + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Syriac}\P{L}].*\p{Syriac}.* # Syriac + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Tamil}.*[^\p{Tamil}\P{L}].* # Tamil + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Tamil}\P{L}].*\p{Tamil}.* # Tamil + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Telugu}.*[^\p{Telugu}\P{L}].* # Telugu + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Telugu}\P{L}].*\p{Telugu}.* # Telugu + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Thaana}.*[^\p{Thaana}\P{L}].* # Thaana + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Thaana}\P{L}].*\p{Thaana}.* # Thaana + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Thai}.*[^\p{Thai}\P{L}].* # Thai + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Thai}\P{L}].*\p{Thai}.* # Thai + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*\p{Tibetan}.*[^\p{Tibetan}\P{L}].* # Tibetan + anything else
+(?!(User|Wikipedia|File)( talk)?:|Talk:)\P{L}*[^\p{Tibetan}\P{L}].*\p{Tibetan}.* # Tibetan + anything else
+
+
+# DISALLOW PAGE MOVES TO MIXED-SCRIPT TITLES
+# Intentionally move-only due to false positives
+(?!(User|Wikipedia)( talk)?:|Talk:)\P{L}*\p{Latin}.*[^\p{Latin}\P{L}].* <moveonly> # Latin + non-Latin
+(?!(User|Wikipedia)( talk)?:|Talk:)\P{L}*[^\p{Latin}\P{L}].*\p{Latin}.* <moveonly> # Latin + non-Latin
+(?!(User|Wikipedia)( talk)?:|Talk:)\P{L}*\p{Greek}.*[^\p{Greek}\P{L}].* <moveonly> # Greek + non-Greek
+(?!(User|Wikipedia)( talk)?:|Talk:)\P{L}*[^\p{Greek}\P{L}].*\p{Greek}.* <moveonly> # Greek + non-Greek
+(?!(User|Wikipedia)( talk)?:|Talk:)\P{L}*\p{Cyrillic}.*[^\p{Cyrillic}\P{L}].* <moveonly> # Cyrillic + non-Cyrillic
+(?!(User|Wikipedia)( talk)?:|Talk:)\P{L}*[^\p{Cyrillic}\P{L}].*\p{Cyrillic}.* <moveonly> # Cyrillic + non-Cyrillic
+# Slightly different regexp for user/project/talk pages, to allow e.g. Latin subpages of Cyrillic usernames:
+((User|Wikipedia)( talk)?:|Talk:)(.*\/)?\P{L}*\p{Latin}[^\/]*[^\p{Latin}\P{L}].* <moveonly> # Latin + non-Latin 
+((User|Wikipedia)( talk)?:|Talk:)(.*\/)?\P{L}*[^\p{Latin}\P{L}][^\/]*\p{Latin}.* <moveonly> # Latin + non-Latin
+((User|Wikipedia)( talk)?:|Talk:)(.*\/)?\P{L}*\p{Greek}[^\/]*[^\p{Greek}\P{L}].* <moveonly> # Greek + non-Greek
+((User|Wikipedia)( talk)?:|Talk:)(.*\/)?\P{L}*[^\p{Greek}\P{L}][^\/]*\p{Greek}.* <moveonly> # Greek + non-Greek
+((User|Wikipedia)( talk)?:|Talk:)(.*\/)?\P{L}*\p{Cyrillic}[^\/]*[^\p{Cyrillic}\P{L}].* <moveonly> # Cyrillic + non-Cyrillic
+((User|Wikipedia)( talk)?:|Talk:)(.*\/)?\P{L}*[^\p{Cyrillic}\P{L}][^\/]*\p{Cyrillic}.* <moveonly> # Cyrillic + non-Cyrillic
+.*([^\P{Lu}\p{Latin}]\P{L}*){4}.* <casesensitive | moveonly> # Non-Latin all caps
+
+
+# GENERIC IMAGE FILE NAMES (with custom error message)
+# at most three letters of potentially meaningful text:
+File:\P{L}*((Ima?ge?|Pict?(ure)?|Media|Photo)\P{L}+)?(\p{L}\P{L}*){0,3}((orig|copy|thumb|small)\P{L}*)?\.[^.]+  <reupload | errmsg=titleblacklist-custom-imagename>
+# no more than two contiguous letters (raising to three would be tempting, but needs more testing):
+File:\P{L}*((Ima?ge?|Pict?(ure)?|Media|Photo)[^\p{L}\p{M}]\P{L}*)?((\p{L}\p{M}*){1,2}[^\p{L}\p{M}]\P{L}*)*((orig|copy|thumb|small)\P{L}*|(\p{L}\p{M}*){1,2})?\.[^.]+  <reupload | errmsg=titleblacklist-custom-imagename>
+# month name followed by no more than two contiguous letters, JPEG suffix (be careful if you edit this, easy to trigger false positives):
+File:\P{L}*(January|Jan|February|Febr?|March|Mar|April|Apr|May|June?|July?|August|Aug|September|Sept?|October|Oct|November|Nov|December|Dec)(\P{L}+\p{L}{1,2})*\P{L}*\.JPE?G  <reupload | errmsg=titleblacklist-custom-imagename>
+# Common digital cameral file names, based on list at http://diddly.com/random/about.html
+# See also MediaWiki:Filename-prefix-blacklist, used to generate a warning on the upload form
+File:DCP\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Kodak
+File:DSC.\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Design rule for Camera File system (Nikon, Fuji, Polaroid)
+File:MVC-?\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Sony Mavica
+File:P[\dA-F]\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Olympus, Kodak
+File:I?MG[P_\s-]?\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Canon, Pentax
+File:1\d+-\d+(_IMG)?\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Canon
+File:(IM|EX)\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # HP Photosmart
+File:DC\d+[SML]\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Kodak
+File:P[Ii][Cc][T_\s-]?\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Minolta
+File:PANA\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Panasonic
+File:DUW\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # some mobile phones
+File:CIMG\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Casio
+File:JD\d+\.JPG  <reupload | errmsg=titleblacklist-custom-imagename>  # Jenoptik
+# Other common patterns
+File:\d{9}[A-Z]{6}_[A-Z]{2}\P{L}*\.\w+  <reupload | errmsg=titleblacklist-custom-imagename>  # some image hosting site?
+File:\d+_[\da-f]+(_[a-z])?\P{L}*\.\w+  <reupload | errmsg=titleblacklist-custom-imagename>  # Flickr; see http://www.flickr.com/services/api/misc.urls.html
+# File:(\d{9,10}[A-Z])+[A-Z]?\.\w+  <reupload | errmsg=titleblacklist-custom-imagename>  # yet another image hosting site? (redundant to "no more than two contiguous letters")
+File:([\dA-F]{8}-)?[\dA-F]{4}-[\dA-F]{4}-[\dA-F]{4}-?[\dA-F]{12}.*  <reupload | errmsg=titleblacklist-custom-imagename>  # UUID (with some variations included)
+File:([SML]|\d+)_[\dA-F]{10,}(-\d+-|_?(\w\w?|full))?\.[^.]+  <reupload | errmsg=titleblacklist-custom-imagename>  # L_9173c67eae58edc35ba7f2df08a7d5c6.jpg, 1_bf38bcd9c5512a5ab99ca2219a4b1e2f_full.gif, etc.
+File:\P{L}*No\P{L}*name\P{L}*\.[^.]+  <reupload | errmsg=titleblacklist-custom-imagename>  # Noname2.jpg
+File:AT[AEIMQUYcgkosw048]AAA[A-D][-_A-Za-z0-9]+\.jpg  <reupload | errmsg=titleblacklist-custom-imagename>  # see commons:Commons:Village pump/Archive/2009/01#File ATgAAA...
+#Pict or Picture followed by numbers
+File:Pict(ure)?[\s_-]?\d*\..* <reupload | errmsg=titleblacklist-custom-imagename>
+# Only numbers in the filename
+File:\d+\.\w+ <reupload|errmsg=titleblacklist-custom-imagename>
+
+
+# POORLY-MADE ARCHIVES
+.*\\[Aa]rchive.* <errmsg=titleblacklist-custom-archive>
+
+
+# COLBERT
+.*corn[- ]?hole
+
+
+# Editnotice pseudospace
+Template:Editnotices\/.* <noedit|errmsg=titleblacklist-custom-editnotice>
+
+
+#Taxonomy templates
+Template:Taxonomy\/.* <noedit|errmsg=Titleblacklist-taxobox-template|autoconfirmed>
+
+
+# Protection for future and archived TFA blurbs and names
+Wikipedia:Today's[ _]featured[ _]article\/[a-zA-Z]+[ _][0-9]+,[ _][0-9]{4}.* <autoconfirmed|noedit|errmsg=titleblacklist-custom-TFA>
+Template:TFA title\/\w+ \d\d?, \d\d\d\d <noedit|errmsg=titleblacklist-custom-TFA>
+
+
+# Attempts to verify with google analytics
+.*[Gg]oogle[A-Za-z0-9]*\.html*
+
+
+# /Print versions of templates. ("Templates" can be created in any namespace, so blocking in all namespaces.)
+(?!(?:Talk:|(?:User|Wikipedia|File|MediaWiki|Template|Help|Category|Portal|Book|Draft|Education Program|TimedText|Module) talk:)).*\/Print <noedit|errmsg=titleblacklist-custom-print>
+
+
+#USERNAMES CREATED BY ABUSIVE USERS // note these are no longer active and handled via m:Talk:Title blacklist
+User:Fuck\s*you.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*Bsadowski1.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*C(a|e)(l|ll|1|11)(a|e|u)ne(c|cc).* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*PMDrive1061.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*Re*a?per (E|e)te?rnal.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*Her(s|e)fo(l|r)d.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*(B|b)idgee.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*ttieso.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+.*[Cc]at ?[Cc]r[Ee3]+k.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:.*Gouncbeatduke.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:Southern Wear [0-9]+ <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:Sanyor[0-9]+ <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:Nagh?m\S*\s*[eE]ta+t.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account> # User:Naghmehetaati and similarly-named socks
+User:Rosed[0-9]+ <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:.*kumioko.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:Academiava[0-9]+ <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:Itailevi[0-9]+ <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:FavonianornoFavonian[0-9]+ <newaccountonly|errmsg=titleblacklist-forbidden-new-account>
+User:.*[Ee]vergreen ?[Ff]ir.* <newaccountonly|errmsg=titleblacklist-forbidden-new-account> # new sock accounts attacking User:EvergreenFir
+User:.( .*){2}[Kk][iI][lL]{2}[eE][dD]( .*){2} <newaccountonly|errmsg=titleblacklist-forbidden-new-account> # murder vengeance accounts, checks for at least two spaces on both sides of "killed"
+
+
+#Blocklogannotation
+User:.*\/Blocklogannotation <noedit>
+
+
+#Child taxa lists with glitchy names, usually caused by either a glitch in a bot's code or a permanently logged glitchy name on its list
+Template:Child taxa\/[^×A-Z].* <casesensitive|errmsg=titleblacklist-forbidden-child-taxa-list>
+
+
+# Prevent users from creating pages with bad names after searching
+.+ prefix:.* <errmsg=titleblacklist-forbidden-prefix>
+
+
+# SPI subpage mistakes
+Wikipedia( talk)?:Sockpuppet investigations\/User:.* <errmsg=titleblacklist-custom-SPI>
+
+
+# Deprecated type of location map definitions
+Template:Location map .* <errmsg=titleblacklist-custom-location-map>
+
+
+# Spam titles
+.*HIGH19\.COM.* # Dsdgfgsa and socks
+.*Paul[\. ]?[A-Za-z\.\(\)\"\' ]{0,20}[\. ]Easter.*  # SEFPRODUCTIONS
+.*[O0]?-?9-?8-?[l1]-?5-?[l1]-?3-?2-?4-?2-?2.* # Avikumar333 and socks
+.*7073778243.*  # Indian phone number advertising
+.*\+ *91[ -]*[0-9].*  # Indian phone number advertising
+.*vashikaran.*  # Indian astrology/magic advertising
+.*1.*?800.*?282.*?6179.* # s[pc]am phone number, spammers = Anilk829930, Gabber16464596, Anilk834242, Anikkj7722, https://duckduckgo.com/?q=0800-680-0619
+.*0800.*?680.*?0619.* # as above
+.*855.*?855.*?3090.* # ditto
+.*855.*?276.*?2781.* # as above -- https://duckduckgo.com/?q=855+276.2781, Special:DeletedContributions/Infosmart09
+.*800.*?903.*?7315.* # as above -- https://duckduckgo.com/?q=1.800-903.7315, Special:DeletedContributions/Qbpedia
+.*1.*?800.*?640.*?8917.* # as above -- https://duckduckgo.com/?q=18006408917, Special:DeletedContributions/Ramess-aaron
+.*1.*?888.*?624.*?4666.* # as above -- Special:DeletedContributions/Witty3004
+.*7014150869.* # as above (Lovekus45)
+.*7014600871.* # as above (Dubeyravivv17/Poojasharma00925)
+.*7.*2.*9.*7.*9.*0.*2.*9.*7.*8.* # as above (Gthsrthts)
+.*7.*5.*6.*8.*3.*2.*5.*1.*2.*4.* # as above (Haiderbhati7s86/Anjalisharma20d132014/Anjalisharmas23344/Astrobabaji003)
+.*8.*2.*3.*3.*[4Ч].*[6б].*[4Ч].*5.*[4Ч].*[6б].* # as above (Safdfhgjusssass/Safdfhgjusasssss/Asdfghjkjhgfdsdfgh)
+.*8.*2.*9.*[0O].*7.*6.*7.*6.*7.*[0O].* # as above (Utyuyutyu)
+.*8.*4.*4.*[0O].*8.*2.*8.*2.*4.*[0O].* # as above
+.*[8８].*[8８].*[9９].*[0０].*[3３].*[8８].*[8８].*[8８].*[1１].*[1１].* # as above (Akashking123)
+.*9.*2.*[0O].*5.*7.*5.*7.*5.*[0O].*3.* # as above (Iamcrockroaxzaaaa1, Astrobabaji00a1)
+.*9.*6.*4.*9.*[0O].*9.*[0O].*9.*5.*2.* # as above (Bestlondonastrologer/Bestwebmaster2016/Bestusagru)
+.*9.*6.*8.*[0O].*4.*6.*2.*1.*9.*5.* # as above (Dsfsfdsafd)
+.*9.*7.*9.*9.*7.*1.*4.*1.*6.*7.* # as above (Hgkhgjdg)
+.*9.*7.*9.*9.*9.*3.*[0O].*3.*9.*7.* # as above (Sdfsdfsdff/Rahulsharma15456)
+.*9.*8.*2.*9.*8.*9.*7.*8.*8.*6.* # as above (Sdfsfsdfsfklj)
+.*9.*9.*8.*2.*8.*2.*2.*6.*6.*6.* # as above (Nkking222)
+.*9.*9.*8.*2.*9.*9.*9.*[0O].*6.*[0O].* # as above (Erwewer7)
+.*\bv-*[a@][a@]?-*s-*h-*i-*k-*a-*r-*[a@]-*n\b.* # same spammer as two phone numbers above (Pirbaba7886)
+.*lovifm.* # Wikipedia:Sockpuppet investigations/Alex9777777, [1]
+.*ale(x|kse[ijy]|xe[iy]).*?bugatti.* # as above
+.*bugatti.*?ale(x|kse[ijy]|xe[iy]).* # as above
+.*ale(x|kse[ijy]|xe[iy]).*?pechk?uro[vw].* # as above
+.*pechk?uro[vw].*?ale(x|kse[ijy]|xe[iy]).* # as above
+.*977\.?by.* # as above
+.*977.*?(news|blog|website|site|belarus).* # as above
+.*((sachin.*?tomar)|(tomar.*?sachin)).* # Wikipedia:Sockpuppet investigations/Iamsachintomar
+.*\bdom.*?\bnatt?i\b.* # Wikipedia:Sockpuppet investigations/JellyfishFilms
+.*alex(ander)?.*?sasiedu.* # Special:Permanentlink/732858640#Blacklist_addition_request
+.*Decoded\s?Sexe?s.* # Wikipedia:Sockpuppet investigations/Awais Azad
+.*[Jj]ohn.*[Gg]alea.* # Wikipedia:Sockpuppet_investigations/Johngalea24
+.*mohamm?ed.*?mafaz.* # Self-promotion, accounts = Actor Mafaz, MohamedMafaz, Mafaz729, MafazOfficials, EngineeringMafaz, etc.
+.*mafaz.*?(galle|official).* # as above (Mafaz Galle)
+.*(galle|official).*?mafaz.* # as above 
+.*andrew.*?alm[aá]nza.* # Wikipedia:Sockpuppet investigations/Andrewalmanza
+.*((davide?.*?anselmi)|(anselmi.*?davide?)).* # Wikipedia:Sockpuppet investigations/Anselmidavide9981
+
+
+.*anna.*schwartz.* # Wikipedia:Sockpuppet investigations/OfficialPankajPatidar
+.*cora.*emm[ae]nuel.* # as above
+.*hernando.*v[ae]rgara.* # as above
+
+
+# Protected user (sub-)spaces
+User( talk)?:Bonadea(phone)?\/.* <autoconfirmed|noedit|errmsg=titleblacklist-custom-userspace-semi> # Wikipedia:Sockpuppet investigations/Nsmutte Special:PermaLink/724686602
+
+
+# Gadget namespace not active until phab:T31272 is closed and deployed
+Gadget( definition)? talk:.*
+
+
+# Prevent accidental creation of pages with some double namespace prefixes
+User( talk)?:User( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+User( talk)?:Template( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+User( talk)?:Draft( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Wikipedia( talk)?:User( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Wikipedia( talk)?:Wikipedia( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Wikipedia( talk)?:Help( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Wikipedia( talk)?:Draft( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Template( talk)?:Template( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Template( talk)?:Portal( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Category( talk)?:Category( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Portal( talk)?:Portal( talk)?.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Book( talk)?:Book( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Draft( talk)?:User( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Draft( talk)?:Category( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+Draft( talk)?:Draft( talk)?:.* <errmsg=titleblacklist-custom-repeated-namespace-prefix>
+
+
+# Prevent accidental creation of files with double extensions or unconventional spacing
+File:.*(\,|\.)(png|gif|jpe?g|tiff?|xcf|pdf|mid|ogg|ogv|svg|djvu|oga|flac|opus|wav|webm)(\ |\,)?\.(png|gif|jpe?g|tiff?|xcf|pdf|mid|ogg|ogv|svg|djvu|oga|flac|opus|wav|webm) <reupload | errmsg=titleblacklist-custom-file-extension>
+File:.*(\ |\,)\.(png|gif|jpe?g|tiff?|xcf|pdf|mid|ogg|ogv|svg|djvu|oga|flac|opus|wav|webm) <reupload | errmsg=titleblacklist-custom-file-extension>
+
+
+# Prevent creation of persona categories for users
+Category:User:.* <errmsg=titleblacklist-personal-category>
+
+
+# multiple article re-creation under various titles by sockpuppet accounts
+.*[Gg]oogle *[Bb]oys.*
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=MediaWiki:Titleblacklist&oldid=764642502"					
+ 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Interface page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+ This page was last modified on 10 February 2017, at 02:32.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.028","walltime":"0.033","ppvisitednodes":{"value":2,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":29,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"origin":"mw1273","timestamp":"20170210220055","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":45,"wgHostname":"mw1248"});});

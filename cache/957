@@ -1,0 +1,243 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Viewing deleted pages
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+Sometimes admins want to view a deleted page while participating at DRV or to answer a question as to why a page was deleted. Some admins choose to be administrators who will provide copies of deleted articles. Also, you might want to view deleted contributions of an editor as part of determining whether they are a sock puppet.
+The viewing deleted pages procedure is a little tricky, but easy after one or two attempts. Nothing really happens when you view a deleted page, so there is no admin etiquette involved.
+Below is a step by step guide on how to view a deleted page without actually restoring it. Follow the instructions through and view the deleted page as the guide says to practice.
+
+
+
+Contents
+
+
+1 View a deleted page
+2 View a deleted image
+3 View deleted contributions of an editor
+4 Oversight
+
+
+
+View a deleted page
+
+Open up the page you wish to see. For this, we will use Ryan Postlethwaite
+At the top of the Ryan Postlethwaite article page, you will see the heading "View or restore one deleted edit?", "View or restore 15 deleted edits?", or something similar depending on how many revisions there are. This is a page that all editors can see, but will not include the Page history, or the View or restore link.
+Click on the blue linked words "one deleted edit". That will bring you to a screen which shows the various now-deleted revisions. This is a page that only admins can see. As long as you don't actually click "restore" under Deletion log on this page, the deletion will remain in effect.
+Scroll down the page to where it says "Page history".
+Clicking on the blue linked date and time of one of those Page history revisions will bring up that particular deleted revision in an edit window. This should bring up the deleted article text to your screen in an edit window. If you would rather see it in normal view, choose "show preview".
+
+View a deleted image
+
+Open up the page you wish to see. For this, we will use File:London-james.jpg
+At the top of the File:London-james.jpg image page, you will see the heading "View or restore one deleted edit?", "View or restore 6 deleted edits?", or something similar depending on how many revisions there are. This is a page that all editors can see, but will not include the View or restore link.
+Click on the blue linked words " 6 deleted edits". That will bring you to a screen which shows the various now-deleted revisions. This is a page that only admins can see. As long as you don't actually click "restore" under Deletion log on this page, the deletion will remain in effect.
+Scroll down the page to where it says "Page history". These links provide access to the deleted text. This sometimes is used at DRV, for example, to confirm that proper deletion notices were delivered or to review the fair use statement
+Scroll down the page to where it says "File history".
+Clicking on the blue linked date and time of one of those File history revisions will bring up that particular deleted images.
+For practice, here are a few more images: (A) File:Ulf_Merbold.jpg, (B) File:My_Injury.jpg, (C) File:Regenerator_love.gif, (D) File:Leona.JPG.
+
+View deleted contributions of an editor
+
+Open up the page you wish to see. For this, we will use this banned user.
+At the left of the page is a toolbox containing a "User contributions" link. Click on the "User contributions" link. This should bring up the User contributions page for Archtransit.
+At the top of the User contribution page is the string "For Archtransit (talk | change block | unblock | block log | logs | deleted user contributions | user rights management | filter log)".
+Select the blue "deleted user contributions" link. That should bring up the deleted contributions of that editor.
+
+Oversight
+See also: Wikipedia:Oversight
+The MediaWiki software also allows edits to be permanently hidden beyond even the grasp of most administrators. This is typically done when an edit is judged to have likely exposed the Wikimedia Foundation to legal jeopardy. Such well-hidden edits are referred to as having been "oversighted"; see Wikipedia:Hiding revisions for further details.
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Viewing_deleted_pages&oldid=696172123"					
+Categories: Wikipedia Administrators' guideHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+日本語 
+Edit links 
+
+
+
+
+
+ This page was last modified on 21 December 2015, at 10:59.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.060","walltime":"0.101","ppvisitednodes":{"value":89,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":9379,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   76.066      1 -total"," 80.49%   61.226      1 Template:Sprotected2"," 10.16%    7.728      1 Template:Administrators'_guide","  9.11%    6.926      1 Template:See_also","  8.06%    6.130      1 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.030","limit":"10.000"},"limitreport-memusage":{"value":929945,"limit":52428800}},"cachereport":{"origin":"mw1304","timestamp":"20170204084117","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":69,"wgHostname":"mw1267"});});

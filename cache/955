@@ -1,0 +1,236 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Rollback
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+Grab one and start erasing! Be careful what you erase, though...
+
+
+
+Shortcut:
+
+WP:ADMINGUIDE/R
+
+
+
+Additional relevant information can be found at Help:Reverting#Rollback.
+
+As an admin, you may spend much of your time reverting changes made to pages. You may be familiar with the undo feature, which undoes the last edit to a page, and manual reverts, which allow you to revert to any edit of a page by opening any page history revision, clicking edit, and saving. As an admin, you also have the rollback feature, to expedite the process.
+
+The undo feature undoes only one edit.
+Manual reverts requires multiple clicks.
+The rollback feature undoes all the consecutive edits made by an editor to a single page. This is handy if, for example, a user makes eight edits to an article and you want to revert all eight edits. When you click "rollback", all eight edits are undone.
+
+Use of rollback by admins is subject to the rollback guideline, which explains when rollback can be used, when it cannot, etc. In summary, it should not be used for edits that were made in good faith (even if problematic). Misuse of rollback may lead to the removal of administrator privileges.
+Demonstration of reverting edits using rollback
+
+Go to the page you wish to use the rollback feature on. In this case, we will use Wikipedia:Administrators' guide/Deleting/delete.
+Add two or more edits to the page by clicking here. Use edit summaries, edit1, edit2, etc.
+Close the tab containing the page.
+Go to the history page.
+Click on the blue-linked "rollback" (rollback | undo) at the right-hand side of the last edit string. This will immediately rollback the page to the version prior to your edits and post an edit summary such as, "Reverted edits by User2 (talk) to last version by User1) (rollback: 3 edits | undo)".
+
+To see the difference between rollback and the undo tool, go back to the page history and click "undo" instead of rollback. A good discussion about the differences between rollback and undo is available at m:Help:Reverting#Rollback.
+Tools
+
+Twinkle – Provides "good-faith revert", "rollback", and "rollback (vandal)" links when viewing the diff of the most recent edit to a page
+massRollback – Rollback all edits made by a particular user. Proceed with caution!
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Rollback&oldid=707518116"					
+Categories: Wikipedia Administrators' guideWikipedia rollback featureHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+日本語 
+Edit links 
+
+
+
+
+
+ This page was last modified on 29 February 2016, at 09:11.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.052","walltime":"0.096","ppvisitednodes":{"value":104,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":10463,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   77.933      1 -total"," 75.53%   58.861      1 Template:Pp-semi-indef"," 12.58%    9.807      1 Template:Administrators'_guide"," 10.30%    8.027      1 Template:Navbox","  8.51%    6.632      1 Template:Shortcut","  2.80%    2.179      1 Wikipedia:Administrators'_guide/Rollback/Tools"]},"scribunto":{"limitreport-timeusage":{"value":"0.030","limit":"10.000"},"limitreport-memusage":{"value":956067,"limit":52428800}},"cachereport":{"origin":"mw1219","timestamp":"20170211130552","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1275"});});

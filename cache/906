@@ -1,0 +1,325 @@
+ 
+
+
+
+
+
+
+
+Template:Pp-pc2
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This template is being discussed in accordance with Wikipedia's deletion policy. Help reach a consensus at its entry.
+
+Maintenance use only:
+1. Edit the TfD log to create the discussion entry.
+2. Please consider notifying the author(s) by placing {{subst:Tfdnotice|Pp-pc2}} ~~~~ on their talk page(s).
+
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+Uses Lua:
+
+
+Module:Protection banner
+
+
+
+
+
+Usage
+
+This template is used for pages that are pending changes level 2 protected.
+
+
+This template categorizes articles into Category:Wikipedia pending changes protected pages (level 2).
+
+
+This template will be visible on pages that are not protected. Adding this template to an article does not protect it. Protection can only be applied by administrators, and can be requested at Wikipedia:Requests for page protection.
+
+
+This template uses a parser function. To give greater detail to the template, you may specify: the protection expiry, and a specific reason for protection.
+
+
+{{Pp-pc2|expiry=date|reason=due to a reason}}
+
+
+
+
+Notes
+
+
+If protection is set without an expiry date (indefinitely) do not include the |expiry= parameter. Do not use |expiry=indef (or indefinitely) as this will break the template.
+The reason parameter will produce:
+
+
+
+
+"All edits by users who are not reviewers or administrators are subject to review reason." if the expiry parameter is omitted or if |indef=yes is included.
+"All edits by users who are not reviewers or administrators are subject to review until January 1, 2014 reason." if the expiry parameter is set (in this case to January 1, 2014).
+Note: The preceding space and full stop are automatically included.
+
+
+
+
+
+See also
+
+Template:Pp-pc1
+Wikipedia:Protection policy#Pending changes protection
+
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Pp-pc2/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Pp-pc2&oldid=764705789"					
+Categories: Templates for deletionLua-based templatesTop icon protection templatesHidden categories: Wikipedia semi-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+فارسیIlokanoBahasa Melayuසිංහල 
+Edit links 
+
+
+
+
+
+ This page was last modified on 10 February 2017, at 13:34.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.104","walltime":"0.149","ppvisitednodes":{"value":994,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":105707,"limit":2097152},"templateargumentsize":{"value":921,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  126.012      1 -total"," 66.52%   83.823      1 Template:Documentation"," 35.44%   44.654      1 Template:Pp-pc2/doc"," 33.43%   42.127      1 Template:Template_for_discussion/dated"," 26.74%   33.695      1 Template:Protection_templates"," 24.53%   30.908      1 Template:Navbox"," 16.48%   20.761      1 Template:Ombox"," 15.32%   19.310      1 Template:Aligned_table","  5.50%    6.928      1 Template:Category_handler","  5.31%    6.687      1 Template:Lua"]},"scribunto":{"limitreport-timeusage":{"value":"0.051","limit":"10.000"},"limitreport-memusage":{"value":1907833,"limit":52428800}},"cachereport":{"origin":"mw1229","timestamp":"20170210133417","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":65,"wgHostname":"mw1275"});});

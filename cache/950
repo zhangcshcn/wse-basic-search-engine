@@ -1,0 +1,220 @@
+ 
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Edit filters
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+The edit filter manager logo
+
+
+
+Shortcut:
+
+WP:ADMINGUIDE/EF
+
+
+All administrators have a user right which allows them to view hidden filters created through the Edit filter extension. Additionally, admins can assign themselves the 'Edit filter manager' user right which allows them to edit the contents and settings of edit filters. Great care should be taken if editing edit filters as even the smallest mistake can cause huge disruption.
+See Wikipedia:Edit filter for the tool's guideline and MediaWiki:Extension:AbuseFilter/Rules format for technical help.
+Viewing hidden filters
+With the administrator user right you can now view the contents of hidden filters, as listed at Special:AbuseFilter. Hidden filters are private to avoid abusive users from learning out how to circumvent them, and thus their contents should not be shared publicly. If you wish to discuss the details of a hidden filter, the discussion should take place via email either with an edit filter manager directly or through the mailing list.
+As well as being able to view the content and settings of a private filter, you can also view the logs associated with it. If you are interested in anti-vandal work you might consider periodically checking some of these logs for flagged edits and users.
+Editing filters
+Administrators cannot by default edit the conditions and settings of any edit filter, but may assign themselves the edit filter manager user right to do so. Assigning this right to yourself if you do not plan to edit filters is discouraged. If you are interested in contributing to edit filters make sure to familiarise yourself with the guideline.
+If you think a change should be made to an edit filter but you're not 100% confident how to enact that change, contact an experienced filter manager for advice or simply ask them to make the change; even the smallest mistake can cause huge disruption. Alternatively, you can help out at requested edit filters and false positive reports to learn how edit filters work and build up the skills required to help directly.
+If you are confident in your knowledge of regular expressions and have read the relevant edit filter instruction pages, you may wish to start editing and creating edit filters. To avoid harm from mistakes, test all new filters in log only mode initially, and do not edit filters which have the disallow setting enabled without first temporarily switching them to log only mode unless you are completely confident in the change you are making. The test interface should also be used to check your syntax and test the filter against recent edits or edits by a particular user.
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Edit_filters&oldid=695947436"					
+Categories: Wikipedia Administrators' guideWikipedia edit filter 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+Add links 
+
+
+
+
+
+ This page was last modified on 19 December 2015, at 21:06.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.032","walltime":"0.050","ppvisitednodes":{"value":76,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":9683,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   31.436      1 -total"," 68.92%   21.667      1 Template:Shortcut"," 30.74%    9.664      1 Template:Admin_guide"," 23.43%    7.364      1 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.009","limit":"10.000"},"limitreport-memusage":{"value":831704,"limit":52428800}},"cachereport":{"origin":"mw1176","timestamp":"20170208024102","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":54,"wgHostname":"mw1184"});});

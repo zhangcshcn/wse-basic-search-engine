@@ -1,0 +1,249 @@
+ 
+
+
+
+
+
+
+Wikipedia:Administrators' guide
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This page in a nutshell: This page documents common tasks administrators do and their best practices. Here admins can learn how to exercise their tools properly before being set loose on the big, wide encyclopedia...
+
+Shortcut:
+
+WP:ADMINGUIDE
+
+
+
+
+
+
+Welcome admins! This suite of pages documents common admin tasks and how to properly perform them. Administrative tools have been granted due to the trust the community has in you, so it's important you understand how they work before attempting to use them. Here you can learn about everything you can do, and some of the features you'll be able to test out in a safe environment without worry of causing disruption. Spending 15 or 20 minutes here may seem well worth it if it keeps you from ending up in the village stocks.
+Please note that as an operator of an account with administrative privileges, you should review your user account security practices. You may also wish to subscribe to the Administrators' newsletter to stay up to date with relevant discussions and technology changes.
+Guides
+Some of these pages will provide you with a way to practice using the tools in an environment that will not harm the encyclopedia. Others simply document what you are able to do and their best practices.
+
+Viewing deleted pages and contributions
+Rollback
+Protecting
+Deleting
+Fixing cut-and-paste moves (e.g. WP:HISTMERGE)
+Blocking
+Granting and revoking user rights
+Cleaning backlogs
+Dealing with spam
+Dealing with disputes
+Edit filters
+Tools, scripts and gadgets
+
+See also
+
+WP:Administrators' reading list
+WP:Advice for new administrators
+WP:Closing discussions (a frequent admin task, but not covered in the guide above)
+WP:In the news/Administrator instructions
+WP:List of administrators
+what adminship is not (an essay)
+Administrator review
+Category:Administrative backlog
+Template:Admin dashboard
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide&oldid=764176325"					
+Categories: Wikipedia Administrators' guideWikipedia adminship 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikisourceWikivoyage 
+
+
+
+Languages
+
+
+AlemannischÆngliscالعربيةAzərbaycancaবাংলাBasa BanyumasanCatalàDeutschEspañolEuskaraفارسی한국어HrvatskiBahasa IndonesiaItalianoעבריתBasa JawaქართულიMagyarМакедонскиNederlands日本語ଓଡ଼ିଆРусскийСрпски / srpskiSuomiSvenskaதமிழ்Татарча/tatarçaతెలుగుTürkçeУкраїнськаئۇيغۇرچە / UyghurcheTiếng Việt中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 7 February 2017, at 14:12.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.040","walltime":"0.059","ppvisitednodes":{"value":148,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":12296,"limit":2097152},"templateargumentsize":{"value":301,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   43.608      1 -total"," 77.60%   33.840      1 Template:Nutshell"," 74.69%   32.569      1 Template:Mbox"," 21.93%    9.563      1 Template:Admin_guide"," 16.79%    7.323      1 Template:Navbox","  6.05%    2.639      1 Template:Ombox/shortcut","  1.96%    0.853      1 Template:Nowrap"]},"scribunto":{"limitreport-timeusage":{"value":"0.013","limit":"10.000"},"limitreport-memusage":{"value":859369,"limit":52428800}},"cachereport":{"origin":"mw1284","timestamp":"20170207141234","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":66,"wgHostname":"mw1273"});});

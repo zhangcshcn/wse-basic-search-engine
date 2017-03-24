@@ -1,0 +1,604 @@
+ 
+
+
+
+document.write("\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca href=\"#\"\u003Eবাতিল\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"as\" dir=\"ltr\"\u003E\u003Cp\u003E\u003Ca href=\"/wiki/%E0%A7%B1%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%AA%E0%A7%8D%E0%A7%B0%E0%A6%9A%E0%A6%BE%E0%A7%B0%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A7%B0%E0%A6%BF%E0%A6%95%E0%A6%BE/%E0%A6%9B%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A7%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AC\" title=\"ৱিকিপিডিয়া:প্ৰচাৰপত্ৰিকা/ছেপ্টেম্বৰ-২০১৬\"\u003Eআগষ্ট মাহৰ খতিয়ানেৰে প্ৰকাশ পালে ছেপ্টেম্বৰ, ২০১৬ সংখ্যাৰ ৱিকিপত্ৰিকা। পঢ়ক আৰু পঢ়ুৱাওক।\u003C/a\u003E\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E");
+
+
+ৱিকিপিডিয়া:সংৰক্ষণ নীতি
+
+অসমীয়া ৱিকিপিডিয়াৰ পৰা
+
+
+					গম্যাৰ্থে					দিকদৰ্শন, 					সন্ধানাৰ্থে
+
+
+
+
+অসমীয়া ৱিকিপিডিয়াৰ বাবে সংৰক্ষণ নীতি ইংৰাজী ৱিকিৰ তুলনাত অলপ সুকীয়া হ’ব, সেই হেতুকে ইচ্ছুক ৱিকিপিডিয়ানসকলক আলোচনা পৃষ্ঠাত এই সম্পৰ্কে মতামত আগবঢ়াবলৈ অনুৰোধ জনোৱা হ’ল। ভৱিষ্যতে সংৰক্ষণ সম্পৰ্কীয় যিকোনো আলোচনা এই আলোচনা পৃষ্ঠাতেই কৰে যেন।
+
+
+
+
+Editor behavior
+
+
+Enforcement policies
+
+
+
+
+Administrators
+Banning policy
+Blocking policy
+Bot policy
+Harassment
+Protection policy
+Sock puppetry
+Username policy
+Vandalism
+
+প্ৰদৰ্শন • আলোচনা • সম্পাদনা
+
+
+
+
+
+
+
+Fully protected
+
+
+
+
+
+Semi-protected
+
+
+
+
+
+Create protected
+
+
+
+
+
+Move protected
+
+
+
+
+
+Upload protected
+
+
+
+
+
+Pending changes protected (level 1)
+
+
+
+
+
+Pending changes protected (level 2)
+
+
+
+
+
+Permanently protected
+
+
+
+
+
+Protected by Office
+
+
+Wikipedia is built around the principle that anyone can edit it, and it therefore aims to have as many of its pages as possible open for public editing, so that anyone can add material and correct errors. However in particular circumstances, because of a specifically identified likelihood of damage resulting if editing is left open, some individual pages may need to be subject to technical restrictions (often only temporary) on who is permitted to modify them. The placing of such restrictions on pages is called protection.
+Protection can be applied to pages, or removed, by Wikipedia's administrators, although any user may request these actions. Protection can be indefinite, or expire after a specified time.
+The most commonly encountered types of protection are full protection, which means that a page can be modified only by administrators, and semi-protection, which means that a page can be modified only by users who are logged in and whose accounts have been confirmed (which usually happens automatically after a few days' editing). Other forms of protection are detailed below. Protected pages are normally marked with a small padlock symbol in the top corner; different color padlocks represent different protection types, as shown in the box on the right.
+This policy explains in detail the protection types and procedures for page protection and unprotection, and the reasons for which protection should and should not be applied.
+beste lezers van doe maar gaymen, wij zijn 2 jongense aus ein school in roos
+
+REDIRECT লক্ষ পৃষ্ঠাৰ নাম
+
+endaal. wij verpesten dit wikipedia verhaal. hihihi
+
+
+
+সূচী
+
+
+1 Types of protection
+
+1.1 Full protection
+
+1.1.1 Content disputes
+1.1.2 Vandalism
+1.1.3 "History only" review
+1.1.4 Protected generic image names
+
+
+1.2 Semi-protection
+
+1.2.1 Guidance for administrators
+
+
+1.3 Creation protection
+1.4 Move protection
+1.5 Upload protection
+1.6 Pending-changes protection
+1.7 Permanent protection
+1.8 Office actions
+1.9 Cascading protection
+1.10 Comparison table
+
+
+2 Protection by namespace
+
+2.1 Templates
+2.2 User pages
+
+2.2.1 Deceased users
+2.2.2 Retired users
+2.2.3 Blocked users
+
+
+2.3 Sandboxes
+
+
+3 Available templates
+4 See also
+
+
+
+Types of protection[সম্পাদনা কৰক]
+
+Full protection[সম্পাদনা কৰক]
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:FULL
+WP:GOLDLOCK
+
+
+A fully protected page can be edited only by administrators. The protection may be for a specified time or may be indefinite.
+Modifications to a fully protected page can be proposed on its talk page, or in another appropriate forum for discussion. Administrators can make changes to the protected article reflecting consensus. Placing the {{Edit protected}} template on the talk page will draw the attention of administrators for implementing uncontroversial changes.
+
+Content disputes[সম্পাদনা কৰক]
+On pages that are experiencing edit warring, temporary full protection can force the parties to discuss their edits on the talk page, where they can reach consensus. Isolated incidents of edit warring, and persistent edit warring by particular users, may be better addressed by blocking, so as not to prevent normal editing of the page by others.
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:PREFER
+
+
+When protecting a page because of a content dispute, administrators normally protect the current version, except where the current version contains content that clearly violates content policies, such as vandalism, copyright violations, or defamation of living persons. Since protecting the most current version sometimes rewards edit warring by establishing a contentious revision, administrators may also revert to an old version of the page predating the edit war if such a clear point exists. Pages that are protected because of content disputes should not be edited except to make changes which are uncontroversial or for which there is clear consensus (see above).
+Administrators should not protect or unprotect a page to further their own positions in content disputes.
+Vandalism[সম্পাদনা কৰক]
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:NO-PREEMPT
+
+
+Pre-emptive full protection of articles is contrary to the open nature of Wikipedia. Brief periods of full protection are used in rare cases when a large number of autoconfirmed accounts are used to make a sustained vandalism attack on an article. Persistent vandalism, or the possibility of future vandalism for highly trafficked articles, rarely provides a basis for full-protection. Semi-protection is used for articles, such as Jesus, that have a pattern of heavy sustained vandalism.
+"History only" review[সম্পাদনা কৰক]
+If a deleted page is undergoing deletion review, only administrators are normally capable of viewing the former content of the page. If they feel it would benefit the discussion to allow other users to view the page content, administrators may restore the page, blank it or replace the contents with {{TempUndelete}} or a similar notice, and fully protect the page to prevent further editing. The previous contents of the page are then accessible to non-admins via the page history.
+Protected generic image names[সম্পাদনা কৰক]
+Generic image names such as File:map.jpg or File:Photo.jpg are tagged with {{Protected generic image name}} and fully protected to prevent new versions being uploaded.
+
+
+Semi-protection[সম্পাদনা কৰক]
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:SEMI
+WP:SILVERLOCK
+
+
+অতিৰিক্ত তথ্য: Wikipedia:Rough guide to semi-protection
+Semi-protection prevents edits from unregistered users (IP addresses), as well as edits from any account that is not autoconfirmed (is at least four days old and has at least ten edits to Wikipedia) or confirmed.
+Such users can request edits to a semi-protected page by proposing them on its talk page, using the {{Edit semi-protected}} template if necessary to gain attention. If the page in question and its talk page are both protected please make your edit request at Wikipedia:Request for edit instead. New users may also request the confirmed user right by visiting Requests for permissions.
+Guidance for administrators[সম্পাদনা কৰক]
+Administrators may apply indefinite semi-protection to pages that are subject to heavy and persistent vandalism or violations of content policy (such as biographies of living persons, neutral point of view). Semi-protection should not be used as a preemptive measure against vandalism that has not yet occurred, nor should it be used to privilege registered users over unregistered users in (valid) content disputes.
+In addition, administrators may apply temporary semi-protection on pages that are:
+
+Subject to significant but temporary vandalism or disruption (for example, due to media attention) when blocking individual users is not a feasible option.
+Subject to edit-warring where all parties involved are unregistered or new editors (i.e., in cases in which full-protection would otherwise be applied). This does not apply when autoconfirmed users are involved.
+Subject to vandalism or edit-warring where unregistered editors are engaging in IP-hopping by using different computers, obtaining new addresses by using dynamic IP allocation, or other address changing schemes such as IP address spoofing.
+Article discussion pages, when they have been subject to persistent disruption. Such protection should be used sparingly because it prevents unregistered and newly registered users from participating in discussions. A page and its talk page should not normally be protected at the same time. If a page and its talk page are both protected, the talk page should direct affected editors to Wikipedia:Request for edit, to ensure that no editor is entirely prevented from contributing.
+Talk pages of blocked IP addresses that are being used for continued inappropriate editing, including repeated abuse of the {{unblock}} template, or continued uncivil or offensive remarks. The protection should be timed so as to not exceed the length of the block. Administrators may also choose to change the block settings to block the user from editing their talk page instead, since there is no need to synchronize the block period with the page protection time period with this method.
+
+Today's featured article may be semi-protected just like any other article. But since this article is subject to sudden spurts of vandalism during certain times of day, administrators should semi-protect it for brief periods in most instances. For the former guideline, see Wikipedia:Main Page featured article protection.
+
+
+Creation protection[সম্পাদনা কৰক]
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:SALT
+WP:PDP
+WP:BLUELOCK
+
+
+Administrators can prevent the creation of a page through the protection interface. This is useful for articles that have been deleted but repeatedly recreated. Such protection is case-sensitive. A list of protected titles may be found at Special:Protectedtitles (see also historical lists).
+Pre-emptive restrictions on new article titles are instituted through the title blacklist system, which allows for more flexible protection with support for substrings and regular expressions.
+Pages that have been creation-protected are sometimes referred to as "salted". Contributors wishing to re-create a salted title with more appropriate content should contact an administrator (look for one who was previously involved) or use the deletion review process.
+
+
+Move protection[সম্পাদনা কৰক]
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:MOVP
+WP:GREENLOCK
+
+
+Move-protected pages cannot be moved to a new title except by an administrator. Move protection is commonly applied to:
+
+Pages subject to persistent page-move vandalism.
+Pages subject to a page-name dispute.
+Highly visible pages that have no reason to be moved, such as the Administrators' noticeboard.
+
+Fully protected pages are also move-protected.
+As with full protection, protection because of editwarring should not be considered an endorsement of the current name. When move protection is applied during a requested move discussion the page should be protected at the location it was at when the move request was started.
+
+
+Upload protection[সম্পাদনা কৰক]
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:UPLOAD-P
+WP:PURPLELOCK
+
+
+Upload protected files cannot be replaced with new versions except by an administrator. Upload protection does not protect file pages from editing. Upload protection may be applied by an administrator to:
+
+Files subject to persistent upload vandalism.
+Files subject to a dispute between editors.
+Files that should not be replaced, such as images used in the interface or transcluded to the main page.
+
+As with full protection, administrators should avoid favoring one file version over another, and protection should not be considered an endorsement of the current file version. An obvious exception to this rule is when files are protected due to upload vandalism.
+
+
+Pending-changes protection[সম্পাদনা কৰক]
+অতিৰিক্ত তথ্য: Wikipedia:Pending changes and Help:Pending changes
+
+
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:PCPP
+WP:WHITELOCK
+WP:ORANGELOCK
+
+
+
+
+
+
+
+For a trial period that began on June 15, 2010, articles could be protected by pending-changes protection. The trial is now over.
+The protection policy that was applied during the trial can be seen in this page's version from September 2, 2010.
+After a RFC on the reintroduction of pending changes, consensus was determined to be in favor of reactivating pending changes. Pending changes will be reactivated December 1, 2012; if consensus cannot be reached on an alternative or modified policy, Wikipedia:Pending changes/Provisional policy will take effect at that time.
+
+
+Permanent protection[সম্পাদনা কৰক]
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:PPINDEF
+WP:REDLOCK
+
+
+Some areas of Wikipedia are permanently protected by the MediaWiki software. The MediaWiki namespace, which defines parts of the site interface, is fully protected; it is impossible for administrators to remove this protection. In addition, user CSS and JavaScript pages, such as User:Example/monobook.css and User:Example/cologneblue.js, are automatically fully protected. Only accounts that are associated with these pages or administrators are able to edit them. This protection applies to any user subpage with a ".css" or ".js" extension, whether an equivalent MediaWiki skin exists or not. Administrators may modify these pages, for example, to remove a user script that has been used in an inappropriate way.
+In addition to the hard-coded protection, the following are usually permanently protected:
+
+Pages that are very visible, such as the Main Page or File:Wiki.png.
+Pages that should not be modified for copyright or legal reasons, such as the general disclaimer or the local copy of the site copyright license.
+Pages that are very frequently transcluded, such as {{tl}} or {{ambox}}, to prevent vandalism or denial of service attacks. This includes images or templates used in other highly visible or frequently transcluded pages. See Wikipedia:High-risk templates for more information.
+Files are indefinitely move-protected, though file movers and administrators may still move them.
+
+
+
+Office actions[সম্পাদনা কৰক]
+
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:BLACKLOCK
+
+
+As outlined at Wikipedia:Office actions, pages may be protected by Wikimedia Foundation staff in response to issues such as copyright or libel. Such actions override community consensus. Administrators should not edit or unprotect such pages without permission from Wikimedia Foundation staff. A list of pages under the scrutiny of the Wikimedia Foundation can be found here.
+
+
+Cascading protection[সম্পাদনা কৰক]
+
+
+চমুপথবোৰ:
+WP:CASCADE
+WP:CASCADING
+
+
+
+"WP:CASCADE" redirects here. You may be also looking for Wikipedia:Cascading style sheets.
+
+Cascading protection fully protects a page, and extends that full protection automatically to any page that is transcluded onto the protected page, whether directly or indirectly. This includes templates, images and other media that are hosted on English Wikipedia. Files stored on Commons will not be protected by cascading protection, and need to be temporarily uploaded to English Wikipedia or protected at Commons. Cascading protection:
+
+Should be used only to prevent vandalism when placed on particularly visible pages such as the Main Page.
+
+
+Is available only for fully protected pages; it is disabled for semi-protected pages as it represents a security flaw. See Bugzilla:8796 for more information.
+
+
+Is not instantaneous; it may be several hours before it takes effect. See Bugzilla:18483 for more information.
+
+
+Should generally not be applied directly to templates, as it will not protect transclusions inside <includeonly></includeonly> tags or transclusions that depend on template parameters, but will protect the template's documentation subpage. See the "Templates" section below for alternatives.
+
+Comparison table[সম্পাদনা কৰক]
+অতিৰিক্ত তথ্য: Scope, deployment, and removal of Pending changes
+The following table compares the effects on editors, of different protection tools.
+
+ৱিকিপিডিয়া:Pending changes/Protection level table
+
+Protection by namespace[সম্পাদনা কৰক]
+
+Templates[সম্পাদনা কৰক]
+অতিৰিক্ত তথ্য: Wikipedia:High-risk templates আৰু Wikipedia:Template documentation
+Highly visible templates which are used on an extremely large number of pages or substituted with great frequency are particularly vulnerable to vandalism, as vandalism to the template may introduce vandalism to hundreds of other pages. Therefore, they are frequently semi- or fully protected based on the degree of visibility, type of use, content, and other factors.
+Semi and fully protected templates should normally have the {{documentation}} template. It loads the unprotected /doc page, so that non-admins and IP-users can edit the documentation, categories and interwiki links. It also automatically adds {{pp-template}} to protected templates, which displays a small padlock in the top right corner and categorizes the template as a protected template. Only manually add {{pp-template}} to protected templates that don't use {{documentation}} (mostly the stub and flag templates).
+Cascading protection should generally not be applied directly to templates, as it will not protect transclusions inside <includeonly></includeonly> tags or transclusions that depend on template parameters, but will protect the template's documentation subpage. Instead, consider any of the following:
+
+If the set of subtemplates is static (even if large), protect them using normal protection mechanisms.
+If the full set of subtemplates is transcluded whenever the main template is trancluded, transclude the main template on Wikipedia:Cascade-protected items or a similar page.
+If the set of subtemplates is unbounded, use MediaWiki:Titleblacklist to protect all subtemplates using a particular naming format (as is done for editnotice templates and subtemplates of Template:TFA title).
+
+Note: All editnotice templates (except those in userspace) are already protected via MediaWiki:Titleblacklist (which can, however, be overridden by account creators)
+User pages[সম্পাদনা কৰক]
+
+
+নীতিৰ সংক্ষিপ্ত:
+WP:UPROT
+WP:UPPROT
+
+
+User pages and subpages are sometimes protected at the user's request if there is evidence of vandalism/disruption or other good reason to do so. User talk pages are rarely protected, and are semi-protected for short durations only in the most severe cases of vandalism from IP users.
+Users whose talk page is semi-protected for lengthy or indefinite periods of time should ideally have an unprotected user talk subpage linked conspicuously from their main talk page to allow good faith comments from non-autoconfirmed users - if this isn't the case the user in question should be contacted via the help desk. A message referring editors to the help desk should be placed on the semi-protected page.
+Deceased users[সম্পাদনা কৰক]
+অতিৰিক্ত তথ্য: Wikipedia:Deceased Wikipedians/Guidelines
+In the event of the confirmed death of a user, his or her user page, but not talk page, should be fully protected.
+Retired users[সম্পাদনা কৰক]
+Retired users may have their user pages protected upon request. Talk pages of retired editors are not usually protected except with limited duration to deal with vandalism. A user's request to have his or her own talk page protected due to retirement is not a sufficient rationale to protect the page.
+Blocked users[সম্পাদনা কৰক]
+Blocked users' user pages and user talk pages should not ordinarily be protected, as this interferes with the user's ability to contest their block through the normal process. In extreme cases of abuse, such as abuse of the {{unblock}} template, the talk page may be protected for a short time to prevent abusive editing. When required, it should be implemented for a brief period which should not exceed the length of the block, whichever is shorter. Consider disabling the user's talk page access via the block feature instead. In cases where the user has been blocked indefinitely, they should be informed of off-wiki ways to appeal their block, such as the UTRS tool interface or ban appeals subcommittee of the Arbitration Committee. Confirmed socks of registered users should be dealt with in accordance with Wikipedia:Sockpuppetry; their pages are not normally protected.
+Sandboxes[সম্পাদনা কৰক]
+অতিৰিক্ত তথ্য: Wikipedia:About the Sandbox
+Wikipedia:Sandbox and other sandboxes should also not ordinarily be protected since their purpose is to let new users test and experiment with wiki syntax. These pages are automatically cleaned every 12 hours, although they are frequently overwritten by other testing users much faster than that. Those who do use the sandboxes for malicious purposes, or to violate policies such as no personal attacks, civility, and copyrights, should instead be warned and/or blocked.
+Available templates[সম্পাদনা কৰক]
+The following templates may be added at the very top of a page to indicate that it is protected:
+On redirect pages, add Category:Protected redirects below the redirect line. A protection template may also be added below the redirect line, but it will only serve to categorize the page, as it will not be visible on the page.
+See also[সম্পাদনা কৰক]
+
+MediaWiki:Protectedpagetext
+Special:Protectedpages
+Special:Protectedtitles
+Wikipedia:Edit lock
+Wikipedia:List of indefinitely protected pages
+Wikipedia:Requests for page protection
+Wikipedia:Rough guide to semi-protection
+Wikipedia:Make protection requests sparingly, an essay
+m:Protected pages considered harmful
+m:The Wrong Version
+
+
+
+
+
+
+
+প্ৰ • আ • স
+নতুন প্ৰশাসকৰ বিদ্যালয়
+
+
+
+
+
+
+প্ৰবন্ধসমূহ
+
+
+
+একাউণ্ট অনুমোদন আৰু বাতিল
+প্ৰশাসকৰ কেনেকৈ-কৰিব
+নতুন প্ৰশাসকৰ বাবে পৰামৰ্শ
+প্ৰতিবন্ধন
+বিবাদত হস্তক্ষেপ
+বিলোপন
+সুৰক্ষা
+বিলোপিত পৃষ্ঠাৰ সুৰক্ষা (Salting)
+পঠন তালিকা
+ৰ'লবেক
+ৰ'লবেক অনুমোদন আৰু বাতিল
+বিলোপিত পৃষ্ঠা আৰু অৱদানত দৃষ্টি
+
+
+
+
+
+
+
+
+
+
+
+
+
+নীতিসমূহ
+
+
+
+প্ৰশাসকৰ নীতি (WP:ADMIN)
+বাৰণ নীতি (WP:BAN)
+প্ৰতিবন্ধন নীতি (WP:BLOCK)
+বিলোপন নীতি (WP:DEL)
+সুৰক্ষা নীতি (WP:PROTECT)
+সংশোধন বিলোপন নীতি (WP:REVDEL)
+
+
+
+
+
+
+
+
+লিপি
+
+
+
+বিলোপন
+বিবিধ
+
+
+
+
+
+
+
+
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.log.warn("Gadget \"teahouse\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");mw.log.warn("Gadget \"ReferenceTooltips\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");mw.log.warn("Gadget \"WatchlistBase\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");mw.log.warn("Gadget \"WatchlistGreenIndicators\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");mw.log.warn("Gadget \"featured-articles-links\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");}); 
+						"https://as.wikipedia.org/w/index.php?title=ৱিকিপিডিয়া:সংৰক্ষণ_নীতি&oldid=160209"ৰ পৰা সংকলিত					
+শ্ৰেণীসমূহ: ৱিকিপিডিয়া নতুন প্ৰশাসকৰ বিদ্যালয়Wikipedia vandalismৱিকিপিডিয়া পৃষ্ঠা সুৰক্ষানিহিত শ্ৰেণীসমূহ: Pages using duplicate arguments in template callsWikipedia shortcut box first parameter needs fixingWikipedia pages with incorrect protection templates 
+
+
+
+সা-সঁজুলি
+
+
+ব্যক্তিগত সৰঞ্জাম
+
+আপুনি প্ৰৱেশ কৰা নাইএই IPটোৰে যোগাযোগ কৰকবৰঙণিএকাউণ্ট সৃষ্টি কৰকপ্ৰৱেশ 
+
+
+
+নামস্থান
+
+প্ৰকল্প পৃষ্ঠা
+আলোচনা
+
+
+
+
+বিকল্পসমূহ
+
+
+
+
+
+
+
+
+
+দৰ্শন
+
+পঢ়ক
+উৎস সম্পাদনা
+ইতিহাস চাওক
+
+
+
+অধিক
+
+
+
+
+
+
+
+সন্ধান কৰক
+
+
+
+ 
+
+
+
+
+
+
+
+দিশ-নিৰ্দেশনা
+
+
+বেটুপাতৱিকিচ'ৰাৱিকিপত্ৰিকাশেহতীয়া সাল-সলনিযিকোনো পৃষ্ঠাসহায় 
+
+
+
+সা-সঁজুলি
+
+
+সংযুক্ত পৃষ্ঠাসমুহপ্ৰাসংগিক সালসলনিসমূহফাইল আপল’ড কৰকবিশেষ পৃষ্ঠাসমূহস্থায়ী সংযোগপৃষ্ঠাখনৰ বিষয়ে তথ্যWikidata আইটেম 
+
+
+
+আন ভাষাসমূহত
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىবাংলাCatalàCebuanoČeštinaCymraegDanskDeutschދިވެހިބަސްΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+আন্তঃৱিকি লিংক সম্পাদনা কৰক 
+
+
+মুদ্রণ/ৰপ্তানী
+
+
+কিতাপ প্ৰস্তুত কৰকPDF ডাউনল’ডপ্ৰকাশযোগ্য সংস্কৰণ 
+
+
+
+আন প্ৰকল্পসমূহত
+
+
+Wikimedia CommonsWikidata 
+
+
+
+
+
+
+ এই পৃষ্ঠাখন শেষবাৰৰ বাবে শুধৰোৱা হৈছিল  12 মে' 2016ৰ 10:45 বজাত
+লেখাবোৰ ক্ৰিয়েটিভ কমন্স এট্ৰিব্যুশ্বন/শ্বেয়াৰ-এলাইক লাইচেঞ্চৰ অন্তৰ্গত;
+ইয়াৰ লগতে আনুষঙ্গিক নিয়মাৱলী যোগ হ'ব পাৰে।
+ ব্যৱহাৰৰ চৰ্তবোৰ বিতংকৈ চাওক।
+
+
+গোপনীয়তা নীতি
+অসমীয়া ৱিকিপিডিয়াৰ বিষয়ে
+দায়লুপ্তি
+উন্নয়নকাৰী
+Cookie statement
+মোবাইল সংস্কৰণ
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.168","walltime":"0.213","ppvisitednodes":{"value":3648,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":53786,"limit":2097152},"templateargumentsize":{"value":20697,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":12,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  122.458      1 -total"," 19.56%   23.958      1 সাঁচ:Enforcement_policy_list"," 18.40%   22.528      1 সাঁচ:Helpbox"," 18.31%   22.427     11 সাঁচ:Policy_shortcut"," 16.09%   19.699      1 সাঁচ:Sidebar"," 14.34%   17.560      1 সাঁচ:New_admin_school"," 12.93%   15.830      1 সাঁচ:Navbox"," 10.02%   12.271      1 সাঁচ:Notice","  8.63%   10.571      1 সাঁচ:Mbox","  6.27%    7.683      5 সাঁচ:See_also"]},"cachereport":{"origin":"mw1303","timestamp":"20170202025354","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":73,"wgHostname":"mw1219"});});

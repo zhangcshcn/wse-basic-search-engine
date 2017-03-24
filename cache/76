@@ -1,0 +1,832 @@
+ 
+
+
+
+
+
+
+Computer hardware
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+For other uses, see Hardware.
+
+
+
+
+PDP-11 CPU board
+
+
+Computer hardware is the collection of physical components that constitute a computer system. Computer hardware is the physical parts or components of a computer, such as monitor, keyboard, computer data storage, hard disk drive (HDD), graphic card, sound card, memory (RAM), motherboard, and so on, all of which are tangible physical objects.[1] By contrast, software is instructions that can be stored and run by hardware.
+Hardware is directed by the software to execute any command or instruction. A combination of hardware and software forms a usable computing system.[2]
+
+
+
+Contents
+
+
+1 Von Neumann architecture
+2 Sales
+3 Different systems
+
+3.1 Personal computer
+
+3.1.1 Case
+3.1.2 Power supply
+3.1.3 Motherboard
+3.1.4 Expansion cards
+3.1.5 Storage devices
+
+3.1.5.1 Fixed media
+3.1.5.2 Removable media
+
+
+3.1.6 Input and output peripherals
+
+3.1.6.1 Input
+3.1.6.2 Output device
+
+
+
+
+3.2 Mainframe computer
+3.3 Departmental computing
+3.4 Supercomputer
+
+
+4 Hardware upgrade
+5 See also
+6 References
+7 External links
+
+
+
+Von Neumann architecture[edit]
+Main article: Von Neumann architecture
+
+
+
+
+Von Neumann architecture scheme
+
+
+The template for all modern computers is the Von Neumann architecture, detailed in a 1945 paper by Hungarian mathematician John von Neumann. This describes a design architecture for an electronic digital computer with subdivisions of a processing unit consisting of an arithmetic logic unit and processor registers, a control unit containing an instruction register and program counter, a memory to store both data and instructions, external mass storage, and input and output mechanisms.[3] The meaning of the term has evolved to mean a stored-program computer in which an instruction fetch and a data operation cannot occur at the same time because they share a common bus. This is referred to as the Von Neumann bottleneck and often limits the performance of the system.[4]
+Sales[edit]
+For the third consecutive year, U.S. business-to-business channel sales (sales through distributors and commercial resellers) increased, ending 2013 up nearly 6 percent at $61.7 billion. The impressive growth was the fastest sales increase since the end of the recession. Sales growth accelerated in the second half of the year peaking in fourth quarter with a 6.9 percent increase over the fourth quarter of 2012.[5]
+Different systems[edit]
+There are a number of different types of computer system in use today.
+Personal computer[edit]
+
+
+
+
+Basic hardware components of a modern personal computer, including a monitor, a motherboard, a CPU, a RAM, two expansion cards, a power supply, an optical disc drive, a hard disk drive, a keyboard and a mouse
+
+
+
+
+
+
+Inside a custom-built computer: power supply at the bottom has its own cooling fan
+
+
+The personal computer, also known as the PC, is one of the most common types of computer due to its versatility and relatively low price. Laptops are generally very similar, although they may use lower-power or reduced size components, thus lower performance.
+Case[edit]
+Main article: Computer case
+The computer case is a plastic or metal enclosure that houses most of the components. Those found on desktop computers are usually small enough to fit under a desk; however, in recent years more compact designs have become more commonplace, such as the all-in-one style designs from Apple, namely the iMac. A case can be either big or small, but the form factor of motherboard for which it is designed matters more. Laptops are computers that usually come in a clamshell form factor; however, in more recent years, deviations from this form factor, such as laptops that have a detachable screen that become tablet computers in their own right, have started to emerge.
+Power supply[edit]
+Main article: Power supply unit (computer)
+A power supply unit (PSU) converts alternating current (AC) electric power to low-voltage DC power for the internal components of the computer. Laptops are capable of running from a built-in battery, normally for a period of hours.[6]
+Motherboard[edit]
+Main article: Motherboard
+The motherboard is the main component of a computer. It is a board with integrated circuitry that connects the other parts of the computer including the CPU, the RAM, the disk drives (CD, DVD, hard disk, or any others) as well as any peripherals connected via the ports or the expansion slots.
+Components directly attached to or to part of the motherboard include:
+
+The CPU (Central Processing Unit), which performs most of the calculations which enable a computer to function, and is sometimes referred to as the brain of the computer. It is usually cooled by a heatsink and fan, or water-cooling system. Most newer CPUs include an on-die Graphics Processing Unit (GPU). The clock speed of CPUs governs how fast it executes instructions, and is measured in GHz; typical values lie between 1 GHz and 5 GHz. Many modern computers have the option to overclock the CPU which enhances performance at the expense of greater thermal output and thus a need for improved cooling.
+The chipset, which includes the north bridge, mediates communication between the CPU and the other components of the system, including main memory.
+Random-Access Memory (RAM), which stores the code and data that are being actively accessed by the CPU. RAM usually comes on DIMMs in the sizes 2GB, 4GB, and 8GB, but can be much larger.
+Read-Only Memory (ROM), which stores the BIOS that runs when the computer is powered on or otherwise begins execution, a process known as Bootstrapping, or "booting" or "booting up". The BIOS (Basic Input Output System) includes boot firmware and power management firmware. Newer motherboards use Unified Extensible Firmware Interface (UEFI) instead of BIOS.
+Buses that connect the CPU to various internal components and to expand cards for graphics and sound.
+The CMOS battery, which powers the memory for date and time in the BIOS chip. This battery is generally a watch battery.
+The video card (also known as the graphics card), which processes computer graphics. More powerful graphics cards are better suited to handle strenuous tasks, such as playing intensive video games.
+
+Expansion cards[edit]
+Main article: Expansion card
+An expansion card in computing is a printed circuit board that can be inserted into an expansion slot of a computer motherboard or backplane to add functionality to a computer system via the expansion bus. Expansions cards can be used to obtain or expand on features not offered by the motherboard.
+Storage devices[edit]
+Main article: Computer data storage
+A storage device is any computing hardware that is used for storing, porting and extracting data files and objects. It can hold and store information both temporarily and permanently, and can be internal or external to a computer, server or any similar computing device. It refers to computer components and recording media that retain digital data. Data storage is a core function and fundamental component of computers.
+Fixed media[edit]
+Data is stored by a computer using a variety of media. Hard disk drives are found in virtually all older computers, due to their high capacity and low cost, but solid-state drives are faster and more power efficient, although currently more expensive than hard drives, so are often found in more expensive computers. Some systems may use a disk array controller for greater performance or reliability.
+Removable media[edit]
+To transfer data between computers, a USB flash drive or optical disc may be used. Their usefulness depends on being readable by other systems; the majority of machines have an optical disk drive, and virtually all have a USB port.
+Input and output peripherals[edit]
+Main article: Peripheral
+Input and output devices are typically housed externally to the main computer chassis. The following are either standard or very common to many computer systems.
+Input[edit]
+Input devices allow the user to enter information into the system, or control its operation. Most personal computers have a mouse and keyboard, but laptop systems typically use a touchpad instead of a mouse. Other input devices include webcams, microphones, joysticks, and image scanners.
+Output device[edit]
+Output devices display information in a human readable form. Such devices could include printers, speakers, monitors or a Braille embosser.
+Mainframe computer[edit]
+Main article: Mainframe Computer
+A mainframe computer is a much larger computer that typically fills a room and may cost many hundreds or thousands of times as much as a personal computer. They are designed to perform large numbers of calculations for governments and large enterprises.
+
+
+
+
+An IBM System z9 mainframe
+
+
+Departmental computing[edit]
+Main article: Minicomputer
+In the 1960s and 1970s, more and more departments started to use cheaper and dedicated systems for specific purposes like process control and laboratory automation.
+Supercomputer[edit]
+Main article: Supercomputer
+A supercomputer is superficially similar to a mainframe, but is instead intended for extremely demanding computational tasks. As of June 2016[update], the fastest supercomputer in the world is the Sunway TaihuLight, in Jiangsu, China.[7]
+The term supercomputer does not refer to a specific technology. Rather it indicates the fastest computations available at any given time. In mid 2011, the fastest supercomputers boasted speeds exceeding one petaflop, or 1 quadrillion (10^15 or 1,000 trillion) floating point operations per second. Super computers are fast but extremely costly so they are generally used by large organizations to execute computationally demanding tasks involving large data sets. Super computers typically run military and scientific applications. Although they cost millions of dollars, they are also being used for commercial applications where huge amounts of data must be analyzed. For example, large banks employ supercomputers to calculate the risks and returns of various investment strategies, and healthcare organizations use them to analyze giant databases of patient data to determine optimal treatments for various diseases and problems incurring to the country.
+Hardware upgrade[edit]
+When using computer hardware, an upgrade means adding new hardware to a computer that improves its performance, adds capacity or new features. For example, a user could perform a hardware upgrade to replace the hard drive with a SSD to get a boost in performance or increase the amount of files that may be stored. Also, the user could increase the RAM so the computer may run more smoothly. The user could add a USB 3.0 expansion card in order to fully use USB 3.0 devices, or could upgrade the GPU for extra rendering power. Performing such hardware upgrades may be necessary for older computers to meet a programs' system requirements.
+See also[edit]
+
+
+Information technology portal
+
+
+
+Computer architecture
+Electronic hardware
+List of computer hardware manufacturers
+Open-source computing hardware
+
+References[edit]
+
+
+^ "Parts of computer". Microsoft. Retrieved 5 December 2013. 
+^ Smither, Roger. "Use of computers in audiovisual archives". UNESCO. Retrieved 5 December 2013. 
+^ von Neumann, John (1945). "First Draft of a Report on the EDVAC" (PDF). 
+^ Markgraf, Joey D. (2007). "The Von Neumann bottleneck". Archived from the original on 2011-06-09. Retrieved 24 August 2011. 
+^ "US B2B Channel sales reach nearly $62 Billion in 2013, According to The NPD Group". NPD Group. February 4, 2014. 
+^ "How long should a laptop battery last?". Computer Hope. Retrieved 9 December 2013. 
+^ Alba, Davey. "China's Tianhe-2 Caps Top 10 Supercomputers". IEEE. Retrieved 9 December 2013. 
+
+
+External links[edit]
+
+ Media related to Computer hardware at Wikimedia Commons
+ Learning materials related to Computer hardware at Wikiversity
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Basic computer components
+
+
+
+
+
+
+Input devices
+
+
+
+Keyboard
+Image scanner
+Microphone
+Pointing device
+
+Graphics tablet
+Joystick
+Light pen
+Mouse
+
+Optical
+
+
+Pointing stick
+Touchpad
+Touchscreen
+Trackball
+
+
+Webcam
+
+Softcam
+
+
+Refreshable braille display
+
+
+
+
+
+
+
+
+Output devices
+
+
+
+Monitor
+Refreshable braille display
+Printer
+Speakers
+Plotter
+
+
+
+
+
+
+
+
+Removable
+data storage
+
+
+
+Optical disc drive
+
+CD-RW
+DVD+RW
+BD-R
+
+
+Disk pack
+Floppy disk
+Memory card
+USB flash drive
+
+
+
+
+
+
+
+
+Computer case
+
+
+
+Central processing unit (CPU)
+HDD / SSD / SSHD
+Motherboard
+Network interface controller
+Power supply
+Random-access memory (RAM)
+Sound card
+Video card
+
+
+
+
+
+
+
+
+Data ports
+
+
+
+Ethernet
+FireWire (IEEE 1394)
+Parallel port
+Serial port
+USB
+Audio jack
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Major fields of computer science
+
+
+
+
+
+
+
+Note: This template roughly follows the 2012 ACM Computing classification.
+
+
+
+
+
+
+Hardware
+
+
+
+Printed circuit board
+Peripheral
+Integrated circuit
+Very-large-scale integration
+Energy consumption
+Electronic design automation
+
+
+
+
+
+
+
+
+Computer systems
+organization
+
+
+
+Computer architecture
+Embedded system
+Real-time computing
+Dependability
+
+
+
+
+
+
+
+
+Networks
+
+
+
+Network architecture
+Network protocol
+Network components
+Network scheduler
+Network performance evaluation
+Network service
+
+
+
+
+
+
+
+
+Software organization
+
+
+
+Interpreter
+Middleware
+Virtual machine
+Operating system
+Software quality
+
+
+
+
+
+
+
+
+Software notations
+and tools
+
+
+
+Programming paradigm
+Programming language
+Compiler
+Domain-specific language
+Modeling language
+Software framework
+Integrated development environment
+Software configuration management
+Software library
+Software repository
+
+
+
+
+
+
+
+
+Software development
+
+
+
+Software development process
+Requirements analysis
+Software design
+Software construction
+Software deployment
+Software maintenance
+Programming team
+Open-source model
+
+
+
+
+
+
+
+
+Theory of computation
+
+
+
+Model of computation
+Formal language
+Automata theory
+Computational complexity theory
+Logic
+Semantics
+
+
+
+
+
+
+
+
+Algorithms
+
+
+
+Algorithm design
+Analysis of algorithms
+Randomized algorithm
+Computational geometry
+
+
+
+
+
+
+
+
+Mathematics
+of computing
+
+
+
+Discrete mathematics
+Probability
+Statistics
+Mathematical software
+Information theory
+Mathematical analysis
+Numerical analysis
+
+
+
+
+
+
+
+
+Information
+systems
+
+
+
+Database management system
+Information storage systems
+Enterprise information system
+Social information systems
+Geographic information system
+Decision support system
+Process control system
+Multimedia information system
+Data mining
+Digital library
+Computing platform
+Digital marketing
+World Wide Web
+Information retrieval
+
+
+
+
+
+
+
+
+Security
+
+
+
+Cryptography
+Formal methods
+Security services
+Intrusion detection system
+Hardware security
+Network security
+Information security
+Application security
+
+
+
+
+
+
+
+
+Human–computer
+interaction
+
+
+
+Interaction design
+Social computing
+Ubiquitous computing
+Visualization
+Accessibility
+
+
+
+
+
+
+
+
+Concurrency
+
+
+
+Concurrent computing
+Parallel computing
+Distributed computing
+Multithreading
+Multiprocessing
+
+
+
+
+
+
+
+
+Artificial
+intelligence
+
+
+
+Natural language processing
+Knowledge representation and reasoning
+Computer vision
+Automated planning and scheduling
+Search methodology
+Control method
+Philosophy of artificial intelligence
+Distributed artificial intelligence
+
+
+
+
+
+
+
+
+Machine learning
+
+
+
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+Multi-task learning
+Machine learning algorithms
+Cross-validation
+
+
+
+
+
+
+
+
+Graphics
+
+
+
+Animation
+Rendering
+Image manipulation
+Graphics processing unit
+Mixed reality
+Virtual reality
+Image compression
+Solid modeling
+
+
+
+
+
+
+
+
+Applied
+computing
+
+
+
+E-commerce
+Enterprise software
+Computational mathematics
+Computational physics
+Computational chemistry
+Computational biology
+Computational social science
+Computational engineering
+Computational healthcare
+Digital art
+Electronic publishing
+Cyberwarfare
+Electronic voting
+Video game
+Word processing
+Operations research
+Educational technology
+Document management
+
+
+
+
+
+
+
+
+
+
+
+ Computer science portal
+
+
+
+
+
+
+
+
+
+Authority control
+
+
+
+GND: 4023422-8
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Computer_hardware&oldid=764144982"					
+Categories: Computer hardwareElectronicsHidden categories: Articles containing potentially dated statements from June 2016All articles containing potentially dated statementsCommons category with page title same as on WikidataWikipedia articles with GND identifiers 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikibooks 
+
+
+
+Languages
+
+
+AfrikaansAlemannischالعربيةAragonésAsturianuবাংলাБеларускаяБългарскиBosanskiBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFøroysktFrançaisGaeilgeGàidhligGalegoગુજરાતી한국어हिन्दीHrvatskiIlokanoBahasa IndonesiaInterlinguaIsiXhosaÍslenskaItalianoעבריתBasa JawaKaszëbscziҚазақшаKurdîລາວLatinaLatviešuLëtzebuergeschLietuviųLingálaMagyarМакедонскиMalagasyമലയാളംBahasa MelayuMirandésМонголမြန်မာဘာသာNederlandsनेपालीनेपाल भाषा日本語Norsk bokmålNorsk nynorskОлык марийଓଡ଼ିଆPlattdüütschPolskiPortuguêsRomânăRuna SimiРусиньскыйРусскийScotsShqipසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogతెలుగుไทยTürkçeУкраїнськаاردوTiếng ViệtWinarayייִדיש粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 7 February 2017, at 09:30.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.220","walltime":"0.282","ppvisitednodes":{"value":1143,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":61122,"limit":2097152},"templateargumentsize":{"value":709,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  196.068      1 -total"," 34.23%   67.112      1 Template:Reflist"," 25.57%   50.125      6 Template:Cite_web"," 11.12%   21.808      2 Template:Navbox"," 10.92%   21.412      1 Template:Other_uses"," 10.77%   21.115      1 Template:Commons_category-inline"," 10.10%   19.798      2 Template:Sister-inline","  7.95%   15.578      1 Template:As_of","  7.09%   13.899     10 Template:Main_article","  6.97%   13.664      1 Template:Authority_control"]},"scribunto":{"limitreport-timeusage":{"value":"0.077","limit":"10.000"},"limitreport-memusage":{"value":3125119,"limit":52428800}},"cachereport":{"origin":"mw1179","timestamp":"20170211141334","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":373,"wgHostname":"mw1179"});});

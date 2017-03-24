@@ -1,0 +1,471 @@
+ 
+
+
+
+
+
+
+Wikipedia talk:Protection policy
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+↓
+Skip to table of contents
+↓
+
+
+
+
+This is the talk page for discussing improvements to the Protection policy page.
+
+
+
+
+Put new text under old text. Click here to start a new topic.
+Please sign and date your posts by typing four tildes (~~~~).
+New to Wikipedia? Welcome! Ask questions, get answers.
+
+
+
+
+Be polite, and welcoming to new users
+Assume good faith
+Avoid personal attacks
+For disputes, seek dispute resolution
+
+
+
+
+Shortcuts:
+
+WT:PROTECT
+WT:PPOL
+
+
+
+
+
+
+
+
+The project page associated with this talk page is an official policy on Wikipedia. Policies have wide acceptance among editors and are considered a standard for all users to follow. Please review policy editing recommendations before making any substantive change to this page. Always remember to keep cool when editing, and don't panic.
+
+
+
+
+
+
+
+This page is not for proposing or discussing edits to protected pages.
+To request or propose a change to a page that you are not able to edit, place a message on its talk page. If the page is fully protected, you may attract the attention of an admin to make the change by placing the {{edit fully-protected}} template above your request. Requests placed here will probably be removed or ignored.
+
+If the page in question and its talk page are both protected please make your edit request at Wikipedia:Request for edit.
+To request that a page be protected or unprotected, see Wikipedia:Requests for page protection.
+To suggest that a move-protected page be renamed, see Wikipedia:Requested moves.
+To request that a deleted page protected against re-creation be re-created or restored, see Wikipedia:Deletion review.
+For information about protecting the main page featured article or other featured content, see Wikipedia:Main Page featured article protection.
+
+
+
+
+
+
+
+
+Archives
+
+
+
+
+Archive 1 December 2003 - February 2005
+Archive 2 April 2005 - February 2007
+Archive 3 February 2007 - May 2007
+Archive 4 April 2007 - May 2007
+Archive 5 June 2007 - August 2007
+Archive 6 August 2007 - December 2007
+Archive 7 January 2008 - April 2008
+Archive 8 April 2008 - October 2008
+Archive 9 October 2008 - June 2009
+Archive 10 May 2009 - October 2009
+Archive 11 November 2009 - March 2010
+Archive 12 March 2010 - June 2010
+Archive 13 June 2010 - April 2012
+Archive 14 October 2010 - May 2013
+Archive 15 June 2013 - July 2013
+Archive 16 July 2013 -
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Threads older than 60 days may be archived by MiszaBot II.
+
+
+
+
+
+Contents
+
+
+1 Transclusion count to justify TE protection
+2 Arbitration motion regarding Palestine-Israel articles 3
+3 Update ECP policy? (Dec 2016)
+4 In what circumstances can a talk page be protected?
+5 Automatic restoration of lower protection levels
+6 Visibility of unreviewed pending changes under L2
+7 ECP in practice
+8 TYPO or incorrect "logic" or ... maybe [?] 2 "policy" pages really disagree? with each other ... ?
+9 Removal of Pending Changes 2?
+
+
+
+Transclusion count to justify TE protection[edit]
+I've been searching for a soft/hardline number/estimate to justify template protection, asking here is the next step :P - Mlpearc (open channel) 18:47, 28 November 2016 (UTC)
+
+There isn't a bright line - for example it can vary based on the usage (e.g. if it is sub-transcluded; or for templates used in different namespaces). — xaosflux Talk 19:37, 28 November 2016 (UTC)
+
+See expanded information at Wikipedia:High-risk templates. — xaosflux Talk 19:38, 28 November 2016 (UTC)
+
+@Xaosflux: The line at Wikipedia:High-risk templates "The most common reasons a template or module is considered high-risk are:... It is transcluded into a very large number of pages" brought me here :P I have ran into a couple templates which I feel were borderline usage/disruption and could benefit from higher protection (I didn't keep a list) but I resumed the search today because of {{Star Trek}} which has 11,00+ transclusions, I was going to list it at WP:RFPP but wasn't sure of the prerequisites. Lately the template has been getting more changes due to new stuff coming out, maybe dealing with edit requests would be better. - Mlpearc (open channel) 19:58, 28 November 2016 (UTC)
+
+Personally, I don't think {{Star Trek}} warrants currently increasing the projection level - 1000 pages is a bunch, but it's not that many - also this is a bottom-of-the-page nav template, and it is a "simple" template - easy to edit and revert. — xaosflux Talk 20:08, 28 November 2016 (UTC)
+The specific case of the Star Trek template needs to be fixed by removal per Template talk:Aviation lists#RfC: Should this navbox be removed from non-mentioned articles?. I've been meaning to do that but just haven't gotten around to it. :^) --Izno (talk) 20:09, 28 November 2016 (UTC)
+
+
+
+
+
+
+I agree--there should be a better understanding of what constitutes a high-use template. I have previously opined on the subject but would need to dig a bit to see where and what it was I said. --Izno (talk) 20:09, 28 November 2016 (UTC)
+
+It's not as simple as a transclusion count. If a template has 50 tranclusions, but the transclusions are on pages like Hillary Clinton and Donald Trump which have been subject to vandalism via templates, that's high-risk. If a template has 1,000 transclusions on low-traffic stubs only, that's not high-risk (at least not to the level of requiring TE; semi would be fine). ~ Rob13Talk 07:57, 30 November 2016 (UTC)
+
+It also depends on the editing rate. Some templates are maintained almost exclusively by IP editors (sports templates for example). Then there's templates like {{bio-stub}} which don't need to be edited much. That template is currently fully (template-) protected with only 138 transclusions, but with a high turnover rate and the potential for BLP damage. I would say, however, that previous talk has suggested that any template with over 10,000 transclusions normally needs at least some protection. Anything over 50,000 transclusions will normally get a higher level of protection. Also any previous attempts to define a hard limit for protection have failed. -- zzuuzz (talk) 09:34, 30 November 2016 (UTC)
+
+50,000 is quite a bit higher than the standard I've seen used. I typically use the rule of thumb that anything over 10,000 should be template protected (unless, perhaps, none of the transclusions are in the mainspace or article talk pages). This is why there's been no easy consensus on what protection levels to apply, though. Everyone has different ideas of what high-risk means. As an aside, more complicated syntax also implies a higher level of protection should be used, since even good-faith editors can screw up a very complicated template. I would consider a complicated Lua module used on ~1,000 medium-traffic mainspace pages to be high-risk for this reason. ~ Rob13Talk 10:53, 30 November 2016 (UTC)
+
+
+
+
+
+
+May I reboot this discussion, but with a focus on also establishing a rough number for the use of semi? Samsara (talk) 20:53, 23 January 2017 (UTC)
+
+Arbitration motion regarding Palestine-Israel articles 3[edit]
+The Arbitration Committee has resolved by motion that:
+
+
+Remedy 2 (General Prohibition) is modified to read as follows:
+
+All IP editors, accounts with fewer than 500 edits, and accounts with less than 30 days tenure are prohibited from editing any page that could be reasonably construed as being related to the Arab-Israeli conflict. This prohibition is preferably enforced by the use of extended confirmed protection, but where that is not feasible, it may also be enforced by reverts, page protections, blocks, the use of pending changes, and appropriate edit filters.
+
+
+The sole exceptions to this prohibition are:
+
+Editors who are not eligible to be extended-confirmed may use the Talk: namespace to post constructive comments and make edit requests related to articles within the topic area, provided they are not disruptive. Talk pages where disruption occurs may be managed by any of the above methods. This exception does not apply to other internal project discussions such as AfDs, WikiProjects, noticeboard discussions, etc.
+Editors who are not eligible to be extended-confirmed may not create new articles, but administrators may exercise discretion when deciding how to enforce this remedy on article creations. Deletion of new articles by editors who do not meet the criteria is permitted but not required.
+
+
+
+
+
+
+For the Arbitration Committee, Kevin (aka L235 · t · c) 04:26, 26 December 2016 (UTC)
+
+Discuss this at: Wikipedia talk:Arbitration Committee/Noticeboard#Arbitration motion regarding Palestine-Israel articles 3
+
+Update ECP policy? (Dec 2016)[edit]
+Now that Wikipedia:Requests for comment/Extended confirmed protection policy 2 is closed, shall I or someone else update the policy to reflect changes? --George Ho (talk) 21:05, 29 December 2016 (UTC)
+In what circumstances can a talk page be protected?[edit]
+In what circumstances can a talk page be protected? It is fairly uncommon and I'd like to know what those are, to combat vandalism better. Luis150902 (talk | contribs) 11:57, 3 January 2017 (UTC)
+Automatic restoration of lower protection levels[edit]
+An all too common scenario: A page that semi-protected suffers an edit war from confirmed users, then we have to fully or extended-confirmed protect for say, 2 days. The two days go by and now everyone can edit it, leading to significant disruption that led to it being semi'd in the first place. The issue is admins have to remember to restore the old semi, or users can re-request it at RFPP. How about we take out the busy work and let an admin bot do it? Can we envision a scenario where you wouldn't want this behaviour? To be clear, this is in regards to restoring older, lower-level protections, and to the expiry that they were originally set. So the same behaviour would apply if I fully protected a EC-protected a page, then full protection expired, and ECP would be restored as it was, etc. I believe this idea has been discussed before but I don't recall the outcome. Pinging recent RFPP admins @Samsara, Ad Orientem, Samwalton9, Ymblanter, Vanamonde93, Widr, CambridgeBayWeather, and Gfoley4: — MusikAnimal talk 07:47, 4 January 2017 (UTC)
+
+If this is possible at the level of a bot or, even better, at the level of Mediawiki, this absolutely must be done.--Ymblanter (talk) 07:55, 4 January 2017 (UTC)
+
+My exact same thoughts - should be a mediawiki feature, massive oversight that it doesn't work this way already imo. Given this opportunity, I would like to raise the issue of graceful degradation of protection. It's becoming increasingly common to use a period of PC1 following semi. While I don't consider that particular case mandatory (PC1 should be used on low traffic pages only, for good reason), I wonder if it makes sense for higher levels of protection - in particular, ECP being followed by a "grace period" of semi. Samsara 08:23, 4 January 2017 (UTC)
+
+Wow, wasn't even aware that this did not automatically take place. I'm in complete agreement: if this can be done by a bot, let's get it done by a bot. Regards, Vanamonde (talk) 09:38, 4 January 2017 (UTC)
+
+Same here, this makes obvious sense and while it should probably be part of the software, if a bot is easier then I don't see a problem with that. Sam Walton (talk) 10:55, 4 January 2017 (UTC)
+
+I would agree. Software if possible and a bot if not. CambridgeBayWeather, Uqaqtuq (talk), Sunasuttuq 12:55, 4 January 2017 (UTC)
+
+Assuming it is technically possible, this seems like an excellent idea. -Ad Orientem (talk) 13:01, 4 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+MusikAnimal, et.al. I think you may be looking for phab:T142209? — xaosflux Talk 12:04, 4 January 2017 (UTC)
+
+@Xaosflux: That's it! So I've actually talked to WMDE about it and it's sort of stalled right now, as they are trying iron out some details. For instance, what if a page was semi'd indefinitely, then an edit war took place so you add ECP protection for a week, then edit warring STILL happens so you fully protect for 3 days. What happens when full protection ends? Does it go back to whatever has the soonest expiry (ECP in this case)? Or does it always go back to semi? I'd personally would go with the former, so whatever the previous protection was, assuming it hasn't expired yet. Either way I'm very interested in pursuing a bot task, which would hold us off until a core solution has been implemented — MusikAnimal talk 18:31, 4 January 2017 (UTC)
+
+MusikAnimal I'm not super excited about this being a protection-bot type of activity when it could be in core; 2 possible workflows would be:
+
+Allow applying multiple protection types with related expiration - and AND them when checking if someone has edit permission.
+Add a "When expires DO" workflow so you can specify what to do when a protection expires (default being do nothing)
+
+
+If this was going to be somehow bot driven, how do you expect the bot to know when it should or shouldn't operate? — xaosflux Talk 18:56, 4 January 2017 (UTC)
+
+My thing was wondering when a core solution would happen (tentatively Q1), and also I just really enjoy writing bot tasks :) There is no harm in waiting for a core solution. For us however it seems rather straightforward, per the above comments, that we just want it to fall back to the previous protection level, assuming it hadn't expired yet. Now that I think of it though, you'd have to somehow account for accidents. So if a page is indef semi'd, then I added indef ECP by accident, then I change it full protection for 2 days (what I wanted), it expires, now it goes back to ECP and not semi. So maybe a bot isn't the best idea :/ Daniel's comment on the phab task seems to line up with your thoughts. We should feel free to comment there, they said any input we have is very much appreciated — MusikAnimal talk 19:33, 4 January 2017 (UTC)
+
+@MusikAnimal: What if you create the bot and just mass-message admins to inform them that in case of mistakes, they must first revert to the previous state - problem solved? Samsara 05:08, 17 January 2017 (UTC)
+
+@MusikAnimal: Or even better, when the bot changes a protection level, log it on a wikipage and use notifications to alert the protecting admins or admins, ie
+
+* [[PAGE]] – Restored OLDPROTECTIONTYPE protection (expires DATESTAMP) after HIGHERPROTECTIONTYPE protection expired. {{ping|ADMIN1|ADMIN2}} please review and adjust if necessary. ~~~~
+
+where ADMIN1 and ADMIN2 (if different) were the protecting admins for OLDPROTECTIONTYPE and HIGHERPROTECTIONTYPE. That way if the wrong protection type is restored, like ECP instead of Semi, the protecting admin will be notified and be able to fix it. And if there's no problem, then its just a little notification that can be dismissed. - Evad37 [talk] 03:04, 24 January 2017 (UTC)
+
+Yeah I've thought about a ping system before for other bot tasks, and always ended up deciding against. It's a bit messy and hacky to say the least. For now, I think we should first find out if a core solution is on the horizon. I will speak with WMDE about it and if it sounds like things are questionable, I'll revisit the idea of a bot task — MusikAnimal talk 16:59, 24 January 2017 (UTC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Visibility of unreviewed pending changes under L2[edit]
+This page [1] says
+
+Pending-changes protection level 1 means edits by unregistered and new contributors are not visible to readers who are not logged in, until the edits are approved by a reviewer or administrator.
+Pending-changes protection level 2 means edits by unregistered, new contributors, and autoconfirmed contributors are not visible to readers who are not administrator, until the edits are approved by a reviewer or administrator.
+
+
+But the table [2] says
+
+"Go live" means the changes become visible to readers who are not logged in to Wikipedia. In all cases throughout this table, changes are immediately visible to readers who are logged in.
+
+and that notion of "going live" is explicitly invoked in the table's L2 entries. Clearly there's something wrong somewhere -- one place says unreviewed changes to L2 articles are visible to all logged-on readers, the other says they're visible only to admins.
+There's also an internal contradiction in the phrase not visible to readers who are not administrator, until the edits are approved by a reviewer or administrator, since it implies that a reviewer who isn't an admin can't even see the changes -- how can a reviewer review what he's not allowed to see? EEng 16:34, 7 January 2017 (UTC)
+
+I've adjusted the wording - there's no fundamental difference in terms of visibility between the two levels. -- zzuuzz (talk) 18:22, 7 January 2017 (UTC)
+
+Thanks. I'm guessing the "not administrator" wording goes back to before there was such a thing as Pending Changes Reviewer. EEng 05:42, 8 January 2017 (UTC)
+
+It goes back to an addition from a not-very-experienced user.[3] I'm a bit bothered by the current wording as I think the default settings have changed, so logged-in users don't see the latest revision by default. All users can still see whether and which revisions are pending. -- zzuuzz (talk) 05:49, 8 January 2017 (UTC)
+
+Well, I've got a degree in computer science from a reasonably high-quality institution of higher education, and whenever I run into a page with one of these "pending"-type protections I have no idea what I'm looking at or which way is up, what with the Currently Accepted Version and blue tinting and whatnot. So if we could be sure this is all correct that'd be right grand. EEng 06:02, 8 January 2017 (UTC)
+
+
+
+
+
+
+
+ECP in practice[edit]
+I probably should have linked this here earlier (apologies), but there is this: Wikipedia talk:Requests for page protection#ECP in practice. Regards, Samsara (talk) 20:54, 18 January 2017 (UTC)
+TYPO or incorrect "logic" or ... maybe [?] 2 "policy" pages really disagree? with each other ... ?[edit]
+At https://en.wikipedia.org/wiki/Wikipedia:User_access_levels#Extendedconfirmed it says (skipping the 3rd sentence [of 4 sentences]) [quote]:
+
+The 'extendedconfirmed' user access level is automatically granted to registered editors who make an edit after having 30 days tenure and at least 500 edits. This user access right allows editors to edit pages with extended confirmed protection. [...] See Special:ListUsers/extendedconfirmed for a list of the 31965 extended confirmed users.
+
+OK, for those of you who know Boolean logic, that means that the registered editors who are NOT granted the 'extendedconfirmed' user access level, are the ones who
+
+(a) have less than 30 days tenure, OR (b) have made less than 500 edits.
+
+(right? "OR", not "AND"...!).
+For the TL;DR version (Warning!: might be "TMI" for the faint of heart!) [feel free to] "see also" De_Morgan's_laws.
+That seems to me, to be different from what it says at Wikipedia:Protection_policy#Extended_confirmed_protection. There it says (at the end of the first sentence),
+
+"[...] any registered user with less than 30 days' tenure and fewer than 500 edits."
+
+(see? "and", not "or"; ... while, IMHO, it should be "or"!).
+IMHO, either these two pages are disagreeing with each other (that would not be my guess for "most likely") OR ... one of them is wrong.
+I think the second one ("mentioned" above) is wrong.
+I think the second one should say,
+
+"[...] any registered user with less than 30 days' tenure OR fewer than 500 edits."
+
+(Well, maybe without the bold font and the capital letters, for the word "OR"... I just did that in order to to highlight -- for your convenience! -- the one and only word, there, that (IMHO) might be the one to change.)
+I would have just gone ahead [boldly] and made that edit (my UserID is shown on this [small part of, the big entire] list of 'extendedconfirmed' users); but ... I thought it might be better to check here, first. (right?)
+Any comments?
+PS: If there are no comments after a few days, then does that mean that I should go ahead with my proposed "edit"? (Any advice would be appreciated.)
+Thank you. --Mike Schwartz (talk) 04:18, 21 January 2017 (UTC)
+
+@Mike Schwartz: The "and" on WP:UAL is correct (30 days and 500 edits), and the "and" in the WP:PP should be "or" (less than 30 days or fewer than 500 edits). — JJMC89 (T·C) 05:10, 21 January 2017 (UTC)
+
+Done. Thanks, M.S. EEng 07:57, 21 January 2017 (UTC)
+
+
+
+
+
+
+
+
+Wonderful! Thanks to the first reply-er, who answered my question; and thanks to the second reply-er, who saved me some time by doing THIS edit ["for" me] ... and replied here. Now this matter is all
+ Resolved: "Case closed."
+
+
+
+
+
+
+
+
+
+
+
+--Mike Schwartz (talk) 13:27, 22 January 2017 (UTC)
+
+
+
+
+
+Removal of Pending Changes 2?[edit]
+I noticed that the view protection page shows that PC2 should not be used, so should that level be removed instead? W33dscoper (talk) 23:58, 24 January 2017 (UTC)
+
+@W33dscoper: see: Wikipedia:Village_pump_(proposals)#Make_PC2_no_longer_available_to_admins. — xaosflux Talk 00:10, 25 January 2017 (UTC)
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia_talk:Protection_policy&oldid=764387141"					
+ 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+New section
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+ This page was last modified on 8 February 2017, at 17:24.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.132","walltime":"0.425","ppvisitednodes":{"value":947,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22030,"limit":2097152},"templateargumentsize":{"value":4216,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  110.171      1 -total"," 38.43%   42.339      2 Template:Mbox"," 36.69%   40.417      1 Template:Skip_to_talk"," 21.29%   23.452      1 Template:Talk_header","  8.09%    8.916      1 Template:Pagetype","  7.35%    8.099      1 Template:Shortcut","  7.17%    7.900      1 Template:Archive_box","  6.53%    7.189      3 Template:Re","  5.62%    6.189      1 Template:Archives","  5.10%    5.618      1 Template:Not_editprotected"]},"scribunto":{"limitreport-timeusage":{"value":"0.029","limit":"10.000"},"limitreport-memusage":{"value":1679640,"limit":52428800}},"cachereport":{"origin":"mw1278","timestamp":"20170208172429","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":60,"wgHostname":"mw1179"});});

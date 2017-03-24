@@ -1,0 +1,220 @@
+ 
+
+
+
+
+
+
+Wikisource:Protection policy
+
+From Wikisource
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This page documents an official policy on Wikisource. It has wide acceptance among editors and is considered a standard that everyone should follow. Except for minor edits, please make use of the discussion page to propose changes to this policy.
+
+
+
+
+← Policies and guidelines
+Protection Policy
+
+
+
+
+
+
+
+
+
+Shortcut:
+WS:PP
+
+
+
+This page codifies cases where administrators can lock a page from editing (protect).
+
+
+Page protection disallows any form of editing from either new users (semi-protection), or from all but administrators (protection or full protection). Page protection is most often used to preserve the integrity of a work once it has been completely proofread and uploaded (see also Text integrity), but also serves a number of other purposes.
+
+
+
+Contents
+
+
+1 Criteria for protection
+
+1.1 Preservation of integrity and featured texts
+1.2 Malicious edits
+1.3 Edit wars
+1.4 Popular copyright violations
+1.5 Special cases
+
+
+2 Pages which should not be protected
+
+2.1 Talk pages
+2.2 Wikisource namespace
+
+
+
+
+
+Criteria for protection[edit]
+Preservation of integrity and featured texts[edit]
+The vast majority of documents hosted by Wikisource are not meant to evolve or be edited, since Wikisource collects material that has been published in the past. Wikisource hosts these published documents without corrections (including any typographical errors or historical inaccuracies). Once a page has been fully proofread, no further changes are necessary and the page should be protected.
+These pages should contain the template {{locked}}.
+Texts which have been selected as Featured texts are considered fully proofread and should be protected accordingly. However, an additional reason to protect derives from their prominent display on the main page. New editors may decide in good faith to correct a mistake that is present in the original work, being unaware of that fact. Alternately, a malicious user may take the opportunity to edit a heavily viewed page in an undesireable manner. Protection resolves these additional problems as well.
+These pages should contain the template {{featured}}, but not {{locked}}.
+Malicious edits[edit]
+By its nature Wikisource is open to undesirable edits, but most are corrected by other editors within a very short time. When certain pages are repeatedly edited maliciously, it may be less effort to simply lock them temporarily while an administrator deals with the malicious user.
+Edit wars[edit]
+In certain circumstances, several editors may continually revert each other or edit conflictingly in good faith. This may happen because of a difference in opinion over the text of a work (where this is not clear), over the appropriate formatting to use, or for a variety of other reasons. This is termed an edit war, and has a highly negative effect on community and collaboration. Should one occur on a page, it should be protected until the users resolve their dispute through discussion.
+Popular copyright violations[edit]
+Pages which are deleted as known copyright violations may sometimes be repeatedly re-added in good faith because users are not aware of its copyright status. These should be deleted to remove the copyright material from the history, recreated with {{deletedpage}}, and protected.
+Special cases[edit]
+
+The main page should always be protected, because it is by far the most heavily viewed page on the project and provides the first impression to new users. Any visible changes to the main page should be discussed on its talk page.
+System messages: All pages in the MediaWiki namespace are protected from all but administrators by the software. These pages are deeply integrated into user interface, and much confusion would result from careless or malicious editing.
+Discussion archives: All archives of old discussion should be protected from edit. Such discussions are no longer active and so do not need to be edited. This is to preserve the integrity of the discussion and give a reliable reference for the community. This includes but is not limited to: (1) Scriptorium archives; (2) Main Page talk archives; (3) Copyvio archives; (4) User talk archives. However, this does not include archive index pages, which do not contain discussions, and need to be edited periodically to link newly created archives.
+High use templates: templates that are highly used, complex or highly visible will be protected. Where this is the case, the {{documentation}} will be available to update instructions and for interwiki links.
+
+Pages which should not be protected[edit]
+Talk pages[edit]
+Talk pages should not be protected except in the most extreme cases. These are the only way to communicate about or propose changes to its accompanying article. Should an error be noticed in a text that has been protected, a notice should be posted here.
+User talk pages should almost never be protected as well, especially if they are blocked. In the latter case, this page is their single method of communication with the community. These should only be protected in cases where the user is editing them with blatant malice or bad faith.
+Wikisource namespace[edit]
+All pages in the Wikisource namespace should be unprotected. These should always be open to collaboration and improvement, and many exist specifically to be edited by all users (such as the community discussion page or Proposed deletions).
+
+
+
+ 
+						Retrieved from "https://en.wikisource.org/w/index.php?title=Wikisource:Protection_policy&oldid=6031475"					
+Category: Wikisource policies 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main PageCommunity portalCentral discussionRecent changesSubject indexAuthorsRandom workRandom authorRandom transcriptionHelpDonate 
+
+
+
+
+
+
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Download/print
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikidataWikinewsWikipediaWikiquoteWikiversityWikivoyage 
+
+
+
+In other languages
+
+
+العربيةCatalàČeštinaDanskEspañolفارسیFrançaisעבריתMagyarItaliano日本語한국어PolskiPortuguêsTiếng Việt中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 28 December 2015, at 10:32.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+
+
+Privacy policy
+About Wikisource
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.028","walltime":"0.035","ppvisitednodes":{"value":122,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":2466,"limit":2097152},"templateargumentsize":{"value":241,"limit":2097152},"expansiondepth":{"value":5,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    8.099      1 -total"," 50.19%    4.065      1 Template:Process_header"," 18.03%    1.460      1 Template:Policy"," 17.14%    1.388      1 Template:Tl"," 15.04%    1.218      1 Template:Shortcut"]},"cachereport":{"origin":"mw1167","timestamp":"20170202025350","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":52,"wgHostname":"mw1254"});});

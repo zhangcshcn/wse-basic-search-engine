@@ -1,0 +1,257 @@
+ 
+
+
+
+document.write("\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca href=\"#\"\u003ELuk\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"da\" dir=\"ltr\"\u003E\u003Cp\u003E\u003Ca href=\"/wiki/Wikipedia:Fokus%C3%A5r\" title=\"Wikipedia:Fokusår\"\u003ENytårsforsætter for dansk Wikipedia\u003C/a\u003E\u003Cbr/\u003EI februar har vi \u003Ca href=\"/wiki/Wikipedia:Fokusm%C3%A5ned/Februar_2017\" title=\"Wikipedia:Fokusmåned/Februar 2017\"\u003Efokus\u003C/a\u003E på \u003Ca href=\"/wiki/Kategori:Den_danske_guldalder\" title=\"Kategori:Den danske guldalder\"\u003EDen danske guldalder\u003C/a\u003E.\u003Cbr/\u003E\n9. februar: \u003Ca href=\"/wiki/Wikipedia:WikiOnsdag/Aarhus/2017#Februar\" title=\"Wikipedia:WikiOnsdag/Aarhus/2017\"\u003EWikiOnsdag i Aarhus på en torsdag\u003C/a\u003E\u003Cbr/\u003E\n\u003Ci\u003E\u003Csmall\u003E(\u003Ca href=\"/wiki/Hj%C3%A6lp:Sitenotice\" title=\"Hjælp:Sitenotice\"\u003ELæs her om sitenotice\u003C/a\u003E)\u003C/small\u003E\u003C/i\u003E\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E");
+
+
+Hjælp:Beskyttelser
+
+Fra Wikipedia, den frie encyklopædi
+
+
+					Gå til:					navigation, 					søg
+
+
+
+
+Denne side er en hjælpeside på den danske Wikipedia.
+Siden indeholder basal eller avanceret information om dansk Wikipedia og eventuelt teknisk vejledning. Se oversigten over alle hjælpesider under Hjælp.
+
+
+
+
+
+
+
+
+
+
+
+
+Du kan på nogle sider støde ind på disse ikoner, der vises til højre for sidetitlen. En sølvlås symboliserer en semibeskyttelse, en guldlås symboliserer en fuld skrivebeskyttelse, og en rød lås symboliserer en fuld skrivebeskyttelse af en skabelon.
+
+
+
+Wikipedias administratorer kan beskytte sider, så de kun kan redigeres af bestemte grupper af brugere. Denne funktion skal udelukkende benyttes under særlige omstændigheder, da skrivebeskyttede sider generelt anses som skadelige.
+Wikipedia er en fri og åben encyklopædi, hvorfor alle kan bidrage til langt de fleste sider. Du er formentlig kommet hertil på grund af en henvisning på en beskyttet side som p.t. ikke kan redigeres, eller et beskyttet billede som p.t. ikke kan overskrives. Vi beklager ulejligheden det måtte medføre – vi gør os umage med kun at beskytte sider når det er absolut nødvendigt, samt at ophæve beskyttelsen så hurtigt som muligt. En beskyttelse kan være nødvendig, hvis siden f.eks. ofte er blevet udsat for hærværk. Da hærværk ikke er den eneste begrundelse, kan man ved hjælp af historikken, beskyttelsesloggen eller diskussionssiden finde en uddybende begrundelse.
+Der skelnes mellem skrivebeskyttelse og semibeskyttelse. Skrivebeskyttede sider kan kun redigeres af administratorer, men det henstilles at de kun foretager det mest nødvendige. Semibeskyttede sider kan redigeres af registrerede brugere, der har haft konto i mindst 4 dage og foretaget mindst 10 redigeringer. Brugere der lige er blevet registrerede eller ikke er registrede kan derimod ikke redigere hverken skrive- eller semibeskyttede sider.
+Nogle ganske få sider er permanent beskyttet, nemlig dem i MediaWiki-navnerummet, der leverer tekster til brugergrænsefladen, samt sider til systemadministration og ophavsret/licens. Derudover er et mindre antal stærkt udsatte artikler semibeskyttet på ubestemt tid. I de øvrige tilfælde kan du redigere siden, når beskyttelsen om forhåbentlig nogle få dage bliver ophævet. I mellemtiden kan du på den pågældende artikels diskussionsside diskutere de ændringer, du ønsker at foretage.
+Hvis du er en ny bruger af Wikipedia, ønskes du velkommen! Ønsker du at eksperimentere med at redigere Wikipedia, kan du prøve Wikipedias sandkasse.
+
+
+
+Indholdsfortegnelse
+
+
+1 Typer af beskyttelser
+
+1.1 Skrivebeskyttelser uden tidsbegrænsning
+1.2 Skrivebeskyttelser med tidsbegrænsning
+1.3 Semibeskyttelser
+1.4 Flytningsbeskyttelser
+1.5 Forhindre oprettelse
+1.6 Nedarvende skrivebeskyttelser
+1.7 Beskyttelse af brugersider
+1.8 Beskyttelse af skabeloner
+1.9 MediaWiki-navnerummet
+
+
+2 Retningslinjer for administratorer
+3 Kategorier til beskyttede sider
+4 Liste over beskyttede sider
+5 Skrivebeskyttelseslog
+
+
+
+Typer af beskyttelser
+Skrivebeskyttelser uden tidsbegrænsning
+Skrivebeskyttelser uden tidsbegrænsning anvendes for at beskytte sider, som er meget synlige udadtil. Forsiden er et eksempel på en sådan skrivebeskyttet side.
+Skrivebeskyttelser med tidsbegrænsning
+Midlertidig beskyttelse af sider benyttes til:
+
+Artikler udsat for redigeringskrig. Skrivebeskyttelsen skal benyttes til at tvinge de involverede brugere til at diskutere på diskussionssiden i stedet for hele tiden at gendanne og fjerne hinandens redigeringer.
+Skrivebeskyttelse af en side som for nyligt er blevet mål for kraftigt hærværk.
+At lette fejlsøgning i softwaren (MediaWiki).
+
+Administratorer bør undlade at redigere sider, mens de er midlertidigt beskyttede. De bør ikke fortsætte med at redigere indholdet, mens almindelige brugere med andre hensigter ikke har mulighed for dette. Der findes derimod visse tilfælde, hvor administratorer ved behov kan redigere en sådan side:
+
+Tilføjelse af vedligeholdelsesskabeloner som f.eks. {{POV}}, {{Eftersyn}} eller lignende.
+Gendannelse til en ældre, stabil version af siden fra før redigeringskrigen begyndte.
+
+Sider som har høj profil, f.eks. fordi der henvises til dem fra forsiden, bliver ofte udsat for hærværk. For ikke at bryde mod princippet om at alle skal kunne redigere på Wikipedia, bør man i sådanne tilfælde være tilbageholdende med skrivebeskyttelse. Alternative løsninger kan f.eks. være at tilføje artiklen til sin egen overvågningsliste, og selv gendanne siden efter ukonstruktive redigeringer.
+Diskussionssider beskyttes ikke undtagen i ekstreme undtagelsestilfælde. Det gælder både artiklers og brugeres diskussionssider. Hvis brugere ikke opfører sig ordentligt på diskussionssider, eksempelvis ved ihærdigt at diskutere på destruktiv vis, er det grund til blokering af brugeren (for anonyme brugere rækker en semibeskyttelse).
+Semibeskyttelser
+Sider kan semibeskyttes, hvilket indebærer at udelukkende registrerede brugere som har haft konto i mindst 4 dage og foretaget mindst 10 redigeringer, såkaldte bekræftede brugere, kan redigere dem. Også denne funktion bør benyttes med forsigtighed, f.eks. på sider som ofte udsættes for hærværk fra forskellige brugere, eller af brugere som opretter nye konti når de gamle bliver blokeret. Semibeskyttelser bør være tidsbegrænsede (undtagen for stærkt udsatte sider og visse sider relaterede til forsiden). Ved langvarigt og vedholdende hærværk kan varigheden ofte være relativt lang.
+Visse stærkt udsatte sider er semibeskyttede på ubestemt tid, da de reelt fungerer som magneter på hærværk og subjektive redigeringer, uanset hvor længe de er beskyttede. Artikler om kendte politikere, mediestjerner og visse sportsklubber er typiske eksempler på dette. Men også visse interne sider der ofte henvises til kan det være aktuelt at semibeskytte på ubestemt tid. Nærværende hjælpeside har f.eks. været semibeskyttet siden 1. november 2010, fordi den er særligt udsat for hærværk.
+Ved aktuelle begivenheder kan relaterede artikler semibeskyttes for at forebygge fejlagtige redigeringer. Erfaringsmæssigt er der af og til folk, der begynder at redigere, straks pressen begynder at fortælle om det uden hensyn til, at der kan gå både timer og dage, før fakta foreligger, og at der kan ske mange ændringer inden da.
+En semibeskyttelse udelukker ikke den som vil lave seriøse ændringer i artiklen fra at gøre dette, men forsinker det blot med 4 dage og 10 redigeringer, den tid det tager for en nyoprettet konto at blive bekræftet. Brugerne behøver derfor ikke at tage særskilt hensyn, hvad gælder redigering af semibeskyttede sider.
+Semibeskyttelsen udelukker heller ikke botter.
+Flytningsbeskyttelser
+En flytningsbeskyttelse forhindrer flytning af siden. Flytningsbeskyttelsen træder altid i kraft samtidig med semi- eller skrivebeskyttelsen. En flytningsbeskyttelse kan teknisk set godt udføres uden en redigeringsbeskyttelse, men dette foretages ekstremt sjældent.
+Forhindre oprettelse
+Nonsenssider eller andre sider som der er opnået konsensus om at slette, som gentagne gange slettes men derefter genoprettes, kan forhindres i at oprettes af Wikipedias administratorer. Dette bør gøres tidsbegrænset, således at siden ikke "går i glemslen" i låst, uoprettet tilstand. En liste over hvilke titler, det drejer sig om, findes på Speciel:Beskyttede titler.
+Nedarvende skrivebeskyttelser
+Skabeloner som indsættes på en skrivebeskyttet side bliver ikke selv automatisk skrivebeskyttede. Dette gør at også almindelige brugere kan redigere f.eks. den skrivebeskyttede forside − det meste af indholdet ligger i skabeloner, som blot er semibeskyttede.
+For også at beskytte inkluderede skabeloner og sider kan man tilvælge nedarvende skrivebeskyttelse. Dette indebærer, at alle skabeloner samt filer som benyttes på siden automatisk skrivebeskyttes så kun administratorer kan redigere dem. Det er ikke muligt at semibeskytte med tilvalg af nedarvende skrivebeskyttelse. Den nedarvende skrivebeskyttelse "overlapper" enhver anden skrivebeskyttelse af de pågældende sider − også en semibeskyttet skabelon bliver låst for alle undtagen administratorer, hvis den indsættes på en side med nedarvende skrivebeskyttelse.
+Visse sprogversioner benytter nedarvende skrivebeskyttelse af blandt andet forsiden, men ikke dansk Wikipedia − og når dette skrives (december 2015), findes der heller ingen andre sider med nedarvende skrivebeskyttelse på dansk Wikipedia. Hvis nogen føler sig nødsaget til at benytte nedarvende skrivebeskyttelse af forsiden bør man først diskutere, hvordan redigeringen skal beskyttes.
+Tidligere blev den nedarvende skrivebeskyttelse også benyttet til at forhindre genoprettelse af visse sider.
+Beskyttelse af brugersider
+Brugersider er sider tilknyttet de enkelte brugere. De er ikke brugernes ejendom, men så længe de i øvrigt overholder de relevante normer, bedes andre i almindelighed om at lade være med at redigere dem. For langt de fleste brugeres vedkommende er der da heller ikke problemer i et omfang, der vil give anledning til beskyttelse. Noget der i øvrigt også primært vil være til besvær for almindelige brugere, da det vil kræve at en administrator låser siden op, hver gang den ønskes redigeret. Enkelte brugere, herunder især administratorer, kan dog komme ud for at deres brugersider udsættes for gentagne angreb, hvorfor det kan være nødvendigt at beskytte dem som forebyggelse.
+Personlige CSS- og JS-sider, som f.eks. Bruger:Bruger/monobook.css eller Bruger:Bruger/cologneblue.js, kan automatisk kun redigeres af brugeren selv og administratorer, så der er meget sjældent grund til at beskytte sådanne sider.
+Beskyttelse af skabeloner
+Visse skabeloner er skrive- eller semibeskyttet på ubestemt tid. Ikke fordi de har været udsat for hærværk, men fordi de benyttes på adskillige hundrede eller tusinde sider, og fejlagtige redigeringer derfor vil kunne få uoverskuelige konsekvenser. Skabelonkodning er ikke nogen simpel sag, og jo mere brugt en skabelon er, desto større bliver også konsekvenserne af ikke bare hærværk men også fejl, eksperimenter og uvarslede indgreb. Det er derfor nødt til at begrænses hvem der kan redigere dem, så der er en vis sikkerhed for, at dem der redigerer dem ved hvad de laver.
+Hvis du vil have ændret noget i en beskyttet skabelon, så skriv en besked på enten skabelonens diskussionsside eller anmod om administratorassistance.
+MediaWiki-navnerummet
+I MediaWiki-navnerummet ligger alle de tekster, som benyttes til brugergrænsefladen. Disse sider er automatisk beskyttet så kun administratorer kan redigere dem, fordi nogle tekster kan ændres så hele systemet bryder sammen. Det er teknisk set desværre ikke muligt for administratorerne at frigive enkelte sider til redigering.
+Retningslinjer for administratorer
+Som administrator skal man undlade at redigere sider, som er midlertidigt skrivebeskyttede. Administratorrettighederne skal ikke benyttes som et middel til at styre sidens indhold på, når almindelige brugere ikke kan. Hvad gælder permanent skrivebeskyttede sider bør man tænke på at almindelige brugere, som ikke selv kan redigere siden, også skal have indflydelse på sidens indhold og udformning.
+Når man skrivebeskytter en side af anden grund end midlertidig beskyttelse mod hærværk, bør man altid begrunde det på diskussionssiden. På denne måde viser man, at man har sat sig ind i situationen først. Generelt set bliver mindst en af parterne i konflikten irriterede på den administrator som har skrivebeskyttet siden, f.eks. fordi denne har skrivebeskyttet en forkert version. Derfor er den, som griber ind ved at skrivebeskytte siden, som oftest ikke den mest kloge af parterne, men det er godt at forsøge at finde en anden som kan gøre det.
+De eneste redigeringer som er gode på en skrivebeskyttet side er at fjerne forkerte oplysninger fra biografier om levende personer, samt tilføje noter om at siden er midlertidigt skrivebeskyttet og/eller at dens indhold er omstridt. Ukontroversielt vedligeholdelsesarbejde kan gøres i en del tilfælde, men bør ofte undgås.
+Sider som beskyttes bør altid forsynes med skabelonen {{Skrivebeskyttet}} eller {{Semibeskyttet}} øverst. Når man indsætter en skabelon på en beskyttet side er det ekstra vigtigt at skrive det i beskrivelsesfeltet, så det tydeligt fremgår af versionshistorikken, hvad redigeringen gør. Bemærk i øvrigt at indsættelse af en af skabelonerne ikke i sig selv beskytter en side.
+Den som skrivebeskytter en side midlertidigt, bør altid undgå at bedømme hvilken version af siden som er bedst for herefter at skrivebeskytte denne; den eneste undtagelse er sider, som beskyttes på grund af tilbagevendende hærværk. Hvis en side beskyttes på grund af redigeringskrig og denne har et tydeligt startpunkt, kan administratoren vælge at skrivebeskytte versionen før redigeringskrigen startede.
+Administratorer bør sørge for at trække en klar adskillelse mellem deres rettigheder som administrator, og deres rettigheder som bruger. Administratorrettighederne skal benyttes til at kunne udnytte wikiteknologien i sin helhed, og det er godt hvis man i det mindste kan være sikker på, at det kun er det man benytter administratorværktøjerne til. Derfor bør man ikke skrivebeskytte en artikel, hvis man allerede er indblandet i sagen. Det gælder også hvis man blot har foretaget mindre ændringer, diskuteret på diskussionssiden eller med en af de parter som indgår i konflikten. Det væsentlige er, hvorvidt nogen af de involverede kan opfatte administratoren som en part i konflikten. Hvis man er i tvivl, kan det være godt at spørge en anden administrator om denne vil låse siden eller tage sagen op på Wikipedia:Anmodning om administratorassistance.
+Eftersom en side ikke bør efterlades skrivebeskyttet i længere tid, kan man med fordel sætte en udløbsdato på skrivebeskyttelsen. Dels risikerer man ikke at beskyttelsen "går i glemslen", og de stridende parter kan også opfatte det som mere behageligt at beskyttelsen på et tidspunkt udløber af sig selv, frem for at man skal huske en administrator på det.
+I lighed med øvrige administratorværktøjer kan en anden administrator altid fjerne en beskyttelse igen, hvis denne bedømmer at der ikke er konsensus om beskyttelsen.
+Kategorier til beskyttede sider
+Sider som skrivebeskyttes kan mærkes med skabelonen {{skrivebeskyttet}} og tilføjes så automatisk til Kategori:Skrivebeskyttede sider. På tilsvarende vis kan semibeskyttede sider mærkes med skabelonen {{semibeskyttet}} og tilføjes så automatisk til Kategori:Semibeskyttede sider.
+Liste over beskyttede sider
+Alle semi- og skrivebeskyttede sider listes automatisk på Speciel:Beskyttede sider.
+Skrivebeskyttelseslog
+Hvornår en semi- eller skrivebeskyttelse er blevet tilføjet eller fjernet kan ses i skrivebeskyttelsesloggen. Skrivebeskyttelsesloggen for en konkret side kan findes dels ved søgning i den komplette log, samt ved "Vis loglister for denne side" som findes når man klikker på historikfanen.
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.log.warn("Gadget \"ReferenceTooltips\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");}); 
+						Hentet fra "https://da.wikipedia.org/w/index.php?title=Hjælp:Beskyttelser&oldid=8394428"					
+Kategori: Hjælp på Wikipedia 
+
+
+
+Navigationsmenu
+
+
+Personlige værktøjer
+
+Ikke logget påDiskussionBidragOpret kontoLog på 
+
+
+
+Navnerum
+
+Hjælp
+Diskussion
+
+
+
+
+Varianter
+
+
+
+
+
+
+
+
+
+Visninger
+
+Læs
+Vis kilden
+Se historik
+
+
+
+Mere
+
+
+
+
+
+
+
+Søg
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+ForsideKategorierFremhævet indholdTilfældig sideTilfældige artiklerAktuelt 
+
+
+
+Deltagelse
+
+
+VelkommenSkribentforsideLandsbybrøndenProjekterPortalerØnskede artiklerOprydningKalenderSeneste ændringerHjælp 
+
+
+
+Værktøjer
+
+
+Hvad henviser hertilRelaterede ændringerLæg en fil opSpecialsiderPermanent linkOplysninger om sidenWikidata-emne 
+
+
+
+Organisation
+
+
+DonationKontakt WikipediaWikimedia DanmarkGLAM 
+
+
+
+Udskriv/eksportér
+
+
+Lav en bogDownload som PDFUdskriftsvenlig udgave 
+
+
+
+I andre projekter
+
+
+Wikimedia CommonsWikidataWikiquoteWikisource 
+
+
+
+Andre sprog
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىঅসমীয়াবাংলাCatalàCebuanoČeštinaCymraegDeutschދިވެހިބަސްΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+Redigér links 
+
+
+
+
+
+ Denne side blev senest ændret den 28. december 2015 kl. 11:17.
+Tekst er tilgængelig under Creative Commons Navngivelse/Del på samme vilkår 3.0; yderligere betingelser kan være gældende. Se brugsbetingelserne for flere oplysninger.
+
+
+Behandling af personlige oplysninger
+Om Wikipedia
+Forbehold
+Udviklere
+Cookie statement
+Mobilvisning
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.036","walltime":"0.043","ppvisitednodes":{"value":421,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":2139,"limit":2097152},"templateargumentsize":{"value":590,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   11.167      1 -total"," 49.12%    5.485      1 Skabelon:Hjælpeside"," 44.10%    4.925      6 Skabelon:Vis"," 31.05%    3.467      1 Skabelon:Hønsedesign"]},"cachereport":{"origin":"mw1161","timestamp":"20170202025346","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":62,"wgHostname":"mw1175"});});

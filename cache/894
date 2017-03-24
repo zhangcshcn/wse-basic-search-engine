@@ -1,0 +1,1366 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Editnotice
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This page is a how-to guide, detailing processes or procedures of some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines, and is therefore an essay.
+
+
+Shortcuts:
+
+WP:EDN
+WP:EDNO
+
+
+
+
+
+
+
+
+Many editnotices use {{REVISIONUSER}}. It used to show the name of the user viewing the page. This was always considered a bug and has been fixed. It should now show only the name of the last user to edit the page, but instead it shows nothing. See bug 19006http://bugzilla.wikimedia.org/show_bug.cgi?id=19006 and bug 31398http://bugzilla.wikimedia.org/show_bug.cgi?id=31398.
+
+
+Editnotices are message boxes shown before the edit window when a user edits a page. All users can create editnotices for their user and talk pages, but editnotices for other namespaces can be created and edited only by administrators and template editors.
+To use editnotices, you should have a basic understanding of the concept of Wikipedia namespaces; that is a set of Wikipedia pages whose names begin with a prefix recognized by the MediaWiki software, followed by a colon, or, in the case of the main namespace, with no prefix.
+Some of the message boxes you see when editing a page (or viewing the source of a protected page) are not editnotices; instead, they are MediaWiki interface messages.
+
+
+
+Contents
+
+
+1 Editnotice links
+2 Editnotices
+
+2.1 User and user talk
+2.2 Other namespaces
+2.3 Creating editnotices
+2.4 How to request an editnotice if you are not an administrator or template editor
+2.5 Batch of identical editnotices
+
+
+3 When displayed
+4 Hiding the red links
+5 Notices
+6 Listing editnotices
+7 Technical details
+8 Edit intros
+9 Emailnotice
+10 Protection notices
+11 History
+12 Alternatives
+13 Related templates
+
+
+
+Editnotice links
+When a page is edited, red or blue links are often displayed at the top right of the page looking like this:
+Page notice
+
+or like this:
+Group notice   Page notice
+
+They are links to the group and page editnotices of the page. Users with administrator or template editor permissions always see both links, even if the notices have not yet been created, since they can create and edit the editnotices. Other users only see the red "Page notice" link on their own user and user talk basepage, since they can create and edit such notices. They also see blue links to group and page notices if they already have been created, so they can find and view the source of the notice. But they still can't edit those notices, except the ones in userspace.
+See also the section § Hiding the red links below.
+Editnotices
+When creating editnotices, the template {{editnotice}} can be used for formatting; see its template page for how to use it. See Category:Editnotice templates for specialized editnotices.
+User and user talk
+When editing a new user page, {{base userpage editnotice}} will show.
+Insert as an edit notice for a user page as {{Editnotice userpage}}.
+For example:
+
+
+
+
+Editing
+Hello. You're editing the userpage of ExampleUser. Please make your edits friendly, as this is a userpage and is only supposed to be edited by the user!
+
+
+This appears on top of the editing box screen when people would like to edit your page. The ExampleUser part will automatically change to your username.
+Anyone can create an editnotice for a user or user talk page. (But editnotices for user sub-pages can only be created by admins and template editors.) User page editnotice names take one of these forms:
+
+User:Example/Editnotice
+User talk:Example/Editnotice
+
+You can create an editnotice for your own user or talk page with a preloaded {{editnotice}} template by using these links:
+
+Create your user page notice
+Create your user talk page notice
+
+Other namespaces
+Editnotices for other namespaces and for user subpages can be created and edited only by admins and template editors. There are three main types of editnotices:
+
+Namespace notices – Displays on all pages within a namespace.
+Group notices – Displays on a page and all its subpages.
+Page notices – Displays only on the page it belongs to.
+
+Editnotice names take one of these forms:
+
+Namespace notices – See below.
+Group notices – Template:Editnotices/Group/<Full page name of the rootpage>
+Page notices – Template:Editnotices/Page/<Full page name>
+
+Creating editnotices
+To edit a namespace-wide editnotice, click on the corresponding link below. To create an editnotice for a page, enter the page name and click "Create". For your own User: and User talk: pages, you don't need to type anything, just click "Create".
+Page names are case sensitive—if the page shows the first character as capitalized, then it must be capitalized when entered here.
+
+
+Number
+Namespace
+Namespace editnotice
+Create page editnotice
+
+
+-1
+Special:EmailUser
+MediaWiki:Emailpagetext
+
+
+
+
+
+
+
+
+
+0
+Main: (article)
+Template:Editnotices/Namespace/Main
+
+
+
+
+
+
+
+
+
+1
+Talk: (article talk)
+Template:Editnotices/Namespace/Talk
+
+
+
+
+
+
+
+
+
+2
+User:
+Template:Editnotices/Namespace/User
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+User talk:
+Template:Editnotices/Namespace/User talk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+Wikipedia:
+Template:Editnotices/Namespace/Wikipedia
+
+
+
+
+
+
+
+
+
+5
+Wikipedia talk:
+Template:Editnotices/Namespace/Wikipedia talk
+
+
+
+
+
+
+
+
+
+6
+File:
+Template:Editnotices/Namespace/File
+
+
+
+
+
+
+
+
+
+7
+File talk:
+Template:Editnotices/Namespace/File talk
+
+
+
+
+
+
+
+
+
+8
+MediaWiki:
+Template:Editnotices/Namespace/MediaWiki
+
+
+
+
+
+
+
+
+
+9
+MediaWiki talk:
+Template:Editnotices/Namespace/MediaWiki talk
+
+
+
+
+
+
+
+
+
+10
+Template:
+Template:Editnotices/Namespace/Template
+
+
+
+
+
+
+
+
+
+11
+Template talk:
+Template:Editnotices/Namespace/Template talk
+
+
+
+
+
+
+
+
+
+12
+Help:
+Template:Editnotices/Namespace/Help
+
+
+
+
+
+
+
+
+
+13
+Help talk:
+Template:Editnotices/Namespace/Help talk
+
+
+
+
+
+
+
+
+
+14
+Category:
+Template:Editnotices/Namespace/Category
+
+
+
+
+
+
+
+
+
+15
+Category talk:
+Template:Editnotices/Namespace/Category talk
+
+
+
+
+
+
+
+
+
+100
+Portal:
+Template:Editnotices/Namespace/Portal
+
+
+
+
+
+
+
+
+
+101
+Portal talk:
+Template:Editnotices/Namespace/Portal talk
+
+
+
+
+
+
+
+
+
+108
+Book:
+Template:Editnotices/Namespace/Book
+
+
+
+
+
+
+
+
+
+109
+Book talk:
+Template:Editnotices/Namespace/Book talk
+
+
+
+
+
+
+
+
+
+118
+Draft:
+Template:Editnotices/Namespace/Draft
+
+
+
+
+
+
+
+
+
+119
+Draft talk:
+Template:Editnotices/Namespace/Draft talk
+
+
+
+
+
+
+
+
+
+710
+TimedText:
+Template:Editnotices/Namespace/TimedText
+
+
+
+
+
+
+
+
+
+711
+TimedText talk:
+Template:Editnotices/Namespace/TimedText talk
+
+
+
+
+
+
+
+
+
+828
+Module:
+Template:Editnotices/Namespace/Module
+
+
+
+
+
+
+
+
+
+829
+Module talk:
+Template:Editnotices/Namespace/Module talk
+
+
+
+
+
+
+
+
+
+How to request an editnotice if you are not an administrator or template editor
+To request the creation of an editnotice if you are not an admin or a template editor:
+
+Open the edit window of the page on which you want the editnotice.
+Place this code on the page: [[{{editnotice talkpagename}}]]
+Preview the page, and without saving, follow the link you see. Your browser may ask if you wish to continue and lose the changes you made. You do.
+Open the edit window of the editnotice's talkpage.
+Add the exact markup you want for the editnotice, and below it write a short request for the administrator who deals with the request, and sign it.
+Finally, place this template: {{edit template-protected}} at the top of the page, and when you are satisfied (use preview) that everything is correct, save the page.
+
+Another way to find the link for an editnotice is to:
+
+Open the edit window of the page where you want to create an editnotice.
+Place this code on the page: [[{{editnotice pagename}}]]
+Preview the page and follow the link to the editnotice.
+This takes you to the editnotice's page. The request for creation should be made on the editnotice's talkpage.
+Once at the talkpage, follow the latter steps in the first instructions.
+
+Batch of identical editnotices
+If you need to display a batch of identical editnotices, please create a single template which you then transclude in each editnotice, to allow easier modification and maintenance. You can place such templates in Category:Editnotice templates.
+
+
+
+
+
+
+v
+t
+e
+
+
+Templates for Editnotices
+
+
+
+
+
+
+
+See also Category:Editnotice templates
+
+
+
+
+
+
+Lists
+
+
+
+Of people
+
+Of people by religious belief
+Of people by sexual orientation
+
+
+Of companies and organizations
+Recently pruned
+
+
+
+
+
+
+
+
+Article content type
+
+
+
+Future episodes of TV shows
+New releases
+Pages attracting "Romeo" messages
+Human sexual articles
+Articles with non-sexual nudity
+U.S. election/inauguration date notice
+
+
+
+
+
+
+
+
+Editing restrictions
+
+
+
+0RR
+Israel/Palestine 1RR
+Abortion general sanctions
+Syrian Civil War 1RR
+Global warming discretionary sanctions
+Ayurveda discretionary sanctions
+
+
+
+
+
+
+
+
+Article style
+
+
+
+Date format Mmmm d, yyyy
+Parenthetical referencing
+Use of bullets in tables
+
+
+
+
+
+
+
+
+Article style (variety of English)
+
+
+
+American
+Australian
+British
+British English Oxford spelling
+Canadian
+Hiberno-English
+Indian
+IUPAC spelling
+Malawian
+New Zealand
+Pakistani
+Philippine
+Scottish
+Singapore
+South African
+Trinidadian
+
+
+
+
+
+
+
+
+Page type
+
+
+
+Centralized talkpage
+Userpage
+Talk pages in low visibility namespaces
+Talk pages in Wikipedia talk: namespace
+Wikipedia policies and guidelines
+Talk pages of information pages
+
+
+
+
+
+
+
+
+Other
+
+
+
+Incorrect article creation location
+Copyright issues
+Vandalism issues
+Today's Featured Article
+Communication style for user talk pages
+
+
+
+
+
+
+
+
+
+Template {{Active editnotice}} should be placed on non-user pages that use an editnotice to sort them as pages with editnotices
+
+
+
+
+
+When displayed
+Editnotices are displayed when editing a page, but because their content can also be useful when just viewing a page, they are also displayed in these cases:
+
+Page notices are displayed on top of .css and .js pages in MediaWiki space. See for instance the notice at the top of MediaWiki:Common.css that begins "This is the CSS for all skins". The namespace notice is not displayed and MediaWiki space doesn't have group notices.
+In any namespace, when a non-admin "views the source" of a protected page, or an IP-user views the source of a semi-protected page. The group and page notices are displayed, but not the namespace notices.
+
+When the editnotices are shown in "view mode" the loading system feeds them "notice action = view". This can be used inside the editnotices like this:
+
+{{#ifeq: {{{notice action|}}} | view
+| <!-- A non-admin is "viewing the source" of a protected page -->
+| <!-- A user with sufficient rights is editing the page -->
+}}
+
+Hiding the red links
+If you don't want to see the red "Group notice" and "Page notice" links, then add the below markup to your personal CSS, then wait a minute, then bypass your browser cache.
+
+
+/* Hide the red "Group notice" and "Page notice" links. */
+.editnotice-area .editnotice-redlink {
+  display: none !important;
+}
+
+If you don't want to see any of the "Group notice" and "Page notice links, then use this markup instead:
+
+
+/* Hide all the "Group notice" and "Page notice" links. */
+.editnotice-area .editnotice-link {
+  display: none !important;
+}
+
+Notices
+When an editnotice is used on an article, administrators and template editors are advised to leave a message on the article's talk page for further discussion of the editnotice on the article.
+The template {{active editnotice}} may be used to indicate that a non-user page has an active (non-blank) editnotice. Pages will then be added to Category:Pages with editnotices.
+Listing editnotices
+
+Special:PrefixIndex/MediaWiki:Editnotice – The main MediaWiki namespace notices, and any lingering MediaWiki page notices.
+Special:PrefixIndex/Template:Editnotices – All templates and sub-templates with names beginning with "Template:Editnotices...".
+Special:WhatLinksHere/Template:Editnotice – Pages that use the {{editnotice}} template.
+Category:Pages with editnotices – Pages marked with {{active editnotice}}.
+
+Technical details
+Anything put on the pages MediaWiki:Editnotice-0 through MediaWiki:Editnotice-15 (or Editnotice-100 through Editnotice-109) will appear as an editnotice for every page in an entire namespace. Editnotice-0 is for mainspace pages, Editnotice-1 for the talk space pages, Editnotice-2 for user space pages, etcetera. See WP:Namespace for the meaning of all of the numbers.
+The template {{editnotice load}} has been put on each of those MediaWiki namespace pages. The template causes each article to use a subpage specific to it as its editnotice rather than using a namespace-wide editnotice.
+The editnotice load system uses two methods of storing the editnotices:
+
+For User and User talk space the editnotice is stored as a subpage of the user or talk page named /Editnotice. This method allows users to edit these notices.
+For all other namespaces and for user sub-pages the editnotice is stored as a subpage of Template:Editnotices. Template:Editnotices and its subpages are protected by the MediaWiki:Titleblacklist so that only admins and template editors can create and edit them.
+
+Although all of the namespaces could initially store editnotices directly as MediaWiki messages, this was found to cause performance issues as the MediaWiki namespace grew. The display of MediaWiki editnotices for namespaces that have the MediaWiki subpage feature has been disabled; even though an editnotice can be created as a MediaWiki message for these namespaces, it will not show. For consistency, and to keep the MediaWiki namespace clean, all editnotices are now stored as subpages of Template:Editnotices. This means we again can create editnotices for all namespaces.
+Group notices stored as Template:Editnotices/Group/... can be created for pages in all namespaces except main (article), File (image), MediaWiki, and Category. The reason is that those namespaces don't have the MediaWiki subpage feature, thus group notices would not be meaningful in those namespaces. The talk spaces of those namespaces understand subpages and can use group notices, although group notices are usually not meaningful there either.
+Edit intros
+
+Shortcut:
+
+WP:EDITINTRO
+
+
+For the editintro parameter of the inputbox extension, see mw:Extension:InputBox.
+Edit intros are similar to editnotices, but use different schemes:
+
+Disambiguation pages include the {{disambiguation}} template; this triggers code at MediaWiki:Common.js to show {{disambig editintro}}.
+Biographies of living people are placed into Category:Living people or Category:Possibly living people; this triggers code at MediaWiki:Common.js to show {{BLP editintro}}.
+
+A feature request at T85372 asks for per-category editnotices to make it much easier to add and maintain this kind of notices.
+Emailnotice
+
+Shortcut:
+
+WP:EMN
+
+
+Emailnotices allow registered users with a confirmed email to display a custom message at Special:EmailUser for their username. Emailnotices are located at Special:MyPage/Emailnotice (uses). The system was implemented in MediaWiki:Emailpagetext after this discussion.
+Protection notices
+The standard message displayed when the source of a protected page is being viewed may be replaced by creating a page of the form Template:Editnotices/Protection/<Full page name>. When this is done, the standard edit notices for the page will not be displayed by default; display them if necessary by including {{editnotice load| notice action = view}} in the custom protection notice.
+This should generally only be used when the standard notice displayed by MediaWiki:Protectedpagetext and/or MediaWiki:Cascadeprotected is misleading users to file {{edit protected}} requests in the wrong place; for example, see the history of Template talk:Reflist prior to September 2011.
+History
+Editnotices were introduced in r39120, 11 August 2008, MediaWiki 1.14.
+This page may not be complete. Here are some links to more information:
+
+Wikipedia:Wikipedia Signpost/2008-08-11/Technology report#New features – The announcement about editnotices.
+Wikipedia:Village pump (technical)/Archive 46#Custom edit messages – An archived discussion about editnotices.
+[1] – You can search for any pages that mention the editnotice system.
+
+Alternatives
+An alternative to an editnotice, not requiring any special privileges, is to insert one or more HTML comments into a page. This will be visible when a user is editing the page, but not in the page itself. The comment must be preceded by the characters <!-- and followed by -->.
+Related templates
+
+{{active editnotice}}
+{{editnotice}} – A template for making editnotices.
+{{editnotice pagename}} – Returns the pagename for the editnotice for the current page.
+{{editnotice talkpagename}} – Returns the talkpage name for the editnotice for the current page.
+{{editnotice explanation}} – For editnotice talk pages. Explains how editnotices are protected, and optionally shows a CSS customization parameter.
+{{editnotice load}} – The template that is doing most of the editnotice loading and also displays the small "Group notice" and "Page notice" links.
+{{editnotice loader}} – The old suggested extension to make the editnotice system user-friendly. Many of its features have over time been added to {{editnotice load}}.
+{{Editnotice userpage}} – For use on userpages.
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Editnotice&oldid=758275646"					
+Categories: Wikipedia how-toWikipedia editnoticesHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Languages
+
+
+العربيةবাংলাCatalàDanskDeutschEsperantoفارسیFrançais한국어IlokanoItalianoעבריתമലയാളംNorsk bokmålଓଡ଼ିଆPortuguêsРусскийසිංහලSoomaaligaTürkçeاردوZazaki中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 4 January 2017, at 13:50.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.176","walltime":"0.257","ppvisitednodes":{"value":1404,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":79401,"limit":2097152},"templateargumentsize":{"value":2156,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  163.761      1 -total"," 30.21%   49.473      1 Template:Pp-semi-indef"," 22.97%   37.619      1 Template:Active_editnotice"," 19.13%   31.335      2 Template:Editnotice"," 16.54%   27.078      1 Template:Editnotices/Page/Wikipedia:Editnotice"," 12.70%   20.792      2 Template:Fmbox"," 12.07%   19.758      1 Template:Wikipedia_how_to","  8.93%   14.624      2 Template:Navbox","  6.17%   10.101      1 Template:Ombox","  6.06%    9.917      1 Template:Wikipedia_technical_help"]},"scribunto":{"limitreport-timeusage":{"value":"0.054","limit":"10.000"},"limitreport-memusage":{"value":2665234,"limit":52428800}},"cachereport":{"origin":"mw1271","timestamp":"20170204124758","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":77,"wgHostname":"mw1261"});});

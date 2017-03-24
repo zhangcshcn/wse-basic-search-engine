@@ -1,0 +1,584 @@
+ 
+
+
+
+
+
+Make your donation now
+
+
+
+					Jump to:					navigation, 					search
+
+
+From Wikipedia founder Jimmy Wales
+
+
+
+
+
+From Wikipedia founder Jimmy Wales
+
+Wikipedia is one of the most visited websites in the world.
+Commerce is fine. Advertising is not evil. But it doesn't belong here. Not in Wikipedia.
+Wikipedia is something special. It is like a library or a public park. It is like a temple for the mind. It is a place we can all go to think, to learn, to share our knowledge with others. 
+When I founded Wikipedia, I could have made it into a for-profit company with advertising banners, but I decided to do something different. We’ve worked hard over the years to keep it lean and tight. We fulfill our mission efficiently.
+If everyone reading this donated, our fundraiser would be done within an hour. But not everyone can or will donate. And that's fine. Each year just enough people decide to give.
+This year, please consider making a donation of $5, $20, $50 or whatever you can to protect and sustain Wikipedia.
+Thanks,
+Jimmy Wales 
+Wikipedia Founder
+
+
+
+
+
+“
+Imagine a world in which every single person on the planet has free access to the sum of all human knowledge.
+”
+
+
+
+—Jimmy Wales, Founder of Wikipedia
+
+
+
+
+
+
+
+
+Sorry, we're having a little trouble detecting what country you're in. Please visit Ways to Give for international payment methods.
+
+
+
+
+
+
+
+@media screen and (min-width: 980px) {
+    #donate-form-wrapper {
+        width: 25em;
+    }
+}
+
+ /* === Template:Styles/2016 oojs ui.css === */
+
+/* Hide these until the required JavaScript fiddling has been done */
+#actual-form,
+.consider-amounts {
+  display: none;
+}
+
+#actual-form-loading {
+  text-align: center;
+  line-height: 1.2;
+}
+.error-nojs {
+  max-width: 300px;
+  color: #800;
+}
+
+/* --- Hide default MediaWiki stuff we don't want --- */
+
+#mw-head-base {
+  height: 1em;
+}
+#mw-panel .portal {
+  display: none;
+}
+#p-namespaces, #p-views, #p-cactions, #p-search, #p-personal, #catlinks, #firstHeading, #contentSub, #siteSub, #jump-to-nav {
+  display: none;
+}
+#content {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+}
+
+/* --- Overall layout of the landing page --- */
+
+#LP-table {
+  width: 100%;
+  border: none;
+}
+body.rtl #LP-table {
+  direction: rtl;
+}
+
+#form-wrapper {
+  vertical-align: top;
+  width: 360px;
+}
+#appeal-wrapper {
+  vertical-align: top;
+  padding-left: 0;
+  padding-right: 2em;
+}
+body.rtl #appeal-wrapper {
+  padding-left: 2em;
+  padding-right: 0;
+}
+
+/* --- Appeal ---*/
+
+#appeal-head {
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #afafaf;
+}
+#appeal-body {
+  padding: 1em 0 0.2em 0;
+  font-size: 1.125em;
+  margin-bottom: 1em;
+}
+
+.quote-wrapper {
+    padding: 9em 0;
+}
+
+/* --- Hide non-monthly capable payment methods on monthly forms --- */
+
+.form-monthly .not-monthly-capable {
+  display: none;
+}
+
+/* --- Form --- */
+
+#form-wrapper * {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+#donate-form-wrapper {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  padding: 1.6em;
+  font-weight: 500;
+  color: #222;
+}
+
+/* --- Subheaders ---*/
+
+#radiobuttons-table-header,
+#paymenttype-table-header {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* --- Commmon button styles --- */
+
+.frequency-options input[type="radio"],
+.radiobuttons-cell input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.frequency-options label,
+.radiobuttons-cell label,
+.payment-method-button {
+    display: block;
+    background-color: #f8f9fa;
+    color: #222;
+    border: 1px solid #9aa0a7;
+    border-radius: 2px;
+    padding: 1em .5em;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    transition: background-color 100ms, color 100ms, border-color 100ms, box-shadow 100ms;
+}
+.frequency-options label:hover,
+.radiobuttons-cell label:hover,
+.payment-method-button:hover {
+    background-color: #fff;
+    color: #444;
+    border-color: #a2a9b1;
+}
+.frequency-options label:active,
+.radiobuttons-cell label:active,
+.payment-method-button:active {
+    background-color: #d9d9d9;
+    color: #000;
+    border-color: #7d8389;
+}
+.frequency-options label:focus,
+.radiobuttons-cell label:focus,
+.payment-method-button:focus {
+    border-color: #3366cc;
+    box-shadow: inset 0 0 0 1px #3366cc;
+}
+.frequency-options label.checked,
+.radiobuttons-cell input[type="radio"]:checked + label {
+    background-color: #2a4b8d;
+    color: #fff;
+    border-color: #7d8389;
+}
+
+/* --- Frequency options --- */
+
+.frequency-options {
+  margin: 0 3px;
+  font-size: 1em;
+}
+.frequency-options label {
+  display: block;
+  float: left;
+  width: 49%;
+  margin-bottom: 1em;
+}
+.frequency-options label:first-child {
+  margin-right: 4px;
+}
+
+body.rtl .frequency-options label {
+  float: right;
+}
+body.rtl .frequency-options label:first-child {
+  margin-left: 4px;
+  margin-right: 0;
+}
+
+/* --- Donation Amounts --- */
+
+#radiobuttons-table-body {
+  clear: both;
+}
+
+#radiobuttons-table {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.radiobuttons-cell {
+  width: 25%;
+  padding: 1px;
+  text-align: center;
+}
+
+.radiobuttons-cell label {
+    height: 4em;
+    line-height: 2;
+}
+
+.input_amount_other label {
+    padding: .5em;
+    line-height: 1.2;
+}
+
+.input_amount_other label span {
+    font-size: .8em;
+}
+
+.input_amount_other input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #555;
+    padding: .2em;
+    border-radius: 2px;
+    direction: ltr;
+    text-align: center;
+    font-family: inherit;
+    font-size: .8em !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* --- Payment method buttons --- */
+
+.payment-method-div {
+    padding: 0 3px;
+}
+
+.payment-method-button {
+    display: block;
+    margin: 0 0 .5em 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 60%;
+    color: #367fb4;
+    font-size: 1.1em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* This will be overridden for IE 8 and below */
+.paymentmethod-pp input,
+.paymentmethod-amazon input,
+.paymentmethod-bpay input,
+.paymentmethod-ideal input,
+.paymentmethod-enets input,
+.paymentmethod-yandex input {
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
+.paymentmethod-cc input {
+  background-image: none;
+}
+.paymentmethod-pp input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/8/8d/Paypal-color.svg);
+}
+.paymentmethod-amazon input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/e/e4/Amazon-color.svg);
+}
+.paymentmethod-bpay input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/e/e3/BPAY_Landscape_MONO.gif);
+}
+.paymentmethod-ideal input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/8/83/Ideal_logo.gif);
+}
+.paymentmethod-enets input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/d/d4/Enets-logo.png);
+}
+.paymentmethod-yandex input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/8/85/Yamoney_en.png);
+}
+html[lang="ru"] .paymentmethod-yandex input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/c/cb/Yandex_money_RU_logo.png);
+}
+.paymentmethod-pp-usd input {
+  background-image: url(//upload.wikimedia.org/wikipedia/donate/2/22/Paypal-USD-color.svg);
+}
+
+
+/* --- Infobox ("Where your donation goes") --- */
+
+.dividing-line {
+  display: none;
+}
+
+#infobox-wrapper {
+  padding-top: 1em;
+  line-height: 1.2;
+  color: #707070;
+  font-size: .9em;
+  font-weight: normal;
+}
+
+#infobox-header {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: .7em;
+  color: #367fb4;
+}
+
+/* --- Privacy and links --- */
+
+#donor-policy-block {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.2;
+  padding: 1.8em 15% .7em;
+}
+
+#donor-policy-block #cancel-monthly {
+  margin-top: 1em;
+}
+
+#donate-links-block {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+  width: 100%;
+  padding: 1em 15% 0;
+}
+
+.form-info-links {
+  list-style: none;
+  margin-left: 0;
+  width: 100%;
+  display: block;
+  font-size: 0.8em;
+  text-align: center;
+}
+.form-info-links li {
+  width: auto;
+  display: inline-block;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+/* --- Footer --- */
+
+#footer-info,
+#footer-places {
+  display: none;
+}
+div#footer #footer-icons {
+  float: none;
+  text-align: center;
+}
+div#footer #footer-icons li {
+  float: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 981px) {
+  /* Text &amp; Logo layout */
+  #content {
+    margin: 0;
+    padding: 0 1em 1em 1em;
+  }
+
+  #p-logo a {
+    width: 120px;
+    height: 120px;
+    background-size: 80%;
+  }
+
+  #form-wrapper {
+    display: block;
+    width: 100%;
+  }
+  #donate {
+    display: block;
+  }
+
+  /* Hide appeal */
+  #appeal-wrapper {
+    margin-top: 60px;
+    display: block;
+  }
+  #appeal-head {
+    display: none;
+  }
+  #appeal-body {
+    padding-top: 0.2em;
+  }
+  .appeal-text-long, .appeal-text-short {
+    display: none;
+  }
+  
+  div#infobox-wrapper, div#donor-policy-block {
+    width: 100%;
+  }
+
+  /* Smallprint and links */  
+  div#donor-policy-block {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Footer */
+  div#footer {
+    margin: 0;
+  }
+
+}
+/* === end of Template:Styles/2016 oojs ui.css === */
+
+ 
+						Retrieved from "https://donate.wikimedia.org/wiki/Special:FundraiserLandingPage"					
+ 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+EnglishLog in 
+
+
+
+Namespaces
+
+Special page
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageCommunity portalCurrent eventsRecent changesRandom pageHelpDonate 
+
+
+
+Tools
+
+
+Special pagesPrintable version 
+
+
+
+
+
+
+Privacy policy
+About Donate
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":64,"wgHostname":"mw1182"});});

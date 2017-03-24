@@ -1,0 +1,219 @@
+ 
+
+
+
+
+
+
+
+Template:Edit template-protected
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+Uses Lua:
+
+
+Module:Protected edit request
+
+
+
+
+
+Shortcut
+
+
+{{TPER}}
+
+
+
+This template is placed on a talk page to request an edit of the corresponding template-protected page. The template should be accompanied by a clear and specific description of the requested change, and consensus should be obtained before the template is added. Please see Wikipedia:Edit requests for guidance, especially if this is the first time you are making an edit request.
+
+
+Contents
+
+
+1 Usage
+2 Parameters
+3 Responding to requests
+4 See also
+
+
+Usage
+
+Basic usage
+
+
+{{edit template-protected}}
+
+
+Specify pages to be edited
+
+
+{{edit template-protected|First page to be edited|Second page to be edited|...}}
+
+
+Deactivate a request
+
+
+{{edit template-protected|answered=yes}}
+
+
+All parameters
+
+
+{{edit template-protected
+| First page to be edited|Second page to be edited|Third page to be edited|...
+| answered = 
+| ans      = 
+| demo     = 
+}}
+
+Parameters
+All parameters are optional.
+
+positional parameters - specify pages to be edited. You can add an unlimited number of pages.
+answered or ans - set this to "yes", "y", "true" or "1" to mark the edit request as answered. This removes the page from the edit request category.
+demo - set this to "yes", "y", "true" or "1" to demonstrate the template. This suppresses categories and namespace checks.
+
+Responding to requests
+See Wikipedia:Edit requests § Responding to requests.
+See also
+
+{{Edit fully-protected}}, {{Edit extended-protected}}, and {{edit semi-protected}} - for requests to fully protected, extended protected, and semi-protected pages.
+Category:Wikipedia template-protected edit requests - The category to which this template adds pages.
+Wikipedia:Requested moves for move-protected pages
+
+
+
+
+
+The above documentation is transcluded from Template:Edit template-protected/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Edit_template-protected&oldid=659337691"					
+Categories: Lua-based templatesRequest templatesHidden categories: Wikipedia semi-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+فارسیIlokanoKurdîमराठीမြန်မာဘာသာTiếng Việt 
+Edit links 
+
+
+
+
+
+ This page was last modified on 26 April 2015, at 19:25.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.060","walltime":"0.108","ppvisitednodes":{"value":115,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":14976,"limit":2097152},"templateargumentsize":{"value":136,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":8,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   95.234      1 Template:Documentation","100.00%   95.234      1 -total"," 26.32%   25.062      1 Template:Edit_template-protected/doc"," 17.90%   17.044      1 Template:Lua","  3.76%    3.578      1 Template:Template_shortcut","  2.01%    1.917      1 Template:Documentation_subpage","  1.00%    0.948      3 Template:Tl"]},"scribunto":{"limitreport-timeusage":{"value":"0.038","limit":"10.000"},"limitreport-memusage":{"value":1414135,"limit":52428800}},"cachereport":{"origin":"mw1210","timestamp":"20170202135101","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":66,"wgHostname":"mw1253"});});

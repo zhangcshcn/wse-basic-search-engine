@@ -1,0 +1,656 @@
+ 
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Granting and revoking user rights
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+Shortcuts:
+
+WP:ADMINGUIDE/RIGHTS
+WP:ADMINGUIDE/PERM
+
+
+One of the administrative privileges is the ability to grant and revoke user groups, more commonly referred to under the misnomer permissions or rights.[1] Each user right has a set of prerequisites that candidates should generally meet. A brief outline of expectations can be found at Wikipedia:Requests for permissions#Permissions, but for the most up-to-date information you should refer to the granting guidelines listed below in bold.
+Users can request that a right be added to their account at Wikipedia:Requests for permissions. In general, granting of rights is not done without the user's consent, with the exception of autopatrolled.[2]
+
+
+
+Contents
+
+
+1 User groups and granting guidelines
+2 Granting permissions
+3 Removing permissions
+4 Tools
+
+4.1 Executing user rights changes
+4.2 Checking candidate's eligibility
+
+
+5 See also
+6 Notes
+
+
+
+User groups and granting guidelines
+See Special:ListGroupRights for the full list of user groups
+The following are user groups administrators are able to grant and revoke. Note the granting guidelines may link to the admin instructions at Wikipedia:Requests for permissions. You can refer to these pages for the accepted prerequisites of a given permission.
+
+Pending changes reviewer (granting guideline) – accept/reject pending changes to articles under pending changes protection
+Account creator (granting guideline) – make a large number of accounts for other people who request them, for the purposes of the account creation program, education program, or an edit-a-thon
+IP block exempt (granting guideline) – exempts the users from hardblocks on affecting their IP address
+Rollback (granting guideline) – revert the last user's consecutive edits on a given page to be undone with a single mouse click
+Autopatrolled (granting guideline) – automatically set page creations by the user as patrolled
+File mover (granting guideline) – rename media in the File namespace
+Template editor (granting guideline) – allow coders to edit templates and modules that have been protected with the "protected template" protection level
+Mass message sender (granting guideline) – send messages to multiple users at once via Special:MassMessage
+Edit filter manager (granting guideline) – create and modify filters that are run against all edits. This right has extreme potential for (accidental) abuse and should never be granted to non-admins without prior discussion at the edit filter noticeboard
+Confirmed (granting guideline) – edit articles that are semi-protected, move pages and upload files (automatically granted to accounts that are over 4 days old and with 10 edits)
+
+And rights specific to the education program (handled at the education noticeboard):
+
+Course coordinator
+Course online volunteer
+Course campus volunteer
+Course instructor
+
+Granting permissions
+
+
+
+
+The management page, accessible through Special:UserRights
+
+
+
+To modify a user's rights, browse to Special:UserRights.
+Type in the name of the user you wish to grant rights to. In this case, type in "ThisIsATest" for User:ThisIsaTest. If you type in a non-existent username, you will be informed of this. Also make sure that you are giving the right to the user you intend to give it to, and not a possible imposter of that user.
+Press the "Edit user groups" button to bring up the User rights management screen. This screen can also be accessed by via the link "User rights management" under the Tools section of your sidebar, visible when you are on a page in a user's userspace. In our case, you can find the link when you are on the page User:ThisIsaTest.
+On the User rights management screen, you will see two lists: one titled Groups you can change and the other Groups you cannot change.
+Check the box next to the right you wish to grant in the "Groups you can change". For this purposes of this guide let's go with Rollback.
+In the lower box titled Reason for change, explain why you are giving the user the right (e.g. "testing on test account" or "trusted user active in counter-vandalism"). You may wish to link to a discussion, or to a noticeboard such as WP:PERM/R if that's where the right was requested
+Press Save User Groups. The screen will blink and the User rights log at the bottom of the screen will be changed.
+At this point, you will have changed group membership for User:ThisIsaTest from (none) to rollback.
+Close the User rights management special page.
+
+Removing permissions
+
+Repeat steps 1 to 3 above, again noting you can get to the user rights management screen via the "User rights management" link if you are viewing within their userspace.
+In the box called Groups you can change, the box next to "rollback" will be checked: click to remove this check.
+In the lower box titled Reason for change, explain why you are removing the user's accountcreator access. Here, use "Testing on test account completed".
+Press Save User Groups. The screen will blink and the User rights log at the bottom of the screen will be reflected.
+At this point, you will have changed group membership for User:ThisIsaTest from rollback to (none).
+
+Tools
+Executing user rights changes
+
+User:MusikAnimal/userRightsManager.js - for use at WP:PERM. Click "assign permissions" on any PERM page, enter any closing remarks in the popup dialog, and the script will grant the right with a permalink to the discussion, and issue the corresponding talk page template.
+User:Amalthea/MakeAutopatroller.js - provides a link on userpages to make the user autopatrolled; notifies the user with a template.
+User:Amalthea/MakeReviewer.js - provides a link on userpages to give the user reviewer rights; notifies the user with a template.
+User:Amalthea/MakeRollbacker.js - provides a link on userpages to give the user rollback rights; notifies the user with a template.
+
+Checking candidate's eligibility
+
+xtools
+Supercount
+Global contributions
+Pages created
+Nonautomated edit counter
+BLP edit counter
+User contribution visualizer
+WikiChecker (if you get a "Forbidden" keep refreshing until it goes away)
+Special:CentralAuth
+
+See also
+
+Wikipedia:Requests for permissions
+Wikipedia:Requests for permissions/Administrator instructions
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia accounts and governance
+
+
+
+
+
+
+Unregistered (IP) users
+
+
+
+Why create an account?
+Create an account
+Request an account
+IPs are human too
+IP addresses are not people
+IP hopper
+
+
+
+
+
+
+
+
+Registered users
+
+
+
+New account
+Logging in
+
+Reset passwords
+
+
+Username policy
+
+Changing username
+Usernames for administrator attention
+
+
+Unified login or SUL
+Alternate account
+
+
+
+
+
+
+
+
+Account security
+
+
+
+Password strength requirements
+User account security
+Personal security practices
+Two-factor authentication
+
+Simple 2FA
+2FA for AWB
+
+
+Committed identity
+On privacy, confidentiality and discretion
+Compromised accounts
+
+
+
+
+
+
+
+
+Blocks, global locks,
+bans, sanctions
+
+
+
+Blocking policy
+
+FAQ
+Admins guide
+Tools
+Autoblock
+
+
+Appealing a block
+
+Guide to appealing blocks
+UTRS Unblock Ticket Request System
+
+
+Blocking IP addresses
+
+Range blocks
+IPv6
+Open proxies
+
+
+Global locks
+Banning policy
+
+ArbCom appeals
+
+
+Sanctions
+
+Personal sanctions
+General sanctions
+Discretionary sanctions and Log
+Essay
+
+
+Long-term abuse
+Standard offer
+
+
+
+
+
+
+
+
+Related to accounts
+
+
+
+Sock puppetry
+Single-purpose account
+Sleeper account
+Vandalism-only account
+Wikibreak
+
+Enforcer
+
+
+Retiring
+
+Courtesy vanishing
+
+
+Clean start
+
+Quiet return
+
+
+
+
+
+
+
+
+
+
+User groups
+and global user groups
+
+
+
+Requests for permissions
+
+Admin instructions
+Admin guide
+
+
+Account creator
+
+PERM
+
+
+Autopatrolled
+
+PERM
+
+
+AutoWikiBrowser
+
+PERM
+
+
+Confirmed
+
+PERM
+
+
+Extended confirmed
+
+PERM
+
+
+File mover
+
+PERM
+
+
+Mass message sender
+
+PERM
+
+
+New page reviewer
+
+PERM
+
+
+Page mover
+
+PERM
+
+
+Pending changes reviewer
+
+PERM
+
+
+Rollback
+
+PERM
+
+
+Template editor
+
+PERM
+
+
+IP-block-exempt
+
+Requests
+
+
+Courses access
+
+Requests
+
+
+Bot accounts
+
+Requests
+
+
+Global rights policy
+
+OTRS Volunteer Response Team
+
+
+
+
+
+
+
+
+
+
+Advanced user groups
+
+
+
+Administrators
+
+RfA
+
+
+Bureaucrats
+
+RfB
+
+
+Edit filter manager
+
+Requests
+
+
+CheckUser and Oversight
+
+Requests
+
+
+
+
+
+
+
+
+
+
+Committees and related
+
+
+
+Arbitration Committee
+Mediation Committee
+Bot approvals group
+Functionaries
+Clerks
+
+
+
+
+
+
+
+
+Governance
+
+
+
+Administration
+
+FAQ
+
+
+Formal organization
+Editorial oversight and control
+Quality control
+Wikimedia Foundation
+
+Meta-Wiki
+
+
+Leadership opportunities
+WikiProjects
+Elections
+Policies and guidelines
+Unbundling administrators' powers
+Petitions
+Noticeboards
+Consensus
+Dispute resolution
+Reforms
+
+
+
+
+
+
+Notes
+
+
+^ Any given particular user group contains a set of rights (or permissions)
+^ Autopatrolled has no effect on the user who holds the right, instead being in the interest of new page patrollers
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Granting_and_revoking_user_rights&oldid=755820984"					
+Categories: Wikipedia Administrators' guide 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+Slovenčina 
+Edit links 
+
+
+
+
+
+ This page was last modified on 20 December 2016, at 11:21.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.080","walltime":"0.105","ppvisitednodes":{"value":312,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":43276,"limit":2097152},"templateargumentsize":{"value":9,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   55.235      1 -total"," 50.54%   27.916      1 Template:Shortcut"," 20.20%   11.158      2 Template:Navbox"," 17.85%    9.860      1 Template:Admin_guide"," 10.52%    5.811      1 Template:Wikipedia_accounts","  6.62%    3.659      1 Template:Hatnote","  6.42%    3.548      1 Template:Reflist","  2.81%    1.553      1 Wikipedia:Administrators'_guide/Granting_and_revoking_user_rights/Tools"]},"scribunto":{"limitreport-timeusage":{"value":"0.017","limit":"10.000"},"limitreport-memusage":{"value":998880,"limit":52428800}},"cachereport":{"origin":"mw1274","timestamp":"20170125031902","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":55,"wgHostname":"mw1255"});});

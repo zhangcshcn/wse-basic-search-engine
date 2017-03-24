@@ -1,0 +1,261 @@
+ 
+
+
+
+
+
+
+Wikipedia:Administrators' guide/Dealing with spam
+
+From Wikipedia, the free encyclopedia
+< Wikipedia:Administrators' guide
+
+					Jump to:					navigation, 					search
+
+
+Shortcuts:
+
+WP:ADMINGUIDE/SPAM
+WP:ADMINGUIDE/S
+
+
+Relevant guideline at Wikipedia:Spam
+On the world's largest encyclopedia that anyone can edit, and where its content has a powerful search engine presence, spam is an inevitable and ongoing problem. Link spam in particular can easily go under the radar. Most search engines such as Google base their results not only on the search terms but also by how many other sites link back to a certain site, and how many other sites link to those sites, etc. Wikipedia is one of the top 10 websites in the world, so obviously it is a prime target for link spamming. Fortunately admins have numerous tools to fight any form of spam.
+
+
+
+Contents
+
+
+1 Blocking or protecting
+2 XLinkBot
+3 Spam blacklist
+4 Edit filters
+5 Tools
+
+
+
+Blocking or protecting
+The first attempts to prevent the spam follows how you would deal with any abuse. In ascending order of the things you should try:
+
+Block the spammers, provided the disruption is limited to one or a few users, and they've received sufficient warning. For a spam only account, you can block indefinitely and template them using {{uw-soablock}}. If they are also editing under a promotional username you can instead use {{uw-spamublock}}. In the case of the latter, you may not need to issue all four levels of warnings before blocking as it is a username violation. However be sure to not to confuse obvious spam-only accounts with those who have good intentions, in which case you could perform a soft block and issue the {{uw-softerblock}} template.
+Protect the affected pages. Oftentimes multiple IPs will add promotional content to a page for which they have a conflict of interest. Here instead of making multiple blocks on what could be shared IPs, simply semi-protect the page. Use the same procedure as protecting against any abuse: start with a short duration and extend it as necessary.
+
+XLinkBot
+Documentation at User:XLinkBot
+A nifty bot that patrols recent changes and reverts edits containing certain external links. The configuration for this bot can get quite complex, but in its simplest form you can add the link to the revert list using regular expressions. This does not prevent reference spamming, and limits it to a single revert. To ensure the bot always reverts a link addition you can also add the regex to override list or hard override list, but this should only be used for short-term issues. Beyond the simple revert lists, you can instruct the bot to only revert on certain pages, or from certain users, and even have it issue customized warnings. See the bot's user page for the full instructions. Please read the instructions and ensure you know what you are doing. Seek help from other admins at WP:AN if you are unsure. Alternatively you can request link additions at User talk:XLinkBot/RevertList.
+Spam blacklist
+Relevant guideline at Wikipedia:Spam blacklist
+For long-term repeated addition of spam links, there is the MediaWiki-provided SpackBlackList extension.
+Before adding links here:
+
+Ensure the other aforementioned routes are not effective
+Ensure all links have been removed before blacklisting
+Do not attempt to make additions unless you are familiar with regular expressions. A simple typo can cause substantial disruption.
+
+If you are sure the spam blacklist is the appropriate route:
+
+Add the appropriate regex to MediaWiki:Spam-blacklist
+Log the entry at MediaWiki talk:Spam-blacklist/log
+
+If you need help at any time you can request additions to the blacklist at MediaWiki talk:Spam-blacklist, or seek help from other admins at WP:AN.
+Edit filters
+Relevant guideline at Wikipedia:Edit filter
+The edit filter is a last resort and restricted only to the most complex cases of spam abuse. Creation of new filters requires the abusefilter user right, which admins can assign to themselves, but you should not do this unless you are very familiar with regular expressions and how the abuse filter extension works. Like the spam blacklist, the edit filter affects every single edit that comes through, so a small typo can cause massive disruption. If you have never worked with filters, give the guideline a thorough read. Simply put, do not attempt to modify or create filters unless you are certain of what you are doing, and always test them in log-only mode first.
+There are several filters that regularly pick up spam-related abuse. You can monitor their logs to identify recent cases of spam:
+
+Special:AbuseFilter/80 (log)
+Special:AbuseFilter/271 (log)
+Special:AbuseFilter/466 (log)
+Special:AbuseFilter/499 (log)
+
+Any inquiries on whether an edit filter is appropriate or feasible can be brought to the edit filter noticeboard.
+Tools
+
+SpamUserPage (WP:SUPG) – Allows you to delete a userspace page, block the user, and issue them with a block notice, all in one click, with options for types of blocks, deletion rationale, etc.
+spamublock – Delete a userpage, block the user, and issue {{uw-spamublock}} with one click
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Administrators' guide
+
+
+
+
+
+
+Articles
+
+
+
+Advice for new administrators
+Blocking
+Cleaning backlogs
+Dealing with disputes
+Dealing with spam
+Deleting
+Edit filters
+Fixing cut-and-paste moves
+Granting and revoking user rights
+Protecting
+Reading list
+Rollback
+Tools, scripts and gadgets
+Viewing deleted pages and contributions
+
+
+
+
+
+
+
+
+Policies
+
+
+
+Administrator policy (WP:ADMIN)
+Banning policy (WP:BAN)
+Blocking policy (WP:BLOCK)
+Deletion policy (WP:DEL)
+Protection policy (WP:PROTECT)
+Revision deletion policy (WP:REVDEL)
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_guide/Dealing_with_spam&oldid=761294552"					
+Categories: Wikipedia spamWikipedia Administrators' guide 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage information 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+
+Add links 
+
+
+
+
+
+ This page was last modified on 22 January 2017, at 04:28.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.140","walltime":"0.270","ppvisitednodes":{"value":271,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":12158,"limit":2097152},"templateargumentsize":{"value":552,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  168.185      1 -total"," 27.68%   46.555      1 Template:Shortcut"," 20.83%   35.033      4 Template:Hatnote"," 18.38%   30.916      1 Template:Admin_guide"," 15.02%   25.262      1 Wikipedia:Administrators'_guide/Dealing_with_spam/Tools"," 13.09%   22.022      1 Template:Navbox"," 10.01%   16.830      4 Template:Plainlink","  3.47%    5.838      2 Template:Red","  1.60%    2.688      4 Template:Tl","  1.16%    1.950      1 Template:Mono"]},"scribunto":{"limitreport-timeusage":{"value":"0.029","limit":"10.000"},"limitreport-memusage":{"value":897902,"limit":52428800}},"cachereport":{"origin":"mw1201","timestamp":"20170122042828","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70,"wgHostname":"mw1270"});});

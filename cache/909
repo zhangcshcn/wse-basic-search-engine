@@ -1,0 +1,293 @@
+ 
+
+
+
+
+
+
+
+Template:Pp-dispute
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+If you plan to make breaking changes to this template, move it, or nominate it for deletion, please notify Twinkle's users and maintainers at Wikipedia talk:Twinkle as a courtesy, as this template is used in the standard installation of Twinkle. Thank you!
+
+
+
+
+
+Uses Lua:
+
+
+Module:Protection banner
+
+
+
+
+
+Usage
+
+Use {{pp-dispute}} for the normal template
+Use {{pp-dispute|expiry=March 10, 2017}} for a specific expiration date
+Use {{pp-dispute|small=yes}} for just an icon at the top
+Use {{pp-dispute|expiry={{subst:#time:F j, Y|+7 days}}}} for a specific expiration time period
+
+Note that (UTC) will be added automatically.
+Please note that only administrators can protect pages. Placing this template on a page will not make it protected.
+
+This template will categorize into Category:Wikipedia pages protected due to dispute  and Category:Wikipedia pages with incorrect protection templates.
+
+See also
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Pp-dispute/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Pp-dispute&oldid=619982964"					
+Categories: Templates used by TwinkleLua-based templatesTop icon protection templatesHidden categories: Wikipedia template-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+العربيةবাংলাCatalàفارسیGalego한국어IlokanoItalianoBasa JawaKurdîLietuviųमैथिलीBahasa Melayuनेपाली日本語ଓଡ଼ିଆپښتوPortuguêsසිංහලSimple Englishதமிழ்ไทยاردوTiếng Việt粵語中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 August 2014, at 17:16.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.104","walltime":"0.153","ppvisitednodes":{"value":1102,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":102298,"limit":2097152},"templateargumentsize":{"value":1299,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  125.891      1 -total","100.00%  125.891      1 Template:Documentation"," 54.02%   68.002      1 Template:Pp-dispute/doc"," 26.27%   33.069      1 Template:Protection_templates"," 24.26%   30.535      1 Template:Navbox"," 14.31%   18.020      1 Template:Aligned_table"," 10.54%   13.268      1 Template:Twinkle_standard_installation","  9.44%   11.885      1 Template:Mbox","  6.40%    8.059      1 Template:Lua","  4.90%    6.163      1 Template:In_category"]},"scribunto":{"limitreport-timeusage":{"value":"0.044","limit":"10.000"},"limitreport-memusage":{"value":1773026,"limit":52428800}},"cachereport":{"origin":"mw1301","timestamp":"20170210083024","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":87,"wgHostname":"mw1258"});});

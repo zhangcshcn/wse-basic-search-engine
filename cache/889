@@ -1,0 +1,263 @@
+ 
+
+
+
+
+
+Help
+
+Editing abuse filter
+
+Edit Filter navigation (Home | Recent filter changes | Examine past edits | Edit Filter Log)
+				Editing filter 803
+
+					Jump to:					navigation, 					search
+
+
+Filter parameters
+Filter ID:803Description:
+
+(publicly viewable)
+Filter hits:4,946 hitsStatistics:Of the last 7,135 actions, this filter has matched 0 (0.00%). See also a graph of recent filter actions.Conditions:
+(documentation)article_namespace == 2 &
+!("confirmed" in user_groups) &
+!('/' in article_text) &
+article_text != user_name &
+article_articleid != 2829412 &
+article_articleid != 31555737
+Notes:Testing for https://phabricator.wikimedia.org/T149445
+
+Enabling with disallow per [[Wikipedia:Requests for comment/Protect user pages by default]] (see also the talk page) ~ MA 2016.11.30
+
+Add exception for User:Jimbo_Wales, high-profile page advertised as being open ~MA 2016.11.30
+
+Skip for User:Sandbox as well ~Xaos 20161203
+
+Noting the implementation to allow users to selectively disable protection for their userpage, which we may add at some point:
+*****
+article_namespace == 2 &
+!('/' in article_text) &
+article_text != user_name & (
+  template := "{{unlocked userpage}}";
+
+  (
+    !("confirmed" in user_groups) &
+    !(template in old_wikitext)
+  ) | (
+    (
+      (
+        removed_lines contains template &
+        !(template in added_lines)
+      ) | (
+        added_lines contains template &
+        !(template in removed_lines)
+      )
+    ) & !("sysop" in user_groups)
+  )
+)
+*****
+~MA
+Flags: Hide details of this filter from public view Enable this filter Mark as deletedFilter last modified:03:44, 16 January 2017 by MusikAnimal (talk | contribs)History:View this filter's historyTools:Export this filter to another wiki{"row":{"af_id":"803","af_pattern":"article_namespace == 2 \u0026\r\n!(\"confirmed\" in user_groups) \u0026\r\n!('/' in article_text) \u0026\r\narticle_text != user_name \u0026\r\narticle_articleid != 2829412 \u0026\r\narticle_articleid != 31555737","af_user":"14882394","af_user_text":"MusikAnimal","af_timestamp":"20170116034433","af_enabled":"1","af_comments":"Testing for https://phabricator.wikimedia.org/T149445\r\n\r\nEnabling with disallow per [[Wikipedia:Requests for comment/Protect user pages by default]] (see also the talk page) ~ MA 2016.11.30\r\n\r\nAdd exception for User:Jimbo_Wales, high-profile page advertised as being open ~MA 2016.11.30\r\n\r\nSkip for User:Sandbox as well ~Xaos 20161203\r\n\r\nNoting the implementation to allow users to selectively disable protection for their userpage, which we may add at some point:\r\n*****\r\narticle_namespace == 2 \u0026\r\n!('/' in article_text) \u0026\r\narticle_text != user_name \u0026 (\r\n  template := \"{{unlocked userpage}}\";\r\n\r\n  (\r\n    !(\"confirmed\" in user_groups) \u0026\r\n    !(template in old_wikitext)\r\n  ) | (\r\n    (\r\n      (\r\n        removed_lines contains template \u0026\r\n        !(template in added_lines)\r\n      ) | (\r\n        added_lines contains template \u0026\r\n        !(template in removed_lines)\r\n      )\r\n    ) \u0026 !(\"sysop\" in user_groups)\r\n  )\r\n)\r\n*****\r\n~MA","af_public_comments":"Prevent new users from editing other's user pages","af_hidden":"0","af_hit_count":"4946","af_throttled":"0","af_deleted":"0","af_actions":"warn,disallow","af_global":"0","af_group":"default"},"actions":{"disallow":{"action":"disallow","parameters":[""]},"warn":{"action":"warn","parameters":["abusefilter-warning-userpage"]}}}
+
+
+Actions to take when matched
+ Flag the edit in the edit filter log Trigger actions only if the user trips a rate limitNumber of actions to allow:Period of time: secondsGroup throttle by:
+
+(one per line, combine with commas)
+user
+
+ Trigger these actions after giving the user a warningSystem message to use for warning:abusefilter-warning
+abusefilter-warning-233
+abusefilter-warning-30-500-restriction
+abusefilter-warning-AFC
+abusefilter-warning-AFC-wrong-title
+abusefilter-warning-AFC2
+abusefilter-warning-DS
+abusefilter-warning-EL-in-disambiguation
+abusefilter-warning-NoIPedits
+abusefilter-warning-SPI
+abusefilter-warning-advertising
+abusefilter-warning-aiv
+abusefilter-warning-all-categories-removed
+abusefilter-warning-appended-text
+abusefilter-warning-archiveis
+abusefilter-warning-autobiography
+abusefilter-warning-badmove
+abusefilter-warning-badredirect
+abusefilter-warning-blanking
+abusefilter-warning-clipboard-hijacking
+abusefilter-warning-cluebot-disable
+abusefilter-warning-codespill
+abusefilter-warning-copyvio
+abusefilter-warning-copyvio-disallowed
+abusefilter-warning-cx
+abusefilter-warning-delmain
+abusefilter-warning-editnotice
+abusefilter-warning-email
+abusefilter-warning-emoji
+abusefilter-warning-example-image
+abusefilter-warning-external-images
+abusefilter-warning-extraneous-markup
+abusefilter-warning-feedback
+abusefilter-warning-fixedposition
+abusefilter-warning-harass
+abusefilter-warning-harass-disallowed
+abusefilter-warning-helpme
+abusefilter-warning-hidden
+abusefilter-warning-interrogative
+abusefilter-warning-interwikiremoval
+abusefilter-warning-ip-edit-confirmed
+abusefilter-warning-large-nonenglish-addition
+abusefilter-warning-largeaddition-notice
+abusefilter-warning-link-spam
+abusefilter-warning-links-containing-username
+abusefilter-warning-lowercase-letters
+abusefilter-warning-malicious-a-tags
+abusefilter-warning-minoredit
+abusefilter-warning-nospaces
+abusefilter-warning-nowiki
+abusefilter-warning-otrs
+abusefilter-warning-persondata
+abusefilter-warning-priorcase
+abusefilter-warning-protection-template
+abusefilter-warning-redirect
+abusefilter-warning-ref-group-blanking
+abusefilter-warning-removal
+abusefilter-warning-removing-xfd-notice
+abusefilter-warning-repeated
+abusefilter-warning-repeated-characters
+abusefilter-warning-scribunto-contentmodel
+abusefilter-warning-selfrenaming-and-bad-usertalk-moves
+abusefilter-warning-short-new-article
+abusefilter-warning-shouting
+abusefilter-warning-sign-in-article
+abusefilter-warning-sign-notalk
+abusefilter-warning-skype
+abusefilter-warning-slashsuffix
+abusefilter-warning-spambot-allowed
+abusefilter-warning-spambot-newaccount
+abusefilter-warning-talkblanking
+abusefilter-warning-temporary-newuser-template-edit-block
+abusefilter-warning-test
+abusefilter-warning-test-edit
+abusefilter-warning-urlobfuscation
+abusefilter-warning-userpage
+abusefilter-warning-userpage-blanking
+abusefilter-warning-utf
+abusefilter-warning-whitespace
+Other messagePage name of other message:
+
+(without MediaWiki prefix)
+Actions: 
+ Prevent the user from performing the action in question Revoke the user's autoconfirmed status Tag the edit in contributions lists and page historiesTags to apply:
+
+(see Wikipedia:Tags for use and formatting)
+(please don't rename a tag here, see link above)
+(one per line, no commas, publicly visible)
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/wiki/Special:AbuseFilter/803"					
+ 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Special page
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+Upload fileSpecial pagesPrintable version 
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":104,"wgHostname":"mw1255"});});

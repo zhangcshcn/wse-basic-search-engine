@@ -1,0 +1,1632 @@
+ 
+
+
+
+
+
+
+MSN TV
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+WebTV hardware
+
+
+MSN TV (formerly WebTV) was the name of both a thin client which used a television for display (rather than a computer monitor), and the online service supporting it.
+The product and service was developed by WebTV Networks, Inc., a company purchased by Microsoft Corporation and absorbed into MSN (the Microsoft Network). While most thin clients developed in the mid-1990s were positioned as diskless workstations for corporate intranets, WebTV was positioned as a consumer device for web access.
+The WebTV product was an adapter that allowed a television set to be connected to the Internet, primarily for web browsing and e-mail. The setup included a web browser, a corded or wireless (e.g., bluetooth or IRDA) keyboard and a connection, using a modem, ADSL, cable Internet access, or power line communication.
+While WebTV did not allow as much functionality as a computer-based web browser, it was a low-cost alternative to a traditional computer connection to the Internet.
+On July 1, 2013, an email was sent out to customers that the service would be shutting down on September 30, 2013, and customer service would be available until January 15, 2014.[1]
+
+
+
+Contents
+
+
+1 History
+
+1.1 Concept
+1.2 Early history
+1.3 Barely surviving to reach announcement
+1.4 The launch
+1.5 WebTV briefly classified as a weapon
+1.6 Microsoft takes notice
+
+
+2 WebTV Technology
+
+2.1 The WebTV set-top box
+2.2 MSN TV rebranding
+2.3 Broadband MSN TV
+
+
+3 WebTV/MSN TV client hardware
+4 See also
+5 References
+6 External links
+
+
+
+History[edit]
+Concept[edit]
+
+
+“
+I've been working to create an interactive television my entire life. I always knew it was a way of bringing computers to average people.
+”
+
+
+— Steve Perlman[2]
+
+
+Co-founder Steve Perlman is credited with the idea for the device. He first combined computer and television as a high-school student when he decided his home PC needed a graphics display. He went to build software for companies such as Apple and Atari. While working at the Apple spin-off, General Magic, the idea of bringing TVs and computers together resurfaced.
+One night, Perlman was browsing the web and came across a Campbell's soup website with recipes. He thought that the people who might be interested in what the site had to offer were not using the web.[3][4] It occurred to him that if the television audience was enabled by a device to augment television viewing with receiving information or commercial offers through the television, then perhaps the web address could act as a signal and the television cable could be the conduit.
+Early history[edit]
+A Silicon Valley startup,WebTV Networks was founded in July 1995. Perlman brought along co-founders Bruce Leak and Phil Goldman shortly after conceiving the basic concept.[3] The company operated out of half of a former BMW car dealership building on Alma Street in Palo Alto, California which was being used for storage by the Museum of American Heritage. WebTV had been able to obtain the space for very low rent, but it was suboptimal for technology development.[3]
+Before incorporation, the company referred to itself as Artemis Research to disguise the nature of its business. The info page of its original website[5] explained that it was studying "sleep deprivation, poor diet and no social life for extended periods on humans and dwarf rabbits". The dwarf rabbit reference was an inside joke among WebTV's hard-working engineers—Phil Goldman's pet house rabbit Bowser (inspiration for the General Magic logo) was often found roaming the WebTV building late into the night while the engineers were working—although WebTV actually received inquiries from real research groups conducting similar studies and seeking to exchange data.[3][6]
+The company hired many engineers and a few business development employees early on, having about 30 total employees by October 1995. Two early employees of Artemis were from Apple Inc: Andy Rubin, creator of the Android cell phone OS, and Joe Britt. Both men would later be two of the founders of Danger, Inc. (originally Danger Research).
+WebTV Networks' business model was to license a reference design to consumer electronics companies for a WebTV Internet Terminal, a set-top box that attached to a telephone line and automatically connected to the Internet through a dial-up modem. The consumer electronics companies' income was derived from selling the WebTV set-top box.[3] WebTV's income was derived from operating the WebTV Service, the Internet-based service to which the set-top boxes connected and for which it collected a fee from WebTV subscribers. The service provided features such as HTML-based email, and proxied websites accessed by the set-top box so as to make them display more efficiently on a television screen.[3]
+WebTV closed its first round of financing, US$1,500,000, from Marvin Davis in September, 1995 which it used to develop its prototype set-top box, using proprietary hardware and firmware. The company also used the financing to develop the online service that the set-top boxes connected to. WebTV leveraged their limited startup funds by licensing a reference design for the appliance to Sony and Philips. Eventually other companies would also become licensees and WebTV would profit on the monthly service fees. After 22 months, the company was sold to Microsoft for $425 million, with each of the three founders receiving $64 million.[7]
+Barely surviving to reach announcement[edit]
+By the spring of 1996 WebTV Networks employed approximately 70 people, many of them finishing their senior year at nearby Stanford University, or former employees of either Apple Computer or General Magic. WebTV had started negotiating with Sony to manufacture and distribute the WebTV set-top box, but negotiations had taken much longer than WebTV had expected, and WebTV had used up its initial funding. Steve Perlman liquidated his assets, ran up his credit cards and mortgaged his house to provide bridge financing while seeking additional venture capital. Because Sony had insisted upon exclusive distribution rights for the first year, WebTV had no other distribution partner in place, and just before WebTV was to close venture capital financing from Brentwood Associates, Sony sent WebTV a certified letter stating it had decided not to proceed with WebTV. It was a critical juncture for WebTV, because the Brentwood financing had been predicated on the expectation of a future relationship with Sony, and if Brentwood had decided to not proceed with the financing after being told that Sony had backed out, WebTV would have gone bankrupt and Perlman would have lost everything. But Brentwood decided to proceed with the financing despite losing Sony's involvement, and further financing from Paul Allen's Vulcan Ventures soon followed.[3][8]
+WebTV then proceeded to close a non-exclusive WebTV set-top box distribution deal with Philips, which provided competitive pressure causing Sony to change its mind, to resume its relationship with WebTV and also to distribute WebTV.[3][8]
+WebTV was announced on July 10, 1996, generating a large wave of press attention as not only the first television-based use of the World Wide Web, but also as the first consumer-electronics device to access the World Wide Web without a personal computer.[3][8] After the product's announcement, the company closed additional venture financing, including investments from Microsoft Corporation, Citicorp, Seagate Technology, Inc., Soros Capital, L.P., St. Paul Venture Capital and Times Mirror Company.[3][9]
+The launch[edit]
+WebTV was launched on September 18, 1996, within one year after its first round of financing, with WebTV set-top boxes in stores from Sony and Philips, and WebTV's online service running from servers in its tiny office, still based in the former BMW dealership.[3]
+The initial price for the WebTV set-top box was US$349 for the Sony version and US$329 for the Philips version, with a wireless keyboard available for about an extra US$50. The monthly service fee initially was US$19.95 per month for unlimited Web surfing and e-mail.[6][8]
+There was little difference between the first Sony and the Philips WebTV set-top boxes, except for the housing and packaging. The WebTV set-top box had very limited processing and memory resources (just a 112 MHz MIPS CPU, 2 megabytes of RAM, 2 megabytes of ROM, 1 megabyte of Flash memory) and the device relied upon a connection through a 33.6 kbit/s dialup modem to connect to the WebTV Service, where powerful servers provide back-end support to the WebTV set-top boxes to support a full Web-browsing and email experience for the subscribers.[8]
+Initial sales were slow. By April 1997, WebTV had only 56,000 subscribers,[8] but the pace of subscriber growth accelerated after that, achieving 150,000 subscribers by Autumn 1997,[10] about 325,000 subscribers by April 1998[11] and about 800,000 subscribers by May 1999.[12][13] WebTV achieved profitability by Spring 1998, and grossed over US$1.3 billion in revenue through its first 8 years of operation. In 2005 WebTV was still grossing US$150 million per year in revenue with 65% gross margin.[8]
+WebTV briefly classified as a weapon[edit]
+Because WebTV utilized strong encryption, upon launch in 1996, WebTV was classified as munitions (a military weapon) by the United States government and was therefore barred from export under United States security laws at the time. Because WebTV was widely distributed in consumer electronic stores under the Sony and Philips brands for only US$325, its munitions classification was used to argue that the US should no longer consider devices incorporating strong encryption to be munitions, and should permit their export. WebTV obtained a special exemption permitting its export, despite the strong encryption, and shortly thereafter, laws concerning export of cryptography in the United States were changed to generally permit the export of strong encryption.[14]
+Microsoft takes notice[edit]
+In February 1997, in an investor meeting with Microsoft, Steve Perlman was approached by Microsoft's Senior Vice President for Consumer Platforms Division, Craig Mundie. Despite the fact that the initial WebTV sales had been modest, Mundie expressed that Microsoft was impressed with WebTV and saw significant potential both in WebTV's product offering and in applying the technology to other Microsoft consumer and video product offerings. Microsoft offered to acquire WebTV, build a Microsoft campus in Silicon Valley around WebTV, and establish WebTV as a Microsoft division to develop television-based products and services, with Perlman as the division's president.[3][8]
+Discussions proceeded rapidly, involving Bill Gates, then CEO of Microsoft, personally. Gates called Perlman at his home on Easter Sunday in March 1997, and Perlman described to Gates WebTV's next generation products in development, which would be the first consumer devices to incorporate hard disks, including the WebTV Plus, and the WebTV Digital Video Recorders. Gates' interest was piqued, and negotiations between Microsoft and WebTV rapidly proceeded to closure, with both sides working around the clock to get the deal done.[3][8] Indeed, the parties were unaware that they were losing an hour of negotiation the night before the planned announcement due to the change to Daylight Saving Time, and they almost did not have enough time to close the deal.[3]
+On Sunday, April 6, 1997, 20 months after WebTV's founding, and only six weeks after negotiations with Microsoft began, during a scheduled speech at the National Association of Broadcasters conference in Las Vegas, Nevada, Craig Mundie announced that Microsoft had acquired WebTV. The acquisition price was US$503 million, but WebTV was so young a company that most of the employees' stock options had yet to be vested. As such, the vested shares at the time of the announcement amounted to US$425 million, and that was the acquisition price announced.[3][9]
+Subsequent to the acquisition, WebTV became a Silicon Valley-based division of Microsoft, with Steve Perlman as its president. The WebTV division began developing most of Microsoft's television-based products, including the first satellite Digital Video Recorders (the DishPlayer for EchoStar's Dish Network and UltimateTV for DirecTV), Microsoft's cable TV products, the Xbox 360 hardware, and Microsoft's Mediaroom IPTV platform.[8][15][16]
+In May 1999, America Online announced that it was going to compete directly with Microsoft in delivering Internet over television sets by introducing AOL TV.[13]
+In June 1999, Steve Perlman left Microsoft and started Rearden, a business incubator for new companies in media and entertainment technology.[15]
+WebTV Technology[edit]
+The WebTV set-top box[edit]
+Since the WebTV set-top box was a dedicated web browser appliance that did not need to be based on a standard operating system, the cost of licensing an operating system could be avoided. The box featured a 64-bit RISC CPU chip, and a smart card reader. The smart card reader was not utilized significantly. The web browser was compatible with both Netscape Navigator and Microsoft Internet Explorer and the WebTV set-top box featured 2 MB of RAM. The first WebTV set-top boxes had a 33.6 kbit/s modem, and later versions had 56kbit/s modems. The WebTV set-top boxes used a caching proxy for acceleration capable of reformatting and compressing web pages, a feature generally unavailable to dialup ISPs users at the time and as such, had to be developed by WebTV. For web browsing purposes, given WebTV's thin client software, there was no need for a hard disk, but by putting the browser in non-volatile memory, upgrades could be downloaded from the WebTV service.
+One interesting feature of the WebTV set-top box was that, while downloading TV schedule information overnight, it would also check to see if there was any email waiting. If there was, it would illuminate a red LED on the device so the consumer would know it was worth connecting to pick up their mail.
+A second model, the "Plus", was introduced a year later. This model featured a tuner to allow watching television in a PIP (Picture-In-Picture) window while waiting for pages to arrive, allowed one to capture video stills from video camera, VCR or broadcast television as a JPEG, and included a video tuner that allowed one to schedule a VCR in a manner like TiVo allowed several years later. The Plus also included a 56k modem. In order to accommodate large nightly downloads of television schedules, a hard drive was included in the original Plus; as chip prices fell faster than hard drive prices, later versions of the Plus used an M-systems DiskOnChip flashrom chip instead. It also supported ATVEF, a technology that allowed users to download special script-laden pages to interact with television shows.
+WebTV produced reference designs of models incorporating a disk-based personal video recorder and a satellite tuner for EchoStar's Dish Network (called "Dishplayer"[17]) and for DirecTV (called "UltimateTV").[18] In 2001, EchoStar sued Microsoft for failing to support the WebTV Dishplayer.[19] EchoStar subsequently sought to acquire DirecTV and was the presumptive acquirer, but EchoStar was ultimately blocked by the Federal Communications Commission.[20] While EchoStar's lawsuit against Microsoft was in process, DirecTV (presumptively acquired by EchoStar, and in control by EchoStar) dropped UltimateTV (thus ending Microsoft's satellite product initiatives) and picked TiVo's DirecTV product as its only Digital Video Recorder offering.
+As an ease-of-use design consideration, WebTV early decided to reformat pages rather than have users doing sideways scrolling. As entry-level PCs evolved from VGA resolution of 640ⅹ480 to SVGA resolution of 800ⅹ600, and web site dimensions followed suit, reformatting the PC-sized web pages to fit the 560-pixel width of a United States NTSC television screen became less satisfactory. The WebTV browser also translated HTML frames as tables in order to avoid the need for a mouse. To address these problems, the engineers at WebTV developed the MSN Companion, which was another easy-to-use thin client which used an SVGA monitor and mouse. Both Compaq and e-Machines marketed the Companion, Compaq producing it in multiple models. However, being substantially more expensive than WebTV (which at this time was typically $50 after rebate) and lacking many features that PC users and WebTV users found standard, the Companion never found a customer base.
+Security was always an issue with WebTV. Hackers ran through the system freely, forcing WebTV to terminate customers who were unaware their accounts had been hacked, and to change the privacy policy without letting customers know.[21]
+MSN TV rebranding[edit]
+
+
+
+
+MSN TV logo
+
+
+In July 2001, six years after WebTV's founding, Microsoft rebranded WebTV as MSN TV,[22] and the WebTV division was dissolved, although the WebTV engineers continued to work for Microsoft, many of them working on Microsoft's Xbox video game system or Microsoft IPTV technology, offering television programming over the internet. Microsoft's MSN unit took over WebTV's subscribers, and contracts with Philips and Sony were terminated, with RCA becoming terminated. Promotion of the WebTV brand ended.
+In recent years, the number of consumers using dialup access has dropped and as the Classic and Plus clients were restricted to dialup access, their subscriber count began to drop. Because the WebTV client was subsidized hardware, the company had always required individual subscriptions for each box, but with the subsidies ended, MSN started offering free use of MSN TV boxes to their computer users who subscribed to MSN, as an incentive to not stray to discount dialup ISPs.
+Broadband MSN TV[edit]
+In 2001, Rogers Cable partnered with Microsoft to introduce “Rogers Interactive TV” in Canada. The service enabled Rogers' subscribers to access the Web via their TV sets, create their own websites, shop online, chat, and access e-mail. This initiative was the first broadband implementation of MSN TV.
+In late 2004, Microsoft introduced MSN TV2. Like the MSN Companion, the "Deuce" was capable of broadband access, and allowed the use of a mouse, but it used the television as an output device, eliminating the need for a computer desk in crowded homes.
+For inexpensive devices, the cost of licensing the operating system is substantial. For Microsoft, however, it would be actualizing a sunk cost, and when Microsoft released the MSNTV2 model, they adopted standard PC architecture and used Windows CE software with few changes. This allowed a standard PC to be used with relatively few changes, allowing MSNTV2 to more easily and inexpensively keep current. The new box had Adobe Reader, Windows Media Player, and could access Windows computers on a home network to function as a media player. MSNTV2 used a different online service from MSNTV, but like WebTV did, required a subscription. For those with broadband, the fee was US$99 yearly.
+WebTV/MSN TV client hardware[edit]
+
+
+
+Brand
+Model
+Type
+Modem
+RAM
+ROM
+Storage
+CPU speed
+CPU chip
+Latest Software Version
+
+
+Sony
+INT-W100
+Classic
+V.34
+2 MB (2 MiB)
+2 MB (2 MiB)
+2 MB
+112 MHz
+R4640
+2.5.9.1mpeg
+2.5.9.1print
+
+
+Philips
+MAT-960
+Classic
+V.34
+2 MB
+2 MB
+2 MB
+112 MHz
+R4640
+2.5.9.1mpeg
+2.5.9.1print
+
+
+Sony
+INT-WJ200
+Classic (Japan)
+V.90
+8 MB
+4 MB
+1.1 GB
+150 MHz
+R4640
+
+
+
+Sony
+INT-W150
+New Classic
+V.90
+8 MB
+2 MB
+2 MB
+150 MHz
+RM5230
+2.9.1
+
+
+Philips
+MAT-965
+New Classic
+V.90
+8 MB
+2 MB
+2 MB
+150 MHz
+RM5230
+2.9.1
+
+
+RCA
+RW-2100
+New Classic
+V.90
+8 MB
+2 MB
+2 MB
+150 MHz
+RM5230
+2.9.1
+
+
+Sony
+INT-W200
+Plus
+V.90
+8 MB
+2 MB
+1.1 GB
+150 MHz
+R4640
+2.9.1
+
+
+Sony
+INT-W200B
+Derby Plus
+V.90
+8 MB
+2 MB
+1.1 GB
+167 MHz
+RM5230
+
+
+
+Philips
+MAT-972
+Plus
+V.90
+8 MB
+2 MB
+1.1 GB
+150 MHz
+R4640
+2.9.1
+
+
+Samsung
+SIS-100
+Plus
+V.90
+8 MB
+2 MB
+1.1 GB
+150 MHz
+R4640
+2.9.1
+
+
+Mitsubishi
+RW-2000
+Plus
+V.90
+8 MB
+2 MB
+1.1 GB
+150 MHz
+R4640
+2.9.1
+
+
+Mitsubishi
+RW-2001
+Plus
+V.90
+8 MB
+2 MB
+1.1 GB
+150 MHz
+R4640
+2.9.1
+
+
+Sony
+INT-WJ300
+Plus (Japan)
+V.90
+16 MB
+4 MB
+1.1 GB
+167 MHz
+RM5230
+
+
+
+RCA
+RW-2110
+New Plus
+V.90
+16 MB
+8 MB
+2 MB
+167 MHz
+RM5230
+2.9.1
+
+
+Sony
+INT-W250
+New Plus
+V.90
+16 MB
+8 MB
+2 MB
+167 MHz
+RM5230
+2.9.1
+
+
+Philips
+MAT-976
+New Plus
+V.90
+16 MB
+8 MB
+2 MB
+167 MHz
+RM5230
+2.9.1
+
+
+Echostar
+Dishplayer 7100
+DISH tuner
+V.90
+16 MB
+4 MB
+8.6 GB
+167 MHz
+RM5230
+
+
+
+Echostar
+Dishplayer 7200
+DISH tuner
+V.90
+16 MB
+4 MB
+17.6 GB
+167 MHz
+RM5230
+
+
+
+RCA
+UltimateTV
+DirecTV tuner
+V.90
+16 MB
+4 MB
+40 GB
+167 MHz
+RM5230
+
+
+
+RCA
+RM-4100
+MSNTV2
+V.90
+128 MB
+none
+64 MB
+733 MHz
+Celeron
+
+
+
+RCA
+RM-4100 (2)
+MSNTV2
+V.90
+256 MB
+none
+64 MB
+733 MHz
+Celeron
+
+
+
+
+MSN TV2, the latest version of MSN TV, is an Internet & Media Player that requires no software to buy or install. It includes: an internet media player, a wireless remote, a wireless keyboard, a telephone line T-splitter, a phone cord, an audio/video cable and a power supply.[23]
+In February 2006, Chris Wade analyzed the proprietary BIOS, and added a sophisticated memory patch which allowed it to be flashed and used to boot Linux on the MSN TV2 player.[24]
+Work continues on the task of replacing the proprietary BIOS in the MSN TV2 and similar devices.[25] An open-source solution to enabling TV output was made available in 2009.[26]
+MSN TV hardware is no longer being sold by Microsoft although service briefly continued for existing users. On the "MSN TV Website", a message stated "Sorry, MSN TV hardware is no longer available for purchase from Microsoft. Microsoft continues to support the subscription service for existing WebTV and MSN TV customers."[23]
+As of September 30, 2013, MSN TV/WebTV service closed. Existing customers were offered MSN Dial-Up Internet Access account with a promotion. Customer service was available for non-technical and billing questions until January 15, 2014.[1]
+See also[edit]
+
+Microsoft Venus
+Set-top box
+SmartTV
+AOL TV
+Google TV
+
+References[edit]
+
+
+^ a b MSN TV: Closure FAQ. Webtv.com. Retrieved on 2013-08-23.
+^ Cade Metz. "25 Years of PC Magazine: Year Fifteen 1996." July 11, 2007
+^ a b c d e f g h i j k l m n o Fortgang, Ron S.; Sebenius, James K. (1999-04-19), "Steve Perlman and WebTV (A & B)", Harvard Business Review 
+^ Hof, Robert D. (1997-03-24), "WebTV: Hello, Couch Potatoes", BusinessWeek 
+^ Artemis Research, archived from the original on January 31, 2014, retrieved 22 December 2015 
+^ a b Wildstrom, Stephen H. (1996-09-16), "A Web-surfing Box for Peanuts", BusinessWeek 
+^ Wallack, Todd (2003-12-30). "Phil Goldman -- entrepreneur, WebTV founder". December 30, 2003 : San Francisco Chronicle. Retrieved 2006-12-08. 
+^ a b c d e f g h i j Livingston, Jessica (2007), Founders at Work: Stories of Startups Early Days, Academic Press, pp. 173–90 
+^ a b "Form S-4 Registration Statement, Registrants Microsoft Corporation and WebTV Networks, Inc.", Securities and Exchange Commission, 1997-05-02 
+^ Metz, Cade (2007-07-11), "25 Years of PC Magazine: Year Fifteen – 1996", PC Magazine 
+^ Mundie, Craig (1998-04-07), "National Association of Broadcasters Conference" (speech transcript), Presspass, Microsoft 
+^ "WebTV Networks Launches Next-Generation WebTV Classic and Plus Products; Provides Free Service Upgrade" (press release), Presspass, Microsoft, 1999-06-02 
+^ a b Richtel, Matt (1999-05-12), "America Online Challenges Microsoft's WebTV", New York Times 
+^ Markoff, John (1996-11-08), "U.S. Classifies a Device to Surf the Web as a Weapon", New York Times 
+^ a b "Steve Perlman Biography". Rearden. Retrieved 2009-12-20. 
+^ Takahashi, Dean (2006), The Xbox 360 Uncloaked: The Real Story Behind Microsoft's Next-Generation Video Game Console, SpiderWorks/Lulu Press, pp. 60–69, ISBN 0-9777842-1-5 
+^ "The DishPlayer Experience", Voice, Net4TV 
+^ "RCA's Personal TV Play", Voice, Net4TV 
+^ Chart beat bonus, Billboard, archived from the original on November 3, 2012 
+^ EchoStar's DirecTV bid blocked by FCC, MarketWatch 
+^ "WebTV'er MattMan69 TOS'ed For Secret Pics," April 11, 1999, Net4TV Voice. Retrieved 2013-08-13.
+^ "WebTV Internet Service Renamed MSN TV Service" (press release), Presspass, Microsoft, 2001-07-18 
+^ a b MSN TV (homepage), Microsoft 
+^ Msntv2 Linux port, archived from the original on 2011-09-21 
+^ coreboot 
+^ Set-Top-Linux 
+
+
+External links[edit]
+
+MSN TV, Microsoft  (archive.is).
+GNU/Linux on the MSN TV 2, toc2rta .
+MAME on your WebTV Plus, TURDinc .
+MSN TV 2 Internet & Media Player (review), The gadgeteer 
+"WebTV/MSNTV Upgrades", Nytak (list), Tripod 
+
+
+
+
+
+
+
+v
+t
+e
+
+
+MSN software and services
+
+
+
+
+
+
+Websites
+
+
+
+MSN
+MSN Games
+MSN Travel
+
+
+
+
+
+
+
+
+U.S. services
+
+
+
+MSN Dial-up
+
+
+
+
+
+
+
+
+Localised services
+
+
+
+MSN China
+ninemsn
+
+
+
+
+
+
+
+
+Rebranded
+
+
+
+Bing
+Bing Ads
+Bing Maps
+Calendar
+Desktop Search
+Messenger
+Outlook.com
+Shopping
+Toolbar
+Windows Live
+
+
+
+
+
+
+
+
+Divested by Microsoft
+
+
+
+Expedia
+MSNBC
+NBCNews.com
+Sidewalk.com
+Slate
+
+
+
+
+
+
+
+
+Discontinued
+
+
+
+Chat
+Companion
+Direct
+Encarta encyclopedia
+Groups
+Music
+Soapbox
+Spaces
+QnA
+TV
+WiFi Hotspots
+Xinmsn
+
+
+
+
+
+
+
+
+
+
+
+ List
+ Category
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Microsoft
+
+
+
+
+
+
+
+
+
+History
+All topics
+
+
+
+
+
+
+
+
+People
+(list)
+
+
+
+
+
+Founders
+
+
+
+
+Bill Gates
+Paul Allen
+
+
+
+
+
+
+
+
+
+Board of directors
+
+
+
+
+John W. Thompson (Chairman)
+Satya Nadella (CEO)
+Dina Dublon
+Maria Klawe
+David Marquardt
+Charles Noski
+Helmut Panke
+Mason Morfit
+John W. Stanton
+
+
+
+
+
+
+
+
+
+Senior leadership team
+
+
+
+
+Satya Nadella (CEO)
+Scott Guthrie
+Amy Hood (CFO)
+Terry Myerson
+Harry Shum
+Kevin Turner (COO)
+
+
+
+
+
+
+
+
+
+Corporate VPs
+
+
+
+
+Joe Belfiore
+Richard Rashid (SVP)
+S. Somasegar (SVP)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Divisions
+
+
+
+Engineering groups
+
+Mobile
+Skype unit
+
+
+Digital Crimes Unit
+Garage
+Press
+Research
+Studios
+.NET Foundation
+Outercurve Foundation
+
+
+
+
+
+
+
+
+Estates
+
+
+
+Microsoft Redmond campus
+Microsoft Talo
+Microsoft Algeria
+Microsoft Egypt
+Microsoft India
+Microsoft Japan
+
+
+
+
+
+
+
+
+Product families
+
+
+
+Operating systems
+
+Windows
+
+
+Software
+
+Office
+Servers
+Visual Studio
+
+
+Hardware
+
+HoloLens
+Surface
+Xbox
+
+
+
+
+
+
+
+
+
+
+Web properties
+
+
+
+Bing
+Channel 9
+CodePlex
+Developer Network
+MSN
+Office.com
+OneDrive
+Outlook.com
+TechNet
+Windows Store
+
+
+
+
+
+
+
+
+Conferences
+
+
+
+Build
+MIX
+PDC
+TechEd
+WinHEC
+WPC
+
+
+
+
+
+
+
+
+Criticism
+
+
+
+Bundling of Microsoft Windows
+Clippy
+iLoo
+Internet Explorer
+Microsoft Bob
+_NSAKEY
+Windows
+
+2000
+ME
+XP
+Vista
+
+
+Xbox 360
+
+
+
+
+
+
+
+
+Litigation
+
+
+
+Alcatel-Lucent v. Microsoft
+Apple v. Microsoft
+European Union Microsoft competition case
+Microsoft v. Lindows
+Microsoft vs. MikeRoweSoft
+Microsoft v. Shah
+United States v. Microsoft
+
+
+
+
+
+
+
+
+Acquisitions
+
+
+
+6Wunderkinder
+Altamira Software
+aQuantive
+Azyxxi
+The Blue Ribbon SoundWorks
+Bungie
+Calista Technologies
+Colloquis
+Connectix
+Consumers Software
+Danger
+Farecast
+FASA Studio
+Fast Search & Transfer
+Firefly
+Forethought
+GIANT Company Software
+GreenButton
+Groove Networks
+High Heat: Major League Baseball
+Hotmail
+Jellyfish.com
+LinkExchange
+Lionhead Studios
+Maluuba
+Massive Incorporated
+Mobile Data Labs
+Mojang
+Nokia Devices and Services
+Onfolio
+Pando Networks
+Perceptive Pixel
+PlaceWare
+Powerset
+ProClarity
+Rare
+Revolution Analytics
+ScreenTonic
+Secure Islands
+Skype
+Sunrise Atelier
+SwiftKey
+Winternals Software
+Teleo
+Telekinesys Research
+Tellme Networks
+Twisted Pixel Games
+Vermeer Technologies
+Visio Corporation
+Vivaty (defunct)
+VoloMetrix
+VXtreme
+WebTV Networks
+Xamarin
+Yammer
+Yupi
+LinkedIn
+
+
+
+
+
+
+
+
+
+
+
+ Category
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Web browsers
+
+
+
+
+
+
+
+
+
+Comparison
+
+lightweight
+
+
+History
+List
+
+for Unix
+
+
+Timeline
+Usage share
+
+
+
+
+
+
+
+
+
+
+
+
+Features
+
+
+
+Ad filtering
+Augmented browsing
+Bookmarks
+
+Bookmarklet
+Live bookmark
+Smart Bookmarks
+
+
+Browser extension
+Browser security
+Browser synchronizer
+
+comparison
+
+
+Cookies
+Download manager
+Favicon
+Incremental search
+Plug-in
+Privacy mode
+Tabs
+Universal Edit Button
+
+
+
+
+
+
+
+
+Web standards
+
+
+
+Acid tests
+Cascading Style Sheets
+HTML
+HTML5
+JavaScript
+MathML
+OCSP
+SVG
+WebGL
+XHTML
+
+
+
+
+
+
+
+
+Related topics
+
+
+
+BrowserChoice.eu
+CRL
+HTTP
+HTTPS
+iLoo
+Internet suite
+Man-in-the-browser
+Mobile Web
+Offline reader
+PAC
+Pwn2Own
+Rich Internet application
+Site-specific browser
+SPDY
+SSL/TLS
+WebSocket
+Widget
+World Wide Web
+WPAD
+XML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Desktop
+
+
+
+
+
+
+
+
+
+
+Blink-based
+
+
+
+Chromium
+
+Brave
+Chrome
+Dragon
+Opera
+Sleipnir
+Slimjet
+SRWare Iron
+UC Browser
+Vivaldi
+Yandex.Browser
+Sputnik
+
+
+
+
+
+
+
+
+
+
+WebKit-based
+
+
+
+Arora
+Avant
+Dooble
+Epic
+Flock
+Fluid
+iCab
+Konqueror
+Lunascape
+Maxthon
+Midori
+OmniWeb
+Origyn Web Browser
+Otter Browser
+QtWeb
+QupZilla
+rekonq
+Safari
+Shiira
+SlimBoat
+surf
+Torch
+Uzbl
+Web
+WebPositive
+xombrero
+
+
+
+
+
+
+
+
+Trident-based
+
+
+
+AOL Explorer
+Avant
+Deepnet Explorer
+GreenBrowser
+Internet Explorer
+Lunascape
+Maxthon
+MediaBrowser
+MenuBox
+NeoPlanet
+NetCaptor
+SlimBrowser
+SpaceTime
+UltraBrowser
+WebbIE
+ZAC Browser
+
+
+
+
+
+
+
+
+Gecko-based
+
+
+
+AT&T Pogo
+Avant
+Camino
+Firefox
+
+Conkeror
+GNU IceCat
+IceDragon
+Swiftfox
+Swiftweasel
+TenFourFox
+Timberwolf
+Tor Browser
+Waterfox
+xB Browser
+
+
+Galeon
+Ghostzilla
+K-Meleon
+Kazehakase
+Kirix Strata
+Lotus Symphony
+Lunascape
+Mozilla
+
+Beonex Communicator
+Classilla
+Netscape
+SeaMonkey
+
+
+
+
+
+
+
+
+
+
+Text-based
+
+
+
+ELinks
+Emacs/W3
+Line Mode Browser
+Links
+Lynx
+w3m
+
+
+
+
+
+
+
+
+Other
+
+
+
+abaco
+Amaya
+Arachne
+Arena
+Charon
+Dillo
+eww
+Gazelle
+HotJava
+IBM Home Page Reader
+IBrowse
+KidZui
+Microsoft Edge
+Mosaic
+Mothra
+NetPositive
+NetSurf
+Pale Moon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Mobile
+
+
+
+
+
+
+
+
+
+
+Blink-based
+
+
+
+Android Browser
+Chromium
+
+Brave
+Chrome
+Opera Mobile
+Silk
+
+
+
+
+
+
+
+
+
+
+WebKit-based
+
+
+
+BOLT
+Dolphin Browser
+Firefox for iOS
+Maxthon
+Mercury Browser
+Nokia Browser for Symbian
+Rockmelt
+Safari
+Steel
+
+
+
+
+
+
+
+
+Trident-based
+
+
+
+Maxthon
+
+
+
+
+
+
+
+
+Gecko-based
+
+
+
+Firefox for Android
+MicroB
+Minimo
+
+
+
+
+
+
+
+
+Presto-based
+
+
+
+Opera Mini
+
+
+
+
+
+
+
+
+Other
+
+
+
+Blazer
+CM Browser
+Deepfish
+ibisBrowser
+Internet Explorer Mobile
+Iris Browser
+Konqueror Embedded
+Microsoft Edge
+NetFront
+Nokia Xpress
+Skweezer
+Skyfire
+Teashark
+ThunderHawk
+UC Browser
+Vision
+WinWAP
+Smooz(ja)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Television and video game console
+
+
+
+
+
+
+
+
+
+
+WebKit-based
+
+
+
+Google TV
+Nintendo 3DS Internet Browser
+Nintendo DS & DSi Browser
+NetFront
+Steam Overlay
+Wii U Internet Browser
+
+
+
+
+
+
+
+
+Gecko-based
+
+
+
+Kylo
+
+
+
+
+
+
+
+
+Presto-based
+
+
+
+Internet Channel
+
+
+
+
+
+
+
+
+Other
+
+
+
+MSN TV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software no longer in development shown in italics
+
+
+ Category
+ Commons
+ Internet portal
+ Software portal
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=MSN_TV&oldid=764699270"					
+Categories: Interactive televisionInternet televisionMSNThin clients 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+CatalàDeutschEspañolItalianoNederlands日本語PolskiPortuguêsРусскийTürkçe中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 10 February 2017, at 12:29.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.336","walltime":"0.386","ppvisitednodes":{"value":2864,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":184954,"limit":2097152},"templateargumentsize":{"value":12754,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  262.794      1 -total"," 51.91%  136.406      1 Template:Reflist"," 43.92%  115.409     26 Template:Citation"," 17.28%   45.401      1 Template:Web_browsers"," 16.36%   42.982      1 Template:Navbox_with_collapsible_groups"," 15.78%   41.468      7 Template:Navbox","  6.33%   16.626      1 Template:MSN_services","  6.29%   16.540      1 Template:Microsoft_products","  3.56%    9.355      2 Template:Portal-inline","  3.23%    8.486      6 Template:Icon"]},"scribunto":{"limitreport-timeusage":{"value":"0.124","limit":"10.000"},"limitreport-memusage":{"value":3010468,"limit":52428800}},"cachereport":{"origin":"mw1287","timestamp":"20170211001959","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":75,"wgHostname":"mw1273"});});

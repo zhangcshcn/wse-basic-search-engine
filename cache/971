@@ -1,0 +1,191 @@
+ 
+
+
+
+
+
+Shortcut: WD:PPP
+
+Wikidata:Page protection policy
+
+From Wikidata
+
+
+					Jump to:					navigation, 					search
+
+Translate this pageWD:PPP redirects here. For Wikidata:Property proposal/Person, use the shortcut WD:PP/P.
+
+Other languages:
+বাংলা • ‎català • ‎čeština • ‎dansk • ‎Deutsch • ‎Ελληνικά • ‎English • ‎español • ‎فارسی • ‎suomi • ‎français • ‎galego • ‎ગુજરાતી • ‎Bahasa Indonesia • ‎italiano • ‎日本語 • ‎ქართული • ‎한국어 • ‎Ripoarisch • ‎Lëtzebuergesch • ‎latviešu • ‎македонски • ‎Nederlands • ‎occitan • ‎polski • ‎português • ‎português do Brasil • ‎русский • ‎српски / srpski • ‎ไทย • ‎українська • ‎اردو • ‎中文
+
+
+
+
+This page documents a Wikidata policy. It is a widely accepted standard that all editors should normally follow. Changes made to it should reflect consensus. When in doubt, discuss your idea on the project chat.
+
+
+This page contains Wikidata's protection policy.
+Admins will protect pages for short amounts of time to prevent vandalism or spam which repeatedly occurs on them. This action should generally be done after a pattern of vandalism or spam can already be seen in the page's history, but for high-use pages such as the main page it can be done without such history.
+Examples of high-use pages include the main page and the community portal.
+A list of protected pages can be found at Special:ProtectedPages.
+Protection types[edit]
+There are three kinds of protection that can be applied to existing pages.
+
+Semi-protection (symbolized by ) allows only autoconfirmed users/confirmed users to edit the page.
+Full protection (symbolized by  or ) only allows administrators to edit the page.
+Move protection (symbolized by ) does not affect who can edit pages, but does prevent anyone except for administrators from moving affected pages to new locations. Most high traffic pages are move protected. Move protection cannot be applied to items or properties.
+
+
+Create-protection (symbolized by , for both full and semi-create protection) can be applied to deleted or nonexistent pages. Like move protection, however, it cannot be applied to deleted items or properties.
+
+Full create protection prevents the page from being created except by administrators.
+Semi-create protection also allows autoconfirmed and confirmed users to create.
+
+
+
+In extremely rare circumstances the Wikimedia Foundation will protect a page as an office action (symbolized by ). Office actions only occur as the result of a formal complaint made off-wiki, are always publicly declared as office actions, and are only done by members of the Wikimedia Foundation staff or its Board of Trustees. Office actions cannot be undone without the express permission of the Wikimedia Foundation. Administrators who do so without permission risk being summarily desysopped. There are not currently any office-protected pages on Wikidata.
+
+
+
+Admin policies
+
+
+
+
+Deletion
+
+of revisions
+
+
+Blocking
+Page protection
+Common sense
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://www.wikidata.org/w/index.php?title=Wikidata:Page_protection_policy&oldid=310630379"					
+Categories: Wikidata policiesWikidata:Page protection policyWikidata-en 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+EnglishNot logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageCommunity portalProject chatCreate a new itemItem by titleRecent changesRandom itemQuery ServiceNearbyHelpDonate 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikinewsWikipediaWikiquoteWikisourceWikiversityWikivoyage 
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+In Wikipedia
+
+
+AfrikaansAragonésÆngliscالعربيةمصرىঅসমীয়াবাংলাCatalàCebuanoČeštinaCymraegDanskDeutschދިވެހިބަސްΕλληνικάEnglishEsperantoEspañolEestiفارسیSuomiFøroysktFrançaisGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaIlokanoÍslenskaItaliano日本語Basa Jawaქართულიភាសាខ្មែរ한국어KurdîLatinaLëtzebuergeschLietuviųМакедонскиМонголBahasa MelayuMaltiမြန်မာဘာသာनेपालीNederlandsNorsk bokmålଓଡ଼ିଆPolskiPortuguêsRomânăРусскийСаха тылаSarduSängöසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaСрпски / srpskiBasa SundaSvenskaதமிழ்తెలుగుไทยTürkçeУдмуртУкраїнськаOʻzbekcha/ўзбекчаTiếng Việtייִדיש中文粵語 
+Edit links 
+
+
+
+
+
+ This page was last modified on 6 March 2016, at 13:49.
+All structured data from the main and property namespace is available under the Creative Commons CC0 License;
+text in the other namespaces is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+
+
+Privacy policy
+About Wikidata
+Disclaimers
+Developers
+Cookie statement
+Mobile view
+Data access
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.080","walltime":"0.164","ppvisitednodes":{"value":367,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":6004,"limit":2097152},"templateargumentsize":{"value":1204,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"entityaccesscount":{"value":0,"limit":500},"timingprofile":["100.00%  142.975      1 -total"," 18.60%   26.599      1 Template:Policy"," 16.37%   23.407      1 Template:Policy/text/en"," 15.94%   22.791      1 Template:Ombox","  8.52%   12.180      1 Template:Shortcut","  6.92%    9.899      1 Template:TNT","  2.86%    4.095      1 Template:Policies/layout","  2.30%    3.289      1 Template:LangSwitch","  1.32%    1.883      2 Template:Basepage_subpage","  1.25%    1.789      1 Template:Translation_categories"]},"scribunto":{"limitreport-timeusage":{"value":"0.012","limit":"10.000"},"limitreport-memusage":{"value":853592,"limit":52428800}},"cachereport":{"origin":"mw1243","timestamp":"20170210212819","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":66,"wgHostname":"mw1216"});});

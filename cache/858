@@ -1,0 +1,749 @@
+ 
+
+
+
+
+
+
+Substring
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+This article is about definition of a substring. For the computer function which performs this operation, see String functions (programming).
+A substring of a string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is another string 
+
+
+
+
+S
+′
+
+
+
+{\displaystyle S'}
+
+ that occurs "in" 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. For example, "the best of" is a substring of "It was the best of times". This is not to be confused with subsequence, which is a generalization of substring. For example, "Itwastimes" is a subsequence of "It was the best of times", but not a substring.
+Prefix and suffix are special cases of substring. A prefix of a string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a substring of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ that occurs at the beginning of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. A suffix of a string 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a substring that occurs at the end of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+.
+
+
+
+Contents
+
+
+1 Substring
+2 Prefix
+3 Suffix
+4 Border
+5 Superstring
+6 See also
+7 References
+
+
+
+Substring[edit]
+A substring (or factor) of a string 
+
+
+
+T
+=
+
+t
+
+1
+
+
+…
+
+t
+
+n
+
+
+
+
+{\displaystyle T=t_{1}\dots t_{n}}
+
+ is a string 
+
+
+
+
+
+
+T
+^
+
+
+
+=
+
+t
+
+1
++
+i
+
+
+…
+
+t
+
+m
++
+i
+
+
+
+
+{\displaystyle {\hat {T}}=t_{1+i}\dots t_{m+i}}
+
+, where 
+
+
+
+0
+≤
+i
+
+
+{\displaystyle 0\leq i}
+
+ and 
+
+
+
+m
++
+i
+≤
+n
+
+
+{\displaystyle m+i\leq n}
+
+. A substring of a string is a prefix of a suffix of the string, and equivalently a suffix of a prefix. If 
+
+
+
+
+
+
+T
+^
+
+
+
+
+
+{\displaystyle {\hat {T}}}
+
+ is a substring of 
+
+
+
+T
+
+
+{\displaystyle T}
+
+, it is also a subsequence, which is a more general concept. Given a pattern 
+
+
+
+P
+
+
+{\displaystyle P}
+
+, you can find its occurrences in a string 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ with a string searching algorithm. Finding the longest string which is equal to a substring of two or more strings is known as the longest common substring problem.
+Example: The string ana is equal to substrings (and subsequences) of banana at two different offsets:
+
+banana
+ |||||
+ ana||
+   |||
+   ana
+
+In the mathematical literature, substrings are also called subwords (in America) or factors (in Europe).
+Not including the empty substring, the number of substrings of a string of length 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ where symbols only occur once, is the number of ways to choose two distinct places between symbols to start/end the substring. Including the very beginning and very end of the string, there are 
+
+
+
+n
++
+1
+
+
+{\displaystyle n+1}
+
+ such places. So there are 
+
+
+
+
+
+
+
+(
+
+
+
+n
++
+1
+
+2
+
+
+)
+
+
+
+
+=
+
+
+
+
+n
+(
+n
++
+1
+)
+
+2
+
+
+
+
+
+{\displaystyle {\tbinom {n+1}{2}}={\tfrac {n(n+1)}{2}}}
+
+ non-empty substrings.
+Prefix[edit]
+A prefix of a string 
+
+
+
+T
+=
+
+t
+
+1
+
+
+…
+
+t
+
+n
+
+
+
+
+{\displaystyle T=t_{1}\dots t_{n}}
+
+ is a string 
+
+
+
+
+
+
+T
+^
+
+
+
+=
+
+t
+
+1
+
+
+…
+
+t
+
+m
+
+
+
+
+{\displaystyle {\widehat {T}}=t_{1}\dots t_{m}}
+
+, where 
+
+
+
+m
+≤
+n
+
+
+{\displaystyle m\leq n}
+
+. A proper prefix of a string is not equal to the string itself (
+
+
+
+0
+≤
+m
+<
+n
+
+
+{\displaystyle 0\leq m<n}
+
+);[1] some sources[2] in addition restrict a proper prefix to be non-empty (
+
+
+
+0
+<
+m
+<
+n
+
+
+{\displaystyle 0<m<n}
+
+). A prefix can be seen as a special case of a substring.
+Example: The string ban is equal to a prefix (and substring and subsequence) of the string banana:
+
+banana
+|||
+ban
+
+The square subset symbol is sometimes used to indicate a prefix, so that 
+
+
+
+
+
+
+T
+^
+
+
+
+⊑
+T
+
+
+{\displaystyle {\widehat {T}}\sqsubseteq T}
+
+ denotes that 
+
+
+
+
+
+
+T
+^
+
+
+
+
+
+{\displaystyle {\widehat {T}}}
+
+ is a prefix of 
+
+
+
+T
+
+
+{\displaystyle T}
+
+. This defines a binary relation on strings, called the prefix relation, which is a particular kind of prefix order.
+In formal language theory, the term prefix of a string is also commonly understood to be the set of all prefixes of a string, with respect to that language. See the article on string functions for more details.
+Suffix[edit]
+A suffix of a string is any substring of the string which includes its last letter, including itself. A proper suffix of a string is not equal to the string itself. A more restricted interpretation is that it is also not empty[1]. A suffix can be seen as a special case of a substring.
+Example: The string nana is equal to a suffix (and substring and subsequence) of the string banana:
+
+banana
+  ||||
+  nana
+
+A suffix tree for a string is a trie data structure that represents all of its suffixes. Suffix trees have large numbers of applications in string algorithms. The suffix array is a simplified version of this data structure that lists the start positions of the suffixes in alphabetically sorted order; it has many of the same applications.
+Border[edit]
+A border is suffix and prefix of the same string, e.g. "bab" is a border of "babab" (and also of "babooneatingakebab").
+Superstring[edit]
+Given a set of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ strings 
+
+
+
+P
+=
+{
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+
+s
+
+3
+
+
+,
+…
+
+s
+
+k
+
+
+}
+
+
+{\displaystyle P=\{s_{1},s_{2},s_{3},\dots s_{k}\}}
+
+, a superstring of the set 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is single string that contains every string in 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ as a substring. For example, a concatenation of the strings of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ in any order gives a trivial superstring of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+. For a more interesting example, let 
+
+
+
+P
+=
+{
+
+abcc
+
+,
+
+efab
+
+,
+
+bccla
+
+}
+
+
+{\displaystyle P=\{{\text{abcc}},{\text{efab}},{\text{bccla}}\}}
+
+. Then 
+
+
+
+
+bcclabccefab
+
+
+
+{\displaystyle {\text{bcclabccefab}}}
+
+ is a superstring of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+, and 
+
+
+
+
+efabccla
+
+
+
+{\displaystyle {\text{efabccla}}}
+
+ is another, shorter superstring of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+. Generally, we are interested in finding superstrings whose length is small.[clarification needed]
+See also[edit]
+
+Brace notation
+Substring index
+Suffix automaton
+
+References[edit]
+
+
+^ Kelley, Dean (1995). Automata and Formal Languages: An Introduction. London: Prentice-Hall International. ISBN 0-13-497777-7. 
+^ Gusfield, Dan (1999) [1997]. Algorithms on Strings, Trees and Sequences: Computer Science and Computational Biology. USA: Cambridge University Press. ISBN 0-521-58519-8. 
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Substring&oldid=742797740"					
+Categories: String (computer science)Formal languagesHidden categories: Wikipedia articles needing clarification from June 2010 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+ČeštinaItalianoPolskiPortuguêsРусскийУкраїнська 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 October 2016, at 21:20.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.116","walltime":"0.406","ppvisitednodes":{"value":519,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":5537,"limit":2097152},"templateargumentsize":{"value":483,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  106.366      1 -total"," 37.54%   39.935      1 Template:Reflist"," 35.27%   37.520      1 Template:Clarify"," 31.95%   33.984      2 Template:Cite_book"," 31.37%   33.365      1 Template:Fix-span"," 20.96%   22.290      1 Template:About"," 17.46%   18.572      2 Template:Category_handler"," 11.01%   11.707      1 Template:Replace","  6.96%    7.402      1 Template:Delink","  2.66%    2.833      1 Template:Fix/category"]},"scribunto":{"limitreport-timeusage":{"value":"0.041","limit":"10.000"},"limitreport-memusage":{"value":1984451,"limit":52428800}},"cachereport":{"origin":"mw1304","timestamp":"20170208192626","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":59,"wgHostname":"mw1252"});});

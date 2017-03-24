@@ -1,0 +1,744 @@
+ 
+
+
+
+
+
+
+Home computer
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+This article is primarily about a certain class of personal computers from the late 1970s to mid-1980s. See home server and home automation or desktop computer for other uses of a computer in a home.
+
+
+
+
+Children playing Paperboy on an Amstrad CPC 464 in 1988
+
+
+
+
+
+
+Most home computers, such as this Tandy Color Computer 3, featured a version of the BASIC programming language. The sometimes-sprawling nature of the well-outfitted home computer system is very much in evidence.
+
+
+
+
+
+
+A TI 99/4 with expansion modules attached. No more than a few expansion options were practical with this type of arrangement.
+
+
+Home computers were a class of microcomputers entering the market in 1977, and becoming common during the 1980s. They were marketed to consumers as affordable and accessible computers that, for the first time, were intended for the use of a single nontechnical user. These computers were a distinct market segment that typically cost much less than business, scientific or engineering-oriented computers of the time such as the IBM PC,[1] and were generally less powerful in terms of memory and expandability. However, a home computer often had better graphics and sound than contemporaneous business computers. Their most common uses were playing video games, but they were also regularly used for word processing, doing homework, and programming.
+Home computers were usually not electronic kits; home computers were sold already manufactured in stylish metal or plastic enclosures. There were, however, commercial kits like the Sinclair ZX80 which were both home and home-built computers since the purchaser could assemble the unit from a kit.
+Advertisements in the popular press for early home computers were rife with possibilities for their practical use in the home, from cataloging recipes to personal finance to home automation,[2][3][4] but these were seldom realized in practice. For example, using a typical 1980s home computer as a home automation appliance would require the computer to be kept powered on at all times and dedicated to this task. Personal finance and database use required tedious data entry.
+By contrast, advertisements in the specialty computer press often simply listed specifications.[5][6] If no packaged software was available for a particular application, the home computer user could program one—provided they had invested the requisite hours to learn computer programming, as well as the idiosyncrasies of their system.[7][8] Since most systems shipped with the BASIC programming language included on the system ROM, it was easy for users to get started creating their own simple applications. Many users found programming to be a fun and rewarding experience, and an excellent introduction to the world of digital technology.[9]
+The line between 'business' and 'home' computer market segments blurred or vanished completely once IBM PC compatibles became commonly used in the home, since now both categories of computers typically use the same processor architectures, peripherals, operating systems, and applications. Often the only difference may be the sales outlet through which they are purchased. Another change from the home computer era is that the once-common endeavour of writing one's own software programs has almost vanished from home computer use.[10][11]
+
+
+
+Contents
+
+
+1 Background
+2 Technology
+3 Radio frequency interference
+4 Reception and sociological impact
+5 Use in the 21st century
+6 Notable home computers
+
+6.1 1970s
+6.2 1980s
+
+
+7 See also
+8 References
+9 External links
+
+
+
+Background[edit]
+
+
+
+
+Computer at home, USA 1965
+
+
+As early as 1965, some experimental projects such as Jim Sutherland's ECHO IV (hr) explored the possible utility of a computer in the home.[12][13] In 1969, the Honeywell Kitchen Computer was marketed as a luxury gift item, and would have inaugurated the era of home computing, but none were sold.[14]
+Computers became affordable for the general public in the 1970s due to the mass production of the microprocessor starting in 1971. Early microcomputers such as the Altair 8800 had front-mounted switches and diagnostic lights (nicknamed "blinkenlights") to control and indicate internal system status, and were often sold in kit form to hobbyists. These kits would contain an empty printed circuit board which the buyer would fill with the integrated circuits, other individual electronic components, wires and connectors, and then hand-solder all the connections.[15]
+While two early home computers (Sinclair ZX80 and Acorn Atom) could be bought either in kit form or assembled, most home computers were only sold pre-assembled. They were enclosed in plastic or metal cases similar in appearance to typewriter or hi-fi equipment enclosures, which were more familiar and attractive to consumers than the industrial metal card-cage enclosures used by the Altair and similar computers. The keyboard - a feature lacking on the Altair - was usually built into the same case as the motherboard. Ports for plug-in peripheral devices such as a video display, cassette tape recorders, joysticks, and (later) disk drives were either built-in or available on expansion cards. Although the Apple II series had internal expansion slots, most other home computer models' expansion arrangements were through externally accessible 'expansion ports' that also served as a place to plug in cartridge-based games. Usually the manufacturer would sell peripheral devices designed to be compatible with their computers as extra cost accessories. Peripherals were not often interchangeable between different brands of home computer, or even between successive models of the same brand.
+To save the cost of a dedicated monitor, the home computer would often connect through an RF modulator to the family TV set, which served as both video display and sound system.[16]
+By 1982, an estimated 621,000 home computers were in American households, at an average sales price of US$530.[17] After the success of the Radio Shack TRS-80, the Commodore PET and the Apple II in 1977, almost every manufacturer of consumer electronics rushed to introduce a home computer. Large numbers of new machines of all types began to appear during the late 1970s and early 1980s. Mattel, Coleco, Texas Instruments and Timex, none of which had any previous connection to the computer industry, all had short-lived home computer lines in the early 1980s. Some home computers were more successful – the BBC Micro, Sinclair ZX Spectrum, Atari 800XL and Commodore 64, sold many units over several years and attracted third-party software development.
+Almost universally, home computers had a BASIC interpreter combined with a line editor in permanent read-only memory which one could use to type in BASIC programs and execute them immediately or save them to tape or disk. In direct mode, the BASIC interpreter was also used as the user interface, and given tasks such as loading, saving, managing, and running files.[18] One exception was the Jupiter Ace, which had a Forth interpreter instead of BASIC. A built-in programming language was seen as a requirement for any computer of the era, and was the main feature setting home computers apart from video game consoles.
+Still, home computers competed in the same market as the consoles. A home computer was often seen as simply as a higher end purchase than a console, adding abilities to what would still be mainly a gaming device. A common marketing tactic was to show a computer system and console playing games side by side, then emphasising the computer's greater ability by showing it running user-created programs, education software, word processing, spreadsheet and other applications while the game console showed a blank screen or continued playing the same repetitive game.
+Some game consoles offered "programming packs" consisting of a version of BASIC in a ROM cartridge. Atari's BASIC Programming for the Atari 2600 was one of these. For the ColecoVision console, Coleco even announced an expansion module which would convert it into a full-fledged computer system. This never materialised, but a standalone computer, the Coleco Adam was eventually released.[19] The Magnavox Odyssey² game console had a built-in keyboard to support its C7420 Home Computer Module.
+Books of type-in program listings like BASIC Computer Games were available dedicated for the BASICs of most models of computer with titles along the lines of 64 Amazing BASIC Games for the Commodore 64.[20] While most of the programs in these books were short and simple games or demos, some titles such as Compute!'s SpeedScript series, contained productivity software that rivaled commercial packages. To avoid the tedious process of typing in a program listing from a book, these books would sometimes include a mail-in offer from the author to obtain the programs on disk or cassette for a few dollars. Before the Internet, and before most computer owners had a modem, books were a popular and low-cost means of software distribution—one that had the advantage of incorporating its own documentation. These books also served a role in familiarizing new computer owners with the concepts of programming; some titles added suggested modifications to the program listings for the user to carry out. Modifying software to be compatible with one's system or writing a utility program to fit one's needs was a skill every advanced computer owner was expected to have.[21]
+During the peak years of the home computer market, scores of models were produced, usually as individual design projects with little or no thought given to compatibility between different manufacturers or even within product lines of the same manufacturer.[22] Except for the Japanese MSX standard,[23] the concept of a computer platform was still forming, with most companies considering rudimentary BASIC language and disk format compatibility sufficient to claim a model as "compatible". Things were different in the business world, where cost-conscious small business owners had been using CP/M running on Z80 based computers from Osborne, Kaypro, Morrow Designs and a host of other manufacturers. For many of these businesses, the development of the microcomputer made computing and business software affordable where they had not been before.
+Introduced in August 1981, the IBM Personal Computer would eventually supplant CP/M as the standard platform used in business. This was largely due to the IBM name and the system's 16 bit open architecture, which expanded maximum memory tenfold, and also encouraged production of third-party clones. In the late 1970s, the 6502-based Apple II series had carved out a niche for itself in business, thanks to the industry's first killer app, VisiCalc, released in 1979. However the Apple II would quickly be displaced for office use by IBM PC compatibles running Lotus 1-2-3.[24] Apple Computer's 1980 Apple III was underwhelming, and although the 1984 release of the Apple Macintosh introduced the modern GUI to the market, it wasn't common until IBM-compatible computers adopted it.[25] Throughout the 1980s, businesses large and small adopted the PC platform, leading, by the end of the decade, to sub-US$1000 IBM PC XT-class white box machines, usually built in Asia and sold by US companies like PCs Limited.
+In 1980 Wayne Green, the publisher of Kilobaud Microcomputing, recommended that companies avoid the term "home computer" in their advertising as "I feel is self-limiting for sales ... I prefer the term "microcomputers" since it doesn't limit the uses of the equipment in the imagination of the prospective customers".[26] With the exception of Tandy,[27] most computer companies – even those with a majority of sales to home users – agreed, avoiding the term "home computer" because of its association with the image of, as Compute! wrote, "a low-powered, low-end machine primarily suited for playing games". Apple consistently avoided stating that it was a home-computer company, and described the IIc as "a serious computer for the serious home user" despite competing against IBM's PCjr home computer. John Sculley denied that his company sold home computers; rather, he said, Apple sold "computers for use in the home".[28][29][30] In 1990 the company reportedly refused to support joysticks on its low-cost Macintosh LC and IIsi computers to prevent customers from considering them as "game machines".[31]
+Although the Apple II and Atari computers are functionally similar, Atari's home-oriented marketing resulted in a game-heavy library with much less business software.[32] By the late 1980s, many mass merchants sold video game consoles like the Nintendo Entertainment System, but no longer sold home computers.[33] Toward the end of the 1980s, clones also became popular with non-corporate customers. Inexpensive, highly compatible clones succeeded where the PCjr had failed. Replacing the hobbyists who had made up the majority of the home computer market were, as Compute! described them, "people who want to take work home from the office now and then, play a game now and then, learn more about computers, and help educate their children". By 1986 industry experts predicted an "MS-DOS Christmas", and the magazine stated that clones threatened Commodore, Atari, and Apple's domination of the home-computer market.[30]
+The declining cost of IBM compatibles on the one hand, and the greatly increased graphics, sound, and storage abilities of fourth generation video game consoles such as the Sega Genesis and Super Nintendo Entertainment System on the other, combined to cause the market segment for home computers to vanish by the early 1990s in the US. In Europe, the home computer remained a distinct presence for a few years more, with the low-end models of the 16-bit Amiga and Atari ST families being the dominant players, but by the mid-1990s even the European market had dwindled.[34] The Dutch government even ran a program that allowed businesses to sell computers tax-free to its employees, often accompanied by home training programs. Naturally, these businesses chose to equip their employees with the same systems they themselves were using. Today a computer bought for home use anywhere will be very similar to those used in offices – made by the same manufacturers, with compatible peripherals, operating systems, and application software.
+Technology[edit]
+
+
+
+
+A Commodore 64 system, showing the basic layout of a typical home computer system of the era. Pictured are the CPU/keyboard unit, floppy disk drive, and dedicated color monitor. Many systems also had a dot matrix printer for producing paper output.
+
+
+
+
+
+
+Eastern Bloc computers were often significantly different in appearance from western computers. Pictured is a KC 85/3 with its keyboard placed on top, by VEB Mikroelektronik Mühlhausen released in 1986 and based on an East German Zilog Z80 clone.
+
+
+
+
+
+
+The Soviet Electronika BK0010.01 home computer was based on the К1801ВМ1 (Soviet LSI-11-compatible CPU) and was, basically, a very stripped-down PDP-11.
+
+
+Many home computers were superficially similar. Most had a keyboard integrated into the same case as the motherboard, or, more frequently, a mainboard — while the expandable home computers appeared from the very start (Apple II offered as much as 7 expansion slots), as the whole segment was generally aimed downmarket, few offers were priced and/or positioned high enough to allow for such expandability. Some systems have only one expansion port, often realized in the form of cumbersome "sidecar" system, such as on TI-99/4, or required finicky and unwieldy ribbon cables to connect the expansion modules.
+Sometimes they were equipped with a cheap membrane or chiclet keyboard in the early days, although full-travel keyboards quickly became universal due to overwhelming consumer preference. Most systems could use an RF modulator to display 20–40 column text output on a home television. Indeed, the use of a television set as a display almost defines the pre-PC home computer. Although dedicated composite or "green screen" computer displays were available for this market segment and offered a sharper display, a monitor was often a later purchase made only after users had bought a floppy disk drive, printer, modem, and the other pieces of a full system. The reason for this was that while those TV-monitors had difficulty displaying the clear and readable 80-column text that became the industry standard at the time, the only consumers who really needed that were the power users utilizing the machine for business purposes, while the average casual consumer would use the system for games only and was content with the lower resolution for which a TV worked fine.
+This "peripherals sold separately" approach is another defining characteristic of the home computer era. A first time computer buyer who brought a base C-64 system home and hooked it up to their TV would find they needed to buy a disk drive (the Commodore 1541 was the only fully compatible model) or Datasette before they could make use of it as anything but a game machine or TV Typewriter.
+In the early part of the 1980s, the dominant microprocessors used in home computers were the 8-bit MOS Technology 6502 (Apple, Commodore, Atari) and Zilog Z80 (TRS-80). One exception was the TI-99 series, announced in 1979 with a 16-bit TMS9900 CPU.[35] The TI was originally to use an 8-bit processor designed especially for it, the 9985, but this project was cancelled. However, the glue logic required to retrofit the 16-bit CPU to a system designed for the 9985 negated the advantages of the more powerful CPU. [36][37] Another exception was the Soviet Elektronika BK series, introduced in 1984, which used the fully 16-bit and powerful for the time 1801 series CPU, offering a full PDP-11 compatibility and a fully functional Q-Bus slot, though at the cost of very anemic RAM and graphics.
+Processor clock rates were typically 1–2 MHz for 6502 based CPU's and 2–4 MHz for Z80 based systems (yielding roughly equal performance), but this aspect was not emphasized by users or manufacturers, as the systems' limited RAM capacity, graphics abilities and storage options had a more perceivable effect on performance than CPU speed. Clock rate was considered a technical detail of interest only to users needing accurate timing for their own programs. To economize on component cost, often the same crystal used to produce color television compatible signals was also divided down and used for the processor clock. This meant processors rarely operated at their full rated speed, and had the side-effect that European and North American versions of the same home computer operated at slightly different speeds and different video resolution due to different television standards.
+Initially, many home computers used the then-ubiquitous compact audio cassette as a storage mechanism. A rough analogy to how this worked would be to place a recorder on the phone line as a file was uploaded by modem to "save" it, and playing the recording back through the modem to "load".[38] Most cassette implementations were notoriously slow and unreliable, but 8" drives were too bulky for home use, and early 5.25" form factor drives were priced for business use, out of reach of most home buyers.[39]
+Eventually mass production of 5.25" drives resulted in lower prices, and after about 1984 they pushed cassette drives out of the US home computer market. 5.25" floppy disk drives would remain standard until the end of the 8-bit era. Though external 3.5" drives were made available for home computer systems toward the latter part of the 1980s, almost all software sold for 8-bit home computers remained on 5.25" disks; 3.5" drives were used for data storage. Standardization of disk formats was not common; sometimes even different models from the same manufacturer used different disk formats.
+Toward the end of the home computer era, drives for a number of home computer models appeared offering disk-format compatibility with the IBM PC. The disk drives sold with the Commodore 128, Amiga and Atari ST were all able to read and write PC disks, which themselves were undergoing the transition from 5.25" to 3.5" format at the time. 5.25" drives were made available for the ST, Amiga and Macintosh, otherwise 3.5" based systems with no other use for a 5.25" format. Hard drives were never popular on home computers, remaining an expensive, niche product mainly for BBS sysops and the few business users.
+Various copy protection schemes were developed for floppy disks; most were broken in short order. Many users would only tolerate copy protection for games, as wear and tear on disks was a significant issue in an entirely floppy-based system. The ability to make a "working backup" disk of vital application software was seen as important. Copy programs that advertised their ability to copy or even remove common protection schemes were a common category of utility software in this pre-DMCA era.
+In another defining characteristic of the home computer, instead of a command line, the BASIC interpreter served double duty as a user interface. Coupled to a character-based screen or line editor, BASIC's file management commands could be entered in direct mode. In contrast to modern computers, home computers most often had their operating system (OS) stored in ROM chips. This made startup times very fast – no more than a few seconds – but made OS upgrades difficult or impossible without buying a new unit. Usually only the most severe bugs were fixed by issuing new ROMs to replace the old ones at the user's cost. Also, the small size and limited scope of home computer "operating systems" (really little more than what today would be called a kernel) left little room for bugs to hide.
+Although modern operating systems include extensive programming libraries to ease development and promote standardization, home computer operating systems provided little support to application programs. Professionally written software often switched out the ROM based OS anyway to free the address space it occupied and maximize RAM capacity. This gave the program full control of the hardware and allowed the programmer to optimize performance for a specific task. Games would often turn off unused I/O ports, as well as the interrupts that served them. As multitasking was never common on home computers, this practice went largely unnoticed by users. Most software even lacked an exit command, requiring a reboot to use the system for something else.
+In an enduring reflection of their early cassette-oriented nature, most home computers loaded their disk operating system (DOS) separately from the main OS. The DOS was only used for disk and file related commands and was not required to perform other computing functions. One exception was Commodore DOS, which was not loaded into the computer's main memory at all – Commodore disk drives contained a 6502 processor and ran DOS from internal ROM. While this gave Commodore systems some advanced capabilities – a utility program could sideload a disk copy routine onto the drive and return control to the user while the drive copied the disk on its own – it also made Commodore drives more expensive and difficult to clone.
+Many home computers had a cartridge interface which accepted ROM-based software. This was also used for expansion or upgrades such as fast loaders. Application software on cartridge did exist, which loaded instantly and eliminated the need for disk swapping on single drive setups, but the vast majority of cartridges were games.[40]
+From about 1985, the high end of the home computer market began to be dominated by "next generation" home computers using the 16-bit Motorola 68000 chip, which enabled the greatly increased abilities of the Amiga and Atari ST series. Graphics resolutions approximately doubled to give roughly NTSC-class resolution, and color palettes increased from dozens to hundreds or thousands of colors available. Stereo sound became standard for the first time. Clock rates on the 68000-based systems were approximately 8 MHz with RAM capacities of 256 KB (for the base Amiga 1000[41]) up to 1024 KB (1 megabyte, a milestone, first seen on the Atari 1040ST). These systems used 3.5" floppy disks from the beginning but 5.25" drives were made available to facilitate data exchange with IBM PC compatibles. The Amiga and ST both had GUIs inspired by the Apple Macintosh, but at a list price of US$2495 (over $5000 in 2007 dollars), the Macintosh itself was too expensive for most households.
+Radio frequency interference[edit]
+After the first wave of game consoles and computers landed in American homes, the United States Federal Communications Commission (FCC) began receiving complaints of electromagnetic interference to television reception. By 1979 the FCC demanded that home computer makers submit samples for radio frequency interference testing. It was found that "first generation" home computers emitted too much radio frequency noise for household use. The Atari 400 and 800 were designed with heavy RF shielding to meet the new requirements. Between 1980 and 1982 regulations governing RF emittance from home computers were phased in.[42] Some companies appealed to the FCC to waive the requirements for home computers, while others (with compliant designs) objected to the waiver. Eventually techniques to suppress interference became standardized.[43]
+Reception and sociological impact[edit]
+See also: Microcomputer revolution
+In 1977, referring to computers used in home automation at the dawn of the home computer era, Digital Equipment Corporation CEO Ken Olsen is quoted as saying "There is no reason for any individual to have a computer in his home."[44] Despite Olsen's warning, in the late 1970s and early 1980s, from about 1977 to 1983, it was widely predicted[45] that computers would soon revolutionize many aspects of home and family life as they had business practices in the previous decades.[46] Mothers would keep their recipe catalog in "kitchen computer" databases and turn to a medical database for help with child care, fathers would use the family's computer to manage family finances and track automobile maintenance. Children would use online encyclopedias[47] for school work and would be avid video gamers. The computer would even be tasked with babysitting younger children.[48] Home automation would bring about the intelligent home of the 1980s. Using Videotex, NAPLPS or some sort of vaguely conceptualized computer technology, television would gain interactivity. It would be possible to do the week's grocery shopping through the television.[49] The "personalized newspaper" (to be displayed on the television screen) was another commonly predicted application.[50] Morning coffee would be brewed automatically under computer control.[51][52] The same household computer would control the home's lighting and temperature. Robots would take the garbage out, and be programmed to perform new tasks via the home computer. Electronics were expensive, so it was generally assumed that each home would have only one computer for the entire family to use.[53] Home control would be performed in a multitasking time-sharing arrangement, with interfaces to the various devices it was expected to control.
+
+
+“
+As an industry we haven't found any compelling reason to buy a computer for the home.[54]
+”
+
+
+— Tandy executive Steve Leininger, July 1984
+
+
+
+
+“
+When the computer revolution was unofficially announced in the early 1980s, all indications were that it would change the world. Experts predicted that within five years, every household would have a computer. Dad would run his business on it. Mom would store her recipes on it. The kids would do their homework on it. Today only 15% of American homes have a computer – and the other 85% don't seem the least bit interested. There is a general feeling that the home computer was a fad and that there is really no practical purpose for a computer in the home.[55]
+”
+
+
+— Commodore Magazine, September 1987
+
+
+All this was predicted to be commonplace by the end of the 1980s, but by 1987 Dan Gutman wrote that the predicted revolution was "in shambles", with only 15% of American homes owning a computer.[55] Virtually every aspect that was foreseen would be delayed to later years or would be entirely surpassed by later technological developments. The home computers of the early 1980s could not multitask,[56] which meant that using one as a home automation or entertainment appliance would require it be kept powered on at all times and dedicated exclusively for this use. Even if the computers could be used for multiple purposes simultaneously as today, other technical limitations predominated; memory capacities were too small to hold entire encyclopedias or databases of financial records;[57] floppy disk-based storage was inadequate in both capacity and speed for multimedia work;[58] and the home computers' graphics chips could only display blocky, unrealistic images and blurry, jagged text that would be difficult to read a newspaper from.[59] Although CD-ROM technology was introduced in 1985 with much promise for its future use, the drives were prohibitively expensive and only interfaced with IBM PCs and compatibles.[60][61][62]
+The Boston Phoenix stated in 1983 that "people are catching on to the fact that 'applications' like balancing your checkbook and filing kitchen recipes are actually faster and easier to do with a pocket calculator and a box of index cards".[63] inCider observed that "companies cannot live by dilettantes alone".[64] Gutman wrote that when the first computer boom ended in 1984, "Suddenly, everybody was saying that the home computer was a fad, just another hula hoop".[65] Robert Lydon, publisher of Personal Computing, stated in 1985 that the home market "never really existed. It was a fad. Just about everyone who was going to buy a computer for their home has done it", and predicted that Apple would cease to exist within two years.[66]
+A backlash set in; computer users were "geeks", "nerds" or worse, "hackers". The North American video game crash of 1983 soured many on home computer technology as users saw large investments in 'the technology of the future' turn into dead-ends when manufacturers pulled out of the market or went out of business. The computers that were bought for use in the family room were either forgotten in closets or relegated to basements and children's bedrooms to be used exclusively for games and the occasional book report. Home computers of the 1980s have been called "a technology in search of a use".[67] In 1984 Tandy executive Steve Leininger, designer of the TRS-80 Model I, admitted that "As an industry we haven't found any compelling reason to buy a computer for the home" other than for word processing.[54] A 1985 study found that, during a typical week, 40% of adult computer owners did not use their computers at all. Usage rates among children were higher, with households reporting that only 16-20% of children aged 6––17 did not use the computer during a typical week.[68]
+It would take another 10 years for technology to mature, for the graphical user interface to make the computer approachable for non-technical users, and for the World Wide Web to provide a compelling reason for most people to want a computer in their homes. Separate 1998 studies found that 75% of Americans with Internet access accessed primarily from home and that not having Internet access at home inhibited Internet use.[68] Predicted aspects of the revolution were left by the wayside or modified in the face of an emerging reality. The cost of electronics dropped precipitously and today many families have a computer for each family member, or a laptop for mom's active lifestyle, a desktop for dad with the kids sharing a computer. Encyclopedias, recipe catalogs and medical databases are kept online and accessed over the World Wide Web – not stored locally on floppy disks or CD-ROM. TV has yet to gain substantial interactivity; instead, the web has evolved alongside television, giving rise to the second screen concept. The HTPC and services like Netflix, Google TV or Apple TV, along with internet video sites such as YouTube and Hulu, may one day replace traditional broadcast and cable television.[69] Our coffee may be brewed automatically every morning, but the computer is a simple one embedded in the coffee maker, not under external control. As of 2008, robots are just beginning to make an impact in the home, with Roomba and Aibo leading the charge.
+This delay wasn't out of keeping with other technologies newly introduced to an unprepared public. Early motorists were widely derided with the cry of "Get a horse!"[70] until the automobile was accepted. Television languished in research labs for decades before regular public broadcasts began. In an example of changing applications for technology, before the invention of radio, the telephone was used to distribute opera and news reports, whose subscribers were denounced as "illiterate, blind, bedridden and incurably lazy people".[71] Likewise, the acceptance of computers into daily life today is a product of continuing refinement of both technology and perception.
+
+Use in the 21st century[edit]
+Retrocomputing is the use of vintage hardware, possibly performing modern tasks such as surfing the web and email. As programming techniques evolved and these systems were well-understood after decades of use, it became possible to write software giving home computers capabilities undreamed of by their designers. The Contiki OS implements a GUI and TCP/IP stack on the Apple II, Commodore 8-bit and Atari ST (16-bit) platforms, allowing these home computers to function as both internet clients and servers.[72]
+The Commodore 64 has been repackaged as the C-One and C64 Direct-to-TV, both designed by Jeri Ellsworth with modern enhancements.[73]
+Throughout the 1990s and 1st decade of the 21st century, many home computer systems were available inexpensively at garage sales and on eBay. Many enthusiasts started to collect home computers, with older and rarer systems being much sought after. Sometimes the collections turned into a virtual museum presented on web sites.[74]
+As their often-inexpensively manufactured hardware ages and the supply of replacement parts dwindles, it has become popular among enthusiasts[75] to emulate these machines, recreating their software environments[76] on modern computers. One of the more well-known emulators is the Multi Emulator Super System (MESS) which can emulate most of the better-known home computers. A more or less complete list of home computer emulators can be found in the List of computer system emulators article. Games for many 8 and 16 bit home computers are becoming available for the Wii Virtual Console.
+Notable home computers[edit]
+For more details on home computer models, see List of home computers.
+
+
+
+
+The 1977 Apple II with 2 Disk II disk drives and an Apple monitor
+
+
+The time line below describes many of the most popular or significant home computers of the late 1970s and of the 1980s.
+The most popular home computers in the USA up to 1985 were: the TRS-80 (1977), various models of the Apple II family (first introduced in 1977), the Atari 400/800 (1979) along with its follow up models the 800XL and 130XE, and the Commodore VIC-20 (1980) and the Commodore 64 (1982). The VIC was the first computer of any type to sell over one million units, and the 64 is still the highest-selling single model of personal computer ever, with over 17 million produced before production stopped in 1994 – a 12-year run with only minor changes.[77] At one point in 1983 Commodore was selling as many 64s as the rest of the industry's computers combined.[63]
+The British market was different, as relatively high prices and lower disposable incomes reduced the appeal of most American products. New Scientist stated in 1977 that "the price of an American kit in dollars rapidly translates into the same figure in pounds sterling by the time it has reached the shores of Britain".[78] The Commodore 64 was also popular, but a BYTE columnist stated in 1985:[79]
+
+It's not easy for a U.K. citizen to write about home computers for an American magazine. We use the term to refer to an altogether different object on our side of the Atlantic.
+In the U.S.A., an Apple II is a home computer; the IBM PC in its smaller configurations is a home computer; the Macintosh is a home computer. Home computers use floppy disks for mass storage and perform useful functions like word processing and income tax preparation as well as playing games.
+In the U.K., those computers would be considered rather expensive as business computers, let alone for home use. Home computers typically cost less than £200 (about $250) and use cassette tape recorders for mass storage. We have various manufacturers of our own, some unheard of in the U.S.A. ... Even when we do have machines in common (the Commodore 64), I suspect that the vast majority of U.S. users buy the disk drive, while the majority of U.K. users have only the cassette deck.
+
+Many of the British-made systems like Sinclair's ZX81 and Spectrum, and later the Amstrad/Schneider CPC were much more widely used in Europe than US systems. A few low-cost British Sinclair models were sold in the US by Timex Corporation as the Timex Sinclair 1000 and the ill-fated Timex Sinclair 2068, but neither established a strong following. The only transatlantic success was the Commodore 64, which competed favorably price-wise with the British systems, and was the most popular system in Europe as in the USA.[80][81]
+Until the introduction of the IBM PC in 1981, computers such as the Apple II and TRS 80 also found considerable use in office work.[82][83] In 1983 IBM introduced the PCjr in an attempt to continue their business computer success in the home computer market, but incompatibilities between it and the standard PC kept users away.[84][85] Assisted by a large public domain software library and promotional offers from Commodore, the PET had a sizable presence in the North American education market until that segment was largely ceded to the Apple II as Commodore focused on the C-64's success in the mass retail market.[86]
+1970s[edit]
+Three microcomputers were the prototypes for what would later become the home computer market segment; but when introduced they sold as much to hobbyists and small businesses as to the home.
+
+June 1977: Apple II (North America), color graphics, eight expansion slots; one of the first computers to use a typewriter-like plastic case design.[87]
+August 1977: Tandy Radio Shack TRS-80 (N. Am.), first home computer for less than US$600, used a dedicated monitor for US Federal Communications Commission (FCC) rules compliance.[88]
+October 1977: Commodore PET (N. Am.), first all-in-one computer: keyboard/screen/tape storage built into stamped sheet metal enclosure.[89]
+
+The following computers also introduced significant advancements to the home computer segment:
+
+1979: TI-99/4, first home computer with a 16-bit processor and first to add sprite graphics
+1979: Atari 400/800 (N. Am.), first computer with custom chip set and programmable video chip and built-in audio output
+
+1980s[edit]
+
+
+
+
+No computer has sold more units than the Commodore 64.[90]
+
+
+
+
+
+
+The East German Robotron KC 85/1 was virtually not available for sale due to huge demand by industrial, educational, and military institutions.
+
+
+
+1980: Commodore VIC-20 (N. Am.), under US$300; first computer of any kind to pass one million sold.
+1980: TRS-80 Color Computer (N. Am.), Motorola 6809, optional OS-9 multi-user multi-tasking.
+June 1981: Texas Instruments TI-99/4A, based on the less successful TI-99/4.
+1981: Sinclair ZX81 (Europe), £49.95 in kit form; £69.95 pre-built, released as Timex Sinclair 1000 in US in 1982.
+1981: BBC Micro (Europe), premier educational computer in the UK for a decade; advanced BBC BASIC with integrated 6502 machine code assembler, featured a myriad of I/O ports, ~ 1.5 million sold.
+April 1982: Sinclair ZX Spectrum (Europe), best-selling British home computer; catalysed the UK software industry, widely cloned by the Soviet Union.
+June 1982: MicroBee (Australia), initially as a kit, then as a finished unit.
+August 1982: Dragon 32 (UK) became, for a short time, the best-selling home micro in the United Kingdom.
+August 1982: Commodore 64 (N. Am.), custom graphic & synthesizer chipset, best-selling computer model of all time: ~ 17 million sold.
+Jan. 1983: Apple IIe, Apple II enhanced. Reduced component count and production costs enabled high-volume production, until 1993.
+1983: Acorn Electron A stripped down 'sibling' of the BBC microcomputer with limited functionality. The Electron recovered from a slow start to become one of the more popular home computers of that era in the UK.
+1983: Coleco Adam, one of the few home computers to be sold only as a complete system with storage device and printer; cousin to the ColecoVision game console.
+1983: MSX (Japan, Korea, the Arab League, Europe, N+S. Am., USSR), a computer 'reference design' by ASCII and Microsoft, produced by several companies: ~ 5 million sold.
+1983: VTech Laser 200, entry level computer aimed at being the cheapest on market, also sold as Salora Fellow, Texet TX8000 & Dick Smith VZ 200.
+1983: Oric 1 and Oric Atmos, a home computer equipped with a full travel keyboard and an extended version of Microsoft BASIC in ROM.
+January 1984: The Apple Macintosh is introduced, providing many consumers their first look at a graphical user interface, which would eventually replace the home computer as it was known.
+April 1984: Apple IIc, Apple II compact. No expansion slots, and built-in ports for pseudo-plug and play ease of use. The Apple II most geared to home use, to complement the Apple IIe's dominant education market share.
+1984: Tiki 100 (Norway), Zilog Z80-based home/educational computer made by Tiki Data.
+1984: Amstrad/Schneider, CPC, PCW ranges (Europe), British standard before IBM PC; German sales next to C64.
+1985: Elektronika BK-0010, one of the first 16-bit home computers; made in USSR.
+1985: Robotron KC 85/1 (Europe), one of the few home computers produced by the East German VEB Robotron-Meßelektronik "Otto Schön" Dresden.
+1985: Atari ST (N. Am.), first with a graphical user interface (GEM) for less than US$1000; first with built-in MIDI interface; also 1 MB RAM and 16-bit Motorola 68000 processor for under US$1000.
+June 1985: Commodore 128 (N. Am.) Final, most advanced 8-bit Commodore, retained full C64 compatibility while adding CP/M in a complex multi-mode architecture
+July 1985: Commodore Amiga (N. Am.), custom chip set for graphics and digital audio; multitasking OS with both GUI and CLI interfaces; 16-bit Motorola 68000 processor. Initially designed as a game console but repositioned as a home computer.[91]
+1986: Apple IIGS, Fifth and final model in the Apple II series, with greatly enhanced graphics and sound abilities. Used a 16-bit 65C816 CPU, the same as used in the Super Nintendo Entertainment System.
+June 1987: Acorn Archimedes (Europe), launched with an 8 MHz 32-bit ARM2 microprocessor, with between 512 KB and 4 MB of RAM, and an optional 20 or 40 MB hard drive.
+October 1987: Commodore Amiga 500 (N. Am.), Amiga 1000 repackaged into a C64-like housing with keyboard and motherboard in the same enclosure, along with a 3.5" floppy disk drive. Introduced at the same time as the more expandable Amiga 2000.
+1989: SAM Coupé (Europe), based on 6 MHz Z80 microprocessor; marketed as a logical upgrade from the Sinclair ZX Spectrum.
+
+See also[edit]
+
+
+
+Wikimedia Commons has media related to Home computers.
+
+
+
+Educational toy
+Computer magazines
+History of computing hardware (1960s–present)
+Homebuilt computer
+Honeywell 316 a "home computer" from 1969
+Raspberry Pi
+List of home computers
+List of home computers by category
+List of home computers by video hardware
+List of video game consoles
+Influence of the IBM PC on the personal computer market
+Microprocessor development board and List of early microcomputers, first microprocessor based systems used by hobbyists
+Personal computer
+Pirates of Silicon Valley – docu-fiction focused on Apple and Microsoft evolution
+Triumph of the Nerds
+Video Display Controller, chips that were used to create the video graphics of many early home computers
+
+References[edit]
+
+
+^ "IBM PC turns 25". CNN. Several popular home computers existed before the 1981 IBM PC launch. But the regimented business world considered Apple, Commodore, and Radio Shack's Tandy products "toys." 
+^ Video of old TV Ad for Atari Home computers from YouTube Archived January 30, 2014, at the Wayback Machine.
+^ "Home computer ads". Wotsit.thingy.com. 2001-02-05. Retrieved 2013-04-09. 
+^ More home computer TV ads
+^ "May 1982 VIC-20 ad". 
+^ "Franklin ACE2000 ad". 
+^ "The Golden Age of Basic". Let’s not kid ourselves in a haze of nostalgia—there are very good reasons why things like Scratch and Processing were created, the same reasons why many, if not most, of those 8-bit machines wound up being used solely to play games. Tapping out Basic programs often meant a lot of effort with nothing to show for it other than that Great Sphinx of computer messages: “SYNTAX ERROR.” 
+^ "Fifty Years of BASIC, the Programming Language That Made Computers Personal". 
+^ "CNN.com readers recall the life-changing Commodore 64". Retrieved 22 May 2016. 
+^ Jeremy Reimer (December 2005). "Personal Computer Market Share: 1975–2004". Ars Technica. Archived from the original on June 6, 2012. Retrieved 2008-02-13. 
+^ David Brin. "Why Johnny can't code". Retrieved 2013-04-09. 
+^ Spicer, Dag (2000-08-12). "Dag Spier,''If You Can't Stand the Coding, Stay Out of the Kitchen'', "Dr. Dobb's Journal'', August 12, 2000". Drdobbs.com. Retrieved 2013-04-09. 
+^ "James Tomayko "Anecdotes: Electronic Computer for Home Operation, The First Home Computer"" (PDF). Retrieved 2013-04-09. 
+^ http://jdh.oxfordjournals.org/content/23/2/163.full.pdf Paul Atkinson, The Curious Case of the Kitchen Computer: Products and Non-Products in Design History, from Journal of Design History, Vol. 23 No.2 doi:10.1093.jdh/epq010
+^ "Ed Roberts Interview". Retrieved 22 May 2016. 
+^ Texas Instruments TI-99/4 computer: At the start, the TI99/4 could not offer an RF-modulator certified by United States Federal Communications Commission (FCC), and had to use an expensive modified TV instead
+^ Blundell, Gregory S. (January 1983). "Personal Computers in the Eighties". BYTE. p. 166. Retrieved 10 January 2015. 
+^ "Dictionary – Definition of Microsoft Basic". [dead link]
+^ Beuscher, Dave (2010-10-03). "About the Expansion Module #3 for the Colecovision". AllGame. Retrieved 2013-04-09. 
+^ "C64 Type-In Books". Archived from the original on 2012-10-21. 
+^ "10 PRINT CHR$(205.5+RND(1)); : GOTO 10". 
+^ "SYSTEMS RELEASED IN ~ 1982 ~". 
+^ "about the history of the MSX standard". Msx.gnu-linux.net. Retrieved 2013-04-09. 
+^ "VisiCalc and the Rise of the Apple II". lowendmac.com. Retrieved 2010-11-03. 
+^ "PBS Triumph of the Nerds Television Program Transcripts: Part III". PBS (Public Broadcasting System). Retrieved 2007-02-08. 
+^ Green, Wayne (July 1980). "Publisher's Remarks". Kilobaud. p. 6. Retrieved 23 June 2014. 
+^ Ferrell, Keith (1988-07). "Windows on John Roach". Compute!. pp. 88–89. Retrieved 5 September 2016.  Check date values in: |date= (help)
+^ "IBM PCjr leads the way for industry". The Pantagraph. The Washington Post. 1983-11-06. pp. E6. Retrieved 6 October 2015. 
+^ Sanger, David E. (1984-05-17). "I.B.M.'S PROBLEMS WITH JUNIOR". The New York Times. Retrieved 2011-02-25. 
+^ a b Halfhill, Tom R. (December 1986). "The MS-DOS Invasion / IBM Compatibles Are Coming Home". Compute!. p. 32. Retrieved 9 November 2013. 
+^ "Fusion, Transfusion or Confusion / Future Directions In Computer Entertainment". Computer Gaming World. December 1990. p. 26. Retrieved 16 November 2013. 
+^ Stanton, Jeffrey; Wells, Robert P.; Rochowansky, Sandra; Mellid, Michael, eds. (1984). The Addison-Wesley Book of Atari Software. Addison-Wesley. p. 210. ISBN 0-201-16454-X. 
+^ Harris, Neil (1987-05-12). "Re: Is Atari killing the 8 bit?". Newsgroup: comp.sys.atari.8bit. Usenet: 730@atari.UUCP. Retrieved 27 January 2015. 
+^ "Hacking Europe: From Computer Cultures to Demoscenes". 
+^ The TI99/4 was unique in using a 16 bit processor from Retrogaming Times, Issue 42, February 20, 2001
+^ "Early Home Computers". 
+^ "TI vs Tomy Tutor". 
+^ "Telecomputing Today, Compute Sep. 1983". This process may sound familiar. That's because it's very similar to the way the computer saves programs and other data on the cassette recorder. 
+^ Hall, Douglas V. (1983). Microprocessors and Digital Systems (2nd ed.). McGraw-Hill. pp. 153–154. ISBN 0-07-025552-0. 
+^ List of TI99/4 cartridges, mostly games from OldComputers.net
+^ "Games vs. Hardware. The History of PC video games: The 80's". 
+^ "Introduction to EMC". 
+^ TRS-80 the "Trash-80" from PC-History.org
+^ David Mikkelson (27 September 2007). "Ken Olsen Computer Quote". snopes. Retrieved 22 May 2016. 
+^ The Computer Revolution from eNotes.com
+^ The computer revolution from The Eighties Club
+^ "Commodore.ca - History - 1983 Telecomputing, Vic Modem". Retrieved 22 May 2016. 
+^ "Commodore 64 Programmers Reference Guide" (PDF). The Commodore 64 Home Babysitter cartridge can keep your youngest child occupied for hours and teach alphabet/keyboard recognition at the same time. It also teaches special learning concepts and relationships. 
+^ "Online Shopping in the 1980s" (PDF). IEEE Annals of the History of Computing. October–December 2011. pp. 57–61. ISSN 1058-6180. 
+^ "How Newspapers Tried to Invent the Web". 
+^ A Small World: Smart Houses and the Dream of the Perfect Day. 
+^ "Livable New York Resource Manual: SMART HOMES (Home Automation)" (PDF). 
+^ "A 1980s Home Computer Family Celebration". 
+^ a b Needle, David (1984-07-16). "Q&A: Steve Leininger". InfoWorld. p. 66. Retrieved 1 January 2015. 
+^ a b Gutman, Dan (September 1987). "What happened to the computer revolution?". Commodore Magazine. Retrieved 2013-01-11. 
+^ "What is UNIX". 
+^ "How Much Information?". 
+^ "NAVIGATION THROUGH CD-ROM MULTIMEDIA RESOURCES: THE APPLICATION OF MULTIMEDIA CD-ROMS IN SCHOOLS". 
+^ "Reading from paper versus screens: a critical review of the empirical literature". 
+^ InfoWorld Jan 20,1986. 
+^ "IBM Personal Computing: The CD-ROMs Are Coming, Compute! magazine Feb. 1987". 
+^ "New Technologies: The Converging Digital Universe, Compute! magazine, April 1986". Although the initial purchase price of $1495 may keep initial sales out of the home market in volume, the price for CD-ROM technology is expected to drop quickly over the next couple of years. 
+^ a b Mitchell, Peter W. (1983-09-06). "A summer-CES report". Boston Phoenix. p. 4. Retrieved 10 January 2015. 
+^ Whitmore, Sam (November 1983). "Fermentations". inCider. p. 10. Retrieved 7 January 2015. 
+^ Gutman, Dan (December 1987). "The Fall And Rise Of Computer Games". Compute!'s Apple Applications. p. 64. Retrieved 18 August 2014. 
+^ Robbeloth, DeWitt (Oct–Nov 1985). "Whither Apple?". II Computing. p. 8. Retrieved 28 January 2015. 
+^ "1980s Home Coding the art of amateur programming". 
+^ a b "National Science Foundation, Division of Science Resources Studies The Application and Implications of Information Technologies in the Home: Where are the Data and What Do They Say? Arlington, VA (NSF 01-313) [March 2001]". 
+^ "Why TV Lost". About twenty years ago people noticed computers and TV were on a collision course and started to speculate about what they'd produce when they converged. We now know the answer: computers. 
+^ Horseless Classrooms from the Hawaii Education & Research Network Archived June 24, 2007, at the Wayback Machine.
+^ Clement Ader from Beb's Old Phones
+^ "Surf the Web on your Commodore 64". 
+^ "Retro-Computing with FPGAs - Slashdot". Retrieved 22 May 2016. 
+^ "HCM: Links". 
+^ Reviving Old Computer Games from xtrazone.com Archived October 25, 2007, at the Wayback Machine.
+^ "gametap.com Site Overview". Retrieved 22 May 2016. 
+^ "number of C64s sold". Gamasutra.com. Retrieved 2013-04-09. 
+^ Valéry, Nicholas (1977-05-19). "Spare a byte for the familly". New Scientist. pp. 405–406. Retrieved 25 January 2015. 
+^ Pountain, Dick (January 1985). "The Amstrad CPC 464". BYTE. p. 401. Retrieved 9 January 2015. 
+^ 25th Anniversary of the Sinclair ZX Spectrum[dead link] from Slashdot
+^ Format Wars: The Tech that should have Won from ArmchairArcade.com
+^ Tandy TRS-80 catalog listing many business uses (PDF) Archived May 28, 2008, at the Wayback Machine.
+^ ""VisiCalc was first released for the Apple II, which quickly became an invaluable tool for businesspeople - at least until IBM moved into the "personal computing" market in 1981."". Lowendmac.com. Retrieved 2013-04-09. 
+^ "IBM PCjr". 
+^ "IBM PCjr". 
+^ administrator@commodore.ca. "Commodore Educational brochure". Commodore.ca. Retrieved 2013-04-09. 
+^ Long, Tony (June 5, 2007). "June 5, 1977: From a Little Apple a Mighty Industry Grows". Wired. Archived from the original on May 28, 2009. Retrieved July 13, 2012. 
+^ "Radio Shack Retails Z80-Based System". Computerworld. IDG Enterprise. 11 (34): 37. August 22, 1977. ISSN 0010-4841. 
+^ What's New (February 1978), "Commodore Ships First PET Computers", BYTE, Byte Publications, vol. 3 no. 2, p. 190  Commodore press release. "The PET computer made its debut recently as the first 100 units were shipped to waiting customers in mid-October 1977."
+^ Grandiose Price for a Modest PC from Wired
+^ "Amiga: The Computer That Wouldn't Die". In response to its designers' ambitions and a changing marketplace, it evolved from a video game console into a home computer before it even reached the prototype stage. 
+
+
+External links[edit]
+
+Rune's PC Museum
+Home of the home computer
+Collection of old analog and digital computers at Old Computer Museum
+Computer History Museum – An online museum of home computing and gaming
+HCM - Home Computer Museum
+"Total share: 30 years of personal computer market share figures" – From Ars Technica
+article on computing in the 1980s
+Google Books link to A history of the personal computer: the people and the technology By Roy A. Allan
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Computer sizes
+
+
+
+
+
+
+
+Classes of computers
+
+
+
+
+
+
+Microcomputer,
+personal
+computer
+
+
+
+
+Stationary
+
+
+
+Workstation
+Desktop
+Home
+Personal supercomputer
+SFF
+
+Nettop
+
+
+Plug
+Portable
+
+Tabletop
+
+
+Game arcade cabinet
+
+System board
+
+
+Home console
+Microconsole
+Interactive kiosk
+Smart TV
+Smart speaker
+
+
+
+
+
+
+
+
+Mobile
+
+
+
+
+Laptop
+
+
+
+Desktop replacement
+Notebook
+2-in-1
+Subnotebook
+
+Netbook
+Smartbook
+Ultrabook
+
+
+Ultra-mobile PC
+
+
+
+
+
+
+
+
+Tablet
+
+
+
+Ultra-mobile PC
+2-in-1
+Mobile Internet device
+Tabletop
+Phablet
+
+
+
+
+
+
+
+
+Information
+appliance
+
+
+
+Handheld PC
+
+Palm-size PC
+Pocket PC
+Pocket computer
+Palmtop PC
+
+
+PDA
+
+Electronic organizer
+EDA
+
+
+Mobile phone
+
+Feature phone
+Smartphone
+
+Phablet
+
+
+
+
+PMP
+
+DAP
+
+
+E-reader
+Handheld game console
+Portable/Mobile data terminal
+
+
+
+
+
+
+
+
+Calculator
+
+
+
+Scientific
+Programmable
+Graphing
+
+
+
+
+
+
+
+
+Wearable
+
+
+
+Digital wristwatch
+
+Calculator watch
+Smartwatch
+
+
+Smartglasses
+Smart ring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mini (obsolete)
+
+
+
+Midrange
+Supermini
+Server
+
+
+
+
+
+
+
+
+Large
+
+
+
+Super
+Minisuper
+Mainframe
+
+
+
+
+
+
+
+
+Others
+
+
+
+Microcontroller
+Nanocomputer
+Pizza box form factor
+Single-board computer
+Smartdust
+Wireless sensor network
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Home_computer&oldid=764355758"					
+Categories: Home computers1977 introductions1980s fads and trendsHidden categories: Webarchive template wayback linksAll articles with dead external linksArticles with dead external links from April 2013CS1 errors: datesInterlanguage link template link numberCommons category with local link same as on Wikidata 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia Commons 
+
+
+
+Languages
+
+
+AlemannischবাংলাБеларускаяCatalàČeštinaDanskDeutschEspañolفارسی한국어HrvatskiInterlinguaÍslenskaItalianoLietuviųLumbaartBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsРусскийSimple EnglishSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTürkçeУкраїнськаاردو中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 8 February 2017, at 13:03.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.676","walltime":"0.769","ppvisitednodes":{"value":3642,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":146220,"limit":2097152},"templateargumentsize":{"value":3585,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  608.298      1 -total"," 75.24%  457.705      1 Template:Reflist"," 28.31%  172.190     51 Template:Cite_web"," 12.07%   73.392     12 Template:Cite_news","  6.09%   37.072      1 Template:Commons_category","  5.48%   33.343      2 Template:Dead_link","  4.41%   26.803      2 Template:Fix","  4.08%   24.805      3 Template:Navbox","  4.04%   24.579      5 Template:Cite_magazine","  3.90%   23.734      4 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.302","limit":"10.000"},"limitreport-memusage":{"value":5351533,"limit":52428800}},"cachereport":{"origin":"mw1191","timestamp":"20170208130336","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1262"});});

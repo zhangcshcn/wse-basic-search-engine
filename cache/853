@@ -1,0 +1,229 @@
+ 
+
+
+
+
+
+
+IP address spoofing
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (February 2012) (Learn how and when to remove this template message)
+
+
+
+
+
+
+example scenario of IP address spoofing
+
+
+In computer networking, IP address spoofing or IP spoofing is the creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of hiding the identity of the sender or impersonating another computing system.[1] One technique which a sender may use to maintain anonymity is to use a proxy server.
+
+
+
+Contents
+
+
+1 Background
+2 Applications
+3 Legitimate uses
+4 Services vulnerable to IP spoofing
+5 Defense against spoofing attacks
+
+5.1 Upper layers
+
+
+6 Other definitions
+7 See also
+8 References
+9 External links
+
+
+
+Background[edit]
+The basic protocol for sending data over the Internet network and many other computer networks is the Internet Protocol (IP). The protocol specifies that each IP packet must have a header which contains, among other things, the IP address of the sender of the packet. The source IP address is normally the address that the packet was sent from, but the sender's address in the header can be altered, so that to the recipient it appears that the packet came from another source. The protocol requires the receiving computer to send back a response to the source address, so that spoofing is mainly used when the sender can anticipate the network response or does not care about the response.
+Applications[edit]
+IP spoofing involving the use of a trusted IP address can be used by network intruders to overcome network security measures, such as authentication based on IP addresses. This type of attack is most effective where trust relationships exist between machines. For example, it is common on some corporate networks to have internal systems trust each other, so that users can log in without a username or password provided they are connecting from another machine on the internal network (and so must already be logged in). By spoofing a connection from a trusted machine, an attacker on the same network may be able to access the target machine without authentication.
+IP spoofing is most frequently used in denial-of-service attacks, where the objective is to flood the target with an overwhelming volume of traffic, and the attacker does not care about receiving responses to the attack packets. Packets with spoofed IP addresses are more difficult to filter since each spoofed packet appears to come from a different address, and they hide the true source of the attack. Denial of service attacks that use spoofing typically randomly choose addresses from the entire IP address space, though more sophisticated spoofing mechanisms might avoid unroutable addresses or unused portions of the IP address space. The proliferation of large botnets makes spoofing less important in denial of service attacks, but attackers typically have spoofing available as a tool, if they want to use it, so defenses against denial-of-service attacks that rely on the validity of the source IP address in attack packets might have trouble with spoofed packets. Backscatter, a technique used to observe denial-of-service attack activity in the Internet, relies on attackers' use of IP spoofing for its effectiveness.
+Legitimate uses[edit]
+Spoofed IP packets are not incontrovertible evidence of malicious intent: in performance testing of websites, hundreds or even thousands of "vusers" (virtual users) may be created, each executing a test script against the website under test, in order to simulate what will happen when the system goes "live" and a large number of users log on at once.
+Since each user will normally have its own IP address, commercial testing products (such as HP LoadRunner, WebLOAD, and others) can use IP spoofing, allowing each user its own "return address" as well.
+Spoof and sniff for unhackable servers is used to record incoming information without exposing the server to an IP address binding or IP stack. One computer binds to the IP address and is exposed to hacking risks while the spoof and sniff servers actually send and receive data. The server with the IP address is usually rebooted from Read Only Media on a regular basis hence the term unhackable.
+Services vulnerable to IP spoofing[edit]
+
+
+
+
+
+This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (September 2016) (Learn how and when to remove this template message)
+
+
+Configuration and services that are vulnerable to IP spoofing:
+
+RPC (Remote procedure call services)
+Any service that uses IP address authentication
+The X Window System
+The R services suite (rlogin, rsh, etc.)
+
+Defense against spoofing attacks[edit]
+Packet filtering is one defense against IP spoofing attacks. The gateway to a network usually performs ingress filtering, which is blocking of packets from outside the network with a source address inside the network. This prevents an outside attacker spoofing the address of an internal machine. Ideally the gateway would also perform egress filtering on outgoing packets, which is blocking of packets from inside the network with a source address that is not inside. This prevents an attacker within the network performing filtering from launching IP spoofing attacks against external machines.
+It is also recommended to design network protocols and services so that they do not rely on the IP source address for authentication.
+Upper layers[edit]
+Some upper layer protocols provide their own defense against IP spoofing attacks. For example, Transmission Control Protocol (TCP) uses sequence numbers negotiated with the remote machine to ensure that arriving packets are part of an established connection. Since the attacker normally can't see any reply packets, the sequence number must be guessed in order to hijack the connection. The poor implementation in many older operating systems and network devices, however, means that TCP sequence numbers can be predicted.
+Other definitions[edit]
+The term spoofing is also sometimes used to refer to header forgery, the insertion of false or misleading information in e-mail or netnews headers. Falsified headers are used to mislead the recipient, or network applications, as to the origin of a message. This is a common technique of spammers and sporgers, who wish to conceal the origin of their messages to avoid being tracked down.
+See also[edit]
+
+Egress filtering
+Ingress filtering
+Network address translation
+Reverse path forwarding
+RFC 1948, Defending Against Sequence Number Attacks, May 1996
+Router (includes a list of manufacturers)
+Spoofed URL
+MAC Spoofing
+
+References[edit]
+
+
+^ Tanase, Matthew (March 11, 2003). "IP Spoofing: An Introduction". Symantec. Retrieved September 25, 2015. 
+
+
+External links[edit]
+
+ANA Spoofer Project: State of IP Spoofing and Client Test
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=IP_address_spoofing&oldid=758256208"					
+Categories: Internet securityDeceptionIP addressesHidden categories: Articles needing additional references from February 2012All articles needing additional referencesArticles needing additional references from September 2016Pages using RFC magic links 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Article
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+العربيةБългарскиČeštinaDeutschΕλληνικάفارسیFrançaisHrvatskiItalianoMagyarNederlands日本語PolskiPortuguêsРусскийSlovenčinaSuomiTürkçe 
+Edit links 
+
+
+
+
+
+ This page was last modified on 4 January 2017, at 10:49.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":62,"wgHostname":"mw1267"});});

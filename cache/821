@@ -1,0 +1,587 @@
+ 
+
+
+
+
+
+
+
+Wikipedia:Please clarify
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of the Wikipedia:Writing better articles guideline. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcuts:
+
+WP:CLARIFY
+WP:CONFUSE
+
+
+
+
+
+
+The aim of this page is to describe ways to clarify text or request such clarification. There are inline cleanup tags to flag specific wording that is likely to be confusing to the average reader.
+
+
+
+Contents
+
+
+1 When you need to flag unclear text
+2 How to mark articles for clarification
+3 How to improve articles that need clarification
+4 Specific clarification
+5 See also
+6 References
+
+
+
+When you need to flag unclear text
+It's always best to take care of something when you notice it, but that's not always possible. You can choose one of these templates to tag text inline to request clarifications that you cannot provide yourself:
+
+
+
+{{Clarify}} to mark individual phrases or sentences
+{{Elucidate}} to mark individual phrases or sections which require further explanation for general (i.e. non-expert) readers
+{{Confusing}} to mark sections (or entire articles, though this is undesirable)
+{{Examples}} to mark individual phrases or sentences which require examples for clarification
+{{Non sequitur}} to mark individual mentions of someone or something in an out-of-context way, the relevance of which is unclear
+{{Definition needed}} to mark a term as ambiguous or unclear and in need of a definition
+
+
+
+When using these templates, be specific: mark individual phrases, sentences, and sections in preference to entire articles. Also be sure to leave specific suggestions for improvement on the article's talk-page.
+The templates' pages will almost always have additional documentation on usage and parameters.
+How to mark articles for clarification
+
+To ask for clarification for a particular phrase or sentence, simply type {{Clarify}} or {{what}} (after the phrase or sentence) to display a superscripted tag (the tag will link here):
+
+
+
+
+
+
+
+
+This is a confusing sentence, which needs readers to apply much energy and time in order to understand the implicit meanings behind it, and needs to be clarified/rewritten.[clarification needed]
+
+
+
+
+
+
+
+
+To ask for further explanation of a point made in a particular phrase or sentence, simply type {{Elucidate}} (after the phrase or sentence) to display a superscripted tag (the tag will link here):
+
+
+
+
+
+
+
+
+This sentence contains unexplained jargon.[further explanation needed]
+
+
+
+
+
+
+
+
+To ask for clarification for a particular section, simply type {{Confusing|section}} at the top of the section, to generate the following tag-box:
+
+
+
+
+This section may be confusing or unclear to readers. (Learn how and when to remove this template message)
+
+
+
+Then update the article's talk page with specific aspects to be improved.
+
+
+To ask for clarification for an entire article, consider first whether it would be more productive to tag individual phrases, sentences, or sections with {{clarify}}. If you cannot identify specific parts of the article that need clarification, write what aspects of the article you believe need clarification on the article's talk page before tagging the entire article with {{Confusing}}.
+
+How to improve articles that need clarification
+
+Explain jargon: Define technical terms:
+
+Define extra terms early (such as: Related terms include:).
+Add a brief definition when first using new terms, like: blog (a web log of journal entries).
+Explain regional variations and the slang of certain professions (e.g. "Massachusetts rotary").
+Add a link to an unfamiliar topic
+
+
+Could it be shorter?: Some guidelines which often help:
+
+Replace clauses with adverbs (to limit prepositions to about four per sentence).
+Delete extraneous rambling words (especially weasel words and/or peacock terms).
+Replace longer words with shorter words.
+Split long sentences into shorter sentences (again, four prepositions per sentence).
+Use idioms, or familiar phrases: rather than "electron flow field" use "electric current"; replace "computer program text" with "source code"; idioms seem simpler: as in "viewpoint" vs. "idiosyncratic approach to the perceived issue".
+
+
+
+
+Compare two sentences: "Notwithstanding the controversy, she, with practiced skill, proceeded to navigate MegaX Corporation through difficult financial straits" versus "Despite the controversy, she navigated MegaX Corp. through difficult financial straits" (two prepositions).
+
+
+Add a diagram or photo: Complex text might be illustrated by a diagram. Wikimedia Commons also has over 12 million images, which can be searched (such as for "galaxy"). Even if the image or diagram is not exact, mention extra details in the caption-area, or use Template:Superimpose or Template:Location map to overlay a custom label/symbol onto an image.
+Add a wikitable or list: Multi-column wikitables could clarify groups of data; however, simple lists (with colon-asterisk ":*" bullets) might be enough. See: spark plug, with a list of risks/benefits.
+Make it clear what's happening and to what: A common example is a vague pronoun reference: "Emily was friends with Francine until she changed her job" (vague: Who changed jobs? Pronoun "she" equally applies to both). Also referring back to a list but not specifying the entry.
+Use specific wording rather than vague whenever possible: For example, instead of saying, "in the old days", specify the time period you are referring to (say, the 19th century, or the 1960s).
+
+Similarly, do not reference "now": the word "Recently" or "Soon" or their synonyms will become meaningless quickly. Use "As of" or a specific date.
+
+
+Make sure you're using the right word(s): In one of the great critiques of a fellow author, Mark Twain listed eighteen rules of writing romantic fiction violated by James Fenimore Cooper.[1] Besides the criticism of Cooper's characterisation and plot, Twain also said that a writer should:
+
+Say what he is proposing to say, not merely come near it. (Avoid euphemisms; we don't have to bowdlerize)
+Use the right word, not its second cousin.
+Eschew surplusage (see KISS principle).
+Not omit necessary details.
+Avoid slovenliness of form.
+Use good grammar.
+Employ a simple and straightforward style.
+
+
+Make use of headings: A huge block of text can be daunting, but dividing it into sections, and subsections, can organize a logical structure onto the text, separating statements into each grouped section.
+Check your intent: Wikipedia is a place to inform and to educate. It is not a technical journal. Information from technical journals might need to be reduced to short sentences (four prepositions), because some journals encourage writing multi-level sentences spanning fifteen lines, with sub-sub-clauses.
+Check your spelling: Usually misspelled words are obvious in their intent (e.g., "Qualty" is obviously "Quality"), however "Tedting" could be "Testing" or "Texting" (or "editing"). If it is not actually misspelled, or it is intended to be so, use the {{Sic}} template.
+
+Specific clarification
+There are some common situations where use of a more specific clarification template might make the desired clarification clearer.
+A common case is an article citing a scientific measurement without indicating how the measurement was taken. For example, the following statement about solar intensity at the earth's surface without specifying the sun's elevation could be annotated with the following tag:
+
+
+
+The following tag links to a Wikipedia project to clear bias based on the source of the information.
+
+
+"The sun's intensity is 90 watts per square meter.[where?]"
+
+
+
+See also
+
+Template:Distinguish
+Wikipedia:Expert help
+
+References
+
+
+^ Fenimore Cooper's Literary Offences by Mark Twain
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Inline cleanup tags
+
+
+
+
+
+
+Attribution
+
+
+
+{{According to whom}}
+{{Attribution needed}}
+{{By whom}}
+{{From whom?}}
+{{To whom?}}
+{{Who}}
+{{Whom2}}
+
+
+
+
+
+
+
+
+Clarity
+
+
+
+{{Ambiguous}}
+{{Clarify}}
+{{Clarify span}}
+{{Clarify timeframe}}
+{{Context inline}}
+{{Expand acronym}}
+{{Incomprehensible inline}}
+{{Non sequitur}}
+{{Who2}}
+
+
+
+
+
+
+
+
+Miscellaneous
+
+
+
+{{Chinese script needed inline}}
+{{Disambiguation needed}}
+{{Original research inline}}
+{{Pronunciation needed}}
+{{Siadn}}
+{{Synthesis inline}}
+
+
+
+
+
+
+
+
+Neutrality
+
+
+
+{{Lopsided}}
+{{Peacock term}}
+{{POV statement}}
+{{Weasel inline}}
+
+
+
+
+
+
+
+
+Precision
+
+
+
+
+
+
+
+{{By how much}}
+{{Definition}}
+{{Definition needed}}
+{{Elucidate}}
+{{Example needed}}
+{{Examples}}
+{{How}}
+{{Quantify}}
+{{Specify}}
+{{Vague}}
+{{When}}
+{{Where}}
+{{Which}}
+{{Why}}
+{{Year needed}}
+
+
+
+
+
+
+
+
+Excessive
+
+
+
+{{Duplication span}}
+{{Importance inline}}
+{{Relevance inline}}
+{{Undue weight inline}}
+
+
+
+
+
+
+
+
+
+
+
+Time-sensitivity
+
+
+
+{{Clarify timeframe}}
+{{Update after}}
+{{Update inline}}
+{{Anachronism inline}}
+
+
+
+
+
+
+
+
+Verifiability
+
+
+
+
+Dubious
+
+
+
+{{Contradict-inline}}
+{{Disputed inline}}
+{{Dubious}}
+{{Inconsistent}}
+
+
+
+
+
+
+
+
+Missing or
+problematic
+reference
+
+
+
+{{Better source}}
+{{Citation needed}}
+{{Citation needed lead}}
+{{Citation needed span}}
+{{Additional citation needed}}
+{{Citation not found}}
+{{Cite quote}}
+{{Failed verification}}
+{{Failed verification span}}
+{{Irrelevant citation}}
+{{Nonspecific}}
+{{Overcite}}
+{{Primary source inline}}
+{{Request quotation}}
+{{Retracted}}
+{{Self-published inline}}
+{{Source needs translation}}
+{{Third-party inline}}
+{{Unreliable source?}}
+{{Verify quote}}
+{{Verify source}}
+
+
+
+
+
+
+
+
+Incomplete
+or broken
+citation
+
+
+
+{{Author incomplete}}
+{{Author missing}}
+{{Bare URL inline}}
+{{Date missing}}
+{{Dead link}}
+{{Edition needed}}
+{{Episode needed}}
+{{Full citation needed}}
+{{Incomplete short citation}}
+{{ISBN missing}}
+{{Page needed}}
+{{Place missing}}
+{{Publisher missing}}
+{{Season needed}}
+{{Time needed}}
+{{Title incomplete}}
+{{Title missing}}
+{{Volume needed}}
+{{Year missing}}
+
+
+
+
+
+
+
+
+
+
+
+Wording
+
+
+
+{{Awkward}}
+{{Copy edit inline}}
+{{Buzzword inline}}
+{{Technical statement}}
+
+
+
+
+
+
+
+
+
+
+
+ Inline cleanup templates
+ WikiProject Inline Templates
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Please_clarify&oldid=762414674"					
+Categories: Wikipedia information pagesWikipedia how-toHidden categories: Wikipedia semi-protected project pagesWikipedia move-protected project pagesArticles using small message boxes 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+EspañolفارسیFrançaisItalianoଓଡ଼ିଆPortuguêsSlovenčinaSlovenščinaСрпски / srpski 
+Edit links 
+
+
+
+
+
+ This page was last modified on 28 January 2017, at 17:45.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.272","walltime":"0.450","ppvisitednodes":{"value":1306,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":64501,"limit":2097152},"templateargumentsize":{"value":3787,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  371.705      1 -total"," 30.94%  115.012      1 Template:Pp-semi-indef"," 22.85%   84.949      3 Template:Navbox"," 21.97%   81.679      1 Template:Inline_tags"," 19.11%   71.020      1 Template:Infopage"," 15.80%   58.718      1 Template:Ombox"," 12.41%   46.117      3 Template:Fix"," 10.59%   39.370      2 Template:Fake_fix","  8.86%   32.919      1 Template:Fake_clarify","  6.04%   22.466      3 Template:Delink"]},"scribunto":{"limitreport-timeusage":{"value":"0.115","limit":"10.000"},"limitreport-memusage":{"value":2962138,"limit":52428800}},"cachereport":{"origin":"mw1201","timestamp":"20170128174522","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":48,"wgHostname":"mw1263"});});

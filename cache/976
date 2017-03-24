@@ -1,0 +1,188 @@
+ 
+
+
+
+
+
+
+Wikivoyage:Protected page policy
+
+From Wikivoyage
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+
+This page in a nutshell: Administrators may protect a page when necessary, but it is preferable that abusive edits are effectively counteracted without protecting a page.
+
+
+
+
+
+Click here for a list of currently protected pages
+
+
+
+The revolutionary nature of Wiki is the ability for any reader of any article to edit that page right now. Wiki is the enabling technology that is making Wikivoyage into a really great travel guide. Wikivoyagers know that we need to keep Wikivoyage open and available to make it succeed. We depend on the distributed effort of the millions of people on the Internet to get high-quality, up-to-date and reliable articles.
+However, in some circumstances, it may be necessary to protect a page on Wikivoyage. When a page is protected, it can only be edited by administrators. This is an extreme measure and shouldn't be taken lightly. Whenever possible, we prefer to counteract abusive actions by some users with the ability of other users to edit a page.
+Reasons to protect a page[edit]
+Administrators may protect a page whenever they feel that this step is warranted. They are expected to use their judgement, and to err on the side of openness. Some example reasons why a page should be permanently fully protected would be:
+
+The text of the page must remain verbatim on the site. An example is the Full text of the Attribution-ShareAlike 3.0 license, which is a legal document not open to interpretation by Wikivoyagers.
+A policy page has legal ramifications for the Wikivoyage project. Some policy is important to the continued existence of the project and the livelihoods of Wikivoyagers. If these pages are repeatedly compromised, they should be protected.
+Non-human spambots occasionally hammer away creating pages that are not and can never be valid Wikivoyage articles (eg. Talk:Bangalore/; note the slash at the end). Such pages can be permanently protected from creation.
+
+Reasons for temporary full protection include:
+
+An out-of-control edit war is underway. If two or more Wikivoyagers are involved in an extended edit war over a page and are unable or unwilling to discuss the issue on the appropriate talk page, an administrator can use the page protection feature to declare a cooling-off period on the article until contributors are willing to talk out their differences. Administrators should not protect a page if they are personally involved in the edit war; they should ask another administrator to do it instead. It's preferred that the participants be cautioned before such a step is taken, rather than simply pre-emptively protecting the page; actual protection of the page should really be a last resort.
+A page is subject to repeated vandalism. This is a special case of the edit war; if a user is repeatedly and systematically vandalizing a page, it should be protected until the user gets their head straight, or they wander away, or they get banned.
+A page causes a security risk for Wikivoyage. Hopefully the MediaWiki software is robust enough to deal with simple security attacks through the Wiki interface, but if in some case it's not, administrators should take the step of protecting the page.
+
+Pages can also be semi-protected, allowing established users to edit, but blocking anonymous users:
+
+A few high-visibility and/or high-risk pages like the Main Page and the Project:Local spam blacklist are semi-protected to stop drive-by vandalism and spamming.
+
+See Project:Protected pages for the full list.
+Process for protecting a page[edit]
+Before or immediately after protecting a page, the administrator should note the protection on the accompanying talk page, and add a link on the protected pages page, with a justification for why the page was protected. Other Wikivoyagers can and should comment on the protect action there, but it's not the place for discussing the particulars of an edit war.
+If the protect action isn't in the above list of reasons, it should be strongly defended and the reason should be added to the above list.
+A page should be unprotected as soon as it's feasible. When a page is unprotected, a note to that effect should be put on the protected pages page.
+See also[edit]
+
+Project:How to handle unwanted edits
+Project:Edit war
+Project:User ban nominations
+
+
+
+
+ 
+						Retrieved from "https://en.wikivoyage.org/w/index.php?title=Wikivoyage:Protected_page_policy&oldid=2362307"					
+Category: Wikivoyage policies 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Discussion
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageTravel destinationsStar articlesWhat's Nearby?Tourist officeRandom page 
+
+
+
+Get involved
+
+
+Travellers' pubRecent changesCommunity portalMaintenance panelPoliciesHelpInterlingual loungeDonate 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikidataWikinewsWikipediaWikiquoteWikisourceWikiversity 
+
+
+
+In other languages
+
+
+DeutschEspañolFrançaisItalianoNederlandsPolskiPortuguêsSvenska中文 
+Edit links 
+
+
+
+
+
+This page was last edited at 05:52, on 30 July 2013 by Wikivoyage user Peterfitzgerald. Based on work by Wikivoyage users Romaine, Globe-trotter, CarsracBot, SteveRBot, This, that and the other, (WV-en) ImportBot, Wrh2 and Dguillaume, Wikivoyage anonymous user 123.125.156.142 and others.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+
+
+Privacy policy
+About Wikivoyage
+Disclaimer
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.020","walltime":"0.025","ppvisitednodes":{"value":108,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":1799,"limit":2097152},"templateargumentsize":{"value":407,"limit":2097152},"expansiondepth":{"value":6,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    8.295      1 -total"," 70.91%    5.882      1 Template:Nutshell"," 50.39%    4.180      1 Template:Ombox"," 27.31%    2.265      1 Template:WikivoyageDoc"]},"cachereport":{"origin":"mw1305","timestamp":"20170202025415","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":85,"wgHostname":"mw1172"});});

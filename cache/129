@@ -1,0 +1,1595 @@
+ 
+
+
+
+
+
+
+Wikipedia:WikiProject Electronics
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+Welcome
+
+
+
+
+Shortcuts:
+
+WP:ELEC
+WP:ELECTRONICS
+
+
+
+The aim of this project is to better organise information in articles related to electronics. This page contains only suggestions, with the hope to help other Wikipedians writing high-quality articles with the minimum effort.
+
+
+
+
+
+Electronics portal
+
+
+
+
+
+Contents
+
+
+1 Scope
+2 Subpages
+
+2.1 Complete list of WikiProject Electronics subpages
+
+
+3 Guidelines for articles in Project Electronics
+4 Drawing circuits
+
+4.1 Using a vector editor and prepared components
+
+
+5 Tables of standard symbols
+6 Featured article nominations
+7 Joining
+8 Templates
+9 Sister projects
+10 Article assessment
+
+
+
+Scope[edit]
+
+
+
+Project Scope
+
+
+
+
+This WikiProject aims to provide a standard style for writing articles about electronics. The field of electronics is the study and use of electronic devices that operate by controlling the flow of electrons or other electrically charged particles in devices such as thermionic valves and semiconductors. Many subjects are closely related to electronics: telecommunications, biomedical, design and construction of electric and electronic circuits, hardware design, etc.
+All these subjects are considered to be related to this project. In the future we may restrict the scope if the project grows too large, and sister projects about these other subjects may be split off.
+
+
+
+Subpages[edit]
+
+
+
+Project Subpages
+
+
+
+
+
+Assessment — Information on assessing the quality of articles within the project.
+Categories — List of project categories.
+Members — The list of project participants.
+Programs — Information on programs used to draw electronics-related figures.
+Standard symbols — Symbols that should be used in project figures.
+Task list of all the tasks the members are currently working on. Here is the place to suggest the modification/creation of a new article, to propose merging two articles, etc.
+Article alerts — automated alerts about articles in the project's scope.
+
+
+
+
+Complete list of WikiProject Electronics subpages[edit]
+
+
+WikiProject Electronics
+WikiProject Electronics/Alerts
+WikiProject Electronics/Article alerts
+WikiProject Electronics/Article alerts/Archive
+WikiProject Electronics/Articles
+WikiProject Electronics/Assessment
+WikiProject Electronics/Categories
+WikiProject Electronics/Collaboration
+
+WikiProject Electronics/How to draw SVG circuits using Xcircuit
+
+WikiProject Electronics/Members
+WikiProject Electronics/Members/Archive 1
+WikiProject Electronics/Programs
+WikiProject Electronics/Ps2svg.sh
+WikiProject Electronics/Standard symbols
+WikiProject Electronics/Task list
+WikiProject Electronics/Task list/Archive 1
+WikiProject Electronics/sidebar
+
+WikiProject Electronics:Circuits Design
+
+
+
+Guidelines for articles in Project Electronics[edit]
+
+
+
+Project Guidelines
+
+
+
+
+When writing about electronic devices and related topics, some questions to consider are the usual
+
+Who?
+What?
+When?
+Where?
+Why?
+How?
+
+questions (not necessarily in that order). For example,
+
+Who made the first one/invented it?
+Who were the rivals in the development phase?
+Who wants/uses it?
+
+
+What is it?
+What did we use before it was invented?
+What is/was the social effect of it?
+What seems likely to succeed it?
+
+
+When was it developed/thought of?
+When was the first one made?
+
+
+Where did it come from?
+Where was the work done?
+
+
+Why was it necessary?
+Why did it take so long?
+Why was it not discovered/made/invented earlier?
+
+
+How does it work?
+How was it developed?
+How big/small/powerful/costly is it?
+How does/did it affect the environment?
+
+Once these questions are answered, you will find that you have a baby article!
+
+
+
+Drawing circuits[edit]
+
+
+
+Drawing circuits
+
+
+
+
+Main article: /Programs § Programs_for_drawing_circuits
+One of the main parts when writing an article about electronics might be drawing of a circuit. At the moment, there are several pictures showing electronic components around Wikipedia, most of them from Commons. Anyway, paying attention to them, it will be clear that everybody has used a different program to draw them, getting different quality. Moreover, a lot of the authors did not use a specialised program, so they had to draw all the components from scratch, starting from simple lines and circles. Normally in these cases the output quality is very high, but the time to make them must have been very long.
+For these reasons, this project has to propose a standard to be used to draw circuits, suggesting tips or whatever, in order to get the best possible quality with the minimum effort. First of all, let us start from a sort of "wish list", with the list of all the feature this program should have:
+
+It must be free and open source: this is the way Wikipedia is, and so must be any program Wikipedia suggests.
+It must be multi-platform: in order to be proposed as a standard, anybody must be able to use it. The program has to run on Windows, Linux and macOS.
+It has to be able to export in SVG: the SVG is the format that was proposed by Wikipedia for diagrams. It provides the best quality at the minimum space.
+It has to have a big standard collection of electric/electronic components, with optionally an extensible library: this way it will not be necessary to draw components from scratch, and, just in case, it will be necessary to do it just once.
+It has to help the schematic drawing by a grid or something like this: if it does not give the possibility to "hang" the components to a grid, it will be hard to make a precise drawing
+Connections should be better than just lines. They should attach to components, default to right angles, move when the components are moved, autoroute around objects, and so on.
+It should be part of a complete, easy to use, drawing package, not just for circuit diagrams (though a 'circuit mode' might be good). Vector drawing has long been a weak area on PCs (British Acorn computers had 'Draw' in ROM which was excellent, leading Acorn users to draw a lot more because it so was easy and they did not have to decide which program would be best to use).
+It should have Bezier curves to allow the creation of good audio curves, since most weighting curves are specified by points, not by an equation or circuit model.
+
+At the moment, as far as we know, there is no program satisfying all these points. Anyway the members of the project made a list with several programs that have been used for drawing circuits on Wikipedia. Each program has a short comment and an example of its output; this list is at programs for drawing circuits. The only way to get a circuit in SVG format without drawing everything from scratch is using Xcircuit; for more info see How to draw SVG circuits using Xcircuit.
+Using a vector editor and prepared components[edit]
+
+
+
+
+electrical_symbols_library.svg
+
+
+
+
+
+
+An example of a schematic drawn using this library
+
+
+There is an image on commons specially intended to help drawing SVG circuits simple, fast and flexible. Just open this image in any common vector editor (e.g. Inkscape), copy, place and join the components as you wish. This technique produces nice and small SVG images. Except for 6th it achieves all the wishes mentioned above.
+When drawing, it is recommended to
+
+use grid snapping (the components are designed to be snapped to a 1 mm grid or 2 mm grid)
+make all connection lines 1.0 mm thick
+properly mark the joints with the dot (to distinguish them from cross-overs)
+to be unambiguous join only 3 wires together at any point, as a 4-way can look like an accidentally dotted cross-over
+use the font "12 pt sans-serif" (or similar). An alternative is to use "24 pt Times New Roman Italic" for big letters and "18 pt Times New Roman Normal" for sub letters, as done in this image.
+
+Feel free to extend the component list and to upload a new version.
+
+
+
+Tables of standard symbols[edit]
+
+
+
+Standard symbols
+
+
+
+
+Main article: /Standard symbols
+In order to keep a consistent layout between different articles related to this project, we have created some tables with a list of standard symbols. Here is the first (and most important) of those tables. You can find the others on their own page. Please use them.
+
+
+Symbol
+Meaning
+SI Units of Measure
+
+
+
+
+
+
+ 
+f
+ 
+
+
+{\displaystyle \ f\ }
+
+
+frequency
+hertz (cycles/second)
+
+
+
+
+
+
+ 
+ω
+ 
+
+
+{\displaystyle \ \omega \ }
+
+
+angular frequency
+radians per second
+
+
+
+
+
+
+ 
+k
+ 
+
+
+{\displaystyle \ k\ }
+
+
+wave number
+radians per meter
+
+
+
+
+
+
+ 
+λ
+ 
+
+
+{\displaystyle \ \lambda \ }
+
+
+wavelength
+meters per cycle
+
+
+
+
+
+
+ 
+T
+ 
+
+
+{\displaystyle \ T\ }
+
+
+period
+seconds per cycle
+
+
+
+
+
+
+ 
+n
+ 
+
+
+{\displaystyle \ n\ }
+
+
+refractive index
+dimensionless
+
+
+
+
+
+
+ 
+
+c
+
+0
+
+
+ 
+
+
+{\displaystyle \ c_{0}\ }
+
+
+speed of light in vacuum
+meters per second
+
+
+
+
+
+
+ 
+c
+ 
+
+
+{\displaystyle \ c\ }
+
+
+speed of propagation
+meters per second
+
+
+More...
+
+
+
+Featured article nominations[edit]
+See /Task list#Suggested Featured article nominations
+Joining[edit]
+In order to join us, just add your signature to the bottom of the Members subpage. Joining will not affect your status on Wikipedia. It is just a way for us to know each other, to know other people who are interested in, and are working in the same topics as you. If you have questions to ask, guidelines to propose, or whatever else that might be related to the topic of this project you are welcome to discuss it on the project page; if you join us we will know you are concerned about it.
+After you have joined the project, if you edit any article please follow the guidelines we have already chosen and add the right template on the talk page. You do not have to: nobody will ever check whether you are actually doing it, but, since we have been working on it, it makes sense to use it now!
+Please do not forget to make new members welcome by leaving a message on their talk page.
+Templates[edit]
+
+
+What to type
+What it makes
+What it is for
+
+
+{{Infobox electronic component}}
+
+
+
+Adds an infobox to the top of the article. See Template:Infobox electronic component for details.
+
+
+{{Electron-stub}}
+Talk
+
+
+
+
+This electronics-related article is a stub. You can help Wikipedia by expanding it.
+
+
+v
+t
+e
+
+
+
+
+
+
+The official electronics stub for circuit-related articles.
+
+
+{{WikiProject Electronics}}
+Talk
+
+
+
+WikiProject Electronics
+(Rated Project-class)
+ElectronicsWikipedia:WikiProject ElectronicsTemplate:WikiProject Electronicselectronic articles
+
+
+
+
+
+
+
+
+
+Electronics portal
+
+
+
+
+v
+t
+e
+
+
+This page is part of WikiProject Electronics, an attempt to provide a standard approach to writing articles about electronics on Wikipedia. If you would like to participate, you can choose to edit the article attached to this page, or visit the project page, where you can join the project and see a list of open tasks. Leave messages at the project talk page
+
+
+
+ Project 
+This page does not require a rating on the project's quality scale.
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+The project notice, designed to be placed in the talk page of any article that has been edited as part of this WikiProject. Usage:
+
+
+
+{{WikiProject Electronics
+|class=
+|importance=
+|attention=
+}}
+
+
+
+
+{{Electron-project-member}}
+Talk
+
+
+
+
+This user is a member of WikiProject Electronics, an attempt to provide a standard approach to writing articles about electronics on Wikipedia. If you would like to participate, visit the project page, where you can join the project and see a list of open tasks.
+
+
+
+To be used in your user page, to show you joined the project.
+
+
+{{User WikiProject Electronics}}
+Talk
+
+
+
+
+
+This user is a member of WikiProject Electronics.
+
+
+
+
+Smaller version of the previous one, to be used in your user page to show you joined the project.
+
+
+Sister projects[edit]
+
+WikiProject Telecommunications
+
+Article assessment[edit]
+
+
+Electronic articles by quality and importance
+
+
+Quality
+Importance
+
+
+Top
+High
+Mid
+Low
+NA
+???
+Total
+
+
+ FA
+
+
+3
+2
+
+
+5
+
+
+ GA
+
+7
+8
+13
+
+11
+39
+
+
+B
+12
+42
+53
+18
+
+17
+142
+
+
+C
+18
+58
+123
+80
+
+176
+455
+
+
+Start
+1
+46
+212
+409
+3
+684
+1,355
+
+
+Stub
+
+4
+49
+306
+7
+500
+866
+
+
+List
+3
+3
+11
+26
+
+55
+98
+
+
+Book
+
+
+
+
+1
+
+1
+
+
+Category
+
+
+
+
+159
+
+159
+
+
+Disambig
+
+
+
+
+10
+
+10
+
+
+File
+
+
+
+
+14
+
+14
+
+
+Portal
+
+
+
+
+20
+
+20
+
+
+Project
+
+
+
+
+4
+
+4
+
+
+Template
+
+
+
+
+59
+
+59
+
+
+NA
+
+
+
+2
+81
+
+83
+
+
+Other
+
+
+
+
+2
+
+2
+
+
+Assessed
+34
+160
+459
+856
+360
+1,443
+3,312
+
+
+Total
+34
+160
+459
+856
+360
+1,443
+3,312
+
+
+WikiWork factors (?)
+ω = 7004143730000000000♠14,373
+Ω = 5.00
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia help pages
+
+
+
+
+
+
+
+
+
+
+Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.
+Or ask for help on your talk page
+
+
+
+
+Noticeboards (?)
+FAQs (?)
+Reference desks (?)
+The Missing Manual (?)
+Directories (?)
+
+
+
+
+
+
+
+
+About Wikipedia
+
+
+
+Administration
+Principles (Wikipedia in brief)
+Policies and guidelines
+What Wikipedia is not
+Disclaimer (parental advice)
+Making requests
+
+where to ask questions
+contact Wikipedia directly
+
+
+Who writes Wikipedia?
+Why create an account?
+
+
+
+
+
+
+
+
+Help for readers
+
+
+
+FAQ
+Books
+Copyright
+Glossary
+Mobile access
+Navigation
+Other languages
+Searching
+Students
+Viewing media
+
+
+
+
+
+
+
+
+Contributing
+to Wikipedia
+
+
+
+A plain and simple overview
+A primer for newcomers
+Asking for help
+Advice for young editors
+Avoiding common mistakes
+Etiquette (community expectations)
+Learning the ropes
+Instructional material
+Simplified Manual of Style
+Simplified rule-set
+
+"Ignore all rules"
+"The rules are principles"
+
+
+Style-tips
+Tip of the day
+Task Center
+Your first article (article wizard)
+Vandalism
+
+
+
+
+
+
+
+
+Getting started
+
+
+
+Wikipedia intro
+Wikipedia tutorial
+The Wikipedia Adventure
+Manual of Style intro
+Graphics tutorials
+Picture tutorial (Uploading intro)
+IRC (live chat) tutorial
+Navigating intro
+Policies intro
+Referencing intro
+Tables intro
+Talk pages intro
+VisualEditor user guide
+
+
+
+
+
+
+
+
+Dos and don'ts
+
+
+
+Accessibility
+Bio's
+Categorization
+Disambiguation
+Images
+Links
+Lists
+References
+Tables
+Talks
+
+
+
+
+
+
+
+
+How-to pages and
+information pages
+
+
+
+Appealing blocks
+Article deletion
+Categories
+Citations / references
+
+Referencing for beginners
+Citation Style 1
+Cite errors
+References and page numbers
+
+
+Convert
+Diff
+Editing
+
+toolbar
+edit conflict
+
+
+Email confirmation
+Find sources
+Files
+Footnotes
+Image deletion
+Infoboxes
+Linking (link color)
+Logging in
+Merging
+Namespaces
+Page name
+Redirect
+Renaming pages
+Passwords
+Reverting
+Talk pages (archiving)
+URL
+User contributions
+User page design center
+
+
+
+
+
+
+
+
+Coding wiki markup
+
+
+
+Wiki markup (cheatsheet)
+Barcharts
+Calculations
+Characters
+Citation templates
+Columns
+Hidden text
+HTML
+Lists
+Magic words (introduction)
+Music symbols
+Sections
+Sounds
+Tables (introduction)
+Templates
+
+documentation
+messages
+
+cleanup messages
+
+
+
+
+Transclusion
+Visual files
+Wiki tools
+
+
+
+
+
+
+
+
+Directories
+
+
+
+Abbreviations
+Departments
+Editor's index
+Essays
+FAQs
+Glossary
+Guidelines
+Help menu
+Manual of Style
+Policies
+Shortcuts
+Tips
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia key policies and guidelines
+
+
+
+
+
+
+Overview
+
+
+
+Five pillars
+Policies and guidelines
+List of policies and guidelines
+
+List of policies
+List of guidelines
+
+
+
+
+
+
+
+
+
+
+Project-wide principles
+
+
+
+Consensus
+Dispute resolution
+Editing policy
+Ignore all rules
+What Wikipedia is not
+Wikipedia is not a dictionary
+
+
+
+
+
+
+
+
+Core content policies
+
+
+
+Neutral point of view
+No original research
+Verifiability
+
+
+
+
+
+
+
+
+Other content policies
+
+
+
+Article titles
+Autobiography
+Biographies of living persons
+Image use
+
+
+
+
+
+
+
+
+Content guidelines
+
+
+
+Citing sources
+Don't create hoaxes
+Do not include copies of primary sources
+External links
+Fringe theories
+Identifying reliable sources
+Notability
+Patent nonsense
+
+
+
+
+
+
+
+
+Behavioural policies
+
+
+
+Child protection
+Civility
+Courtesy vanishing
+Edit warring
+Harassment
+No legal threats
+No personal attacks
+Ownership of content
+Sock puppetry
+
+
+
+
+
+
+
+
+Behavioural guidelines
+
+
+
+Assume good faith
+Conflict of interest
+Disruptive editing
+Do not disrupt Wikipedia to illustrate a point
+Etiquette
+Gaming the system
+Please do not bite the newcomers
+
+
+
+
+
+
+
+
+Editing guidelines
+
+
+
+Article size
+Be bold
+Disambiguation
+Hatnotes
+Set index articles
+Signatures
+Subpages
+Talk page guidelines
+User pages
+Vandalism
+WikiProjects
+
+
+
+
+
+
+
+
+Style conventions
+
+
+
+Manual of Style
+
+Contents
+
+
+Accessibility
+
+Understandability
+
+
+Dates and numbers
+Images
+Layout
+Lead section
+Linking
+Lists
+
+
+
+
+
+
+
+
+Classification guidelines
+
+
+
+Categories, lists, and navigation templates
+Categorization
+Template namespace
+
+
+
+
+
+
+
+
+Deletion policies
+
+
+
+Attack page
+Criteria for speedy deletion
+Deletion policy
+Oversight
+Proposed deletion
+Proposed deletion of BLP
+Proposed deletion (books)
+Revision deletion
+
+
+
+
+
+
+
+
+Wikimedia Foundation
+
+
+
+List of policies
+Friendly space policy
+Licensing and copyright
+Privacy policy
+Values
+
+
+
+
+
+
+
+
+
+
+
+ Book
+ Category: Policies / Guidelines
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+ WikiProject Council
+
+
+
+
+
+
+ WikiProject guides
+
+
+
+WikiProject Council
+
+Talk
+
+
+Guidelines/Intro
+
+WikiProjects
+Task forces
+Technical notes
+
+
+Assessment FAQ
+Work via WikiProjects
+
+
+
+
+
+
+
+
+ Directories and summaries
+
+
+
+Directory
+Proposals
+Signpost
+Shortcuts
+Popular pages
+Database reports
+
+New WikiProjects
+Changes
+Watchers
+
+
+
+
+
+
+
+
+
+
+ Culture and the arts
+
+
+
+Arts
+
+Music
+Performing
+Plastic
+Visual
+
+
+Broadcasting
+Crafts and hobbies
+Entertainment
+
+Games and toys
+
+
+Food and drink
+Internet culture
+Language and literature
+
+Biography
+Linguistics
+
+
+Media
+Philosophy and religion
+Sports
+
+
+
+
+
+
+
+
+ Geographical
+
+
+
+Bodies of water
+Cities
+Countries
+
+Africa
+Americas
+Asia
+Europe
+Oceania
+
+
+Landforms
+Maps
+Parks, conservation areas and historical sites
+
+
+
+
+
+
+
+
+ History and society
+
+
+
+History and society
+Business and economics
+Education
+Military and warfare
+Politics and government
+Transportation
+
+
+
+
+
+
+
+
+ Science, technology
+and engineering
+
+
+
+Science
+Biology
+Chemistry
+Economics
+Geosciences
+Information science
+Mathematics
+Medicine
+Meteorology
+Physics
+Space
+Technology
+Time
+
+
+
+
+
+
+
+
+ Wikipedia assistance
+and tasks
+
+
+
+Contents systems
+Maintenance
+Files
+Article improvement and grading
+Classroom projects
+WikiProjects
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:WikiProject_Electronics&oldid=744060444"					
+Categories: WikiProject Electronics 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+AzərbaycancaবাংলাDeutschFrançaisPolskiРусский中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 12 October 2016, at 21:39.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.828","walltime":"1.046","ppvisitednodes":{"value":26798,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":242138,"limit":2097152},"templateargumentsize":{"value":65520,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  756.064      1 -total"," 69.56%  525.927      1 User:WP_1.0_bot/Tables/Project/Electronic"," 63.82%  482.509      1 User:WP_1.0_bot/WikiWork"," 63.61%  480.895      1 User:WP_1.0_bot/WikiWork/ta"," 63.36%  479.025      1 User:WP_1.0_bot/WikiWork/ta/pri"," 37.16%  280.974      2 User:WP_1.0_bot/WikiWork/ww"," 35.46%  268.082      1 User:WP_1.0_bot/WikiWork/ta/pri/1"," 35.23%  266.394      1 User:WP_1.0_bot/WikiWork/ta/1"," 25.46%  192.519      1 User:WP_1.0_bot/WikiWork/om"," 10.09%   76.304      1 Template:WikiProject_Electronics"]},"scribunto":{"limitreport-timeusage":{"value":"0.071","limit":"10.000"},"limitreport-memusage":{"value":3108387,"limit":52428800}},"cachereport":{"origin":"mw1178","timestamp":"20170213020739","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106,"wgHostname":"mw1171"});});

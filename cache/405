@@ -1,0 +1,525 @@
+ 
+
+
+
+
+
+
+
+Portal:Robotics
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+
+
+
+Topics
+Culture
+Geography
+Health
+History
+Mathematics
+Nature
+People
+Philosophy
+Religion
+Society
+Technology
+
+
+
+edit 
+The Robotics Portal
+
+
+
+Robotics is the science and technology of robots, including their design, manufacture, and application. Robotics requires a working knowledge of electronics, mechanics, and software. A person working in the field is a roboticist. The word robot was introduced by Czech writer Karel Čapek in his play R.U.R. (Rossum's Universal Robots) (1920), while the word robotics was first used in print by Isaac Asimov, in his science fiction short story "Runaround" (1941).
+A robot is an electro-mechanical or bio-mechanical device that can perform autonomous or preprogrammed tasks. Robots may be used to perform tasks that are too dangerous or difficult for humans, such as radioactive waste clean-up, or may be used to automate mindless repetitive tasks that should be performed with more precision by a robot than by a human, such as automobile production.
+
+The word robot is used to refer to a wide range of machines, the common feature of which is that they are all capable of movement and can be used to perform physical tasks. Robots take on many different forms, ranging from humanoid, which mimic the human form and way of moving, to industrial, whose appearance is dictated by the function they are to perform. Robots can be grouped generally as mobile robots (e.g. autonomous vehicles), manipulator robots (e.g. industrial robots) and self reconfigurable robots, which can conform themselves to the task at hand. Robots may be controlled directly by a human, such as remotely-controlled bomb-disposal robots and robotic arms; or may act according to their own decision making ability, provided by artificial intelligence. However, the majority of robots fall in between these extremes, being controlled by pre-programmed computers.
+More about Robotics...
+
+
+Show new selections below (purge)
+
+
+edit 
+Selected robot
+
+
+
+Sandstorm is an autonomous vehicle. Created by Carnegie Mellon University's Red Team, it is a heavily modified 1986 model 998 HMMWV. It competed in the DARPA Grand Challenge in 2004 and 2005. Sandstorm qualified in first position in the 2004 DARPA Grand Challenge. It travelled the fastest and farthest (7.4 miles) during the race before high centering on an embankment. Sandstorm competed in the 2005 DARPA Grand Challenge on October 8th, qualifying third from the pole position behind Stanley and finished in 7 hours, 5 minutes, placing 2nd out of the five vehicles to complete the 132 mile course.
+The sensors used by Sandstorm in 2004 included three fixed LIDAR laser-ranging units, one steerable LIDAR, a RADAR unit, and a pair of cameras for binocular vision. Sandstorm also has a GPS and an inertial navigation system for determining geographical position.
+Archive/Nominations...
+
+
+
+edit 
+Selected picture
+
+
+
+Credit: commons:User:Chris 73
+Toyota robot at the Toyota Kaikan in Toyota City.
+Archive/Nominations...
+
+
+
+edit 
+Topics
+
+
+Concepts: AI - Automation - Behavior - Calibration - Control - Cybernetics - Human interaction - Kits -Locomotion - Mapping - Mechatronics - Microbotics - Nanorobotics - Neural network - Odometry - Pathfinding - Servomechanism - Software - Vision
+Fields: AUVs - Androids - BEAM robotics - Bionics - Cyborgs - Domestic - Gynoids - Industrial - Military - Surgical - Swarm - Sociorobotics - Telerobotics - UAVs
+Robots: AIBO - ASIMO - Atlas (robot) - Boeing X-50 - KHR-1 - Lego Mindstorms - Leonardo's robot - Mars Rover - Mecha -RQ-4_Global_Hawk - MQ-1 Predator - nEUROn - QRIO - SIGMO - TOPIO - Wakamaru - X-47 Pegasus
+People and organizations: Roboticists - International Federation of Robotics (IFR) - Robotics Institute - FIRST
+Fiction: Bender - Bishop - Blade Runner - C-3PO - Johnny 5 - Marvin - Metropolis - R2-D2 - R.U.R. - The Matrix - The Terminator - Three Laws of Robotics - Transformers - Wall-e
+Competitions, expos and trials: BattleBots - DARPA - ELROB - Botball - IARC - RoboCup - Robotica
+Lists: Autobots - Robot Hall of Fame - Robotics topics - Robots from Futurama - Star Wars droids - UAVs
+
+
+
+
+edit 
+Related Wikiprojects
+
+
+
+
+
+
+Technology
+Electronics
+
+
+Science
+Physics
+
+
+
+
+
+
+
+
+edit 
+Related portals
+
+
+
+
+
+Artificial intelligence
+
+
+
+Computer science
+
+
+
+Electronics
+
+
+
+Engineering
+
+
+
+Information technology
+
+
+
+Science
+
+
+
+Technology
+
+
+
+Physics
+
+
+
+Software
+
+
+
+
+
+
+
+
+edit 
+Selected article
+
+
+
+David Hanson is an American robotics designer and researcher, best known as the creator of a series highly realistic humanoid robots. Hanson was educated as a designer and artist. In 1996, Hanson received a BFA in film/animation/video (FAV) from Rhode Island School of Design (RISD). While a student at RISD, Hanson tinkered with robotics and AI at Brown University.
+In addition to hardware development, Hanson and his company (Hanson Robotics Inc) develop "conversational personnas." Hanson's robots use speech recognition software, natural language processing, computer vision, and Hanson's own AI systems for responsive animations and 3D spatial reasoning and sensory fusion. Hanson has also created "robotic humanoid sculptures" named K-Bot, Vera, and Eva (now at the University of the West of England (UWE), in Bristol). Hanson's latest robot, the androgynous android (or "androgynoid") Jules, also now resides at UWE, for use in cognitive science research and AI development.
+Archive/Nominations...
+
+
+
+edit 
+News
+
+
+
+August 2012
+
+6th
+
+Touchdown! 05:32 UTC, though with the delay touchdown was actually at 05:18 UTC
+500m, rockets working, 40m altitude, skyframe started...
+Parachute has opened, on finals, 6.5 km height ...
+The MSL has separated and has started its entry to Mars. UHF feed is established, and data processed from Odyssey, with 11G entry load. More ...
+
+2nd
+
+Mars Science Laboratory (MSL) begins final testing for landing Curiosity on Mars, planned for 5 August. If any trajectory corrections are necessary, these will take place later today. More ...
+The US Navy announces that one of its MQ-8B Fire Scout helicopter UAV's has chased pirates off the Somali coast. The USS Klakring has four of the UAVs onboard, returning the series of helicopters to operational status after a " pause" following some technical issues. More ...
+A robot that can land the right way up like a cat. The University of Pennsylvania reveal a paper on their self-righting robot. More ...
+
+1st
+
+A 13' 9000lb robot which can auto-track targets and shoot them with it's gatling guns or 6 shot launcher when the driver smiles? More ...
+Willow Garage's Personal Robot 2 (PR2) aims to help people in various home-based tasks and is customisable for specific customers and their needs. There has been previous footage of the robot folding towels which became popular in the internet. More ...
+The US Navy attempts to teach a robot plane, the X-47B UCAS (Unmanned Combat Air System), to take-off and land on an aircraft carrier. More ...
+
+
+Archive...
+
+
+
+edit 
+Categories
+
+
+
+
+
+▼ Robotics
+
+
+► Robots
+
+
+
+► Robotics by company
+
+
+
+► Robotics by country
+
+
+
+► History of robotics
+
+
+
+► Adaptable robotics
+
+
+
+► Agricultural robotics
+
+
+
+► Robot architectures
+
+
+
+► Articulated robotics
+
+
+
+► BEAM robotics
+
+
+
+► Cloud robotics
+
+
+
+► Robotic concepts
+
+
+
+► Robot control
+
+
+
+► Cyborgs
+
+
+
+► Entertainment robotics
+
+
+
+► Robotics events
+
+
+
+► Robotics hardware
+
+
+
+► Home automation
+
+
+
+► Industrial robotics
+
+
+
+► Laws of robotics
+
+
+
+► Robotics lists
+
+
+
+► Machine vision
+
+
+
+► Robotic manipulation
+
+
+
+► Medical robotics
+
+
+
+► Military robotics
+
+
+
+► Multi-robot systems
+
+
+
+► Robotics organizations
+
+
+
+► Physical computing
+
+
+
+► Robotics projects
+
+
+
+► Robotic art
+
+
+
+► Roboticists
+
+
+
+► Robotics software
+
+
+
+► Works about robotics
+
+
+
+► Robotics stubs
+
+
+
+
+
+
+
+
+
+
+edit 
+Associated Wikimedia
+
+
+
+
+Technology on Wikinews    
+Robotics on Wikiquote    
+Robotics on Wikibooks    
+Robotics on Wiktionary    
+Robots on Commons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+Quotations
+Manuals & Texts
+Definitions
+Images
+
+
+
+
+
+
+
+
+What are portals?
+List of portals
+Featured portals
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Robotics&oldid=744296727"					
+Categories: Technology portalsRoboticsHidden categories: Featured portals 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Portal
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+Languages
+
+
+العربيةFrançaisBahasa MelayuPortuguêsاردو中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 14 October 2016, at 10:30.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.128","walltime":"0.241","ppvisitednodes":{"value":1085,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":48303,"limit":2097152},"templateargumentsize":{"value":2780,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  172.701      1 -total"," 32.42%   55.987      3 Template:Random_portal_component"," 24.66%   42.586      1 Portal:Robotics/Portals"," 22.02%   38.037      1 Template:Related_portals2"," 17.28%   29.835      9 Template:Related_portal_item"," 16.25%   28.056      9 Template:Portal_image"," 11.98%   20.689      1 Template:Featured_portal"," 10.51%   18.152      1 Template:Top_icon","  8.42%   14.549      1 Template:Purge","  7.93%   13.687      1 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.037","limit":"10.000"},"limitreport-memusage":{"value":1730569,"limit":52428800}},"cachereport":{"origin":"mw1261","timestamp":"20170206155933","ttl":21600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":52,"wgHostname":"mw1257"});});

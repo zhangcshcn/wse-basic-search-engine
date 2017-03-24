@@ -1,0 +1,1194 @@
+ 
+
+
+
+
+
+
+
+Help:Files
+
+From Wikipedia, the free encyclopedia
+  (Redirected from Help:Upload)
+
+					Jump to:					navigation, 					search
+
+
+
+
+This information page describes the editing community's consensus on some aspect or aspects of Wikipedia's norms and practices. It is not one of Wikipedia's policies or guidelines.
+
+
+Shortcuts:
+
+WP:FILE
+WP:NS6
+
+
+
+
+
+
+
+
+This page in a nutshell: To use an image or other media file on Wikipedia, you need to upload it, and then edit a Wikipedia page to use the file.
+
+
+
+
+
+Wikipedia data structure
+
+
+
+
+Namespaces
+
+
+
+Subject namespaces
+Talk namespaces
+
+
+0
+(Main/Article)
+Talk
+1
+
+
+2
+User
+User talk
+3
+
+
+4
+Wikipedia
+Wikipedia talk
+5
+
+
+6
+File
+File talk
+7
+
+
+8
+MediaWiki
+MediaWiki talk
+9
+
+
+10
+Template
+Template talk
+11
+
+
+12
+Help
+Help talk
+13
+
+
+14
+Category
+Category talk
+15
+
+
+100
+Portal
+Portal talk
+101
+
+
+108
+Book
+Book talk
+109
+
+
+118
+Draft
+Draft talk
+119
+
+
+446
+Education Program
+Education Program talk
+447
+
+
+710
+TimedText
+TimedText talk
+711
+
+
+828
+Module
+Module talk
+829
+
+
+2300
+Gadget
+Gadget talk
+2301
+
+
+2302
+Gadget definition
+Gadget definition talk
+2303
+
+
+
+Virtual namespaces
+
+
+
+-1
+Special
+
+
+-2
+Media
+
+
+Further information: Wikipedia:Manual of Style/Images
+The File namespace is a namespace consisting of administration pages in which all of Wikipedia's media content resides. On Wikipedia all media filenames begin with the prefix File:, including data files for images, video clips, or audio clips, including document length clips; or midi files (a small, computer-instructions file).
+Search for files, or upload your own file. (See Uploading files below.) A search lists every file page containing all the search terms found on the file page. From the search box enter File:descriptive terms.  For example, include the terms image, video, or midi in the query. Then, discovering the page name you can help:edit the wikitext of any page and insert that media. This is an easy way to significantly improve articles. (See Using files below.) For example, the page title "File:CI 2011 swim 04 jeh.theora.ogv" will appear in the search results for File: swim video.
+There are three semantic differences from the normal wikilink syntax when working with a file page: 
+
+[[File:pagename]] will transclude the file, inserting the image, video or audio into the rendered page in a file link; however for MIDI files, it works as usual and a link to the file page will be inserted. A file link is a transclusion from the File namespace, complete with transclusion parameters.
+[[:File:pagename]], with the initial colon, will link the image, video or audio file page;
+[[Media:pagename]] will render a link which can activate the image or audio or video of a data file directly, on its own page (separate from the rendered page or the file page).
+
+For backward compatibility with older pages the alias Image: (now deprecated) is still available instead of File: in wikilinks or in the search box, but "image" will now refer to more types of data files than just images.
+
+
+
+Contents
+
+
+1 Uploading files
+2 Using files
+3 Naming files
+
+3.1 Renaming files
+
+
+4 Finding files
+5 See also
+
+
+
+Uploading files
+Further information: Wikipedia:Uploading images and Commons:First steps
+
+
+
+
+A Wikimedia Foundation brochure in PDF form that introduces newcomers to Wikimedia Commons and how they can contribute to it.
+
+
+The first step in using an image or other media file is to choose an upload server. Some files must use Wikipedia's upload server. Many files can use the Wikimedia Commons upload server which homes files at Wikimedia Commons. (Commons does not allow fair use. If the image is non-free then you may need to upload it to Wikipedia.) All files uploaded are mirrored between Wikipedia and Wikimedia Commons, and searchable from either one. (See Special:Filelist.)
+The preferred formats
+
+for images: SVG, PNG, JPEG, and XCF. The GIF and TIFF formats are recognized, and other image formats may be too.
+for audio: MIDI, and also Ogg with FLAC, Speex, or Vorbis codecs.
+for video: WebM, and also Ogg with the Theora video codec.
+
+You may have to rename your file for Wikipedia: see Naming files below. Also, please bear in mind that the Exif format of many digital cameras, smartphones, and scanners may embed personal metadata, and that if your media files are handled by unknown persons, "steno programs" can imbed hidden information in them.
+High resolution images and animated .gif files may pose a problem for performance, but see the problem description in terms of bandwidth and reader's computing power at Consideration of image download size. For photographs in JPEG format, upload the best quality and highest resolution version available; these will be automatically scaled down to low-resolution thumbnails when needed.
+Once the file is uploaded, please verify its file page image quality and description, considering how its key words help tag it for proper indexing in a search result. If a file of the same name exists on both Wikipedia and Commons, the Wikipedia file will be displayed.
+Copyrighted materials cannot be uploaded to either location; see Wikipedia:Image use policy. Files subject to any restrictions whatsoever, even "for use on Wikipedia only", may not be free enough. In case an image is non-free content, use low-resolution, low-bandwidth files.
+Using files
+
+For all the details on the fields of a file link, see Wikipedia:Extended image syntax.
+
+Search for and find one of many existing image files, or upload your own file. Knowing the file's page name you can then edit your page and refer to that file to insert it into your wikitext. You will wikilink the page name, which will in turn include its file (of that name) in the page you edit. Take for example File:Wikipedesketch1.png. Use the following all on one line (with no line breaks). Then the results will be as shown in the image to the right:
+
+[[File:Wikipedesketch1.png|thumb|alt=A cartoon centipede ... detailed description.|The Wikipede edits ''[[Myriapoda]]''.]]
+
+
+
+
+
+The Wikipede edits Myriapoda.
+
+
+The above link contains "fields":
+
+the page name, "File:Wikipedesketch1.png"
+"thumb", short for thumbnail and referring here to the reader's default size for images (See Help:User preferences to specify your own thumbnail sizes.)
+the alt text, such as might read "A cartoon centipede with seven hands reads a book, lifts another, types on a laptop, and holds a bottle". Alt text is intended for visually impaired readers or those with browsers or computers that do not display images. It should describe the gist of the picture's appearance in detail
+the caption, as "The Wikipede edits Myriapoda." The caption is intended for viewers of the image and explains the meaning while using terms that refer directly to items as they appear in the image.
+
+Text and captions need have little text in common. A reader of the article can click on the thumbnail, or on the small double-rectangle icon  below it, to go to the corresponding file page.
+By default, the page layout will place the image to the right of the wikitext, one line below where you placed the link. The extended image syntax provides many options to control how an image is displayed. You can make it "float" to the left, or center it, or place it without text flowing around it. You can force its size (to differ from the default set by the user), or even provide for the reader move around in a panorama. You can avoid image "stackups" in several ways, for example, by alternating left and right images, by aligning images, and if all else fails by forcing a break. You can create a gallery of images arranged into an array by using table syntax, (see {{Gallery}}), and by using a gallery tag. (Gallery tags do not support alt text, so they generate galleries that will not be accessible to readers who cannot see the images) Also, you can create plain pictures that do not have captions and can be mingled with text and other images; these can use more fine-grained techniques, including borders, vertical alignment with text, and control over links. You can also link to an image without displaying it.
+For examples of all these techniques, see Picture tutorial.
+Naming files
+Main page: Wikipedia:File names
+File names should be clear and descriptive, without being excessively long. While the image name doesn't matter much to the reader (they can reach the description page by simply clicking on the image), it matters for editors. It is helpful to other contributors and for maintenance of the encyclopedia if images have descriptive or at least readable file names. For example, File:Skyline Frankfurt am Main.jpg is more manageable than File:14004096 200703230833355477800.jpg.
+To avoid accidental overwriting of images or other media, generic filenames should not be used when uploading. For example, a picture of an album cover should not be given the name File:Cover.jpg. Sooner or later someone else will try to do the same thing, and that could overwrite the old image. Then the new image will appear wherever the old one was seen before—an album article would then show the wrong album cover. A better name would be File:Sabaton The Last Stand cover.jpg
+Renaming files
+Renaming a file page is different than renaming other kinds of pages. The page name of a file page is renamed by a file mover. A file mover is a user granted special rights. Unless you have been granted file mover rights, you must make a request to rename the page.
+The request to rename a page is made by adding the following template to the wikitext file page, anywhere on the page:
+
+{{Rename media|new filename|reason for name change}}
+
+This will add the file page to Category:Wikipedia files requiring renaming, where a file mover will notice it.
+The most common and accepted reasons a file mover will change a name are:
+
+Uploader request
+Changing from a meaningless to a descriptive title
+Changing from a misleading name to an accurate name
+Correcting important errors denoting, for example the spelling of a proper noun, or a false historical date
+Harmonizing file names with a set of related names
+Disambiguating files with very similar names
+Remove pejorative, offensive or crude language
+
+The bolded words are description enough for the reason for a name change.
+Finding files
+You can use the Special:Search box below to locate Files. See Help:Searching for more information.
+
+
+
+  
+
+
+
+See also
+
+Wikipedia:Creation and usage of media files
+Help:Viewing media
+Wikipedia:File names
+Wikipedia:Images - an overview
+
+Wikipedia:Image use policy
+Wikipedia:Manual of Style/Images
+Wikipedia:Picture tutorial
+Wikipedia:Uploading images
+Wikipedia:Extended image syntax
+
+
+Wikipedia:File namespace noticeboard
+mw:Help:Images - on MediaWiki.org
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia help pages
+
+
+
+
+
+
+
+
+
+
+Visit the Teahouse if you are a new editor looking for interactive help, or the Help desk for an interactive Q & A forum.
+Or ask for help on your talk page
+
+
+
+
+Noticeboards (?)
+FAQs (?)
+Reference desks (?)
+The Missing Manual (?)
+Directories (?)
+
+
+
+
+
+
+
+
+About Wikipedia
+
+
+
+Administration
+Principles (Wikipedia in brief)
+Policies and guidelines
+What Wikipedia is not
+Disclaimer (parental advice)
+Making requests
+
+where to ask questions
+contact Wikipedia directly
+
+
+Who writes Wikipedia?
+Why create an account?
+
+
+
+
+
+
+
+
+Help for readers
+
+
+
+FAQ
+Books
+Copyright
+Glossary
+Mobile access
+Navigation
+Other languages
+Searching
+Students
+Viewing media
+
+
+
+
+
+
+
+
+Contributing
+to Wikipedia
+
+
+
+A plain and simple overview
+A primer for newcomers
+Asking for help
+Advice for young editors
+Avoiding common mistakes
+Etiquette (community expectations)
+Learning the ropes
+Instructional material
+Simplified Manual of Style
+Simplified rule-set
+
+"Ignore all rules"
+"The rules are principles"
+
+
+Style-tips
+Tip of the day
+Task Center
+Your first article (article wizard)
+Vandalism
+
+
+
+
+
+
+
+
+Getting started
+
+
+
+Wikipedia intro
+Wikipedia tutorial
+The Wikipedia Adventure
+Manual of Style intro
+Graphics tutorials
+Picture tutorial (Uploading intro)
+IRC (live chat) tutorial
+Navigating intro
+Policies intro
+Referencing intro
+Tables intro
+Talk pages intro
+VisualEditor user guide
+
+
+
+
+
+
+
+
+Dos and don'ts
+
+
+
+Accessibility
+Bio's
+Categorization
+Disambiguation
+Images
+Links
+Lists
+References
+Tables
+Talks
+
+
+
+
+
+
+
+
+How-to pages and
+information pages
+
+
+
+Appealing blocks
+Article deletion
+Categories
+Citations / references
+
+Referencing for beginners
+Citation Style 1
+Cite errors
+References and page numbers
+
+
+Convert
+Diff
+Editing
+
+toolbar
+edit conflict
+
+
+Email confirmation
+Find sources
+Files
+Footnotes
+Image deletion
+Infoboxes
+Linking (link color)
+Logging in
+Merging
+Namespaces
+Page name
+Redirect
+Renaming pages
+Passwords
+Reverting
+Talk pages (archiving)
+URL
+User contributions
+User page design center
+
+
+
+
+
+
+
+
+Coding wiki markup
+
+
+
+Wiki markup (cheatsheet)
+Barcharts
+Calculations
+Characters
+Citation templates
+Columns
+Hidden text
+HTML
+Lists
+Magic words (introduction)
+Music symbols
+Sections
+Sounds
+Tables (introduction)
+Templates
+
+documentation
+messages
+
+cleanup messages
+
+
+
+
+Transclusion
+Visual files
+Wiki tools
+
+
+
+
+
+
+
+
+Directories
+
+
+
+Abbreviations
+Departments
+Editor's index
+Essays
+FAQs
+Glossary
+Guidelines
+Help menu
+Manual of Style
+Policies
+Shortcuts
+Tips
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia technical help
+
+
+
+
+
+
+
+Get personal technical help at the Teahouse, Help desk, Village pump (technical), talk pages or IRC.
+
+
+
+
+
+
+General technical
+help
+
+
+
+Multilingual support
+Special Characters
+
+Entering
+
+
+Browser notes
+
+Troubleshooting
+Bypass cache
+
+
+Mobile access
+Printing
+Keyboard shortcuts
+Editing
+
+Edit toolbar
+CharInsert
+Edit conflict
+Reverting
+
+
+VisualEditor
+
+User guide
+
+
+User access levels
+Software notices
+
+Editnotice
+
+
+IRC
+
+Tutorial
+
+
+Create a page
+Page history
+Page information
+Page name
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+Special page related
+
+
+
+Special page help
+Searching
+
+Advanced search
+Linksearch
+
+
+Logging in
+
+Reset passwords
+
+
+Notifications/Echo
+
+FAQ
+
+
+Moving a page
+
+Fixing cut-and-paste moves
+
+
+Watching pages
+User contributions
+Emailing users
+Random pages
+Logs
+What links here
+Related changes
+Recent changes
+Pending changes
+Page Curation
+Page import
+Edit filter
+Tags
+
+
+
+
+
+
+
+
+Wiki markup
+
+
+
+Wiki markup main page
+
+Cheatsheet
+
+
+Colours use
+Columns
+Line-break handling
+Lists
+Magic words
+
+For beginners
+Conditional expressions
+Switch parser function
+Time function
+
+
+Redirects
+Sections and TOCs
+Tables
+
+Introduction
+Basics
+Conditional tables
+Sorting
+Collapsing
+Advanced table formatting
+
+
+
+
+
+
+
+
+
+
+Links and diffs
+
+
+
+URLs
+Links
+Permanent link
+Interwikimedia links
+Interlanguage links
+Link color
+Pipe trick
+Colon trick
+Magic links
+Diffs
+
+Simplest diff guide
+Simple diff and link guide
+Complete diff and link guide
+
+
+
+
+
+
+
+
+
+
+Media files: images,
+videos and sounds
+
+
+
+Media help
+Options to hide an image
+Uploading images
+
+Introduction
+
+
+Files
+
+Creation and usage
+Moving files to Commons
+
+
+Visual file markup
+Images
+
+Preparing images for upload
+Picture tutorial
+Extended image syntax
+
+
+Gallery tag
+Graphics tutorials
+
+Basic bitmap image editing
+How to improve image quality
+
+
+Graphics Lab resources
+Sound file markup
+SVG help
+
+
+
+
+
+
+
+
+Other graphics
+
+
+
+Family trees
+Graphs and charts
+
+How to create
+To scale charts
+Barcharts
+
+
+Math formula
+
+Math symbols
+Rendering math
+LaTeX symbols
+
+
+Musical scores
+
+Musical symbols
+
+
+Timeline
+
+EasyTimeline syntax
+
+
+WikiHiero syntax
+
+
+
+
+
+
+
+
+Templates
+and Lua modules
+
+
+
+Templates
+Template messages
+Citation templates
+Transclusion
+
+Labeled section
+
+
+Substitution
+Advanced template coding
+Template limits
+Template sandbox and test cases
+Template documentation
+Purge
+Lua help
+Lua project
+
+To do
+Resources
+
+
+Guide to Scribbling
+
+
+
+
+
+
+
+
+Data structure
+
+
+
+Namespaces
+Main/Article
+Talk namespaces
+
+Archiving
+
+
+User
+
+User page design
+
+
+Project/Wikipedia
+File
+
+File pages
+
+
+MediaWiki
+
+Bug reports and feature requests
+System message
+
+
+Template
+Help
+Category
+Portal
+Book
+Draft
+Education Program
+TimedText
+Module/Lua
+Topic/Flow
+Special
+Media
+
+
+
+
+
+
+
+
+HTML and CSS
+
+
+
+HTML in wikitext
+Markup validation
+Span tags
+Cascading Style Sheets
+Catalogue of CSS classes
+Useful styles
+Classes used in microformats
+Ambox classes
+Common.js and common.css
+
+
+
+
+
+
+
+
+Customisation and tools
+
+
+
+Preferences
+Skins
+Customizing watchlists
+
+Hide pages
+
+
+Gadgets
+Beta Features
+User scripts
+
+Guide
+Techniques
+
+
+IRC Scripts
+User styles
+Tools
+
+Navigation shortcuts
+Browser tools
+Alternative browsing
+Editing tools
+Optimum tool set
+
+
+Cleaning up vandalism tools
+Citation tools
+Wikimedia Labs
+
+
+
+
+
+
+
+
+Automating editing
+
+
+
+Bots
+
+Creating
+
+
+Twinkle
+FurMe
+NPWatcher
+HotCat
+WPCleaner
+igloo
+AutoWikiBrowser
+Navigation popups
+STiki
+AfC helper script
+Huggle
+
+
+
+
+
+
+
+
+Relevant navigation
+
+
+
+Help pages
+
+Administrators
+
+
+Templates
+Referencing
+
+Citation metadata
+
+
+Accessibility
+Bots
+User scripts
+
+
+
+
+
+
+
+
+
+
+See also: Category:Wikipedia information pages and Category:Wikipedia how-to
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Help:Files&oldid=763833797#Uploading_files"					
+Categories: Wikipedia information pagesWikipedia image helpWikipedia interface helpWikipedia sidebar helpWikipedia filesHidden categories: Wikipedia semi-protected project pages 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Help page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikibooks 
+
+
+
+Languages
+
+
+العربيةDeutsch한국어IlokanoBahasa IndonesiaÍslenskaमराठी日本語ភាសាខ្មែរکوردیی ناوەندیТатарча/tatarçaతెలుగుไทยУкраїнська中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 5 February 2017, at 13:54.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.208","walltime":"0.287","ppvisitednodes":{"value":1026,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":93474,"limit":2097152},"templateargumentsize":{"value":2816,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  186.926      1 -total"," 31.59%   59.047      1 Template:Pp-semi"," 19.94%   37.271      2 Template:Navbox"," 18.43%   34.447      1 Template:Information_page"," 17.98%   33.614      1 Template:Help_navigation"," 14.57%   27.239      1 Template:Ombox","  4.99%    9.331      1 Template:Wikipedia_technical_help","  4.27%    7.980      1 Template:Further","  4.11%    7.691      1 Template:Anchor","  3.98%    7.444      5 Template:Define"]},"scribunto":{"limitreport-timeusage":{"value":"0.067","limit":"10.000"},"limitreport-memusage":{"value":2795730,"limit":52428800}},"cachereport":{"origin":"mw1263","timestamp":"20170206014654","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":74,"wgHostname":"mw1268"});});

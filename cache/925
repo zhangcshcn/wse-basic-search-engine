@@ -1,0 +1,959 @@
+ 
+
+
+
+
+
+
+
+Template:Redirect category shell
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+ This page is a redirect:
+
+Manifold sort: If help is needed to determine appropriate categories, then this redirect populates Category:Miscellaneous redirects. Monitors of that category will check, add or remove rcats as needed.
+
+When appropriate, protection levels are automatically sensed, described and categorized.
+
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+This template is used on approximately 56,000 pages, so changes to it will be widely noticed. Please test any changes in the template's /sandbox or /testcases subpages, or in your own user subpage. Please consider discussing changes on the talk page before implementing them.
+
+
+This template supplements the redirect categorization done by adding rcats individually to redirects and by past usage of the now deprecated {{This is a redirect}} template. Its creation and usage is the direct result of discussions about the benefits and the shortcomings of the This is a redirect template.
+
+
+
+This template should not be substituted nor should this template nor most redirect category (rcat) templates be used to tag soft redirects.
+
+
+Shortcuts
+
+
+{{Rcat shell}}
+{{RCAT shell}}
+{{redirect shell}}
+{{rcatsh}}
+
+
+
+This template is similar to {{WikiProjectBannerShell}} in that it may be used to add one or more appropriate redirect category (rcat) templates, along with their parameters, to redirects. Additionally, this template automatically senses, describes and categorizes protection levels. A third important function is to help editors learn more about redirect categorization by use of the manifold sort. For more information see the page below and the main rcat index.
+
+
+Contents
+
+
+1 Purpose
+2 Usage
+
+2.1 Parameters
+
+2.1.1 Rcat parameters
+
+
+2.2 When used alone
+
+
+3 Comparison
+4 Other templates
+5 Notes
+6 See also
+
+
+Purpose
+As with the This is a redirect template, this template is based on a proposal to standardize redirect templates (rcats). Its basic purpose is to simplify the process of tagging and categorizing redirects.
+Like the This is a redirect template, this shell template is also able to help newer contributors learn the redirect category system. Details of this part of the purpose of this shell template may be found in the When used alone section below.
+Protection levels are automatically detected by this template by use of {{pp-protected}} and {{pp-move}}. When edit protection or move protection (or both) is applied to a redirect that has been tagged with this template, the protection level is automatically detected, and the redirect will be tagged with a protection rcat and sorted to the appropriate protection-related category(ies). When protection is altered or removed, then the protection-related rcats and category(ies) will also be (automatically) changed or removed from the redirect.
+This template can categorize and display the text (with parameters) of any number of rcats that are needed (usually from one to seven).
+[Mbox note 1] [Printworthiness note 1]
+Usage
+Used by itself with no parameters, for example, {{Redirect category shell}} (and its alias {{Rcat shell}}), the template will appear as it does at the top of this page, and the redirect will populate Category:Miscellaneous redirects. That category will also be populated if the first parameter is left empty while rcats occupy the second parameter. This is useful when an editor adds rcats and yet feels unsure that there may be at least one other rcat with category that may be used to tag the redirect. Monitors of the Miscellaneous redirects category will then help decide if another rcat(s) is needed. Then the empty first parameter may be excluded by removing either the first or second pipe. That will remove the redirect from Category:Miscellaneous redirects. See below for more information.
+This template may hold any number of different redirect category (rcat) templates, usually from one to seven. The choices for editors are listed at Wikipedia:Template messages/Redirect pages both alphabetically and by function. Any of those rcats may be used either with their full template name, e.g., R from alternative language, or with an alias (shortcut redirect), which may be found in each rcat's documentation.
+An unnamed parameter, |1=, has been introduced in this template and works as follows:
+
+{{Redirect category shell|1=
+{{rcat 1}}
+{{rcat 2}}
+{{rcat 3}}
+{{rcat N}}
+}}
+
+
+or the 1= may be omitted:
+
+
+{{Redirect category shell|
+{{rcat 1}}
+{{rcat 2}}
+{{rcat 3}}
+{{rcat N}}
+}}
+
+As with all templates that have unnamed (numbered) parameters, the numbers and equal signs may be omitted.
+"N" represents the highest number of rcats that can be used in this template, and at this point the only limit would be any wikimarkup ceiling that may exist. Usually, from one to seven rcats suffice; however, more rcats can be used if required.
+The actual sequence of rcats is left to editors – there is no priority as to which rcat should be "first" and which rcats should "follow" in any particular order.
+A second unnamed parameter, |2=, has also been introduced. This gives this template the same "help" functionality that is used in the This is a redirect template. If a second pipe is placed directly after the first pipe, then Category:Miscellaneous redirects will be populated:
+
+{{Redirect category shell||
+{{rcat 1}}
+{{rcat 2}}
+{{rcat 3}}
+{{rcat N}}
+}}
+
+Note the double pipe after the word "shell" above, which indicates an empty first parameter. Editors who monitor the Miscellaneous redirects category will come to the redirect and check, add or remove rcats as needed.
+Also, when used by itself this template will appear as it does at the top of this page and populate the Miscellaneous redirects category:
+
+{{Redirect category shell}}
+
+ This template may be added to a redirect page in the following manner:
+
+#REDIRECT [[(target page name)]]
+
+{{Redirect category shell||
+{{R from short name}}
+{{R unprintworthy}}
+}}
+
+
+It can be noted here that the rcats can also go on the same line as the Redirect category shell template:
+
+
+#REDIRECT [[(target page name)]]
+
+{{Redirect category shell||{{R from short name}}{{R unprintworthy}}}}
+
+
+Again, note the double pipe after "shell" above, which indicates an empty first parameter. Leave the first parameter empty to sort a redirect to Category:Miscellaneous redirects in addition to the categories of the rcats that are used. In this case the Redirects from short names and Unprintworthy redirects categories will also be populated. Monitors of the "Miscellaneous redirects" category will help editors when needed.
+
+Generally for good readability on the edit screen, this template is placed beginning on the third line of that screen as follows:
+
+Line 1: #REDIRECT [[(target page name)]]
+
+
+Line 2: (please leave this line blank for emphasis and ease of reading by editors)
+
+
+Line 3: {{Redirect category shell|{{R from move}}{{R to section}}{{R printworthy}}}}
+
+
+See also: section titled Mbox note below.
+
+Parameters
+In addition to the unnamed |1= and |2= parameters, there is a "hatnote" parameter, |h=, which provides an italicized TOP note when needed. For example:
+
+{{Redirect category shell|h=This code has not been confirmed as an [[International Air Transport Association airport code|IATA]] airport code.|
+{{R from airport code}}
+}}
+
+...uses the rcat {{R from airport code}} and produces:
+
+
+
+ This page is a redirect:
+
+
+
+This code has not been confirmed as an IATA airport code.
+
+
+
+
+
+From an airport code: This is a redirect from an IATA or ICAO airport code to its associated airport article. An example is AVVAvalon Airport.
+
+
+
+
+The above rcat should only be used to categorize redirects that are in the main namespace.
+
+
+When appropriate, protection levels are automatically sensed, described and categorized.
+
+
+
+An error box appears that illustrates what happens if an editor uses an rcat in the wrong namespace. Correct namespaces are found on individual rcat documentation pages. In addition to the error box, the redirect will not be sorted to the rcat's category; instead it will populate Category:Pages with templates in the wrong namespace! If an error box appears when an edit is previewed, then appropriate changes can be made before the redirect page is actually saved.
+
+Rcat parameters
+In addition to this template's ability to act as a shell template for rcats, it accepts all of the parameters that rcats accept. Rcat parameters, when needed, will work in this template as follows:
+
+{{Redirect category shell|
+{{R from plural|printworthy}}
+}}
+
+This subdues the Unprintworthy redirects category to which {{R from plural}} defaults and populates the Printworthy redirects category instead. The position an rcat holds will have no effect on the parameters of other rcats that are used to tag a redirect:
+
+{{Redirect category shell|
+{{R from move}}
+{{R from modification}}
+{{R from alternative name}}
+{{R from alternative language|en|es}}
+{{R for convenience}}
+{{R from plural|printworthy}}
+{{R printworthy}}
+}}
+
+In the above example, {{R from plural}} is the sixth rcat, and its first parameter is used to change from "unprintworthy" to "printworthy". {{R from alternative language}}) holds the 4th position, and its first parameter is used to house the ISO 639 language code of the source language, in this case  en  for English. It's second parameter houses the language code for the targeted page, in this case  es  for the Spanish language. It does not matter if the relative position of these rcats changes for any reason, their individual parameters will continue to be effective.
+If more rcat parameters are used, then they work the same way. For example, if a redirect exists that is a misspelling of a title, it can be tagged with {{R from misspelling}} in the following manner:
+
+{{Redirect category shell|
+{{R from misspelling|(correct spelling if needed)|printworthy}}
+{{R printworthy}}
+}}
+
+In this case, the rcat's |1= parameter is the correct spelling (used only if the target of the redirect is not the correct spelling). The rcat's |2= parameter can be used to change from the default "unprintworthy" categorization. Some misspellings may be helpful in a printed version of Wikipedia, so the second parameter in R from misspelling above is used to subdue its default "unprintworthy" category sort, and the redirect will populate Category:Printworthy redirects instead. In this shell template, the order of the rcats will not affect the rcats' parameters. If an editor checks the page history and finds that the above redirect is also the result of a page move and inserts {{R from move}} at the top of the order:
+
+{{Redirect category shell|
+{{R from move}}
+{{R from misspelling|(correct spelling)|printworthy}}
+{{R printworthy}}
+}}
+
+...the parameters of the R from misspelling rcat template will not be affected, as they may be when used in the This is a redirect template.
+An example of a "printworthy misspelling" can be found at template {{R from misspelling}}.
+Another example:
+
+{{Redirect category shell|
+{{R from alternative language|ja|es}}
+{{R unprintworthy}}
+}}
+
+The above code will sort the redirect into three categories:
+
+Redirects from Japanese-language terms (|1=ja),
+Redirects to Spanish-language terms (|2=es) and
+Unprintworthy redirects
+
+See the lists of ISO 639-1 and ISO 639-2 codes for two- and three-letter language codes that can be used this way. See also Wikipedia:Template messages/Redirect language codes for common codes that are already used on redirects.
+When used alone
+This template is designed to help contributors who are unfamiliar with categorizing redirects by enabling them to sort redirects into the monitored Miscellaneous redirects category. Do not hesitate to use this important function to help with sorting redirects to correct and appropriate categories.
+There are two ways to sort a redirect into the Miscellaneous redirects category. When this template is used without any rcats, it will perform the miscellaneous sort:
+{{Redirect category shell}}...
+
+
+
+ This page is a redirect:
+
+Template-protected: This is a redirect from a page that is template-protected from editing for any of several possible reasons.
+
+Please do not replace these redirected links with a link directly to the target page unless expressly advised to do so below or elsewhere on this page.
+
+
+Manifold sort: If help is needed to determine appropriate categories, then this redirect populates Category:Miscellaneous redirects. Monitors of that category will check, add or remove rcats as needed.
+
+When appropriate, protection levels are automatically sensed, described and categorized.
+
+
+Also, if one or more rcats are known, but an editor is unsure that there might be one or more other rcats that are needed, then leave the first parameter blank (type two pipes together → ||):
+
+{{Redirect category shell||
+{{R from subtopic}}
+{{R printworthy}}
+}}
+
+
+
+
+ This page is a redirect:
+
+Template-protected: This is a redirect from a page that is template-protected from editing for any of several possible reasons.
+
+Please do not replace these redirected links with a link directly to the target page unless expressly advised to do so below or elsewhere on this page.
+
+
+Manifold sort: If help is needed to determine appropriate categories, then this redirect populates Category:Miscellaneous redirects. Monitors of that category will check, add or remove rcats as needed.
+From a subtopic: This is a redirect from a subtopic of the target article.
+
+If the redirected subtopic could potentially have its own article in the future, then also use {{R with possibilities}}. If notability of the subject can be shown, then be bold and convert this redirect into an article on the subtopic.
+
+
+
+
+From a printworthy page title: This is a redirect from a title that would be helpful in a printed or CD/DVD version of Wikipedia.
+
+When appropriate, protection levels are automatically sensed, described and categorized.
+
+
+Monitors of the Miscellaneous redirects category will check the redirect, add other rcats if needed and then remove the empty first parameter.
+Comparison
+Template:Redirect category shell/Comparison shows the difference in the appearance of text between when individual rcats are used and when this template is used.
+Other templates
+This template may also carry and hold other templates within it. Even the {{DEFAULTSORT}} magic word and a sort key may be used either inside this template or below it. Another template commonly used within the Rcat shell template is {{Italic title}} and its shortcut {{ital}} to format titles in italics. Some rcats such as {{R from book}} and {{R from film}} automatically format the redirect names in italics. Any appropriate template may be used within this shell template in the following manner:
+
+{{Redirect category shell|
+{{R from move}}
+{{R from alternative name}}
+{{Italic title}}
+{{DEFAULTSORT:Hobbit, The}}
+}}
+
+Notes
+ Mbox note
+
+
+^ When the wikimarkup code of this template is opened, it is seen that this is an "mbox-based" template. "Mbox" stands for "multi namespace message box", which is a meta-template that works in all namespaces. There can be a problem with this mbox unless editors are careful to place Redirect category shell on its own line at the very beginning of the line. If this is done then all is well; if this is not done, then HTML Tidy may interfere with the mbox and cause this template to appear in an abnormal and unexpected manner when saved. So be careful where you leave this template placed in a redirect's Edit screen, take another look at the above readability guide, and be sure to preview your edits – all your edits.
+
+Correct:
+
+
+#REDIRECT [[(target page)]]
+
+{{Redirect category shell||
+{{R unprintworthy}}
+}}
+
+
+Not correct:
+
+
+#REDIRECT [[(target page)]] {{Redirect category shell||{{R unprintworthy}}}}
+
+
+A blank line is usually placed between the redirect target and this template to make the "Edit" screen easier to read.
+
+
+
+
+Printworthiness note
+See also: Wikipedia:Printability
+
+
+^ Where the printworthiness of a mainspace redirect is concerned, there are three kinds of rcats:
+
+those that populate the Printworthy redirects category by default,
+those that populate the Unprintworthy redirects category by default, and
+those that do not default to either of the above, and which leave it to the editor to decide based upon best knowledge whether or not a mainspace redirect is suitable for a printed or DVD version of Wikipedia.
+
+At present, those that are types 1 and 2 will populate the appropriate printworthiness category, however the notice will not appear within the mbox of this template unless either {{R printworthy}} or {{R unprintworthy}} is listed as an rcat within this template. For example, if a redirect is tagged with:
+
+{{Redirect category shell|
+{{R from ambiguous term}}
+}}
+
+
+...then the hidden categories populated will be Redirects from ambiguous pages and Unprintworthy redirects, and these will appear at the bottom of the redirect page only to registered users who are logged in and who have set their preferences to see hidden categories. The mbox that will appear to all readers would look like:
+
+
+
+ This page is a redirect:
+
+Template-protected: This is a redirect from a page that is template-protected from editing for any of several possible reasons.
+
+Please do not replace these redirected links with a link directly to the target page unless expressly advised to do so below or elsewhere on this page.
+
+
+From an ambiguous term: This is a redirect from an ambiguous page title to a disambiguation page. These redirects are pointed to by links that should always be disambiguated. Therefore, this template should never appear on a page that has "(disambiguation)" in its title – in that case use {{R to disambiguation page}} instead.
+
+When appropriate, protection levels are automatically sensed, described and categorized.
+
+
+If an editor wants the printworthiness category to appear in the mbox, then the redirect must be tagged as follows:
+
+{{Redirect category shell|
+{{R from ambiguous term}}
+{{R unprintworthy}}
+}}
+
+
+...which produces:
+
+
+
+ This page is a redirect:
+
+Template-protected: This is a redirect from a page that is template-protected from editing for any of several possible reasons.
+
+Please do not replace these redirected links with a link directly to the target page unless expressly advised to do so below or elsewhere on this page.
+
+
+From an ambiguous term: This is a redirect from an ambiguous page title to a disambiguation page. These redirects are pointed to by links that should always be disambiguated. Therefore, this template should never appear on a page that has "(disambiguation)" in its title – in that case use {{R to disambiguation page}} instead.
+
+
+From an unprintworthy page title: This is a redirect from a title that would not be helpful in a printed or CD/DVD version of Wikipedia.
+
+When appropriate, protection levels are automatically sensed, described and categorized.
+
+
+Only then will the printability, printworthy or unprintworthy, be described within this template's mbox on the redirect page.
+
+
+
+See also
+
+{{Talk page of a redirect}}, to "soft" redirect a subject page's talk page that has already been created and given content (project banners, deletion/merge notices, discussions)
+Wikipedia:Protection policy, for questions related to this template's ability to detect protection levels
+Wikipedia:Template messages/Redirect pages, a functional and an alphabetical index of rcats
+WikiProject Redirect/Style guide
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Redirect categorization (rcat) templates
+
+
+
+
+
+
+Grammar,
+punctuation,
+and spelling
+
+
+
+
+
+
+
+
+Abbreviation
+Capitalisation
+Grammar & punctuation
+
+
+
+
+
+
+
+
+{{R to acronym}}
+{{R from acronym}}
+{{R to initialism}}
+{{R from initialism}}
+
+
+
+
+
+
+{{R from CamelCase}}
+{{R from other capitalisation}}
+{{R from miscapitalisation}}
+
+
+
+
+
+
+{{R from modification}}
+{{R from plural}}
+{{R to plural}}
+
+
+
+
+
+
+
+
+
+
+
+
+Parts of speech
+
+
+
+{{R from adjective}}
+{{R from adverb}}
+{{R from common noun}}
+{{R from gerund}}
+{{R from proper noun}}
+{{R from verb}}
+
+
+
+
+
+
+
+
+Spelling
+
+
+
+{{R from alternative spelling}}
+{{R from ASCII-only}}
+{{R to ASCII-only}}
+{{R from diacritics}}
+{{R to diacritics}}
+{{R from misspelling}}
+{{R from stylization}}
+
+
+
+
+
+
+
+
+
+
+
+Alternative
+names
+
+
+
+
+General
+
+
+
+{{R from alternative language}}
+
+language codes
+
+
+{{R from alternative name}}
+{{R from former name}}
+{{R from historic name}}
+{{R from incorrect name}}
+{{R from list topic}}
+{{R from long name}}
+{{R from short name}}
+{{R from sort name}}
+{{R from less specific name}}
+{{R from more specific name}}
+
+
+
+
+
+
+
+
+People
+
+
+
+{{R from birth name}}
+{{R from personal name}}
+{{R from surname}}
+{{R from given name}}
+{{R from married name}}
+{{R from pseudonym}}
+{{R to joint biography}}
+{{R from name with title}}
+
+
+
+
+
+
+
+
+Technical
+
+
+
+{{R from technical name}}
+{{R to technical name}}
+{{R from trade name}}
+{{R from molecular formula}}
+{{R from Java package name}}
+
+
+
+
+
+
+
+
+Organisms
+
+
+
+{{R from scientific name}}
+{{R to scientific name}}
+{{R from alternative scientific name}}
+
+
+
+
+
+
+
+
+Geography
+
+
+
+{{R from name and country}}
+{{R from more specific geographic name}}
+{{R from postal code}}
+
+
+
+
+
+
+
+
+
+
+
+Navigation aids
+
+
+
+
+Navigation
+
+
+
+{{R to anchor}}
+{{R from file metadata link}}
+{{R to list entry}}
+{{R to section}}
+{{R from shortcut}}
+{{R from template shortcut}}
+{{R avoided double redirect}}
+
+
+
+
+
+
+
+
+Disambiguation
+
+
+
+{{R to disambiguation page}}
+{{R from ambiguous page}}
+{{R from other disambiguation}}
+{{R from incomplete disambiguation}}
+{{R from incorrect disambiguation}}
+{{R from unnecessary disambiguation}}
+
+
+
+
+
+
+
+
+Merge, duplicate & move
+
+
+
+{{R from merge}}
+{{R from duplicated article}}
+{{R from move}}
+{{R with history}}
+{{R with old history}}
+
+
+
+
+
+
+
+
+To namespaces
+
+
+
+{{R to category namespace}}
+{{R to draft namespace}}
+{{R to help namespace}}
+{{R to main namespace}}
+{{R to portal namespace}}
+{{R to project namespace}}
+{{R to talk page}}
+{{R to template namespace}}
+{{R to user namespace}}
+
+
+
+
+
+
+
+
+
+
+
+Miscellaneous
+
+
+
+
+Fiction
+
+
+
+{{R from fictional character}}
+{{R from fictional element}}
+{{R from fictional place}}
+{{R to TV episode list entry}}
+
+
+
+
+
+
+
+
+Related information
+
+
+
+{{R to related topic}}
+{{R from related word}}
+{{R from phrase}}
+{{R from subtopic}}
+{{R from album}}
+{{R from book}}
+{{R from domain name}}
+
+{{R from top-level domain}}
+
+
+{{R from film}}
+{{R from gender}}
+{{R from member}}
+{{R from school}}
+{{R from song}}
+{{R from Unicode}}
+{{R to article without mention}}
+{{R to decade}}
+
+
+
+
+
+
+
+
+Printworthiness
+
+
+
+Printability
+{{R printworthy}}
+
+e.g. {{R with possibilities}} – printworthy by default
+
+
+{{R unprintworthy}}
+
+e.g. {{R from misspelling}} – unprintworthy by default
+
+
+
+
+
+
+
+
+
+
+Protection
+
+
+
+{{R extended-protected}}
+{{R fully protected}}
+{{R semi-protected}}
+{{R template-protected}}
+
+
+
+
+
+
+
+
+Tools
+
+
+
+Category:Miscellaneous redirects
+Protection policy
+{{Redirect category shell}}
+{{Talk page of redirect}}
+
+
+
+
+
+
+
+
+Wikidata
+
+
+
+{{Wikidata redirect}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Categorizing redirects 
+ Category
+ WikiProject Redirect 
+
+
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Redirect category shell/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Redirect_category_shell&oldid=755493924"					
+Categories: WikiProject Redirect templatesRedirect templatesHidden categories: Wikipedia move-protected templatesWikipedia template-protected templatesProtected redirectsTemplate-protected redirectsMiscellaneous redirectsAll redirect templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+भोजपुरीमराठी 
+Edit links 
+
+
+
+
+
+ This page was last modified on 18 December 2016, at 10:51.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.284","walltime":"0.435","ppvisitednodes":{"value":2852,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":288659,"limit":2097152},"templateargumentsize":{"value":13364,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":11,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  356.393      1 -total"," 90.25%  321.643      1 Template:Documentation"," 75.46%  268.922      1 Template:Redirect_category_shell/doc"," 40.94%  145.892      6 Template:Mbox"," 24.35%   86.774      4 Template:Redirect_category_shell"," 24.05%   85.710      5 Template:Navbox"," 17.35%   61.829      2 Template:Reflist"," 17.23%   61.401      1 Template:R_template_index","  9.44%   33.638     10 Template:Redirect_template","  7.00%   24.950      3 Template:Ombox"]},"scribunto":{"limitreport-timeusage":{"value":"0.110","limit":"10.000"},"limitreport-memusage":{"value":4684197,"limit":52428800}},"cachereport":{"origin":"mw1214","timestamp":"20170206185847","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":510,"wgHostname":"mw1214"});});

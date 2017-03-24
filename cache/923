@@ -1,0 +1,293 @@
+ 
+
+
+
+
+
+
+
+Template:Pp-move-indef
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+ Template documentation[view] [edit] [history] [purge]
+
+
+
+If you plan to make breaking changes to this template, move it, or nominate it for deletion, please notify Twinkle's users and maintainers at Wikipedia talk:Twinkle as a courtesy, as this template is used in the standard installation of Twinkle. Thank you!
+
+
+
+
+
+Uses Lua:
+
+
+Module:Pp-move-indef
+
+
+
+
+
+Usage
+
+Use {{pp-move-indef}}
+
+The template will add a category only and has no visible effect.
+It should be used on high-visibility pages indefinitely move-protected. For articles move-protected due to disputes, including high-visibility articles, use {{pp-move-dispute}}. For other articles move-protected due to vandalism, use {{pp-move-vandalism}}. For other cases, use the generic {{pp-move}}.
+Please note that only administrators can protect pages.
+
+This template will categorize articles, portals and templates into Category:Wikipedia indefinitely move-protected pages.
+Other pages will be categorized depending on their namespace into Category:Wikipedia move-protected project pages, Category:Wikipedia move-protected user and user talk pages and Category:Wikipedia move-protected talk pages.
+
+See also
+Wikipedia:Protection policy
+
+
+
+ 
+Protection templates
+
+
+
+
+
+
+
+
+
+
+
+Edit
+Move
+Pending changes
+Upload
+
+
+Generic
+{{pp}} {{pp-protected}}
+{{pp}} {{pp-move}}
+{{pp}} {{pp-pc1}}
+{{pp}} {{pp-upload}}
+
+
+BLP
+{{pp-blp}}
+–
+–
+–
+
+
+Dispute
+{{pp-dispute}}
+{{pp-move-dispute}}
+–
+–
+
+
+Arbitration 500/30 protection
+{{pp-30-500}}
+–
+–
+–
+
+
+Main Page
+{{pp-main-page}}
+–
+–
+–
+
+
+Office
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+{{pp-office}} {{pp-reset}} {{pp-office-dmca}}
+–
+
+
+Sockpuppetry
+{{pp-sock}}
+–
+–
+–
+
+
+High-visibility
+{{pp-template}}
+–
+–
+–
+
+
+Blocked user's talk
+{{pp-usertalk}}
+–
+–
+–
+
+
+Vandalism
+{{pp-vandalism}}
+{{pp-move-vandalism}}
+–
+–
+
+
+Talk page
+{{permanently protected}} {{temporarily protected}}
+–
+–
+–
+
+
+Long-term
+{{pp-semi-indef}}
+{{pp-move-indef}}
+–
+–
+
+
+
+
+
+
+
+
+
+
+Module:Protection banner
+
+
+
+
+
+
+
+
+The above documentation is transcluded from Template:Pp-move-indef/doc. (edit | history)
+Editors can experiment in this template's sandbox (edit | diff) and testcases (create) pages.
+Please add categories to the /doc subpage. Subpages of this template.
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Template:Pp-move-indef&oldid=626025152"					
+Categories: Templates used by TwinkleLua-based templatesTop icon protection templatesHidden categories: Wikipedia template-protected templates 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Template
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+View source
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Languages
+
+
+অসমীয়াभोजपुरीDanskفارسی한국어हिन्दीKurdîمصرىBahasa Melayuसंस्कृतम्ScotsSimple EnglishسنڌيSoomaaligaکوردیی ناوەندیதமிழ்TürkçeУкраїнськаاردوTiếng Việt中文 
+Edit links 
+
+
+
+
+
+ This page was last modified on 18 September 2014, at 01:43.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.120","walltime":"0.164","ppvisitednodes":{"value":1016,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":102532,"limit":2097152},"templateargumentsize":{"value":1167,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  134.103      1 -total","100.00%  134.103      1 Template:Documentation"," 61.97%   83.101      1 Template:Pp-move-indef/doc"," 38.02%   50.981      1 Template:Protection_templates"," 35.93%   48.182      1 Template:Navbox"," 25.64%   34.379      1 Template:Aligned_table","  9.09%   12.186      1 Template:Twinkle_standard_installation","  8.54%   11.448      9 Template:Tlf","  7.94%   10.649      1 Template:Mbox","  4.93%    6.609      1 Template:Lua"]},"scribunto":{"limitreport-timeusage":{"value":"0.053","limit":"10.000"},"limitreport-memusage":{"value":1774436,"limit":52428800}},"cachereport":{"origin":"mw1166","timestamp":"20170210084300","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":258,"wgHostname":"mw1274"});});

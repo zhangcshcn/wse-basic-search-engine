@@ -1,0 +1,526 @@
+ 
+
+
+
+
+
+
+Wikipedia:Portal guidelines
+
+From Wikipedia, the free encyclopedia
+
+
+					Jump to:					navigation, 					search
+
+
+
+
+This page documents an English Wikipedia content guideline. It is a generally accepted standard that editors should attempt to follow, though it is best treated with common sense, and occasional exceptions may apply. Any substantive edit to this page should reflect consensus. When in doubt, discuss first on the talk page.
+
+Shortcuts:
+
+WP:POG
+WP:PORTG
+
+
+
+
+
+
+
+
+This page in a nutshell: A portal helps to browse on a particular subject, hence the subject of a portal should be broad so that it presents a diversified content.
+
+
+This page outlines general guidelines and best practices for portals.
+Please bear in mind that portals should be about broad subject areas, which are likely to attract large numbers of interested readers and portal maintainers. Do not create a portal if you do not intend to assist in its regular maintenance.
+
+
+
+Contents
+
+
+1 In general
+2 How to create a portal
+3 What content to include
+
+3.1 Required
+3.2 Recommended
+3.3 Optional
+3.4 Article selection
+
+
+4 How often to update?
+
+4.1 Queue features in advance
+
+
+
+
+
+In general[edit]
+A portal helps to browse on a particular subject, hence the subject of a portal should be broad so that it presents a diversified content. The portal subject area should have enough interest and articles to sustain a portal, including enough quality content articles above a Start-class to sustain the featured content section. To aid in this, the portal should be associated with a WikiProject to help ensure a supply of new material for the portal. The portal layout should be complete or there should be ongoing efforts to make the portal layout complete. The portal should be maintained and serve a useful purpose.
+Portals should not be a vehicle for advocacy or advertisement, should not have too many red links, should not be redundant of another portal, should not cover too narrow a scope, and should adhere to Wikipedia's policy on neutrality. For speedy deletion of portals, see Wikipedia:CSD#Portals.
+It is common practice not to include references in portals. As on the Main Page, readers should be able to verify the portal content by following a prominent link to a relevant article, and checking the references there.
+How to create a portal[edit]
+Before creating a portal, see Portal:Contents/Portals and Wikipedia:Portal/Instructions.
+What content to include[edit]
+Required[edit]
+
+Introduction – A short summary of the topic. If possible, this should contain an attractive image emblematic of the topic.
+Categories – Links to the most important categories related to the topic.
+Subportals or Related Portals (if there are any) – Some portals have these appear near the top, just below the "Introduction" (e.g. Arts or Technology). Others have them appear near the bottom (e.g., Biology or Literature). This section is not required if a topic-specific browsebar is used (e.g., Religion).
+Topics – Links to the most important articles related to the topic.
+
+Recommended[edit]
+
+Browsebar – The general {{browsebar}} and/or a more specific bar of portal links such as on the religion portals
+Selected article – The first instance of the article title should link to the full article. Images should not use thumbnail formatting unless the background color of the portal content is specified as "transparent" (typically in the box-header subpage). Keep images small; 100px (as on the Main Page) is best. Remember that in compliance with WP:NFCC, non-free images cannot be used outside of articles.
+Things you can do – Any relevant ongoing collaborations, as well as lists of editing requests for related articles (e.g., Star)
+Wikimedia, Other projects, or like – Links to material on other Wikimedia projects (e.g., Arts)
+Selected picture – Images should have captions detailed enough for viewers to understand the context. Be sure to test the portal at 800x600 resolution to be sure images are not too large. Do not use thumbnails; instead, let the caption stand free below the image (e.g., History of science).
+Portals footer – The brief {{portals}}.
+
+Optional[edit]
+
+WikiProjects – A list of any WikiProjects related to the topic. This may be combined with "Things to do".
+In the news – Frequently updated headlines related to the topic (e.g., Politics). See the Wikinews Importer Bot for a method to automatically update a portal news section from Wikinews items.
+Did you know? – Interesting trivia related to the topic (e.g., Science). The number of entries should be fixed, with old entries moved to a Read more archive. See the random subpage template for a method to display a list of randomly selected items from a group of numbered subpages (e.g., Sustainable development). This template also can be used to randomly rotate items such as images within a section (e.g., the Philosophy of science introduction).
+Selected biography – Follow the same conventions as for "Selected articles."
+Selected picture – Images should have captions detailed enough for viewers to understand the context. Be sure to test the portal at 800x600 resolution to be sure images are not too large. Do not use thumbnails; instead, let the caption stand free below the image (e.g., History of science).
+Selected anniversaries or On this day – These should be updated automatically based on the date. For broad topics, daily content is preferable (e.g., War); for more specific subjects, monthly may be appropriate (e.g., Scouting).
+Selected quotes - Add some good quotes on the topic, it can be a good additional asset to your portal (e.g. London).
+Many other content boxes are possible. For ideas, see London, Cricket, and the other featured portals, or browse through other complete portals.
+
+Article selection[edit]
+For the Selected article, Selected biography or other Selected content items, find a good number[1] of articles, as many as you can, that could be showcased on the portal. Each of these articles should be:
+
+of high quality, either a featured article, a good article or one which deals with its subject substantially or comprehensively;
+describing a major topic or person notable within the portal topic area;
+have no tags displayed denoting clean-up, copyright violation, controversy or similar;
+not marked as a stub.
+
+^ Good number means about 20 articles, though this figure may vary from case to case and is intended as a rough guide rather than a hard principle.
+How often to update?[edit]
+The more often portals are updated, with fresh content, the more interesting they will be to readers and attract returning visitors. Some portals update the selected articles and pictures once a month. Others update them weekly, which is preferred. Other update schedules—ranging from once every few weeks to daily—are also sometimes used.
+Queue features in advance[edit]
+One way to facilitate the updates is to queue them up in advance. Wikipedia contains some system variables (see Help:Variables), such as {{CURRENTWEEK}}, and {{CURRENTMONTHNAME}}. These can be incorporated into wikilinks.
+For example [[Selected picture/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}]] would link to [[Selected picture/May 2006]] during May 2006. This link would automatically update to [[Selected picture/June 2006]] in June.
+Knowing this, you can set up several of the Selected picture monthly subpages in advance. You can instead use the {{CURRENTWEEK}} variable to make the selected picture update weekly, rather than monthly.
+
+
+
+
+
+Portals
+Featured (Criteria · Candidates)
+List
+Directory
+WikiProject
+Guidelines
+Instructions
+Categorizing (Portals category)
+Peer review
+
+
+Contents Overview Outlines Lists Portals Glossaries Categories Indices
+
+
+Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Wikipedia key policies and guidelines
+
+
+
+
+
+
+Overview
+
+
+
+Five pillars
+Policies and guidelines
+List of policies and guidelines
+
+List of policies
+List of guidelines
+
+
+
+
+
+
+
+
+
+
+Project-wide principles
+
+
+
+Consensus
+Dispute resolution
+Editing policy
+Ignore all rules
+What Wikipedia is not
+Wikipedia is not a dictionary
+
+
+
+
+
+
+
+
+Core content policies
+
+
+
+Neutral point of view
+No original research
+Verifiability
+
+
+
+
+
+
+
+
+Other content policies
+
+
+
+Article titles
+Autobiography
+Biographies of living persons
+Image use
+
+
+
+
+
+
+
+
+Content guidelines
+
+
+
+Citing sources
+Don't create hoaxes
+Do not include copies of primary sources
+External links
+Fringe theories
+Identifying reliable sources
+Notability
+Patent nonsense
+
+
+
+
+
+
+
+
+Behavioural policies
+
+
+
+Child protection
+Civility
+Courtesy vanishing
+Edit warring
+Harassment
+No legal threats
+No personal attacks
+Ownership of content
+Sock puppetry
+
+
+
+
+
+
+
+
+Behavioural guidelines
+
+
+
+Assume good faith
+Conflict of interest
+Disruptive editing
+Do not disrupt Wikipedia to illustrate a point
+Etiquette
+Gaming the system
+Please do not bite the newcomers
+
+
+
+
+
+
+
+
+Editing guidelines
+
+
+
+Article size
+Be bold
+Disambiguation
+Hatnotes
+Set index articles
+Signatures
+Subpages
+Talk page guidelines
+User pages
+Vandalism
+WikiProjects
+
+
+
+
+
+
+
+
+Style conventions
+
+
+
+Manual of Style
+
+Contents
+
+
+Accessibility
+
+Understandability
+
+
+Dates and numbers
+Images
+Layout
+Lead section
+Linking
+Lists
+
+
+
+
+
+
+
+
+Classification guidelines
+
+
+
+Categories, lists, and navigation templates
+Categorization
+Template namespace
+
+
+
+
+
+
+
+
+Deletion policies
+
+
+
+Attack page
+Criteria for speedy deletion
+Deletion policy
+Oversight
+Proposed deletion
+Proposed deletion of BLP
+Proposed deletion (books)
+Revision deletion
+
+
+
+
+
+
+
+
+Wikimedia Foundation
+
+
+
+List of policies
+Friendly space policy
+Licensing and copyright
+Privacy policy
+Values
+
+
+
+
+
+
+
+
+
+
+
+ Book
+ Category: Policies / Guidelines
+
+
+
+
+
+
+
+
+
+ 
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Portal_guidelines&oldid=718250697"					
+Categories: Wikipedia content guidelines 
+
+
+
+Navigation menu
+
+
+Personal tools
+
+Not logged inTalkContributionsCreate accountLog in 
+
+
+
+Namespaces
+
+Project page
+Talk
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+More
+
+
+
+
+
+
+
+Search
+
+
+
+ 
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store 
+
+
+
+Interaction
+
+
+HelpAbout WikipediaCommunity portalRecent changesContact page 
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item 
+
+
+
+Print/export
+
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+In other projects
+
+
+Wikisource 
+
+
+
+Languages
+
+
+العربيةLatviešuPortuguêsTürkçe 
+Edit links 
+
+
+
+
+
+ This page was last modified on 2 May 2016, at 12:22.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
+
+
+ 
+
+ 
+
+
+
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.120","walltime":"0.167","ppvisitednodes":{"value":724,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":66045,"limit":2097152},"templateargumentsize":{"value":13291,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  108.759      1 -total"," 37.49%   40.777      1 Template:Portal_nav_footer"," 35.79%   38.922      1 Template:Wikipedia_subcat_guideline"," 33.01%   35.897      1 Template:Ombox"," 31.16%   33.889      1 Template:Portals2"," 30.19%   32.835      1 Portal:Contents/TOC_navbar"," 27.01%   29.375      2 Template:Center"," 23.26%   25.301     20 Template:Clickable_button_2"," 19.21%   20.891      1 Template:Wikipedia_policies_and_guidelines"," 17.27%   18.787      1 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.041","limit":"10.000"},"limitreport-memusage":{"value":1828955,"limit":52428800}},"cachereport":{"origin":"mw1188","timestamp":"20170204015843","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1245"});});
