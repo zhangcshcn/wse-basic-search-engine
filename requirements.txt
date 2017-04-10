@@ -1,0 +1,11 @@
+- Python 2.7     ( Preferably. Some python standard libaraies are imported 
+                    in 2.7 fashion. If you insist on 3.x, feel free to mordify the 
+                    import part in ./source/crawler.py)
+- numpy          ( Computing pseudo-relevance score. )
+- Django         ( The website is depolyed using Django. )
+- Pylucene 3.x   ( Preferably. The website is developed using 3.5 and 3.6. 
+                    In 6.2, the function and classes are imported in a very different 
+                    fashion. If you insist on 6.2, feel free to modify .py files in 
+                    ./lucene. )
+- BeautifulSoup4 ( The html parser used in this project. )
+- lxml           ( The parser BeatifulSoup4 depends on. )

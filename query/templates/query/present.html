@@ -3,21 +3,33 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results for query {{ q }}</title>
+    <title>Results for query {{ q }} {% if qaug != "" %} enhanced by {{ qaug }} {% endif %}</title>
 </head>
 <body>
     <a href="../query">Portal</a>
     <br>
     {% if numDocs != 0 %}
-        Your query for "{{ q }}" yeilds {{ numDocs }} results: 
+        Your query for "{{ q }}" {% if qaug != "" %} enhanced by "{{ qaug }}" {% endif %} yeilds {{ numDocs }} results: 
         <ol>
         {% for d in docs %}
             <li><a href="{{d.url}}">{{d.title}}</a></li>
         {% endfor %}
+        </ol>
     {% else %}
         Nothing is found in response to your query for {{ q }}
     {% endif %}
-    </ol>
+    
+<br>
+    
+{% if backupnumDocs != 0 %}
+In comparison, your original query for "{{ q }}"  yeilds the following {{ backupnumDocs }} results: 
+        <ol>
+        {% for d in backup %}
+            <li><a href="{{d.url}}">{{d.title}}</a></li>
+        {% endfor %}
+        </ol>
+    {% endif %}
+
     <br>
     {% for c in inCache %}
         current index in cache: <br>
@@ -27,12 +39,22 @@
         <br>
         Continue searching using the current index? <br>
     {% endfor %}
-    
-    <form action=" {% url 'query:search' %} " method="get">
-        <label for="q">query: </label>
-        <input id="q" type="text" name="q" value=" ">
-        <br>
-        <input type="submit" value="Go!">
-    </form>
+
+<form action=" {% url 'query:search' %} " method="get">
+<table>
+    <tr>
+        <td><label for="q">query: </label></td>
+        <td><input id="q" type="text" name="q" value="{{ q }}"></td>
+    </tr>
+    <tr>
+        <td><label for="k">k:</label></td>
+        <td><input id="k" type="text" name="k" value="0"></td> 
+        <td>{% load static %} <a href="{% static 'queryenhancement.html' %}"> What's this? </a></td>
+    </tr>
+    <tr>
+        <td></td><td><input type="submit" value="Go! "></td>
+    </tr>
+</table>
+</form>
 </body>
 </html>

@@ -1,7 +1,11 @@
-#!/usr/bin/env python
-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import jcc
-import sys, os, lucene, threading, time
+import sys
+import os
+import lucene
+import threading
+import time
 from datetime import datetime
 
 """
@@ -13,6 +17,7 @@ resulting Lucene index will be placed in the current directory and called
 'index'.
 """
 
+
 class Ticker(object):
 
     def __init__(self):
@@ -23,6 +28,7 @@ class Ticker(object):
             sys.stdout.write('.')
             sys.stdout.flush()
             time.sleep(1.0)
+
 
 class IndexFiles(object):
     """Usage: python IndexFiles <doc_directory>"""
@@ -71,16 +77,19 @@ class IndexFiles(object):
                     # print "Failed in indexDocs:", e
                     pass
 
+
 def IndexDir(root="cache"):
     lucene.getVMEnv().attachCurrentThread()
     start = datetime.now()
     try:
-        IndexFiles(root, "lucene/index", lucene.StandardAnalyzer(lucene.Version.LUCENE_CURRENT))
+        IndexFiles(root, "lucene/index",
+                   lucene.StandardAnalyzer(lucene.Version.LUCENE_CURRENT))
         end = datetime.now()
         # print end - start
     except Exception, e:
         # print "Failed: ", e
         pass
-        
-if __name__=='__main__':
+
+
+if __name__ == '__main__':
     IndexDir()

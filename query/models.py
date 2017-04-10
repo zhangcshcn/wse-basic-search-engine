@@ -20,3 +20,9 @@ class IndexedUrl(models.Model):
     timestamp = models.DateTimeField('date crawded')
     def __str__(self):
         return "%s\t%d\t%s"%(self.timestamp,self.number,self.start)
+
+@python_2_unicode_compatible      
+class StopWords(models.Model):
+    word = models.CharField(max_length=200)
+    def __str__(self):
+        return "%s"%(self.word)

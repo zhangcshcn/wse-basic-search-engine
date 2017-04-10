@@ -29,11 +29,22 @@ You should be able to search again.
 {% endif %}
 <br>
 <form action=" {% url 'query:search' %} " method="get">
-    <label for="q">query: </label>
-    <input id="q" type="text" name="q" value=" ">
-    <br>
-    <input type="submit" value="Go! ">
+<table>
+    <tr>
+        <td><label for="q">query: </label></td>
+        <td><input id="q" type="text" name="q" value=" "></td>
+    </tr>
+    <tr>
+        <td><label for="k">k:</label></td>
+        <td><input id="k" type="text" name="k" value="0"></td> 
+        <td>{% load static %} <a href="{% static 'queryenhancement.html' %}"> What's this? </a></td>
+    </tr>
+    <tr>
+        <td></td><td><input type="submit" value="Go! "></td>
+    </tr>
+</table>
 </form>
+<!--
 <br>
 <h2>Note</h2>
 {% if inCache %}
@@ -60,7 +71,7 @@ Please wait patiently for the page to load.
     <br>
     <input type="submit" value="Let's crawl!" onclick="return confirm('Are you sure you sure to despose the current index? Re-indexing could take minites! ')">
 </form>
-
+-->
 
 </body>
 

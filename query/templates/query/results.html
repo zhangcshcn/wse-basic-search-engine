@@ -15,10 +15,20 @@ We are ready to search!
 <br>
 {% csrf_token %}
 <form action=" {% url 'query:search' %} " method="get">
-    <label for="q">query: </label>
-    <input id="q" type="text" name="q" value=" ">
-    <br>
-    <input type="submit" value="Go!">
+<table>
+    <tr>
+        <td><label for="q">query: </label></td>
+        <td><input id="q" type="text" name="q" value=" "></td>
+    </tr>
+    <tr>
+        <td><label for="k">k:</label></td>
+        <td><input id="k" type="text" name="k" value="0"></td> 
+        <td>{% load static %} <a href="{% static 'queryenhancement.html' %}"> What's this? </a></td>
+    </tr>
+    <tr>
+        <td></td><td><input type="submit" value="Go! "></td>
+    </tr>
+</table>
 </form>
 </body>
 </html>
